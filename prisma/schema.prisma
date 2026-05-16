@@ -1,0 +1,205 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id           String      @id @default(cuid())
+  email        String      @unique
+  passwordHash String
+  createdAt    DateTime    @default(now())
+  scrapeJobs   ScrapeJob[]
+  products     Product[]
+  rules        TransformationRule[]
+  templates    RuleTemplate[]
+  connections  ShopifyConnection[]
+  presets      ScrapeOptionPreset[]
+}
+
+model ScrapeJob {
+  id           String    @id @default(cuid())
+  userId       String?
+  user         User?     @relation(fields: [userId], references: [id])
+  sourceUrl    String
+  status       String    @default("queued")
+  options      String?
+  errorMessage String?
+  startedAt    DateTime?
+  completedAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  product      Product?
+  logs         JobLog[]
+
+  @@index([status])
+  @@index([userId])
+}
+
+model JobLog {
+  id          String    @id @default(cuid())
+  scrapeJobId String
+  scrapeJob   ScrapeJob @relation(fields: [scrapeJobId], references: [id], onDelete: Cascade)
+  level       String
+  message     String    @db.Text
+  createdAt   DateTime  @default(now())
+
+  @@index([scrapeJobId])
+}
+
+model Product {
+  id               String         @id @default(cuid())
+  userId           String?
+  user             User?          @relation(fields: [userId], references: [id])
+  scrapeJobId      String?        @unique
+  scrapeJob        ScrapeJob?     @relation(fields: [scrapeJobId], references: [id])
+  title            String
+  handle           String
+  vendor           String?
+  productType      String?
+  tags             String?
+  descriptionHtml  String?        @db.Text
+  metaDescription  String?
+  optionNames      String?
+  pricingNotes     String?        @db.Text
+  productContext   String?        @db.Text
+  minOrderQuantity Int?
+  rawPayload       String         @db.Text
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  variants         Variant[]
+  images           ProductImage[]
+  uploads          UploadRecord[]
+
+  @@index([userId])
+}
+
+model Variant {
+  id                  String   @id @default(cuid())
+  productId           String
+  product             Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  title               String
+  option1             String?
+  option2             String?
+  option3             String?
+  price               String
+  compareAtPrice      String?
+  supplierCost        String?
+  sku                 String?
+  barcode             String?
+  weight              Float?
+  weightUnit          String?
+  packagingDimensions String?
+  position            Int
+  sourceVariantId     String?
+  isHidden            Boolean  @default(false)
+  supplierLabel1      String?
+  supplierLabel2      String?
+  supplierLabel3      String?
+  featuredImageId     String?
+  featuredImage       ProductImage? @relation("VariantFeaturedImage", fields: [featuredImageId], references: [id], onDelete: SetNull)
+  createdAt           DateTime @default(now())
+
+  @@index([productId])
+  @@index([featuredImageId])
+}
+
+model ProductImage {
+  id             String   @id @default(cuid())
+  productId      String
+  product        Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  variantId      String?
+  sourceUrl      String   @db.Text
+  storagePath    String?
+  fileName       String?
+  altText        String?
+  position       Int
+  width          Int?
+  height         Int?
+  downloadStatus String   @default("pending")
+  imageType      String?  // "source" (default, supplier gallery / swatches) | "hero" (Seedream-generated)
+  createdAt      DateTime @default(now())
+
+  variantsFeatured Variant[] @relation("VariantFeaturedImage")
+
+  @@index([productId])
+  @@index([variantId])
+  @@index([productId, imageType])
+}
+
+model RuleTemplate {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  name      String
+  category  String
+  config    String   @db.Text
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([name, category, userId])
+}
+
+model TransformationRule {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  name      String
+  category  String
+  enabled   Boolean  @default(true)
+  config    String   @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId, category])
+}
+
+model ShopifyConnection {
+  id           String         @id @default(cuid())
+  userId       String?
+  user         User?          @relation(fields: [userId], references: [id])
+  label        String
+  storeDomain  String
+  accessToken  String         @db.Text
+  isDefault    Boolean        @default(false)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  uploads      UploadRecord[]
+
+  @@index([userId])
+}
+
+model ScrapeOptionPreset {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  options   String   @db.Text
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, name])
+  @@index([userId])
+}
+
+model UploadRecord {
+  id                String            @id @default(cuid())
+  productId         String
+  product           Product           @relation(fields: [productId], references: [id], onDelete: Cascade)
+  connectionId     String
+  connection       ShopifyConnection @relation(fields: [connectionId], references: [id])
+  shopifyProductId String?
+  shopifyHandle    String?
+  status           String            @default("pending")
+  errorMessage     String?           @db.Text
+  createdAt        DateTime          @default(now())
+  completedAt      DateTime?
+
+  @@index([productId])
+}
