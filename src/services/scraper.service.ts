@@ -22,6 +22,7 @@ import { parsePageState } from "@/lib/scraper/page-state-parser";
 import { extractItemcdnUrl, fetch1688Description } from "@/lib/scraper/desc-fetcher";
 import { extract1688 } from "@/lib/scraper/alibaba1688-extractor";
 import { downloadImagesToSupabase } from "@/lib/scraper/image-downloader";
+import { dedupeVariantSwatches } from "@/lib/scraper/dedupe-variant-swatches";
 import {
   registerScrapeHandler,
   registerRulesHandler,
@@ -371,6 +372,30 @@ export async function handleScrapeJob(jobId: string, sourceUrl: string): Promise
         `Phase 1: featured-image default-set threw: ${err instanceof Error ? err.message : err}`,
       );
     }
+
+    // Dedup variant swatch images. Some 1688 sellers upload the same image
+    // twice and the CDN hands back two different content-hash URLs, so two
+    // variants end up with separate ProductImage rows that are visually
+    // identical. Collapse those into one row and repoint sister variants
+    // via featuredImageId, so hero-image generation doesn't double-process
+    // the same source.
+    try {
+      const { duplicatesCollapsed, variantsRepointed, groupsExamined } =
+        await dedupeVariantSwatches(created.id);
+      if (duplicatesCollapsed > 0) {
+        await addJobLog(
+          jobId,
+          "info",
+          `Phase 1: deduped variant swatches — collapsed ${duplicatesCollapsed} duplicate row(s) across ${groupsExamined} group(s), repointed ${variantsRepointed} variant(s)`,
+        );
+      }
+    } catch (err) {
+      await addJobLog(
+        jobId,
+        "warn",
+        `Phase 1: swatch dedup threw: ${err instanceof Error ? err.message : err}`,
+      );
+    }
   } else {
     await addJobLog(jobId, "info", "Phase 1: no images to download");
   }
@@ -579,10 +604,37 @@ export async function handleRulesJob(jobId: string): Promise<void> {
         optionNames = curation.optionNames;
       }
 
+      const summaryParts = [
+        `${curation.kept.length} kept, ${curation.dropped.length} dropped, ${curation.renamed.length} renamed`,
+      ];
+      if (curation.summary) {
+        if (curation.summary.axesKilled.length > 0) {
+          const killed = curation.summary.axesKilled
+            .map((k) =>
+              k.defaultPicked
+                ? `${k.axis} (default: ${k.defaultPicked})`
+                : k.axis,
+            )
+            .join(", ");
+          summaryParts.push(`axes killed: ${killed}`);
+        }
+        if (curation.summary.collapsedWithinAxis.length > 0) {
+          const collapsed = curation.summary.collapsedWithinAxis
+            .map(
+              (c) =>
+                `${c.axis}: kept "${c.kept}", merged [${c.merged.map((m) => `"${m}"`).join(", ")}]`,
+            )
+            .join("; ");
+          summaryParts.push(`collapsed: ${collapsed}`);
+        }
+        if (curation.summary.noiseCutCount > 0) {
+          summaryParts.push(`cut as noise: ${curation.summary.noiseCutCount}`);
+        }
+      }
       await addJobLog(
         jobId,
         "info",
-        `Phase 2: curation done — ${curation.kept.length} kept, ${curation.dropped.length} dropped, ${curation.renamed.length} renamed`,
+        `Phase 2: curation done — ${summaryParts.join(" · ")}`,
       );
     } catch (err) {
       await addJobLog(

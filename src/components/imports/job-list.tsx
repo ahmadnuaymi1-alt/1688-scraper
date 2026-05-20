@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   Table,
@@ -13,7 +13,18 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { ChevronDown } from "lucide-react";
+import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+
+const RULE_CATEGORIES = ["description", "title", "seo", "tags", "image"] as const;
+type RuleCategory = (typeof RULE_CATEGORIES)[number];
 
 interface JobRow {
   id: string;
@@ -118,6 +129,16 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
   const [jobs, setJobs] = useState<JobRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [selectedJobIds, setSelectedJobIds] = useState<Set<string>>(new Set());
+  const [bulkBusy, setBulkBusy] = useState(false);
+  const [bulkProgress, setBulkProgress] = useState<string | null>(null);
+  const [reapplySelection, setReapplySelection] = useState<Record<RuleCategory, boolean>>({
+    description: false,
+    title: false,
+    seo: false,
+    tags: false,
+    image: false,
+  });
 
   const fetchJobs = useCallback(async () => {
     try {
@@ -163,6 +184,129 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
     }
   }
 
+  // Bulk action plumbing ─────────────────────────────────────────────────────
+  const eligibleJobIds = useMemo(
+    () =>
+      sorted
+        .filter((j) => j.status === "ready" && j.product?.id)
+        .map((j) => j.id),
+    [sorted],
+  );
+  const allEligibleSelected =
+    eligibleJobIds.length > 0 &&
+    eligibleJobIds.every((id) => selectedJobIds.has(id));
+
+  function toggleSelectAllEligible(checked: boolean) {
+    if (checked) {
+      setSelectedJobIds(new Set(eligibleJobIds));
+    } else {
+      setSelectedJobIds(new Set());
+    }
+  }
+
+  function toggleSelected(jobId: string, checked: boolean) {
+    setSelectedJobIds((prev) => {
+      const next = new Set(prev);
+      if (checked) next.add(jobId);
+      else next.delete(jobId);
+      return next;
+    });
+  }
+
+  function clearSelection() {
+    setSelectedJobIds(new Set());
+  }
+
+  function selectedProductIds(): string[] {
+    return sorted
+      .filter((j) => selectedJobIds.has(j.id) && j.product?.id)
+      .map((j) => j.product!.id);
+  }
+
+  async function runBulk(opts: {
+    label: string;
+    callPerProduct: (productId: string) => Promise<void>;
+  }) {
+    setBulkBusy(true);
+    const productIds = selectedProductIds();
+    let ok = 0;
+    const failures: Array<{ productId: string; error: string }> = [];
+    for (let i = 0; i < productIds.length; i++) {
+      setBulkProgress(`${i + 1}/${productIds.length}…`);
+      try {
+        await opts.callPerProduct(productIds[i]);
+        ok++;
+      } catch (err) {
+        failures.push({
+          productId: productIds[i],
+          error: err instanceof Error ? err.message : "Unknown",
+        });
+      }
+    }
+    setBulkBusy(false);
+    setBulkProgress(null);
+    if (ok > 0) {
+      toast.success(
+        `${opts.label}: ${ok} succeeded${failures.length ? `, ${failures.length} failed` : ""}`,
+      );
+    }
+    if (failures.length > 0) {
+      console.warn(`Bulk ${opts.label} failures:`, failures);
+      toast.error(`${failures.length} failed — see console`);
+    }
+    fetchJobs();
+  }
+
+  async function runBulkRewrite() {
+    await runBulk({
+      label: "Rewrite description",
+      callPerProduct: async (id) => {
+        const res = await fetch(`/api/products/${id}/rewrite-description`, {
+          method: "POST",
+        });
+        if (!res.ok) {
+          const j = await res.json().catch(() => ({}));
+          throw new Error(j.error || `HTTP ${res.status}`);
+        }
+      },
+    });
+  }
+
+  async function runBulkReapply(categories?: readonly RuleCategory[]) {
+    await runBulk({
+      label: categories?.length
+        ? `Re-apply ${categories.join(", ")}`
+        : "Re-apply all rules",
+      callPerProduct: async (id) => {
+        const body =
+          categories && categories.length > 0
+            ? JSON.stringify({ categories })
+            : undefined;
+        const res = await fetch(`/api/products/${id}/reapply-rules`, {
+          method: "POST",
+          headers: body ? { "Content-Type": "application/json" } : undefined,
+          body,
+        });
+        if (!res.ok) {
+          const j = await res.json().catch(() => ({}));
+          throw new Error(j.error || `HTTP ${res.status}`);
+        }
+      },
+    });
+    // Reset the picker after a run completes so the next round starts clean.
+    setReapplySelection({
+      description: false,
+      title: false,
+      seo: false,
+      tags: false,
+      image: false,
+    });
+  }
+
+  const pickedCategories = (Object.keys(reapplySelection) as RuleCategory[]).filter(
+    (k) => reapplySelection[k],
+  );
+
   return (
     <Card>
       <CardHeader className="flex-row items-center justify-between gap-4 space-y-0">
@@ -181,10 +325,101 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
         </div>
       </CardHeader>
       <CardContent>
+        {selectedJobIds.size > 0 && (
+          <div className="mb-3 flex flex-wrap items-center gap-2 rounded-md border bg-muted/50 p-2">
+            <span className="text-sm font-medium">
+              {selectedJobIds.size} selected
+              {bulkProgress ? ` · ${bulkProgress}` : ""}
+            </span>
+            <div className="mx-1 h-4 w-px bg-border" />
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={runBulkRewrite}
+              disabled={bulkBusy}
+            >
+              Rewrite description
+            </Button>
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  disabled={bulkBusy}
+                  title="Re-apply rules — pick All, or check a subset"
+                >
+                  Re-apply rules <ChevronDown className="ml-1 h-3 w-3" />
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-56 p-1" align="start">
+                <button
+                  type="button"
+                  className="hover:bg-accent w-full rounded-sm px-2 py-1.5 text-left text-sm font-medium transition-colors disabled:opacity-50"
+                  onClick={() => runBulkReapply()}
+                  disabled={bulkBusy}
+                >
+                  All categories
+                </button>
+                <div className="my-1 h-px bg-border" />
+                <div className="space-y-1 px-1 py-1">
+                  {RULE_CATEGORIES.map((cat) => (
+                    <label
+                      key={cat}
+                      className="hover:bg-accent flex cursor-pointer items-center gap-2 rounded-sm px-1 py-1 text-sm transition-colors"
+                    >
+                      <Checkbox
+                        checked={reapplySelection[cat] === true}
+                        onCheckedChange={(v) =>
+                          setReapplySelection((prev) => ({
+                            ...prev,
+                            [cat]: v === true,
+                          }))
+                        }
+                        disabled={bulkBusy}
+                      />
+                      <span className="capitalize">{cat}</span>
+                    </label>
+                  ))}
+                </div>
+                <div className="my-1 h-px bg-border" />
+                <button
+                  type="button"
+                  className="hover:bg-accent w-full rounded-sm px-2 py-1.5 text-left text-sm font-medium transition-colors disabled:opacity-50"
+                  onClick={() => {
+                    if (pickedCategories.length === 0) return;
+                    void runBulkReapply(pickedCategories);
+                  }}
+                  disabled={bulkBusy || pickedCategories.length === 0}
+                >
+                  Re-apply selected ({pickedCategories.length})
+                </button>
+              </PopoverContent>
+            </Popover>
+            <Button
+              type="button"
+              size="sm"
+              variant="ghost"
+              onClick={clearSelection}
+              disabled={bulkBusy}
+            >
+              Clear
+            </Button>
+          </div>
+        )}
         <div className="overflow-x-auto rounded-md border">
           <Table>
             <TableHeader>
               <TableRow>
+                <TableHead className="w-10">
+                  <Checkbox
+                    checked={allEligibleSelected}
+                    onCheckedChange={(v) => toggleSelectAllEligible(v === true)}
+                    aria-label="Select all ready jobs"
+                    disabled={eligibleJobIds.length === 0 || bulkBusy}
+                  />
+                </TableHead>
                 <TableHead>Source URL</TableHead>
                 <TableHead>Product</TableHead>
                 <TableHead>Status</TableHead>
@@ -203,7 +438,7 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
               {sorted.length === 0 ? (
                 <TableRow>
                   <TableCell
-                    colSpan={5}
+                    colSpan={6}
                     className="text-center text-sm text-muted-foreground"
                   >
                     {loading ? "Loading…" : "No jobs yet."}
@@ -213,12 +448,31 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
                 sorted.map((job) => {
                   const clickable =
                     job.status === "ready" && job.product?.id;
+                  const eligible = clickable;
+                  const isSelected = selectedJobIds.has(job.id);
                   return (
                     <TableRow
                       key={job.id}
                       className={cn(clickable && "cursor-pointer")}
                       onClick={() => handleRowClick(job)}
                     >
+                      <TableCell
+                        className="w-10"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {eligible ? (
+                          <Checkbox
+                            checked={isSelected}
+                            onCheckedChange={(v) =>
+                              toggleSelected(job.id, v === true)
+                            }
+                            disabled={bulkBusy}
+                            aria-label="Select job for bulk action"
+                          />
+                        ) : (
+                          <Checkbox checked={false} disabled aria-hidden />
+                        )}
+                      </TableCell>
                       <TableCell className="font-mono text-xs">
                         <span title={job.sourceUrl}>
                           {truncate(job.sourceUrl, 70)}

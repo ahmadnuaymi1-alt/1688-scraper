@@ -121,6 +121,7 @@ export function ProductEditor({ product }: ProductEditorProps) {
         variantId: img.variantId,
         altText: img.altText,
         storagePath: img.storagePath ?? null,
+        imageType: img.imageType ?? null,
       })),
     [product.images],
   );

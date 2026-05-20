@@ -8,18 +8,19 @@
  *     - Drop RGB / multi-color "disco" variants
  *     - Drop exact duplicates
  *
- *   Stage B (one Claude Haiku 4.5 call):
- *     - Send product title + surviving variants + the variant-curation
- *       renaming heuristics
- *     - Receive structured JSON: { axisRenames, valueRenames }
- *     - Apply renames to each surviving variant's option1/2/3 + optionNames
+ *   Stage B (one Claude Haiku 4.5 call) — RUTHLESS pruning for a US-only store:
+ *     - Send product title + surviving variants
+ *     - LLM decides which axes survive, which variants get cut as noise, and
+ *       which axes get killed entirely (seller picks a default to fulfill)
+ *     - Default is to CUT, not keep. When in doubt, cut.
  *
  * Original supplier values are preserved on `supplierLabel1/2/3` before any
- * rename overwrites option1/2/3.
+ * rename/restructure overwrites option1/2/3.
  *
  * This service does NOT write to the database — the caller persists. Dropped
  * variants are returned with `isHidden: true` markers; the caller flips that
- * flag on the corresponding DB rows.
+ * flag on the corresponding DB rows. The `summary` field on the result is a
+ * human-readable audit log to surface in JobLog.
  */
 
 import { z } from "zod";
@@ -57,43 +58,70 @@ export interface CurationResult {
   renamed: RenameDecision[];
   /** New customer-friendly axis names (may equal the input if Stage B didn't run). */
   optionNames: string[];
+  /** Human-readable audit of what got cut/killed/collapsed by the LLM, for JobLog. */
+  summary?: {
+    axesKilled: Array<{ axis: string; defaultPicked?: string; reason?: string }>;
+    collapsedWithinAxis: Array<{ axis: string; kept: string; merged: string[]; reason?: string }>;
+    noiseCutCount: number;
+  };
 }
 
-const RenameResponseSchema = z.object({
-  // Path A — keep the source axis structure, only rename labels + values.
-  // Used when 1688 already gives 3 distinct axes (no room to split further)
-  // or when no source axis is "packed".
-  axisRenames: z.record(z.string(), z.string()).default({}),
-  valueRenames: z
+/**
+ * Ruthless-curation response. The LLM decides the final axis structure,
+ * per-variant option assignments, what to cut as noise, and an audit log of
+ * the axes it killed and the values it collapsed.
+ */
+const RuthlessResponseSchema = z.object({
+  /** Final customer-facing axis names, in order. 0-3 entries; 0 means the LLM nuked every axis (single SKU). */
+  finalAxes: z.array(z.string()).min(0).max(3),
+
+  /** Per surviving variant: the new option1/2/3 values. sourceIndex = 0-based position in the input list. */
+  variantMapping: z
     .array(
       z.object({
-        axisIndex: z.union([z.literal(1), z.literal(2), z.literal(3)]),
-        from: z.string(),
-        to: z.string(),
+        sourceIndex: z.number().int().nonnegative(),
+        option1: z.string().nullable(),
+        option2: z.string().nullable(),
+        option3: z.string().nullable(),
       }),
     )
     .default([]),
 
-  // Path B — RESTRUCTURE the axes. Used when 1688 only fills 1-2 axes AND
-  // one is "packed" (e.g. a single Light Color value contains size + control
-  // + color mashed together). When present, this supersedes axisRenames /
-  // valueRenames — the caller rebuilds each survivor from variantMapping.
-  restructure: z
-    .object({
-      newOptionNames: z.array(z.string()).min(1).max(3),
-      variantMapping: z.array(
-        z.object({
-          sourceIndex: z.number().int().nonnegative(),
-          option1: z.string().nullable(),
-          option2: z.string().nullable(),
-          option3: z.string().nullable(),
-        }),
-      ),
-    })
-    .optional(),
+  /** Variants to hide entirely (regional plugs, voltage mismatches, photo-only variants, etc). */
+  cutAsNoise: z
+    .array(
+      z.object({
+        sourceIndex: z.number().int().nonnegative(),
+        reason: z.string(),
+      }),
+    )
+    .default([]),
+
+  /** Audit: which axes did the LLM kill entirely + what default did it pick. */
+  axesKilled: z
+    .array(
+      z.object({
+        axis: z.string(),
+        defaultPicked: z.string().optional(),
+        reason: z.string().optional(),
+      }),
+    )
+    .default([]),
+
+  /** Audit: which near-duplicate values within a surviving axis got merged. */
+  collapsedWithinAxis: z
+    .array(
+      z.object({
+        axis: z.string(),
+        kept: z.string(),
+        merged: z.array(z.string()),
+        reason: z.string().optional(),
+      }),
+    )
+    .default([]),
 });
 
-type RenameResponse = z.infer<typeof RenameResponseSchema>;
+type RuthlessResponse = z.infer<typeof RuthlessResponseSchema>;
 
 function normalize(s: string | null | undefined): string {
   return (s ?? "").trim().toLowerCase();
@@ -150,98 +178,138 @@ function applyDeterministicRules(variants: ScrapedVariant[]): Map<number, string
 }
 
 /**
- * Stage B — Claude rename pass. Returns null on any failure (caller treats as
- * "no renames").
+ * Stage B — ruthless LLM curation. Returns null on any failure (caller treats
+ * as "no changes; pass through survivors unchanged").
  */
-async function llmRenamePass(args: {
+async function llmRuthlessCuration(args: {
   productTitle: string;
   optionNames: string[];
   variants: ScrapedVariant[];
-}): Promise<RenameResponse | null> {
+}): Promise<RuthlessResponse | null> {
   if (!isClaudeConfigured()) {
     return null;
   }
 
-  const systemPrompt = `You are a luxury Shopify catalog editor. You rewrite wholesale supplier variant option axes + values into customer-friendly English. Shopify caps each product at 3 axes total.
+  const systemPrompt = `You are a ruthless product variant editor for a US-market dropshipping store. You receive raw variant lists scraped from 1688/Alibaba listings and return a trimmed list containing only meaningfully distinct, customer-facing variants. Your default is to cut, not keep. When in doubt, cut.
 
-You have TWO output paths. Pick exactly one based on the source structure.
+STEP 1 — DECOMPOSE PACKED AXES (do this FIRST, before any cut/keep decision):
+A "packed" axis is one whose values cram multiple semantic dimensions into a single string. Examples:
+- "USB, Warm Light, On/Off" → packs Power Source + Light Color + Control Method
+- "Round 40cm white 48W tri-color" → packs Shape + Size + Light Color + Wattage
+- "EU Plug 220V Bluetooth" → packs Region + Voltage + Control Method
+Before applying the core test, mentally SPLIT each packed value into its constituent sub-dimensions and treat each sub-dimension as its own axis. Then apply the kill/keep rules to each sub-dimension separately. The output's finalAxes should reflect the cleaned, decomposed structure — NEVER repeat a packed axis verbatim.
 
-═══════════════════════════════════════════
-PATH A — RENAME ONLY (no axis restructure)
-═══════════════════════════════════════════
-Use this path when:
-- The source already has 3 distinct axes (no room to split), OR
-- Source has 1-2 axes and NONE of them are "packed" (each value cleanly represents one dimension).
+THE CORE TEST
+Keep a variant (sub-)axis only if both are true:
+1. The customer can immediately see the difference in a listing photo or product title (color, size, shape, pattern, material, style).
+2. The customer would actually care which one they get when it arrives.
+If either is false, kill the axis entirely and pick one default for the seller to fulfill.
 
-Rules:
-1. Drop supplier internal codes (A1, B2, etc.) when a descriptive replacement is obvious. If you can only guess, fall back to "Style 1, Style 2, …".
-2. Strip Chinglish noise — "Telescopic款" → "Adjustable Height", "Cross-border" → drop, "High-end" / "Premium" as a variant value → drop.
-3. Axis names: plain English nouns in Title Case (capitalize every word). "battery capacity" → "Battery Capacity". "Specification" / "Model" / "规格" → "Style" / "Design".
-4. Values: short, **Title Case** — capitalize every word. "warm white" → "Warm White". "motion sensor" → "Motion Sensor". "tri-color" → "tri-color" (keep lowercase). BUT keep technical units in canonical case: cm / mm / W / V / mAh / kWh stay lowercase or mixed (e.g. "30 cm", "Standard (2,000 mAh)"). Keep acronyms uppercase: LED, USB-C, RGB, IP65. "30cm" → "30 cm". "2000mAh warm" → "Standard (2,000 mAh) Warm".
-5. **Shape + size format**: when a value contains a shape word (Round / Square / Rectangle / Oval / Circle) AND a physical size, emit as "Shape (Size cm)" — shape outside parens, dimensions inside parens. Multi-dim sizes stay inside the same parens. Examples: "round 40cm" → "Round (40 cm)", "square 50 × 50 cm" → "Square (50 × 50 cm)", "rectangle 90×60 cm" → "Rectangle (90 × 60 cm)". Always keep cm in the LLM output — a downstream post-processor converts cm → inches deterministically. Do NOT round or convert numbers yourself.
-6. **Tri-color is allowed**, do NOT drop or rebrand it. When the supplier includes a tri-color / three-color / CCT-selector / 3-in-1 light-temp option, preserve it in the value as a lowercase ", tri-color" suffix. Examples: "round 40cm three color 2×24W" → "Round (40 cm), tri-color 2×24W". "square 50×50 cm tri-color 2×48W" → "Square (50 × 50 cm), tri-color 2×48W".
-7. Don't translate brand-name materials — Linen / Brass / Walnut stay as-is.
+AXES TO KEEP (customer-facing, customer-chosen):
+- Color of the main product (real dye differences, not lighting)
+- Size, dimensions, capacity
+- Style or silhouette (shape, sleeve length, with-handle vs without)
+- Pattern or print (distinct graphics, not photo crops)
+- Material when visually obvious (leather vs fabric, wood vs metal)
+- Bundles with substantial accessories that change what's in the box (e.g., lamp alone vs lamp + stand + spare bulb)
 
-Output:
+AXES TO KILL ENTIRELY (seller picks the default, no customer choice shown):
+These are not variants. They're internal fulfillment decisions. Remove them from the listing and pick the default:
+- Remote vs Bluetooth / app control → kill the axis, default to Bluetooth. Only keep if the listing's title or main photos specifically market one control method as the headline feature.
+- Warm / neutral / cool / tri-color light → if tri-color is one of the options, always default to tri-color and remove the axis. If only warm and neutral exist without a tri-color option, keep the axis.
+- Pack quantity (1-pack vs 2-pack vs 3-pack of the same item) → default to 1-pack, remove the axis. Exception: if the multi-pack version is physically a different product — e.g., a 2-set of lights that connect or merge into one combined piece, a matching pair designed to function together, a left/right item that only works as a set — then keep the axis, because the customer is choosing between genuinely different products. The test: is the 2-pack just "the same thing × 2 at a discount," or is it "a different product that happens to include two units"? Kill the first, keep the second.
+- Plug type → always US plug, remove the axis.
+- Packaging (gift box vs no box, with/without bag) → default to the nicer packaging, remove the axis.
+- Logo / no logo / brand variants on otherwise generic products → default to no logo, remove the axis.
+- Color of secondary components (remote color, controller color, cable color) when the main product color is its own axis → pick any, remove.
+- Small cable length differences (e.g., 1 m vs 1.2 m vs 1.5 m) → default to the longest, remove the axis.
+- Voltage when only one is US-compatible → pick the compatible one, remove.
+
+This list is illustrative, not exhaustive. Apply the core test to any axis not listed: if the customer can't see it in a photo and won't materially care, kill it.
+
+AXES TO COLLAPSE (keep the axis, merge duplicates within it):
+- Lighting variations of the same item: warm vs cool, daylight vs lamp, studio vs lifestyle
+- Background, prop, staging, angle, crop differences
+- Model vs flat-lay vs mannequin shots of the same SKU
+- Near-duplicate color names that are almost certainly the same dye ("off-white," "cream," "milky white," "ivory" → pick one)
+- "Aesthetic" or "vibe" variants — moody version, bright version, cozy version
+
+EDGE CASES:
+- When two variants might genuinely differ: if I bought both, could I tell them apart with the lights off and the packaging removed? If no, collapse them.
+- For colors on the borderline (beige vs khaki, navy vs midnight blue): default to collapsing unless the listing's own swatch chips clearly show two different dyes.
+- For sizes: always keep all of them. Never collapse sizes.
+- For pack quantity: when in doubt about whether a multi-pack is "merged product" vs "same thing × N," look at the listing photos. If the multi-pack is photographed as a single composed piece (two lamps installed as a pair, a set of nesting tables shown together as one product), it's merged — keep. If the multi-pack is photographed as N identical units lined up, it's a discount bundle — kill.
+
+If the input has fewer than ~5 variants total, return mostly as-is — only cut things that clearly fail the core test.
+
+VALUE FORMATTING (apply when emitting final option values):
+- Title Case names ("Linen Gray", "Warm White"). Acronyms stay uppercase (LED, USB-C, IP65). Units stay canonical ("30 cm", "5 W", "2,000 mAh"). Lowercase ", tri-color" suffix is allowed.
+- Shape + size: "Round (40 cm)", "Square (50 × 50 cm)", "Rectangle (90 × 60 cm)" — shape outside parens, dimensions inside. Always keep cm; a downstream post-processor converts to inches.
+
+OUTPUT — strict JSON, no commentary, no markdown fences. Return one object with these keys:
 {
-  "axisRenames": { "<supplier axis name>": "<customer axis name>" },
-  "valueRenames": [ { "axisIndex": 1|2|3, "from": "<supplier value>", "to": "<customer value>" } ]
+  "finalAxes": ["<axis name>", ...],                       // 0-3 entries, in display order
+  "variantMapping": [                                      // one entry per surviving variant
+    { "sourceIndex": <0-based position in the input list>, "option1": "<value>" | null, "option2": "<value>" | null, "option3": "<value>" | null }
+  ],
+  "cutAsNoise": [
+    { "sourceIndex": <int>, "reason": "<one line>" }
+  ],
+  "axesKilled": [
+    { "axis": "<source axis name>", "defaultPicked": "<what the seller should fulfill>", "reason": "<one line>" }
+  ],
+  "collapsedWithinAxis": [
+    { "axis": "<axis name>", "kept": "<canonical value>", "merged": ["<other 1>", "<other 2>"], "reason": "<one line>" }
+  ]
 }
-- Include EVERY supplier axis in axisRenames (even if unchanged: { "Color": "Color" }).
-- Include EVERY unique value across the variants in valueRenames.
 
-═══════════════════════════════════════════
-PATH B — RESTRUCTURE (split a packed axis)
-═══════════════════════════════════════════
-Use this path when the source has 1-2 axes AND at least one axis's values are "PACKED" — i.e. a single value crams multiple semantic dimensions (e.g. "10 cm, motion sensor + always on + dimming, white light" jams Size + Control + Color into one value).
+CRITICAL:
+- Every source variant must appear in EXACTLY ONE of: variantMapping (survives) OR cutAsNoise (hidden). No source index in both, none missing.
+- The number of non-null values in each variantMapping row must match finalAxes.length — if finalAxes is ["Color"], only option1 should be non-null on each survivor.
+- Don't fabricate combos. Each variantMapping row corresponds to one real source variant.
+- Killed axes should NOT appear in finalAxes; their info goes only in axesKilled.
 
-What to do:
-- Identify the packed dimensions (Size, Color/Finish, Functional spec, etc).
-- Output up to 3 NEW axes, prioritizing the dimensions a US customer would shop on:
-  • Size / dimension first — and if a shape word is present, use "Shape (Size cm)" format: "Round (10 cm)", "Round (20 cm)", "Square (50 × 50 cm)", "Rectangle (90 × 60 cm)". Otherwise plain "10 cm".
-  • Color / finish second (white, warm, tri-color / Brass / Walnut)
-  • Functional spec third (motion sensor, button control, USB-C, dimming, etc.)
-- For each surviving variant (by its sourceIndex = position in the input list), emit the new option1/2/3 values you've assigned.
-- If a particular variant doesn't have a value for one of the new axes, set it to null.
-- DON'T fabricate new combos — only output one row per source variant. (The system will auto-hide unavailable Cartesian combos separately.)
+WORKED EXAMPLE
+Input — 2 source axes "Fabric Color / Power & Control", 18 variants:
+  0. Floral | USB, Warm Light, On/Off
+  1. Floral | USB, Tri-Color, Multi-Level Dimming
+  2. Floral | USB, Tri-Color, Remote + Timer
+  3. Floral | 220V Plug, Warm Light, On/Off
+  4. Floral | US Plug, Tri-Color, 3-Level Dimming
+  5. Floral | EU Plug, Tri-Color, 3-Level Dimming
+  6-11. Gold | (same 6 control combos)
+  12-17. White | (same 6 control combos)
 
-Output:
+Decompose "Power & Control" → Plug Type + Light Color + Control Method (3 sub-axes packed into one).
+Apply kill rules to each sub-axis:
+- Plug Type: kill (always US plug rule). Cut all non-US variants (220V/EU plug) as noise. Default the rest to USB.
+- Light Color: tri-color is offered → kill, default tri-color. Cut warm-light-only variants as noise.
+- Control Method: kill (customer can't see it / won't care which dimming style). Default to the most premium (Charging + Touch Dimming if present).
+Final structure: 1 axis "Color" × 3 values (Floral, Gold, White) = 3 survivors. Rest go to cutAsNoise. Output:
 {
-  "axisRenames": {},
-  "valueRenames": [],
-  "restructure": {
-    "newOptionNames": ["Size", "Light Color", "Control"],
-    "variantMapping": [
-      { "sourceIndex": 0, "option1": "Round (10 cm)", "option2": "White light", "option3": "Motion sensor" },
-      { "sourceIndex": 1, "option1": "Round (20 cm)", "option2": "White light", "option3": "Motion sensor" }
-    ]
-  }
+  "finalAxes": ["Color"],
+  "variantMapping": [
+    { "sourceIndex": 1, "option1": "Floral", "option2": null, "option3": null },
+    { "sourceIndex": 7, "option1": "Gold", "option2": null, "option3": null },
+    { "sourceIndex": 13, "option1": "White", "option2": null, "option3": null }
+  ],
+  "cutAsNoise": [
+    { "sourceIndex": 0, "reason": "warm-light only — tri-color default" },
+    { "sourceIndex": 2, "reason": "duplicate of Floral after killing control axis" },
+    { "sourceIndex": 3, "reason": "220V plug — US store" },
+    { "sourceIndex": 4, "reason": "duplicate of Floral after killing control + plug axes" },
+    { "sourceIndex": 5, "reason": "EU plug — US store" }
+    // ...same pattern for the rest
+  ],
+  "axesKilled": [
+    { "axis": "Plug Type (within Power & Control)", "defaultPicked": "USB", "reason": "US-only store" },
+    { "axis": "Light Color (within Power & Control)", "defaultPicked": "Tri-Color", "reason": "tri-color offered, default to it" },
+    { "axis": "Control Method (within Power & Control)", "defaultPicked": "Charging + Touch Dimming", "reason": "customer can't see the difference, won't care" }
+  ],
+  "collapsedWithinAxis": []
 }
 
-═══════════════════════════════════════════
-LUXURY DESIGN RENAMING (applies to BOTH paths)
-═══════════════════════════════════════════
-A "design / style / model" axis holds aspirational labels — they don't describe a measurable spec, they're marketing. If a value reads generic — "Standard", "Plastic Stand", "Plastic Frame Lamp", "Stand Model B", "Model A/B/C", "Type 1/2/3", "Frame Lamp", "Bracket Lamp", "Basic", "Regular", "Premium" used as a sole descriptor — REPLACE it with an aspirational, luxury-coded name that fits the product's actual silhouette (UFO-shaped → "Halo", linear pillar → "Spire", brass cylinder → "Atelier", etc.). One-to-three words, evocative, not literal. Examples:
-
-  "Plastic Stand"       → "Cosmo Spire"
-  "Stand Model B"       → "Halo Lantern"
-  "Frame Lamp"          → "Capsule Beacon"
-  "Standard"            → "Atelier"
-  "Type A UFO"          → "Halo" (drop the placeholder "Type A")
-  "Model C"             → "Lumen Crown"
-
-Do NOT rebrand:
-  - Functional values: sizes (10cm / 20cm), wattages (5W / 7W), color temperatures (Warm white / Cool white), voltages, battery capacities (1,200 mAh / 2,000 mAh).
-  - Branded materials: Linen, Brass, Walnut, Marble, Oak, Onyx, Travertine — pass through unchanged.
-  - Color names: Black, Silver, Gold, Pink, Blue, Cream, etc. — pass through unchanged.
-
-Use this rule freely in BOTH path A (rename-only) and path B (restructure) — for any axis whose values look like generic design placeholders.
-
-═══════════════════════════════════════════
-RULES FOR BOTH PATHS
-═══════════════════════════════════════════
-- Return ONLY the JSON object. No commentary, no markdown fences.
-- Use ONE path. If you pick Path A, omit "restructure". If you pick Path B, output empty axisRenames + valueRenames AND a "restructure" block.`;
+This is the kind of aggressive cut we want. Don't shy away from killing entire axes.`;
 
   const sourceAxisCount = args.optionNames.filter((n) => n && n.trim().length > 0).length;
   const userContent = `Product: ${args.productTitle}
@@ -256,11 +324,7 @@ ${args.variants
   })
   .join("\n")}
 
-Decide: PATH A (just rename) or PATH B (restructure to split packed axes)?
-- If the source already has 3 axes and none are packed → PATH A.
-- If the source has 1-2 axes AND any value packs multiple semantic dimensions (size + control + color mashed together) → PATH B; restructure to up to 3 clean axes.
-
-Output the JSON.`;
+Decide which variants the customer needs to see, kill the axes that aren't customer choices, and emit the JSON.`;
 
   try {
     // Large variant counts (100+) produce long mapping JSON. Claude Haiku 4.5
@@ -271,12 +335,12 @@ Output the JSON.`;
       user: userContent,
       maxTokens: 16384,
       temperature: 0.2,
-      schema: RenameResponseSchema,
+      schema: RuthlessResponseSchema,
     });
     return parsed;
   } catch (err) {
     console.warn(
-      `[variant-curation] LLM rename pass failed: ${err instanceof Error ? err.message : err}`,
+      `[variant-curation] LLM ruthless curation failed: ${err instanceof Error ? err.message : err}`,
     );
     return null;
   }
@@ -381,14 +445,14 @@ export async function autoCurateVariants(
     return applyTitleCaseToResult({ kept: [], dropped, renamed: [], optionNames });
   }
 
-  // Stage B
-  const renameResp = await llmRenamePass({
+  // Stage B — ruthless LLM curation
+  const resp = await llmRuthlessCuration({
     productTitle,
     optionNames,
     variants: survivors,
   });
 
-  if (!renameResp) {
+  if (!resp) {
     return applyTitleCaseToResult({
       kept: survivors.map((v) => ({ ...v })),
       dropped,
@@ -397,116 +461,93 @@ export async function autoCurateVariants(
     });
   }
 
-  // PATH B — restructure: rebuild each survivor from the per-variant mapping.
-  // Preserves the original option1/2/3 verbatim onto supplierLabel1/2/3 so we
-  // keep an audit trail of what 1688 originally sent.
-  if (renameResp.restructure && renameResp.restructure.variantMapping.length > 0) {
-    const mappingBySource = new Map<number, (typeof renameResp.restructure.variantMapping)[number]>();
-    for (const m of renameResp.restructure.variantMapping) {
-      mappingBySource.set(m.sourceIndex, m);
-    }
-
-    const kept: CuratedVariant[] = [];
-    const renamed: RenameDecision[] = [];
-    for (let i = 0; i < survivors.length; i++) {
-      const v = survivors[i];
-      const m = mappingBySource.get(i);
-      if (!m) {
-        // No mapping for this variant — keep as-is (defensive).
-        kept.push({ ...v });
-        continue;
-      }
-      const out: CuratedVariant = { ...v };
-      // Preserve original packed values on supplierLabel1/2/3 (audit trail).
-      if (v.option1 && !out.supplierLabel1) out.supplierLabel1 = v.option1;
-      if (v.option2 && !out.supplierLabel2) out.supplierLabel2 = v.option2;
-      if (v.option3 && !out.supplierLabel3) out.supplierLabel3 = v.option3;
-      // Apply restructured values (null in the schema → undefined on the type).
-      out.option1 = m.option1 ?? undefined;
-      out.option2 = m.option2 ?? undefined;
-      out.option3 = m.option3 ?? undefined;
-      kept.push(out);
-
-      const changedAxes: RenameDecision["changedAxes"] = [];
-      if (v.option1 && m.option1 && m.option1 !== v.option1) {
-        changedAxes.push({ axisIndex: 1, from: v.option1, to: m.option1 });
-      }
-      if (v.option2 && m.option2 && m.option2 !== v.option2) {
-        changedAxes.push({ axisIndex: 2, from: v.option2, to: m.option2 });
-      }
-      if (v.option3 && m.option3 && m.option3 !== v.option3) {
-        changedAxes.push({ axisIndex: 3, from: v.option3, to: m.option3 });
-      }
-      if (changedAxes.length > 0) renamed.push({ variant: out, changedAxes });
-    }
-
-    // Post-restructure dedup: after the split, multiple source variants may
-    // collapse to identical option1/2/3 (e.g. 6 packaging options × 1 model
-    // → 6 identical rows after dropping packaging). Keep the FIRST occurrence
-    // of each combo; mark subsequent duplicates as hidden so the customer
-    // doesn't see 6 copies of the same SKU.
-    const seenCombos = new Map<string, number>();
-    const dedupedKept: CuratedVariant[] = [];
-    for (let idx = 0; idx < kept.length; idx++) {
-      const v = kept[idx];
-      const comboKey = `${normalize(v.option1)}|${normalize(v.option2)}|${normalize(v.option3)}`;
-      if (seenCombos.has(comboKey)) {
-        dropped.push({
-          variant: { ...v, isHidden: true },
-          reason: `post-restructure duplicate of variant @ position ${seenCombos.get(comboKey)} (same option values after split)`,
-        });
-      } else {
-        seenCombos.set(comboKey, idx);
-        dedupedKept.push(v);
-      }
-    }
-
-    return applyTitleCaseToResult({
-      kept: dedupedKept,
-      dropped,
-      renamed,
-      optionNames: renameResp.restructure.newOptionNames,
-    });
-  }
-
-  // PATH A — keep source axes, only rename labels + values.
-  const renameLookup = new Map<string, string>();
-  for (const r of renameResp.valueRenames) {
-    renameLookup.set(`${r.axisIndex}|${normalize(r.from)}`, r.to);
-  }
+  // Apply LLM decisions to the surviving set. The LLM's sourceIndex is into
+  // `survivors`, not the original `variants` array — so we translate back via
+  // `survivorIdxs` only when surfacing audit info to the caller.
+  const cutSet = new Set(resp.cutAsNoise.map((c) => c.sourceIndex));
+  const cutReasons = new Map(resp.cutAsNoise.map((c) => [c.sourceIndex, c.reason]));
+  const mappingBySource = new Map<
+    number,
+    (typeof resp.variantMapping)[number]
+  >();
+  for (const m of resp.variantMapping) mappingBySource.set(m.sourceIndex, m);
 
   const kept: CuratedVariant[] = [];
   const renamed: RenameDecision[] = [];
-  for (const v of survivors) {
-    const out: CuratedVariant = { ...v };
-    const changedAxes: RenameDecision["changedAxes"] = [];
-    for (const axisIndex of [1, 2, 3] as const) {
-      const key = `option${axisIndex}` as "option1" | "option2" | "option3";
-      const labelKey = `supplierLabel${axisIndex}` as
-        | "supplierLabel1"
-        | "supplierLabel2"
-        | "supplierLabel3";
-      const oldVal = v[key];
-      if (!oldVal) continue;
-      const newVal = renameLookup.get(`${axisIndex}|${normalize(oldVal)}`);
-      if (newVal && newVal !== oldVal) {
-        out[key] = newVal;
-        // Preserve original on supplierLabel* if not already set
-        if (!out[labelKey]) out[labelKey] = oldVal;
-        changedAxes.push({ axisIndex, from: oldVal, to: newVal });
-      }
+
+  for (let i = 0; i < survivors.length; i++) {
+    const v = survivors[i];
+
+    // Hidden by LLM as noise (regional plug, voltage mismatch, photo-only, etc).
+    if (cutSet.has(i)) {
+      dropped.push({
+        variant: { ...v, isHidden: true },
+        reason: `LLM curation — ${cutReasons.get(i) ?? "cut as noise"}`,
+      });
+      continue;
     }
-    kept.push(out);
+
+    const m = mappingBySource.get(i);
+    if (!m) {
+      // Defensive: LLM didn't decide this one. Keep as-is rather than lose data.
+      kept.push({ ...v });
+      continue;
+    }
+
+    const out: CuratedVariant = { ...v };
+    // Preserve original packed values on supplierLabel1/2/3 (audit trail).
+    if (v.option1 && !out.supplierLabel1) out.supplierLabel1 = v.option1;
+    if (v.option2 && !out.supplierLabel2) out.supplierLabel2 = v.option2;
+    if (v.option3 && !out.supplierLabel3) out.supplierLabel3 = v.option3;
+
+    out.option1 = m.option1 ?? undefined;
+    out.option2 = m.option2 ?? undefined;
+    out.option3 = m.option3 ?? undefined;
+
+    const changedAxes: RenameDecision["changedAxes"] = [];
+    if (v.option1 && m.option1 && m.option1 !== v.option1) {
+      changedAxes.push({ axisIndex: 1, from: v.option1, to: m.option1 });
+    }
+    if (v.option2 && m.option2 && m.option2 !== v.option2) {
+      changedAxes.push({ axisIndex: 2, from: v.option2, to: m.option2 });
+    }
+    if (v.option3 && m.option3 && m.option3 !== v.option3) {
+      changedAxes.push({ axisIndex: 3, from: v.option3, to: m.option3 });
+    }
     if (changedAxes.length > 0) renamed.push({ variant: out, changedAxes });
+
+    kept.push(out);
   }
 
-  // Apply axis renames to optionNames
-  const newOptionNames = optionNames.map((n) => renameResp.axisRenames[n] ?? n);
+  // Post-curation dedup: when the LLM kills an axis, multiple survivors may
+  // collapse to identical option1/2/3 (e.g. 5 control methods × 1 color
+  // → 5 identical rows after killing the control axis). Keep the FIRST,
+  // hide the rest so the customer doesn't see clones.
+  const seenCombos = new Map<string, number>();
+  const dedupedKept: CuratedVariant[] = [];
+  for (let idx = 0; idx < kept.length; idx++) {
+    const v = kept[idx];
+    const comboKey = `${normalize(v.option1)}|${normalize(v.option2)}|${normalize(v.option3)}`;
+    if (seenCombos.has(comboKey)) {
+      dropped.push({
+        variant: { ...v, isHidden: true },
+        reason: `post-curation duplicate of variant @ position ${seenCombos.get(comboKey)} (axis kill produced identical SKU)`,
+      });
+    } else {
+      seenCombos.set(comboKey, idx);
+      dedupedKept.push(v);
+    }
+  }
 
   return applyTitleCaseToResult({
-    kept,
+    kept: dedupedKept,
     dropped,
     renamed,
-    optionNames: newOptionNames,
+    optionNames: resp.finalAxes,
+    summary: {
+      axesKilled: resp.axesKilled,
+      collapsedWithinAxis: resp.collapsedWithinAxis,
+      noiseCutCount: resp.cutAsNoise.length,
+    },
   });
 }

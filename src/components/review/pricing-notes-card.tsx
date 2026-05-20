@@ -55,7 +55,7 @@ export function PricingNotesCard({
 
   if (!pricingNotes) return null;
 
-  const { ladder, recommended, comps, marketSaturated, notes } = pricingNotes;
+  const { ladder, recommended, comps, marketSaturated, notes, perVariantPricing } = pricingNotes;
 
   // Index the ladder by label for quick lookup.
   const ladderByLabel = new Map<PricingTier["label"], PricingTier>();
@@ -208,6 +208,33 @@ export function PricingNotesCard({
           <p className="text-muted-foreground text-sm leading-relaxed">
             {notes}
           </p>
+        )}
+
+        {/* Per-variant pricing summary — only shown when the AI returned the
+            optional block (added after the per-variant-pricing feature). */}
+        {perVariantPricing && (
+          <div className="rounded-md border bg-muted/30 px-3 py-2 text-xs">
+            <div className="font-semibold uppercase tracking-wide text-muted-foreground">
+              Per-variant pricing
+            </div>
+            <div className="mt-1 text-foreground">
+              <span className="capitalize">{perVariantPricing.mode}</span>
+              {perVariantPricing.rationale ? ` — ${perVariantPricing.rationale}` : ""}
+            </div>
+            {perVariantPricing.mode === "tiered" && perVariantPricing.tiers && (
+              <ul className="mt-1 space-y-0.5 text-muted-foreground">
+                {perVariantPricing.tiers.map((t) => (
+                  <li key={t.label}>
+                    <span className="font-medium text-foreground">{t.label}</span>{" "}
+                    × <span className="font-mono">{t.multiplier.toFixed(2)}</span>
+                    {" — "}
+                    {t.variantPositions.length} variant
+                    {t.variantPositions.length === 1 ? "" : "s"}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
         )}
 
         {/* Comps */}

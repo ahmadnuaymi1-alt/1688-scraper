@@ -213,6 +213,21 @@ export async function applyPricingToVariants(
   const newAnchor = chosenTier.price * retailMul;
   const newCompareAt = compareAtTier ? compareAtTier.price * compareMul : null;
 
+  // Per-variant pricing: when the LLM said variants differ enough to warrant
+  // tiered pricing (e.g. small / medium / large), build a position → multiplier
+  // map. Variants in different tiers will land on different final prices.
+  // Variants not assigned to any tier (or all variants when mode === "uniform"
+  // or perVariantPricing is absent) get multiplier 1.0 — the legacy behavior.
+  const pvp = rationale.perVariantPricing;
+  const multByPosition = new Map<number, number>();
+  if (pvp?.mode === "tiered" && Array.isArray(pvp.tiers)) {
+    for (const tier of pvp.tiers) {
+      for (const pos of tier.variantPositions) {
+        multByPosition.set(pos, tier.multiplier);
+      }
+    }
+  }
+
   // Compute baseline from the first variant's existing price for spread
   // preservation. If parseable & > 0 we scale all variants proportionally.
   const baseline = parseFloat(variants[0].price);
@@ -221,6 +236,7 @@ export async function applyPricingToVariants(
   const compareRatio = useRatio && newCompareAt !== null ? newCompareAt / baseline : 0;
 
   const updates = variants.map((v) => {
+    const tierMultiplier = multByPosition.get(v.position) ?? 1;
     const oldPrice = parseFloat(v.price);
     let priceNum: number;
     if (useRatio && Number.isFinite(oldPrice) && oldPrice > 0) {
@@ -228,6 +244,11 @@ export async function applyPricingToVariants(
     } else {
       priceNum = newAnchor;
     }
+    // Apply per-variant tier multiplier on top of the uniform-ratio scaling.
+    // Effect: variants in a "Large" tier (mult > 1) come out more expensive
+    // than variants in a "Small" tier (mult < 1), at the same step on the
+    // price ladder.
+    priceNum *= tierMultiplier;
     const newPrice = roundPrice(priceNum, options.priceRounding);
 
     let newCompareAtStr: string | null = null;
@@ -243,6 +264,9 @@ export async function applyPricingToVariants(
       } else {
         cmpNum = newCompareAt;
       }
+      // Per-variant tier multiplier applies to compareAt too, so the
+      // promotional "strike-through" reads consistently with the live price.
+      cmpNum *= tierMultiplier;
       newCompareAtStr = roundPrice(cmpNum, options.priceRounding);
     }
 

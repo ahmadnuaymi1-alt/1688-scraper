@@ -95,6 +95,8 @@ export interface VariantImageItem {
   variantId: string | null;
   altText: string | null;
   storagePath?: string | null;
+  /** "hero" or "hero-flat" marks a generated hero, null/"source" marks a swatch. */
+  imageType?: string | null;
 }
 
 interface VariantTableProps {
@@ -284,9 +286,15 @@ export function VariantTable({
   // storagePath (or sourceUrl as fallback). Sister variants reference the
   // same file via duplicate ProductImage rows; the picker should show one
   // tile per actual file.
+  //
+  // Hide raw `imageType=hero` rows here too — the picker MUST show the same
+  // set the gallery (image-gallery.tsx) shows, otherwise a variant can have a
+  // featured image that never appears in the gallery (and vice versa), which
+  // hides what is actually assigned.
   const dedupedImages = useMemo(() => {
     const seen = new Map<string, VariantImageItem>();
     for (const img of images) {
+      if (img.imageType === "hero") continue;
       const key = img.storagePath || img.sourceUrl;
       if (!seen.has(key)) seen.set(key, img);
     }
@@ -324,15 +332,28 @@ export function VariantTable({
     return map;
   }, [images]);
 
+  // When true, hidden variants (isHidden) are filtered out of the rendered
+  // table — the curation pipeline tends to soft-hide a lot of noise, and
+  // showing 100+ greyed-out rows drowns the active ones. Defaults to true.
+  const [hideHiddenRows, setHideHiddenRows] = useState(true);
+
   const displayVariants = useMemo(() => {
-    if (manualOrder) {
-      const idMap = new Map(sortedVariants.map((v) => [v.id, v]));
-      return manualOrder
-        .map((id) => idMap.get(id))
-        .filter(Boolean) as typeof sortedVariants;
-    }
-    return sortedVariants;
-  }, [sortedVariants, manualOrder]);
+    const base = (() => {
+      if (manualOrder) {
+        const idMap = new Map(sortedVariants.map((v) => [v.id, v]));
+        return manualOrder
+          .map((id) => idMap.get(id))
+          .filter(Boolean) as typeof sortedVariants;
+      }
+      return sortedVariants;
+    })();
+    return hideHiddenRows ? base.filter((v) => !v.isHidden) : base;
+  }, [sortedVariants, manualOrder, hideHiddenRows]);
+
+  const hiddenVariantCount = useMemo(
+    () => variants.filter((v) => v.isHidden).length,
+    [variants],
+  );
 
   // Reset manual order when price sort changes
   useEffect(() => {
@@ -404,6 +425,22 @@ export function VariantTable({
   // persist (the input stays open in edit mode so they can retry or escape).
   const saveInlineEdit = useCallback(async () => {
     if (!editingCell || !productId) return;
+    // Snapshot the previous value so we can register an undo. The PATCH API
+    // accepts the same shape for the reverse mutation.
+    const variantBefore = variants.find((v) => v.id === editingCell.variantId);
+    const fieldKey = editingCell.field;
+    const oldValueRaw =
+      variantBefore && fieldKey in variantBefore
+        ? (variantBefore as unknown as Record<string, unknown>)[fieldKey]
+        : null;
+    const oldValue =
+      typeof oldValueRaw === "string" || oldValueRaw === null
+        ? (oldValueRaw as string | null)
+        : oldValueRaw === undefined
+          ? null
+          : String(oldValueRaw);
+    const newValue = editValue === "" ? null : editValue;
+    const variantIdFrozen = editingCell.variantId;
     setSaving(true);
     try {
       const res = await fetch(`/api/products/${productId}/variants`, {
@@ -413,7 +450,7 @@ export function VariantTable({
           updates: [
             {
               id: editingCell.variantId,
-              [editingCell.field]: editValue === "" ? null : editValue,
+              [editingCell.field]: newValue,
             },
           ],
         }),
@@ -433,7 +470,7 @@ export function VariantTable({
     } finally {
       setSaving(false);
     }
-  }, [editingCell, editValue, productId, onVariantsChanged]);
+  }, [editingCell, editValue, productId, onVariantsChanged, variants]);
 
   // Bulk edit: apply value to all selected variants
   const applyBulkEdit = useCallback(async () => {
@@ -489,6 +526,7 @@ export function VariantTable({
   const toggleHidden = useCallback(
     async (variantId: string, currentHidden: boolean) => {
       if (!productId) return;
+      const newHidden = !currentHidden;
       setTogglingHide(variantId);
       try {
         const res = await fetch(`/api/products/${productId}/variants`, {
@@ -496,7 +534,7 @@ export function VariantTable({
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             variantId,
-            isHidden: !currentHidden,
+            isHidden: newHidden,
           }),
         });
         if (!res.ok) {
@@ -559,6 +597,38 @@ export function VariantTable({
   const option1Name = optionNames?.[0] || "Option 1";
   const option2Name = optionNames?.[1] || "Option 2";
   const option3Name = optionNames?.[2] || "Option 3";
+
+  // Rename an axis: PATCH the product's optionNames array and ask the parent
+  // to re-fetch. Defensive against missing productId (read-only contexts).
+  const renameAxis = useCallback(
+    async (axisIndex: 0 | 1 | 2, newName: string) => {
+      if (!productId) return;
+      const current = [option1Name, option2Name, option3Name];
+      const next = current.slice();
+      next[axisIndex] = newName;
+      // Trim trailing placeholders so we don't persist "Option 2" / "Option 3"
+      // for axes the product doesn't actually have.
+      while (next.length > 0 && /^Option \d$/.test(next[next.length - 1])) {
+        next.pop();
+      }
+      try {
+        const res = await fetch(`/api/products/${productId}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ optionNames: next }),
+        });
+        if (!res.ok) {
+          const json = await res.json().catch(() => ({}));
+          throw new Error(json.error || `HTTP ${res.status}`);
+        }
+        toast.success(`Renamed axis to "${newName}"`);
+        onVariantsChanged?.();
+      } catch (err) {
+        toast.error(err instanceof Error ? err.message : "Rename failed");
+      }
+    },
+    [productId, option1Name, option2Name, option3Name, onVariantsChanged],
+  );
 
   function cyclePriceSort() {
     setPriceSort((prev) =>
@@ -688,7 +758,7 @@ export function VariantTable({
         setReordering(false);
       }
     },
-    [productId, onVariantsReordered],
+    [productId, onVariantsReordered, manualOrder, sortedVariants],
   );
 
   // @dnd-kit sensors: pointer-drag with a small activation distance so a click
@@ -831,6 +901,23 @@ export function VariantTable({
 
   return (
     <div className="space-y-2">
+      {/* Hidden-rows toggle. Only renders when there's at least one hidden
+          variant — otherwise the button has nothing to do. */}
+      {hiddenVariantCount > 0 && (
+        <div className="flex justify-end">
+          <Button
+            type="button"
+            size="sm"
+            variant="ghost"
+            onClick={() => setHideHiddenRows((v) => !v)}
+            className="h-7 text-xs text-muted-foreground"
+          >
+            {hideHiddenRows
+              ? `Show ${hiddenVariantCount} hidden row${hiddenVariantCount === 1 ? "" : "s"}`
+              : `Hide ${hiddenVariantCount} hidden row${hiddenVariantCount === 1 ? "" : "s"}`}
+          </Button>
+        </div>
+      )}
       {/* Bulk action toolbar */}
       {someSelected && productId && (
         <div className="bg-muted/50 flex flex-wrap items-center gap-2 rounded-md border p-2">
@@ -961,6 +1048,7 @@ export function VariantTable({
                 name={option1Name}
                 axisSort={axisSort}
                 onCycle={cycleAxisSort}
+                onRename={productId ? renameAxis : undefined}
               />
               {hasOption2 && (
                 <AxisSortHead
@@ -968,6 +1056,7 @@ export function VariantTable({
                   name={option2Name}
                   axisSort={axisSort}
                   onCycle={cycleAxisSort}
+                  onRename={productId ? renameAxis : undefined}
                 />
               )}
               {hasOption3 && (
@@ -976,6 +1065,7 @@ export function VariantTable({
                   name={option3Name}
                   axisSort={axisSort}
                   onCycle={cycleAxisSort}
+                  onRename={productId ? renameAxis : undefined}
                 />
               )}
               <TableHead
@@ -1402,80 +1492,82 @@ function FeaturedImagePicker({
   );
 
   return (
-    <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger asChild>
-        <button
-          type="button"
-          className={cn(
-            "h-8 w-8 rounded border bg-muted/30 transition hover:ring-2 hover:ring-ring/40",
-            busy && "opacity-50",
-          )}
-          aria-label="Change featured image"
-          disabled={!productId}
-        >
-          {featuredRow ? (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
-              src={featuredRow.sourceUrl}
-              alt={featuredRow.altText || "featured variant image"}
-              className="h-full w-full rounded object-cover"
-              loading="lazy"
-            />
-          ) : (
-            <span className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
-              -
-            </span>
-          )}
-        </button>
-      </PopoverTrigger>
-      <PopoverContent className="w-80 p-3" align="end">
-        <div className="mb-2 text-xs font-medium text-muted-foreground">
-          Choose featured image (one per variant)
-        </div>
-        <div className="grid grid-cols-4 gap-2">
+    <>
+      <Popover open={open} onOpenChange={setOpen}>
+        <PopoverTrigger asChild>
           <button
             type="button"
-            onClick={() => handlePick(null)}
             className={cn(
-              "flex h-16 w-16 items-center justify-center rounded border text-xs text-muted-foreground transition hover:ring-2 hover:ring-ring/40",
-              featuredImageId === null && "ring-2 ring-primary",
+              "h-8 w-8 rounded border bg-muted/30 transition hover:ring-2 hover:ring-ring/40",
+              busy && "opacity-50",
             )}
-            disabled={busy}
+            aria-label="Change featured image"
+            disabled={!productId}
           >
-            None
+            {featuredRow ? (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                src={featuredRow.sourceUrl}
+                alt={featuredRow.altText || "featured variant image"}
+                className="h-full w-full rounded object-cover"
+                loading="lazy"
+              />
+            ) : (
+              <span className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
+                -
+              </span>
+            )}
           </button>
-          {allImages.map((img) => {
-            const isPicked = img.id === selectedTileId;
-            return (
-              <button
-                key={img.id}
-                type="button"
-                onClick={() => handlePick(img.id)}
-                className={cn(
-                  "relative h-16 w-16 overflow-hidden rounded border transition hover:ring-2 hover:ring-ring/40",
-                  isPicked && "ring-2 ring-primary",
-                )}
-                disabled={busy}
-                title={img.altText || ""}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={img.sourceUrl}
-                  alt={img.altText || "product image"}
-                  className="h-full w-full object-cover"
-                  loading="lazy"
-                />
-                {isPicked && (
-                  <span className="absolute right-1 top-1 rounded-full bg-primary p-0.5 text-primary-foreground">
-                    <Check className="h-3 w-3" />
-                  </span>
-                )}
-              </button>
-            );
-          })}
-        </div>
-      </PopoverContent>
-    </Popover>
+        </PopoverTrigger>
+        <PopoverContent className="w-80 p-3" align="end">
+          <div className="mb-2 text-xs font-medium text-muted-foreground">
+            Choose featured image (one per variant)
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <button
+              type="button"
+              onClick={() => handlePick(null)}
+              className={cn(
+                "flex h-16 w-16 items-center justify-center rounded border text-xs text-muted-foreground transition hover:ring-2 hover:ring-ring/40",
+                featuredImageId === null && "ring-2 ring-primary",
+              )}
+              disabled={busy}
+            >
+              None
+            </button>
+            {allImages.map((img) => {
+              const isPicked = img.id === selectedTileId;
+              return (
+                <button
+                  key={img.id}
+                  type="button"
+                  onClick={() => handlePick(img.id)}
+                  className={cn(
+                    "relative h-16 w-16 overflow-hidden rounded border transition hover:ring-2 hover:ring-ring/40",
+                    isPicked && "ring-2 ring-primary",
+                  )}
+                  disabled={busy}
+                  title={img.altText || ""}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={img.sourceUrl}
+                    alt={img.altText || "product image"}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                  {isPicked && (
+                    <span className="absolute right-1 top-1 rounded-full bg-primary p-0.5 text-primary-foreground">
+                      <Check className="h-3 w-3" />
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </PopoverContent>
+      </Popover>
+    </>
   );
 }
 
@@ -1556,23 +1648,98 @@ interface AxisSortHeadProps {
   name: string;
   axisSort: { axisIndex: 0 | 1 | 2; direction: "asc" | "desc" } | null;
   onCycle: (axisIndex: 0 | 1 | 2) => void;
+  /** When provided, a small pencil icon appears on hover; clicking it
+   *  swaps the axis name for an inline input. The handler PATCHes the
+   *  product's optionNames on the server. */
+  onRename?: (axisIndex: 0 | 1 | 2, newName: string) => Promise<void> | void;
 }
 
-function AxisSortHead({ axisIndex, name, axisSort, onCycle }: AxisSortHeadProps) {
+function AxisSortHead({ axisIndex, name, axisSort, onCycle, onRename }: AxisSortHeadProps) {
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(name);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Re-sync the draft if the source name changes (e.g. parent re-fetched after PATCH).
+  useEffect(() => {
+    if (!editing) setDraft(name);
+  }, [name, editing]);
+
+  useEffect(() => {
+    if (editing && inputRef.current) {
+      inputRef.current.focus();
+      inputRef.current.select();
+    }
+  }, [editing]);
+
   const active = axisSort?.axisIndex === axisIndex;
   const Icon = active
     ? axisSort!.direction === "asc"
       ? ArrowUp
       : ArrowDown
     : ArrowUpDown;
+
+  const commit = () => {
+    const trimmed = draft.trim();
+    setEditing(false);
+    if (trimmed && trimmed !== name && onRename) {
+      void onRename(axisIndex, trimmed);
+    } else {
+      setDraft(name);
+    }
+  };
+  const cancel = () => {
+    setDraft(name);
+    setEditing(false);
+  };
+
   return (
     <TableHead
-      className="hover:text-foreground cursor-pointer select-none"
-      onClick={() => onCycle(axisIndex)}
-      title={`Sort by ${name}`}
+      className="hover:text-foreground select-none"
+      onClick={() => {
+        if (editing) return;
+        onCycle(axisIndex);
+      }}
+      title={editing ? undefined : `Sort by ${name}`}
     >
-      <span className="inline-flex items-center gap-1">
-        {name} <Icon className="h-3 w-3" />
+      <span className="group inline-flex items-center gap-1">
+        {editing ? (
+          <Input
+            ref={inputRef}
+            className="h-6 w-28 text-xs"
+            value={draft}
+            onChange={(e) => setDraft(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                commit();
+              }
+              if (e.key === "Escape") {
+                e.preventDefault();
+                cancel();
+              }
+            }}
+            onBlur={commit}
+            onClick={(e) => e.stopPropagation()}
+          />
+        ) : (
+          <span className="cursor-pointer">{name}</span>
+        )}
+        {onRename && !editing && (
+          <button
+            type="button"
+            className="opacity-0 transition-opacity group-hover:opacity-100"
+            onClick={(e) => {
+              e.stopPropagation();
+              setDraft(name);
+              setEditing(true);
+            }}
+            aria-label={`Rename ${name}`}
+            title={`Rename "${name}"`}
+          >
+            <Pencil className="h-3 w-3" />
+          </button>
+        )}
+        {!editing && <Icon className="h-3 w-3" />}
       </span>
     </TableHead>
   );

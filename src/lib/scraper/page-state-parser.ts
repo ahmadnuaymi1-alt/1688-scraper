@@ -155,10 +155,24 @@ function parseFeatureAttributes(html: string): Bd1688Attribute[] {
  * Extract net weight (grams) from the "Packing" section's rendered HTML table:
  *   <thead><tr><th class="field-value">重量(g)</th></tr></thead>
  *   <tbody><tr><td class="field-value">600</td></tr></tbody>
+ *
+ * Caller-side note: the multi-column packing-dimensions table is handled
+ * separately by `parsePackingDimensionsRows`, which uses proper column
+ * alignment. This regex is the FALLBACK for the simpler "1 header, 1 cell"
+ * variant. We require the matched <td> to be the FINAL cell in its row
+ * (`</td>...</tr>` follows) so we don't mis-pick the length cell out of a
+ * multi-column row.
+ *
  * Returns undefined when the cell is missing or non-numeric.
  */
 function parseProductWeightG(html: string): number | undefined {
-  const m = html.match(/重量\s*\(\s*g\s*\)[\s\S]{0,400}?<td[^>]*>\s*(\d+(?:\.\d+)?)/);
+  // Anchor: 重量(g) header → up to 400 chars → <td>NUMBER</td></tr>
+  // The trailing `</tr>` requirement is what makes this safe — multi-column
+  // packing tables have many <td>s before the row closes, so this won't fire
+  // there and the table parser handles them instead.
+  const m = html.match(
+    /重量\s*\(\s*g\s*\)[\s\S]{0,400}?<td[^>]*>\s*(\d+(?:\.\d+)?)\s*<\/td>\s*<\/tr>/,
+  );
   if (!m) return undefined;
   const n = parseFloat(m[1]);
   return Number.isFinite(n) && n > 0 ? n : undefined;
@@ -351,9 +365,25 @@ export function parsePageState(html: string, offerId: string): Bd1688Product | n
 
   // ---- product attributes (featureAttributes JSON array + packing weight + dimensions) ----
   const featureAttributes = parseFeatureAttributes(html);
-  const productWeightG = parseProductWeightG(html);
   const productPackagingDimensions = parseProductPackagingDimensions(featureAttributes);
   const packingDimensionsRows = parsePackingDimensionsRows(html);
+
+  // Prefer the column-aligned weight from the full packing dimensions table.
+  // `parseProductWeightG`'s regex grabs the first <td> with a digit after the
+  // 重量(g) header — but 重量(g) is usually the LAST column header on a
+  // multi-column packing table, so the first numeric <td> after it is the
+  // LENGTH cell of the first data row, not the weight cell. That bug produced
+  // wrong shipping weights like 0.04 lb (~18 g). The table parser uses proper
+  // column alignment.
+  let productWeightG: number | undefined;
+  const tableWeightG = packingDimensionsRows
+    .map((r) => r.weightG)
+    .find((w): w is number => w !== null && w > 0);
+  if (tableWeightG !== undefined) {
+    productWeightG = tableWeightG;
+  } else {
+    productWeightG = parseProductWeightG(html);
+  }
 
   return {
     offerId,

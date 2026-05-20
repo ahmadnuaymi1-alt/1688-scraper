@@ -4,7 +4,7 @@ import { useCallback, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { cn } from "@/lib/utils";
-import { Star, Trash2, X } from "lucide-react";
+import { Star, Trash2, Upload, X } from "lucide-react";
 import { toast } from "sonner";
 
 export interface GalleryImage {
@@ -58,8 +58,14 @@ export function ImageGallery({
   // the same Supabase file with different ids; the gallery should show ONE
   // tile per unique file. Keep the lowest-position row as the representative
   // so position-based ordering is stable.
+  //
+  // Also hide raw `imageType=hero` rows — these are the unprocessed Seedream
+  // outputs that always get post-processed into `hero-flat`. The flat versions
+  // are the user-facing finals; the raw heroes are intermediate artifacts only.
   const dedupedImages = useMemo(() => {
-    const sorted = [...images].sort((a, b) => a.position - b.position);
+    const sorted = [...images]
+      .filter((img) => img.imageType !== "hero")
+      .sort((a, b) => a.position - b.position);
     const seen = new Map<string, GalleryImage>();
     for (const img of sorted) {
       const key = img.storagePath || img.sourceUrl;
@@ -87,6 +93,72 @@ export function ImageGallery({
   const [pending, setPending] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [bulkDeleting, setBulkDeleting] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [dragOverFiles, setDragOverFiles] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
+
+  async function uploadFiles(files: FileList | File[]) {
+    const list = Array.from(files);
+    if (list.length === 0) return;
+    setUploading(true);
+    try {
+      const formData = new FormData();
+      for (const f of list) formData.append("files", f);
+      const res = await fetch(`/api/products/${productId}/images`, {
+        method: "POST",
+        body: formData,
+      });
+      const json = (await res.json().catch(() => ({}))) as {
+        created?: unknown[];
+        failed?: Array<{ name: string; error: string }>;
+        error?: string;
+      };
+      if (!res.ok) {
+        toast.error(json.error || `Upload failed (HTTP ${res.status})`);
+        return;
+      }
+      const createdCount = json.created?.length ?? 0;
+      const failedCount = json.failed?.length ?? 0;
+      if (createdCount > 0) {
+        toast.success(`Uploaded ${createdCount} image${createdCount === 1 ? "" : "s"}`);
+      }
+      if (failedCount > 0) {
+        const firstReason = json.failed?.[0]?.error ?? "Unknown error";
+        toast.error(`Skipped ${failedCount} file${failedCount === 1 ? "" : "s"}: ${firstReason}`);
+      }
+      onChanged?.();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Upload failed");
+    } finally {
+      setUploading(false);
+    }
+  }
+
+  function handleFileInputChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const files = e.target.files;
+    if (!files || files.length === 0) return;
+    void uploadFiles(files);
+    e.target.value = ""; // allow re-uploading the same file
+  }
+
+  function handleOuterDragOver(e: React.DragEvent<HTMLDivElement>) {
+    if (!e.dataTransfer.types.includes("Files")) return;
+    e.preventDefault();
+    setDragOverFiles(true);
+  }
+  function handleOuterDragLeave(e: React.DragEvent<HTMLDivElement>) {
+    if (!e.dataTransfer.types.includes("Files")) return;
+    // Only clear when leaving the outermost wrapper (relatedTarget falls outside).
+    if (e.currentTarget.contains(e.relatedTarget as Node)) return;
+    setDragOverFiles(false);
+  }
+  function handleOuterDrop(e: React.DragEvent<HTMLDivElement>) {
+    if (!e.dataTransfer.types.includes("Files")) return;
+    e.preventDefault();
+    setDragOverFiles(false);
+    const files = e.dataTransfer.files;
+    if (files && files.length > 0) void uploadFiles(files);
+  }
   const lastImagesRef = useRef(images);
 
   // Re-sync local order if props change
@@ -120,6 +192,11 @@ export function ImageGallery({
     setDragOverId(null);
   }
   function handleDragOver(e: React.DragEvent<HTMLDivElement>, id: string) {
+    // If the drag is a file from outside the browser, let it bubble to the
+    // outer wrapper's file-drop handler instead of treating the tile as a
+    // reorder target. Without this guard the per-tile preventDefault would
+    // swallow file drops.
+    if (e.dataTransfer.types.includes("Files")) return;
     e.preventDefault();
     setDragOverId(id);
   }
@@ -223,14 +300,48 @@ export function ImageGallery({
     }
   }
 
-  if (order.length === 0) {
-    return (
-      <p className="text-sm text-muted-foreground">No images downloaded yet.</p>
-    );
-  }
-
   return (
-    <div className="space-y-3">
+    <div
+      className={cn(
+        "relative space-y-3 rounded-md transition-all",
+        dragOverFiles && "ring-2 ring-primary ring-offset-2",
+      )}
+      onDragOver={handleOuterDragOver}
+      onDragLeave={handleOuterDragLeave}
+      onDrop={handleOuterDrop}
+    >
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        multiple
+        className="sr-only"
+        onChange={handleFileInputChange}
+      />
+      <div className="flex items-center justify-end gap-2">
+        <Button
+          type="button"
+          variant="outline"
+          size="sm"
+          onClick={() => fileInputRef.current?.click()}
+          disabled={uploading}
+        >
+          <Upload className="mr-1 h-3 w-3" />
+          {uploading ? "Uploading…" : "Upload images"}
+        </Button>
+      </div>
+      {dragOverFiles && (
+        <div className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center rounded-md bg-primary/10">
+          <span className="rounded-md bg-background px-4 py-2 text-sm font-medium shadow-sm">
+            Drop to upload
+          </span>
+        </div>
+      )}
+      {order.length === 0 && (
+        <p className="text-sm text-muted-foreground">
+          No images yet. Drop image files here or click <strong>Upload images</strong>.
+        </p>
+      )}
       {selectedIds.size > 0 && (
         <div className="flex items-center justify-between rounded-md border bg-muted/50 px-3 py-2 text-sm">
           <span>

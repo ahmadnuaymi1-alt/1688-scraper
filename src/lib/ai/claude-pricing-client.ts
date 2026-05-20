@@ -34,11 +34,24 @@ function buildPricingPrompt(input: {
   sourceCurrency: string;
   targetCurrency: string;
   storePositioning?: "value" | "mid" | "premium";
+  variants: Array<{
+    position: number;
+    title: string;
+    option1?: string;
+    option2?: string;
+    option3?: string;
+  }>;
 }): string {
   const positioning = input.storePositioning ?? "mid";
   const typeLine = input.productType
     ? `- Type: ${input.productType}`
     : `- Type: (unspecified — infer from title)`;
+  const variantLines = input.variants
+    .map((v) => {
+      const opts = [v.option1, v.option2, v.option3].filter(Boolean).join(" | ");
+      return `  pos=${v.position}: ${opts || v.title}`;
+    })
+    .join("\n");
   return `You are pricing a product for a Shopify dropshipping store using the "luxury but fair" methodology. Use the web_search tool to find real comparable products before deciding the price ladder.
 
 PRODUCT
@@ -47,6 +60,9 @@ ${typeLine}
 - Source cost: ${input.sourceCost.toFixed(2)} ${input.sourceCurrency}
 - Target sell currency: ${input.targetCurrency}
 - Store positioning hint: ${positioning}
+
+VARIANTS (${input.variants.length} total):
+${variantLines}
 
 STEPS — execute and return structured JSON matching the schema below.
 
@@ -67,7 +83,14 @@ STEPS — execute and return structured JSON matching the schema below.
    - bundle = stretch + 5–15
    - compareAt = launch × 1.30 to 1.45, rounded to a clean number
 
-5. NOTES — write a SINGLE short paragraph (2–3 sentences MAX, ≤ 60 words total) summarizing your read of this product and why the launch price lands where it does. Reference the strongest single signal (saturation level, comp tier, or material/aesthetic lift). Plain text. NO headings, NO bullets, NO multi-paragraph essays.
+5. PER-VARIANT PRICING — decide if variants should share one price or get tiered prices.
+   - Inspect the variants list above. If they differ ONLY on color / finish / pattern / style (visual choice with same physical scope), return mode="uniform" — every variant gets the same anchor price.
+   - If they differ on a dimension that materially affects perceived value (size, length/width/height, capacity, wattage, count of pieces, head count, lumen output), return mode="tiered" with 2-4 tiers.
+   - Each tier is a label + the list of variant positions that belong to it + a multiplier applied to the ladder launch price. Multipliers should range 0.75 (clearly smallest/least) → 1.0 (anchor/baseline) → 1.6 (clearly biggest/most). Be conservative — only create a new tier when a customer would notice and accept the price gap.
+   - The 'rationale' is ONE short sentence ("Sized small/medium/large", "Color-only — uniform", "Wattage steps 5W/10W/15W", etc).
+   - Every variant position must appear in exactly one tier when mode="tiered".
+
+6. NOTES — write a SINGLE short paragraph (2–3 sentences MAX, ≤ 60 words total) summarizing your read of this product and why the launch price lands where it does. Reference the strongest single signal (saturation level, comp tier, or material/aesthetic lift). Plain text. NO headings, NO bullets, NO multi-paragraph essays.
 
 HARD RULES:
 - Saturation = "high" caps the ladder at the LOWER end of the trust-adjusted band — do not push above mainstream-mid minus 25%.
@@ -79,8 +102,14 @@ Return ONLY valid JSON, no markdown fences, no commentary, matching this schema 
   "comps": [{ "tier": "boutique"|"mainstream"|"floor", "brand": "string", "product": "string?", "price": "string", "url": "string?" }],
   "saturation": "low"|"medium"|"high",
   "ladder": { "launch": number, "stretch": number, "bundle": number, "compareAt": number },
-  "notes": "string (2-3 sentences, ≤60 words, plain text — see step 5)"
-}`;
+  "perVariantPricing": {
+    "mode": "uniform"|"tiered",
+    "rationale": "string (≤ 1 short sentence)",
+    "tiers": [{ "label": "string", "variantPositions": [number, ...], "multiplier": number }]
+  },
+  "notes": "string (2-3 sentences, ≤60 words, plain text — see step 6)"
+}
+- "tiers" MUST be present and non-empty when mode === "tiered", and ABSENT (or empty array) when mode === "uniform".`;
 }
 
 interface RawPricingOutput {
@@ -97,6 +126,15 @@ interface RawPricingOutput {
     stretch?: number;
     bundle?: number;
     compareAt?: number;
+  };
+  perVariantPricing?: {
+    mode?: "uniform" | "tiered";
+    rationale?: string;
+    tiers?: Array<{
+      label?: string;
+      variantPositions?: number[];
+      multiplier?: number;
+    }>;
   };
   notes?: string;
 }
@@ -181,6 +219,13 @@ export async function suggestPricingStrategy(
     sourceCost,
     sourceCurrency,
     targetCurrency,
+    variants: product.variants.map((v, i) => ({
+      position: typeof v.position === "number" ? v.position : i,
+      title: v.title ?? "",
+      option1: v.option1,
+      option2: v.option2,
+      option3: v.option3,
+    })),
   });
 
   // We use the SDK directly here (not claudeText) because we need to pass the
@@ -286,6 +331,53 @@ export async function suggestPricingStrategy(
   const marketSaturated = parsed.saturation === "high";
   const notes = parsed.notes?.trim() ?? "";
 
+  // Sanitize the optional per-variant pricing block. We only honor a "tiered"
+  // mode when every tier has a valid label, non-empty positions, and a
+  // multiplier in a sane range. Anything malformed falls back to undefined
+  // (= legacy uniform behavior).
+  const knownPositions = new Set(
+    product.variants.map((v, i) => (typeof v.position === "number" ? v.position : i)),
+  );
+  let perVariantPricing: AiPricingRationale["perVariantPricing"];
+  const pvp = parsed.perVariantPricing;
+  if (pvp && (pvp.mode === "uniform" || pvp.mode === "tiered")) {
+    if (pvp.mode === "uniform") {
+      perVariantPricing = {
+        mode: "uniform",
+        rationale: typeof pvp.rationale === "string" ? pvp.rationale.trim() : "Uniform pricing",
+      };
+    } else {
+      const validatedTiers = Array.isArray(pvp.tiers)
+        ? pvp.tiers
+            .map((t) => {
+              const positions = Array.isArray(t.variantPositions)
+                ? t.variantPositions.filter(
+                    (n): n is number => typeof n === "number" && knownPositions.has(n),
+                  )
+                : [];
+              const mult =
+                typeof t.multiplier === "number" && Number.isFinite(t.multiplier)
+                  ? Math.min(2.5, Math.max(0.5, t.multiplier))
+                  : 1;
+              const label = typeof t.label === "string" && t.label.trim() ? t.label.trim() : "Tier";
+              return { label, variantPositions: positions, multiplier: mult };
+            })
+            .filter((t) => t.variantPositions.length > 0)
+        : [];
+      if (validatedTiers.length >= 2) {
+        perVariantPricing = {
+          mode: "tiered",
+          rationale:
+            typeof pvp.rationale === "string" ? pvp.rationale.trim() : "Tiered by variant",
+          tiers: validatedTiers,
+        };
+      } else {
+        // Fewer than 2 valid tiers means tiering has no effect — collapse to uniform.
+        perVariantPricing = { mode: "uniform", rationale: "Tier proposal collapsed — only 1 tier" };
+      }
+    }
+  }
+
   return {
     recommended: ladder[0], // launch is the default applied tier
     ladder,
@@ -294,5 +386,6 @@ export async function suggestPricingStrategy(
     notes,
     generatedAt: new Date().toISOString(),
     model: PRICING_MODEL,
+    ...(perVariantPricing ? { perVariantPricing } : {}),
   };
 }

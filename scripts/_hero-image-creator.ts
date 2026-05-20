@@ -58,36 +58,37 @@ const KIE_TIMEOUT_MS = 5 * 60 * 1000;
 const COST_PER_HERO_USD = 0.02;
 const BUCKET = process.env.SUPABASE_STORAGE_BUCKET || "product-images";
 
-const HERO_PROMPT = `Generate an ecommerce catalog cutout of the product from the reference image. This is a packshot for a product grid, NOT a studio environment photograph.
+const HERO_PROMPT = `Generate a luxury studio product hero shot of the product from the reference image.
 
-BACKGROUND — TREAT AS A 2D FILL LAYER, NOT A 3D STUDIO PLANE:
-- The background is a uniform Photoshop-style solid color fill, hex #D8D8D8, applied as a flat 2D overlay behind the subject.
-- It is NOT a photographed cyclorama, NOT a backdrop, NOT a tabletop, NOT a wall, NOT seamless paper, NOT a 3D surface of any kind.
-- EVERY background pixel MUST be the same #D8D8D8 tone — measured by an eyedropper, top-left, top-right, bottom-left, bottom-right, and center should all read the identical RGB value.
-- ZERO ambient occlusion on the background. ZERO vignette. ZERO lighting falloff. ZERO warm/cool shift. ZERO gradient. ZERO bounce light from the product onto the background.
-- The product is NOT casting any light onto the background. The product's own glow / illumination stays on the product surface only.
+BACKGROUND:
+- Neutral light backdrop (model output will be replaced in post — focus on producing a clean fixture cutout). Do not render a ceiling plane, wall, floor, paper-curve seamless, or any environmental surface other than a clean neutral backdrop.
+
+CAMERA / ANGLE — SIMPLE FRONT VIEW (Pottery Barn catalog style, identical across every variant):
+- Camera position: straight-on front view. Eye-level. Camera lens perpendicular to the product's main face.
+- ZERO tilt. ZERO 3/4 angle. ZERO perspective foreshortening. ZERO looking-up or looking-down.
+- The product reads as a flat, head-on portrait: no top surface visible (for freestanding products), no underside visible (for ceiling fixtures). Just the main face square-on to the camera.
+- This is the same angle for every variant in a product AND every variant across products — total consistency.
+- Square 1:1 frame.
+
+FRAMING:
+- Fixture's geometric center placed at the exact horizontal AND vertical center of the frame.
+- Fixture's silhouette occupies ~60-70% of the frame's shorter dimension.
+
+LIGHT STATE (if the product is a light fixture):
+- Fixture shown lit with a subtle warm internal glow only.
+- Light must be contained within the shade, diffuser, or LED ring — no spill, halo, or warm color cast onto the surrounding background.
+- The backdrop must remain neutral; warmth lives inside the fixture, not on the wall behind it.
 
 SHADOW:
-- NO contact shadow. NO drop shadow. NO floor reflection. The subject sits on the flat color with no shadow whatsoever — like a sticker laid on a swatch.
-- (Shadows generate gradients on the background, which violates the flat-fill rule. Skip them entirely.)
-
-FRAMING — DEAD-CENTERED, EQUAL MARGINS:
-- The subject's geometric bounding box center MUST be at exactly (50%, 50%) of the frame — measured from the bounding box of all visible product pixels.
-- Equal padding on all four sides — top margin = bottom margin = left margin = right margin, each approximately 10-15% of the frame.
-- Subject occupies ~70-80% of the frame's shorter dimension. Not cropped, not bleeding to any edge.
-
-CAMERA:
-- Square 1:1 frame.
-- Eye-level front view. Camera height = product's vertical center. Camera distance = perpendicular to the product's main face.
-- NO tilt, NO low-angle, NO three-quarter, NO foreshortening, NO overhead, NO perspective distortion.
-- For a flush-mount ceiling light: render it head-on from below as if looking straight up at the ceiling. The mounting plate sits flat against the (invisible) ceiling, the light face is perpendicular to the camera.
+- For freestanding products: soft subtle contact shadow directly beneath the base only, no longer than ~10% of frame height, soft-edged.
+- For ceiling fixtures: no shadow needed.
 
 PRODUCT FIDELITY:
-- Preserve the EXACT product design, finish, color, proportions, and construction from the reference image — every component visible in the reference must appear in the output.
-- For table lamps, floor lamps, bedside lamps, or any other free-standing lamp: do NOT show a power cable, charging cable, or USB cord anywhere in the frame. If the reference shows a cable, render the lamp as if it is cordless or the cable is fully tucked away. No visible cord, no cord shadow, no cord exit point at the base.
+- Preserve the EXACT product design, finish, color, proportions, and construction from the reference image. Every visible component in the reference must appear in the output.
+- For table lamps, floor lamps, bedside lamps, or any other free-standing lamp: do NOT show a power cable, charging cable, or USB cord anywhere in the frame. If the reference shows a cable, render the lamp as if it is cordless or the cable is fully tucked away.
 
 OUTPUT:
-- ONE single image, edge-to-edge. If the product is a light, it is turned on (subject self-illumination only, never onto the background). No text, no watermarks, no UI overlays.`;
+- One single photograph, edge-to-edge, no text, no watermarks, no UI overlays.`;
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Argument parsing + mode detection
@@ -327,9 +328,20 @@ async function runModeA(productId: string): Promise<void> {
   // is NULL-unsafe and would exclude rows where imageType IS NULL.
   const sourceImages = product.images.filter((img) => img.imageType !== "hero");
   const imagesByVariant = new Map<string, (typeof sourceImages)[number]>();
+  const imagesById = new Map<string, (typeof sourceImages)[number]>();
   for (const img of sourceImages) {
+    imagesById.set(img.id, img);
     if (!img.variantId) continue;
     if (!imagesByVariant.has(img.variantId)) imagesByVariant.set(img.variantId, img);
+  }
+  // Fallback: some products only have the variant → image direction populated
+  // (variant.featuredImageId), not image → variant. Backfill imagesByVariant
+  // from variant.featuredImageId so those products still get heroes.
+  for (const v of product.variants) {
+    if (imagesByVariant.has(v.id)) continue;
+    if (!v.featuredImageId) continue;
+    const img = imagesById.get(v.featuredImageId);
+    if (img) imagesByVariant.set(v.id, img);
   }
 
   const maxPosRow = await getPrisma().productImage.aggregate({

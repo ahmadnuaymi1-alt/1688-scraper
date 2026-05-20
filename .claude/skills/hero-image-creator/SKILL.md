@@ -1,131 +1,93 @@
 ---
 name: hero-image-creator
-description: Generate luxury studio hero images using kie.ai's Seedream 5 Lite Image-to-Image, fed with each variant's existing source image as the reference. Works with TWO input sources — (1) a locally scraped product on the review page (`/review/<productId>`), or (2) a live Shopify product (admin URL / storefront URL / product handle). Use whenever the user asks to "make hero images" / "generate heroes" / "create hero shots" / "render hero images" for any product they show me, OR pastes a review URL or Shopify product URL and asks for hero images, OR says "/hero-image-creator". Produces ONE hero per variant, saved to Supabase. For local-DB products it also writes ProductImage rows tied to variants (visible on the review page). For Shopify products it prints the new hero URLs for you to upload back manually (or via the existing UI flow).
+description: Generate luxury studio hero images by driving higgsfield.ai's Nano Banana Pro image-to-image flow through a stealthed Playwright browser, fed with each variant's existing source image as the reference. Works on a locally scraped product on the review page (`/review/<productId>`). Use whenever the user asks to "make hero images" / "generate heroes" / "create hero shots" / "render hero images" / "do higgsfield heroes" for any product they show me, OR pastes a review URL and asks for hero images, OR says "/hero-image-creator". Produces ONE hero per unique source image (sister variants sharing a swatch get attached to the same hero), saved to Supabase, with `ProductImage` rows tied to variants so the heroes show on the review page. Runs in `--headed --parallel` mode by default so you can watch progress and solve any occasional security check manually in the visible browser.
 ---
 
-# Hero Image Creator
+# Hero Image Creator (Higgsfield)
 
 ## What this skill does
 
-Two input modes:
+Drives Higgsfield's web UI through Playwright to generate one hero image per unique variant source image. The wrapper handles file uploads, prompt typing, parallel tab generation, and the DB attach back to ProductImage rows.
 
-### Mode A — Local-DB product (review page)
-For a product already in our DB:
-- Reads the product's variants (visible only — `isHidden=false`) + their linked source images from Prisma.
-- **Dedupes by source image**: variants sharing the same source thumbnail (typical 1688 pattern — e.g. "Red / Rechargeable" + "Red / USB" both reference the same red-color swatch) get ONE kie call and ONE generated hero. Sister variants are attached to that hero via duplicate ProductImage rows.
-- Uploads outputs to Supabase + creates `ProductImage` rows with `imageType="hero"` and the right `variantId` per sister.
-- The heroes show up on `/review/<productId>` bound to their variant.
+Input: a locally scraped product's review URL (or bare `productId` cuid). The script reads visible variants (`isHidden=false`) from Prisma, dedups variants that share the same source thumbnail (typical 1688 pattern — sister variants like "Red / Rechargeable" + "Red / USB" share one red swatch), runs one Higgsfield generation per unique source, uploads each result to Supabase, and creates `ProductImage` rows (`imageType="hero-flat"`, with the right `variantId` per sister).
 
-### Mode B — Live Shopify product
-For a product already on a Shopify store:
-- Resolves a ShopifyConnection (default if not specified).
-- Fetches the product via Admin API: variants + their currently-assigned image GIDs + the full product image list.
-- **Dedupes by image GID**: variants sharing the same Shopify featured image get ONE kie call. The resulting hero URL is reported for every sister.
-- Uploads outputs to Supabase and **prints the public hero URLs**.
-- Does NOT push the heroes back to Shopify automatically — those URLs can be uploaded via the existing UI flow or a separate upload step. (This is a deliberate safety bound — auto-uploading new variant images to a live store is destructive and should be a separate explicit step.)
-
-**Scope**: heroes only. No lifestyles, no closeups, no description rewriting.
+**Scope**: heroes only. No lifestyles, no closeups, no description rewriting. No live-Shopify mode here — this skill is for products in the local DB.
 
 ## When to invoke
 
 Invoke whenever the user:
-- Says "/hero-image-creator" or asks me to invoke this skill by name.
-- Pastes a **review URL** (`http://localhost:PORT/review/<productId>`) and asks for "hero images" / "heroes" / "hero shots".
-- Pastes a **Shopify product URL** (admin: `https://*.myshopify.com/admin/products/<id>`, storefront: `https://*.myshopify.com/products/<handle>`, or just `<handle>` + a connection hint) and asks for hero images.
+- Says "/hero-image-creator", "do higgsfield heroes", or asks me to invoke this skill by name.
+- Pastes a **review URL** (`http://localhost:PORT/review/<productId>`) and asks for "hero images" / "heroes" / "hero shots" / "render heroes" / "make heroes".
 - Has just finished a scrape and says "now make hero images" or similar.
 
 **Do NOT invoke**:
-- For products with zero variant-linked images. Suggest re-scraping with the multi-variant linkage fix first (Mode A), or check that variants actually have images attached on Shopify (Mode B).
-- As part of a fresh scrape — that's a separate scrape phase if you want it. This skill is for **post-scrape / post-upload**, manual hero gen.
+- For products where every visible variant lacks a featured source image. Suggest manually assigning featured images via the review UI first, or re-scraping.
+- As part of a fresh scrape — this skill is **post-scrape**, manual hero generation.
 
 ## Inputs the skill needs
 
-The user gives me **one** thing — I auto-detect which mode:
+One thing: a `productId` (cuid) or a review URL containing `/review/<productId>`. The script auto-detects.
 
-1. **Local mode**: a `productId` (cuid) or a review URL containing `/review/<productId>`.
-2. **Shopify mode**: a Shopify product URL (admin or storefront) or `productGid` (`gid://shopify/Product/...`) or a `handle` + store URL.
+## Pipeline: Higgsfield via Playwright
 
-If ambiguous, ask once. If "the product I just scraped" → find the most recent ready ScrapeJob's product → Mode A.
-
-## Model + API (same for both modes)
-
-- **Model identifier**: `seedream/5-lite-image-to-image`
-- **Endpoint**: `POST https://api.kie.ai/api/v1/jobs/createTask`
-- **Auth**: `Authorization: Bearer $KIE_API_KEY`
-- **Body shape**:
-  ```json
-  {
-    "model": "seedream/5-lite-image-to-image",
-    "input": {
-      "prompt": "<the luxury hero prompt below>",
-      "image_urls": ["<variant-source-url>"],
-      "aspect_ratio": "1:1",
-      "quality": "basic",
-      "nsfw_checker": false
-    }
-  }
-  ```
-- **Poll**: `GET https://api.kie.ai/api/v1/jobs/recordInfo?taskId=<taskId>` every 5s until `state` is `success` or `fail`.
-- **Note on field name**: `image_urls` (plural, snake_case) — NOT `image_input` like nano-banana / gpt-image.
-- **Pricing**: Seedream 5 Lite at "basic" quality is ~$0.02/image at 2K.
-
-## The hero prompt (verbatim — do not modify)
-
-```
-Generate a luxury studio product hero shot of the product from the reference image.
-BACKGROUND — STRICT:
-- Pure flat solid fill, hex #D8D8D8 across the entire frame.
-- NOT a gradient, NOT a vignette, NOT a paper-curve seamless, NOT a wall, NOT a textured backdrop.
-- Identical pixel tone edge-to-edge — no lighting falloff, no color cast, no warmth/coolness shift.
-CAMERA — STRICT:
-- Front view with the product filing out the page.
-- Eye-level perspective (camera height = product's vertical center).
-- Square 1:1 frame.
-- NO tilt, NO foreshortening, NO low-angle, NO overhead.
-FRAMING — STRICT:
-- Centered horizontally AND vertically taking up most of the page.
-SHADOW:
-- Soft subtle contact shadow directly beneath the product's base ONLY, no longer than ~10% of frame height, soft-edged, sitting in the same #D8D8D8 plane (no hard shadow line, no projected floor reflection).
-PRODUCT FIDELITY:
-- Preserve the EXACT product design, finish, color, proportions, and construction from the reference image — every component visible in the reference must appear in the output.
-- For table lamps, floor lamps, bedside lamps, or any other free-standing lamp: do NOT show a power cable, charging cable, or USB cord anywhere in the frame. If the reference shows a cable, render the lamp as if it is cordless or the cable is fully tucked away. No visible cord, no cord shadow, no cord exit point at the base.
-OUTPUT:
-- ONE single photograph of the product in use (if a light then it needs to be turned on), edge-to-edge, no text, no watermarks, no UI overlays.
-```
+- **Model:** Higgsfield's `nano-banana-pro` (their web UI's default image-to-image model).
+- **Driver:** Playwright (`playwright-extra` + `puppeteer-extra-plugin-stealth`) launching the **user's installed real Chrome** with a persistent profile at `%TEMP%/scene/higgsfield-session`. The profile carries cookies, localStorage, IndexedDB, service workers — so Higgsfield sees a returning logged-in user every run.
+- **Resolution:** 2K, aspect ratio 1:1. Set as a one-time UI click before the prompt loop.
+- **Prompt:** lives in [src/lib/hero/prompt.ts](src/lib/hero/prompt.ts) as the exported `HERO_PROMPT` constant. The script imports it directly. Edit the file if the prompt needs to change. The prompt covers backdrop color, lighting, framing, product fidelity, mounting-surface rules (flush-mount → ceiling, sconce → wall, floor lamp → floor, table/desk → tabletop), and a positioning template.
+- **Positioning template:** a 1024×1024 PNG at `%TEMP%/scene/v25-refs/positioning-template.png` is uploaded as a second reference alongside each variant's source swatch. The prompt references it as "Image 2 is a positioning template — place the product inside the guide rectangle but do not show the rectangle in the final output."
+- **Stealth:** `playwright-extra` + stealth plugin patches ~30 fingerprint leaks (`navigator.webdriver`, plugin list, canvas/WebGL, User-Agent, etc.) before any Higgsfield JS runs. Reduces frequency of bot-detection security checks but doesn't eliminate them — when one appears, the user solves it manually in the visible browser.
+- **Parallel mode:** N tabs open concurrently, each generating one hero. A shared `claimedUrls` set prevents two tabs from claiming the same generated image URL from Higgsfield's account-shared gallery feed. Wall time for 6 heroes: ~60-90 seconds.
+- **Failure auto-retry:** if a tab's generation comes back with Higgsfield's "Failed — Credits refunded" + Retry button, the wrapper auto-clicks Retry up to 2 times per prompt before giving up. No code change needed by the operator.
+- **Slug uniqueness:** each prompt's slug includes the variantId suffix (`v25_hero_${idx}_${variantId6}_${safeSlug(title)}`) so non-ASCII variant titles (Chinese, etc.) that strip to empty in `safeSlug` don't collide with another variant's filename and overwrite each other in Supabase.
 
 ## Workflow
 
 When invoked, execute:
 
-1. **Detect input mode**:
-   - Looks like a cuid OR a `localhost:PORT/review/<id>` URL → Mode A.
-   - Looks like a `*.myshopify.com` URL or `gid://shopify/Product/...` → Mode B.
-2. **Run** `scripts/_hero-image-creator.ts <input>` — single script handles both modes. Pass the productId / Shopify URL as the first arg. Optional second arg: `--connection <id>` to pin a specific ShopifyConnection (defaults to the user's default connection).
-3. **Watch progress** via Bash + Monitor — script prints per-variant status with timings.
-4. **Report**:
-   - Mode A: number of heroes inserted into the DB, review URL.
-   - Mode B: number of heroes generated, the Supabase URLs (one per variant), the Shopify product URL.
-   - Total kie cost (count × $0.02).
-   - Skipped/failed variants with reasons.
+1. **Pre-flight:** kill any stale Chrome processes from previous runs whose command line contains `higgsfield-session` — they hold the profile lock and a new Playwright launch will error out. Use PowerShell:
+   ```ps1
+   Get-CimInstance Win32_Process -Filter "Name='chrome.exe'" |
+     Where-Object { $_.CommandLine -like "*higgsfield-session*" } |
+     ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }
+   ```
+2. **Run the script:** `npx tsx scripts/probe-hero-higgsfield-v25.ts <reviewURL> --headed --parallel`
+   - `--headed` is essential — the user wants to see the browser AND occasionally solve a "Verify you're human" check manually.
+   - `--parallel` opens one tab per unique source image and runs them concurrently.
+3. **Watch the run.** The script streams per-prompt progress to stdout. If a tab gets stuck on a security check, the user solves it in the visible browser and the script continues.
+4. **Report when done:**
+   - `N/N succeeded` count
+   - Wall time
+   - Number of variants attached in the DB
+   - Review URL: `http://localhost:3000/review/<productId>`
+   - If any variants got skipped ("has no source image"), list them and suggest the user manually assign a featured image or re-scrape.
 
-## Failure modes to handle
+## Failure modes the wrapper handles
 
-- **No variant-linked source images**: skip with warning. Don't fail the whole skill.
-- **Shopify connection missing / no default**: prompt the user to set up a connection (or pass `--connection <id>`).
-- **Shopify variant has no `image.id`**: skip — there's nothing to reference. Don't try to fall back to the product's featured image (it may not represent the variant).
-- **kie content-filter rejection** ("flagged as sensitive"): log + skip. Don't auto-retry.
-- **kie 5xx**: one retry after 30s, then surface and continue with remaining variants.
+- **Higgsfield "Failed — Credits refunded"** with Retry button → wrapper auto-clicks Retry (≤ 2 attempts per prompt). User does not need to intervene.
+- **Variant has no source image** (no `featuredImageId` and no ProductImage row with that variantId, after the hero-flat filter) → script logs `Variant X has no source image — skipping` and continues with the rest. Suggest re-scraping or manually picking a featured image.
+- **Profile lock from prior run** → pre-flight kill above clears it.
+- **Slug collision** (Chinese-only titles) → already fixed via variantId suffix in the slug.
+
+## Failure modes the wrapper does NOT handle (operator decides)
+
+- **"Verify you're human" / hCaptcha / Turnstile widget** appears in the live browser — the user solves it manually. The wrapper detects "Retry" buttons but not full captcha widgets; rely on the headed window.
+- **Higgsfield site outage / login expired** → user signs back in once; the persistent profile remembers it from then on.
+- **All 2 retries failed for one prompt** → script reports `[N/N] FAIL → Generation timed out` and dumps debug screenshots to `%TEMP%/scene/output/_higgsfield-debug-*.png`. Re-run the script — the wrapper detects which variants still need heroes (those whose `featuredImageId` doesn't yet point to a hero-flat row) and only re-runs those.
+
+## Critical files
+
+- `scripts/probe-hero-higgsfield-v25.ts` — the entry point (variant lookup → reference download → driving the wrapper → DB attach).
+- `scripts/_higgsfield-lifestyle.ts` — the Playwright wrapper. Hosts `runHiggsfieldBatch`, the stealth + persistent-profile launch, parallel-tab orchestration, claimed-URL coordination, retry detection, and progress screenshots. Also used by lifestyle generation.
+- [src/lib/hero/prompt.ts](src/lib/hero/prompt.ts) — the single source of truth for the hero prompt. Edit here to change what the model is asked for.
 
 ## Invocation in this project
 
 ```bash
-npx tsx scripts/_hero-image-creator.ts <input>            # local productId or review URL
-npx tsx scripts/_hero-image-creator.ts <shopify-url>      # Mode B
-npx tsx scripts/_hero-image-creator.ts <input> --connection <id>
+# Clear stale Chrome holding the profile (PowerShell, one-liner)
+Get-CimInstance Win32_Process -Filter "Name='chrome.exe'" | Where-Object { $_.CommandLine -like "*higgsfield-session*" } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
+
+# Then run
+npx tsx scripts/probe-hero-higgsfield-v25.ts http://localhost:3000/review/<productId> --headed --parallel
 ```
 
-The script auto-loads `.env.local` so no `--env-file` flag is needed.
-
-## Helper script
-
-`scripts/_hero-image-creator.ts` (project-local) handles both input modes. Edit it if behavior needs to change. The skill instructions stay in this file.
+The script auto-loads `.env.local` for Supabase credentials.
