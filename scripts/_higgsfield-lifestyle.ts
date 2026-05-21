@@ -36,8 +36,8 @@ import type { BrowserContext, Page, Locator } from "@playwright/test";
 // User-Agent, etc) before any page script runs. Free, additive, drop-in.
 chromium.use(StealthPlugin());
 
-const HIGGSFIELD_URL = "https://higgsfield.ai/ai/image?model=nano-banana-pro";
-const SESSION_DIR = path.join(os.tmpdir(), "scene", "higgsfield-session");
+export const HIGGSFIELD_URL = "https://higgsfield.ai/ai/image?model=nano-banana-pro";
+export const SESSION_DIR = path.join(os.tmpdir(), "scene", "higgsfield-session");
 
 const NAV_TIMEOUT_MS = 30_000;
 const LOGIN_WAIT_TIMEOUT_MS = 5 * 60_000; // 5 min — wait for the user to log in
@@ -190,7 +190,7 @@ async function dumpDebug(page: Page, outDir: string, label: string): Promise<voi
   }
 }
 
-async function dismissOpenDialogs(page: Page): Promise<void> {
+export async function dismissOpenDialogs(page: Page): Promise<void> {
   // Press Escape a few times to dismiss any onboarding tour / sign-in modal /
   // upload-image popover / fullscreen backdrop. Most modal libraries (Radix,
   // Headless UI, etc.) close on Escape.
@@ -228,7 +228,7 @@ async function waitForOverlayClear(page: Page, timeoutMs = 60_000): Promise<void
   }
 }
 
-async function isReallyLoggedIn(page: Page): Promise<boolean> {
+export async function isReallyLoggedIn(page: Page): Promise<boolean> {
   // Strict logged-in check: the prompt textbox must exist AND NOT be inside an
   // open dialog (a sign-in modal can contain a fake textbox).
   for (const sel of SELECTORS.loggedIn) {
@@ -249,7 +249,7 @@ async function isReallyLoggedIn(page: Page): Promise<boolean> {
   return false;
 }
 
-async function waitUntilLoggedIn(page: Page, outDir: string): Promise<void> {
+export async function waitUntilLoggedIn(page: Page, outDir: string): Promise<void> {
   console.log(`  Checking login state...`);
   await dismissOpenDialogs(page);
   if (await isReallyLoggedIn(page)) {
@@ -390,7 +390,7 @@ function hammingDistance(a: string, b: string): number {
  * land, the count can still match while the content is wrong. Identity
  * matching makes a restored golf-sim image impossible to accept.
  */
-async function uploadReference(page: Page, referencePaths: string | string[], outDir: string): Promise<void> {
+export async function uploadReference(page: Page, referencePaths: string | string[], outDir: string): Promise<void> {
   const paths = Array.isArray(referencePaths) ? referencePaths : [referencePaths];
   console.log(`  Uploading ${paths.length} reference image(s): ${paths.map((p) => path.basename(p)).join(", ")}`);
 
@@ -474,7 +474,7 @@ async function uploadReference(page: Page, referencePaths: string | string[], ou
  * `hf:nano-banana-2-image-form-3` (aspect ratio + quality preferences) so the
  * 1:1 / 1K settings persist as the user requested.
  */
-async function clearPersistedFormState(page: Page): Promise<void> {
+export async function clearPersistedFormState(page: Page): Promise<void> {
   await page.evaluate(() => {
     try {
       localStorage.removeItem("hf:image-form-upd");
@@ -484,7 +484,7 @@ async function clearPersistedFormState(page: Page): Promise<void> {
   }).catch(() => {});
 }
 
-async function typePrompt(page: Page, text: string, outDir: string): Promise<void> {
+export async function typePrompt(page: Page, text: string, outDir: string): Promise<void> {
   const promptBox = await findFirst(page, SELECTORS.promptInput, 10_000);
   if (!promptBox) {
     await dumpDebug(page, outDir, "no-prompt-input");
@@ -496,7 +496,7 @@ async function typePrompt(page: Page, text: string, outDir: string): Promise<voi
   await page.waitForTimeout(500);
 }
 
-async function clickGenerate(page: Page, outDir: string): Promise<void> {
+export async function clickGenerate(page: Page, outDir: string): Promise<void> {
   console.log(`  Clicking Generate (real mouse click)...`);
   const success = await mouseClickByText(page, "Generate");
   if (!success) {
@@ -550,7 +550,7 @@ async function waitForGenerationStarted(page: Page, baseline: number): Promise<v
  * navigation/hydration so React doesn't nuke the cursor element. Uses a
  * MutationObserver pattern to re-add the cursor if React strips it later.
  */
-async function injectVisibleCursor(page: Page): Promise<void> {
+export async function injectVisibleCursor(page: Page): Promise<void> {
   await page.evaluate(() => {
     if ((window as unknown as { __pwCursorInstalled?: boolean }).__pwCursorInstalled) return;
     (window as unknown as { __pwCursorInstalled?: boolean }).__pwCursorInstalled = true;
@@ -596,7 +596,7 @@ async function injectVisibleCursor(page: Page): Promise<void> {
  * Aggressively clear any overlay/backdrop that might block clicks. Called
  * before every interaction so the next click actually lands on the target.
  */
-async function clearOverlays(page: Page): Promise<void> {
+export async function clearOverlays(page: Page): Promise<void> {
   // Press Escape twice (covers most modal libraries).
   await page.keyboard.press("Escape").catch(() => {});
   await page.waitForTimeout(150);
@@ -679,7 +679,7 @@ async function mouseClickByText(page: Page, label: string): Promise<boolean> {
   return false;
 }
 
-async function setAspectRatio11(page: Page): Promise<void> {
+export async function setAspectRatio11(page: Page): Promise<void> {
   console.log(`  Setting aspect ratio to 1:1 (real mouse click)...`);
   await mouseClickByText(page, "1:1");
   await page.waitForTimeout(600);
@@ -699,7 +699,7 @@ async function setAspectRatio11(page: Page): Promise<void> {
  *         row inside. We use a [role="menu"] / [role="menuitem"] / "Select
  *         quality" sibling-scope pattern to avoid re-clicking the trigger.
  */
-async function setResolution2K(page: Page): Promise<void> {
+export async function setResolution2K(page: Page): Promise<void> {
   console.log(`  Setting resolution to 2K (real mouse click)...`);
 
   // Step 1 — open the dropdown. The trigger renders the current value,
@@ -781,7 +781,7 @@ async function setResolution2K(page: Page): Promise<void> {
  * Reference uploads use a DIFFERENT cloudfront path with `/anon_user_id/`
  * and no `hf_` prefix — so we exclude those.
  */
-async function collectGeneratedImageUrls(page: Page): Promise<Set<string>> {
+export async function collectGeneratedImageUrls(page: Page): Promise<Set<string>> {
   const urls = await page.evaluate(() => {
     const out = new Set<string>();
     document.querySelectorAll("img").forEach((img) => {
@@ -885,7 +885,7 @@ async function tryClickRetryIfFailed(
   }
 }
 
-async function waitForNewGeneratedImage(
+export async function waitForNewGeneratedImage(
   page: Page,
   beforeUrls: Set<string>,
   claimedUrls: Set<string>,

@@ -74,6 +74,8 @@ function getPrisma(): PrismaClient {
 interface Args {
   input: string;
   multiUnit: number | null;
+  /** --multi-unit-mix: vary the unit count (2-4) across the 6 scenes. */
+  multiUnitMix: boolean;
   dryRun: boolean;
   headed: boolean;
   keepOpen: boolean;
@@ -86,12 +88,13 @@ function parseArgs(): Args {
   const args = process.argv.slice(2);
   if (args.length === 0) {
     console.error(
-      "Usage: npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> [--multi-unit N] [--dry-run] [--headed] [--keep-open] [--sequential] [--queued] [--only=N]",
+      "Usage: npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> [--multi-unit N] [--multi-unit-mix] [--dry-run] [--headed] [--keep-open] [--sequential] [--queued] [--only=N]",
     );
     process.exit(1);
   }
   let input = "";
   let multiUnit: number | null = null;
+  let multiUnitMix = false;
   let dryRun = false;
   let headed = false;
   let keepOpen = false;
@@ -100,7 +103,9 @@ function parseArgs(): Args {
   let only: number | null = null;
   for (let i = 0; i < args.length; i++) {
     const a = args[i];
-    if (a === "--multi-unit") {
+    if (a === "--multi-unit-mix") {
+      multiUnitMix = true;
+    } else if (a === "--multi-unit") {
       const next = args[i + 1];
       if (next && /^\d+$/.test(next)) {
         multiUnit = parseInt(next, 10);
@@ -122,7 +127,7 @@ function parseArgs(): Args {
     console.error("Missing <input> argument.");
     process.exit(1);
   }
-  return { input, multiUnit, dryRun, headed, keepOpen, sequential, queued, only };
+  return { input, multiUnit, multiUnitMix, dryRun, headed, keepOpen, sequential, queued, only };
 }
 
 function detectProductId(input: string): string {
@@ -183,29 +188,51 @@ async function downloadToFile(url: string, destPath: string): Promise<void> {
 // Main
 // ─────────────────────────────────────────────────────────────────────────────
 async function main() {
-  const { input, multiUnit, dryRun, headed, keepOpen, sequential, queued, only } =
+  const { input, multiUnit, multiUnitMix, dryRun, headed, keepOpen, sequential, queued, only } =
     parseArgs();
   const productId = detectProductId(input);
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(REF_DIR, { recursive: true });
 
-  const prisma = getPrisma();
-  const product = await prisma.product.findUnique({
-    where: { id: productId },
-    include: {
-      variants: { where: { isHidden: false }, orderBy: { position: "asc" } },
-      images: true,
-    },
-  });
+  // Fetch the product, retrying transient DB-connection failures. The Supabase
+  // pgbouncer pooler intermittently refuses the first connection; without this
+  // the whole run dies instantly at startup on a momentary blip.
+  let product: Awaited<ReturnType<typeof fetchProduct>> = null;
+  async function fetchProduct() {
+    return getPrisma().product.findUnique({
+      where: { id: productId },
+      include: {
+        variants: { where: { isHidden: false }, orderBy: { position: "asc" } },
+        images: true,
+      },
+    });
+  }
+  for (let attempt = 1; attempt <= 6; attempt++) {
+    try {
+      product = await fetchProduct();
+      break;
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      if (attempt === 6) {
+        console.error(`DB fetch failed after 6 attempts: ${msg}`);
+        process.exit(1);
+      }
+      console.warn(`  DB connection attempt ${attempt}/6 failed (transient) — retrying in 3s...`);
+      await new Promise((r) => setTimeout(r, 3000));
+    }
+  }
   if (!product) {
     console.error(`Product ${productId} not found`);
     process.exit(1);
   }
+  // getPrisma() returns the cached client — the retry loop above already
+  // created it. The rest of main() uses `prisma` directly.
+  const prisma = getPrisma();
 
   console.log(`Lifestyle Image Creator (Higgsfield) — ${product.title.slice(0, 60)}`);
   console.log(
-    `Mode: ${multiUnit ? `multi-unit (${multiUnit} per image)` : "single-unit"}${
+    `Mode: ${multiUnitMix ? "multi-unit (varied 2-4 per image)" : multiUnit ? `multi-unit (${multiUnit} per image)` : "single-unit"}${
       dryRun ? " — DRY RUN (no Higgsfield calls)" : ""
     }`,
   );
@@ -284,7 +311,8 @@ async function main() {
   const designed = await designLifestyleScenes({
     productTitle: product.title,
     productType: product.productType ?? null,
-    unitCount: multiUnit ?? 1,
+    unitCount: multiUnit ?? (multiUnitMix ? 3 : 1),
+    unitCountVaried: multiUnitMix,
     references: slots,
     hasSizeReference: false,
   });
@@ -298,7 +326,7 @@ async function main() {
   if (dryRun) {
     console.log("\n─── Dry run: scene prompts (first 400 chars each) ───");
     scenes.forEach((s, i) => {
-      console.log(`\n[${i + 1}] ${s.slug}\n${s.prompt.slice(0, 400)}…`);
+      console.log(`\n[${i + 1}] ${s.slug}\n${s.prompt}`);
     });
     await prisma.$disconnect();
     return;

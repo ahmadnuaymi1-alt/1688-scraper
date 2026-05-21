@@ -64,6 +64,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "dotenv-cli": "^11.0.0",
+    "patchright": "^1.60.0",
     "pg": "^8.20.0",
     "prisma": "^6.19.3",
     "tailwindcss": "^4",

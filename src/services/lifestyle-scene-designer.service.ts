@@ -57,6 +57,8 @@ export interface SceneDesignerInput {
   productType: string | null;
   /** Unit count for the staging — 1 for single-unit, N for multi-unit (same variant repeated N times). */
   unitCount: number;
+  /** If true, VARY the unit count (2-4) across the 6 scenes instead of a fixed unitCount. */
+  unitCountVaried?: boolean;
   /** One row per output slot. Length is typically 6. Each row identifies
    *  which variant should be the reference for that scene. */
   references: Array<{
@@ -176,7 +178,7 @@ EACH SCENE MUST VARY across ALL of these axes simultaneously:
 - Styling props (no two scenes use the same prop combo)
 - Camera angle (REQUIRED — see camera-angle vocabulary below)
 
-CAMERA-ANGLE VOCABULARY — use a DIFFERENT angle for each of the 6 scenes (pick 6 from this list of 9):
+CAMERA-ANGLE VOCABULARY — every one of the 6 scenes MUST use a visibly different camera angle. Pick 6 of these 9, deliberately spread so the batch ranges across LOW, eye-level, and HIGH viewpoints. The #1 failure to avoid: do NOT pick 6 lookalike near-eye-level angles — the angles must change noticeably from scene to scene.
 1. "dead-front eye-level" — camera squared to product's face, lens-axis at product's vertical center
 2. "slightly-low three-quarter front-left" — camera ~10° below product center, rotated ~30° to product's left
 3. "slightly-low three-quarter front-right" — camera ~10° below product center, rotated ~30° to product's right
@@ -337,8 +339,8 @@ PROMPT STRUCTURE — each scene's prompt text is two parts
 [mode: minimalist OR homey | room: X | architecture: Y | accent: Z | styling: W | camera: ANGLE | influence: ARCHETYPE]
 
 (2) A descriptive paragraph:
-- MINIMALIST: 150-200 words. Names placement (category-correct, e.g. "sitting on a light-oak nightstand"), architectural treatment, single accent color, styling props (1-3 max), camera angle in words, time of day + light direction, fixture on at 2700K.
-- HOMEY: 180-230 words. Names placement, archetypal treatment, the product-color-echo rule (which colors of the product are echoed where), pattern recipe (1 large + 1 medium + 1 small, tied color), wood-tone mix, textile layers, plant matter, "just-here" cue, artwork, architectural homey-cue, camera angle in words, time of day + light direction, fixture on at 2700K.
+- MINIMALIST: 150-200 words. Names placement (category-correct, e.g. "sitting on a light-oak nightstand"), architectural treatment, single accent color, styling props (1-3 max), the camera angle described EXPLICITLY and concretely as one of the FIRST sentences — name the camera's height relative to the product, its tilt, and its rotation so the angle is unmistakable to the image model (e.g. "Shot from a steep high angle, camera roughly 45° above the fixture looking straight down"), time of day + light direction, fixture on at 2700K.
+- HOMEY: 180-230 words. Names placement, archetypal treatment, the product-color-echo rule (which colors of the product are echoed where), pattern recipe (1 large + 1 medium + 1 small, tied color), wood-tone mix, textile layers, plant matter, "just-here" cue, artwork, architectural homey-cue, the camera angle described EXPLICITLY and concretely as one of the FIRST sentences — name the camera's height relative to the product, its tilt, and its rotation so the angle is unmistakable to the image model (e.g. "Shot from a steep high angle, camera roughly 45° above the fixture looking straight down"), time of day + light direction, fixture on at 2700K.
 
 ═══════════════════════════════════════════════════
 OUTPUT FORMAT — return JSON ONLY (no markdown fences, no preamble)
@@ -359,7 +361,7 @@ OUTPUT FORMAT — return JSON ONLY (no markdown fences, no preamble)
 Return EXACTLY 6 scenes IN THIS ORDER:
 - Scenes at array index 0, 1, 2 → mode="minimalist" (3 different brand archetypes from the minimalist menu, 3 different cameras, 3 different rooms)
 - Scenes at array index 3, 4, 5 → mode="homey" (3 different homey archetypes, 3 different cameras, 3 different rooms)
-- All 6 cameras come from the 9-angle vocabulary; never repeat an angle in the batch.
+- All 6 cameras come from the 9-angle vocabulary; never repeat an angle, and no two scenes may use lookalike angles — the 6 MUST be a deliberate spread across low / eye-level / high viewpoints so the angle visibly changes scene to scene.
 - All 6 rooms come from the category's appropriate-rooms list; never repeat a room.
 - Each scene's variantPosition matches the slot's variantPosition from the user prompt — the script rotates variants across slots so don't override that ordering.`;
 
@@ -377,8 +379,9 @@ export interface SceneDesignerResult {
 export async function designLifestyleScenes(
   input: SceneDesignerInput,
 ): Promise<SceneDesignerResult> {
-  const unitCountClause =
-    input.unitCount > 1
+  const unitCountClause = input.unitCountVaried
+    ? `VARY the unit count across the 6 scenes — spread it so roughly two scenes show 2 identical units, two show 3, and two show 4. Every unit in a single frame is the SAME variant from that scene's reference image (never mix variants). Each scene's prompt MUST explicitly state how many units it shows and how they are arranged (e.g. a flanking pair, a row of three, a run of four).`
+    : input.unitCount > 1
       ? `Show ${input.unitCount} identical units of the SAME variant from the reference image — never mix variants in one frame.`
       : `Show ONE unit of the product, exactly matching the reference image.`;
 
@@ -391,7 +394,7 @@ export async function designLifestyleScenes(
 
   const userPrompt = `Product: ${input.productTitle}
 Type: ${input.productType ?? "(infer from title)"}
-Unit count per frame: ${input.unitCount} (${unitCountClause})
+Unit count per frame: ${input.unitCountVaried ? "VARIED 2-4" : input.unitCount} (${unitCountClause})
 
 ONE reference image will be attached to each scene — the variant's standalone hero (a clean studio shot of the exact product silhouette). NEVER mention a second / size-anchor / lifestyle reference in any prompt text.
 
