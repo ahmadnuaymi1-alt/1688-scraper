@@ -2,14 +2,21 @@
  * Guarded `next dev` launcher.
  *
  * Why this exists: Next.js 16 + Turbopack runs Tailwind through PostCSS
- * child processes (`.next/dev/build/postcss.js`). When the machine is low on
- * memory a worker fails to start, and Turbopack respawns it with no limit and
- * no backoff — a runaway loop that piles up thousands of orphaned `node.exe`
- * processes, exhausts the Windows commit limit, and makes the WHOLE PC throw
- * "out of memory" errors. The orphans also survive after the dev server exits.
+ * child processes (`.next/dev/build/postcss.js`). If that generated worker
+ * script is corrupt — which happens when a dev server is hard-killed
+ * mid-build (this watchdog, or Ctrl+C) — the worker crashes on startup and
+ * Turbopack respawns it with no limit and no backoff: a runaway loop that
+ * piles up hundreds of `node.exe` processes within seconds, exhausts the
+ * Windows commit limit, and makes the WHOLE PC slow / throw "out of memory".
+ *
+ * The cycle is self-sustaining: the watchdog hard-kills the server, which
+ * re-corrupts `.next`, which makes the NEXT start flood again. The real fix
+ * is to wipe `.next` before every start (step 1b) so the worker is
+ * regenerated clean. The watchdog (step 3) stays only as a backstop.
  *
  * This wrapper:
- *   1. Kills leftover orphaned postcss workers BEFORE starting (clears yesterday's mess).
+ *   1. Before starting: kills leftover orphaned postcss workers AND wipes the
+ *      `.next` cache so a corrupt worker script can't trigger the flood.
  *   2. Runs `next dev`.
  *   3. Polls the postcss worker count; if it crosses WORKER_LIMIT it kills the
  *      whole dev tree + every postcss worker and exits — capping the blast
@@ -21,6 +28,7 @@
  */
 import { spawn, execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
+import { rmSync } from 'node:fs';
 
 const require = createRequire(import.meta.url);
 const WORKER_LIMIT = 25;
@@ -69,11 +77,23 @@ function killTree(pid) {
   }
 }
 
-// 1. Pre-start cleanup of orphaned workers from previous sessions.
+// 1. Pre-start cleanup.
+//   1a. Kill orphaned postcss workers from previous sessions.
 const stale = postcssWorkerPids();
 if (stale.length) {
   console.log(`[dev-guarded] cleaning up ${stale.length} leftover postcss worker(s)...`);
   killPids(stale);
+}
+//   1b. Wipe the .next build cache. A hard-killed dev server (the watchdog
+//   below, or Ctrl+C mid-build) leaves .next/dev/build/postcss.js corrupt;
+//   Turbopack then crash-loops that worker on the NEXT start — the real root
+//   cause of the postcss flood. A clean cache every start breaks the cycle
+//   (measured cold-start cost here: under 1s).
+try {
+  rmSync('.next', { recursive: true, force: true });
+  console.log('[dev-guarded] cleared .next build cache');
+} catch (err) {
+  console.log(`[dev-guarded] could not clear .next (${err.code || err.message}) — continuing`);
 }
 
 // 2. Launch next dev.
