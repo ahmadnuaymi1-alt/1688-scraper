@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-14f43a8d05ecf5ea",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-14f43a8d05ecf5ea.jpg",
+  "source_url": "https://dazuma.us/products/square-solar-post-caps-light",
+  "description": "A contemporary outdoor residential perimeter wall photographed at dusk in a shallow-depth three-quarter corner composition. The camera is positioned at standing eye-level, approximately 5–6 feet high, using a normal lens that compresses the row of concrete pillar caps into a receding diagonal. The foreground concrete cap is sharp while the background repeats softly out of focus, creating a pleasing bokeh trail leading the eye toward the backlit modern home. The perimeter wall is smooth cast concrete in a cool medium grey tone, with flat-topped pillar caps. Warm amber glows radiate from each pillar top, pooling softly onto the concrete surfaces and casting a golden underbelly light against the dark grey of the fixtures above. The background reveals a contemporary single-story residence with exposed concrete block or brick cladding in dark rust-red, a covered outdoor terrace with recessed ceiling sources emitting warm pools of golden light onto a pale stone patio. A soft warm glow emanates from the interior through glass walls, suggesting a well-lit open living area. Dense tropical and ornamental landscaping — dark palms, bird-of-paradise, and bushy shrubs — fills the middle ground in deep blue-green silhouette against the indigo-blue dusk sky. The overall mood is moody, sophisticated, and cinematic — the cool concrete architecture is animated by the amber warmth pulsing from the post caps and the distant home. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-c7056444e170c2eb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-spotlight-lamps-round-anti-glare-surface-mount-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-kitchen_dea4172c-97d1-4f45-b82f-75a99dbe2830.jpg?v=1775904781",
+  "scraped_date": "2026-05-21T12:03:45.084Z",
+  "source_title": "2 PCS Spotlight Lamps Round Anti-Glare Surface-Mount Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c7056444e170c2eb6abcff51326ad476cda3014f",
+  "description": "A sleek, minimalist kitchen photographed at standing eye-level with a wide lens in a one-point perspective composition looking down the length of the galley between the island and the appliance wall. The camera is positioned at the near end of the kitchen corridor, creating strong vanishing-point perspective leading to an open doorway in the background. The ceiling is pure white with a stepped tray element creating a geometric shadow relief, and two warm focused pools of light descend from ceiling-mounted positions onto the light travertine-tiled floor below, creating bright oval patches of warm illumination. On the right side, the entire wall is occupied by floor-to-ceiling flat-panel cabinetry in dark espresso-stained wood with a strong grain pattern, incorporating integrated ovens, microwave, and a large brushed stainless side-by-side refrigerator with a long bar handle. On the left, a long white lacquer island with a matte white quartz countertop features an induction cooktop and undermount sink with a brushed nickel gooseneck faucet. A folded magazine sits on the island counter. A minimal black-framed door opening in the far white wall leads to an adjacent passageway. The floor is large-format ivory travertine. The palette is very stark — pure white walls and ceiling, white island, deep espresso wood, and stainless steel. The atmosphere is precision-crafted and almost gallery-like in its restraint. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.791Z"
+}

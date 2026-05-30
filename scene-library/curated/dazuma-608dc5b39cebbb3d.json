@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-608dc5b39cebbb3d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-608dc5b39cebbb3d.jpg",
+  "source_url": "https://dazuma.us/products/stylish-nordic-sleek-cylindrical-table-lamp-decorative-iron-and-ps-light",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level with a normal lens, capturing a three-quarter view of the bedside corner. The nightstand is a rich dark walnut cube with an intricate square-lattice carved front panel — a traditional joinery detail that gives it significant visual weight. On top rests a small stack of two dark-covered hardcover books. A warm amber glow radiates from the table surface level, illuminating the nightstand top and casting soft warmth across the adjacent wall. To the left, white bed linens with a floral-embroidered accent pillow in natural linen tones edge the frame. The bed's headboard is dark forest-green velvet, rising steeply behind the books. On the right side of the frame, a sheer golden curtain catches late afternoon light and glows warmly against a flat plaster wall painted in pale warm stone. The color palette layers dark hunter green, deep walnut brown, ivory linen, and warm amber — a moody, jewel-toned hotel aesthetic. The overall mood is romantic and cocoon-like, with deep shadows and rich material contrasts. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

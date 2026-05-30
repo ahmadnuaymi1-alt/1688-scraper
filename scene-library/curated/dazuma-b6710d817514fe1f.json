@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-b6710d817514fe1f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b6710d817514fe1f.jpg",
+  "source_url": "https://dazuma.us/products/art-deco-french-luxury-glass-wall-sconce",
+  "description": "A quietly styled hallway or bedroom vignette focused on a low sideboard or dresser in a smooth matte sand-beige or greige lacquer finish with simple flush panel doors and a brass toe-kick strip. The surface of the sideboard is styled with two white cylindrical pillar candles of varying heights on the left, a small stack of two hardcover books topped with a small shallow ceramic dish holding a tiny sculptural white object in the center, and a tall matte black ovoid ceramic vase holding a generous arrangement of dried pampas grass plumes in warm golden-caramel tones on the right. The wall behind is a broad expanse of heavily textured marmorino or Venetian plaster in warm greige with swirling cloud-like marks of beige, grey, and pale umber layered across the surface, catching the light unevenly. At the far right edge of the frame, a floor-length curtain panel in warm sandy linen hangs, partially cropped. Warm ambient light washes across the plaster from a source above, casting a gentle glow that emphasizes the plaster's texture and illuminates the sideboard surface. The scene has a calm, curated luxury feeling — rich in material texture and very low in visual noise. Camera is at standing eye-level, shooting with a normal lens in a centered frontal composition that places the sideboard horizontally across the lower third and the wall above. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

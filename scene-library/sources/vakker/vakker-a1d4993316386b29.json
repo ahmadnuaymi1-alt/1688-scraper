@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-a1d4993316386b29",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/aterion-alabaster-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Aterion_Alabaster_Floor_Lamp75.png?v=1778092509",
+  "scraped_date": "2026-05-21T15:53:22.751Z",
+  "source_title": "Aterion Alabaster Floor Lamp",
+  "source_product_type": "Floor lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "a1d4993316386b29bb81eccb01d47805b7e17328",
+  "description": "A living room photographed at standing eye-level with a wide lens, framing a wide establishing three-quarter view that takes in the full seating area and the corner where the floor element stands. The walls are smooth warm cream plaster, barely textured. A large abstract painting in muted brown and sandy beige earth tones leans against or hangs above the fireplace, which has a clean white surround. The floor is a flat-weave natural jute rug. A deep forest-green rounded velvet armchair with a curved back sits in the center-left foreground, its profile oriented at a slight angle toward the viewer. A low dark-stained round coffee table holds a stack of books and a ceramic vase with dried botanicals. To the right, a tall floor-standing element on a dark round base stands in the corner with a cream-toned diffusing element; a warm amber glow radiates from it at floor-standing height, pooling on the surrounding floor and wall corner. A potted olive tree in a large natural planter fills the far right background. The mood is editorial and serene, with a quiet luxury. Color palette is warm neutral with forest green. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "fireplace",
+      "plaster"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.173Z"
+}

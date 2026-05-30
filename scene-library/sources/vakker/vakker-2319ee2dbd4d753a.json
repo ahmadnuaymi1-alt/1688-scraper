@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-2319ee2dbd4d753a",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/mian-alabaster-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/MianAlabasterPendantLamp_3.jpg?v=1778555947",
+  "scraped_date": "2026-05-21T12:20:10.265Z",
+  "source_title": "Mian Alabaster Pendant Lamp",
+  "source_product_type": "Pendant light",
+  "width": 790,
+  "height": 1069,
+  "content_sha1": "2319ee2dbd4d753aee0d5771e9e0c3da02517ff3",
+  "description": "A close-up interior vignette photographed at seated eye level, approximately 3–4 feet from the ground, using a normal-to-telephoto lens with shallow depth of field that isolates the mid-ground sharply while blurring both the foreground right edge and the background upper-left corner into soft bokeh. The composition is off-center, weighted toward the center-right of the frame, with the background receding into softly diffused curtain fabric.\n\nThe backdrop is floor-to-ceiling sheer linen or voile drapery in an off-white ivory tone, hung in loose vertical folds that catch diffused ambient light and create a luminous, hazy depth behind the scene. The curtains suggest a window source behind them, contributing to the overall warm, glowing atmosphere of the space.\n\nIn the mid-ground, a slender potted plant — likely an asparagus fern or similar feathery-leafed species — sits in a small woven rattan or grass basket planter positioned on a dark surface. The plant's fine, bright green fronds radiate outward in a light, airy silhouette, providing the only saturated color note in the otherwise warm neutral palette.\n\nThe surface beneath the arrangement appears to be a dark-stained wood or lacquered table or shelf, nearly black, visible only as a thin horizontal band at the very bottom of the frame.\n\nWarm golden light pools softly throughout the scene — a diffused ambient glow emanates from the upper areas of the frame and from the right foreground, washing the curtain fabric and plant in honey-toned illumination. A secondary warm glow blooms softly in the upper-left background, contributing depth and layering to the light environment without hard shadows. The overall light quality is soft, even, and enveloping, with no harsh directionality.\n\nThe color palette is tightly warm neutral — ivory, cream, honey gold, brass, and deep warm black — with a single accent of fresh sage-green from the plant foliage. The mood is serene and meditative, evoking a quiet residential interior with considered, minimal styling.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:38:05.117Z"
+}

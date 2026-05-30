@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-19f1f2ded3eb0201",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-wall-reading-light-minimalist-bedside-metal-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_7e6ad6e4-54f4-40c0-9b0f-78807990549b.jpg?v=1778838585",
+  "scraped_date": "2026-05-21T12:02:28.967Z",
+  "source_title": "LED Wall Reading Light Minimalist Bedside Metal Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "19f1f2ded3eb02015b36137abcfb0fa3a79f1c44",
+  "description": "A refined, Scandinavian-influenced commercial interior with a counter seating bar running along a wall of floor-to-ceiling glazing. The wall and counter construction is entirely in light natural ash or white oak — flat-panel wood cladding forms a rhythm of vertical bays separated by thin wood mullions, with a continuous narrow shelf counter at bar height running the full length. Simple high counter stools in the same light natural ash wood with straight ladder backs and slatted seats are tucked under the counter. The floor is warm red terracotta or brick-tone tile in a square grid pattern. On the right side, a large round column wrapped in thick coiled rope creates a striking textural accent — its base transitions to a stepped marble disc plinth. Beyond the glazing, a courtyard or urban exterior with architectural concrete forms is visible in daylight. In the upper portion of each wood bay panel, recessed framed box elements break the cladding — appearing as inset panels or storage. Along the counter's vertical wood back panel, small polished brass cylindrical up-down directional wall-mount elements are affixed at counter level, each casting a controlled warm amber downward glow onto the counter surface and a secondary upward wash against the wood panel above. The overall aesthetic is quiet, warm, and architecturally precise. Camera at standing eye-level, normal-to-telephoto lens, off-center perspective view looking along the length of the counter bar, with the column and the window wall creating depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.052Z"
+}

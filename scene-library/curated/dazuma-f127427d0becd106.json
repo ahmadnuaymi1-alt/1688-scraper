@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-f127427d0becd106",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f127427d0becd106.jpg",
+  "source_url": "https://dazuma.us/products/vintage-glass-light-pendant-minimalist-art-led-ceiling-light",
+  "description": "A warm farmhouse-style kitchen photographed at standing eye-level in a three-quarter view showing the island counter in the foreground and the main kitchen wall in the background, slightly out of focus. The ceiling has a large exposed dark walnut or reclaimed dark wood beam running horizontally across the upper frame, its raw rough-hewn texture providing rustic contrast to the painted cabinetry below. Upper cabinets are inset-panel painted in cream-white. A white subway tile backsplash runs across the back wall in a classic brick-set pattern. Open floating walnut wood shelves bracket the backsplash, holding glass canisters, small plants in ceramic pots, and trailing vines of pothos that spill downward. The kitchen island countertop in the foreground is tiled in warm cream-ivory square matte zellige or terracotta-style tiles, giving the surface handmade texture. On the counter: two artisan bread loaves on a wood cutting board, a small white ceramic bowl, a glass storage jar of oats, a glass vase with fresh white wildflowers and green stems, and a stainless fork. A matte black vintage-style gooseneck faucet rises from the island sink. The floor and back kitchen layout recede softly behind. The overall palette is creamy white cabinetry, dark walnut, warm ivory tile, sage green plants, and warm brass. Warm golden filament light glows at the island level. Camera is at standing height, off-center three-quarter view slightly from the right, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

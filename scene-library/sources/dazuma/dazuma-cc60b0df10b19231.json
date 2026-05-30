@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-cc60b0df10b19231",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/long-linear-wall-sconce-modern-accent-led-wall-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_2515ecc0-0cba-4658-896e-145f2d4c5f81.jpg?v=1778838638",
+  "scraped_date": "2026-05-21T12:02:28.338Z",
+  "source_title": "Long Linear Wall Sconce Modern Accent LED Wall Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cc60b0df10b19231fba86a5088281bf011178f87",
+  "description": "A deeply moody restaurant or lounge dining interior photographed at standing eye-level with a normal lens, using a wide establishing composition that reveals a full banquette seating arrangement along the back wall. The entire back wall and ceiling are clad in rich dark espresso-brown toned panels, likely a dark-stained wood veneer or lacquered finish, creating an enveloping cave-like warmth. Three vertical thin strips of intense warm amber glow run from near-ceiling to mid-wall height at regular intervals along the back wall, each emitting a razor-thin line of bright orange-gold light that blooms slightly against the dark panel surface, creating dramatically glowing vertical accents. The ceiling repeats the same dark panel treatment, intensifying the enclosure. Along the back wall runs a continuous banquette upholstered in smooth cognac tan leather with clean stitching, its warm tone harmonizing with the amber glows above. In front of the banquette are square tables with light natural oak tops on dark bronze pedestal bases, each table set for two. Flanking the tables are low barrel-shaped armchairs upholstered in slate-blue teal velvet with wide curved backs, their cool tone providing strong contrast against the warm amber-brown palette of the space. The floor is a large-format light warm stone tile. The overall atmosphere is intimate, editorial, and formally moody. Camera is at standing eye-level with a slight downward pitch, capturing a slightly angled three-quarter view looking down the banquette toward the far wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "dusty_blue"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.836Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-c4b6069ac6d80eeb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/american-country-style-vintage-wrought-iron-floor-lamps-fabric-shade-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_4c385df3-ae23-439a-98cb-b74514ee1952.jpg?v=1758852690",
+  "scraped_date": "2026-05-21T15:52:51.863Z",
+  "source_title": "Vintage Wrought Iron Floor Lamps Country Style Fabric Shade Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c4b6069ac6d80eeb8b22dd37f6ed5fb98ef14a2d",
+  "description": "A living room corner photographed at standing eye-level with a normal lens, capturing a wide three-quarter view showing the space between two sofas and a side table. The walls are plain off-white with a faint warm tone. A small walnut-toned side table or console surface against the back wall is loaded with an assortment of decorative objects: a large dark amethyst crystal cluster column standing tall (approximately 50cm), a small bronze Buddha figurine, a golden ingot-form object, a small white crystal figurine, and a stacked arrangement of dark rectangular books or plaques. A colorful oil-painting on canvas depicting a mountain landscape in vivid blues, greens, and whites leans against the wall behind the side table. Heavy floor-to-ceiling curtains in medium warm gray velvet are drawn at the right, covering a full-height window. At the left, a caramel-tan leather armchair is partially in frame, and a gray upholstered sofa arm is at the right. A warm pool of amber-white illumination floods the upper portion of the wall and the side table area from a warm source, casting dramatic upward triangular wall warmth that defines the corner. The floor appears to be light laminate wood. The mood is casual and lived-in with an eclectic East Asian-domestic aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cobalt",
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.780Z"
+}

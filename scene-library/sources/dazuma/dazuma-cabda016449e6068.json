@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-cabda016449e6068",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/black-up-down-wall-lights-geometric-landscape-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-up-down-wall-lights-contemporary-patio-seating-area.jpg?v=1774836361",
+  "scraped_date": "2026-05-21T12:04:07.483Z",
+  "source_title": "Black up down Wall Lights Geometric Landscape Decorative Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cabda016449e606877f2bb3445fe56b3b5779bbe",
+  "description": "A Craftsman-style covered front porch photographed at standing eye-level with a normal lens in a centered symmetrical composition facing the entry. The house exterior features wide horizontal grey-painted shiplap board-and-batten siding. The porch structure has white-painted square fluted columns resting on chunky natural fieldstone piers at grade, supporting a white-painted ceiling of horizontal tongue-and-groove boards. A pair of white-framed French double doors with a large divided-light window grid forms the central entry. On either side of the French doors, warm amber light fans both upward and downward against the grey siding, illuminating the wall face in soft golden pools. The ceiling above catches warm reflected light from both fixture positions. The porch floor is laid in a pattern of large pale travertine pavers alternating with dark grey granite squares at the perimeter, with a natural stone column base at the right leading down to the driveway. Two outdoor armchairs in natural teak frames with woven natural fiber backs and thick white cushions sit side by side on the left half of the porch. A large grey weathered concrete urn planted with a clipped boxwood ball stands to the right of the door. Dark green boxwood shrubs line the right porch boundary. The palette is composed of grey siding, white trim, warm honey teak, dark-charcoal metal fixtures, and stone — all cohesive and classically restrained. The atmosphere is welcoming, residential, and transitional between traditional and contemporary. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "french_door",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.822Z"
+}

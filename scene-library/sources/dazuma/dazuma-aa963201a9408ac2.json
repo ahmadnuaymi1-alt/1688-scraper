@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-aa963201a9408ac2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/european-style-cylinder-table-lamps-decorative-ornament-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-plum-gold-cylinder-table-lamps-bedside-table.jpg?v=1768964666",
+  "scraped_date": "2026-05-21T15:52:39.633Z",
+  "source_title": "Cylinder Table Lamps European Style Decorative Ornament Metal Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "aa963201a9408ac2a2e6e8a8c3a099d3bc47f396",
+  "description": "A clean, bright bedroom vignette photographed at standing eye-level showing the area beside the bed in sharp detail. The background wall is a soft warm blush pink — a muted rose tone that fills the upper two-thirds of the frame and gives the room a serene, feminine warmth. A mid-century modern platform bed headboard in rich dark walnut wood with a bold flat-panel grain fills the left portion of the frame, dressed with a white linen pillowcase and a warm cognac-brown woolen throw or blanket. To the right of the headboard, a modern two-drawer white painted nightstand features a narrow horizontal recessed pull in warm cognac-stained wood — an elegant detail that echoes the headboard material. The warm ambient glow from a surface source pools softly on the nightstand top and diffuses onto the wall behind it. The scene carries a sophisticated color conversation between blush, plum, cognac, and walnut. Camera is at standing eye-level, roughly 5–6 feet high, with a normal-to-telephoto lens, in a three-quarter corner composition showing the bed and nightstand side by side. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.662Z"
+}

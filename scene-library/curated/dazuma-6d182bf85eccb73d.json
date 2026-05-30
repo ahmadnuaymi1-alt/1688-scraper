@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-6d182bf85eccb73d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6d182bf85eccb73d.jpg",
+  "source_url": "https://dazuma.us/products/disc-pendant-light-modern-luxury-marble-single-ceiling-light",
+  "description": "A refined minimalist dining room anchored by a round table with a white Carrara marble top and a dark walnut tulip-style pedestal base. Three low-profile barrel chairs upholstered in cream bouclé with light oak legs surround the table, their soft texture adding tactile warmth against the smooth stone. On the table sits a rough-textured sand-finish ceramic vase overflowing with a generous arrangement of fresh olive branches and green foliage. Behind the table, a floor-standing fluted light oak credenza spans the back wall; a framed botanical watercolor print in a natural wood frame leans casually against it, depicting soft pink and green wildflowers on a cream ground. The back wall is a warm greige plaster tone, smooth and unadorned. Floor-to-ceiling sheer white linen curtains billow softly at the right side, diffusing bright natural daylight that streams in from a large glass balcony window revealing a lush green tree canopy beyond. The floor is wide-plank pale blond hardwood. A warm, softly luminous glow emanates downward from the ceiling zone above the table center, pooling gently over the marble surface and the vase arrangement. The atmosphere is gallery-calm, Japandi-influenced, with a curated restraint in every element. Camera is at standing eye-level, slightly off-center angled view of the corner of the room, capturing the full table and credenza wall with the window on the right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "vakker-79b8467e2657bb86",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-79b8467e2657bb86.jpg",
+  "source_url": "https://vakkerlight.com/products/mian-alabaster-pendant-lamp",
+  "description": "A quiet, modern Scandinavian interior vignette with soft neutral tones. The background is composed of smooth painted walls in a cool, pale grey-white — two planes meeting at an interior corner visible at the right. The right wall has a subtle raised relief or applied rectangular panel detail in a slightly darker tone, adding quiet architectural texture. In the lower left of the frame, the corner of a framed artwork with a thin metal frame is partially visible. Below center, a blonde ash or pale oak surface — possibly a headboard, bed frame top rail, or console ledge — runs horizontally across the lower third of the frame, its pale honey-wood grain clearly visible. Suspended at center from a thin matte-black cord with a cylindrical brushed brass cap fitting, a sculptural alabaster or rough-hewn white marble sphere — its base irregularly cut to expose raw crystalline edges — glows warmly from within, its creamy rose-tinged stone rendering a soft diffused amber halo against the grey wall behind. Camera at standing eye-level, centered composition isolating the suspended form against the wall, normal to slightly telephoto lens, level pitch, tight surface vignette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

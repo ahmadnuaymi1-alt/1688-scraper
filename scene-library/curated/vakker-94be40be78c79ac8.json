@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-94be40be78c79ac8",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-94be40be78c79ac8.jpg",
+  "source_url": "https://vakkerlight.com/products/petal-alabaster-dome-staircase-chandelier",
+  "description": "A minimal vignette composition photographed at seated eye-level with a normal lens, centered symmetrically and showing only a portion of a surface and the soft backdrop behind it. Sheer white linen curtains hang in soft vertical folds behind, filtering bright diffuse daylight and creating a pale, airy background with subtle stripe texture. On the white surface below sits a terracotta pot holding a compact dried floral arrangement in muted blush and dusty rose tones — papery, globe-shaped blooms clustered densely. Beneath the pot rests a slim coffee-table book with a glossy transparent cover, its corners visible at the bottom of the frame. Above the surface, a warm amber-golden glow radiates downward from an unseen point higher in the frame, illuminating the dried blooms and casting a moon-like warmth across the pale surface. The overall mood is serene and quietly editorial, with the warm amber glow contrasting beautifully against the cool diffuse daylight filtering through the linen. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

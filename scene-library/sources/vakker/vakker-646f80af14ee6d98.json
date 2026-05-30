@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-646f80af14ee6d98",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-bell-cluster-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17785731701930.png?v=1778651651",
+  "scraped_date": "2026-05-21T12:20:05.432Z",
+  "source_title": "Alabaster Bell Cluster Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "646f80af14ee6d98894c56a41892b4fc741f8cc8",
+  "description": "A bright, Scandinavian-minimalist foyer and staircase with a warm organic aesthetic. An open-tread staircase curves upward along the right side — the treads are solid light oak or blonde ash planks with no risers, mounted against a smooth curved plaster wall in warm taupe. The stair structure transitions to a round sculptural post at the base. At the upper landing, a framed artwork in abstract warm earth tones leans or hangs against the wall. On the left side of the foyer, a large potted olive tree in a round woven basket planter sits on a natural fiber jute rug, its silver-grey branches arching gracefully. The left wall is smooth plaster in the same warm taupe. A tall full-length window at the far right floods the entry with cool natural sidelight. Multiple elongated frosted alabaster or opal glass bottle-forms hang on thin brass cords at staggered heights in a grouped spiral cascade beside the staircase — each glowing softly with warm internal illumination. Camera at standing eye-level, wide establishing composition showing both the stair and the foyer floor together, normal to wide lens, level pitch, full room view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.114Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-a4547c722f973895",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a4547c722f973895.jpg",
+  "source_url": "https://dazuma.us/products/midcentury-modern-chandeliers-molecular-ceiling-light",
+  "description": "A grand formal living room photographed at standing eye-level with a wide establishing centered symmetrical composition, capturing the full width of the room and the dramatic arched French door wall beyond. The ceiling is white painted shiplap-style planking with a subtle coffered surround at the perimeter, giving the space a refined architectural character. Two tall arched full-height French door sets with black steel frames and multiple rectangular glass panes command the far wall, with white full-length drape panels gathered to either side; through them, a backyard swimming pool in bright blue-green glimmers in daylight. The floor is pale wide-plank light oak or bleached hardwood with a large cream-toned area rug. The furniture arrangement is symmetrical: two cream bouclé barrel armchairs with slender brass-tipped legs face each other across a large low rectangular coffee table in near-black stained wood, stacked with books and holding a glass bud vase with greenery. A long cream sofa flanks the left, a tufted bench or low ottoman to the right. Marble side surfaces appear at the far left. The palette is monochromatic cream, chalk white, pale oak, and the punctuation of matte black on the window frames and coffee table. Mood is formal, refined, and luminously bright. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "arched_doorway",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

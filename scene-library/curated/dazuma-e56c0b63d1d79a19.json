@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-e56c0b63d1d79a19",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e56c0b63d1d79a19.jpg",
+  "source_url": "https://dazuma.us/products/led-solar-lanterns-outdoor-solar-waterproof-portable-ambience-light",
+  "description": "A moody nighttime outdoor garden vignette photographed at low camera height — approximately two to three feet off the ground — with a normal-to-telephoto lens and centered symmetrical composition. The scene captures a polished grey slate patio floor meeting a raised garden bed retaining wall clad in veined white-grey marble slabs. Behind the wall, a lush dense planting of tropical foliage fills the frame: oversized Monstera deliciosa leaves dominate the upper left, ferns cascade over the wall edge, and dense green groundcover and tropical specimens create a layered botanical backdrop that dissolves into deep shadow. A continuous warm amber glow traces the base of the marble retaining wall, emanating from a low-mounted linear source tucked under the coping — casting a honeyed wash across the slate floor and illuminating the wall face with a soft upward gradient. The overall scene is very dark, with deep teal-black shadows framing the composition; only the central zone is lit, creating an intimate theatrical pocket within the garden. The foreground catches a few soft green leaf forms, slightly out of focus, adding depth. The palette is forest green, charcoal, warm amber, and cool marble white. The mood is dramatic and nocturnal, evoking a curated private garden at night. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

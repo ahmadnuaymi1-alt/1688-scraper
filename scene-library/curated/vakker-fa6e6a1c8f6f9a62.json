@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-fa6e6a1c8f6f9a62",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-fa6e6a1c8f6f9a62.png",
+  "source_url": "https://vakkerlight.com/products/nocturne-bloom-figure-floor-lamp",
+  "description": "A dark and glamorous urban living room photographed at standing eye-level with a normal lens, capturing a wide three-quarter view of a sitting area. A deep charcoal velvet barrel armchair with slim dark tapered legs sits center-right, its cushions tufted slightly. A round pedestal side table in warm walnut stands to the left of the chair, its surface holding a small round vase and a few objects. A tall sculptural floor-standing form in dark patinated bronze or matte black stands to the left of the chair — its organic figurative shape with multiple globes glowing softly white at mid and upper body level. The globes emit a soft, diffuse white light that glows evenly at floor and mid-height levels, casting gentle ambient illumination around the base and the surrounding floor. The floor is a dark, low-pile wool rug. Floor-to-ceiling glass windows in the background reveal a city skyline at twilight — dark blue sky with the warm glow of city lights visible through the glass. The walls are finished in warm gray plaster or concrete. Several large potted tropical plants with broad leaves contribute lush green accents. The palette is dark and glamorous — charcoal, matte black, warm walnut, deep blue-gray, with white globe glow as the focal accent. The mood is dramatic with a sophisticated urban quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

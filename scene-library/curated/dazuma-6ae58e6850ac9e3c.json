@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-6ae58e6850ac9e3c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6ae58e6850ac9e3c.jpg",
+  "source_url": "https://dazuma.us/products/nordic-light-pendant-creative-minimalist-decorative-ceiling-light",
+  "description": "A serene dining area photographed at standing eye-level with a normal lens, framing a three-quarter view of the dining table set against a wall of black-framed floor-to-ceiling windows. The raw wood dining table in pale honey oak occupies the center of the frame, dressed with a loosely draped linen runner in warm grey. Atop the table sits a large round stoneware vase in a muted caramel glaze holding an airy arrangement of dried amber foliage branches. Three taupe upholstered dining chairs with curved wooden frames are visible along the far side of the table, and a built-in bench runs along the window wall, dressed with plush linen cushions and a stack of textured throw pillows in cream and natural raffia. The windows are black steel-framed with slender mullions, admitting abundant diffuse daylight through sheer cream linen drapes that soften the light into a warm, even glow across the space. Beyond the glass, a mature olive tree and warm golden foliage are visible, reinforcing the California-influenced aesthetic. The ceiling is clad in warm natural teak wood planks running in a linear pattern, adding material warmth overhead. Two downward-facing golden brass domes hang above the table, casting warm amber pools of light downward onto the surface. The mood is calm, organic, and quietly sophisticated with a Californian ease. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

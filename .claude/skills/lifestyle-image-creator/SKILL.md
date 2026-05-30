@@ -1,16 +1,16 @@
 ---
 name: lifestyle-image-creator
-description: Generate 6 unique editorial lifestyle / in-context product photographs by driving higgsfield.ai's Nano Banana Pro flow through a stealthed Playwright browser. Each 6-batch is SPLIT 50/50 — 3 MINIMALIST scenes (gallery-presented hero, tight 25-35% framing, low density, drawn from a 10-brand archetype menu: Dazuma-vaulted, Visual-Comfort-moody, McGee-moody-library, Amber-warm-Cali, Schoolhouse-craft, Pierre-saturated-plaster, deVOL-English-country, Cedar&Moss-gallery, Pottery-Barn-lived-in, Japandi-Scandi-minimalist) and 3 HOMEY scenes (lived-in / layered / decorated, wider 15-25% framing, mid-density 3-5 objects per surface, drawn from a 7-archetype interior-designer menu: Caillier-PNW, Amber-warm-Cali-lived-in, Heuman-British-eclectic, Stoffer-Michigan-kitchen, Bartholomew-Southern-traditional, Sikes-blue-and-white, EyeSwoon-curated-artisan). Homey scenes ENFORCE the PRODUCT-COLOR-ECHO rule (the room repeats the product's metal finish + dominant textile color in 2+ other elements), pattern stacking 1+1+1 tied by a shared color, wood-tone mixing, textile layering, living plant matter, and a "just-here" cue. VARIANT ROTATION — if the product has multiple visible variants, the script cycles through the hero pool across the 6 slots (3 variants → slots 1,2,3,1,2,3; 6 variants → one each; 1 variant → all 6 share it). Each scene uses ONE distinct compatible archetype + ONE distinct camera angle from a 9-angle vocabulary + ONE distinct appropriate room for that lighting category. Universal anti-tropes: zero people / pets / portraits-of-people / alcohol / casual-electronics / food-prep / Chinese-characters. Output: 6 lifestyle PNGs saved to Supabase as ProductImage rows with imageType="lifestyle". ALWAYS asks "single-unit or multi-unit?" before invoking. Invoke when the user says "make lifestyle images" / "generate lifestyles" / "lifestyle shots" / "in-context images" / "/lifestyle-image-creator", OR pastes a /review/<productId> URL and asks for lifestyle / scene / room images, OR just generated heroes and says "now do lifestyles". Mode A (local DB product) only. Requires heroes to exist first — if none, suggest /hero-image-creator first.
+description: Generate 6 unique editorial lifestyle / in-context product photographs by driving higgsfield.ai's Nano Banana Pro flow through the official Higgsfield CLI (`higgsfield generate create nano_banana_2 …`). Each 6-batch is SPLIT 50/50 — 3 MINIMALIST scenes (gallery-presented hero, tight 25-35% framing, low density, drawn from a 10-brand archetype menu: Dazuma-vaulted, Visual-Comfort-moody, McGee-moody-library, Amber-warm-Cali, Schoolhouse-craft, Pierre-saturated-plaster, deVOL-English-country, Cedar&Moss-gallery, Pottery-Barn-lived-in, Japandi-Scandi-minimalist) and 3 HOMEY scenes (lived-in / layered / decorated, wider 15-25% framing, mid-density 3-5 objects per surface, drawn from a 7-archetype interior-designer menu: Caillier-PNW, Amber-warm-Cali-lived-in, Heuman-British-eclectic, Stoffer-Michigan-kitchen, Bartholomew-Southern-traditional, Sikes-blue-and-white, EyeSwoon-curated-artisan). Homey scenes ENFORCE the PRODUCT-COLOR-ECHO rule (the room repeats the product's metal finish + dominant textile color in 2+ other elements), pattern stacking 1+1+1 tied by a shared color, wood-tone mixing, textile layering, living plant matter, and a "just-here" cue. VARIANT ROTATION — if the product has multiple visible variants, the script cycles through the hero pool across the 6 slots (3 variants → slots 1,2,3,1,2,3; 6 variants → one each; 1 variant → all 6 share it). Each scene uses ONE distinct compatible archetype + ONE distinct camera angle from a 9-angle vocabulary + ONE distinct appropriate room for that lighting category. Universal anti-tropes: zero people / pets / portraits-of-people / alcohol / casual-electronics / food-prep / Chinese-characters. Output: 6 lifestyle PNGs saved to Supabase as ProductImage rows with imageType="lifestyle". ALWAYS asks "single-unit or multi-unit?" before invoking. Invoke when the user says "make lifestyle images" / "generate lifestyles" / "lifestyle shots" / "in-context images" / "/lifestyle-image-creator", OR pastes a /review/<productId> URL and asks for lifestyle / scene / room images, OR just generated heroes and says "now do lifestyles". Mode A (local DB product) only. No browser involved — pure CLI invocations, parallelized via a concurrency cap.
 ---
 
-# Lifestyle Image Creator (Higgsfield)
+# Lifestyle Image Creator (Higgsfield CLI)
 
 ## What this skill does
 
-Drives Higgsfield's web UI through a stealthed Playwright browser to generate 6 lifestyle images for one product. Each image:
+Drives the official Higgsfield CLI (`higgsfield upload create …` + `higgsfield generate create nano_banana_2 …`) to generate 6 lifestyle images for one product. Each image:
 - Uses a product variant as the reference, cycling through the hero pool (see variant rotation below)
 - Gets a UNIQUE Claude-designed scene prompt produced by the five-step framework
-- Is generated in parallel with the other 5 (one Higgsfield tab per scene)
+- Is generated in parallel with the other 5 (one CLI invocation per scene, concurrency-capped)
 - Lands in Supabase as a `ProductImage` row (`imageType="lifestyle"`, `variantId=null`)
 
 ### Variant rotation across the 6 slots
@@ -25,7 +25,7 @@ The script reads the product's visible variants and builds a hero pool (one entr
 | 6 | one slot per variant |
 | 4-5 or 7+ | round-robin |
 
-So a product with 3 visible variants will see all 3 represented across the 6 lifestyle images. The cycling logic lives at [scripts/_lifestyle-image-creator.ts:272-279](../../../scripts/_lifestyle-image-creator.ts#L272).
+So a product with 3 visible variants will see all 3 represented across the 6 lifestyle images. The cycling logic lives in [scripts/_lifestyle-image-creator.ts](scripts/_lifestyle-image-creator.ts).
 
 ### The five-step framework (run internally by Claude before every batch)
 
@@ -91,9 +91,6 @@ Invoke when the user:
 - Pastes a review URL and asks for lifestyle / scene / room images.
 - Just finished hero generation and says "now do lifestyles" or similar.
 
-**Do NOT invoke**:
-- If the product has zero heroes — suggest `/hero-image-creator` first. The script will hard-gate this anyway.
-
 ## ALWAYS ask before invoking: single-unit or multi-unit?
 
 Higgsfield is good at compositing identical-variant repetition into one frame but BAD at mixing variants. Ask the user:
@@ -108,71 +105,59 @@ A `productId` (cuid) or a review URL containing `/review/<productId>`. Auto-dete
 
 ## Pipeline
 
-- **Driver**: Playwright (`playwright-extra` + stealth) launching the user's real Chrome with the persistent `%TEMP%/scene/higgsfield-session` profile — the same one the hero generator uses. Login state carries across runs.
-- **Higgsfield UI**: 2K resolution + 1:1 aspect ratio set as a one-time UI click before the prompt loop. Then 6 tabs open in parallel.
-- **Reference attachment**: each tab uploads ONE reference image — the variant's hero PNG (downloaded from Supabase to a temp file). No positioning template (that was a hero-shot thing).
-- **Scene prompts** are generated up-front by a single Claude call via `src/services/lifestyle-scene-designer.service.ts`. The system prompt is a tight ~80-line Dazuma rule set extracted from the dazuma-aesthetic skill. Returns 6 scenes as `{ slug, prompt, variantPosition }`.
-- **Parallel coordination**: the wrapper's existing `claimedUrls` set prevents two tabs from claiming the same generated-image URL.
-- **Auto-retry**: on Higgsfield's "Failed — Credits refunded" widget, the wrapper auto-clicks Retry up to 2 times per slot. Only after all retries fail is the slot dropped (the other 5 still attach).
+- **Driver**: the official `higgsfield` CLI invoked via `child_process.spawn` with Windows-safe quoting. No browser, no profile, no captchas — the CLI is bound to the logged-in account via its own credentials.
+- **Model**: `nano_banana_2` (Nano Banana Pro), 2K resolution, 1:1 aspect ratio.
+- **Reference attachment**: each scene uploads ONE reference image — the variant's hero PNG (downloaded from Supabase to a temp file) — and passes it as a single `media_input` in `--input_images`. No positioning template (that's a hero-shot thing).
+- **Scene prompts** are generated up-front by a single Claude call via [src/services/lifestyle-scene-designer.service.ts](src/services/lifestyle-scene-designer.service.ts). The system prompt is a tight ~80-line Dazuma rule set extracted from the dazuma-aesthetic skill. Returns 6 scenes as `{ slug, prompt, variantPosition }`.
+- **Concurrency**: default 6 parallel CLI invocations (all scenes at once) via the shared `makeLimit` helper. Tune with `--concurrency N`. Drop to 1 for fully sequential.
+- **Upload caching**: the same reference image is uploaded to Higgsfield once per batch even if multiple scenes share it (sister-variant scenes).
 
 ## Workflow
 
 When invoked:
 
-1. **Pre-flight** — kill any stale Higgsfield Chrome holding the profile lock:
-   ```ps1
-   Get-CimInstance Win32_Process -Filter "Name='chrome.exe'" |
-     Where-Object { $_.CommandLine -like "*higgsfield-session*" } |
-     ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
-   ```
-2. **Confirm single-unit vs multi-unit** with the user (see above).
-3. **Run the script**:
+1. **Confirm single-unit vs multi-unit** with the user (see above).
+2. **Run the script**:
    ```bash
-   npx tsx scripts/_lifestyle-image-creator.ts <reviewURL> --headed
+   npx tsx scripts/_lifestyle-image-creator.ts <reviewURL>
    # or multi-unit:
-   npx tsx scripts/_lifestyle-image-creator.ts <reviewURL> --multi-unit 3 --headed
-   # or dry-run (no Higgsfield calls — just prints designed scenes):
+   npx tsx scripts/_lifestyle-image-creator.ts <reviewURL> --multi-unit 3
+   # or throttle:
+   npx tsx scripts/_lifestyle-image-creator.ts <reviewURL> --concurrency 2
+   # or dry-run (no CLI calls — just prints designed scenes):
    npx tsx scripts/_lifestyle-image-creator.ts <reviewURL> --dry-run
    ```
-   `--headed` shows the browser so the user can solve any rare security check; `--keep-open` leaves the browser open after for inspection.
-4. **Watch the run** — the script logs the scene design output, the Higgsfield progress per slot, and the per-output DB attach.
-5. **Report when done**:
+3. **Watch the run** — the script logs the scene design output, the CLI progress per slot (`[N/6] OK Xs slug`), and the per-output DB attach.
+4. **Report when done**:
    - N/6 succeeded count
    - Wall time
    - Review URL: `http://localhost:3000/review/<productId>`
-   - If any slots failed, mention them. Re-running generates a fresh set of 6 (not idempotent in v1).
+   - If any slots failed, mention them. Re-running generates a fresh set of 6 (not idempotent in v3).
 
-## Failure modes the wrapper handles
+## Failure modes
 
-- **Higgsfield "Failed" widget** — auto-retry up to 2× per slot.
-- **Profile lock from prior run** — pre-flight kill clears it.
-- **Slug collision** — slugs include the slot index, no two slots collide.
-- **Claude scene-designer returns fewer than 6 scenes** — the service pads by repeating the last valid scene with a `-padN` suffix.
-
-## Failure modes the operator handles
-
-- **Captcha widget** appears in the live browser — the user solves it manually (the wrapper detects Retry buttons, not full captcha widgets).
-- **Higgsfield login expired** → user signs back in once; persistent profile remembers thereafter.
-- **All retries failed for a slot** → that slot is dropped; other slots still attach. Re-run if you want a complete 6.
+- **CLI generate failure** (rate limit, account flag, transient backend error) → that slot is logged as FAIL; the other 5 still attach. Re-run if you want a complete 6.
+- **CLI binary missing** → "command not found" surfaces from the spawn. Install Higgsfield's CLI and ensure `higgsfield` is on PATH.
+- **Claude scene-designer returns fewer than 6 scenes** → the service pads by repeating the last valid scene with a `-padN` suffix.
 
 ## Critical files
 
-- `scripts/_lifestyle-image-creator.ts` — the entry point (resolves product → scenes → reference downloads → Higgsfield → DB attach).
-- `scripts/_higgsfield-lifestyle.ts` — the Playwright wrapper, shared with hero generation. Hosts `runHiggsfieldBatch`, stealth, parallel tabs, claim coordination, retry detection.
-- `src/services/lifestyle-scene-designer.service.ts` — Claude-driven per-product scene prompt designer. Edit the inlined `DAZUMA_SCENE_SYSTEM_PROMPT` to change scene direction.
+- [scripts/_lifestyle-image-creator.ts](scripts/_lifestyle-image-creator.ts) — entry point (resolves product → scenes → reference downloads → CLI batch → DB attach).
+- [scripts/_higgsfield-cli.ts](scripts/_higgsfield-cli.ts) — shared CLI wrapper (`higgsfieldUpload`, `higgsfieldGenerate`, `runHiggsfieldCliBatch`, `makeLimit`). Shared with hero generation.
+- [src/services/lifestyle-scene-designer.service.ts](src/services/lifestyle-scene-designer.service.ts) — Claude-driven per-product scene prompt designer. Edit the inlined `DAZUMA_SCENE_SYSTEM_PROMPT` to change scene direction.
 - `.claude/skills/dazuma-aesthetic/SKILL.md` — the style bible the scene-designer's system prompt is derived from.
 
 ## Invocation in this project
 
 ```bash
-# Clear stale Chrome holding the Higgsfield profile (PowerShell one-liner)
-Get-CimInstance Win32_Process -Filter "Name='chrome.exe'" | Where-Object { $_.CommandLine -like "*higgsfield-session*" } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
-
 # Single-unit (default)
-npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId> --headed
+npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId>
 
 # Multi-unit (3 copies per frame)
-npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId> --multi-unit 3 --headed
+npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId> --multi-unit 3
+
+# Throttle if hitting plan limits
+npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId> --concurrency 2
 
 # Dry run — print scene prompts without calling Higgsfield
 npx tsx scripts/_lifestyle-image-creator.ts http://localhost:3000/review/<productId> --dry-run

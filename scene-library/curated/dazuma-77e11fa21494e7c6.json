@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-77e11fa21494e7c6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-77e11fa21494e7c6.jpg",
+  "source_url": "https://dazuma.us/products/square-solar-post-caps-light",
+  "description": "A dusk residential exterior vignette focused on a single gate pillar or fence column. The column is built from rough textured concrete block in a warm grey tone, with a broad flat cap. A matte dark charcoal metal railing with round ball finial caps runs along the left side. In the soft-focus background, a suburban residential street scene is visible: a white two-story house with a dark roof, a tall palm tree silhouette, dense green hedging, and a clear pale blue twilight sky. Warm amber and cream-toned light radiates horizontally and downward from the post-cap position, illuminating the rough concrete cap surface with a rich warm glow and throwing soft light onto the column face below. The interior structure of the light source glows gold against the cool evening backdrop. The mood is contemporary, tidy, and welcoming. Camera at seated to standing eye-level, off-center thirds vignette composition with the column occupying the right two-thirds of the frame and the street scene providing background, normal to telephoto lens with bokeh background, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

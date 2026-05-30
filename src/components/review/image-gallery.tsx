@@ -16,6 +16,8 @@ export interface GalleryImage {
   storagePath?: string | null;
   fileName?: string | null;
   imageType?: string | null;
+  /** User flag: protect from "Delete originals" bulk action. */
+  keep?: boolean;
 }
 
 interface VariantOption {
@@ -92,6 +94,13 @@ export function ImageGallery({
   const [order, setOrder] = useState<GalleryImage[]>(() => dedupedImages);
   const [pending, setPending] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  // Anchor for shift+click range selection — index of the most recent tile
+  // click plus which action (check / uncheck) was taken. A follow-up
+  // shift+click extends that exact action to the inclusive range, matching
+  // Shopify / Gmail behavior (uncheck the anchor then shift-click → range
+  // gets unchecked; check then shift-click → range gets checked).
+  const [lastSelectedIdx, setLastSelectedIdx] = useState<number | null>(null);
+  const [lastSelectedAction, setLastSelectedAction] = useState<"check" | "uncheck" | null>(null);
   const [bulkDeleting, setBulkDeleting] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [dragOverFiles, setDragOverFiles] = useState(false);
@@ -244,6 +253,33 @@ export function ImageGallery({
     }
   }
 
+  // Toggle the "keep when deleting originals" flag. Applied to ALL sister rows
+  // sharing the same file, so the UI stays consistent with the dedup logic.
+  async function toggleKeep(imageId: string, nextValue: boolean) {
+    const rep = order.find((i) => i.id === imageId);
+    if (!rep) return;
+    const key = rep.storagePath || rep.sourceUrl;
+    const sisterIds = sisterIdsByKey.get(key) ?? [imageId];
+    setPending(imageId);
+    try {
+      await Promise.all(
+        sisterIds.map((sid) =>
+          patchImage(productId, sid, { keep: nextValue }),
+        ),
+      );
+      // Local optimistic update so the star reflects immediately.
+      setOrder((prev) =>
+        prev.map((i) => (i.id === imageId ? { ...i, keep: nextValue } : i)),
+      );
+      toast.success(nextValue ? "Image starred to keep" : "Star removed");
+      onChanged?.();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Failed");
+    } finally {
+      setPending(null);
+    }
+  }
+
   function toggleSelected(repId: string) {
     setSelectedIds((prev) => {
       const next = new Set(prev);
@@ -253,8 +289,48 @@ export function ImageGallery({
     });
   }
 
+  function handleTileClick(e: React.MouseEvent, idx: number, id: string) {
+    // Ignore clicks that originated on an interactive control — buttons,
+    // selects, the checkbox label, etc. — so opening the variant dropdown or
+    // hitting "Set primary" doesn't also flip selection on the underlying tile.
+    const t = e.target as HTMLElement;
+    if (t.closest("button, select, input, a, label")) return;
+
+    if (e.shiftKey && lastSelectedIdx !== null && lastSelectedAction !== null) {
+      // Shift-extend: apply the SAME action (check or uncheck) we did on the
+      // anchor to every tile in the inclusive range. Click #1 to check + shift-
+      // click #7 → 1..7 all checked; uncheck #1 + shift-click #7 → 1..7 wiped.
+      // Anchor stays put so the user can chain further shift-clicks from it.
+      const [lo, hi] =
+        lastSelectedIdx < idx ? [lastSelectedIdx, idx] : [idx, lastSelectedIdx];
+      setSelectedIds((prev) => {
+        const next = new Set(prev);
+        for (let i = lo; i <= hi; i++) {
+          if (lastSelectedAction === "check") next.add(order[i].id);
+          else next.delete(order[i].id);
+        }
+        return next;
+      });
+      return;
+    }
+
+    // Plain click: toggle this tile, remember the resulting action so the
+    // next shift+click knows which direction to fill.
+    const willBeSelected = !selectedIds.has(id);
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (willBeSelected) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+    setLastSelectedIdx(idx);
+    setLastSelectedAction(willBeSelected ? "check" : "uncheck");
+  }
+
   function clearSelection() {
     setSelectedIds(new Set());
+    setLastSelectedIdx(null);
+    setLastSelectedAction(null);
   }
 
   async function bulkDelete() {
@@ -382,12 +458,13 @@ export function ImageGallery({
           <div
             key={img.id}
             draggable
+            onClick={(e) => handleTileClick(e, idx, img.id)}
             onDragStart={() => handleDragStart(img.id)}
             onDragEnd={handleDragEnd}
             onDragOver={(e) => handleDragOver(e, img.id)}
             onDrop={() => handleDrop(img.id)}
             className={cn(
-              "group relative rounded-md border bg-card transition-all",
+              "group relative cursor-pointer rounded-md border bg-card transition-all",
               isDragging && "opacity-50",
               isOver && "ring-2 ring-primary",
               isSelected && "ring-2 ring-destructive",
@@ -417,6 +494,33 @@ export function ImageGallery({
                   <Star className="h-3 w-3" /> primary
                 </span>
               )}
+              {/* Keep-on-delete star toggle. Positioned bottom-left so it
+                  doesn't clash with the "primary" badge or the select checkbox.
+                  Filled = will survive a "Delete originals" run; outlined =
+                  will be deleted. Click stops propagation so it doesn't toggle
+                  the tile's bulk-select state. */}
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  void toggleKeep(img.id, !img.keep);
+                }}
+                disabled={pending === img.id}
+                title={
+                  img.keep
+                    ? "Starred — will be kept when deleting originals. Click to remove star."
+                    : "Click to star — will survive 'Delete originals' bulk actions."
+                }
+                aria-label={img.keep ? "Remove keep star" : "Star to keep when deleting originals"}
+                className="absolute bottom-1 left-1 z-10 inline-flex items-center justify-center rounded-full bg-background/85 p-1 shadow-sm backdrop-blur-sm transition hover:bg-background disabled:opacity-50"
+              >
+                <Star
+                  className={cn(
+                    "h-3.5 w-3.5 transition-colors",
+                    img.keep ? "fill-yellow-400 text-yellow-500" : "text-muted-foreground",
+                  )}
+                />
+              </button>
               {/* Hover overlay: filename + alt text. Fades in on group hover.
                   Pointer-events-none so it doesn't block the checkbox / image
                   drag. Bottom-anchored gradient keeps the product visible at

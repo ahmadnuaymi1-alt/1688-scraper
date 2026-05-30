@@ -1,0 +1,29 @@
+{
+  "scene_id": "vakker-e70d4807e0076313",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-e70d4807e0076313.png",
+  "source_url": "https://vakkerlight.com/products/arch-form-pleated-table-lamp",
+  "description": "A warm sitting room corner photographed at seated eye-level with a normal lens, framing a side table arrangement in a tight three-quarter view. A solid reclaimed-wood side table with chunky straight legs in weathered honey oak sits to the right of a linen armchair. The table surface holds a stack of books, a small ceramic mug, and a natural stoneware vase with a dried botanical arrangement of pampas and preserved stems. The linen sofa is partially visible on the left, draped with a loose-knit oatmeal throw. Sheer linen curtain panels hang at a tall off-frame window, admitting warm directional afternoon light that streams across the plaster wall in golden tones and casts a soft shadow from the seated form. The wall is finished in warm sand-toned textured plaster. A warm amber glow pools at table level, illuminating the tabletop arrangement and nearby wall with soft warmth. The palette is warm neutral throughout — oatmeal, sand plaster, honey oak, dried botanical ivory — with a slightly moodier quality from the directional late-afternoon light. The mood is quiet and sun-drenched. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

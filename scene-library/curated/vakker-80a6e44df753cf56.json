@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-80a6e44df753cf56",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-80a6e44df753cf56.png",
+  "source_url": "https://vakkerlight.com/products/solar-spiral-wall-sconce",
+  "description": "A warm, intimate living room corner photographed at seated eye-level with a normal-to-telephoto lens, framing a three-quarter view of the wall and console arrangement. The wall is finished in a smooth, warm plaster tone — a soft greige that glows amber under the emanating warmth of the scene. A solid walnut console table sits against the wall, its surface styled with a cluster of earth-toned hardcover books stacked vertically and horizontally, a small ceramic vessel holding a dried eucalyptus stem, and a shallow brass dish holding a few round stones. A cozy armchair in a cream boucle fabric is partially visible at the left edge, draped with a mustard-yellow woven throw. Behind the chair, a large leafy tropical houseplant in a terracotta pot adds a living, organic counterpoint. A sheer linen curtain filters diffuse evening light from a window at the upper right, suggesting early evening. The floor is warm light wood in a wide plank format. Soft, golden radiance emanates from the wall-mounted position, casting dramatic petal-shaped shadows outward on the plaster wall and bathing the console surface in honeyed warmth. The mood is deeply cozy and editorial — quiet luxury with artisan warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

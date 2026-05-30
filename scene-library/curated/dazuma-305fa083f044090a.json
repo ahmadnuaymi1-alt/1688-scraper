@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-305fa083f044090a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-305fa083f044090a.jpg",
+  "source_url": "https://dazuma.us/products/coloured-glass-table-lamps-french-style-three-head-light",
+  "description": "A side table vignette in a living room photographed from seated eye-level in a tight off-center thirds composition, capturing the surface of a concrete or terrazzo side table with the sofa edge and a dark wood-paneled wall as context. The background wall is composed of vertical slat wood paneling in a very deep espresso brown, creating a dramatic dark backdrop. A warm amber glow falls from the right edge of the frame, softly illuminating the right side of the scene. The side table itself has a chunky rectangular form in mottled grey terrazzo or concrete. On its surface sit a stack of five or six magazines and thin books, and a white ribbed ceramic mug. The left portion of the frame shows the arm of a low-profile sofa in grey boucle or textured upholstery fabric with a square scatter cushion. The color composition contrasts the dark brown wall, grey concrete surface, and warm gold tones from the ambient light source off-camera. Jewel-like accent colors of amber-yellow, coral-red, and forest green appear in three spherical glass globe forms arranged on a polished brass branching stem — these emit warm, saturated colored light that becomes the focal point of the scene. The mood is moody, editorial, and playful. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-0a328879766788a8",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-0a328879766788a8.jpg",
+  "source_url": "https://dazuma.us/products/modern-drum-chandelier-luxury-ripple-glass-ceiling-light",
+  "description": "A grand, double-height open-plan living room with a warm, contemporary luxury aesthetic. The focal wall behind the seating area is clad in rich vertical slatted walnut wood paneling from floor to ceiling, framing a wide-format flat-screen television and a linear gas fireplace set into a low travertine stone surround and shelf. The travertine surround has a warm creamy beige tone with natural veining. Flanking the wood wall, to the right, tall sheer white curtains diffuse bright natural daylight flooding in from a large floor-to-ceiling window wall. To the left, an open-plan kitchen is partially visible through the double-height space, with white flat-front cabinetry and marble countertops. The flooring throughout is large-format light grey or cream stone tile. The seating group consists of two generous cream upholstered sofas facing each other across a travertine or stone coffee table with an organic rounded double-lobe form on two short cylindrical pedestals. A single small bud vase with dried stems and a stacked book or two sit on the coffee table surface. A large low-pile area rug in a subtle grey geometric pattern anchors the seating area. Charcoal grey square throw cushions punctuate the cream sofas. The room has tall double-height ceiling space. Warm light from the ceiling fixture spills over the seating arrangement below. Camera is at standing or slightly elevated eye-level, approximately 5–6 feet, shooting a three-quarter corner view that captures the full seating area, the fireplace wall, and the kitchen opening. Wide lens encompassing the generous room depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "fireplace",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

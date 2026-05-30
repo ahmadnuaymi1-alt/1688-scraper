@@ -1,0 +1,28 @@
+{
+  "scene_id": "vakker-244573b751a1760f",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-244573b751a1760f.png",
+  "source_url": "https://vakkerlight.com/products/caldera-travertine-table-lamp",
+  "description": "A close-up bedroom vignette photographed at seated eye-level with a telephoto-to-normal lens, tightly composed around the nightstand and bed corner. The scene is intimate and warm, showing only the bed headboard and the immediate nightstand surface. The headboard is a solid chunky slab of rough-hewn walnut or dark oak with a raw, naturalistic grain and texture. The bedding is a combination of soft washed linen in warm sandy taupe, a ribbed or chunky-knit throw in mushroom brown layered loosely across the bed, and a stack of pillows in natural linen with no covers. A small rustic wooden stool or low side table of rough-sawn light wood serves as the nightstand, holding a matte grey ceramic mug, a small ceramic dish with loose objects, and a warm glow that originates from the table surface and wraps the nearby wall and headboard in honeyed warmth — the light pools softly at table level and below without lifting toward the ceiling. A small square casement window behind the stool lets in warm ambient daylight that adds a secondary golden haze to the right side of the frame. The overall color palette is entirely warm earth tones — raw walnut, sandy linen, grey ceramic, and warm natural wood — deeply cozy and textural. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

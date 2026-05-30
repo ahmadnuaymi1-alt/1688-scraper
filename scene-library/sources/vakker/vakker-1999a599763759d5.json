@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-1999a599763759d5",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/playline-orb-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Playline_Orb_Table_Lamp_5.png?v=1777817827",
+  "scraped_date": "2026-05-21T15:53:39.165Z",
+  "source_title": "Playline Orb Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "1999a599763759d52a626919cf8ea6a70c40f0ba",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level with a normal lens, framing an off-center thirds composition with the nightstand occupying the left third and the bed filling the right. The room has a warm, diffuse natural light entering from sheer ivory curtains at the left that billow gently, casting a soft even illumination across the space. The nightstand is a rounded-corner light oak cabinet with a single drawer, its warm honey tone complementing the light oak flooring below. On the surface, a small stack of three books — hardcovers in blue, red, and cream — sits beneath a whimsical decorative object; a small dried flower sprig in a round ceramic vase and a squat ceramic mug or cup accompany the arrangement. The warm glow from the object on the surface spreads a gentle amber pool across the tabletop. The bed's upholstered headboard in soft blue-grey fabric is visible at right, with off-white linen bedding and a rumpled white duvet. A faded vintage-style rug in warm cream and dusty rose tones covers the floor. The mood is serene, casual, and light-filled. Color palette is warm neutral with dusty blue and cognac accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.041Z"
+}

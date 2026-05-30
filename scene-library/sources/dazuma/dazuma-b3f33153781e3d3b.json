@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-b3f33153781e3d3b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/european-style-cylinder-table-lamps-decorative-ornament-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-gray-cylinder-table-lamps-warm-light-dark-dining.jpg?v=1768964666",
+  "scraped_date": "2026-05-21T15:52:39.636Z",
+  "source_title": "Cylinder Table Lamps European Style Decorative Ornament Metal Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b3f33153781e3d3b14e3ed67988ac66683b70da6",
+  "description": "A dimly lit interior sitting room photographed at a slightly elevated standing eye-level with a normal lens, looking slightly down at a round white dining table occupying the foreground. The table is set with an open hardcover book showing a pencil portrait illustration. A partial dark-upholstered chair is visible at the right edge of frame. The tabletop glows with warm ambient illumination pooling across the white surface and the open pages of the book. In the background, a softly lit scene unfolds: a cream-upholstered sofa is partially visible at the mid-left, a small side table holds a vase of colorful flowers in muted pinks and oranges, and beyond that a tall sheer curtain in white billows gently at a large window, admitting diffused cool daylight from outside. Dark flooring runs throughout. The overall mood is scholarly and moody — a late-evening reading atmosphere where warm focused illumination creates a pool of activity on the table against the darker ambient surroundings. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "scholarly",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.709Z"
+}

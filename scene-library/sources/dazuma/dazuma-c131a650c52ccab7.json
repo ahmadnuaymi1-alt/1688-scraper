@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-c131a650c52ccab7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/glass-cone-pendant-light-nordic-art-minimalist-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/two-glass-cone-pendant-light-marble-dining-table.jpg?v=1777450847",
+  "scraped_date": "2026-05-21T12:03:37.439Z",
+  "source_title": "Glass Cone Pendant Light Nordic Art Minimalist Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Mini Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c131a650c52ccab7a9ca8af851d94f0003ae8938",
+  "description": "A serene dining room photographed at standing eye-level with a normal lens, capturing a wide centered symmetrical view of the dining table. The room has smooth warm sandy beige plaster walls and medium-plank warm oak hardwood floors. A large rectangular dining table features a thick soft gray-white marble slab top on a light oak slab-leg base, with softly rounded corners. Six mid-century-modern walnut dining chairs surround the table, each with curved back rails and cream upholstered seat pads. A chunky natural jute flatweave rug with a fringe border grounds the dining zone. On the table, a tall cylindrical brass vase holds a loosely arranged bouquet of white blooms and eucalyptus branches, and a small walnut turned bowl sits beside it. Two warm downward cones of amber light illuminate the table surface from above, cast by sources suspended from the ceiling. Floor-length warm brown drapery panels hang at the left of the frame beside a sheer white linen panel, softening a large window. The mood is quiet and serene with a warm earth-toned palette of sand, walnut, gray marble, and cream. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.764Z"
+}

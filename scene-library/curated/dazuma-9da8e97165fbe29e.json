@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-9da8e97165fbe29e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9da8e97165fbe29e.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-lights-lanterns-portable-waterproof-landscape-light",
+  "description": "A serene residential garden at dusk — photographed at standing eye level with a normal-to-wide lens in a wide establishing composition, framing a generously sized back garden seating area at the transition from paved terrace to lawn. The camera is level at approximately five feet, capturing the full garden vignette centered on the two lounge chairs.\n\nThe foreground is large-format pale stone or concrete pavers set in a grid pattern, edged at the lawn boundary. Two teak or warm honey-toned hardwood chaise loungers with thick cream linen cushions are arranged symmetrically, angled slightly inward on the grass. A low teak side table between them holds a small ceramic vessel or cup. The lounger frames are robust and clean-lined — natural timber with cross-braced legs visible from the side.\n\nBehind the chairs, an open lawn of lush deep green extends back toward mature trees. A timber-frame garden swing bench — a simple A-frame structure in warm walnut-toned wood with a hanging wooden bench seat — sits in the midground, framed by the tree canopy. Ornamental grasses and wild-meadow style plantings border both sides of the scene, catching the warm ambient light in their feathered seed heads.\n\nTo the left, a flowering dogwood or cherry tree with white blossoms glows softly at the edge of the frame. The sky is a gradient of warm apricot-peach at the horizon fading to a dusky blue-grey overhead. Warm amber glows pool low across the grass from accent sources near ground level at each side of the loungers, while a small diffuse glow emanates from a low portable lantern form on each side of the chairs.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

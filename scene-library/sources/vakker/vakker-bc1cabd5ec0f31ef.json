@@ -1,0 +1,44 @@
+{
+  "image_id": "vakker-bc1cabd5ec0f31ef",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/calla-bloom-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Calla_Bloom_Floor_Lamp60.png?v=1777857037",
+  "scraped_date": "2026-05-21T15:53:37.540Z",
+  "source_title": "Calla Bloom Floor Lamp",
+  "source_product_type": "Floor lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "bc1cabd5ec0f31eff9788c9083de3207d895577c",
+  "description": "A sitting room or library photographed at standing eye-level with a normal lens, framing a three-quarter corner view through an arched doorway visible at the far left. The dominant feature is a floor-to-ceiling dark walnut bookcase filling the right wall, its shelves dense with old leather-bound and cloth-bound books in brown, burgundy, cream, and green tones — a scholarly collection with warm patina. A large potted fiddle-leaf fig or ficus tree in a terracotta planter stands in front of the bookcase. A dark hunter-green leather club chair or chesterfield sofa sits in the foreground left, its surface worn and rich. A low rectangular coffee table holds a stack of art books, a small ceramic tray, and two small bowls. A tall floor-standing element with a decorative upper form in mixed gold and dark tones stands in the left center area between the chair and the bookcase; a warm amber glow radiates from it at standing height, warming the adjacent cream plaster wall. The arched doorway at far left reveals a bright adjacent room. A large traditional rug in burgundy, rust, and navy geometric tones covers the floor. The mood is deeply scholarly and atmospheric. Color palette is earth tones with oxblood and forest green. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "oxblood",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "plaster"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.204Z"
+}

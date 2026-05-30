@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-75125d1de2988331",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-wall-modern-waterproof-led-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-lighting-wall-sleek-modern-house-entrance.jpg?v=1774836498",
+  "scraped_date": "2026-05-21T12:04:04.339Z",
+  "source_title": "Outdoor Lighting Wall Modern Waterproof LED Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "75125d1de2988331ba383b743dff15841a3bedc8",
+  "description": "A simple, charming exterior back patio doorway photographed at early dusk. The house facade is smooth white stucco rendered clean and flat, with a slim reveal where the wall meets the white painted wood deck planks. A tall narrow black aluminum-framed sliding glass door or French-style back door occupies the right side of the frame, its glass revealing a warm amber-lit dining space beyond with a wooden round table, dining chairs, and horizontal white venetian blinds. The white timber deck boards are clean-painted and run horizontally at the base. Two potted plants flank the door: on the left, a weathered grey concrete planter holds a loose trailing white-flowered plant with green foliage; on the right, a natural wicker basket pot holds an abundant lavender plant in full purple bloom. Green lawn and dark garden foliage occupy the left background, with a silhouetted tree canopy above. Warm amber light washes down and outward from the wall to the left of the door, illuminating the white stucco surface in a broad arc of golden warmth and casting a soft reflection on the deck below. The sky is a soft dusky blue. The atmosphere is quietly domestic and garden-cottage in mood. Camera is at standing eye-level, three-quarter view capturing the door, both flanking plants, and the wall section to the left where the warm glow is visible. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "plum",
+      "forest_green"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.397Z"
+}

@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-03e6260958be8e08",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ostrich-feather-table-lamp-creative-nordic-night-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/ostrich-feather-table-lamp-white-feather-modern-bedroom-interior.jpg?v=1774595443",
+  "scraped_date": "2026-05-21T12:04:19.938Z",
+  "source_title": "Ostrich Feather Table Lamp Creative Nordic Night Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "03e6260958be8e0826a938240398e176928eebce",
+  "description": "A serene primary bedroom scene photographed from a seated eye-level height of approximately three to four feet, with a normal-to-slightly-telephoto lens character compressing the depth of the corner just enough to feel intimate rather than documentary. The composition is a three-quarter corner view, the camera positioned off the foot-right of the bed and angled toward the far right corner of the room, capturing two walls meeting at roughly forty-five degrees and a generous slice of herringbone parquet floor. The ceiling is not visible in frame; the scene is a mid-height vignette of the sleeping and side-table zone.\n\nThe architecture is quietly formal — both visible walls are dressed in applied paneling with a classic French profile: a tall dado rail, raised rectangular field panels below, and above the rail a flat plaster field punctuated by a single large raised-moulding cartouche in the lower-right corner of the right wall, its scrolling acanthus ornament a restrained Rococo reference. The wall color throughout is a warm greige — approximately Farrow & Ball 'Elephant's Breath' in tone — soft, chalky, and luminous. The baseboard is white painted and cleanly detailed.\n\nThe floor is wide-plank European oak laid in a classic chevron herringbone pattern, the timber a light-to-mid natural honey tone with a matte satin finish. A large area rug anchors the foot-of-bed space: a flat-woven or low-pile cream ground with a scattered, irregular pattern of small charcoal and black dashes — Berber or Moroccan-influenced in character, adding softness and subtle graphic punctuation to the pale floor.\n\nThe bed dominates the left two-thirds of the frame. Its upholstered headboard is generously scaled and softly curved — a high, wide form in a tight-woven bouclé-textured fabric in pale warm linen grey. The bed base platform appears low and dark, likely matte black painted timber. At the foot of the bed sits a low upholstered bench in a cream or ivory bouclé, its legs not visible; a cylindrical bolster cushion in matching cream fabric rests atop it, adding a refined architectural detail. The bedding is layered in soft dusty blue and cool silver-grey: a fitted sheet, a lightweight textured coverlet in pale blue-grey, and two sleeping pillows — one in a smooth cool-grey cotton case, one partially obscured. The coverlet is casually turned back at the foot, its relaxed drape signaling effortless luxury rather than hotel rigidity.\n\nThe side table is a statement piece: a pedestal form in highly polished brushed stainless steel or chrome-finished metal, its cylindrical column base giving way to a small square top with softly beveled edges. The table surface carries a warm soft pool of golden ambient light emanating from a low source, casting gentle illumination upward into the feather volume above and washing the tabletop in honeyed warmth. The corner itself is touched by a diffuse warm glow that grazes the paneling, softening the plaster and gilding the cartouche ornament. Natural daylight enters from the right through a floor-length sheer curtain — white or ivory linen — its panels gathered softly, filtering the light to a gentle silver-white that contrasts with the warmer interior glow and creates a luminous right edge to the composition.\n\nThe overall atmosphere is serene, quietly luxurious, and European in sensibility — a Parisian apartment bedroom in a Haussmann-era building given a contemporary edit. The palette of warm greige walls, cool linen upholstery, dusty-blue bedding, polished steel, and honey oak is restrained and cohesive. There are no decorative objects competing for attention; the density is intentionally low, letting materials and architecture carry the composition.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "chrome",
+    "architectural_features": [
+      "applied_moulding",
+      "paneled_walls",
+      "herringbone_floor",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:36:52.660Z"
+}

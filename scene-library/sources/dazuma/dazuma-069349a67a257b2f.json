@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-069349a67a257b2f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-spotlight-indoor-grille-recessed-linear-led-full-spectrum-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/cozy-bedroom-led-spotlight-indoor-accent-lighting.jpg?v=1775904947",
+  "scraped_date": "2026-05-21T12:03:39.539Z",
+  "source_title": "LED Spotlight Indoor Grille Recessed Linear LED Full-Spectrum Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "069349a67a257b2f56d011d33fac0212848be406",
+  "description": "A serene, minimalist primary bedroom photographed at standing eye-level from a centered, symmetrical vantage point facing the headboard wall. The camera is positioned at approximately five to six feet, level pitch, with a normal-to-slightly-wide lens — roughly 35mm equivalent — capturing the full width of the room in a wide establishing composition. Both side walls are partially visible, the full ceiling plane is revealed, and the floor is cropped just below the bed frame.\n\nThe headboard wall is clad floor-to-ceiling in vertical pale ash or whitened-oak wood paneling, with tight, clean groove lines running the full height. A continuous cove detail at the junction of this wall and the ceiling emits a long horizontal band of warm amber radiance that washes softly upward across the ceiling plane and downward along the upper portion of the panel wall, creating a halo of diffused warmth without any hard shadows. A large frameless rectangular mirror — roughly 1.4:1 landscape proportion — is mounted flush to the paneled wall centered behind the bed, reflecting soft natural light from the window to the right.\n\nThe bed is king-sized with a low-profile upholstered platform base and a tall, wide channeled headboard in a deep charcoal-graphite fabric. The bedding is layered in the same charcoal-to-slate tonal family — a flat duvet, four standard pillows, two rectangular accent pillows, and one square throw pillow — all in matte woven textiles with no visible pattern. A dark knit throw is draped casually over the foot-right corner.\n\nTwo low floating nightstands flank the bed, finished in a matte dark gray. The left nightstand holds a small stacked group of books beneath a rounded ceramic bud vase in off-white matte. The right nightstand holds a single taller rounded ceramic vessel and one slim stacked book. A warm pool of soft light settles gently across each nightstand surface, low and directional, suggesting warmth emanating from a source outside the lower frame or from the ceiling above — no fixture shape is visible or described.\n\nTo the right of frame, floor-to-ceiling sheer linen curtains in a pale oyster-white filter bright diffused daylight from a large picture window, suggesting midday or early afternoon. Flanking the sheers are blackout drapery panels in a warm dark taupe-charcoal, floor-puddling slightly, drawn back. The natural light from the window creates a soft bright zone on the right third of the ceiling and gently grazes the right edge of the bed.\n\nThe ceiling is a smooth plaster in warm white-cream. The floor, visible only in the far foreground corners, appears to be a warm-toned wide-plank wood or large-format stone tile in a light greige.\n\nThe overall atmosphere is calm, grounded, and deeply restful — modern Japandi in sensibility, with an earth-toned and monochromatic palette anchored in charcoal, warm ash, and cream. Density is low throughout.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount",
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:38:29.949Z"
+}

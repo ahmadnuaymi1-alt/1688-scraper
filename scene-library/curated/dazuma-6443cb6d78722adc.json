@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-6443cb6d78722adc",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6443cb6d78722adc.jpg",
+  "source_url": "https://dazuma.us/products/globe-pendant-light-fixture-italian-style-marble-ceiling-light",
+  "description": "A warm, sophisticated bedroom with a refined Parisian-California sensibility. The walls are finished in a warm clay or terracotta plaster tone — a deeply saturated but soft warm neutral that envelops the room in a cozy amber quality. A large framed artwork with a natural maple frame and abstract linear line-drawing on warm cream paper is hung above the headboard, its tonal closeness to the wall creating a gallery-calm composition. The bed has a tufted linen-upholstered headboard in cream-white, dressed with grey-linen bedding and layered pillows in taupe and grey velvet; a textured grey throw is draped across the foot. Beside the bed, a sculptural trumpet-waist side table in a brushed metallic pewter or nickel finish holds two stacked books. On the opposite side of the frame, a mid-century style lounge chair in cream boucle with exposed light-walnut wooden frame arms sits in a reading corner; a loose-knit natural throw drapes over its arm. Beside the chair, a small round side table with a warm walnut top holds a glass vase with a loose wildflower arrangement of white flowers. Warm taupe curtain panels are partially visible on the left behind the chair. Light warm oak flooring runs throughout. Warm glowing amber light radiates from the ceiling-hung source positioned between the chair and the bed, its glow pooling softly on the wall behind it. Camera is at standing eye-level, off-center thirds composition slightly favoring the chair side, capturing both the bed and sitting nook in a single frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "pendant",
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

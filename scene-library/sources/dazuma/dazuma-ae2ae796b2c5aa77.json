@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-ae2ae796b2c5aa77",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-circle-table-lamp-with-iron-body-stylish-acrylic-shade-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-black-circle-table-lamp-outdoor-dinner-setting.jpg?v=1760000362",
+  "scraped_date": "2026-05-21T15:52:42.088Z",
+  "source_title": "Circle Table Lamp with Iron Body Acrylic Shade Decorative Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ae2ae796b2c5aa779172e84ad3d3aa1f058e1a71",
+  "description": "An intimate outdoor evening dinner scene on a teak garden dining table photographed at seated eye-level. The table's warm honey-toned teak wood grain is beautifully lit from the table surface itself. The tabletop holds a partially set dinner scene: at the left, a white ceramic deep bowl filled with dark wild rice sits on a plate, next to a white coffee mug. In the foreground, a fresh salad plate with greens, tomato, cucumber, and colorful vegetables alongside a silver fork on the bare wood. At the right, another white mug is visible at the table's edge. The left side of the scene shows the arm and hand of a person in a white shirt, and on the right, a shoulder of another diner wearing pink. The background beyond the table transitions from the warm glow to deep navy-to-black grass lawn and dark tree silhouettes against a near-black evening sky. A warm amber pool of light warms the entire central zone of the table surface from a source placed at table center. The mood is casual and lived-in with a relaxed outdoor summer evening quality. Camera is at seated eye-level, roughly 3–4 feet high, with a normal lens, in an off-center thirds composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.679Z"
+}

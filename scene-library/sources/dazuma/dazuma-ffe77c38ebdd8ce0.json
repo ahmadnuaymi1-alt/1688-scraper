@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-ffe77c38ebdd8ce0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-gate-pillar-post-lighting-waterproof-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_1cdc01c7-8b3f-4250-9dd8-ddee065d618a.jpg?v=1774175197",
+  "scraped_date": "2026-05-21T12:04:44.123Z",
+  "source_title": "Outdoor Gate Pillar Post Lighting Waterproof Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ffe77c38ebdd8ce0dca9d6a8bdfdb4c7dfff039d",
+  "description": "An outdoor stone gate pillar and fence detail photographed at dusk, with a residential terrace lounge area softly illuminated in the warm background. The foreground centers on two rough-hewn granite or natural stone pillar caps with visible mineral patterning in warm pink, grey, and white — the closest pillar is tightly framed in the near foreground while the second recedes slightly to the right. Vertical dark bronze metal fence bars with flat tops run between the pillars. In the background, a well-appointed outdoor lounge area features a low-profile grey upholstered sectional sofa, a slatted teak or ipe wood rectangular coffee table, and warm light emanating from the dining area beyond, creating a soft amber glow across the stone paving. Ornamental plantings edge the perimeter. Warm amber light emanates from within each cap-mounted fixture, refracting through a seeded or textured glass band with a bronze metal cage and a flat disc top and base, casting downward pools of honey-gold light that spill onto the stone pillar caps and touch the top rail of the fence below. Camera is at standing eye-level with a slight downward tilt, shooting with a normal-to-telephoto lens in an off-center thirds composition, the nearer pillar filling the left-center foreground while the second pillar and lounge recede into the bokeh background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.024Z"
+}

@@ -68,6 +68,8 @@ model Product {
   pricingNotes     String?        @db.Text
   productContext   String?        @db.Text
   minOrderQuantity Int?
+  /// "auto" (category-based mix, default), "single" (force all single-unit), "multi" (force 4-5 multi-unit mix). Drives lifestyle-image generation.
+  lifestyleUnitMode String?       @default("auto")
   rawPayload       String         @db.Text
   createdAt        DateTime       @default(now())
   updatedAt        DateTime       @updatedAt
@@ -122,6 +124,16 @@ model ProductImage {
   height         Int?
   downloadStatus String   @default("pending")
   imageType      String?  // "source" (default, supplier gallery / swatches) | "hero" (Seedream-generated)
+  // User flag: when true, "Delete originals" bulk action keeps this image even
+  // if it would otherwise match the originally-scraped filter. Set per-image
+  // via the gallery star toggle.
+  keep           Boolean  @default(false)
+  // Cache of post-scrape-audit Check 8 vision OCR result. ocrPromptVersion
+  // tracks which prompt version produced the cached text — bump the version
+  // constant in audit code to invalidate. ocrDimsText="" with version set
+  // means Claude saw NO_DIMS; both null = never attempted.
+  ocrDimsText      String?  @db.Text
+  ocrPromptVersion String?
   createdAt      DateTime @default(now())
 
   variantsFeatured Variant[] @relation("VariantFeaturedImage")
@@ -166,6 +178,11 @@ model ShopifyConnection {
   label        String
   storeDomain  String
   accessToken  String         @db.Text
+  // Custom App credentials — when present, the uploader can mint a fresh
+  // accessToken via Shopify's OAuth client_credentials grant on 401. Stored
+  // plaintext for now; ENCRYPTION_KEY is in env for a future encryption pass.
+  clientId     String?        @db.Text
+  clientSecret String?        @db.Text
   isDefault    Boolean        @default(false)
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt

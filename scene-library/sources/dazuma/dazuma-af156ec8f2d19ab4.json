@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-af156ec8f2d19ab4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-sensor-wall-lights-outdoor-modern-black-solar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-sensor-wall-lights-outdoor-patio-motion.jpg?v=1775700612",
+  "scraped_date": "2026-05-21T12:03:52.385Z",
+  "source_title": "4 PCS Sensor Wall Lights Outdoor Modern Black Solar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "af156ec8f2d19ab4b4958a9bfc320f49178fd90a",
+  "description": "An exterior nighttime elevation of a contemporary residential or commercial building facade photographed at standing eye-level with a wide lens around 24-28mm, in a one-point perspective composition looking along the face of the building. The facade is rendered in smooth light grey or off-white stucco with a clean flat surface. A row of tall narrow vertical windows runs at even spacing across the facade, each window framed with matte black powder-coated steel profiles in a multi-pane division pattern with horizontal bars creating a Mondrian-like grid of panes. Sheer ivory curtains hang inside each window, glowing warmly orange-amber from interior light behind, creating a lantern effect. Low compact foundation planting — rounded evergreen shrubs — runs along the base of the building. Three wall-mounted fixture positions are visible at consistent heights between the windows, each casting a broad upward-and-downward fan of warm amber illumination that spreads across the stucco face, creating overlapping crescents of warm light against the cool grey facade and dark night sky. The ground level is a smooth poured concrete or grey pavement. The night sky is a deep dark blue-black. The mood is refined, urban-contemporary, and architecturally precise. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.683Z"
+}

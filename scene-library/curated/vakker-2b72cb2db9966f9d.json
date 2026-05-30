@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-2b72cb2db9966f9d",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-2b72cb2db9966f9d.jpg",
+  "source_url": "https://vakkerlight.com/products/celestial-ring-alabaster-wall-lamp",
+  "description": "An intimate, richly atmospheric bedroom photographed at seated eye-level in a tight vignette composition. The feature wall behind the bed is clad in warm caramel-toned wood paneling with applied moulding creating a grid of recessed rectangular fields, framed by thin brass or gold-leaf moulding strips running horizontally and vertically. To the upper left, an abstract sculptural wall installation in gold or brass thin rods forms a geometric cross-hatch or Mondrian-like pattern. To the right, a large-format framed artwork leans against or hangs on the panel wall — depicting a monochrome portrait or figure painting with a painterly, expressive quality. The bed features a low tufted rectangular headboard in warm creamy bouclé fabric, and the bed is made with multiple layered pillows in pale ivory and soft cream linen. The room has no visible natural light — it is a warm, cocoon-like artificial evening atmosphere. A warm amber-gold pool of light radiates from a wall-mounted position centered above the headboard, washing upward and downward onto the warm wood paneling and illuminating the headboard surface below with rich honey-gold tones. Camera is at seated eye-level, slightly elevated, three-quarter view of the bedhead wall with the fixture centered in the upper third and the headboard filling the lower half of the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

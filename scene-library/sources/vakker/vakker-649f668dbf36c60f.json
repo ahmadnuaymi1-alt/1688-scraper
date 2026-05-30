@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-649f668dbf36c60f",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/olera-wood-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Olera_Wood_Table_Lamp07.png?v=1778462946",
+  "scraped_date": "2026-05-21T15:53:08.536Z",
+  "source_title": "Olera Wood Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "649f668dbf36c60f976ada1674318a1caaee513e",
+  "description": "A sunny, casual living room side table vignette photographed at seated eye-level with a normal lens, framing a three-quarter view of a corner where a side table meets a seating area. The walls are a warm cream-white plaster, and strong directional afternoon sunlight enters from a large window at upper left, casting bold dramatic shadow patterns — a lattice of light and shadow — across the wall from the warm glow at the table level. The side table itself is a mid-century-influenced piece in warm honey-toned teak or oak with a lower shelf, styled with a small white ceramic vase holding a dried pampas grass stem, a short stack of hardcover books, and a ceramic mug. A dark olive-green upholstered armchair with tapered legs is partially visible at right, a chunky-knit grey throw folded over its arm. A large natural jute rug covers the floor. The palette is warm and earthy — cream walls, honey teak, olive green, and natural fibers. The main accent color is forest green from the chair. A warm amber glow pools across the side table surface and lower wall at table height, radiating outward and creating the patterned shadow play on the wall behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.115Z"
+}

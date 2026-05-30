@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-5fbb996dcbfef727",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-5fbb996dcbfef727.jpg",
+  "source_url": "https://dazuma.us/products/linear-wall-lighting-slim-indoor-strip-copper-lamp",
+  "description": "A refined and elegant living room with a warm transitional aesthetic. The walls are painted in a smooth warm greige-cream tone, with classical applied panel molding visible on the left wall — deep-profile rectangular panels with wide rails and stiles in a pale off-white that adds architectural depth. The ceiling carries a simple but substantial crown molding profile, and a dark doorway opening at the upper left leads into an adjacent hall, adding depth and mystery to the composition. The left wall's molded panels frame a warm dark void through the doorway. At the far left foreground, a cognac tan leather lounge chair with a slim matte-black tubular steel frame sits angled toward the center. A walnut or dark wood side table is partially visible between the chair and the sofa. The primary seating is a compact two-seat white linen sofa with square arms and brushed brass feet, dressed with one dark espresso brown embossed velvet throw pillow and one grey herringbone accent pillow, plus a cream shaggy throw draped over the arm. Above and to the right of the sofa, a large abstract oil painting in grey and silver tones hangs in a wide gold/brass leaf frame, its surface textured with gestural, cloudy brushwork. At the sofa's right end, a glass vessel holds a full bouquet of white garden roses. A glass-top coffee table with dark metal frame is partially visible at the bottom right, topped with stacked books. A plush silver-grey area rug grounds the seating area. A tall warm column of illumination glows from a wall-mounted position on the center wall between the doorway and the painting, casting warm light both upward toward the crown molding and downward. Camera is at standing eye-level, shooting a wide establishing three-quarter view of the living room with the doorway at left, the sofa center-right, and the painting at upper right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

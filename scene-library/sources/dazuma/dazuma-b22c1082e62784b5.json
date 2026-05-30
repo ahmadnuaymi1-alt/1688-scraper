@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-b22c1082e62784b5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-wall-sconce-lighting-american-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_6ffd1a64-cdd0-4745-b734-ce4d88449e47.jpg?v=1774175626",
+  "scraped_date": "2026-05-21T12:04:37.303Z",
+  "source_title": "Retro Wall Sconce Lighting American Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b22c1082e62784b566861bf9f3973d0133379f99",
+  "description": "A charming farmhouse-style front porch entry photographed in bright daylight. The home exterior is white painted horizontal shiplap siding with crisp white trim. The porch ceiling is stained tongue-and-groove wood planks in warm honey-cedar tones. The front door is a deep espresso-stained wood with a nine-light glass upper panel and two raised lower panels, fitted with a polished brass lever handle and deadbolt. A small brass address plaque is mounted on the left wall. A black wall-mounted mailbox is fixed to the right wall. At the threshold, a woven natural fiber jute doormat lays flat. On the left, a square black metal planter box holds a small fiddle-leaf fig or magnolia sapling. On the right, two round concrete planters — one ribbed, one smooth — contain a large fiddle-leaf fig and a smaller green shrub. Green foliage from neighboring plants intrudes slightly into the lower left corner. The porch floor is smooth grey concrete. Warm amber light glows on both walls flanking the door, washing down across the shiplap from sources on either side and creating a welcoming illuminated frame around the entry. Camera is at standing eye-level, shooting with a normal lens in a centered symmetrical composition looking directly at the front door. The composition shows the full door width and both flanking wall sections as a tight mid-shot. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "mixed",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.705Z"
+}

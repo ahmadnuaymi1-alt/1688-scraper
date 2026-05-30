@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-4845c7ee73d59811",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/pillow-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Pillow_Alabaster_Cluster_Chandelier_1_7.jpg?v=1779121986",
+  "scraped_date": "2026-05-21T12:08:40.422Z",
+  "source_title": "Pillow Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 800,
+  "height": 800,
+  "content_sha1": "4845c7ee73d59811c797cd367271beb101f9ad92",
+  "description": "A softly lit editorial room vignette with a refined eclectic character. The background wall is smooth painted in a cool soft grey-white. The wall features subtle applied panel moulding — wainscot-height raised panels in crisp white — giving a quietly traditional architectural quality. To the upper left, a large ornate-framed oil painting or printed reproduction hangs against the paneled wall — the artwork depicts a chinoiserie or decorative birds-and-branches composition in deep tobacco, oxblood red, and sage-green tones in a richly gilded antique gold frame. In the lower right corner, a spray of delicate leaves from a houseplant or branch is partially visible, adding a touch of organic freshness. Suspended in the center from a thin matte-black cord with a small brass cap fitting, a rounded square-form alabaster or white marble block with softly chamfered corners glows warmly from within — its translucent stone body revealing subtle pink and grey veining and casting a warm diffused halo of amber-white light. Camera at standing eye-level, centered composition with the stone element as the primary focal point, normal lens, level pitch, tight vignette against the paneled wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.089Z"
+}

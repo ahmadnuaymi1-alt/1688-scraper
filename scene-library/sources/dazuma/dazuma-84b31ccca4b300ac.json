@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-84b31ccca4b300ac",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-pillar-lighting-modern-waterproof-garden-gate-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-pillar-lighting-modern-garden-wall.jpg?v=1778566879",
+  "scraped_date": "2026-05-21T12:02:53.774Z",
+  "source_title": "Solar Pillar Lighting Modern Waterproof Garden Gate Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "84b31ccca4b300ac9ed30d207586962714b9500e",
+  "description": "An outdoor garden retaining wall setting photographed at dusk from a standing camera height, approximately four to five feet off grade, using a normal lens and an off-center thirds composition that looks along the top surface of a low garden wall with a slight perspective recession to the left. The garden wall is constructed of smooth honed grey granite or fine limestone in light cool grey, its cap surface broad and flat. Two objects rest side by side on the cap surface, each glowing in warm cream-white, their amber illumination pooling softly beneath and around them on the grey stone surface. Behind the wall, a lush planting bed of mixed garden shrubs in deep green is punctuated by clusters of small violet-purple flowers — catmint or salvias — their slender spires catching the ambient warm glow. The background shows a slightly out-of-focus contemporary residential facade in light grey or white render with large windows glowing warmly amber from inside. The sky and upper background are soft dark twilight blue. The mood is tranquil and garden-romantic, the cool grey masonry offset by warm amber light and living purple florals. The overall palette is cool grey granite, warm amber glow, deep green foliage, and muted violet-purple flower accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "plum",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.458Z"
+}

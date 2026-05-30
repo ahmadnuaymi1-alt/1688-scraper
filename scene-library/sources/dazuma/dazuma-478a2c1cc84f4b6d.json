@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-478a2c1cc84f4b6d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-garden-outdoor-waterproof-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-lights-garden-white-brick-wall.jpg?v=1773717341",
+  "scraped_date": "2026-05-21T12:19:43.401Z",
+  "source_title": "Pillar Lights for Garden Outdoor Waterproof Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "478a2c1cc84f4b6d3334ebdf08a1db2b0bd122d4",
+  "description": "A residential front garden entry boundary wall photographed at night, focused tightly on a white painted brick pillar at the corner of a low garden wall. The pillar is built from standard white-painted or whitewashed brick with a flat cap, providing a flat platform top. The low connected boundary wall curves gently away to the left, constructed from the same white brick. In the foreground along the base of the wall, low-growing perennial plants with fine foliage and small blue-purple flowers — possibly catmint or salvia — spill at the wall base. A gravel and stone front walk in square pavers continues to the right, edged with a small trimmed globe boxwood. In the background, the front facade of a classic white clapboard American farmhouse or colonial-style home is visible in soft focus — a dark charcoal metal roof, sage-green shutters, and a warmly lit window suggesting interior life. Dense trimmed formal hedges frame the property boundary at the back. The overall landscape has a refined, classic residential quality with a deep blue-black night sky. The warm amber glow of the pillar-mounted fixture spreads upward, casting a warm halo above the cap and gently illuminating the brick pillar surfaces below. Camera is at seated-to-standing eye-level, level pitch, with a normal-to-slight telephoto lens in an off-center thirds composition focused on the near pillar. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.238Z"
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-d50af04c79dbc933",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/tapered-travertine-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Tapered_Travertine_Wall_Sconce__1.jpg?v=1779212167",
+  "scraped_date": "2026-05-21T12:08:38.861Z",
+  "source_title": "Tapered Travertine Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 1440,
+  "height": 1440,
+  "content_sha1": "d50af04c79dbc933e18e30bd6a1ef998e4872922",
+  "description": "A serene, Japandi-influenced bedroom close-up photographed at seated eye-level with a normal to slightly telephoto lens, framing a tight vignette of the bedside wall area. The composition shows the junction of white plaster wall above and a paneled wood wainscoting below in warm medium-dark oak or walnut with vertical groove detailing. A cylindrical rounded column in matching wood grain is visible at the far right edge. The bed at left features crisp white linen bedding with multiple white pillows including a round bolster, casually arranged. A small round pedestal side table in matte charcoal black sits at bedside height, holding a wide shallow ceramic bowl in white marble or veined stone, a small glass tumbler, and a single stem of dried dark berries. A matte black integrated outlet panel is set into the wainscoting above the table. Warm amber downward light falls from a wall-mounted position above the table, casting a focused pool on the plaster wall and illuminating the side table surface with intimate warmth. The far right reveals the edge of vertical reeded or fluted wood panels. The palette is white plaster, warm walnut, matte black, and subtle amber glow — a refined and spare Japandi composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "wainscoting",
+      "paneled_walls",
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.229Z"
+}

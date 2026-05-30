@@ -257,6 +257,19 @@ export function VariantTable({
   // Anchor index for Shopify-style shift-click range selection.
   const [lastCheckedIndex, setLastCheckedIndex] = useState<number | null>(null);
 
+  // Drop-an-axis confirmation: which axis is being dropped + which value of it
+  // the user has chosen to keep. The selected variants survive; everything else
+  // on that axis gets deleted.
+  const [dropAxisIndex, setDropAxisIndex] = useState<0 | 1 | 2 | null>(null);
+  const [dropAxisKeepValue, setDropAxisKeepValue] = useState<string>("");
+  const [droppingAxis, setDroppingAxis] = useState(false);
+
+  // Remove-all-variants confirmation. Turns the product into a single-SKU
+  // product; the image gallery stays, and the hero / lifestyle generators
+  // fall back to the gallery's position-0 image as the source.
+  const [showRemoveAllDialog, setShowRemoveAllDialog] = useState(false);
+  const [removingAll, setRemovingAll] = useState(false);
+
   // Axis sort state, seeded from the derived detection. Cycles ASC → DESC
   // → null on click; written back to DB by cycleAxisSort below.
   const [axisSort, setAxisSort] = useState<{
@@ -582,13 +595,61 @@ export function VariantTable({
     [productId, selectedIds, onVariantsChanged],
   );
 
-  if (variants.length === 0) {
-    return <p className="text-muted-foreground text-sm">No variants found.</p>;
+  // Single-SKU detection: the user has clicked "Remove all variants" or the
+  // scrape produced just one Default-Title variant. We keep one row in the DB
+  // (so price / sku / weight / compareAt / packaging have a home, and so the
+  // hero / lifestyle / Shopify-upload pipelines still find a variant to
+  // iterate) but render it as an empty state with an inline editor for the
+  // single SKU's fields, rather than a confusing one-row table with empty
+  // option columns.
+  const singleSku =
+    variants.length === 1 &&
+    !variants[0].option1 &&
+    !variants[0].option2 &&
+    !variants[0].option3;
+
+  if (variants.length === 0 || singleSku) {
+    return (
+      <div className="space-y-3">
+        <div className="space-y-1 text-sm text-muted-foreground">
+          <p>No variants — sold as a single SKU.</p>
+          <p className="text-xs">
+            The primary image in the gallery (position 0) is used as the hero
+            source for image generation.
+          </p>
+        </div>
+        {singleSku && productId && (
+          <SingleSkuFields
+            variant={variants[0]}
+            productId={productId}
+            onChanged={onVariantsChanged}
+          />
+        )}
+        {/* Recovery button for products that have 0 variants in the DB
+            (typically because an earlier version of "Remove all variants"
+            wiped everything). Hits the same endpoint, which is idempotent
+            and creates the Default Title variant for us. */}
+        {!singleSku && variants.length === 0 && productId && (
+          <Button
+            type="button"
+            size="sm"
+            variant="outline"
+            onClick={confirmRemoveAllVariants}
+            disabled={removingAll}
+          >
+            {removingAll ? "Setting up..." : "Set up single-SKU editor"}
+          </Button>
+        )}
+      </div>
+    );
   }
 
   const hasOption2 = variants.some((v) => v.option2);
   const hasOption3 = variants.some((v) => v.option3);
-  const hasSku = variants.some((v) => v.sku);
+  // SKU column is ALWAYS visible — every variant gets an auto-generated SKU
+  // at scrape time (see scraper.service.ts), so the column is meaningful for
+  // every product. Manual SKUs override the generated one inline.
+  const hasSku = true;
   const hasBarcode = variants.some((v) => v.barcode);
   const hasWeight = variants.some((v) => v.weight !== null);
   const hasPkgDimensions = variants.some((v) => v.packagingDimensions);
@@ -597,6 +658,121 @@ export function VariantTable({
   const option1Name = optionNames?.[0] || "Option 1";
   const option2Name = optionNames?.[1] || "Option 2";
   const option3Name = optionNames?.[2] || "Option 3";
+  const axisCount = 1 + (hasOption2 ? 1 : 0) + (hasOption3 ? 1 : 0);
+  // True when no visible variant has a value on that axis — i.e. the column
+  // is empty and the user is consolidating it away.
+  const axisIsEmpty = useCallback(
+    (axisIndex: 0 | 1 | 2): boolean => {
+      const key = (["option1", "option2", "option3"] as const)[axisIndex];
+      return variants.every((v) => {
+        if (v.isHidden) return true;
+        const val = v[key];
+        return val === null || (typeof val === "string" && val.trim().length === 0);
+      });
+    },
+    [variants],
+  );
+  // Offer "drop column" when there's a second axis to fall back to, OR when
+  // the only remaining axis is empty (consolidates the product to a single
+  // no-options SKU — the Shopify uploader's isSingleVariantNoOptions branch
+  // handles the resulting state).
+  const canDropAxis =
+    !!productId && (axisCount > 1 || (axisCount === 1 && axisIsEmpty(0)));
+
+  // Unique values + counts on the axis currently being dropped, sorted by
+  // count desc — drives the dialog's keep-value selector. Visible-only:
+  // hidden variants don't count as candidates (they get nuked alongside the
+  // non-matching visibles in the same transaction).
+  const dropAxisEntries = useMemo<[string, number][]>(() => {
+    if (dropAxisIndex === null) return [];
+    const key = (["option1", "option2", "option3"] as const)[dropAxisIndex];
+    const counts = new Map<string, number>();
+    for (const v of variants) {
+      if (v.isHidden) continue;
+      const val = v[key];
+      if (val === null || val === "") continue;
+      counts.set(val, (counts.get(val) ?? 0) + 1);
+    }
+    return Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+  }, [dropAxisIndex, variants]);
+
+  function openDropAxis(axisIndex: 0 | 1 | 2) {
+    const key = (["option1", "option2", "option3"] as const)[axisIndex];
+    const counts = new Map<string, number>();
+    for (const v of variants) {
+      if (v.isHidden) continue;
+      const val = v[key];
+      if (val === null || val === "") continue;
+      counts.set(val, (counts.get(val) ?? 0) + 1);
+    }
+    const top = Array.from(counts.entries()).sort((a, b) => b[1] - a[1])[0];
+    setDropAxisKeepValue(top?.[0] ?? "");
+    setDropAxisIndex(axisIndex);
+  }
+
+  async function confirmRemoveAllVariants() {
+    if (!productId) return;
+    setRemovingAll(true);
+    try {
+      const res = await fetch(`/api/products/${productId}/remove-all-variants`, {
+        method: "POST",
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const removed =
+        typeof json.deletedVariants === "number" ? json.deletedVariants : 0;
+      const initialized = json.initialized === true;
+      toast.success(
+        initialized
+          ? "Single-SKU editor initialized — edit price / SKU / weight below."
+          : `Collapsed to a single SKU — kept 1 variant, removed ${removed}.`,
+      );
+      setShowRemoveAllDialog(false);
+      onVariantsChanged?.();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Remove all variants failed");
+    } finally {
+      setRemovingAll(false);
+    }
+  }
+
+  async function confirmDropAxis() {
+    if (!productId || dropAxisIndex === null) return;
+    setDroppingAxis(true);
+    try {
+      // For an empty axis (no values on visible variants), there's nothing
+      // to "keep" — send keepValue: null so the backend just removes the
+      // axis and deletes the orphaned hidden variants.
+      const keepValue =
+        dropAxisEntries.length === 0 ? null : dropAxisKeepValue;
+      const res = await fetch(`/api/products/${productId}/drop-option-axis`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          axisIndex: dropAxisIndex,
+          keepValue,
+        }),
+      });
+      if (!res.ok) {
+        const json = await res.json().catch(() => ({}));
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const data = (await res.json()) as { kept: number; dropped: number };
+      const droppedName = [option1Name, option2Name, option3Name][dropAxisIndex];
+      toast.success(
+        `Dropped column "${droppedName}". Kept ${data.kept} of ${data.kept + data.dropped} variants.`,
+      );
+      setDropAxisIndex(null);
+      setDropAxisKeepValue("");
+      onVariantsChanged?.();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Drop column failed");
+    } finally {
+      setDroppingAxis(false);
+    }
+  }
 
   // Rename an axis: PATCH the product's optionNames array and ask the parent
   // to re-fetch. Defensive against missing productId (read-only contexts).
@@ -901,10 +1077,11 @@ export function VariantTable({
 
   return (
     <div className="space-y-2">
-      {/* Hidden-rows toggle. Only renders when there's at least one hidden
-          variant — otherwise the button has nothing to do. */}
-      {hiddenVariantCount > 0 && (
-        <div className="flex justify-end">
+      {/* Top-right toolbar: hidden-rows toggle (only when there are hidden
+          rows) + Remove-all-variants (always when there's at least one
+          variant + a productId — read-only contexts skip it). */}
+      <div className="flex justify-end gap-2">
+        {hiddenVariantCount > 0 && (
           <Button
             type="button"
             size="sm"
@@ -916,8 +1093,22 @@ export function VariantTable({
               ? `Show ${hiddenVariantCount} hidden row${hiddenVariantCount === 1 ? "" : "s"}`
               : `Hide ${hiddenVariantCount} hidden row${hiddenVariantCount === 1 ? "" : "s"}`}
           </Button>
-        </div>
-      )}
+        )}
+        {productId && (
+          <Button
+            type="button"
+            size="sm"
+            variant="ghost"
+            className="h-7 text-xs text-destructive hover:text-destructive"
+            onClick={() => setShowRemoveAllDialog(true)}
+            disabled={removingAll}
+            title="Drop the whole variant table; product becomes a single SKU"
+          >
+            <Trash2 className="mr-1 h-3 w-3" />
+            Remove all variants
+          </Button>
+        )}
+      </div>
       {/* Bulk action toolbar */}
       {someSelected && productId && (
         <div className="bg-muted/50 flex flex-wrap items-center gap-2 rounded-md border p-2">
@@ -1049,6 +1240,7 @@ export function VariantTable({
                 axisSort={axisSort}
                 onCycle={cycleAxisSort}
                 onRename={productId ? renameAxis : undefined}
+                onDrop={canDropAxis ? openDropAxis : undefined}
               />
               {hasOption2 && (
                 <AxisSortHead
@@ -1057,6 +1249,7 @@ export function VariantTable({
                   axisSort={axisSort}
                   onCycle={cycleAxisSort}
                   onRename={productId ? renameAxis : undefined}
+                  onDrop={canDropAxis ? openDropAxis : undefined}
                 />
               )}
               {hasOption3 && (
@@ -1066,6 +1259,7 @@ export function VariantTable({
                   axisSort={axisSort}
                   onCycle={cycleAxisSort}
                   onRename={productId ? renameAxis : undefined}
+                  onDrop={canDropAxis ? openDropAxis : undefined}
                 />
               )}
               <TableHead
@@ -1354,6 +1548,142 @@ export function VariantTable({
         </DialogContent>
       </Dialog>
 
+      {/* Drop Axis (Column) Confirmation Dialog */}
+      <Dialog
+        open={dropAxisIndex !== null}
+        onOpenChange={(open) => {
+          if (!open) {
+            setDropAxisIndex(null);
+            setDropAxisKeepValue("");
+          }
+        }}
+      >
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>
+              Drop column &ldquo;
+              {dropAxisIndex !== null
+                ? [option1Name, option2Name, option3Name][dropAxisIndex]
+                : ""}
+              &rdquo;?
+            </DialogTitle>
+            <DialogDescription>
+              Deletes every variant that doesn&apos;t match the value you keep,
+              shifts the remaining axes down, and removes the column from the
+              product&apos;s option list. This cannot be undone.
+            </DialogDescription>
+          </DialogHeader>
+          {dropAxisIndex !== null && dropAxisEntries.length === 0 && (
+            <div className="space-y-2 py-2 text-sm text-muted-foreground">
+              <p>
+                This column has no values on any visible variant — it&apos;s
+                empty. Dropping it removes it from the product&apos;s option
+                list and leaves the visible variants untouched.
+              </p>
+              {variants.some((v) => v.isHidden) && (
+                <p className="text-xs">
+                  Note: hidden variants on this axis will be deleted (they
+                  wouldn&apos;t fit the new axis structure).
+                </p>
+              )}
+            </div>
+          )}
+          {dropAxisIndex !== null && dropAxisEntries.length > 0 && (() => {
+            const found = dropAxisEntries.find(
+              ([val]) => val === dropAxisKeepValue,
+            );
+            const kept = found?.[1] ?? 0;
+            // Dropped count is over VISIBLE variants only — the dialog's
+            // counts and the backend's actual operation must agree.
+            const visibleCount = variants.filter((v) => !v.isHidden).length;
+            const dropped = visibleCount - kept;
+            return (
+              <div className="space-y-3 py-2">
+                <label className="block text-sm">
+                  <span className="mb-1 block text-muted-foreground">
+                    Keep variants where this value is:
+                  </span>
+                  <select
+                    value={dropAxisKeepValue}
+                    onChange={(e) => setDropAxisKeepValue(e.target.value)}
+                    className="h-9 w-full rounded-md border bg-background px-3 text-sm"
+                  >
+                    {dropAxisEntries.map(([val, count]) => (
+                      <option key={val} value={val}>
+                        {val} ({count} variant{count === 1 ? "" : "s"})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <p className="text-sm text-muted-foreground">
+                  Will keep <strong>{kept}</strong> variant
+                  {kept === 1 ? "" : "s"} and delete{" "}
+                  <strong>{dropped}</strong>.
+                </p>
+              </div>
+            );
+          })()}
+          <DialogFooter>
+            <Button
+              variant="outline"
+              onClick={() => {
+                setDropAxisIndex(null);
+                setDropAxisKeepValue("");
+              }}
+              disabled={droppingAxis}
+            >
+              Cancel
+            </Button>
+            <Button
+              variant="destructive"
+              onClick={confirmDropAxis}
+              disabled={
+                droppingAxis ||
+                (dropAxisEntries.length > 0 && !dropAxisKeepValue)
+              }
+            >
+              {droppingAxis ? "Dropping..." : "Drop column"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      {/* Remove All Variants Confirmation Dialog */}
+      <Dialog open={showRemoveAllDialog} onOpenChange={setShowRemoveAllDialog}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>
+              Collapse {variants.length} variant
+              {variants.length === 1 ? "" : "s"} into a single SKU?
+            </DialogTitle>
+            <DialogDescription>
+              The first variant&apos;s price, SKU, weight, and compare-at
+              price are kept and become the product&apos;s single SKU (you
+              can edit them inline after). Every other variant is deleted.
+              The image gallery stays untouched — set the image you want as
+              the hero source as <em>primary</em> (position 0). Cannot be
+              undone.
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <Button
+              variant="outline"
+              onClick={() => setShowRemoveAllDialog(false)}
+              disabled={removingAll}
+            >
+              Cancel
+            </Button>
+            <Button
+              variant="destructive"
+              onClick={confirmRemoveAllVariants}
+              disabled={removingAll}
+            >
+              {removingAll ? "Removing..." : "Remove all variants"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
       {/* Delete Confirmation Dialog */}
       <Dialog open={showDeleteDialog} onOpenChange={setShowDeleteDialog}>
         <DialogContent>
@@ -1386,6 +1716,130 @@ export function VariantTable({
           </DialogFooter>
         </DialogContent>
       </Dialog>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SingleSkuFields — inline editor for the price / compare-at / SKU / weight
+// of a product that's been collapsed to a single SKU. Saves on blur via the
+// existing variants PATCH endpoint (singular shape). Re-syncs from props
+// whenever the parent re-fetches.
+// ─────────────────────────────────────────────────────────────────────────────
+function SingleSkuFields({
+  variant,
+  productId,
+  onChanged,
+}: {
+  variant: VariantTableItem;
+  productId: string;
+  onChanged?: () => void;
+}) {
+  const [price, setPrice] = useState(variant.price);
+  const [compareAtPrice, setCompareAtPrice] = useState(variant.compareAtPrice ?? "");
+  const [sku, setSku] = useState(variant.sku ?? "");
+  const [weight, setWeight] = useState(
+    variant.weight !== null && variant.weight !== undefined ? String(variant.weight) : "",
+  );
+  const [saving, setSaving] = useState(false);
+
+  // Re-sync local state when the parent re-fetches (e.g. after another save).
+  useEffect(() => {
+    setPrice(variant.price);
+    setCompareAtPrice(variant.compareAtPrice ?? "");
+    setSku(variant.sku ?? "");
+    setWeight(
+      variant.weight !== null && variant.weight !== undefined ? String(variant.weight) : "",
+    );
+  }, [variant.id, variant.price, variant.compareAtPrice, variant.sku, variant.weight]);
+
+  async function saveField(field: string, value: string | number | null) {
+    setSaving(true);
+    try {
+      const body: Record<string, unknown> = { variantId: variant.id, [field]: value };
+      // If we're saving a weight, make sure weightUnit is also set so the
+      // existing display logic (which checks weightUnit) works.
+      if (field === "weight" && value !== null) body.weightUnit = "g";
+      const res = await fetch(`/api/products/${productId}/variants`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) {
+        const j = await res.json().catch(() => ({}));
+        throw new Error(j.error || `HTTP ${res.status}`);
+      }
+      onChanged?.();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Save failed");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  return (
+    <div className="grid grid-cols-2 gap-3 rounded-md border bg-card p-3 sm:grid-cols-4">
+      <label className="text-xs">
+        <span className="mb-1 block text-muted-foreground">Price ($)</span>
+        <Input
+          value={price}
+          onChange={(e) => setPrice(e.target.value)}
+          onBlur={() => {
+            if (price !== variant.price) saveField("price", price);
+          }}
+          placeholder="0.00"
+          disabled={saving}
+          className="h-8 text-sm"
+        />
+      </label>
+      <label className="text-xs">
+        <span className="mb-1 block text-muted-foreground">Compare at ($)</span>
+        <Input
+          value={compareAtPrice}
+          onChange={(e) => setCompareAtPrice(e.target.value)}
+          onBlur={() => {
+            const next = compareAtPrice === "" ? null : compareAtPrice;
+            const current = variant.compareAtPrice ?? null;
+            if (next !== current) saveField("compareAtPrice", next);
+          }}
+          placeholder="—"
+          disabled={saving}
+          className="h-8 text-sm"
+        />
+      </label>
+      <label className="text-xs">
+        <span className="mb-1 block text-muted-foreground">SKU</span>
+        <Input
+          value={sku}
+          onChange={(e) => setSku(e.target.value)}
+          onBlur={() => {
+            const next = sku === "" ? null : sku;
+            const current = variant.sku ?? null;
+            if (next !== current) saveField("sku", next);
+          }}
+          placeholder="—"
+          disabled={saving}
+          className="h-8 font-mono text-sm"
+        />
+      </label>
+      <label className="text-xs">
+        <span className="mb-1 block text-muted-foreground">Weight (g)</span>
+        <Input
+          type="number"
+          value={weight}
+          onChange={(e) => setWeight(e.target.value)}
+          onBlur={() => {
+            const next = weight === "" ? null : parseFloat(weight);
+            const current = variant.weight ?? null;
+            if (next !== current && (next === null || !Number.isNaN(next))) {
+              saveField("weight", next);
+            }
+          }}
+          placeholder="—"
+          disabled={saving}
+          className="h-8 text-sm"
+        />
+      </label>
     </div>
   );
 }
@@ -1652,9 +2106,12 @@ interface AxisSortHeadProps {
    *  swaps the axis name for an inline input. The handler PATCHes the
    *  product's optionNames on the server. */
   onRename?: (axisIndex: 0 | 1 | 2, newName: string) => Promise<void> | void;
+  /** When provided, a small trash icon appears on hover; clicking it opens a
+   *  confirmation dialog and drops this entire axis from the variant matrix. */
+  onDrop?: (axisIndex: 0 | 1 | 2) => void;
 }
 
-function AxisSortHead({ axisIndex, name, axisSort, onCycle, onRename }: AxisSortHeadProps) {
+function AxisSortHead({ axisIndex, name, axisSort, onCycle, onRename, onDrop }: AxisSortHeadProps) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(name);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -1737,6 +2194,20 @@ function AxisSortHead({ axisIndex, name, axisSort, onCycle, onRename }: AxisSort
             title={`Rename "${name}"`}
           >
             <Pencil className="h-3 w-3" />
+          </button>
+        )}
+        {onDrop && !editing && (
+          <button
+            type="button"
+            className="opacity-0 transition-opacity hover:text-destructive group-hover:opacity-100"
+            onClick={(e) => {
+              e.stopPropagation();
+              onDrop(axisIndex);
+            }}
+            aria-label={`Drop column ${name}`}
+            title={`Drop column "${name}"`}
+          >
+            <Trash2 className="h-3 w-3" />
           </button>
         )}
         {!editing && <Icon className="h-3 w-3" />}

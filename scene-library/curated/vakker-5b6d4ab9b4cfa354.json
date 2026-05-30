@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-5b6d4ab9b4cfa354",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-5b6d4ab9b4cfa354.png",
+  "source_url": "https://vakkerlight.com/products/dome-alabaster-table-lamp",
+  "description": "A calm, warm-neutral living room vignette photographed at seated eye-level with a normal lens, showing a three-quarter view of the room's media console zone. The walls are a soft plaster-white with subtle warm undertone, catching soft diffused daylight from a window just off-left of frame. A low, solid-walnut media console with paneled door fronts anchors the center of the composition, styled with a white ceramic cylindrical object, a small cream-toned arch-shaped sculptural piece, a loose dried botanical stem in a small vase, and a neatly stacked pair of books. Above the console hangs a large-format abstract canvas in cream and warm taupe. In the foreground, the arms and corners of two upholstered linen sofas in oatmeal are visible flanking the scene, their surfaces draped with chunky-knit throw blankets in caramel. A large natural-fiber jute rug covers the floor. Warm ambient light fills the room evenly from the left window source, casting a soft luminous glow across the console surface and surrounding wall. The palette is entirely warm neutral — cream, sand, caramel, walnut, and white plaster — with no pronounced accent colors. Styling density on the console surface is low-to-mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier",
+      "flush_mount",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

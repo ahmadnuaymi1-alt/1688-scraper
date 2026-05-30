@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-53498badf3e93fc0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/flush-mount-wall-light-modern-adjustable-bedside-reading-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_95a39f89-e64f-46fc-a13b-f449a2d02333.jpg?v=1778838311",
+  "scraped_date": "2026-05-21T12:02:33.451Z",
+  "source_title": "Flush Mount Wall Light Modern Adjustable Bedside Reading Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "53498badf3e93fc018c8a954c8b8486182fb4e25",
+  "description": "A compact dining nook set into the corner of a warm, minimalist interior. An L-shaped built-in banquette in honey-toned light oak frames a small square café table on a polished steel pedestal base. The banquette cushions are upholstered in a smooth, tightly woven oat-beige fabric. A light oak dining chair with a saddle-style seat occupies the near foreground, pulled partially away from the table. On the tabletop sit a white ceramic cup on a saucer and a thin dark notebook with a pen resting alongside. The walls are finished in a creamy off-white plaster, smooth and unadorned except for the gentle warmth radiating downward from the wall above the banquette corner — a focused amber pool washing down the back wall and washing across the top of the banquette backrest, leaving the lower portions in soft shadow. The flooring is medium-toned light oak hardwood in a straight-laid pattern. To the right edge of the frame a large-leafed tropical plant in a cylindrical matte-bronze pot introduces a single note of deep green. The overall palette is warm neutral — blonde wood, oat textile, cream plaster — with no strong secondary colors. Camera is at standing eye-level, roughly 5 feet high, positioned in a three-quarter corner view that shows both the back wall and the right side wall converging. The lens reads as a normal focal length, filling the frame with the nook without distortion. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.277Z"
+}

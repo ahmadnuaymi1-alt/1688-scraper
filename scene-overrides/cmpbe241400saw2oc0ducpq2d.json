@@ -1,0 +1,82 @@
+{
+  "productId": "cmpbe241400saw2oc0ducpq2d",
+  "productTitle": "Metal Flexible Gooseneck Plug-In LED Desk Lamp (wood base)",
+  "authoredBy": "in-chat scene design — Scandinavian-style matte metal gooseneck on light-oak base; 6 colour variants cycle to slots 1-6; warm white 2700-3000K per the warm glow visible inside the bell shade",
+  "authoredAt": "2026-05-23T13:30:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "kitchen-task-counter",
+      "mode": "homey",
+      "prompt": "A small breakfast-counter corner of a Scandinavian apartment kitchen, shot on a 35mm lens at standing eye-level slight three-quarter so the matte-painted-metal gooseneck desk lamp on its pale-oak base anchors the right-third of a 1:1 frame on a Calacatta-marble peninsula. Mid-morning: soft window light filters through a steel-framed casement at frame-left. Style with a stoneware fruit bowl of pears, a moka pot on a folded raw-linen cloth, a small terracotta pot of fresh basil, a glass jar of granola, and a ceramic mug of black coffee. Reeded white-oak cabinets line the back wall under a warm clay-pink limewash. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of clay-pink, marble white, pale oak, brass, fresh green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "kitchen breakfast counter",
+      "designStyle": "warm Scandinavian apartment kitchen",
+      "wallColour": "clay-pink limewash",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "mid-morning",
+      "accents": ["Calacatta-marble peninsula", "stoneware fruit bowl of pears", "moka pot on linen", "potted fresh basil", "mug of black coffee"]
+    },
+    {
+      "slug": "reading-nook-sage",
+      "mode": "minimalist",
+      "prompt": "A quiet reading corner of a small primary bedroom, shot on a 35mm lens at seated eye-level so the matte-metal gooseneck desk lamp on its pale-oak base anchors the back-centre of a 1:1 frame on a slim walnut tripod side table. Late afternoon: soft cool window light filters through sheer-linen drapes from frame-right. Tight styling — a single linen-cloth-bound hardback open face-down with a green silk bookmark, a footed stoneware mug of black tea, and an oat-cashmere throw draped over the chair arm. Walls are a deep sage limewash with a single small leaning framed botanical print. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of sage green, oat linen, walnut, pale oak, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "bedroom reading corner",
+      "designStyle": "Japandi serene minimalist",
+      "wallColour": "deep sage limewash",
+      "cameraAngle": "35mm seated eye-level",
+      "timeOfDay": "late afternoon",
+      "accents": ["walnut tripod side table", "linen hardback with silk bookmark", "stoneware mug of tea", "oat-cashmere throw", "leaning botanical print"]
+    },
+    {
+      "slug": "home-office-walnut",
+      "mode": "minimalist",
+      "prompt": "A small home office writing desk, shot on a 35mm lens at standing eye-level dead-centre so the matte-metal gooseneck desk lamp on its pale-oak base sits in the upper-left third of a 1:1 frame on a walnut tanker-style desk. Early morning: cool light through a steel-framed casement window at frame-right; the only second light source is a slim brass picture light over a leaning small abstract sketch on the back wall. Tight styling — a leather-bound writing journal open with a tortoiseshell fountain pen across it, a small ceramic dish holding two brass paper clips, a folded raw-linen napkin, and a single dried teasel head in a slim stoneware bottle. Walls are warm cream limewash. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of cream, walnut, brass, soft teasel beige, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "home office writing desk",
+      "designStyle": "mid-century writer's study",
+      "wallColour": "warm cream limewash",
+      "cameraAngle": "35mm standing eye-level",
+      "timeOfDay": "early morning",
+      "accents": ["walnut tanker desk", "leather journal with fountain pen", "ceramic dish with brass clips", "dried teasel in stoneware bottle", "brass picture light"]
+    },
+    {
+      "slug": "nursery-changing-corner",
+      "mode": "homey",
+      "prompt": "A peaceful child's nursery changing corner, shot on a 35mm lens at seated eye-level so the matte-metal gooseneck desk lamp on its pale-oak base sits in the upper-right of a 1:1 frame on a low oak dresser-top changing surface. Quiet late-afternoon natural light filters in from a sash window with sheer cream linen curtains at frame-left. Style with a folded muslin swaddle blanket, a small woven basket holding rolled cotton cloths and a wooden teething ring, a hand-knit cardigan draped over the basket edge, a stoneware cup of chamomile tea, and a small potted English ivy. Walls are a soft butter-yellow paint with a leaning small embroidery hoop of a botanical print. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of butter yellow, oat muslin, pale oak, sage green, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "nursery changing corner",
+      "designStyle": "soft cottagecore nursery",
+      "wallColour": "butter-yellow paint",
+      "cameraAngle": "35mm seated eye-level",
+      "timeOfDay": "late afternoon",
+      "accents": ["oak dresser changing surface", "folded muslin swaddle", "woven basket with cloths and teething ring", "knit cardigan", "potted English ivy"]
+    },
+    {
+      "slug": "craft-table-corner",
+      "mode": "homey",
+      "prompt": "A small craft-table corner of a sunlit guest room repurposed as a hobby room, shot on a 35mm lens slightly elevated three-quarter so the matte-metal gooseneck desk lamp on its pale-oak base anchors the back-left of a 1:1 frame on a vintage scrubbed-pine craft table. Golden hour: warm raking light through a low sash window at frame-right. Style with a small ceramic mason jar densely packed with watercolour brushes handles-up, a wooden palette with daubs of sage, terracotta and ivory, a stack of three cloth-bound sketchbooks, a stoneware mug of tea, and a single dried hydrangea in a slim raku vessel. Walls are warm cream limewash with a leaning small framed pressed-flower print. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of cream, pale oak, sage, terracotta, ivory, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "hobby room craft table",
+      "designStyle": "warm cottagecore craft corner",
+      "wallColour": "warm cream limewash",
+      "cameraAngle": "35mm slightly elevated three-quarter",
+      "timeOfDay": "golden hour",
+      "accents": ["scrubbed-pine craft table", "ceramic jar of watercolour brushes", "wooden palette with daubs", "stack of cloth-bound sketchbooks", "dried hydrangea in raku vessel"]
+    },
+    {
+      "slug": "library-side-shelf",
+      "mode": "minimalist",
+      "prompt": "An English library side-shelf corner with built-in bookcases, shot on a 50mm lens at standing eye-level so the matte-metal gooseneck desk lamp on its pale-oak base sits centred in a 1:1 frame on a thick walnut floating shelf. Late evening: the only second light source is a slim banker's-green reading lamp glowing across the room on a leather-topped partners desk in the blurred background. Tight styling — a leaning stack of three leather-bound architectural monographs, a small hand-thrown raw-clay incense burner with a thin curl of smoke, a single dried susuki grass stem in a slim graphite-grey stoneware bottle, and an antique brass surveyor's compass laid flat at the shelf edge. Walls are deep forest-green limewash with leather-bound book spines lining shelves around. The lamp matches the reference image exactly — bell-shaped painted-metal shade in the body colour shown in the reference, on a slim flexible matte gooseneck arm with a turned pale-oak round base — switched ON, warm white 2700-3000K (matches the warm glow visible inside the variant reference). Palette of forest green, walnut, leather brown, brass, dried susuki beige, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "library side shelf",
+      "designStyle": "English gentleman's library",
+      "wallColour": "deep forest-green limewash",
+      "cameraAngle": "50mm standing eye-level",
+      "timeOfDay": "late evening",
+      "accents": ["walnut floating shelf", "leather-bound architectural monographs", "raw-clay incense burner with smoke", "dried susuki in graphite stoneware", "antique brass compass"]
+    }
+  ]
+}

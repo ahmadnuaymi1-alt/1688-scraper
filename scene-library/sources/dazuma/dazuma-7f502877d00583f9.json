@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-7f502877d00583f9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-outdoor-solar-waterproof-villa-garden-gate-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-lights-outdoor-solar-concrete-fence-post.jpg?v=1778566509",
+  "scraped_date": "2026-05-21T12:02:58.059Z",
+  "source_title": "Pillar Lights Outdoor Solar Waterproof Villa Garden Gate Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7f502877d00583f92aaa759bb7231d10dcf37dfd",
+  "description": "A contemporary residential garden gate post photographed at dusk from a standing camera height, approximately five feet off grade, using a normal to slightly telephoto lens and a tight off-center thirds composition that places the masonry pier cap in the center-left of the frame. The pier is a square column of smooth raw concrete in warm light grey, its surface showing fine form marks. A matte black horizontal aluminium slatted fence panel runs along the left side of the frame. In the immediate foreground, tall feathery ornamental grass — possibly pampas or miscanthus — blows softly into both corners of the frame, its pale blonde seed heads catching the amber glow and providing wispy organic texture. The pier cap radiates warm amber light outward and downward across the concrete surface below. In the background at soft focus, a contemporary luxury house is visible: black aluminium-framed floor-to-ceiling glass panels open to a living room with a neutral linen sofa bathed in deep warm interior amber. To the right, a swimming pool glows in cool turquoise-blue behind smooth concrete coping, contrasting against the warm interior. Clipped ball-form boxwood hedges dot the terrace. Structural white-painted columns form a covered outdoor terrace at the right side. The palette is cool light concrete, matte black metal, warm amber glow at grade, cool blue pool water, and deep warm amber interior light in the blurred background. The mood is sophisticated and serene at dusk, the warm post glow bridging the interior warmth and the cool outdoor twilight. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.447Z"
+}

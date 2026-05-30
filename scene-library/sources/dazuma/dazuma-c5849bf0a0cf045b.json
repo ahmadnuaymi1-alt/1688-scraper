@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-c5849bf0a0cf045b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/up-down-lighting-wall-lights-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/up-down-lighting-wall-lights-modern-gold-black-glass-door.jpg?v=1774836790",
+  "scraped_date": "2026-05-21T12:03:59.509Z",
+  "source_title": "Up down Lighting Wall Lights Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Up & Down Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c5849bf0a0cf045b526e07513d7a46920cff8bfb",
+  "description": "An exterior wall vignette photographed at standing eye-level with a normal lens in an off-center thirds composition. The frame is dominated by a rough sand-finish stucco exterior wall in warm greige, occupying the central and left portions of the image. At the right edge, the chamfered corner of a dark-framed glass-and-aluminum door opening glows with warm amber interior light visible beyond, suggesting a contemporary residence at evening. The upper right interior glimpse reveals a terracotta pot with a small plant on an interior surface. Along the lower foreground, lush Boston fern fronds and broad tropical leaves spill in from the bottom edge, adding life and a deep forest green contrast to the mineral wall surface. Four distinct fans of warm golden light radiate upward and downward across the stucco face, creating crisp symmetrical beam patterns — two arching fans upward and two spreading downward — each catching the texture of the rough plaster and casting subtle shadows in the granular surface. The warm amber beams against the cool greige stucco create a dramatic tonal contrast characteristic of twilight exterior lighting. The atmosphere is architectural, theatrical yet intimate, and distinctly contemporary in its geometric precision. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.785Z"
+}

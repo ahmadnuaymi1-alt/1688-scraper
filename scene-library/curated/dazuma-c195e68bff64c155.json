@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-c195e68bff64c155",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c195e68bff64c155.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-driveway-pillar-lights-minimalist-landscape-post-light",
+  "description": "An outdoor garden landscape photographed at standing eye-level with a normal lens at dusk, capturing a wide establishing view of a lush residential garden bed. The scene shows a perennial cottage garden brimming with blooms — pink and white coneflowers, white hydrangeas, ornamental grasses in feathery taupe plumes, and purple and lavender wildflowers all intermingling in an abundant naturalistic border. A gravel pathway curves gently through the left of the composition, edged with rounded river stones and flat granite pavers. Rich green lawn extends into the background, where a mature blue spruce tree and tall deciduous trees create a deep green backdrop. A wooden deck or porch structure with warm incandescent glow is visible in the far left background. The golden-hour dusk light bathes the scene in warm amber-yellow tones, casting long gentle shadows across the grass. A slender post fixture with a decorative lantern top stands at the center of the garden bed on a flat stone base, its warm amber glow kindling a gentle halo around it. The mood is serene and pastoral, rich with natural color and living texture. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

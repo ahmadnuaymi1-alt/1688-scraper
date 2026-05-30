@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-83a601f086c83cea",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-83a601f086c83cea.jpg",
+  "source_url": "https://dazuma.us/products/modern-outdoor-floor-lamps-waterproof-landscape-light",
+  "description": "An outdoor garden pathway setting photographed at dusk from a standing camera height, approximately four to five feet off grade, using a normal lens and an off-center thirds composition that places the tall sculptural floor object slightly left of center on a paved garden path. The path surface is composed of large rectangular concrete or stone pavers in warm grey laid in a running bond pattern, with grass joints. The path recedes to a vanishing point in the background, flanked on the left by a close-mown lawn edge. In the right foreground and middle ground, tall feathery ornamental grass — miscanthus or pampas — sweeps into the frame with pale blonde seed heads catching the amber glow. To the right of the path, a modern outdoor park-style bench with closely spaced vertical dark grey or black aluminium or hardwood slats sits at an angle, its form graphic and minimal. The background shows an autumn garden: dense mixed evergreen and deciduous shrubs in deep forest green on the left, and brilliant warm orange and amber autumn foliage on the right, all suffused with the last warm glow of a sunset sky above the treeline. The sculptural object on the path radiates warm cream-white luminescence outward in all directions, pooling softly on the paving stones below and illuminating the feathery grass with a warm backlight edge. The mood is serene and magical, autumn garden at golden hour transitioning to dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-560d0949f492d776",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-560d0949f492d776.jpg",
+  "source_url": "https://dazuma.us/products/colored-glass-table-lamp-french-style-multi-light-lamp",
+  "description": "A minimalist living room vignette with a focus on an organic, sculptural console setting. A long, low walnut console table or sofa table with a clean flat top and simple slab legs sits directly in front of a plush low-profile sectional or sofa in a warm light gray woven fabric. The sofa is dressed with large overstuffed back cushions in the same fabric and a loose scatter pillow slightly off-center. The wall behind is smooth warm white plaster with no decoration. At the top-left corner of the frame, a sprig of silvery-green olive branch leaves edges into the composition, adding a natural botanical note. The scene is bathed in soft, even ambient daylight from an unseen source to the left, casting a gentle cool-warm light across the wall and console surface. The palette is restrained warm neutral — walnut, gray linen, warm white — punctuated by saturated jewel-toned accents of forest green and plum on a sculptural object on the console. Camera is at seated eye-level, approximately 3 to 4 feet high, centered on the console top in a vignette composition with a normal focal length that keeps the sofa visible as a contextual backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

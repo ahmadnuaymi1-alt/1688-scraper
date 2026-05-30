@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-90cc47c29b3e7804",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorate-floor-lamp-wedding-decoration-cotton-tree-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/unique-decorate-floor-lamp-beach-wedding-aisle-decor.jpg?v=1777086797",
+  "scraped_date": "2026-05-21T12:04:27.844Z",
+  "source_title": "6 PCS Decorate Floor Lamp Wedding Decoration Cotton Tree Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "90cc47c29b3e78045854262cf274ab0f10ea9eb5",
+  "description": "An outdoor coastal garden venue photographed at dusk, set up for a formal event or wedding ceremony. A stone-paved pathway in irregular large-format pale sandstone or limestone slabs runs down the center of the frame as a symmetrical aisle, flanked on both sides by lush green lawn. Two rows of tall, slender white fabric columns or draped panels on poles stand along the aisle edges, their sheer white voile fabric billowing very slightly in the still air. At the base of each white column, large lush clusters of white florals — full white roses, peonies, and hydrangeas in loose mounded arrangements — sit at ground level. Between the fabric columns, four branching sculptural forms of brass or gold-toned metal with spherical globe diffusers arranged like a branching tree or plant emit a warm white to cream glow, placed two on each side in the aisle. Their orbs of illumination are soft and diffuse. Tall tropical palm trees rise behind the columns against a soft dusk sky in pale blue-gray with a peachy hint at the horizon, the ocean or beach visible through the opening at the far end of the aisle, with turquoise-blue water beyond. To the left, a white event tent with soft glow inside is partially visible, with seated guests. Dark leafy trees frame the top corners of the image. The camera is at standing eye-level, approximately 5–6 feet, with a normal to slightly wide lens. The composition is a perfectly centered one-point perspective looking straight down the aisle toward the ocean horizon. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.517Z"
+}

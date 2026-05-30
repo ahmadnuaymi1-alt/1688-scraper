@@ -1,0 +1,39 @@
+{
+  "scene_id": "dazuma-813bfce075ae017f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-813bfce075ae017f.jpg",
+  "source_url": "https://dazuma.us/products/modern-brass-chandelier-minimalist-candle-ceiling-light",
+  "description": "A bright, airy living room with a steeply pitched cathedral ceiling photographed at standing eye-level, approximately five feet off the floor, using a normal lens and a centered symmetrical composition facing the fireplace wall. The ceiling is white-painted shiplap between exposed structural oak beams in a warm honey-blond tone, converging at the gable ridge. Two black curtain rods flank the upper corners, with floor-length ivory linen sheers framing large black-framed windows on both sides. The fireplace surround and mantel are white Carrara marble with fine grey veining, its form simple and rectilinear. Flanking the fireplace are built-in open shelving niches with white-painted surfaces, populated with an artful arrangement of terracotta and unglazed ceramic vessels of varying shapes and sizes, plus a small vase of delicate dry-branch stems. A square framed abstract art print in bold black brushstrokes on white paper hangs centered above the mantel. The firebox contains neatly stacked cut log rounds for fire-ready ambiance, and additional log stacks fill the bottom shelf of each built-in niche. The seating arrangement consists of a large ivory linen upholstered sofa on the right and a pair of oversized rounded boucle swivel chairs in warm caramel on the left, both surrounding a solid oak rectangular coffee table with a lower shelf. On the coffee table: a single white ceramic vase with sparse flowering stems, a turned wood bowl, and stacked books. A creamy jute area rug anchors the grouping. A small ornamental olive tree in a simple pot stands to the right. The palette is crisp white, warm honey oak, caramel boucle, ivory, and terracotta ceramics. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "shiplap",
+      "fireplace",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

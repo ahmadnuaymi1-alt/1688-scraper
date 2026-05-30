@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-00f49274858f35c4",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-00f49274858f35c4.jpg",
+  "source_url": "https://vakkerlight.com/products/gilded-branch-alabaster-wall-lamp",
+  "description": "A corner of a residential interior shot at standing eye-level in a three-quarter view, capturing the junction of two walls meeting at a right angle. The walls are finished in a smooth, matte warm white plaster with a faintly creamy undertone, casting soft natural shadows that reveal the subtle texture of the surface. Diagonal bands of natural daylight rake across both wall planes from an off-frame window source to the upper left, creating elongated parallelogram pools of warm, honeyed light that animate the otherwise restrained architecture. The shadows are soft-edged and diffuse, suggesting afternoon sun filtered through a sheer or partially obscured window. On the left wall, a landscape painting in a warm oak frame leans or hangs close to the wall corner — the canvas depicts what appears to be a pastoral or wooded scene rendered in muted greens, ochres, and grey-blues, the composition partially cropped by the frame edge. On the right wall, a second framed landscape painting is partially visible, similarly toned and framed in warm wood, suggesting a collected, salon-style approach to art hanging. At lower right, the edge of a low walnut sideboard or credenza is visible, its surface catching a warm ambient glow from a low unseen source. The furniture finish is a rich, mid-toned walnut with a satin sheen. The floor is not visible in frame. The overall mood is serene and editorial — quietly sophisticated without being sparse. The palette is dominated by warm whites and creamy neutrals anchored by the walnut wood tones and the warm brass-gold tones of the art frames. The camera is positioned at approximately standing eye-level, roughly five to six feet, with a normal to slightly telephoto lens character that compresses the two wall planes gently into a three-quarter corner composition. Camera pitch is level with a very slight upward tilt. The frame captures a vignette of the corner junction rather than a full room establishing shot, keeping the composition intimate and object-focused. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

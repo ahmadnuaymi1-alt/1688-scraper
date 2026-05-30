@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-8cfc8baf87730678",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/inground-landscape-lights-outdoor-garden-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/inground-landscape-lights-warm-modern-house-driveway.jpg?v=1774595363",
+  "scraped_date": "2026-05-21T12:04:23.482Z",
+  "source_title": "Inground Landscape Lights Outdoor Garden Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Well Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8cfc8baf87730678326e8e35d169c39ca9677854",
+  "description": "A residential exterior garden and terrace scene photographed at dusk from a standing eye-level perspective. The foreground is a lush, neatly maintained lawn in deep green, edged with low-clipped boxwood hedges. A series of three small ground-level warm pools of light are scattered across the lawn at even intervals, each casting a focused amber circle downward onto the grass from low ground-stake positions. A large smooth natural boulder sits in the right-center midground as a landscape accent. A flagstone or large-format stone path runs along the right edge of the frame. The building in the upper-left background is a modern residential structure with a textured pale blonde or cream brick facade. A raised deck or terrace extends from the building, surfaced in dark composite decking, edged with a clear glass-panel railing supported by charcoal steel posts. Two woven rattan-style outdoor chairs and a small round table are visible on the terrace, their warm tones contrasting with the dark deck. The interior behind large sliding glass doors glows with warm amber indoor light. Low leafy shrubs and ornamental plantings line the base of the deck. Beyond the garden, a neighboring house with a dark gray tile roof is visible in soft focus, with tall evergreen trees silhouetted against a peachy-pink and steel-blue dusk sky. The camera is at standing height, approximately 5–6 feet, with a normal to slightly wide lens. The composition is a wide establishing shot capturing the full landscape scene from a slight three-quarter angle. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.496Z"
+}

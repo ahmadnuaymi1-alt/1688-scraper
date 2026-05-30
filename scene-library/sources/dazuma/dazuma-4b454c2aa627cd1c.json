@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-4b454c2aa627cd1c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorate-floor-lamp-wedding-decoration-cotton-tree-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/decorate-floor-lamp-modern-tree-spherical-balcony.jpg?v=1777086787",
+  "scraped_date": "2026-05-21T12:04:27.843Z",
+  "source_title": "6 PCS Decorate Floor Lamp Wedding Decoration Cotton Tree Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "4b454c2aa627cd1ceb962d2dacd8bd57e7d6c8f7",
+  "description": "An outdoor deck or balcony photographed at seated-to-standing eye-level with a normal lens in an off-center thirds composition, capturing the corner of the space against a sweeping panoramic view of a Nordic lake and dark evergreen forest under a deep blue dusk sky. The deck surface is warm-toned horizontal hardwood planking. A large charcoal grey bouclé or textured fabric bean bag chair sits to the left, dressed with a darker grey throw pillow. A small rectangular wooden serving tray rests on the bean bag, holding a matte black insulated carafe, a clear tumbler glass, and a small stainless steel bowl. A matte black tubular steel deck railing runs the perimeter, framing the expansive lake and treeline view beyond. The scene is dusk — the sky transitions from deep indigo above to a cool steel blue near the horizon, and the lake reflects the twilight. Multiple warm glowing orbs of soft golden light emanate from a sculptural arrangement rising from the deck floor to the right of the seating, creating a constellation-like warmth against the cold outdoor blue. The mood is quiet, atmospheric, and Scandinavian in character — a private evening retreat in nature. The contrast between the warm glowing pools of light and the cool blue of the dusk sky gives the scene a distinctly romantic, serene quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.253Z"
+}

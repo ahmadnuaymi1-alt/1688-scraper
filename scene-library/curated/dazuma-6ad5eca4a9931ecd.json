@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-6ad5eca4a9931ecd",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6ad5eca4a9931ecd.jpg",
+  "source_url": "https://dazuma.us/products/glass-candle-chandelier-minimalist-american-ceiling-light",
+  "description": "A warm, light-filled kitchen photographed at standing eye-level with a normal lens, framing a three-quarter corner view centered on a large kitchen island. The island is clad in blonde oak with a thick white marble countertop, and it features an undermount sink with a matte black gooseneck faucet. Four sleek black upholstered bar stools with slender matte black legs line the island's near side. On the island surface sit a glass vase holding wispy dried burgundy branches and a small dark ceramic bowl holding a few deep purple eggplants. A large exposed structural beam of raw natural wood runs overhead above the island, its rough grain contrasting with the refined marble and cabinetry below. The cabinetry along the back wall is flat-panel light oak with open glass-fronted upper cabinets revealing stacked white dishware. A monumental slab of white marble with subtle grey veining serves as both the backsplash and the range hood surround, continuing floor-to-ceiling in one uninterrupted plane. A professional stainless steel range with black knobs anchors the cooking wall. A large-scale abstract painting in warm tones of cream, charcoal, and deep rose hangs on the left wall above a low shelf, and sunlight streams in from an unseen window, casting a warm patch of light across the pale wood floor. The mood is calm and domestic with quiet sophistication. Two warm glowing sources hang above the island, casting pools of amber light across the marble surface. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

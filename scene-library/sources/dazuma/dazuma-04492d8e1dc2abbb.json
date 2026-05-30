@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-04492d8e1dc2abbb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/glass-cone-pendant-light-nordic-art-minimalist-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/single-glass-cone-pendant-light-round-wooden-table.jpg?v=1777450851",
+  "scraped_date": "2026-05-21T12:03:37.438Z",
+  "source_title": "Glass Cone Pendant Light Nordic Art Minimalist Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Mini Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "04492d8e1dc2abbb63be56f930f65e0b18084c36",
+  "description": "A intimate dining room vignette centered on a round walnut-stained dining table with a rich, dark grain finish. The table surface is styled with a matte black cylindrical planter pot holding a small leafy green plant with delicate oval leaves, a black rectangular tray holding a mustard-yellow ceramic mug and two stacked hardcover books with light tan spines. A warm, concentrated pool of golden light falls directly onto the tray and books from above, casting soft shadows outward across the table's dark wood surface and creating a glowing amber halo on the grain beneath the tray. The ambient light in the room is soft and diffuse, with natural daylight filtering through sheer ivory curtains on a large multi-pane steel-framed window visible to the right. The window's black steel grid casts faint diagonal shadow lines across the curtain fabric. The wall behind the table is a warm greige plaster tone, smooth and unadorned. To the right edge of the frame, a cane-back dining chair with a dark-stained frame is partially visible. The floor is not visible in this composition. The overall atmosphere is serene and editorial — a quiet weekday morning, scholarly and warm. Camera is positioned at approximately seated to standing eye-level, roughly 4–5 feet high, with a normal to slight telephoto lens character. The composition is a tight vignette centered on the tabletop and ceiling zone above it, with a level pitch, framing approximately one-third architecture and two-thirds table surface and mid-air space. The frame captures a narrow slice of the room rather than a wide establishing view — a focused editorial still-life composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:42.135Z"
+}

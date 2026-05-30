@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-e10f6aebe068965e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e10f6aebe068965e.jpg",
+  "source_url": "https://dazuma.us/products/unique-light-pendants-modern-minimalist-creative-silk-ceiling-light",
+  "description": "A serene, monochromatic bedroom with walls finished in warm greige plaster — a soft putty tone that blends gray and warm sand. The ceiling is white with a simple crown molding at the junction. A large floor-to-ceiling window on the left wall is dressed with flowing floor-length linen drape panels in natural oat tone, allowing soft diffuse daylight to filter through the fabric and illuminate the room in an even, ambient glow — green trees are faintly visible through the sheer fabric beyond. The bed is central, framed by a generously scaled channel-tufted upholstered headboard in cream or soft ivory fabric with a graceful arched silhouette. The bedding layers are all in warm gray-beige tones — a matte linen duvet in warm dove gray, with two patterned Euro shams in a gray botanical or abstract print, and cream flanking pillows. At the foot of the bed, two small matching upholstered benches or stools in a flecked gray boucle are partially visible. On the left side, a small dark walnut nightstand topped with a matte black ceramic vase holding a compact bunch of blush, coral, and rust-toned fresh flowers — a warm botanical accent against the neutral palette. The overall mood is hushed and luminous. Camera is at standing eye-level, normal lens, centered composition looking straight at the headboard wall with the window visible at left. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

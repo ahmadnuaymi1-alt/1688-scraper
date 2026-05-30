@@ -1,0 +1,120 @@
+{
+  "productId": "cmph9pfy10154w20gd7jxkldj",
+  "productTitle": "跨境日式竹木艺吸顶灯东南亚玄关灯过道楼梯灯具民宿卧室竹编灯",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-22T21:23:57.823Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "japandi-entry-foyer-flush",
+      "mode": "minimalist",
+      "prompt": "A narrow Japandi entry foyer shot straight-on with a 35mm lens at standing eye-level, square 1:1 framing, the woven-bamboo flush-mount centered in the upper third of the ceiling, its warm glow pooling in a soft halo across smooth warm-clay limewash plaster walls. The supporting light is the last of evening dusk slipping past a slim sidelight beside the dark walnut entry door at the end of the hall. Below: a low pale-oak bench with a single linen cushion, a stoneware tray holding a small ceramic dish for keys, and a tall raw-clay floor vessel cradling one bare cherry branch. The fixture matches the reference image exactly — natural bamboo woven sphere, blonde wood ceiling block, slim matte-black socket — switched ON, soft warm 2700-3000K glow filtering through the rattan weave to throw delicate diamond shadows on the ceiling. Palette: warm clay, blonde bamboo, walnut, oat linen, ink-black accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "entry foyer",
+      "designStyle": "Japandi minimal",
+      "wallColour": "warm clay limewash plaster",
+      "cameraAngle": "35mm standing straight-on through hallway axis",
+      "timeOfDay": "early evening",
+      "accents": [
+        "low pale-oak bench",
+        "linen cushion",
+        "stoneware key tray",
+        "raw-clay floor vessel",
+        "bare cherry branch"
+      ]
+    },
+    {
+      "slug": "tropical-modern-bedside-sconce",
+      "mode": "homey",
+      "prompt": "A tropical-modern primary bedroom corner framed at 1:1 with a 50mm lens at seated-on-the-bed height, the bamboo wall sconce mounted at roughly the height of a seated reader's shoulder beside a low platform bed, casting a warm amber halo across a soft camel-limewash plaster wall. Ambient secondary light comes from a sheer curtain glowing with last late-evening sky behind the bed. Styling: a low solid-teak nightstand, a slim ceramic carafe with a glass tumbler, a face-down linen-bound paperback, a small stoneware dish of folded reading glasses, and a trailing pothos in a hand-thrown clay pot on the floor below. The fixture matches the reference image exactly — square blonde-wood wall block, natural twisted nylon rope, blonde-wood cap above the woven bamboo sphere — switched ON, soft warm 2700-3000K glow with rattan-weave shadow play on the wall. Palette: camel, blonde bamboo, teak, cream linen, soft jade-green leaf. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "primary bedroom bedside",
+      "designStyle": "tropical modern resort",
+      "wallColour": "soft camel limewash plaster",
+      "cameraAngle": "50mm seated-on-bed height off-centre",
+      "timeOfDay": "late evening",
+      "accents": [
+        "solid-teak nightstand",
+        "ceramic carafe and tumbler",
+        "face-down linen-bound paperback",
+        "reading glasses in stoneware dish",
+        "trailing pothos in clay pot"
+      ]
+    },
+    {
+      "slug": "cedar-stair-landing-flush",
+      "mode": "minimalist",
+      "prompt": "A cabin-style stair landing under a low sloped ceiling, framed 1:1 with a 35mm lens from a few steps below looking up the run, the bamboo flush-mount centered just inside the landing ceiling, its warm light raking down vertical natural cedar plank walls. Secondary light comes from a small mullioned dormer window high on the landing throwing pale golden-hour rake across the treads. Styling: a flat-weave jute runner climbing the oak treads, a small landing shelf with three cloth-bound vintage botanical hardbacks and a smooth river stone, and a single olive branch in a tall matte-black stoneware floor vase tucked at the newel post. The fixture matches the reference image exactly — woven natural bamboo orb, blonde-wood disc canopy flush to the cedar ceiling, slim black socket collar — switched ON, soft warm 2700-3000K glow casting a lattice of warm shadows across the cedar grain. Palette: honey cedar, blonde bamboo, oat jute, ink-black, sage-green olive leaf. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "stair landing",
+      "designStyle": "modern cabin / nature-craft",
+      "wallColour": "natural cedar plank",
+      "cameraAngle": "35mm up-the-stairs depth axis",
+      "timeOfDay": "late golden hour",
+      "accents": [
+        "jute stair runner",
+        "cloth-bound botanical hardbacks",
+        "river stone",
+        "matte-black stoneware floor vase",
+        "single olive branch"
+      ]
+    },
+    {
+      "slug": "bali-reading-nook-sconce",
+      "mode": "homey",
+      "prompt": "A boutique-guesthouse reading nook in a Bali-influenced bohemian palette, framed 1:1 with a 50mm lens at a low seated height, the bamboo wall sconce mounted just above the head height of a rattan lounge chair, its glow washing a sun-baked terracotta limewash wall. Secondary light is a softly diffused mid-afternoon glow from an unseen verandah beyond the frame. Styling: a deep peacock-rattan lounger with a folded raw-linen kimono robe draped over its arm, a low carved-mango-wood drum side table holding a small porcelain teacup on a saucer and a leather travel journal, a woven seagrass floor basket of rolled bath towels, and a potted areca fern on the floor. The fixture matches the reference image exactly — square blonde-wood mounting block, twisted natural nylon rope coil, woven bamboo sphere with blonde-wood cap — switched ON, soft warm 2700-3000K glow throwing fine diamond-lattice shadows across the terracotta plaster. Palette: terracotta, blonde bamboo, raw linen, deep mango wood, fern green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "guesthouse reading nook",
+      "designStyle": "Bali boutique bohemian",
+      "wallColour": "sun-baked terracotta limewash",
+      "cameraAngle": "50mm low seated three-quarter",
+      "timeOfDay": "mid afternoon",
+      "accents": [
+        "peacock-rattan lounger",
+        "linen kimono robe",
+        "carved mango-wood drum table",
+        "porcelain teacup and saucer",
+        "leather travel journal",
+        "areca fern in clay pot"
+      ]
+    },
+    {
+      "slug": "stone-corridor-flush",
+      "mode": "minimalist",
+      "prompt": "A modern-Mediterranean boutique-hotel corridor shot straight down its length, framed 1:1 with a 35mm lens at standing eye-level, the bamboo flush-mount centered overhead in the upper third of the frame above a stacked honey-limestone feature wall on the right and a smooth pale-stucco wall on the left. Secondary light is a soft dusk glow from an arched casement window at the far end of the corridor. Styling: a long wide-plank pale-oak floor, a low travertine plinth midway down the wall holding a hand-thrown earthenware jug with a single magnolia stem, a folded mohair throw on a slim teak bench against the stone, and clipped ivy trailing from a recessed planter niche. The fixture matches the reference image exactly — woven bamboo orb with diagonal lattice, blonde-wood disc canopy, slim matte-black neck — switched ON, soft warm 2700-3000K glow rippling lattice shadows across the rough stone face. Palette: honey limestone, blonde bamboo, pale oak, oat-mohair, magnolia cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "boutique hotel corridor",
+      "designStyle": "modern Mediterranean hospitality",
+      "wallColour": "stacked honey-limestone feature wall with pale-stucco companion wall",
+      "cameraAngle": "35mm standing down-corridor depth axis",
+      "timeOfDay": "dusk",
+      "accents": [
+        "travertine plinth",
+        "earthenware jug",
+        "single magnolia stem",
+        "teak bench",
+        "mohair throw",
+        "trailing ivy in niche"
+      ]
+    },
+    {
+      "slug": "japandi-writing-desk-sconce",
+      "mode": "homey",
+      "prompt": "A quiet Japandi home-writing desk against a soft eucalyptus-sage limewash plaster wall, framed 1:1 with a 50mm lens at seated desk eye-level, the bamboo wall sconce mounted off-centre to the upper right just above the height of a seated writer, its warm pool meeting the cool morning light raking across the desk from a paper-screened window to camera-left. Styling: a slim white-oak floating writing desk, a folded oat-linen runner under a stoneware mug of green tea, a small carved-wood bird figurine, a leather-bound sketchbook open to a blank page with a graphite pencil resting on the spine, and a single dried wheat sprig in a slender celadon bud vase. The fixture matches the reference image exactly — square blonde-wood wall block, twisted nylon rope coil, blonde-wood cap atop the woven-bamboo sphere — switched ON, soft warm 2700-3000K glow with rattan-shadow play across the sage plaster. Palette: eucalyptus sage, blonde bamboo, white oak, oat linen, celadon. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "home writing desk",
+      "designStyle": "Japandi warm minimal",
+      "wallColour": "eucalyptus-sage limewash plaster",
+      "cameraAngle": "50mm seated desk eye-level off-centre right",
+      "timeOfDay": "morning",
+      "accents": [
+        "white-oak floating desk",
+        "stoneware mug of green tea",
+        "carved-wood bird figurine",
+        "leather sketchbook with graphite pencil",
+        "celadon bud vase with dried wheat"
+      ]
+    }
+  ]
+}

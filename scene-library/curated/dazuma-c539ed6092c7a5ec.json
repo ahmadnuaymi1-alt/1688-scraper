@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-c539ed6092c7a5ec",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c539ed6092c7a5ec.jpg",
+  "source_url": "https://dazuma.us/products/modern-glass-bubble-chandelier-modern-multi-head-led-ceiling-light",
+  "description": "A contemporary open-plan dining room photographed at standing eye-level with a wide lens in a three-quarter corner composition showing both the window wall on the left and the dramatic stone feature wall on the right. The ceiling is bright white and tall, with a brushed brass canopy drop. Three large floor-to-ceiling casement windows with matte black frames occupy the left wall, dressed with floor-length ivory linen curtains that puddle slightly and admit bright, softly diffused daylight flooding across the entire space. The right accent wall is clad in large-format Calacatta marble panels in white and gold with pronounced veining, anchoring a statement low credenza in matte black below it. The dining table is a large rounded-oval form in light bleached oak with a thick pedestal base, surrounded by six slim matte black dining chairs with clean architectural lines. A low cream-upholstered bench sits along the near side of the table, adding softness and a layered seating composition. A single dark wooden bowl rests on the table surface as the only decorative object. The floor is wide-plank light oak beneath a natural jute area rug. The palette is exceptionally restrained — bright white, warm blond wood, cream, and matte black — with the marble providing the only pattern and visual richness. The atmosphere is bright, editorial, and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

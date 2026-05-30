@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-d1b79a4749350efb",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d1b79a4749350efb.jpg",
+  "source_url": "https://dazuma.us/products/solar-led-pillar-lights-modern-outdoor-waterproof-light",
+  "description": "A residential pool terrace or garden exterior photographed at standing eye-level with a normal-to-telephoto lens, using a tight off-center vignette composition that places a single gate or fence pillar cap as the foreground subject. The stone pillar is a chunky square column in rough-textured medium grey granite or concrete aggregate, its flat top surface supporting a matte metal circular base. On top of this base rests a sculptural origami-folded or faceted opal white diffuser form — a fluted, lotus-like organic geometric shape glowing warmly from within, emitting a soft all-over warm cream-yellow glow that illuminates the pillar cap surface and spills gently onto the surrounding area below. The horizontal metal rail fence in matte dark grey-black wraps behind the pillar on both sides. Behind the fence, a dense wall of mature dark green hedging fills the mid-ground, with warm amber uplight washing the hedge base. The soft glow from poolside is visible as a soft blue-turquoise sheen at lower left, suggesting a swimming pool beyond the fence. In the background, a contemporary house facade in dark grey with large framed windows and a flat roofline rises against a deep blue-violet dusk sky. Mature trees in dark silhouette fill the upper right. The mood is elegant, quiet, and residential with a warm-cool color tension between the amber fixture glow and the cool blue evening sky. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

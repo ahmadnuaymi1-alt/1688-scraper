@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-a8220580426e2f18",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/boule-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Boule_Table_Lamp79.png?v=1778462946",
+  "scraped_date": "2026-05-21T15:53:09.901Z",
+  "source_title": "Boule Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "a8220580426e2f189c31b456d41f4401833d6fec",
+  "description": "A cozy, lived-in sitting room corner photographed at standing eye-level with a normal lens in a three-quarter corner view showing the side table surface and the chair behind. The walls are painted a warm cream-white, and a botanical illustration print in a simple frame hangs on the upper left wall, lending a cottage-study sensibility. Diffused light enters from a multi-pane window partially visible on the left, casting a soft warm ambient fill across the scene. A medium-toned honey pine or rustic oak square side table occupies the center of the frame, its sturdy craftsmanship and slightly weathered surface evoking country farmhouse warmth. On the table, a warm, even glow emanates from the surface area, illuminating a small ceramic mug, a stack of two antique leather-bound books, and a small terracotta pot planted with a compact fern or herb. Behind the side table, a wide upholstered armchair in warm greige linen holds a chunky knit throw blanket draped over its arm. The floor is implied as warm-toned wood. The mood is casual and lived-in with a deVOL-country or Pottery Barn warmth — layered, comfortable, and inviting. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.181Z"
+}

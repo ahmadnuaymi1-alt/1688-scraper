@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-40e9213ecdc4930a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-40e9213ecdc4930a.jpg",
+  "source_url": "https://dazuma.us/products/vintage-glass-light-pendant-minimalist-art-led-ceiling-light",
+  "description": "A grand transitional kitchen with strong Mediterranean-European character. The ceiling is defined by a coffered grid of dark-stained wood beams with substantial depth, creating rich architectural contrast against the smooth white plaster walls. Wide arched openings frame the kitchen on both sides — one leading to a dark entryway, the other to a staircase with dark wood treads and a wrought-iron railing. Cabinetry throughout is painted a soft warm grey in a classic inset Shaker profile; the backsplash and countertops are thick white marble with dramatic grey veining. The kitchen island is clad in a painted grey wash finish with column-like corner details, topped by the same thick marble slab. Four bentwood-style round stools in dark walnut with a casual café aesthetic pull up to the island. On the island surface, a wooden bowl holds green apples and a tall clear glass vase carries a full arrangement of white flowering branches. On the perimeter counter, small white-potted herbs flank the matte-black bridge faucet. Herringbone-patterned dark hardwood floors run throughout, warming the light stone-and-grey palette considerably. Warm golden glow from above washes down over the island counter in two distinct halos, illuminating the marble surface below. Camera is at standing eye-level in a centered, slightly elevated composition — one-point perspective looking straight toward the back wall, with the island in the midground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "coffered_ceiling",
+      "exposed_beams",
+      "arched_doorway",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

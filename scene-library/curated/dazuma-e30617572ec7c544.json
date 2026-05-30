@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-e30617572ec7c544",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e30617572ec7c544.jpg",
+  "source_url": "https://dazuma.us/products/luxury-crystal-led-floor-lamp",
+  "description": "A living room scene photographed at standing eye-level with a normal-to-wide lens, showing a three-quarter corner view that captures two walls — the left wall open toward a draped sheer curtain window, the right wall anchored by a tall white open bookcase. The floor is warm light oak plank. The walls are painted a soft warm butter-yellow. To the left, a low beige-upholstered sofa with clean-lined black tapered legs holds two scatter cushions in beige and grey. Centered in the room is a sculptural floor-standing piece on a black round marble base with a polished rose-gold metal stem, positioned between the sofa and bookcase. To the right of the stem, a natural sculpted wooden side table holds a small potted plant with dark green leaves in a cement planter, alongside a pale cream ceramic vase sculpture. The white open bookcase behind contains white storage boxes, stacked art books, a potted tropical plant in a terracotta pot, and a small pale sand-colored ceramic vase. Warm light pools on the wooden floor and the immediate surrounding area from the fixture at floor level, creating an amber glow that warms the yellow wall behind. The mood is soft, approachable, and casually elegant with an East-meets-modern sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

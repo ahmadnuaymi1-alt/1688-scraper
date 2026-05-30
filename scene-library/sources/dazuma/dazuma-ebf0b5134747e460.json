@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-ebf0b5134747e460",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-vintage-european-home-user-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_0cc8bd7c-762a-48b2-b80e-593ffe1a8c69.jpg?v=1773886787",
+  "scraped_date": "2026-05-21T12:04:57.017Z",
+  "source_title": "Wall Sconces Vintage European Home User Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ebf0b5134747e460f264587756de070db191009e",
+  "description": "A welcoming Southern-style covered front porch photographed at seated eye-level with a normal lens and an off-center thirds composition, centered on the seating nook with the exterior wall and windows providing context. The home exterior is painted white brick with matte black-framed multi-pane grid windows and French patio doors with black hardware. The covered porch ceiling is dark stained tongue-and-groove wood in warm espresso or cedar tones, adding warmth overhead. Two natural wicker armchairs with cream cushions and a loose folded cream wool throw are arranged around a small round solid-oak side table. The side table holds a wicker basket of purple flowering plants and a small dusty-blue ceramic vase. A black-and-white geometric Moroccan-influenced outdoor rug grounds the seating zone. In the near foreground, lush purple hydrangea blooms fill the lower left edge of the frame, slightly out of focus and deeply saturated. Behind the left chair, a low planter box with greenery sits beneath the window. Soft overcast daylight provides even cool illumination across the scene. A warm amber glow emanates from the ornate antique-brass exterior wall fixture mounted on the brick face between the left window and the French doors, casting a warm theatrical pool against the white-painted brick. The palette is white brick, matte black trim, warm honey wicker, dusty blue, purple lavender, and antique brass. The mood is casual, romantic, and Southern-residential. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "plum"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.945Z"
+}

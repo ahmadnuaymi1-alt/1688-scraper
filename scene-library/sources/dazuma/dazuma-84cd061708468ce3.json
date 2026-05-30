@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-84cd061708468ce3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-wall-lighting-slim-indoor-strip-copper-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/minimalist-linear-wall-lighting-sleek-functional-bedroom-illumination.jpg?v=1773886241",
+  "scraped_date": "2026-05-21T12:19:35.317Z",
+  "source_title": "Linear Wall Lighting Slim Indoor Strip Copper Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "84cd061708468ce3b6d251c52ade782e1a0e3142",
+  "description": "A serene Japanese-influenced bedroom corner photographed at standing eye-level, approximately five feet off the floor, using a normal lens and an off-center thirds composition that frames the nightstand zone and decorative vignette along the wall. The walls are finished in a smooth warm sand-beige plaster or limewash with subtle tonal depth. At upper left, a large dimensional wall art piece in natural off-white textured plaster or sand features a topographic wave-form relief pattern, its undulating ridges catching soft raking light. The right side of the wall transitions into a lighter sandy-taupe panel — possibly a door surround or recessed panel — with a slim modern door handle in dark metal at the far right edge. On the wall centered in the composition, a warm amber glow emanates from a source in a tall vertical rectangular format — a narrow band of diffused warm light washing the sand plaster wall behind it in a soft golden haze. In front of the wall, a low solid oak media unit or nightstand console sits at knee height, its clean rectangular form with subtle inset drawer handles and an open lower shelf showing fine grain ash or oak in pale honey. On the console surface, a large round unglazed textured ceramic vessel in rough off-white contains a dramatic arrangement of bare winter branches with tiny spring-green leaf buds — an ikebana-style composition that spreads horizontally across the full width of the scene. At the left edge of the frame, the foot of a bed is visible with a soft greige upholstered frame and a loosely folded chunky knit throw in caramel-brown, plus a small woven cushion. A plush shag area rug in light grey anchors the floor. The palette is warm sand, pale honey oak, off-white ceramic, brown branches, and soft green leaf buds. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.459Z"
+}

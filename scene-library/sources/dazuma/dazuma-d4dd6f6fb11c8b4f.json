@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-d4dd6f6fb11c8b4f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-gate-modern-minimalist-outdoor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_04f3455f-ea1f-4c9a-b149-7e5f399ded41.jpg?v=1773717270",
+  "scraped_date": "2026-05-21T12:19:45.260Z",
+  "source_title": "Pillar Lights for Gate Modern Minimalist Outdoor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d4dd6f6fb11c8b4fe93dfe87d695996b6ce8ccc0",
+  "description": "A contemporary residential exterior driveway scene photographed at deep blue dusk. The setting features a flat-roofed modern white stucco house visible in the background to the right, its windows emitting warm amber interior light. A dark metal horizontal railing fence with square concrete or stone pillar posts runs from foreground to background, defining the perimeter of a property adjacent to a calm rectangular swimming pool whose blue-tinted water glows faintly in the ambient twilight. Precisely manicured horizontal hedges in deep green line the property beyond the fence. The sky is a deep steel blue gradient typical of twilight. The paved surface visible around the pool is smooth concrete in cool gray. The foreground features three square concrete pillar caps receding in one-point perspective toward the house, each topped with a fixture emitting warm amber-toned illumination that pools softly onto the upper surface of each cap below. The composition is a one-point perspective looking down the fence line from a standing eye-level, slightly low camera positioned close to the nearest pillar, with the row of lit caps diminishing into the distance toward the modern house. The palette is cool neutral — concrete gray, steel-blue sky, deep green hedge — anchored by warm amber glow accents from the caps. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.865Z"
+}

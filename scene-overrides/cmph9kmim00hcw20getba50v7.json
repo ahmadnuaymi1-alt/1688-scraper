@@ -1,0 +1,123 @@
+{
+  "productId": "cmph9kmim00hcw20getba50v7",
+  "productTitle": "过道灯LED现代简约阳台北欧创意个性衣帽间吸顶灯玄关灯跨境电商",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-23T08:59:48.322Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "back-hall-garden-door",
+      "mode": "minimalist",
+      "prompt": "A narrow back hall leading to a half-glazed garden door, photographed at 35mm standing eye-level looking straight down the depth axis, 1:1 framing, with the ceiling light tight to a low smooth-plaster ceiling about a head's height above camera. Late afternoon: warm-gold daylight pushes through the glazed door, paired with the fixture's own glow as the second light source. Walls are a soft mossy-sage limewash; the floor is pale wide-plank oak with a thin jute runner. A slim slate console under the window holds a single weathered stone, a stack of two cloth-bound monographs, and a stoneware jug of bare olive branches. A pair of leather garden clogs sits tucked beside the threshold. Fixture matches the reference image exactly — round profile with the black inner ring set inside the white outer ring, switched ON with a soft warm 2700–3000K glow on the ceiling around it. Palette: warm cream, sage, oak honey, ink black, jute. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "back hall to garden door",
+      "designStyle": "modern country minimalist",
+      "wallColour": "mossy-sage limewash",
+      "cameraAngle": "35mm standing eye-level down-depth axis",
+      "timeOfDay": "late afternoon golden hour",
+      "accents": [
+        "slate console",
+        "weathered stone",
+        "stoneware jug with bare olive branches",
+        "cloth-bound monographs",
+        "jute runner",
+        "leather garden clogs"
+      ]
+    },
+    {
+      "slug": "linen-closet-passthrough",
+      "mode": "minimalist",
+      "prompt": "A compact linen closet pass-through between bathroom and bedroom, photographed at 35mm standing eye-level angled into the far corner, 1:1 framing, ceiling tight overhead with the fixture centred on the low plaster soffit at roughly a tall person's reach. Mid-morning soft daylight spills from a sheer-curtained sash window at the far end, layering with the fixture's quiet glow. Walls are dove-grey Shaker applied-panel boards painted matte; floor is pale white-oak. Open mahogany-stained shelving on the left holds tightly folded raw-linen sheets, three rolled waffle towels and a glass cylinder of bath salts; a tiny porcelain dish with a single sprig of dried lavender sits on the lowest shelf. The fixture matches the reference image exactly — all-white round profile with a softly recessed inner diffuser, switched ON with a soft warm 2700–3000K halo on the ceiling. Palette: dove grey, raw linen, warm white-oak, soft chalk, lavender. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "linen closet pass-through",
+      "designStyle": "Shaker quiet luxury",
+      "wallColour": "dove-grey applied-panel paint",
+      "cameraAngle": "35mm standing eye-level into corner",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "mahogany-stained open shelves",
+        "rolled waffle towels",
+        "folded raw-linen sheets",
+        "glass cylinder of bath salts",
+        "porcelain dish with dried lavender"
+      ]
+    },
+    {
+      "slug": "ceramics-studio-corner",
+      "mode": "homey",
+      "prompt": "A small home ceramics studio corner, photographed at 50mm low standing height tilted up toward the ceiling and corner junction, 1:1 framing, the square fixture sitting clearly on a smooth raw-plaster ceiling about a head's height above camera. Mid-afternoon: a tall casement window just out of frame to the right pushes cool diffused daylight across the wall, balancing the fixture's warm pool. Walls are oat-coloured rough troweled plaster; floor is honed concrete with a flecked patina. A heavy reclaimed pine workbench fills the lower frame, dusted faintly with clay powder, holding a thrown stoneware bowl mid-trim, a wooden rib tool, a chipped enamel mug of water, and a low raw-clay vase with one flowering quince stem. A canvas apron hangs on a forged-iron hook beside the bench. Fixture matches the reference image exactly — black square inner frame nested inside the white outer square, switched ON with a soft warm 2700–3000K glow. Palette: oat plaster, raw clay, charcoal, weathered pine, blush quince. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "home ceramics studio corner",
+      "designStyle": "wabi-sabi craft minimalist",
+      "wallColour": "oat troweled plaster",
+      "cameraAngle": "50mm low standing tilted up to ceiling",
+      "timeOfDay": "mid-afternoon",
+      "accents": [
+        "reclaimed pine workbench",
+        "unfired stoneware bowl",
+        "wooden rib tool",
+        "raw-clay vase with quince stem",
+        "canvas apron on forged hook",
+        "enamel water mug"
+      ]
+    },
+    {
+      "slug": "nursery-changing-nook",
+      "mode": "homey",
+      "prompt": "A small nursery changing nook tucked under a low plaster ceiling, photographed at 35mm three-quarter standing eye-level into the corner, 1:1 framing, the square fixture centred above and clearly visible on the ceiling about a head's height above camera. Mid-morning soft daylight enters through gauzy linen curtains on the right wall, layering with the fixture's quiet glow. Walls are a powdery blush plaster; floor is pale ash with a small cream sheepskin underfoot. A pale-oak changing dresser with rounded edges holds a folded muslin swaddle, a small woven seagrass basket of rolled washcloths, a tiny ceramic dish with a wooden teething ring, and a stoneware bud vase holding a single sweet-pea stem. A framed pencil sketch of a rabbit leans against the wall. Fixture matches the reference image exactly — all-white square profile with the softly inset inner diffuser, switched ON with a soft warm 2700–3000K halo. Palette: powder blush, warm cream, pale ash oak, soft sage, oat. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "nursery changing nook",
+      "designStyle": "soft contemporary nursery",
+      "wallColour": "powder-blush plaster",
+      "cameraAngle": "35mm three-quarter standing into corner",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "pale-oak changing dresser",
+        "folded muslin swaddle",
+        "seagrass basket of washcloths",
+        "wooden teething ring in ceramic dish",
+        "bud vase with sweet pea",
+        "leaning pencil-sketch rabbit print"
+      ]
+    },
+    {
+      "slug": "home-gym-corner",
+      "mode": "minimalist",
+      "prompt": "A compact home gym corner, photographed at 24mm low floor-mat height looking up toward the ceiling and a tall casement window, 1:1 framing, the round fixture set high on a smooth plaster ceiling about two head-heights above camera. Early-morning cool blue daylight rakes in from the casement, contrasted by the fixture's warm halo overhead. Walls are deep charcoal limewash on the back wall and a reeded white-oak slat accent on the side; floor is dark cork tile. A folded charcoal yoga mat leans against the slats, a single black kettlebell sits on a low travertine plinth, a rolled cotton towel rests on a pale-oak bench, and a stoneware carafe of water with a glass tumbler completes the vignette. Fixture matches the reference image exactly — round profile with the black inner ring set inside the white outer ring, switched ON with a soft warm 2700–3000K glow on the ceiling around it. Palette: charcoal, warm oak, travertine cream, ink black, water clear. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "home gym corner",
+      "designStyle": "modern minimalist warm",
+      "wallColour": "deep charcoal limewash with reeded oak accent",
+      "cameraAngle": "24mm low floor-mat height looking up",
+      "timeOfDay": "early morning",
+      "accents": [
+        "folded charcoal yoga mat",
+        "cast-iron kettlebell on travertine plinth",
+        "pale-oak bench",
+        "rolled cotton towel",
+        "stoneware water carafe and tumbler"
+      ]
+    },
+    {
+      "slug": "kids-homework-nook",
+      "mode": "homey",
+      "prompt": "A child's tucked-under-the-eaves homework nook, photographed at 35mm seated desk-height three-quarter looking up toward the low sloped ceiling, 1:1 framing, the round fixture centred on the lowest flat of the ceiling about an arm's reach above the camera. Late-afternoon golden hour: warm sun slants through a small divided-light dormer window onto the desk surface, layering with the fixture's glow. Walls are dusty-coral plaster with a chair-rail of pale-oak peg moulding; floor is wide oak plank with a small flat-weave kilim runner in cream and rust. A pale-oak writing desk holds a stack of cloth-bound children's hardbacks, a glass jar of coloured pencils, an open lined notebook with a half-finished pencil sketch, a small terracotta pot of trailing ivy, and a ceramic mug of milk on a wooden coaster. Fixture matches the reference image exactly — all-white round profile with a softly recessed inner diffuser, switched ON with a soft warm 2700–3000K halo. Palette: dusty coral, warm cream, oak honey, cream-and-rust kilim, ivy green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "child's homework nook under the eaves",
+      "designStyle": "warm transitional cottage",
+      "wallColour": "dusty-coral plaster",
+      "cameraAngle": "35mm seated desk-height three-quarter tilted up",
+      "timeOfDay": "late afternoon golden hour",
+      "accents": [
+        "pale-oak writing desk",
+        "cloth-bound children's hardbacks",
+        "glass jar of coloured pencils",
+        "open lined notebook with pencil sketch",
+        "terracotta pot of trailing ivy",
+        "ceramic mug of milk on wood coaster",
+        "cream-and-rust kilim runner"
+      ]
+    }
+  ]
+}

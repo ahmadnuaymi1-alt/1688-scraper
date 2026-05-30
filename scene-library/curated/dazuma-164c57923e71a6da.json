@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-164c57923e71a6da",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-164c57923e71a6da.jpg",
+  "source_url": "https://dazuma.us/products/european-style-deco-table-lamp-with-abs-and-ps-material-artistic-vase-light",
+  "description": "A bedroom nightstand vignette photographed at seated eye level with a slightly telephoto normal lens, framing a tight off-center composition. The nightstand is a white floating shelf or painted-white surface with no visible legs. The background wall is a deep warm chocolate-brown that transitions from medium to dark tone toward the top of the frame. On the left side of the frame the edge of a bed is visible: the bedding shows white linens with cream-white pillows, and a large mocha-brown chunky-knit textured throw or pillow propped against the headboard, adding a cozy tactile quality. The nightstand surface holds only the light source — minimal and spare. A warm amber-golden glow radiates from the table surface outward, illuminating the white shelf surface and casting rich warm light against the dark brown wall behind, creating a concentrated halo of warmth. The mood is intimate, serene, and moody — an evening bedroom captured in low-key amber light. The palette is deep chocolate-brown wall, cream-white bedding, and warm amber from the glow at table level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

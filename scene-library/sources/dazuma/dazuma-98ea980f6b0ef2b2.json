@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-98ea980f6b0ef2b2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-outdoor-spotlights-led-waterproof-landscape-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-outdoor-spotlights-led-building-facade.jpg?v=1775700687",
+  "scraped_date": "2026-05-21T12:03:50.646Z",
+  "source_title": "4 PCS Outdoor Spotlights LED Waterproof Landscape Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Spotlights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "98ea980f6b0ef2b2972a9baaa6c1d477fabaf8ce",
+  "description": "A dramatic nighttime architectural exterior photographed from a low street-level angle looking sharply upward at the ornate stone corner of a grand classical or Beaux-Arts style multi-story building. The facade is clad in smooth carved limestone in warm cream-ivory tones, richly ornamented with classical architectural details across every horizontal band — elaborate dentil cornices, carved floral medallion friezes, Ionic pilasters, rusticated base columns, and deeply recessed arched window surrounds with keystones. The building's corner is lit from below with powerful warm amber uplighting that washes across the stone face from the base level, casting dramatic elongated shadows upward across the relief ornament and creating deep chiaroscuro contrasts that accentuate every carved detail. The strong directional uplighting from the lower left floods the corner pilasters and ground-floor cornice with intense amber warmth, while the upper floors transition through graduated illumination into the pure black night sky above. The windows are dark, their glazing reflecting subtle amber light from the facade. The backdrop is absolute black night sky, providing maximum tonal contrast. The mood is grand, theatrical, and formal — a monumental civic or institutional building rendered in spectacular nocturnal lighting. Camera is at ground-level or below, using a wide-angle lens with a dramatic upward tilt of approximately 60-70 degrees, capturing the building corner receding toward a vanishing point high in the frame in a strong one-point perspective. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "low",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.538Z"
+}

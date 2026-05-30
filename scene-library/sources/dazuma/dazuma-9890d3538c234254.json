@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-9890d3538c234254",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-gate-pillar-post-lighting-waterproof-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_a636a5e4-dce8-40eb-be4f-a290d87f3e02.jpg?v=1774175197",
+  "scraped_date": "2026-05-21T12:04:44.125Z",
+  "source_title": "Outdoor Gate Pillar Post Lighting Waterproof Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9890d3538c234254c0bd4d92770e4db71624c6fc",
+  "description": "A contemporary residential outdoor setting photographed at a low seated eye-level, tightly framing a single concrete pillar post at the edge of a pool terrace. The pillar is a bold square column in smooth poured concrete with a lightly textured grey surface, capped with a broad flat concrete cap. A warm amber glow spreads downward and outward from the top of the pillar, washing the concrete cap surface and upper shaft with a golden warmth. A matte black vertical railing fence extends from the pillar to the right, its slender vertical bars silhouetted against the pool and house beyond. A rectangular swimming pool with vivid blue-lit water is visible in the middle distance, its surface catching the warm and cool ambient light of dusk. Beyond the pool, a contemporary outdoor living area is softly blurred in the background — a deep-seated charcoal modular sofa, a low coffee table, and floor-to-ceiling glass walls of the house with interior warm lighting. A stainless steel railing is visible beyond the pool. Low evergreen boxwood shrubs and architectural grass plants frame the foreground at the pillar base. The sky and ambient tone is a deep evening blue, making the warm amber glow from the pillar cap the dominant warmth in the frame. The mood is luxurious, serene, and quietly dramatic — a poolside resort-quality garden at night. Camera is at seated-to-low height, looking up slightly at the pillar with a normal-to-slight telephoto lens, framing the cap and its warm glow in clear focus against the soft blue background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.537Z"
+}

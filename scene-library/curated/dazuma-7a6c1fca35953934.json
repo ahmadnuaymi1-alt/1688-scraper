@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-7a6c1fca35953934",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7a6c1fca35953934.jpg",
+  "source_url": "https://dazuma.us/products/white-pendant-light-shade-spaceship-silk-ambient-ceiling-light",
+  "description": "A serene California-minimalist dining room bathed in soft diffuse natural light. The walls are painted a pale warm white-grey, and the ceiling is white. A long rectangular dining table in light bleached or pickled oak with a rough-sawn natural texture sits at center, surrounded by six round-backed boucle upholstered chairs with light oak legs in a plush cream-white fabric. The table is sparsely dressed with a chunky rough-textured pale grey ceramic pot holding trailing eucalyptus stems, and a small smooth cream ceramic bud vase. Behind the table, a large square canvas artwork in mottled warm sepia, amber, and cream tones leans against or hangs on the wall — an abstract aged map or plaster-like composition. Sheer ivory linen drapes hang from a dark curtain rod on the left, filtering soft warm daylight. Light wide-plank hardwood floors in a warm blonde tone run underfoot. Warm diffuse light washes evenly through the room from the left window and from above, creating a gentle shadow play on the right wall from the natural light. The mood is still, soft, and beautifully restrained. Camera at standing eye-level, centered symmetrical composition framing the table and artwork backdrop, normal lens, level pitch, wide establishing view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-a18270bd8a78464b",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/forest-leaf-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Forest_Leaf_Table_Lamp86.png?v=1778751424",
+  "scraped_date": "2026-05-21T12:08:53.368Z",
+  "source_title": "Forest Leaf Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "a18270bd8a78464bf0caea23b14cf31bb9869f20",
+  "description": "A cozy, warmly layered bedroom corner with a rustic English-country character. Warm honey-toned hardwood floors ground the space, partially covered by a natural jute area rug with a subtle woven texture. A low, sturdy wooden stool or bench in antique dark oak sits in the foreground at the left, its surface holding a small stack of worn books, a small ceramic mug, and a few dried botanical sprigs. The bed in the background is low and simple, dressed in crisp white linen sheets and a chunky knit throw blanket in natural cream draped casually across the foot. The wall behind the bed is plain warm white plaster. A large multi-pane window on the right side of the room floods the space with soft diffused daylight, with sheer white curtain panels drifting across the panes. On a small floating shelf above and to the left, a trailing potted plant in a terracotta pot hangs its foliage down. A warm gentle glow emanates from a surface object on the wooden bench, casting a soft pool of amber light across the stacked books and warming the immediate foreground. A leaf-motif printed fabric softens the light spilling from the table surface. The palette is entirely composed of warm naturals: honey wood, cream linen, sandy jute, and earthy ochre greens from the plant life. The atmosphere is lived-in, cozy, and quietly artisanal. Camera at low to seated eye-level, approximately 3–4 feet, using a normal lens with an off-center composition that places the stool vignette in the left foreground and the bed in the middle-right background, creating strong depth layering. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.171Z"
+}

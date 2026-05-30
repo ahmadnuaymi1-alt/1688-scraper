@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-e74fa1645a52d1ed",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-suspension-lighting-fixtures-modern-aluminum-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_3aba45e4-8fb7-47ec-af5c-f75b2097d414.jpg?v=1779070696",
+  "scraped_date": "2026-05-21T12:02:14.415Z",
+  "source_title": "Linear Suspension Lighting Fixtures Modern Aluminum Light",
+  "source_product_type": "Lighting > Ceiling Lights > Linear Suspension",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e74fa1645a52d1edde76743c7582d34a476deaa2",
+  "description": "A sleek contemporary executive office photographed at standing eye-level with a normal-to-wide lens and a centered symmetrical composition, showing the full room from the visitor side of a large white executive desk. The room has a white ceiling with a rectangular cove detail in the center emitting soft warm uplighting around its perimeter. The back wall features a symmetrical composition of two open shelving units in light oak flanking a central tall white lacquer panel. Each shelf bay is back-lit with warm amber linear light, and the shelves hold a curated collection of white ceramic vases, books arranged in white spines, dark glass vessels, and small decorative objects. A large matte white lacquer executive desk with a dramatic black sculptural pedestal base dominates the foreground. Behind it sits a high-back cream leather executive chair. Two cream-upholstered low armchairs with matte-black splayed legs are positioned across the desk on the visitor side. On the desk surface: an open book, a small coffee cup, a clear glass vase with white flowering branches, and a tray. A large fiddle-leaf fig in a matte black round planter occupies the left foreground. The floor is large-format grey polished stone tile. A grey abstract area rug grounds the desk zone. Linen-toned drapes frame the left side. The palette is cream, white, light oak, matte black, and warm amber glow. The mood is quiet and formal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.928Z"
+}

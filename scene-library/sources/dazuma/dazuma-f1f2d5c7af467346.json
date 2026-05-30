@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-f1f2d5c7af467346",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/train-christmas-lights-santa-claus-snowfall-ornament-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/HA143418.jpg?v=1766385384",
+  "scraped_date": "2026-05-21T15:52:03.756Z",
+  "source_title": "Train Christmas Lights Santa Claus Snowfall Ornament Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f1f2d5c7af467346d62ad0464f5228d699b9152b",
+  "description": "A living room coffee table vignette photographed at seated eye-level with a normal lens, framing the top surface of a dark walnut coffee table covered with a red and green plaid tartan runner. The composition focuses on the table centerpiece with the background in soft focus, revealing a deep burgundy-red upholstered sofa back, the lower branches of a decorated Christmas tree with amber fairy light sparkle, and small gift boxes in red, green, and white on the floor around the tree base. The coffee table surface holds a central showpiece — a detailed antique-bronze resin steam locomotive decorative object with textured woodgrain painted panels and dark iron-look wheels, its middle section enclosing a glass panel housing a lit snow-globe interior with a Santa Claus figure surrounded by glittery swirling confetti. The warm interior glow of the snow globe illuminates the locomotive from within, casting a soft warm halo around the piece and a gentle warmth onto the plaid runner. Scattered on the runner are small white and red miniature gift boxes. The mood is nostalgic, festive, and warmly traditional — a Christmas vignette with Victorian toy-train charm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.971Z"
+}

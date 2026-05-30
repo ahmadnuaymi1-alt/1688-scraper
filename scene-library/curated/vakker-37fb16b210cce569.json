@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-37fb16b210cce569",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-37fb16b210cce569.jpg",
+  "source_url": "https://vakkerlight.com/products/gingko-chandelier-i",
+  "description": "An elegant, formal dining room decorated in a warm transitional style. The walls are smooth painted white with applied wainscoting panels featuring a stepped moulding profile and a deep chair rail. The ceiling is also white and smooth with a subtle crown moulding at the perimeter. A long rectangular dining table in rich walnut with bold grain sits at the center, set for six with white ceramic plates, crystal glassware, polished silver flatware, and linen placemats in warm oat tones. At the center of the table, a large white ceramic vase holds a full bouquet of cream and blush garden roses and hydrangeas. Two tall brass candelabras with white taper candles flank the vase. The dining chairs are upholstered in warm beige or sand fabric with simple carved wood frames. To the left against the wall, a console or sideboard holds a small arrangement of books and decorative objects. On the right, floor-length sheer linen drapes in warm oyster hang from a polished brass rod, filtering diffuse daylight from a tall window behind. The floor is wide-plank light oak hardwood. The overall palette is warm neutral — cream, walnut, brass — with subtle blush accents in the floral arrangement. The atmosphere is formal, romantic, and polished. Camera is at standing eye level, centered on the dining table in a centered symmetrical wide-establishing composition, using a normal-to-slight-wide lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

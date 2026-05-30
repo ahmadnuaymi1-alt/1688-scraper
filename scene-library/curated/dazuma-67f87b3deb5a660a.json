@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-67f87b3deb5a660a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-67f87b3deb5a660a.jpg",
+  "source_url": "https://dazuma.us/products/oval-chandelier-modern-metal-led-office-ceiling-light",
+  "description": "A sleek, minimalist corporate boardroom with a Scandinavian-modern aesthetic. The ceiling is a dramatic matte black flat surface, creating a strong visual boundary above. The back wall is divided into two distinct textures: a vertical fluted or reeded white panel section on the left, behind which a large wall-mounted black-framed monitor is installed, and a warm honey-blonde natural wood slat panel section on the right that runs floor to ceiling. The floor is a pale wide-plank white oak in a clean contemporary finish. The conference table is a monumental rectangular piece with a white sintered stone or marble top on a matte-black structural pedestal base, seating twelve executive mesh task chairs in dark charcoal grey with chrome five-star bases. At the center of the table, a loose glass vase arrangement of white wildflowers and light blooms provides the only organic softness in the otherwise architecturally rigid space. Crisp white linear illumination from the suspended overhead element casts even cool-white light across the table surface. The mood is formal, precision-designed, and unapologetically minimal. Camera is at standing eye-level, centered in a one-point perspective looking toward the monitor wall, with the full table length in view and chairs flanking both sides. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

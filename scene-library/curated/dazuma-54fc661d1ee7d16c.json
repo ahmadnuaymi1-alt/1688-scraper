@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-54fc661d1ee7d16c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-54fc661d1ee7d16c.jpg",
+  "source_url": "https://dazuma.us/products/led-light-bollard-outdoor-waterproof-landscape-decorative-light",
+  "description": "A sun-drenched outdoor terrace with sweeping countryside views. A three-seat teak outdoor sofa with thick stone-gray all-weather cushions sits on a hardwood deck of warm medium-toned planks, oriented to face an open panorama of rolling green hills under a bright blue sky. Two throw pillows in a fine gray and white stripe accent the neutral cushions. A companion lounge chair or ottoman in matching teak and stone fabric is partially visible at the left edge of frame. Beneath the seating, a large natural jute flatweave rug grounds the outdoor living zone. To the left of the sofa, a mature tree with rounded canopy provides dappled overhead shade over a portion of the deck. A sculptural cream or sandy-beige ribbed column form — a tall cylindrical object with horizontal layered fins and a metallic chrome base disc — stands beside the sofa. The backdrop is an unobstructed Mediterranean or Tuscan-style hillside landscape of layered green textures, with olive or native shrub plantings in the middle ground. The light is open, bright, midday natural sunlight. Palette is warm neutral — teak wood, oat cushions, jute — against vivid outdoor green and blue. Camera is at seated to standing eye-level, in a three-quarter view, normal focal length, capturing the full sofa and its setting with the landscape visible as backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-c12bf70e9dd437b8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-dimmable-led-table-lamp-stylish-iron-and-acrylic-ambience-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-white-mushroom-dimmable-led-table-lamp-nightstand.jpg?v=1768965587",
+  "scraped_date": "2026-05-21T15:52:32.331Z",
+  "source_title": "Dimmable LED Table Lamp Stylish Iron and Acrylic Ambience Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c12bf70e9dd437b888d60969fdc93f41bbc305a2",
+  "description": "A library or home office credenza surface photographed at standing eye-level with a normal lens, using a centered composition showing the top surface of a dark walnut-toned low credenza or sideboard against a wall paneled entirely in warm natural light-oak wood. The wall paneling runs floor-to-ceiling in horizontal or vertical grain, its warm honey tone serving as the full background. On the credenza surface, two stacked books in muted cream and light tan bindings are placed to the right. The credenza surface is polished dark wood — the contrast between the rich dark walnut top and the warm blonde wood wall behind gives the scene a warm, layered materiality. The ambient light is bright and even with no shadows, suggesting gallery-style diffused overhead illumination. A warm glow emanates from the decorative object resting on the credenza surface, casting a subtle warm zone around the base. The mood is serene and scholarly — a restrained Scandinavian or Japanese-influenced interior with high attention to material contrast. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.763Z"
+}

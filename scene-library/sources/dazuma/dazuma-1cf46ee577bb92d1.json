@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-1cf46ee577bb92d1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-wall-pillar-lights-modern-waterproof-outdoor-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-wall-pillar-lights-stone-column-sunset-lighting.jpg?v=1778566207",
+  "scraped_date": "2026-05-21T12:03:02.140Z",
+  "source_title": "Outdoor Wall Pillar Lights Modern Waterproof Outdoor Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1cf46ee577bb92d143beb42149f973d85dae96f5",
+  "description": "A close-up vignette of a single garden or driveway pillar post cap photographed at low camera height — approximately 2–3 feet above the ground — with a normal lens, looking slightly upward toward the fixture and the sky behind it. The composition is centered and tight on the single pillar, with the horizon and landscape as background. The pillar is built from rough-coursed natural fieldstone — irregular warm tan and grey granite or limestone pieces dry-laid into a square column with a flat large-format stone cap. On top of the stone cap, a layered louvered fixture emits a warm glowing light through its horizontal stack of diffuser panels — each louvre band glows with a warm creamy white luminance, creating a horizontal banding effect of alternating dark metal and warm white glow around the entire perimeter. The warm light spills softly outward and slightly downward onto the stone cap beneath. The background is a breathtaking golden-orange sunset sky — deep amber and peach at the horizon shading to pale gold higher up, with silhouettes of deciduous trees and wild shrubs in dark warm tones framing the top and sides. Leafy branches enter the top-left corner of the frame from an overhanging tree, partially silhouetted against the glowing sky. The mood is serene, warm, and poetic — the golden glow of the post cap harmonizes perfectly with the sunset behind it. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.060Z"
+}

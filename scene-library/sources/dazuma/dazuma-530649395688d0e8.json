@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-530649395688d0e8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/french-creative-diy-bubble-table-lamps-with-flexible-stems-adjustable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_e17f02bb-7a18-4e21-886c-f00c0859e896.jpg?v=1758871113",
+  "scraped_date": "2026-05-21T15:52:49.612Z",
+  "source_title": "Bubble Table Lamps Creative DIY with Flexible Stems Adjustable Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "530649395688d0e82231844f8394d9d1821ef8e1",
+  "description": "A clean, softly lit interior surface vignette featuring a light natural pine or whitewashed wood tabletop with a smooth blonde grain. Soft grey-white floor-length curtains hang in the background, their vertical folds creating a gentle diffuse backdrop. Partially visible at the left frame edge, large lush green tropical leaves — from a monstera or similar indoor plant — add a note of living greenery. A white rounded form is partially visible at the far right edge, possibly a vase. Multiple warm globes of light at surface level scatter soft amber-white glows across the tabletop and illuminate the curtain backdrop from below. The atmosphere is whimsical, playful, and light. Camera is at seated eye-level using a normal lens, centered on the tabletop against the curtain backdrop. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.276Z"
+}

@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-480b674a85e6360e",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/column-alabaster-staircase-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/ColumnAlabasterStaircaseChandelier_1.jpg?v=1779122046",
+  "scraped_date": "2026-05-21T12:08:44.083Z",
+  "source_title": "Column Alabaster Staircase Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1581,
+  "height": 2048,
+  "content_sha1": "480b674a85e6360e373a683a05591e9bd88be05e",
+  "description": "A dramatic contemporary Chinese-influenced foyer and staircase landing with Zen garden elements. The right half of the frame is dominated by a broad staircase rising steeply in honed travertine or limestone tiles — the treads and risers both in the same warm cream-beige stone — with a slim glass panel railing held by a minimal dark-bronze metal post. Small brass step-light inserts glow softly along the right riser wall. The left half reveals a contemplative alcove set into the wall: a large circular moon-gate opening frames a shallow built-in display shelf in warm walnut with ceramic vessels in celadon and white — cups, bowls, a vase — arranged in orderly fashion. A large, magnificently shaped bonsai pine in a deep oxblood rectangular pot sits on a floating walnut ledge below the moon-gate circle. At floor level in the alcove, raked fine gravel and a dramatic arrangement of dark textured rocks create a dry Zen garden tableau. The walls are smooth plaster in warm cream. A cascade of alabaster or frosted-stone cylinders in brass fittings hangs through the double-height void beside the staircase, each glowing warmly from within and pooling amber light down onto the gravel below. Camera at standing eye-level, one-point perspective slightly angled, showing both the staircase and the Zen alcove in one frame, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.088Z"
+}

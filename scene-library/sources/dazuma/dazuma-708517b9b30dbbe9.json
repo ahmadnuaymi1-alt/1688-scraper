@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-708517b9b30dbbe9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/house-pillar-lights-modern-creative-outdoor-pillar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-house-pillar-lights-metal-fence-stone-entrance.jpg?v=1773717686",
+  "scraped_date": "2026-05-21T12:19:38.115Z",
+  "source_title": "House Pillar Lights Modern Creative Outdoor Pillar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "708517b9b30dbbe929efe52ced39e1619b25bda4",
+  "description": "A contemporary luxury residential gate and perimeter wall setting photographed at night. Three tall square pillar caps in smooth cream or light buff stone are evenly spaced across the mid-ground, each topped with a cylindrical post-cap that glows with warm amber light from horizontal bands between metal banding rings with a circular emblem detail, casting a warm upward and downward glow on the pillar faces. Between the pillars, horizontal slatted metal screen panels in dark anthracite alternate with a solid wooden vertical-slat privacy screen in warm brown timber on the far right edge. A dark grey large-format stone panel facade of the building is visible in the background, with a covered overhang where warm amber concealed lighting illuminates a deep soffit band above a glazed entry door. A bare-branched ornamental tree is silhouetted at the upper left. Low clipped boxwood hedging grows at the base of the wall on the left. The sky is deep charcoal-blue at night. The atmosphere is sleek, formal, and upscale East Asian-influenced contemporary. Camera is at standing eye-level, centered and level, wide establishing view capturing all three pillars, the gate passage in the center, and the building entry behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.385Z"
+}

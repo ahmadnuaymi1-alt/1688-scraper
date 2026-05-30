@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-16a9bece5a1a6809",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-16a9bece5a1a6809.jpg",
+  "source_url": "https://vakkerlight.com/products/slender-alabaster-column-chandelier",
+  "description": "A double-height stairwell in a contemporary luxury residence, photographed from a standing eye-level vantage point on an upper landing, looking slightly downward at roughly 10–15 degrees along the diagonal axis of the staircase. The camera is positioned close to the stair railing at the landing edge, using a moderate wide-to-normal lens that captures the full vertical sweep of the void alongside the ascending staircase. The composition is off-center, with the staircase railing occupying the right third of the frame and the open double-height void dominating the left and center.\n\nThe staircase itself is clad in warm light oak with a smooth, flat-panel profile — no balusters, just a continuous solid wood privacy wall that rises with each tread, giving the stair a sculptural, monolithic quality. The treads are finished in the same warm oak tone, seamlessly integrated. The underside of the stair forms a clean angular soffit of painted plaster in a warm off-white, creating a strong diagonal geometric line through the upper frame.\n\nThe floor of the lower level is polished or large-format stone tile in a warm greige, reflecting soft ambient illumination upward. The walls throughout are finished in smooth plaster in a muted warm taupe, with no applied moulding — clean, unbroken surfaces. The ceiling is flat painted white with a subtle warm cast from ambient sources.\n\nBeyond the stair, through the open mezzanine rail, a living or dining area is partially visible: a round dining table in dark finish surrounded by upholstered chairs in cool grey, a dramatic organic branch-form ceiling element visible in the background (treated here only as a decorative form, not a light source), and a large-scale botanical artwork — oversized tropical leaf motif in deep teal and green — mounted on the far wall. A white spherical sculptural object sits on a low ledge at the mezzanine level. A tall vase with dried or fresh branches provides vertical organic accent near the railing.\n\nThe overall palette is warm neutral — light oak, taupe plaster, greige stone — with accents of deep teal and forest green from the artwork. The mood is serene and quietly formal, suggesting a high-end residential interior styled with restraint. Soft warm ambient light pools gently across the stair treads and lower floor, with gentle illumination washing the far wall of the lower level from indeterminate low and overhead sources.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

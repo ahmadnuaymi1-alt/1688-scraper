@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-0782f234416a40b7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/creative-unique-small-table-lamp-pointed-aluminum-iron-accent-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-minimalist-purple-unique-small-table-lamp.jpg?v=1768964612",
+  "scraped_date": "2026-05-21T15:52:40.986Z",
+  "source_title": "Unique Small Table Lamp Creative Pointed Aluminum Iron Accent Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0782f234416a40b7fdd7b56a617f52a51026faa1",
+  "description": "A dining table vignette photographed at seated eye level with a slightly telephoto normal lens, framing a centered composition focused on a round or oval dining table covered with a white floral-embossed tablecloth. A small wooden tray or plate in warm terracotta-brown sits to the left edge of the frame, and a drinking glass is partially visible at the far left. The background is an out-of-focus warm peach-beige wall with a soft warm amber glow visible in the right corner, suggesting the ambient light of a softly lit dining room at evening. A warm pool of golden light radiates from the center of the tablecloth surface, illuminating the embossed floral pattern of the textile and spreading a honeyed glow across the immediate table surface. The background is softly bokeh, giving the scene an intimate, restaurant-quality candlelit atmosphere. The palette is warm peach, cream, and dark plum-burgundy from the light source itself, with terracotta brown from the tray accessory. The mood is romantic and intimate. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.969Z"
+}

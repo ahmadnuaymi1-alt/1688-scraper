@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-4500caaa79ce5739",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-4500caaa79ce5739.jpg",
+  "source_url": "https://dazuma.us/products/black-lamp-floor-outdoor-garden-waterproof-modern-minimalist-lamp",
+  "description": "A wide-open outdoor terrace setting with a sweeping ocean horizon as the backdrop. The terrace surface is composed of large-format light limestone or concrete pavers in a warm off-white tone, laid in a grid pattern that recedes toward the water. A modular low-profile outdoor sofa in pale warm-grey upholstery stretches across the right two-thirds of the frame, its thin matte-black legs barely visible beneath the clean-lined cushion body. An organic sculptural low coffee table in dark charcoal or matte black sits in front of the sofa, its undulating form contrasting the sofa's geometry. To the left, two tall slender trees with thin trunks and a loose canopy of soft green foliage frame the left edge of the composition, casting delicate dappled shadows across the pale paving. In the upper right, the raw concrete underside of a building overhang or eave cuts into the frame, grounding the scene architecturally and implying shelter. The background opens to a wide grassy lawn leading down to a calm open body of water — likely a lake or sea — under a pale blue hazy sky. The overall atmosphere is serene, editorial, and luxuriously quiet. Natural midday diffused light renders the scene in soft even tones with no harsh shadows. The palette is dominated by pale warm greys, soft greens, and the hazy blue of the water and sky. Camera is at standing eye-level, level pitch, using a wide-to-normal lens, with a wide establishing view that places the terrace in context with the landscape beyond. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

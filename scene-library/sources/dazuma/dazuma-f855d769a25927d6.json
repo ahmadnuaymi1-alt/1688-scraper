@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-f855d769a25927d6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/contemporary-flush-mount-light-fixtures-classic-cloud-glass-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-flush-mount-light-fixtures-modern-hallway.jpg?v=1778566342",
+  "scraped_date": "2026-05-21T12:02:40.527Z",
+  "source_title": "Contemporary Flush Mount Light Fixtures Classic Cloud Glass Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f855d769a25927d6358cdbd5c29a3179d6f558e2",
+  "description": "A long, luminous gallery hallway with a calm, editorial character. The ceiling is clad in horizontal light oak wood planks in a warm blonde tone, providing a warm natural canopy. The walls are smooth matte white plaster. The floor is large-format pale limestone or travertine tiles. On the left side, floor-to-ceiling multi-pane windows with matte black steel frames are dressed with long sheer white linen curtains that puddle softly on the floor, flooding the corridor with abundant diffused daylight. On the right side, two dark-stained reclaimed wood benches with visible rough sawn textures sit against the wall — the nearest very close to camera, the second further along the passage. Above the benches hang a series of framed botanical or abstract prints in simple light oak frames, matted and evenly spaced as a gallery wall. Further along the passage, a large potted fiddle-leaf fig in a woven wicker planter anchors the terminus. Two patterned vintage-style wool runners in muted dusty blue, cream, and warm tan lay along the floor in sequence, leading the eye toward the distant end. A warm soft glow descends from the ceiling in the foreground and middle zones, adding a gentle illuminated quality to the wood ceiling above. Camera at standing eye-level, one-point perspective looking straight down the passage, lens at normal character, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.999Z"
+}

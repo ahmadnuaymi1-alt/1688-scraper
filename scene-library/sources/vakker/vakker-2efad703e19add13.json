@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-2efad703e19add13",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/axis-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Axis_Alabaster_Table_Lamp14.png?v=1777530847",
+  "scraped_date": "2026-05-21T15:53:45.637Z",
+  "source_title": "Axis Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "2efad703e19add136b7b136d1f12da4d28c7cbce",
+  "description": "A refined, editorial living room corner photographed at seated-to-standing eye-level with a normal lens, framed as a close three-quarter corner view showing two walls. The walls are painted in smooth warm greige. A tall window on the upper left brings in soft, diffuse natural light. On the left foreground, a dark walnut side table or console holds a small arrangement: a dried botanical stem in a round clay vase, a stack of hardcover books, and a small ceramic dish, all clustered with deliberate curation. A warm, intimate glow emanates from the table surface level, spreading softly across the table surface and warming the nearby wall and floor at that height, with no uplighting toward the ceiling. Hanging prominently on the back wall is a large-format framed abstract canvas painting featuring gestural brushwork in ivory, charcoal grey, warm stone, and soft blush — providing a sophisticated artistic focal point. At the right edge of the frame, an upholstered armchair in warm sand linen with a loose, generously cushioned form is partially visible, draped with a soft grey throw, and a small woven basket sits beside it on the floor. The palette is warm and tonal — dark walnut, warm plaster, natural linen, ivory canvas, and sandy neutrals — with a polished, gallery-quality aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.062Z"
+}

@@ -509,6 +509,7 @@ export function ScrapeOptionsPanel({
                 <SelectItem value=".95">.95</SelectItem>
                 <SelectItem value=".99">.99</SelectItem>
                 <SelectItem value="5.00">5.00</SelectItem>
+                <SelectItem value="9">Nearest 9 (whole $)</SelectItem>
                 <SelectItem value="none">None</SelectItem>
               </SelectContent>
             </Select>

@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-c58931d3dc0d8da6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-wall-light-sconces-waterproof-outdoor-courtyard-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3_744d24f0-d4d2-46ec-a630-04f5e1ced527.jpg?v=1773886683",
+  "scraped_date": "2026-05-21T12:04:58.759Z",
+  "source_title": "Vintage Wall Light Sconces Waterproof Outdoor Courtyard Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c58931d3dc0d8da6b0b8d1ece7acce656714fe1c",
+  "description": "A charming covered front porch photographed at standing eye-level with a normal lens in a centered symmetrical composition facing the front entry. The house exterior is built from coursed natural limestone in creamy off-white, giving the facade warmth and texture. The porch ceiling is white painted tongue-and-groove shiplap. A pair of glazed double entry doors painted in a soft sage green with divided-light panes and brushed oil-rubbed bronze hardware forms the central focal point. White painted trim frames the door surround and the porch columns. On either side of the door, warm amber glows radiate from wall-mounted positions, washing the stone facade in rich golden pools and casting soft upward light against the ceiling. The floor is laid in large-format dark bluestone slate tiles in a grid pattern. In the foreground left, a wicker loveseat with thick white cushions and a sage-and-ivory printed throw pillow sits on the porch. On the right, terracotta and stone planters overflow with ferns, wispy ornamental grasses, and sprawling perennial shrubs. Additional potted herbs and small shrubs flank the door on both sides. The overall palette combines creamy limestone, sage green, dark wicker brown, and deep green foliage with warm amber light. The mood is welcoming, refined, and distinctly traditional American cottage. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall",
+      "shiplap",
+      "french_door"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.787Z"
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-09218983bc0b85b8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/decorative-street-light-vintage-outdoor-waterproof-high-post-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/decorative-street-light-classic-curved-pathway-dusk.jpg?v=1774078397",
+  "scraped_date": "2026-05-21T12:04:53.504Z",
+  "source_title": "Decorative Street Light Vintage Outdoor Waterproof High Post Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Street Lighting",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "09218983bc0b85b8bdfbbe46bba207e0ff4aa2dc",
+  "description": "A winding garden path at dusk, photographed in the blue-hour twilight when the sky retains a deep periwinkle and violet wash along the horizon. A cobblestone or brick-paver pathway curves gently from the foreground back toward a modern glass-walled residence in the far distance, its interior glowing warm amber through floor-to-ceiling windows. Lush garden plantings line both sides of the path — full hydrangea clusters in dusty pink and mauve, ornamental grasses, rose bushes, and a large mature deciduous tree arching over the far right of the path. Dark dense evergreen trees form the background skyline. A series of tall matte black post-mounted outdoor path lights are spaced rhythmically along the pathway edges, each casting a warm amber glow that pools onto the cobblestones and illuminates the flower beds from below, creating gentle islands of warm light against the cool dusk atmosphere. The interplay of the warm golden pools on the paving and the cool blue sky overhead gives the scene a painterly, romantic evening quality. Camera is at standing eye-level, approximately 5–6 feet, shooting a one-point perspective looking down the curved garden path toward the house. The lens is a normal to moderate wide focal length. The composition uses the receding path as a leading line, drawing the eye through multiple glowing pools into the distance. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "dusty_blue",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.977Z"
+}

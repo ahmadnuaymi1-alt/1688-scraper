@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-a7384666ba7d138e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/fireless-scented-flower-melt-table-lamp-elegant-creative-night-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_5_f3125ead-abcf-442f-8bed-0b1de7801493.jpg?v=1758871159",
+  "scraped_date": "2026-05-21T15:52:47.398Z",
+  "source_title": "Melt Table Lamp Fireless Scented Flower  Elegant Night Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a7384666ba7d138e484285a801226e8be1469f6e",
+  "description": "A living room side table vignette photographed at seated eye-level with a normal lens, framing a close off-center thirds view of a light oak side table with objects on its surface. The background wall is a smooth flat warm white. The right side of the frame is anchored by the arm of a sage or forest-green upholstered sofa with a tassel-trimmed pillow. On the light wood surface, a small natural wood block base holds a sculptural decorative object composed of botanical metal stem work in olive-green with petal and leaf forms, from which a warm glow concentrates at surface level — a golden amber pool spreading across the wood tabletop. Flanking it: a stack of three books — paperbacks in muted tones with titles including \"Flower Language\" and \"Love and Future\" — and a rounded glass jar candle labeled \"Fine Living\" with a burning wick visible, along with a small natural cork coaster. The light scatter is contained entirely at surface level and below, the warmth pooling on the wood and the books without reaching upward. The mood is botanical, whimsical, and cozy. Color palette is warm neutral with sage and amber. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.649Z"
+}

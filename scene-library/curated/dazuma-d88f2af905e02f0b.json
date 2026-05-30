@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-d88f2af905e02f0b",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d88f2af905e02f0b.jpg",
+  "source_url": "https://dazuma.us/products/black-chandelier-modern-creative-minimalist-ceiling-light",
+  "description": "A formal modern dining room with an oval travertine marble dining table at its center, photographed from a centered symmetrical wide-establishing vantage at standing eye-level. The large round dining table is in a cream or ivory travertine stone with a visible natural veining pattern and a sculptural cylindrical pedestal base in the same material. Eight cream leather or bouclé low-backed dining chairs with wide rounded silhouettes and heavy foam forms surround the table, set with white plates, folded napkins, and tall-stemmed wine glasses. A large glass vase of white peonies or roses forms a centerpiece. The back wall is sheathed in vertical tongue-and-groove light oak planking, warm and textural. In front of this wall, a low console table holds a ceramic vase with a small bouquet of roses. A large square abstract painting hangs centered on the oak wall — dark teal, blush pink, and cream tones depicting a horse profile. Sheer white floor-to-ceiling vertical panel curtains soften a tall window visible on the left side. The floor is wide-plank white oak in a herringbone pattern. The ceiling features a bold recessed oval tray with a cove-lit edge that traces the oval shape of the dining table below, emitting soft warm ambient light that washes the white ceiling. The overall palette is warm neutral — travertine, cream, light oak — accented by the blush from the painting. Camera is at standing eye-level, centered symmetrical wide-establishing framing the entire table, wall, and ceiling in one composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "coffered_ceiling",
+      "shiplap"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

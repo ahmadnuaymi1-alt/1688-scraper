@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-5464620fd9afa65c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-modern-chandelier-irregular-industrial-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-modern-chandelier-curved-conference-room-lighting-contemporary.jpg?v=1770459072",
+  "scraped_date": "2026-05-21T12:19:48.523Z",
+  "source_title": "LED Modern Chandelier Irregular Industrial Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "5464620fd9afa65c22122f2c54d04cb6d057f6df",
+  "description": "A high-design corporate boardroom with a refined, contemporary aesthetic. The ceiling is matte black with a suspended arrangement of large cloud or petal-shaped illuminated forms in white that provide dramatic overhead lighting effects — bright diffused white glow emanates downward from these sculptural overhead elements, flooding the table below. The conference table is a long, polished white surface on a dark matte-black base, dressed with open laptops and notepad paper for an active meeting setting. Ten executive task chairs in a two-tone white and tan leather / faux-leather finish surround the table. The back wall is divided into two distinct zones: a warm natural light-oak vertical slatted panel on the left and a deep chocolate-brown accent wall on the right where a large wall-mounted monitor is installed. The left side wall appears to be a polished light grey concrete or plaster finish. The floor is a low-pile commercial carpet in mid-grey. The overall mood is formal, boardroom-authoritative, with a touch of creative studio energy. Camera is at standing eye-level, centered in a wide one-point perspective looking down the length of the conference table toward the back wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.282Z"
+}

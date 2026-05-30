@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-c06811bb540966c8",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-layered-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Alabaster_Layered_Table_Lamp28.png?v=1778462886",
+  "scraped_date": "2026-05-21T15:53:06.159Z",
+  "source_title": "Alabaster Layered Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "c06811bb540966c8695a3b5042d6a7ade9d86307",
+  "description": "A warm, unhurried sitting-room vignette shot at standing eye-level with a normal-to-telephoto lens, the camera positioned slightly off-center to the left in a three-quarter view that takes in one plastered wall, a tall multi-pane window, and a partial glimpse of the adjacent wall. Natural afternoon daylight floods in through sheer linen curtains, casting long, soft diagonal bands across the plaster and pooling gently onto the reclaimed-wood console table below. The console is wide-planked, weathered, and honey-toned, its surface carrying a small stack of linen-covered coffee-table books, a tiny brass cup, and a loosely arranged bouquet of dried pampas grass in a simple clay vessel. A warm, diffused glow radiates around the table surface from the low source sitting upon it, throwing gentle warmth across the book spines and grazing the coarse wood grain. To the right, a generously sized slipcovered armchair in oat-white linen faces the window, a chunky-knit throw casually draped over one arm. The floor is finished in a natural woven jute rug that extends across the frame. The palette is entirely warm neutral — raw plaster, bleached linen, parchment, and biscuit — with no strong color accents. The architecture is simple and unfussy: smooth-troweled plaster walls and a natural-light window with a painted white frame. Mood is serene and quietly domestic, reminiscent of a slow Sunday morning. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.208Z"
+}

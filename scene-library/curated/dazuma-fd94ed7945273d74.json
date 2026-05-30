@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-fd94ed7945273d74",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-fd94ed7945273d74.jpg",
+  "source_url": "https://dazuma.us/products/linear-modern-chandelier-minimalist-creative-ceiling-light",
+  "description": "A beautifully appointed transitional kitchen photographed from a standing eye-level three-quarter corner angle, capturing both the island and the main cooking wall. The large rectangular island is faced with light honey-toned oak millwork and topped with a thick Calacatta marble slab featuring pronounced grey veining. Four upholstered counter stools in heathered grey boucle with dark walnut frames are pulled up on both sides of the island. A single potted green herb plant sits on the island surface near the brass undermount sink. The back kitchen wall features floor-to-ceiling light oak cabinetry with inset glass-front uppers and a fluted vertical-slat decorative hood surround above a dramatic navy blue French range with brass knobs and gold trim. The full-height marble slab backsplash — matching the island — runs behind the range, and a brass wall-mount pot filler extends from the wall. Wide-plank dark walnut hardwood floors run throughout, and a patterned area rug is partially visible to the right. A large picture window on the left wall floods the space with bright natural daylight, showing a lush green garden beyond. The smooth cream plaster ceiling is bathed in even, airy light. Camera is positioned at standing eye-level in a three-quarter corner view using a normal lens, capturing the kitchen island, back wall, and left window in one balanced frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

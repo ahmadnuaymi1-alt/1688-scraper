@@ -1,0 +1,36 @@
+{
+  "scene_id": "dazuma-4968acee9a92f4ff",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-4968acee9a92f4ff.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-lantern-wall-light-european-waterproof-garden-light",
+  "description": "A covered front porch or exterior entry of a Mediterranean-influenced home photographed at standing eye-level with a normal-to-wide lens in a three-quarter composition that takes in both the arched doorway and the adjacent stucco wall. The architecture features rough-textured creamy white plaster walls, a graceful arched opening framing a pair of multi-pane French doors painted in a faded sage-blue-grey, with brass door hardware catching the daylight. A single wooden louvered shutter in the same dusty blue-grey hangs beside the door on the right wall. The exterior flooring is a natural sisal or jute mat laid over what appears to be a stone or concrete threshold. A dark walnut-stained wood rocking chair sits directly in front of the door, holding a soft dusty blue linen pillow. To the left of the door, a large woven wicker basket cradles lush green foliage plants. To the right, an oversized carved stone or concrete planter overflows with blooming lavender in soft purple hues, adding a fragrant, romantic countryside quality. The overall color palette is warm and sun-bleached: cream plaster, greyed wood tones, dusty lavender, and muted sage accents. Ambient daylight fills the scene evenly from the front, suggesting late afternoon golden-hour light that grazes the textured stucco softly. A warm glow emanates from within the arched entry area, adding a gentle contrast to the cool exterior light. The mood is quietly romantic and rural-French in character — unhurried, sun-warmed, and inviting. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "french_door",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

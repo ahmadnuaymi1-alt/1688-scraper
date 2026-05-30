@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-caebf65dc8174fc1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-landscaping-lighting-modern-decorative-portable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-landscaping-lighting-night-group-display.jpg?v=1765157551",
+  "scraped_date": "2026-05-21T15:51:58.503Z",
+  "source_title": "Outdoor Landscaping Lighting Modern Decorative Portable Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Novelty Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "caebf65dc8174fc16e10851f839cc4e4763f921d",
+  "description": "A minimalist outdoor or semi-outdoor setting — a smooth, pale grey stucco or concrete wall forms the backdrop, its surface slightly textured with faint organic shadows from foliage cast by bright natural daylight. The floor is a cream-tone smooth tile or poured concrete. Three portable lantern-style objects of different heights and colors — matte white, matte black, and mustard yellow — are placed along the base of the wall. Each emits a warm vertical band of golden light from its interior column, pooling warm amber light on the floor at their bases. The scene is spare and modern, evoking an outdoor terrace, gallery courtyard, or interior room with minimal architecture. The trio of glowing vertical warm strips at ground level creates a quiet, rhythmic ambience. Camera at standing eye-level, slightly above looking down, normal to wide lens, wide establishing composition capturing all three objects lined up against the wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "mustard",
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.824Z"
+}

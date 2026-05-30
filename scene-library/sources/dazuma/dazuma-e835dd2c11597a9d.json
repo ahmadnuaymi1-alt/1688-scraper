@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-e835dd2c11597a9d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/black-up-down-wall-lights-geometric-landscape-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-up-down-wall-lights-sleek-house-entrance-night.jpg?v=1774836360",
+  "scraped_date": "2026-05-21T12:04:07.481Z",
+  "source_title": "Black up down Wall Lights Geometric Landscape Decorative Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e835dd2c11597a9d502eee982086788361eb7b21",
+  "description": "A contemporary American craftsman home exterior photographed at standing eye-level with a normal-to-wide lens and an off-center composition that captures both the attached garage and the covered front entry porch at dusk. The scene is shot during twilight — the sky has deepened to near-dark and artificial warm amber light activates the facade. The home's exterior combines white vertical board-and-batten siding on the upper stories, a dark charcoal asphalt roof with pronounced overhangs, and stacked natural stone veneer on the porch column bases. The front entry features two square white columns rising from stacked-stone pedestals, framing a covered porch with a tongue-and-groove wood stained ceiling. A dark brown solid entry door is set back in the portal. The attached garage to the left has a dark grey raised-panel garage door with small transom windows above. Warm upward and downward washes of amber light emanate from two mounted exterior fixtures on the garage wall and entry facade, creating bold pools of warm glow both above and below each mount point — the light fans up against the white siding and splays downward onto the stone bases. A decorative iron plant stand in the foreground holds a wicker basket arrangement of colorful flowers — pink, yellow, lavender, and white. The palette is crisp white, dark charcoal, warm amber, and natural grey stone. The mood is formal and welcoming at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.932Z"
+}

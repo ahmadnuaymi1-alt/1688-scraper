@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-442229bf0ade2089",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-442229bf0ade2089.png",
+  "source_url": "https://vakkerlight.com/products/cleft-travertine-globe-wall-sconce",
+  "description": "A serene, organic living room or entryway scene in warm sand and natural linen tones. The walls are finished in heavily textured artisan plaster in warm sand-beige with a rough, hand-applied quality reminiscent of Moroccan tadelakt or lime plaster. A long, low rustic console table in rough-hewn reclaimed pine or light oak with a lower shelf runs along the wall, its surface holding two medium terracotta pots with small potted olive trees and a small ceramic bowl in warm white. The lower shelf holds several softcover books stacked horizontally, a small woven seagrass basket, and a shallow ceramic bowl. To the left, a rounded, soft-form armchair upholstered in natural sand-linen fabric with tapered dark wood legs is partially visible with a gray wool throw draped loosely over one arm. The floor is covered by a large flat-woven natural jute or sisal area rug. The walls show no additional decorative objects. Warm ambient glow emanates from the wall above the console, creating a soft upward wash on the rough plaster texture. The overall color palette is monochromatic warm neutral — sand, linen, terracotta, natural jute — with small forest-green accents from the olive plants. The atmosphere is deeply serene and organic. Camera is at standing eye level, three-quarter corner composition looking at the console and left wall, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

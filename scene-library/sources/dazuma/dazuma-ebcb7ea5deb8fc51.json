@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-ebcb7ea5deb8fc51",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/european-waterproof-outdoor-pillar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stylish-outdoor-pillar-lights-for-house-gated-entrance-soft-illumination.jpg?v=1769996695",
+  "scraped_date": "2026-05-21T12:19:54.374Z",
+  "source_title": "European Waterproof Outdoor Pillar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ebcb7ea5deb8fc51ec16e6c7d2bd7a115192d464",
+  "description": "A grand traditional residential front gate entrance photographed at standing eye-level with a normal lens and a centered symmetrical composition at nighttime. The home's facade is white-painted horizontal clapboard siding with a prominent front gable featuring a small diamond-pane accent window. A pedimented entry surround frames the front door — a dark walnut-stained solid wood door set back under a lit overhang, with the warm amber interior glow of the foyer visible through the open or glass-paneled door. Two wide square white-painted rendered masonry gate posts flank an ornate scrollwork wrought-iron double gate in dark oil-rubbed bronze/antique iron finish. The gate panels feature elaborate cast-iron scrollwork with acanthus leaves and fleur-de-lis finials. Each gate post is topped with a tall traditional post lantern fixture emitting warm candlelight-amber tones from faceted clear or water-glass panels — each flanking post position glowing symmetrically and illuminating the post faces with warm downward light pools. Clipped low boxwood shrubs frame the base of each post, and mature climbing vine or ivy creeps along the right post. The night sky is very dark behind the house gable. The palette is white clapboard, dark wrought iron, warm amber lantern glow, deep green boxwood, and rich dark-wood door. The mood is formal, romantic, and traditionally grand. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.945Z"
+}

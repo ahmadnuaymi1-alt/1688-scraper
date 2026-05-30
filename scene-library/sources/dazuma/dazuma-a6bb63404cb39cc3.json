@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-a6bb63404cb39cc3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-led-ceiling-recessed-spotlights-grille-led-linear-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/office-space-led-ceiling-recessed-spotlights.jpg?v=1775904981",
+  "scraped_date": "2026-05-21T12:03:38.156Z",
+  "source_title": "2 PCS LED Ceiling Recessed Spotlights Grille LED Linear Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a6bb63404cb39cc3434ae6238a210366785328f8",
+  "description": "A modern commercial open-plan office space photographed at standing eye-level with a wide three-quarter corner composition looking toward the full-height glazed window wall. The room is a clean contemporary workspace with smooth white plaster ceilings and white walls. The far wall is entirely floor-to-ceiling full-height casement windows with dark grey aluminum frames, fitted with horizontal venetian blinds in silver-grey at various levels of closure; through them a dusk suburban landscape is visible with trees and a pink-grey sky. Benching workstations with white laminate tops and white powder-coated steel frame legs are arranged in parallel rows, each fitted with upright grey fabric acoustic desk screens providing visual separation between workstations. Grey mesh ergonomic task chairs with white frames are positioned at each station. A bold black-and-white abstract geometric artwork is framed on the left white wall. A single small green potted plant sits in the midground. The carpet tile flooring is charcoal grey with a subtle heathered texture. The ceiling emits clean, evenly distributed cool-white task illumination across the work surface below, keeping the room efficiently lit without dramatic shadow. The palette is white, cool grey, charcoal, and a soft ambient dusk sky. Mood is functional, clean, and quietly corporate. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.645Z"
+}

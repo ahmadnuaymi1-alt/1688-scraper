@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-bae43f7f99b94800",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/black-lamp-floor-outdoor-garden-waterproof-modern-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/large-outdoor-pillar-light-gated-driveway_42ad867d-730e-4625-a5b5-7288ffb5fdd2.jpg?v=1774836218",
+  "scraped_date": "2026-05-21T12:04:10.421Z",
+  "source_title": "Black Lamp Floor Outdoor Garden Waterproof Modern Minimalist Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bae43f7f99b94800450d22f7522551647da9bab6",
+  "description": "A tranquil garden terrace at golden hour photographed at standing eye-level with a wide lens, capturing a relaxed outdoor seating vignette in an off-center thirds composition with the slender floor-mounted post unit centered in the middle ground. The patio floor is large-format limestone tiles in warm cream and grey. In the foreground left, an oversized rounded bean-bag style outdoor lounger in light grey weather-resistant fabric sits beside a low carved stone coffee table in travertine with an irregular organic edge. A wide sun umbrella in sand canvas extends from the upper right, partially shading the scene. A matte black slender tall floor-post unit stands at the mid-ground, its flat disc-form head emitting a soft warm flat glow directed downward, the light pooling at its base on the warm limestone paving. Behind it, a painted dark grey vertical-board garden shed with a gabled roof is flanked by lush lavender plants in full bloom on both sides, interspersed with ornamental grasses and tall hydrangea clusters in white. Large mature deciduous trees form a verdant backdrop silhouetted against a warm golden sunset sky with a low-horizon sun. Two large stone urns mark the garden perimeter. The mood is a relaxed, fragrant Provencal-inspired late afternoon. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.739Z"
+}

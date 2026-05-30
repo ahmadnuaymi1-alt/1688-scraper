@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-bc2eb699f4591a18",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/up-and-down-moon-brass-italian-luxury-creative-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-globe-wall-lights-marble-fireplace-luxury-room.jpg?v=1777447735",
+  "scraped_date": "2026-05-21T12:03:25.585Z",
+  "source_title": "Up and Down Moon Brass Italian Luxury Creative Wall Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Up & Down Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bc2eb699f4591a18bef70007a31e923cca863d09",
+  "description": "A refined classical sitting room photographed at standing eye-level with a normal lens, framing a symmetrical fireplace wall in a centered symmetrical composition. The walls are finished in smooth warm ivory-beige plaster with a clean, unadorned surface. The floor is wide-plank dark walnut or stained oak with a rich reddish-brown tone. A large-format abstract art print in a thin gold leaf frame hangs centered above the fireplace — the artwork is a quiet geometric composition in cream, sand, and pale ochre. The fireplace surround is carved white marble with ornate scroll and foliage relief detailing, a wide pilastered frame, and a herringbone-laid terracotta tile firebox interior. Before the fireplace, a low rectangular marble-top coffee table on an X-form walnut base holds a glass bud vase with a delicate green budding branch and two stacked hardcover books. Four matching lounge chairs in cognac tan smooth leather with turned walnut legs are arranged in two pairs flanking the coffee table, creating a formal but inviting conversation grouping. On the plaster wall flanking the artwork at equal heights, two warm orb-form diffuser wall units on brushed brass stems each emit a soft warm amber glow that radiates across the plaster surface in a smooth halo. A textural flat-woven grey area rug defines the seating zone. The mood is formal, warm, and classically American. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "fireplace",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.745Z"
+}

@@ -1,0 +1,100 @@
+{
+  "productId": "cmpr76js200a9w2wof4taoa36",
+  "productTitle": "Step-light editorial scenes (outdoor)",
+  "authoredBy": "step-light-parallel-rebuild script — generic-product editorial framing per user instruction",
+  "authoredAt": "2026-05-29T19:52:45.973Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "dwell-modern-staircase-landing",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Dwell magazine, modern-architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, 45mm f/2.8 lens, aperture f/4. Exterior concrete staircase of a California hillside residence, photographed at dusk. The KOMILT 035 solar step light is surface-mounted flush on the riser of the third step, ankle-level, emitting a contained warm-white glow that pools only on the tread above it — it is a small integrated element, not the visual focus. The concrete risers show hairline shrinkage cracks, a faint efflorescence bloom near the base, and a dust film across the upper treads. Exposure is committed: the sky above clips to pale grey, the lower steps fall into genuine shadow with no fill. Zero color cast — the warm LED stays local to the riser face, the ambient dusk reads as neutral blue-grey. Kodak Portra 400 grain throughout, 2% corner vignette, 1px chromatic aberration at the brightest LED edge. Palette: raw concrete grey, oxidised steel handrail, warm ivory LED spill, dry-grass amber, deep charcoal shadow. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 1,
+      "room": "exterior concrete hillside staircase",
+      "designStyle": "Dwell — California modernist minimalism",
+      "cameraAngle": "low three-quarter, shooting up the stair run",
+      "timeOfDay": "dusk",
+      "accents": [
+        "hairline concrete cracks",
+        "efflorescence bloom at base",
+        "dust film on upper treads"
+      ]
+    },
+    {
+      "slug": "architectural-digest-hotel-deck-edge",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Architectural Digest, luxury outdoor living spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-50c, 80mm f/2.8 lens, aperture f/5.6. Teak-decked rooftop terrace of a boutique hotel, photographed at blue hour. The KOMILT 035 solar step light is screw-mounted on the vertical face of the deck's single step-down edge, casting a narrow warm band across the teak planks immediately below — a minor wayfinding detail within the broader scene. The teak shows greying weathered grain, a water-stain ring from a displaced planter, and a scuff mark near the step corner. Exposure is committed: the city skyline behind bleeds to near-white, the deck's far corner sits in unlifted shadow. Zero color cast — warm LED spill is strictly local, the ambient blue hour reads as true cool blue-grey with no orange contamination. Kodak Portra 400 grain throughout, 1% corner vignette, 2px chromatic aberration at the LED spill edge. Palette: silver-grey weathered teak, warm ivory LED band, deep navy sky, brushed-steel railing, charcoal shadow pool. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 2,
+      "room": "rooftop hotel teak deck edge",
+      "designStyle": "Architectural Digest — luxury rooftop modernism",
+      "cameraAngle": "low angle, parallel to deck surface",
+      "timeOfDay": "blue hour",
+      "accents": [
+        "greying weathered teak grain",
+        "water-stain ring from planter",
+        "scuff mark at step corner"
+      ]
+    },
+    {
+      "slug": "kinfolk-garden-path-stone-wall",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Kinfolk magazine, slow-living garden spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X1D II 50C, 90mm f/3.2 lens, aperture f/4.5. Walled kitchen garden of a rural English farmhouse, photographed just after nightfall. The KOMILT 035 solar step light is adhesive-mounted on the riser of a low fieldstone garden step, its warm-white LED glow softly illuminating a narrow strip of mossy stone — it reads as a quiet practical detail within the larger garden scene. The fieldstone shows lichen patches, mortar erosion between courses, and a smear of dried soil on the step face. Exposure is committed: the garden beyond falls to true black, the single lit tread clips slightly at its centre. Zero color cast — warm LED stays contained to the stone face, surrounding darkness reads as neutral black with no ambient warming. Kodak Portra 400 grain throughout, 3% corner vignette, 1px chromatic aberration at the brightest stone edge. Palette: mossy fieldstone green-grey, warm ivory LED spill, lichen ochre, dark soil brown, deep garden black. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 3,
+      "room": "walled farmhouse kitchen garden step",
+      "designStyle": "Kinfolk — rural slow-living quietude",
+      "cameraAngle": "eye-level close, shooting along the step face",
+      "timeOfDay": "just after nightfall",
+      "accents": [
+        "lichen patches on fieldstone",
+        "mortar erosion between courses",
+        "dried soil smear on step face"
+      ]
+    },
+    {
+      "slug": "wallpaper-patio-baseboard-terrace",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Wallpaper* magazine, design-forward outdoor architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-100c, 35mm f/3.5 lens, aperture f/5.6. Travertine-paved terrace of a Milanese courtyard apartment, photographed at night. The KOMILT 035 solar step light is screw-mounted on the riser of a single travertine step leading to the upper terrace level, its LED output forming a tight warm ellipse on the paving below — a utilitarian footnote in a scene dominated by the travertine geometry. The travertine shows iron-oxide rust streaks running from a corroded anchor bolt, a faint oil stain near the step nose, and fine grit settled in the stone's open pores. Exposure is committed: the upper terrace clips to pale stone-white in the ambient light, the lower paving drops to near-black shadow. Zero color cast — LED warmth is strictly local, the ambient courtyard light reads as cool neutral without orange bleed. Kodak Portra 400 grain throughout, 2% corner vignette, 2px chromatic aberration at the LED ellipse edge. Palette: cream travertine, rust-oxide streak, warm ivory LED ellipse, cool grey ambient, deep shadow black. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 4,
+      "room": "Milanese courtyard travertine terrace step",
+      "designStyle": "Wallpaper* — European design-forward minimalism",
+      "cameraAngle": "wide low angle, emphasising travertine geometry",
+      "timeOfDay": "night",
+      "accents": [
+        "iron-oxide rust streaks from anchor bolt",
+        "oil stain near step nose",
+        "grit in stone pores"
+      ]
+    },
+    {
+      "slug": "garden-gun-southern-porch-steps",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Garden & Gun magazine, Southern vernacular living spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, 65mm f/2.8 lens, aperture f/4. Painted-wood front porch steps of a Louisiana shotgun house, photographed at dusk. The KOMILT 035 solar step light is adhesive-mounted on the side riser of the bottom porch step, its warm LED casting a small amber pool on the painted wood below — a modest practical addition to an aged porch, not the scene's subject. The painted wood shows peeling grey paint revealing raw pine beneath, a rust bleed from a nail head, and a scuff trail from foot traffic across the tread. Exposure is committed: the porch ceiling above clips to blown white, the yard beyond the steps falls to unrecovered shadow. Zero color cast — the warm LED glow stays local to the riser face, the ambient dusk sky reads as true muted violet-grey. Kodak Portra 400 grain throughout, 3% corner vignette, 1px chromatic aberration at the LED pool edge. Palette: peeling grey paint, raw pine yellow, warm amber LED pool, muted violet-grey dusk sky, rust-brown nail bleed. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 5,
+      "room": "Louisiana shotgun house painted porch steps",
+      "designStyle": "Garden & Gun — Southern vernacular warmth",
+      "cameraAngle": "low side angle, shooting along the step riser",
+      "timeOfDay": "dusk",
+      "accents": [
+        "peeling grey paint revealing raw pine",
+        "rust bleed from nail head",
+        "scuff trail from foot traffic"
+      ]
+    },
+    {
+      "slug": "world-of-interiors-balcony-wall-step",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for World of Interiors magazine, atmospheric outdoor-living spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-50c, 100mm f/3.2 lens, aperture f/4.5. Terracotta-tiled balcony of a Lisbon apartment building, photographed at night. The KOMILT 035 solar step light is screw-mounted on the low rendered wall riser separating the balcony's two tile levels, its warm-white LED throwing a contained glow across the lower tile surface — a small functional detail within a scene of aged plaster and worn tile. The rendered wall shows a map-crack pattern in the plaster, a water-stain tide mark from seasonal rain, and a chipped corner revealing the brick substrate beneath. Exposure is committed: the apartment window behind clips to overexposed amber, the balcony's far rail drops to unlit black. Zero color cast — LED warmth is contained to the riser face and immediate tile, the ambient night reads as true neutral dark with no spill warming. Kodak Portra 400 grain throughout, 2% corner vignette, 2px chromatic aberration at the brightest tile edge. Palette: terracotta tile red-orange, aged plaster off-white, warm ivory LED glow, map-crack grey, deep balcony black. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 6,
+      "room": "Lisbon apartment terracotta-tiled balcony step",
+      "designStyle": "World of Interiors — European atmospheric patina",
+      "cameraAngle": "medium low angle, across the tile level change",
+      "timeOfDay": "night",
+      "accents": [
+        "map-crack pattern in plaster",
+        "water-stain tide mark on wall",
+        "chipped corner revealing brick substrate"
+      ]
+    }
+  ]
+}

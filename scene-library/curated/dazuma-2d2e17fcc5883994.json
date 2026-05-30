@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-2d2e17fcc5883994",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2d2e17fcc5883994.jpg",
+  "source_url": "https://dazuma.us/products/art-deco-french-luxury-glass-wall-sconce",
+  "description": "A minimal interior wall vignette photographed at standing eye-level with an off-center thirds composition, the camera level and centered slightly left of the wall-mounted position. The setting is a plain, smooth warm cream or pale ivory plaster wall with no additional wall decor or architectural detailing — the surface is clean, uninterrupted, and slightly warm in tone. In the lower right corner of the frame, floor-length sheer linen curtains hang in vertical soft pleats, allowing diffuse natural daylight to glow through the fabric in a warm white-cream luminance. Immediately beside the curtain at lower right, a small-leafed indoor plant or shrub with fresh green oval leaves on dark slender branches provides an organic contrast against the pale wall. The floor is not visible. The composition deliberately isolates the wall-mounted position at center against the empty cream wall, showing the glass petal or shell form elements catching and refracting the ambient daylight from the window — each clear or frosted wave-form glass piece glows with a soft opalescent sheen. The palette is warm ivory, soft white, fresh green, and translucent glass catching warm daylight. The mood is serene, gallery-quiet, and refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

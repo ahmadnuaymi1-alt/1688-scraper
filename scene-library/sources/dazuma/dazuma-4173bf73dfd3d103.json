@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-4173bf73dfd3d103",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-mushroom-retro-metal-table-lamp-dimmable-creative-design-iron-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/retro-metal-table-lamp-wooden-console-dusk.jpg?v=1760423980",
+  "scraped_date": "2026-05-21T15:52:28.233Z",
+  "source_title": "Retro Metal Table Lamp Mushroom Dimmable Creative Design Iron Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "4173bf73dfd3d1033db9fa6f256b8ae0d7c0451c",
+  "description": "A clean, editorial vignette centered on the top surface of a dark walnut dresser or low sideboard with distinctive horizontal wood grain and a recessed drawer pull. Floor-length linen curtains in warm greige fill the entire background, their soft vertical folds providing a neutral textile backdrop. To the left of center on the dresser top sits a small matte-black sculptural decorative object with circular disk forms — an abstract figurative piece. A closed hardcover book lies flat beneath it. The scene is lit with warm amber tones at surface level, a gentle glow emanating from the height of the objects and washing softly into the lower portion of the curtains and across the dresser top. The bedroom or sitting room atmosphere is serene and quietly luxurious. Camera is at standing eye-level, approximately 5 feet high, with a normal lens. Composition is a centered, slightly symmetrical vignette showing the full dresser top and the curtain wall behind it. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.201Z"
+}

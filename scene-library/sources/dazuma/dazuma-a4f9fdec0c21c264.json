@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-a4f9fdec0c21c264",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-black-floor-lamps-roman-column-vintage-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-black-floor-lamps-modern-spherical-poolside-seating.jpg?v=1774836538",
+  "scraped_date": "2026-05-21T12:04:03.740Z",
+  "source_title": "Outdoor Black Floor Lamps Roman Column Vintage Landscape Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a4f9fdec0c21c2645d5c4aad1f0b49b0c094b107",
+  "description": "A luxurious nighttime exterior pool terrace photographed at standing eye-level with a wide lens, capturing the full sweep of a large rectangular swimming pool in a wide establishing composition. The pool deck is paved in large-format light grey limestone tiles that glow softly with reflected blue-aqua light rising from the illuminated pool water. Two sculptural short-post outdoor units stand at the pool's near edge on either side — turned dark cast-iron pedestals supporting oversized frosted globe forms that emit a warm, soft amber glow, the light pooling in gentle halos across the pale stone deck around their bases. Two dark low-profile sun loungers sit beside the pool in the middle ground, their minimal forms silhouetted against the glowing water. Behind a floor-to-ceiling glazed wall, a warmly illuminated interior room is visible: a framed abstract artwork, sheer curtains, and a small warm glow suggest a living or sitting space. Mature trees beyond the property boundary are silhouetted against the deep blue night sky. The atmosphere is serene, hotel-level luxurious, and cinematic in its stillness. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.636Z"
+}

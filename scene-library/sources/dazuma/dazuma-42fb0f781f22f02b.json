@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-42fb0f781f22f02b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-chandelier-modern-geometric-metal-crop-circles-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-chandelier-modern-linked-round-office.jpg?v=1770458996",
+  "scraped_date": "2026-05-21T12:19:50.245Z",
+  "source_title": "LED Chandelier Modern Geometric Metal Crop Circles Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "42fb0f781f22f02b3129bbf8f004646094363880",
+  "description": "A contemporary open-plan office with a dramatic, high-contrast industrial aesthetic. The ceiling is a matte black slatted acoustic system with suspended circular elements that emit broad diffused white illumination, flooding the workspace below with even, flat cool-white light. The floor is polished concrete in a mid-grey tone. Dark espresso-stained workstation tables are arranged in clustered rows, each with dual monitors and black mesh ergonomic task chairs on five-star swivel bases. On the right edge of the frame, a low black planter box with vertical slatted detailing holds lush live trailing and upright plants — a verdant biophilic strip anchoring the floor plan. In the midground, a matte-black freestanding shelving and partition unit with a grid frame separates the near workspace from the deeper office zone; beyond it, a projection screen is visible. The walls where visible are polished concrete or light grey plaster. On the upper right a cascade of trailing greenery descends from an elevated position, adding organic softness to the stark industrial palette. The overall mood is focused and architecturally bold — a serious, high-design studio or creative agency workspace. Camera is at standing eye-level, centered along a one-point perspective axis looking toward the back of the office, with workstations flanking the central aisle. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.207Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-051a2a1e1adce946",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-cylinder-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Alabaster_Cylinder_Cluster_Chandelier11__2.jpg?v=1779121986",
+  "scraped_date": "2026-05-21T12:08:41.042Z",
+  "source_title": "Alabaster Cylinder Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1200,
+  "height": 1600,
+  "content_sha1": "051a2a1e1adce946f9aaa288352faad416fcb279",
+  "description": "A serene vignette scene set against a smooth matte plaster wall in a warm greige tone. The architectural backdrop features a staircase rising along the left side of the frame, its raw concrete or plaster-clad stepped risers visible in profile — clean, minimalist slabs with no balustrade, receding upward in a quiet geometric rhythm. The floor visible at the lower edge appears to be a honed stone or large-format travertine tile in a warm ivory and beige tone.\n\nA low bench or side table in natural unfinished light oak occupies the left foreground — its construction is deliberately raw and structural, with chunky square-cut joinery, no finish, and visible wood grain suggesting pine or ash. The joinery is exposed-tenon or lap style, giving it an artisanal, almost sculptural quality.\n\nOn the surface of the table or a shelf just behind it, two softcover books are stacked flat. The spines read 'Giorgio Morandi: A Retrospective' and 'The New Mediterranean' — both cream and pale-toned covers consistent with the muted palette. Leaning against the wall or a surface behind the books is a framed photograph in a simple grey wood or whitewashed frame with a generous white mat. The photograph inside depicts cylindrical and block-form stone or plaster objects arranged on a wooden floor — an art-world still life consistent with the Giorgio Morandi reference nearby.\n\nA warm amber-golden glow suffuses the upper central portion of the scene, radiating softly downward and casting a honeyed, translucent illumination that warms the greige wall behind it with golden-orange tones and subtle veining light patterns — as if light is passing through a semi-translucent material and projecting its internal structure onto the surroundings. The effect is intimate and warm, with no harsh shadows.\n\nThe overall mood is serene and gallery-quiet — a japondi-adjacent minimalism with natural material layering: plaster, travertine, raw wood, linen-toned books, and art photography. No textiles, no plants, no clutter. Density is extremely low.\n\nCamera is at approximately standing eye-level, roughly 5 feet, with a normal to slightly telephoto lens character — perhaps 50mm. The composition is an off-center vignette framing a corner where the staircase wall meets the open room, with the table vignette in the right foreground and the staircase geometry in the left background. The camera is level with no appreciable pitch up or down. The frame captures a partial corner — not a full room establishing shot, but a composed interior still-life vignette.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:27:57.471Z"
+}

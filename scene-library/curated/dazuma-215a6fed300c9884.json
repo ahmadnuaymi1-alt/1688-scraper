@@ -1,0 +1,38 @@
+{
+  "scene_id": "dazuma-215a6fed300c9884",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-215a6fed300c9884.jpg",
+  "source_url": "https://dazuma.us/products/paper-pendant-light-fixtures-movable-japanese-ambient-light",
+  "description": "A serene primary bedroom photographed at standing eye-level from a slightly elevated position, with a normal lens offering a wide establishing view of the room. The ceiling has a gentle vaulted pitch with crisp white crown moulding along the perimeter. Walls are finished in a soft warm linen-white plaster. A king-sized bed with an upholstered tufted headboard in ivory linen occupies the left side of frame, dressed in crisp white bedding with a mustard-yellow textured throw folded across the foot and grid-check grey linen accent cushions. A low wooden nightstand in light oak sits to the left of the bed with a small woven basket. Beneath the window between the bed and the balcony doors sits a built-in window bench or low credenza in light oak with a small pink ceramic bud vase holding soft pink flowers. The floor is wide-plank warm honey oak, partially covered by a thick cream shag area rug. A linen roman shade is pulled up on the window, and floor-length linen drapes in warm grey are hung from a matte black curtain rod beside a pair of white-trimmed French balcony doors that admit soft diffused daylight. A fluffy white accent chair is partially visible in the lower right corner. The room glows with warm diffuse natural light, the ceiling catching a soft ambient warmth. Camera is at standing eye-level, wide establishing composition capturing the full room corner from the bed side to the balcony. The mood is serene and quietly lived-in. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "applied_moulding",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

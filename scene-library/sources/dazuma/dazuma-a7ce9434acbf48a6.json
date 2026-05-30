@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-a7ce9434acbf48a6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-pendant-lighting-modern-waterproof-landscape-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-pendant-lighting-modern-black-cage-dining-area.jpg?v=1774595258",
+  "scraped_date": "2026-05-21T12:04:29.461Z",
+  "source_title": "Outdoor Pendant Lighting Modern Waterproof Landscape Ceiling Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a7ce9434acbf48a60c86d2b603fb58a8d269e47c",
+  "description": "A covered outdoor veranda dining area photographed at standing eye-level with a slightly elevated wide establishing shot, centered symmetrically over the dining table. The porch has white painted round columns and a white turned-spindle balustrade railing, all classical and traditional in character; through the open columns, a lush forest canopy of mature deciduous trees fills the view with deep green summer foliage. The floor is a bold black-and-white diagonal checkerboard pattern in painted or tiled stone squares. A large oval pedestal dining table in heavily grained reclaimed or aged oak with a carved trestle base sits at center, its surface holding a rectangular wooden tray centered with two white pillar candles, a clear glass vase with large tropical leaves, and several stemmed wine glasses. Eight organic-form wicker rattan bucket chairs with a sculptural molded silhouette surround the table, their natural caramel-tan weave creating a warm textural contrast with the graphic floor. The daytime outdoor light is bright and ambient, filtering through the tree canopy. A warm downward-focused glow from the ceiling-hung position above the table centers the dining grouping. The palette is white architectural detailing, warm oak, natural tan rattan, and black-and-white graphic floor. Mood is casual, coastal-traditional, and gracious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.652Z"
+}

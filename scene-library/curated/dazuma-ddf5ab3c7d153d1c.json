@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-ddf5ab3c7d153d1c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ddf5ab3c7d153d1c.jpg",
+  "source_url": "https://dazuma.us/products/luxury-minimalist-glass-wall-sconce",
+  "description": "A cheerful, traditionally styled bedroom corner with bright white walls featuring recessed applied panel moulding that runs in a grid pattern from dado to ceiling, giving a classic English country or transitional character. The headboard is a solid warm-toned medium walnut or cherry wood with a raised panel design — crisp rectangular frame construction typical of craftsman or traditional furniture. The bedding is layered with a floral print duvet cover in cream, sage, and blush tones, topped with a bold mustard yellow velvet accent pillow that pops against the white wall. A matching walnut-stained nightstand sits beside the bed, topped with a bold black-and-white ceramic hourglass-shaped vase holding a generous bouquet of white roses, white spray roses, and green filler foliage. The right wall has a floor-length dark espresso or mocha satin drape visible at the frame edge. The wall behind is crisp bright white with no surface texture beyond the raised panels. A warm amber glow emanates from the wall surface above the nightstand, illuminating the flowers and the upper portion of the nightstand richly. The color palette is bright and warm — white, walnut, mustard yellow, and fresh green — with the black vase providing a graphic anchor. Camera is at standing eye-level, normal lens, three-quarter view of the bedroom corner showing the headboard, nightstand, and wall above. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

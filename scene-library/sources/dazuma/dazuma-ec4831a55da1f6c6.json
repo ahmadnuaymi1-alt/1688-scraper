@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-ec4831a55da1f6c6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ceiling-linear-lights-modern-minimalist-metal-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_6_1bdaf89e-2821-4ad2-bed9-40d01d4bd975.jpg?v=1779070501",
+  "scraped_date": "2026-05-21T12:02:23.752Z",
+  "source_title": "Ceiling Linear Lights Modern Minimalist Metal LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ec4831a55da1f6c600ab2227e68033d51e5326b2",
+  "description": "A serene living room alcove built around a floor-to-ceiling walnut wood panel system that wraps and frames a built-in upholstered bench sofa with clean-lined solid walnut armrests. The paneling is rich medium-dark walnut with visible grain, organized in large vertical and horizontal sections, giving the nook a cocoon-like architectural presence. A low, mushroom-shaped side table in light oak sits at the end of the bench, its simple tapered pedestal base contrasting warmly with the deeper wall paneling. A framed abstract artwork in muted cream, charcoal, and taupe tones hangs centered within the alcove above the bench. The sofa upholstery is a soft warm grey fabric, tightly tailored and low-profile. The floor is wide-plank light oak in a natural finish, partially covered by a large off-white area rug with a dense pile. The right side of the frame opens to a smooth plaster wall in warm cream. A warm amber glow traces along the ceiling cornice edge at the top of the scene, and a vertical warm line of light runs floor-to-ceiling along the right-hand plaster wall panel, giving the space a gallery-like precision without attributing the effect to any identifiable object. The overall palette is warm neutrals — walnut brown, light oak, cream, and soft grey — spare and intentional. Camera is at standing eye-level, shooting a three-quarter corner view with the alcove left-of-center and the cream wall and floor visible to the right, in a normal to slightly wide lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.949Z"
+}

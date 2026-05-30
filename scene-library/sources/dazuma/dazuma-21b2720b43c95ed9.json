@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-21b2720b43c95ed9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-gate-pillar-post-lighting-waterproof-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_fe7bef5d-17cf-4215-a9bb-afd745ef3784.jpg?v=1774175198",
+  "scraped_date": "2026-05-21T12:04:44.124Z",
+  "source_title": "Outdoor Gate Pillar Post Lighting Waterproof Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "21b2720b43c95ed972f120ebaa032559b109090b",
+  "description": "An outdoor perimeter fence and gate scene photographed at dusk from standing eye-level with a normal lens, using a one-point perspective looking down the length of the fence line. The fence system is composed of tall square stone or precast concrete posts with a refined texture alternating with flat matte black vertical metal balusters forming solid panels between each post. A narrow gravel border runs along the interior base of the fence, planted with regularly spaced neatly clipped boxwood spheres that create a disciplined rhythm down the line. A brick or dark paver walkway borders the gravel bed. Dense deciduous and evergreen trees create a full green canopy backdrop in the mid-to-far ground. The sky shows a cool dusk blue-grey. Warm amber glows emanate from the top of each stone post, casting soft radiant pools of light that illuminate the post cap surfaces and spill downward onto the fence sections below, creating a repeating rhythm of warm halos receding into the dusk depth. Camera is at standing eye-level, one-point perspective composition looking down the fence line, with the nearest post in the right foreground and subsequent posts receding left and backward. The mood is formal and serene, evoking a polished residential property boundary. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.073Z"
+}

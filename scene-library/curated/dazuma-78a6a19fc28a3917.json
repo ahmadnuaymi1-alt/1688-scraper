@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-78a6a19fc28a3917",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-78a6a19fc28a3917.jpg",
+  "source_url": "https://dazuma.us/products/japanese-paper-table-lamp-retro-wabi-sabi-style-ambient-lamp",
+  "description": "A moody living room or gallery-style sitting room photographed at low eye-level — approximately 2 to 3 feet off the ground — with a normal lens, capturing a white cube pedestal or side table in the lower center of the frame. A warm amber glow radiates from the pedestal surface, casting a soft warm pool onto the white cube top and onto the surrounding dark floor. In the background, a textured heathered grey-brown upholstered armchair with thin dark metal legs is softly illuminated at mid-level. At the right edge of the frame, a small ceramic vase with stacked rounded forms in terracotta or blush holds pale orchid blossoms. The room is otherwise deeply shadowed, with cool blue ambient light barely touching the background elements — a strong contrast between the warm foreground glow and the cool dark room beyond. The floor appears to be a neutral low-pile carpet. The palette is deep charcoal and shadow punctuated by warm amber at the pedestal level, with the blush and terracotta ceramic as the sole warm accent. The mood is intensely dramatic and gallery-like, almost theatrical. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

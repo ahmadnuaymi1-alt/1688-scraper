@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-f7d12ecee8674ebf",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f7d12ecee8674ebf.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-solar-lighting-wall-mount-motion-sensor-led-light",
+  "description": "A close-up exterior vignette at dusk, focused on the corner of a contemporary building clad in large-format coursed grey stone tiles with clean mortar joints. The stone surface has a smooth honed texture in a cool medium grey tone. The corner of the building is sharp and architectural, with the stone wrapping cleanly around the edge. On the stone face just left of center, a dark matte-finished circular disc-shaped outdoor wall fixture is mounted, directing a concentrated warm amber beam downward and slightly onto the stone surface — the light creating a dramatic glow pattern on the stone below and around the fixture. The warm light contrasts strikingly against the cool stone and the deep blue-grey dusk sky. To the right, the edge of a large-format window system with slim dark frame profiles is visible — through the glass, the fading orange-pink sunset sky is reflected. The ground plane below is not visible. The composition is tight and graphic — a close architectural detail shot that emphasizes the texture of the stone and the quality of the light cast. Camera is at a slightly elevated or standing eye-level position with a normal to slightly telephoto lens, framing the corner in a vignette composition off-center to the left. The mood is dramatic and minimal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

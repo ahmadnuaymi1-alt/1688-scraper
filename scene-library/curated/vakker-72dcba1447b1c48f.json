@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-72dcba1447b1c48f",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-72dcba1447b1c48f.png",
+  "source_url": "https://vakkerlight.com/products/victorian-fringe-table-lamp",
+  "description": "A richly layered Victorian or Arts and Crafts-influenced study or sitting room corner photographed at standing eye-level with a normal lens in a three-quarter corner composition. The camera looks diagonally across a dark mahogany writing desk into the room beyond. The desk surface holds a small cluster of objects: a journal or notebook open to a page, a stack of green-covered books, a small sculptural candleholder or inkwell, and a narrow bud vase. The warm amber illumination from a nearby source pools across the desktop objects with a soft golden glow. Beyond the desk, a lush fern or trailing plant in a white ceramic pot is positioned on a lower surface against the back wall. The back wall is covered in rich forest-green wallpaper with a subtle raised damask or floral pattern, its deep tone setting an atmospheric mood. A gilded or antique gold-framed rectangular mirror hangs on this wall, its reflection adding depth. A second potted plant with delicate leaves sits near the window at left, catching soft natural light through a multi-pane sash window. At the right edge, an upholstered side chair in sage green chenille or velvet is partially visible. The floor appears to have a patterned area rug in warm tones. The overall palette is forest green, warm walnut, antique brass, and deep ochre. The mood is romantic, scholarly, and deeply inhabited. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

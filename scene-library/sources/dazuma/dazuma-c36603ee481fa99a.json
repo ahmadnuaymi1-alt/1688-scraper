@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-c36603ee481fa99a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ostrich-feather-table-lamp-creative-nordic-night-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/ostrich-feather-table-lamp-teal-feather-classic-bedroom-dresser.jpg?v=1774595443",
+  "scraped_date": "2026-05-21T12:04:19.937Z",
+  "source_title": "Ostrich Feather Table Lamp Creative Nordic Night Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c36603ee481fa99acb7585b9eade8edfc7552656",
+  "description": "A traditional bedroom nightstand vignette photographed at standing eye-level with a normal lens, capturing a three-quarter view of the bedside zone. The bed features a tall arched upholstered headboard in warm cream linen fabric, with layered pillowcases in dusty blue diamond-patterned cotton, a ticking-stripe gray pillow, and a soft blush accent pillow at the fore. The nightstand is a dark mahogany or espresso-stained three-drawer chest with round brass knob hardware — a classic traditional furniture form. The nightstand surface is styled with a small glass bud vase of blush roses, a stack of fashion and lifestyle books, and a small gold-framed photo frame. The back wall is painted in crisp white and articulated with raised-panel wainscoting and door-panel moulding in a classic American traditional style. A double-hung white-painted window at upper left lets in soft diffuse natural daylight. The overall mood is romantic and gently playful — the room has a feminine sensibility balanced with traditional forms. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.775Z"
+}

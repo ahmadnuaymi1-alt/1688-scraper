@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-da5dc0fed2502a98",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/french-floral-retro-green-table-lamp-artistic-globe-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_6_76179728-7ae9-4f24-8bf0-968f970c57a5.jpg?v=1758871236",
+  "scraped_date": "2026-05-21T15:52:46.407Z",
+  "source_title": "Retro Green Table Lamp French Floral  Artistic Globe Decorative Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "da5dc0fed2502a98d8ae11267aa10f6df3bd1332",
+  "description": "A sideboard or console surface vignette photographed at standing eye-level with a normal lens, framing a centered composition against a flat white wall. The surface below is a white or off-white painted console or cabinet top. A sculptural object in forest green with organic branching arms rises from a compact cylindrical base; multiple clear globe forms radiate warm illumination at varying heights, casting a soft dispersed glow across the white surface below and onto the wall behind, pools of warm light spreading at the level of the forms and down to the surface. Flanking the central sculpture: to the left, a cream painted vintage-style radio with a leather handle and copper speaker grille, and a small white ceramic pot holding a single round cactus. To the right, a small green glass candle jar with a natural cork stopper labeled \"Pine Living.\" The wall behind is bright white and unadorned, and sheer cream curtains are visible at the far right edge. The mood is playful, botanical, and light-filled. Color palette is monochromatic white and cream with forest green as a strong accent. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.887Z"
+}

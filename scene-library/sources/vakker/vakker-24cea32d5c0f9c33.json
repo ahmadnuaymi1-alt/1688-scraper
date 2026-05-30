@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-24cea32d5c0f9c33",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/ribbed-travertine-arc-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793456002773.png?v=1779345654",
+  "scraped_date": "2026-05-21T12:08:07.408Z",
+  "source_title": "Ribbed Travertine Arc Sconce",
+  "source_product_type": "Wall lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "24cea32d5c0f9c338812e162f330bd1479e849d9",
+  "description": "A serene sitting room corner captured at seated eye-level, approximately three to four feet from the floor, with a normal-to-telephoto lens rendering the scene in a shallow, intimate depth of field. The composition is a three-quarter corner view, showing two converging plastered walls meeting at a soft interior angle, with a sliver of a multi-pane window entering the left edge of the frame and admitting pale natural daylight that rakes gently across the textured wall surface.\n\nThe walls are finished in a smooth, matte plaster in a warm greige tone — neither fully beige nor fully grey — with a faintly sandy, handcrafted texture visible especially where the afternoon sidelight catches the surface. The ceiling is not visible. The floor is not visible.\n\nAgainst the back wall sits a low console table in heavily distressed, reclaimed hardwood with a naturally live-edged top surface and splayed trestle-style legs. The wood is deeply weathered in warm brown and driftwood grey tones, reading as aged walnut or reclaimed pine. The table surface is styled at mid density: a small grouping of softcover books leaned upright against each other at the left end, their spines in muted cream and sand tones; a hand-thrown ceramic vase in streaked warm grey and sand glaze containing a loose arrangement of dried pampas grass in pale gold and amber; a shallow turned-wood bowl in medium walnut tone holding three or four smooth river stones; and a small round woven rattan coaster resting flat near the right edge.\n\nIn the right foreground, partially cropped by the frame, is a linen upholstered armchair in undyed natural flax, its arm and upper corner visible. A loosely draped chunky knit throw in oatmeal and pale grey hangs over the chair's arm, adding softness and casual warmth to the corner.\n\nA warm glow washes down the wall from a low source positioned above and to the right of the console, casting a rounded amber pool across the plaster surface and spilling softly onto the tabletop. The light has a distinctly warm, incandescent quality — rich amber at its core, fading gently into the ambient greige of the wall. A secondary diffuse daylight enters from the left window, creating a soft crosslight that separates the books and vase from the wall behind them and gives the dried grasses a luminous backlit quality.\n\nThe overall atmosphere is quiet and unhurried — deeply calm, tactile, and grounded in natural materials. The color palette is entirely warm neutral with cognac and amber accents introduced through the wood tones and dried botanicals. The mood reads as restorative and editorial simultaneously, with careful organic styling that feels curated without being stiff.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:38:26.357Z"
+}

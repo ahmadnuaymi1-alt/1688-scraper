@@ -1,0 +1,37 @@
+{
+  "scene_id": "dazuma-3f7884261dd36e6d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3f7884261dd36e6d.jpg",
+  "source_url": "https://dazuma.us/products/modern-drum-chandelier-luxury-ripple-glass-ceiling-light",
+  "description": "A bright and airy primary bedroom with a vaulted ceiling, photographed at standing eye-level with a normal lens in a centered composition facing the bed wall. The ceiling is a steeply pitched vaulted form clad in white-painted shiplap boards running horizontally, with painted white structural ridge beams dividing the vault into bays — the architecture adding rustic coastal charm. Walls are painted in a soft cool gray-blue tone, clean and calm. To the left, a tall white-painted French door with divided glass panes admits strong natural daylight and partially shows an exterior beyond. To the right, a woven natural fiber Roman shade is pulled up, with a sheer ivory curtain and a pleated linen drapery panel in warm flax hanging at the window surround. The bed has a large upholstered headboard in tufted oatmeal linen, dressed with layered white and ivory pillows, a striped woven accent pillow, and white cotton bedding. In the foreground, a seating area is arranged with two cream upholstered armchairs flanking a low round side table in molded concrete or plaster — a gray pedestal form. On the table sits a low glass vase of white hydrangea blooms and a small stack of books. One chair has a gray knit throw draped over its arm. The floor is warm light oak hardwood with a linear grain. Warm ambient light fills the room from the window and the ceiling, casting gentle even illumination across the soft textiles. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "shiplap",
+      "french_door",
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

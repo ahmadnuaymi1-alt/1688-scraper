@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-a72b45a38d7be2de",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/sphere-floor-lamp-led-garden-decorative-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/sphere-floor-lamp-rgb-pool-light.jpg?v=1778567069",
+  "scraped_date": "2026-05-21T12:02:51.176Z",
+  "source_title": "Sphere Floor Lamp LED Garden Decorative Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Flood Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a72b45a38d7be2de5c036fa9059088f5fc4ff53a",
+  "description": "A residential backyard swimming pool photographed from an elevated angle above and to the side, looking down at roughly 45 degrees in a wide establishing shot. The pool is a kidney or free-form shaped in-ground pool with bright aquamarine blue water and a dark stone coping edge. Multiple glowing floating spheres rest on the pool surface, each emitting a different color — red, pink, lavender, blue, and white — creating a colorful festive ring of illuminated bubbles across the water. The pool coping is natural sandstone or travertine pavers in a warm buff-cream tone, and the surrounding pool deck continues in the same material. Two low-profile teak or natural wood slatted chaise lounges with cream cushions are positioned near the pool edge, shaded by a large taupe canvas patio umbrella. The backyard is densely planted with mature deciduous and evergreen trees, with a tall natural wood fence enclosing the space; lush green shrubs, tropical plants, and ornamental grasses border the pool perimeter. The overall atmosphere is playful, summer-festive, and domestic. The color palette is bright aqua blue, warm buff stone, deep green foliage, and vivid saturated chromatic accents from the illuminated floating spheres. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "cobalt",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.648Z"
+}

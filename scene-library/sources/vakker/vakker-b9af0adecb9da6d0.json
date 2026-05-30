@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-b9af0adecb9da6d0",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/bell-glass-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17787410394631.png?v=1778748968",
+  "scraped_date": "2026-05-21T12:08:54.220Z",
+  "source_title": "Bell Glass Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "b9af0adecb9da6d0f1eef5e269dd76f0ce7dec7d",
+  "description": "A quietly nostalgic cottage sitting room corner full of warmth and lived-in character. The wall is finished in a warm beige-cream plaster with an organic, slightly rough surface. A botanical print in a simple thin frame hangs on the wall above the table, its faded green and cream tones adding a delicate decorative note. A rustic wooden side table with a heavily weathered, rough-hewn plank top surface and irregular trestle legs in aged honey-brown wood sits at center. On its surface, a small terracotta pot holds a compact fern with fresh green fronds, and a stack of three well-worn books of varying sizes is arranged beside a simple ceramic mug in warm natural clay tones. To the left, an armchair in natural linen upholstery with a slipcover quality is partially visible, draped with a loose woven throw blanket in natural undyed wool. A multi-pane window on the right side allows soft daylight to filter in through sheer linen curtain panels, backlighting the right half of the scene with a warm glow. A rich warm amber light emanates upward and outward from the table surface, cast by an object with a warm honey-yellow fluted or scalloped fabric shade and a dark turned wood base, its warm golden glow washing the plaster wall behind and illuminating the surrounding objects. The palette is entirely warm: honey wood, sandy plaster, natural linen, sage green fern, and amber. Camera at seated to standing eye-level using a normal lens, with a vignette composition centered on the table surface while the chair and window provide contextual depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.199Z"
+}

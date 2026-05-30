@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-3aa2f0c0165adb43",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-luxury-minimalist-fringe-table-lamp-creative-design-usb-charging-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-gold-fringe-table-lamp-minimalist-desk-plant.jpg?v=1768964715",
+  "scraped_date": "2026-05-21T15:52:37.750Z",
+  "source_title": "Fringe Table Lamp Minimalist Creative Design USB Charging Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3aa2f0c0165adb432a251acd4e0ff3b89beaaebd",
+  "description": "A clean modern home office desk photographed at standing eye-level with a normal lens in a centered symmetrical composition, showing the desk surface against a plain off-white wall. The desk surface is light natural blonde wood or maple — clean, minimal, and uncluttered. On the desk, a white ceramic pot holds a compact bushy green plant with small rounded leaves and vivid fresh-green color. A small raw wood cube block sits to the left of the pot as a decorative element. At the right edge of the frame, a portion of a computer monitor's silver aluminum profile and a white wireless keyboard are visible, establishing the home office context. A warm soft glow radiates from the desk surface at the center of the frame, pooling on the light wood at table height. The background wall is smooth, even off-white — minimal and clean. The palette is off-white, light blonde wood, bright green, silver, matte black, and warm gold accent. The mood is quiet and scholarly with a clean modern minimalism. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.180Z"
+}

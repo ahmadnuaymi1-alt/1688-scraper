@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-218cb14e9830e3cf",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-sensor-wall-lights-outdoor-modern-black-solar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-sensor-wall-lights-outdoor-modern-exterior.jpg?v=1775700612",
+  "scraped_date": "2026-05-21T12:03:52.384Z",
+  "source_title": "4 PCS Sensor Wall Lights Outdoor Modern Black Solar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "218cb14e9830e3cf2fdfa15f58409f34f4f400c0",
+  "description": "A close-up exterior wall vignette photographed at dusk, capturing the corner of a contemporary building facade. The primary surface is a smooth troweled light grey plaster or stucco exterior wall that wraps around a corner pier. A large floor-to-ceiling black steel multi-pane French door assembly with wide grid divisions and brushed metal pull handles dominates the right half of the frame. The glass panes reflect the warm orange and amber tones of a sunset sky, with bare winter tree silhouettes visible through the reflection. Two bold beams of warm amber light project downward and outward from the wall surface in a fan pattern, illuminating the plaster and casting warm wash streaks across the textured grey surface below the mounting point. Camera is at standing eye-level, normal lens, off-center thirds composition with the wall corner occupying the left two-thirds and the glass door assembly filling the right. The pitch is level. The mood is clean, modern, and atmospheric — a residential architecture shot that balances the precision of the steel door against the warmth of the amber glow at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.072Z"
+}

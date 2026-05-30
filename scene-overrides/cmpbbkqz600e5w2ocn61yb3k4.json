@@ -1,0 +1,82 @@
+{
+  "productId": "cmpbbkqz600e5w2ocn61yb3k4",
+  "productTitle": "Solid Wood Linen / Printed Shade USB Remote-Control Bedside Lamp",
+  "authoredBy": "in-chat scene design — cylindrical printed-fabric or plain-linen shade on natural light-oak pedestal base; 6 shade-pattern variants cycle 1-6; warm white 2700-3000K per the warm glow through the textured shade",
+  "authoredAt": "2026-05-23T13:30:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "cottage-bedside-nightstand",
+      "mode": "homey",
+      "prompt": "A warm English-cottage bedroom bedside nightstand, shot on a 35mm lens at seated bedside eye-level slight three-quarter so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base sits in the back-left of a 1:1 frame on a painted-pale-blue nightstand. Late evening: the only second light source is the moon visible through a sash window with sheer cream linen curtains at frame-right. Style with a stack of two cloth-bound novels with green silk bookmarks, a small ceramic mug of black tea on a folded gingham coaster, a stoneware dish holding a half-burned beeswax candle, and a small willow basket holding a folded antique quilt corner. Walls are a faded ditsy-floral wallpaper above pale-blue wainscoting. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of ditsy floral, pale blue, faded cream, pale oak, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "English-cottage bedside",
+      "designStyle": "warm English cottage bedroom",
+      "wallColour": "ditsy-floral wallpaper above pale-blue wainscoting",
+      "cameraAngle": "35mm seated bedside three-quarter",
+      "timeOfDay": "late evening",
+      "accents": ["painted-pale-blue nightstand", "stack of cloth-bound novels", "ceramic mug of black tea on gingham coaster", "stoneware dish with beeswax candle", "willow basket with quilt corner"]
+    },
+    {
+      "slug": "sunroom-side-table-reading",
+      "mode": "minimalist",
+      "prompt": "A bright sunroom reading corner beside a high-back oat-linen wingback chair, shot on a 35mm lens at seated eye-level so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base anchors the back-centre of a 1:1 frame on a slim walnut tripod side table. Mid-morning: cool soft light through tall steel-framed casement windows behind the chair at frame-right. Tight styling — a single linen-cloth-bound hardback open face-down with a leather bookmark, a footed stoneware mug of green tea, and an oat-cashmere throw draped over the chair arm. Walls are a soft eucalyptus-sage limewash; pale-oak plank floor visible. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of eucalyptus sage, oat linen, walnut, pale oak, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "sunroom reading corner",
+      "designStyle": "serene Japandi sunroom",
+      "wallColour": "eucalyptus-sage limewash",
+      "cameraAngle": "35mm seated eye-level",
+      "timeOfDay": "mid-morning",
+      "accents": ["walnut tripod side table", "linen hardback face-down", "stoneware mug of green tea", "oat-cashmere throw", "steel-framed casement windows"]
+    },
+    {
+      "slug": "childs-bedroom-nightstand",
+      "mode": "homey",
+      "prompt": "A child's bedroom bedside-nightstand corner, shot on a 35mm lens at seated child eye-level slight three-quarter so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base sits in the back-right of a 1:1 frame on a small painted-white nightstand. Quiet late afternoon natural light filters through a sash window with sheer white linen curtains at frame-left. Style with a stack of three well-loved hardback storybooks topped with a small carved wooden bird figurine, a small porcelain dish holding a plastic-free children's vitamin and a glass of water, a knitted oat-coloured comfort blanket folded, and a small potted spider plant. Walls are a soft butter-yellow paint with a leaning small embroidery hoop of a botanical print. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of butter yellow, oat, pale oak, soft white, fresh green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "child's bedroom nightstand",
+      "designStyle": "soft cottagecore child's room",
+      "wallColour": "butter-yellow paint",
+      "cameraAngle": "35mm seated child eye-level three-quarter",
+      "timeOfDay": "late afternoon",
+      "accents": ["painted-white nightstand", "stack of hardback storybooks with wooden bird", "porcelain dish with vitamin and water", "folded knit comfort blanket", "potted spider plant"]
+    },
+    {
+      "slug": "guest-bedroom-side",
+      "mode": "minimalist",
+      "prompt": "A pared-back guest bedroom bedside side-table, shot on a 50mm lens at seated bedside eye-level so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base sits centred in the upper-left of a 1:1 frame on a slim walnut nightstand. Early evening dusk: the only second light source is a low-glow small picture light over a leaning small framed black-and-white travel photograph on the back wall. Tight styling — a small ceramic carafe and matching tumbler half full of water, a hand-bound notebook with a fountain pen resting across it, and a single sprig of dried wheat in a slim raku bottle. Walls are a warm putty-pink limewash. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of putty pink, walnut, pale oak, oat, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "guest bedroom bedside",
+      "designStyle": "pared-back hospitality",
+      "wallColour": "warm putty-pink limewash",
+      "cameraAngle": "50mm seated bedside",
+      "timeOfDay": "early evening dusk",
+      "accents": ["slim walnut nightstand", "ceramic carafe and tumbler", "hand-bound notebook with fountain pen", "dried wheat in raku bottle", "leaning travel photograph"]
+    },
+    {
+      "slug": "hallway-entry-shelf",
+      "mode": "minimalist",
+      "prompt": "An entry hallway shelf above a slim console table, shot on a 35mm lens at standing eye-level so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base sits in the right-third of a 1:1 frame on a thick pale-oak floating shelf. Mid-morning: warm light filters through a leaded-glass front door panel at frame-left as the only second light source. Tight styling — a low woven seagrass tray holding a folded raw-linen runner and a small set of brass keys, a tall stoneware jug with a single olive branch arching out, and a leaning small framed pressed-flower print. Walls are warm cream limewash; oak-plank floor visible below the console. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of warm cream, pale oak, seagrass, olive green, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "entry hallway shelf",
+      "designStyle": "warm transitional minimalist entry",
+      "wallColour": "warm cream limewash",
+      "cameraAngle": "35mm standing eye-level",
+      "timeOfDay": "mid-morning",
+      "accents": ["pale-oak floating shelf", "seagrass tray with keys", "stoneware jug with olive branch", "leaning pressed-flower print", "leaded-glass front door"]
+    },
+    {
+      "slug": "writing-corner-desk",
+      "mode": "homey",
+      "prompt": "A small writing-desk corner of a primary bedroom, shot on a 35mm lens at seated desk-height slight three-quarter so the cylindrical fabric-shade bedside lamp on its pale-oak pedestal base sits in the upper-right of a 1:1 frame on a vintage pine writing desk. Quiet morning light filters through a sash window with sheer-linen curtain at frame-left. Style with an open leather-bound writing journal with a tortoiseshell fountain pen resting across, a stoneware mug of black coffee, a small footed brass dish holding a hand-cancelled airmail stamp and a worn brass paperweight, a folded raw-linen napkin, and a single dried bittersweet sprig in a slim stoneware bottle. Walls are a soft sage limewash with a single leaning small framed botanical print. The lamp matches the reference image exactly — cylindrical fabric shade in the pattern/colour shown in the reference, slim brass neck post, turned pale-oak round pedestal base with rocker switch — switched ON, warm white 2700-3000K (matches the warm glow visible through the shade in the variant reference). Palette of sage green, pine, pale oak, brass, sepia stamp. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "bedroom writing desk corner",
+      "designStyle": "warm vintage writer's corner",
+      "wallColour": "soft sage limewash",
+      "cameraAngle": "35mm seated desk-height three-quarter",
+      "timeOfDay": "morning",
+      "accents": ["vintage pine writing desk", "leather journal with tortoiseshell fountain pen", "stoneware mug of coffee", "brass dish with stamp and paperweight", "dried bittersweet in stoneware bottle"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-9e817753a0bdf100",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-bollard-path-lights-waterproof-outdoor-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-bollard-path-lights-sleek-paved-walkway-greenery.jpg?v=1774836293",
+  "scraped_date": "2026-05-21T12:04:08.478Z",
+  "source_title": "LED Bollard Path Lights Waterproof Outdoor Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9e817753a0bdf100576a5cf04b04d680c048fcb5",
+  "description": "An outdoor pathway through a manicured residential or commercial landscape at dusk, photographed at low-to-seated eye level — approximately three feet — with a normal lens in a one-point perspective composition looking down the length of the path as it recedes into the distance. The camera pitches very slightly upward toward the horizon, with the path edge creating a strong diagonal leading line from the lower-left frame corner.\n\nThe path is wide-format pale grey concrete or limestone pavers running in a straight line through the scene. On the left side is the hard edge of the paved walkway; on the right, lush flat-mown green lawn extends laterally with ornamental plantings — feathery pampas or maiden grass with amber plumes, round-leafed shrubs, and dense ground cover — arranged in natural sweeping borders.\n\nA series of matte-dark-grey or charcoal bollard path fixtures are positioned at regular intervals along the grass edge beside the path, each standing at knee height. Each one emits a soft horizontal rim of warm amber-white light at its disk head, casting a gentle pool on the lawn surface and casting small shadows in the grass beneath. The repeating row of fixtures recedes in perspective, growing smaller toward the horizon.\n\nIn the background, a contemporary multi-story residential or mixed-use building with large glazed windows and warm interior light is visible at the right, set behind mature deciduous trees. The sky at the horizon glows with warm orange-peach sunset tones, fading upward to deep blue-grey dusk. The overall mood is urbane, serene, and residential-campus — a thoughtfully designed evening landscape.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.575Z"
+}

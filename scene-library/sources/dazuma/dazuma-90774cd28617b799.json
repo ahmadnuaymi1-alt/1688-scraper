@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-90774cd28617b799",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/square-wall-sconce-light-artificial-cloud-stone-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-square-wall-sconce-light-modern-house-exterior-warm-inviting-illumination.jpg?v=1773886255",
+  "scraped_date": "2026-05-21T12:19:35.013Z",
+  "source_title": "Square Wall Sconce Light Artificial Cloud Stone Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Linear Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "90774cd28617b79967a8938e2149008be658d744",
+  "description": "A modern residential exterior photographed at night, showing the facade of a contemporary house with crisp smooth white or off-white stucco walls under deep blue-gray dusk sky. The image captures two wall positions simultaneously — a close foreground view of a textured stucco wall beside a dark matte-black door frame on the left, and in the background across a short courtyard, a second clean white stucco section of the house with a large black-framed floor-to-ceiling glass door panel and a second smaller casement window. A neatly clipped round boxwood or topiary ball in a vibrant deep green sits on the paving in front of the background facade. The paving is large-format gray stone or concrete slabs. Silhouetted dark trees are visible against the dark blue sky behind the building. Two warm amber glows emanate from wall-mounted positions — one large and close on the foreground stucco wall to the left of the door, and one smaller and receding in the background at the equivalent position on the far facade — creating a sense of depth and sequential facade lighting. The background interior glows warmly through the glass panels of the house. The camera is at standing eye-level, roughly 5–6 feet, with a normal lens. The composition is a three-quarter view showing the near-side wall in the left foreground and the background facade receding into depth at a 45-degree angle. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.515Z"
+}

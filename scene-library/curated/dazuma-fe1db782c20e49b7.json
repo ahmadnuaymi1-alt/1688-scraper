@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-fe1db782c20e49b7",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-fe1db782c20e49b7.jpg",
+  "source_url": "https://dazuma.us/products/decorative-floor-standing-lamp-unique-nordic-led-lamp",
+  "description": "A cozy living room corner vignette photographed at seated eye-level with a normal lens. The walls are smooth warm greige plaster, and the floor is light honey-toned hardwood with a cream fringe area rug. Tall chocolate brown velvet curtains hang floor-to-ceiling on the left, framing a window that backlights the scene with diffused natural light. To the left foreground, a large textured matte ceramic urn in warm sandy grey holds a dried silver-green eucalyptus or artemisia arrangement with wispy, airy stems. Adjacent to it, a small solid light oak tripod side table holds two stacked books with neutral covers. On the right side of the frame, the corner of a modern grey linen armchair with light oak legs is visible, cushioned with a plush cognac brown faux fur throw pillow. The wall behind has a subtle warm glow emanating from the center of the room, creating a soft ambient wash on the greige surface. A diffuse warm light fills the room from floor level upward, casting gentle illumination on the rug, the ceramics, and the upholstered chair arm. Camera is at seated eye-level, framing a tight corner vignette with the central vertical space open between the curtain and chair, and a normal lens with slight depth from the side table to the chair. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-9ab8f501cb0358b4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-sconces-faux-marble-landscape-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_ffabd94c-5fb9-425c-889d-587bbd33019b.jpg?v=1774595433",
+  "scraped_date": "2026-05-21T12:04:20.517Z",
+  "source_title": "Outdoor LED Sconces Faux Marble Landscape Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9ab8f501cb0358b4741a464405bf538ad4f7d313",
+  "description": "A residential outbuilding or studio entry photographed at standing eye-level with a centered symmetrical composition at dusk. The building is clad in clean white horizontal lap siding with painted white trim details — a simple, well-proportioned vernacular American exterior. The entry is a pair of white-painted double French doors with four-light glazed upper panels and flat lower panels, framed by a simple painted wood surround with a thin shed roof overhang above. Flanking each side of the double-door entry, a pair of round disc-form wall-mounted elements emits a warm amber glow that washes gently outward across the white siding surface, creating a soft halo of warmth at each side. The glowing warm light echoes symmetrically on both sides of the door. The entry path is composed of large irregular bluestone pavers set into a gravel surround. To the right, a cast iron urn planter on a pedestal base — painted matte black — holds a colorful arrangement of purple violas and yellow pansies. To the left, a terracotta pot holds a small plant with dark dramatic leaves. A white downspout runs vertically along the left wall. The background reveals a golden autumn landscape — warm amber, rust, and deep orange foliage of deciduous trees silhouetted against a peach and coral sunset sky. The mood is warm, pastoral, and quietly charming — an artist's studio or garden shed at the golden hour of an autumn evening. Camera is at standing height, level, using a normal-to-slight wide lens centered squarely on the double doors in a perfectly symmetrical composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.542Z"
+}

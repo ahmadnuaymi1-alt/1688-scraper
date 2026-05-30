@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-60820dbde6560c7b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-glam-chandelier-minimalist-molecule-bean-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-glam-chandelier-bedroom-minimalist-design.jpg?v=1777107796",
+  "scraped_date": "2026-05-21T12:03:16.160Z",
+  "source_title": "Modern Glam Chandelier Minimalist Molecule Bean Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "60820dbde6560c7b8a132f9d87694cc425dd4999",
+  "description": "A serene, minimalist primary bedroom in an all-neutral warm-cream palette with Japanese-Scandinavian sensibility. The headboard wall is a triptych composition: a large central panel clad in smooth cream or greige upholstered fabric — arranged in a five-panel grid of tall vertical rectangles with subtle shadow-gap reveals — flanked on each side by tall vertical panels of natural light oak veneer. Within each oak panel, a continuous thin strip of warm ambient glow runs floor-to-ceiling in a recessed channel, emanating soft golden uplight and downlight without any visible fixture form. The ceiling is smooth warm cream plaster or paint. A very subtle recessed light effect warms the upper ceiling. Floor-to-ceiling cream linen drapery at the far right softens the wall transition. The bed is a wide, low-profile platform style with a thick upholstered cream-beige fabric headboard composed of three wide vertical segments and a matching platform base, dressed with crisp white cotton pillows, a warm cream duvet, and a grey textured throw blanket across the foot. Flanking the bed on each side, a sculptural solid wood mushroom-shaped side table in light blonde oak — a cylindrical pedestal base topped by a round disc tabletop — holds minimal styling on the left: a small stack of books and a natural woven basket. The floor is covered by a large cream or oatmeal toned loop-pile area rug. The entire palette is a tonal study in warm cream, beige, blonde oak, and white — absolutely zero color accent. Camera is at standing eye-level, centered symmetrically on the bed and headboard wall, using a normal lens. The composition is centered and perfectly symmetrical. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.322Z"
+}

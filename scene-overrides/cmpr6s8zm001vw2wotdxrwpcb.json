@@ -1,0 +1,100 @@
+{
+  "productId": "cmpr6s8zm001vw2wotdxrwpcb",
+  "productTitle": "Step-light editorial scenes (indoor)",
+  "authoredBy": "step-light-parallel-rebuild script — generic-product editorial framing per user instruction",
+  "authoredAt": "2026-05-29T19:52:44.904Z",
+  "classification": "indoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "dwell-modern-staircase-landing",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Dwell magazine, modern-architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, 45mm f/2.8, aperture priority. A poured-concrete residential staircase, mid-century California home, late afternoon. The 86mm recessed LED step light sits flush in the baseboard wall at ankle height on the third riser — a small white-framed square barely distinguishable from the wall plane, emitting a narrow 30-degree warm wash across the concrete tread. Concrete shows hairline shrinkage cracks and a faint dust film along the riser edge. Paint on the adjacent baseboard is chipped at one corner. Exposure is committed: the staircase upper landing clips to near-white in the window light; the lower treads stay genuinely dark. Zero color cast — the warm LED glow stays strictly local to the tread surface, concrete reads true cool grey elsewhere. Kodak Portra 400 grain throughout, 2% corner vignette, 1px chromatic aberration at the blown window edge. Palette: raw concrete grey, off-white, warm amber (local only), matte black handrail, dusty sage wall. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 1,
+      "room": "modern home staircase landing",
+      "designStyle": "Dwell — minimalist California modernism",
+      "cameraAngle": "low angle, eye-level with ankle height",
+      "timeOfDay": "late afternoon",
+      "accents": [
+        "hairline concrete cracks",
+        "chipped baseboard paint",
+        "dust film on riser edge"
+      ]
+    },
+    {
+      "slug": "architectural-digest-hotel-corridor",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Architectural Digest, luxury-hospitality spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-100c, 100mm f/3.5, manual exposure. A long hotel corridor, boutique property, midnight. Herringbone oak flooring stretches toward a vanishing point; the 86mm recessed LED step light is set flush into the baseboard at shin height, one of a repeating series, its gold-finish frame catching the corridor's ambient light. The fixture emits a restrained warm-white pool that grazes the floor surface and dies within 30 centimetres. Scuff marks from luggage wheels streak the lower baseboard; a faint water stain discolours the wall plaster two feet above. Exposure is committed: the far end of the corridor falls to near-black; the nearest overhead pendant clips. Zero color cast — warm LED pools stay local, oak reads true honey-brown in ambient light only. Kodak Portra 400 grain, 3% corner vignette, 2px chromatic aberration at the clipped pendant globe. Palette: honey oak, aged ivory plaster, brushed gold, deep charcoal shadow, warm amber (local only). No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 2,
+      "room": "boutique hotel corridor",
+      "designStyle": "Architectural Digest — luxury hospitality restraint",
+      "cameraAngle": "corridor perspective, low three-quarter",
+      "timeOfDay": "midnight",
+      "accents": [
+        "luggage scuff marks on baseboard",
+        "water stain on plaster",
+        "repeating fixture series receding"
+      ]
+    },
+    {
+      "slug": "kinfolk-farmhouse-hallway-baseboard",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Kinfolk magazine, slow-living interiors spread; NOT a product render, NOT advertising, NOT stock. Hasselblad 503CW, 80mm f/4, film back. A narrow farmhouse hallway, rural Scandinavia, early winter morning. Whitewashed tongue-and-groove panelling lines the lower wall; the 86mm recessed LED step light is set flush at ankle height between two panels, its white finish nearly disappearing into the boards. It casts a gentle warm-white glow across worn pine floorboards. The floorboards show deep grain, old scuff marks, and a darkened knot near the skirting. Paint on one panel edge is yellowed and slightly peeling. Exposure is committed: the window at the hall end burns out completely; the near corner of the hallway stays genuinely shadowed. Zero color cast — warm LED glow is strictly local to the floor surface, whitewash reads true cool white in ambient daylight. Kodak Portra 400 grain, 2% corner vignette, 1px chromatic aberration at the blown window. Palette: chalky white, worn pine straw, warm amber (local only), aged linen, shadow grey. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 3,
+      "room": "farmhouse hallway baseboard",
+      "designStyle": "Kinfolk — slow-living Nordic warmth",
+      "cameraAngle": "low hallway perspective, near-floor",
+      "timeOfDay": "early winter morning",
+      "accents": [
+        "peeling panel paint",
+        "darkened pine knot",
+        "worn floorboard grain"
+      ]
+    },
+    {
+      "slug": "wallpaper-deck-edge-outdoor-stair",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Wallpaper* magazine, residential-architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X1D II 50C, 30mm f/4, aperture priority. A cantilevered timber deck, contemporary Sydney home, dusk. Hardwood decking boards run horizontally; the 86mm recessed LED step light is flush-mounted in the vertical riser face of the top deck step, its black-finish frame set against weathered spotted-gum timber. The fixture throws a narrow 30-degree cool-white band across the deck surface below. Timber shows weathered silver-grey grain, a hairline split along one board edge, and a faint moss stain at the riser base. Exposure is committed: the sky at the horizon clips to pale silver; the underside of the deck overhang stays black. Zero color cast — cool LED band stays local to the deck surface, timber reads true weathered grey. Kodak Portra 400 grain, 2% corner vignette, 2px chromatic aberration at the clipped sky edge. Palette: weathered silver-grey timber, matte black fixture, cool white (local only), pale silver sky, deep charcoal shadow. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 4,
+      "room": "contemporary outdoor deck stair riser",
+      "designStyle": "Wallpaper* — precision contemporary architecture",
+      "cameraAngle": "low angle, deck surface level",
+      "timeOfDay": "dusk",
+      "accents": [
+        "weathered timber grain",
+        "hairline board split",
+        "moss stain at riser base"
+      ]
+    },
+    {
+      "slug": "garden-gun-garden-path-step",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Garden & Gun magazine, Southern-home landscape spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H5D-50c, 80mm f/3.5, manual exposure. A brick garden staircase, Charleston single-house garden, early evening. Aged Carolina brick steps descend between low boxwood hedges; the 86mm recessed LED step light is mortared flush into the brick riser face at the second step, its grey-finish frame blending with the mortar joint. It emits a warm-white wash across the brick tread below. Brick shows efflorescence along the mortar lines, a lichen patch on the left corner, and surface spalling on one header brick. Exposure is committed: the garden lantern post in the background clips to white; the hedge shadows stay genuinely dark. Zero color cast — warm LED wash stays local to the tread, aged brick reads true terracotta-red in ambient dusk light. Kodak Portra 400 grain, 3% corner vignette, 1px chromatic aberration at the lantern clip. Palette: aged terracotta brick, mortar grey, deep boxwood green, warm amber (local only), dusky violet sky. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 5,
+      "room": "Charleston garden brick staircase",
+      "designStyle": "Garden & Gun — Southern vernacular landscape",
+      "cameraAngle": "low three-quarter, step-level",
+      "timeOfDay": "early evening",
+      "accents": [
+        "efflorescence on mortar lines",
+        "lichen patch on brick corner",
+        "surface spalling on header brick"
+      ]
+    },
+    {
+      "slug": "world-of-interiors-townhouse-stair-run",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for World of Interiors magazine, eclectic-townhouse spread; NOT a product render, NOT advertising, NOT stock. Hasselblad 907X 50C, 65mm f/3.2, aperture priority. A Victorian London townhouse staircase, late evening. Painted timber stair risers in faded Farrow & Ball off-white; the 86mm recessed LED step light is set flush in the plaster wall at ankle height beside the fourth riser, its white-finish frame nearly flush with the slightly uneven plaster surface. It casts a warm-white glow across the worn stair carpet runner. The runner shows a frayed edge at one tread; the plaster beside the fixture has a hairline crack and a faint scuff from a moved piece of furniture. Paint on the adjacent skirting board is yellowed and chipped near the newel post. Exposure is committed: the upper landing window light clips to pure white; the under-stair alcove stays black. Zero color cast — warm LED glow is strictly local to the runner surface, off-white plaster reads true in ambient incandescent. Kodak Portra 400 grain, 2% corner vignette, 1px chromatic aberration at the blown landing window. Palette: faded off-white, worn burgundy runner, warm amber (local only), aged oak newel, shadow black. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 6,
+      "room": "Victorian townhouse stair run",
+      "designStyle": "World of Interiors — layered eclectic British interior",
+      "cameraAngle": "low side angle, mid-stair",
+      "timeOfDay": "late evening",
+      "accents": [
+        "frayed carpet runner edge",
+        "hairline plaster crack beside fixture",
+        "chipped yellowed skirting paint"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-cb8cca011ebfa0c1",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-cb8cca011ebfa0c1.jpg",
+  "source_url": "https://dazuma.us/products/ins-style-minimalist-unique-table-lamps-creative-charging-design-light",
+  "description": "An elegant living room end-table vignette flanked by two cream bouclé armchairs with curved arms, partially visible on either side of the frame. Between the chairs, a compact walnut side table with a warm honey grain surface holds the central object of the arrangement. The white applied panel moulding wall — with clean rectangular recessed panels — creates a refined, quiet backdrop behind the arrangement. The room palette is cream, warm honey walnut, and soft white, with matte black as a bold punctuation. The mood is polished and architectural, combining mid-century form with contemporary restraint. A warm amber glow emanates at table surface level, illuminating the walnut table top and the surrounding floor and chair bases in soft incandescent warmth. Camera at standing eye-level looking slightly down, normal lens, tight centered vignette composition showing the side table between chairs with the paneled wall as backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

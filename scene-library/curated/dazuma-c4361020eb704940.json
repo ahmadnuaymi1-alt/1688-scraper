@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-c4361020eb704940",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c4361020eb704940.jpg",
+  "source_url": "https://dazuma.us/products/bubble-chandelier-lighting-luxury-modern-creative-ceiling-light",
+  "description": "A bright coastal-style bedroom photographed at standing eye-level with a wide lens, capturing the full room in a wide establishing composition that centers the bed against the back wall. The ceiling is smooth white plaster with a single substantial exposed timber beam in natural raw oak running across the upper portion of the frame from left to right — a warm organic element against the white. The back wall has a large black-framed picture window with a roman shade in white linen, and beside it a full-height sliding glass door dressed with white sheer curtains, both flooding the room with natural daylight and a bright oceanic waterfront view — a marina with docks and calm blue water visible beyond. The floor is wide-plank light bleached oak with a whitewashed finish. A king-size bed with a tall tufted linen upholstered headboard in cream is centered against the back wall, dressed in crisp white and silver-grey linen with multiple scatter pillows. A low light oak bench sits at the foot of the bed. On the right wall, a small writing desk in light oak holds a compact upholstered side chair in cream. From the ceiling above the bed, a multi-arm sculptural form in matte black — its curved arms each ending in a frosted or textured glass globe diffuser, a few showing warm amber hues — radiates warm diffuse light across the ceiling and bed zone. The mood is airy, relaxed, and seaside-luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams",
+      "multi_pane_window",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

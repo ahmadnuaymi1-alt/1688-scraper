@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-035ae64319bc120e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-035ae64319bc120e.jpg",
+  "source_url": "https://dazuma.us/products/modern-path-light-minimalist-landscape-lawn-lighting",
+  "description": "An outdoor residential entrance scene photographed in autumn, featuring a low boundary wall constructed from a combination of red-clay brick courses at the base and warm cream-toned natural stone blocks above, topped with a rough-hewn grey granite cap stone. The wall runs horizontally across the lower foreground and middle ground, anchoring the composition. Beyond the wall, a manicured front garden unfolds with neatly trimmed dark green boxwood hedges running along the property line. A mature maple tree dominates the left background, its canopy ablaze in full autumn color — deep crimson, burnt orange, amber, and golden yellow leaves catching soft overcast daylight. The tree's trunk is partially visible, grounding the fiery canopy. In the middle distance sits a substantial stone-clad residential building with warm buff-colored limestone or natural cut-stone veneer walls. Large multi-pane white-framed windows punctuate the facade, their divided lights reflecting soft exterior daylight. To the right background, a tan canvas market umbrella stands partially open beside a wicker-framed outdoor lounge chair with a cushioned seat, suggesting a casual patio seating area on a stone or paver terrace. The overall atmosphere is crisp, serene, and autumnal — the kind of golden-hour transitional light that feels neither harsh nor dim, with a warm glow emanating from a single point source low within the scene, casting soft amber illumination through textured, water-glass panels outward onto the granite cap stone surface beneath. The warm light pools subtly against the cool grey stone, contrasting with the ambient cool daylight surrounding it. The mood is quiet, welcoming, and classically residential. Camera is positioned at a low angle — approximately 2 to 3 feet above grade — slightly below the top of the boundary wall, pitched very slightly upward, using what appears to be a normal-to-short-telephoto lens in the 50–85mm equivalent range. The composition is off-center, placing the top of the stone pillar and the warm glow at roughly the center-left of the frame, with the autumn tree canopy filling the upper left quadrant and the house facade occupying the soft-focus upper right. The shot is a tight vignette focused on the pillar cap and its immediate surroundings, with the garden and architecture serving as atmospheric bokeh-softened backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

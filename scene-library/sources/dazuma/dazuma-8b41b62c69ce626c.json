@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-8b41b62c69ce626c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-art-deco-minimalist-wall-decor-strip-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_b312f763-28c5-4bd3-8ed8-4033466f2535.jpg?v=1773886536",
+  "scraped_date": "2026-05-21T12:19:30.953Z",
+  "source_title": "Wall Sconces Art Deco Minimalist Wall Decor Strip Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8b41b62c69ce626c47d0a1411ae600a700b56cc3",
+  "description": "A warm, richly layered dining room photographed at standing eye-level with a normal lens, capturing a three-quarter view of a round dark walnut dining table set for a meal. The table has a substantial pedestal base in deep espresso-stained wood. Four chairs surround the table — two cream upholstered with a ribbed texture and curved walnut arms, and two are partially visible at the edges. The table is styled with place settings of plates, cloth napkins, a tall ribbed glass, and a woven basket bowl. A large rounded earthenware vase in warm terracotta-clay tone holds an elaborate fresh arrangement of white flowering branches and garden greenery with an airy, asymmetric profile. Three white pillar candles of varying heights are placed at the left. The wall behind is heavily textured rough white plaster — raw and organic in character. Centered on the wall is a set of tall double wooden doors clad in deeply-stained dark walnut with raised rectangular panel profiles, framed by a wide dark wood door surround. To the upper right of the doors, a slender vertical black metal wall-mounted glowing element with a frosted rectangular diffuser body casts a narrow warm beam of light on the plaster beside the door. To the right of the main composition, a curved dark walnut glazed china cabinet holds decorative ceramics, sculptural objects, and a small framed artwork. A branch of olive or bay leaves is mounted decoratively on the plaster wall. The floor is covered in a natural sisal-textured rug. The mood is warm, earthy, and deeply editorial. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.489Z"
+}

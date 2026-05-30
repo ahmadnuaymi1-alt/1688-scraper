@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-ecab03d51a2fe2eb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-up-christmas-ornaments-fireplace-with-snowfall-creative-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/HA143417.jpg?v=1766385157",
+  "scraped_date": "2026-05-21T15:52:04.920Z",
+  "source_title": "Light up Christmas Ornaments Fireplace with Snowfall Creative Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ecab03d51a2fe2eb4eebb911aeda2bd35000d777",
+  "description": "A living room coffee table vignette photographed at seated eye-level with a normal lens, framing the surface of a white marble-top coffee table in a three-quarter view. The marble surface shows soft grey veining. A large rectangular wooden serving tray in warm mid-tone oak sits centered on the table, holding a festive holiday tableau. Within the tray, fresh pine branches and boughs spread outward, interspersed with natural pine cones. Three ribbed white pillar candles of varying heights are lit and glowing at left and right of center, their warm flame light flickering. In the center of the arrangement sits a dark walnut-stained wooden box with an arched fireplace opening, decorated with a holiday garland, red stockings, golden bells, and gift-topped mantelpiece — its interior windows glow with an illuminated glitter-swirl scene featuring Santa Claus. A tall dark bronze mercury-glass vase with dried twigs and fairy lights stands to the upper left. In the soft-focus background, a houndstooth-pattern throw cushion is visible on a taupe sofa, and a warm amber glow from fairy lights on what appears to be a Christmas tree illuminates the background softly. The mood is cozy, festive, and warmly celebratory. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.950Z"
+}

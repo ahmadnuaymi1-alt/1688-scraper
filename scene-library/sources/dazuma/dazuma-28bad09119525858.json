@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-28bad09119525858",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/elegant-woven-outdoor-lanterns-unique-woven-texture-stylish-portable-lanterns",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/close-up-rattan-texture-accent-lighting-side-table-woven-outdoor-lanterns-warm-glow.jpg?v=1763625667",
+  "scraped_date": "2026-05-21T15:52:56.010Z",
+  "source_title": "Woven Outdoor Lanterns Stylish with Handle Portable Patio Floor Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "28bad09119525858fd7ce369a5122ff05ac4b070",
+  "description": "An urban rooftop terrace or balcony lounge at dusk, photographed at standing eye-level with a normal lens in a wide establishing composition looking across the seating area toward the city skyline. The terrace is furnished with a low-profile white outdoor sofa with clean cushions positioned along the left side of the frame, accompanied by two small round dark wood side tables at either side. On each table, a warm amber glow emanates outward from the table surface, pooling across the dark wood and spreading a honeyed warmth on the surrounding floor surface and adjacent furniture at that low level. The background reveals large terracotta or stone planters holding rosemary and other herbs, a city building roofline visible through floor-to-ceiling glass railing or balustrade, and the dusky blue-grey of an evening urban sky. The terrace floor is covered in a dark-toned geometric outdoor rug. The overall palette mixes warm amber, natural rattan tones, white, dark wood, terracotta planter orange, and a cool dusky cityscape blue. The atmosphere is relaxed and casual — an alfresco evening retreat above the city. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.106Z"
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-f26d8442c20fb85c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-outdoor-spotlights-led-waterproof-landscape-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-outdoor-spotlights-led-modern-wall.jpg?v=1775700687",
+  "scraped_date": "2026-05-21T12:03:50.647Z",
+  "source_title": "4 PCS Outdoor Spotlights LED Waterproof Landscape Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Spotlights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f26d8442c20fb85c0102f8b889db87c9511626b7",
+  "description": "A luxurious contemporary multi-story residential or boutique commercial building entrance photographed at standing eye-level, slightly looking up, in a wide establishing shot. The building facade is clad in richly grained dark walnut or exotic timber cladding panels running vertically floor-to-ceiling across the entire facade, interrupted by full-height dark-framed floor-to-ceiling windows that reflect the deep blue twilight sky. The material is warm reddish-brown wood with pronounced vertical grain. Tall, wide rectilinear columns of the same timber cladding divide the facade into bold vertical bays. At the ground level center, a recessed porte-cochere or entry canopy projects forward, its underside clad in a lighter natural wood tone, with a warm pool of light washing the canopy soffit. The entry doors beneath are glazed floor-to-ceiling in a dark bronze or gold-toned frame with two push-bar handles, and a small planted pot sits at each side of the entry. Autumn red maple leaves from flanking trees frame the upper left and right corners of the image, adding vivid seasonal color contrast to the warm wood and cool blue sky. Strong warm amber uplights wash from ground level upward along the base of the facade columns, creating dramatic vertical accent lighting that intensifies the wood grain texture. The palette is deep reddish walnut, charcoal black frames, deep blue night sky, vivid autumn red, and warm amber uplighting. Camera is at standing height, slightly looking up at 10-15 degrees, wide lens, centered on the entry canopy. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.974Z"
+}

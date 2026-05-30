@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-3c4df482ae159f3d",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/column-alabaster-staircase-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/ColumnAlabasterStaircaseChandelier_3.jpg?v=1779122047",
+  "scraped_date": "2026-05-21T12:08:44.086Z",
+  "source_title": "Column Alabaster Staircase Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1554,
+  "height": 2048,
+  "content_sha1": "3c4df482ae159f3d8e4959d8ea9d679e3525985e",
+  "description": "A dark studio product vignette showcasing a multi-drop cluster of alabaster and marble cylinders suspended on thin brass cables against a pure black background. Eight to nine elongated cylindrical stone forms — in varying heights and diameters, with warm cream and white alabaster bodies veined with amber, rust, and smoke-grey — hang at staggered lengths from small polished brass disc fittings. Each cylinder glows internally with a warm amber light that illuminates the stone's natural translucency, revealing the intricate mineral veining and variation from one piece to the next. The arrangement fans asymmetrically across the frame, creating a cascading composition from upper-center downward. The background is absolute black, providing maximum tonal contrast to the glowing warm-white stone forms. There is no architectural context — this is a controlled editorial isolation shot highlighting the material and form qualities. Camera at a slightly elevated angle looking down at the cluster, three-quarter off-center composition, normal lens, slight downward pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.075Z"
+}

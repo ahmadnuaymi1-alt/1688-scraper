@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-894adb761bf94b5c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-894adb761bf94b5c.jpg",
+  "source_url": "https://dazuma.us/products/chandelier-lighting-crystal-all-copper-postmodern-luxury-ceiling-light",
+  "description": "A sophisticated primary bedroom interior photographed in diffused natural daylight. The most prominent feature is the full-height upholstered headboard wall in a deep sage or olive green velvet with wide vertical channel-fluting that spans the entire wall behind the bed, creating a dramatic architectural accent wall. The ceiling is smooth and white, with a brass canopy chain drop visible. The bed is dressed in crisp white bedding with a mix of throw pillows — soft blush mauve geometric-patterned cushions and a round blush cushion adding warmth. A large picture window at the left is dressed in sheer white drape panels that filter bright natural light into the room, offering a soft-focus view of the exterior suburban streetscape through the glass. A low, architecturally curved cream upholstered lounge chair or chaise sits in the foreground left with a small round blush pillow. The floor appears to be a light-toned hardwood. The walls are smooth warm white, meeting the deep olive accent wall behind the headboard. The palette combines warm white, deep olive green, warm brass, cream, and blush mauve accents. The mood is romantic, quietly dramatic, and warmly luxurious. Camera is at standing eye-level, approximately 5-6 feet, shooting slightly level with a normal lens in a three-quarter view that takes in both the window wall and the headboard wall, capturing the full composition of the bedroom corner. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "plum"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

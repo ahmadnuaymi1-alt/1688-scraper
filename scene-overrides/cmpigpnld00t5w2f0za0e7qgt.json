@@ -1,0 +1,52 @@
+{
+  "productId": "cmpigpnld00t5w2f0za0e7qgt",
+  "productTitle": "Mid-Century Cream Pear-Shaped Glass Romantic Vintage Bedside Lamp",
+  "authoredBy": "in-chat scene design — single-variant cream opaline-glass pear-shaped lamp with brass finial on slim dark base; all 6 slots use the single variant; warm white 2700K per the warm amber glow visible through the opaline cream pear glass",
+  "authoredAt": "2026-05-23T15:00:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "midcentury-bedside-nightstand",
+      "mode": "homey",
+      "prompt": "A mid-century-modern bedroom bedside nightstand, shot on a 50mm lens at seated bedside eye-level slight three-quarter so the cream pear-shaped glass lamp anchors the back-left of a 1:1 frame on a walnut tapered-leg nightstand. Late evening: the only second light source is a slim brass picture light glowing over a leaning small framed abstract sketch on the back wall. Style with a linen-bound novel face-down with a leather bookmark, a hammered brass tray holding folded reading glasses, a small ceramic carafe and tumbler of water, and a single bare cherry branch in a slim stoneware bud vase. Walls are warm cognac-tan limewash; layered oat-linen bedding visible at frame-right. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of cognac tan, walnut, cream opaline, oat linen, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1, "room": "mid-century bedside nightstand", "designStyle": "mid-century modern bedroom", "wallColour": "cognac-tan limewash", "cameraAngle": "50mm seated bedside three-quarter", "timeOfDay": "late evening",
+      "accents": ["walnut tapered-leg nightstand", "linen novel with bookmark", "hammered brass tray with reading glasses", "ceramic carafe and tumbler", "bare cherry branch bud vase"]
+    },
+    {
+      "slug": "parisian-cafe-side",
+      "mode": "homey",
+      "prompt": "A small Parisian café two-top by a tall window, shot on a 35mm lens at seated guest eye-level slight three-quarter so the cream pear-shaped glass lamp anchors the back-centre of a 1:1 frame on a small round white-marble bistro table. Late afternoon: warm window light from a tall single-pane café window at frame-right. Style with two small porcelain cups of espresso on saucers, a hand-cut wedge of canelé on a small ceramic plate, a folded white linen napkin tied with twine, a small porcelain cream pitcher, and a single garden rose stem in a clear bud vase. Walls are cream art-deco moulded plaster with brass-rimmed wall mirrors at frame-edges. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of cream plaster, white marble, cream opaline, garden rose pink, antique brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2, "room": "Parisian café two-top", "designStyle": "art-deco Parisian café", "wallColour": "cream art-deco moulded plaster", "cameraAngle": "35mm seated guest eye-level three-quarter", "timeOfDay": "late afternoon",
+      "accents": ["white-marble bistro table", "espresso cups on saucers", "canelé on ceramic plate", "white linen napkin with twine", "garden rose in bud vase"]
+    },
+    {
+      "slug": "fashion-atelier-vanity",
+      "mode": "minimalist",
+      "prompt": "A fashion atelier dressing vanity corner, shot on a 50mm lens at seated vanity-stool eye-level so the cream pear-shaped glass lamp anchors the back-right of a 1:1 frame on a slim antique-gilt marble-topped vanity. Mid-morning: cool diffuse light through a tall steel-framed atelier window at frame-left. Tight styling — three intentional objects — a hand-painted porcelain perfume bottle with a glass atomiser, a folded silk-charmeuse blouse-on-hanger draped over the vanity edge, and a small porcelain dish holding three pearl drop earrings beside an open hand-bound sketchbook of fashion sketches in pencil. Walls are warm ivory limewash with a single leaning fashion magazine cover. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of warm ivory, antique gilt, marble, cream opaline, silk pearl. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3, "room": "fashion atelier vanity", "designStyle": "Parisian fashion atelier", "wallColour": "warm ivory limewash", "cameraAngle": "50mm seated vanity-stool", "timeOfDay": "mid-morning",
+      "accents": ["antique-gilt marble vanity", "hand-painted perfume bottle", "silk-charmeuse blouse on hanger", "pearl drop earrings", "fashion sketchbook"]
+    },
+    {
+      "slug": "gallery-alcove-niche",
+      "mode": "minimalist",
+      "prompt": "A contemporary gallery-style alcove in a modern apartment, shot on a 35mm lens at standing eye-level dead-centre so the cream pear-shaped glass lamp sits centred in a 1:1 frame inside a recessed pale-plaster wall niche. Night: the only second light source is a single recessed picture-spotlight from above-frame throwing a soft directional wash onto a leaning small abstract canvas behind the lamp. Tight styling — just the niche itself, the lamp centred, a small hand-thrown stoneware vessel with a single curling pine branch beside the lamp, and a small placard-card on a tiny easel at the niche edge. Walls are pale grey-white plaster with a subtle horizontal grain; floor is polished black-stained ash plank. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of pale grey-white plaster, polished black ash, cream opaline, pine green, raw stoneware. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4, "room": "gallery alcove niche", "designStyle": "contemporary art-gallery alcove", "wallColour": "pale grey-white plaster", "cameraAngle": "35mm standing eye-level dead-centre", "timeOfDay": "night",
+      "accents": ["recessed plaster wall niche", "leaning abstract canvas", "pine branch in stoneware vessel", "small placard on easel", "recessed picture spotlight"]
+    },
+    {
+      "slug": "library-side-table",
+      "mode": "homey",
+      "prompt": "A side table beside a leather chesterfield in a private library, shot on a 35mm lens at standing eye-level looking down at the corner of a round mahogany side table so the cream pear-shaped glass lamp sits centred in a 1:1 frame. Late evening: the only second light source is a single banker's-green lamp glowing softly across the room on a leather-topped partners desk in the deep blurred background. Tight styling — a stack of three leather-bound first editions, an antique brass magnifying glass resting on top, a small leather correspondence tray with a folded ivory pocket square, and a footed stoneware mug of black coffee with a thin curl of steam. Walls are deep oxblood-burgundy limewash with a leaning small gilt-framed botanical print at frame-edge. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of oxblood, mahogany, cream opaline, oxblood leather, ivory, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5, "room": "private library side table", "designStyle": "English gentleman's club", "wallColour": "oxblood-burgundy limewash", "cameraAngle": "35mm standing eye-level looking down", "timeOfDay": "late evening",
+      "accents": ["round mahogany side table", "leather first editions", "brass magnifying glass", "leather tray with pocket square", "stoneware coffee mug"]
+    },
+    {
+      "slug": "boudoir-armoire-side",
+      "mode": "minimalist",
+      "prompt": "A small side table beside a tall ivory-painted boudoir armoire, shot on a 50mm lens at standing eye-level so the cream pear-shaped glass lamp sits in the upper-left of a 1:1 frame on a slim round walnut tripod side table. Early evening: the only second light source is a single brass picture-light glowing low across a leaning small framed botanical etching on the back wall. Tight styling — three intentional objects — a small footed crystal bowl holding pearl drop earrings and a single garden rose, a folded ivory linen handkerchief, and a tortoiseshell hand-mirror laid flat at the edge. Walls are warm cream limewash with a pale-pink hand-painted vine motif climbing the corner. The lamp matches the reference image exactly — opaline cream pear-shaped blown-glass body with a small brass acorn finial on top, slim dark-painted round base — switched ON, warm white 2700K (matches the warm amber glow visible through the opaline cream glass in the variant reference). Palette of warm cream, antique gilt, walnut, cream opaline, pale rose pink. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6, "room": "boudoir armoire side", "designStyle": "soft Victorian boudoir", "wallColour": "warm cream limewash with hand-painted vine", "cameraAngle": "50mm standing eye-level", "timeOfDay": "early evening",
+      "accents": ["walnut tripod side table", "crystal bowl with pearl earrings and rose", "ivory linen handkerchief", "tortoiseshell hand mirror", "brass picture light"]
+    }
+  ]
+}

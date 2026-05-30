@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-6628aafe37083300",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/italian-minimalist-glass-shade-table-lamp-decorative-ambience-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-white-glass-shade-table-lamp-antique-nightstand.jpg?v=1760000390",
+  "scraped_date": "2026-05-21T15:52:41.481Z",
+  "source_title": "Glass Shade Table Lamp Italian Minimalist Decorative Ambience Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6628aafe3708330028ea7524f6d4aa1f966ea4c3",
+  "description": "A dresser-top or console table vignette photographed at standing eye-level with a normal lens, showing a white painted French provincial dresser with ornate raised-panel drawer fronts, decorative carved flourishes, and antique brass pulls. The dresser top holds three styled objects grouped together: a set of dark forest-green hardcover books with gold-lettered spines standing upright at the left, a polished gold metallic deer figurine posed mid-stride in the center, and a warm glow radiating from the surface near the center-right that warms the surrounding objects and casts soft amber light across the dresser top and up the wall. The wall behind is flat plaster in pale warm cream-stone. The color palette is ivory, gold, and deep hunting green — a quietly formal French country sensibility with collector's-shelf styling. The warm pooled light on the dresser surface creates an intimate, candlelit quality, and the reflective gold figurine amplifies the warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.343Z"
+}

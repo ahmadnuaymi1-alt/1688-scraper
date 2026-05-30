@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-229acdd6fd35046c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-spotlight-led-dynamic-water-ripple-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-outdoor-spotlight-led-colorful-ripple.jpg?v=1775700795",
+  "scraped_date": "2026-05-21T12:03:49.175Z",
+  "source_title": "Outdoor Spotlight LED Dynamic Water Ripple Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Spotlights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "229acdd6fd35046c68eaa46b46492e097418d190",
+  "description": "A contemporary residential exterior shot photographed at dusk, capturing a poolside terrace and the corner of a modern home. The architecture is spare and minimalist — a flat-roofed structure with smooth grey exterior plaster walls articulated with warm teak or ipe timber panel accents framing the large sliding glazed door openings. Two large floor-to-ceiling sliding glass doors with slim black frames are open or recessed, revealing a warmly lit interior with comfortable furnishings and a soft amber glow from an interior source. The foreground terrace deck is laid in wide-plank hardwood decking in a rich warm brown tone. The near edge of a swimming pool is visible at the very bottom of frame, its water surface a calm pale blue-grey. The sky above is a clear cool dusk blue. Across the exterior stucco wall, an extraordinary iridescent and spectral prismatic light effect plays — a shimmering cascade of rainbow diffractions, pale purples, teals, pinks, and greens, crossing and overlapping in fluid organic patterns across the plaster surface, as though produced by a crystal or prism refracting strong directional light. Camera is at standing eye-level, normal lens, three-quarter corner view of the building showing the front wall and the adjacent side wall receding right, with the pool terrace in the foreground. The mood is serene and otherworldly, a cleanly modern scene transformed by the spectral light play. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.079Z"
+}

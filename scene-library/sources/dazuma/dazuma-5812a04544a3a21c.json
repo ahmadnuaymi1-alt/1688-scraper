@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-5812a04544a3a21c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-surface-mounted-can-lights-ultra-thin-round-modern-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-living-room-surface-mounted-can-lights.jpg?v=1775905243",
+  "scraped_date": "2026-05-21T12:03:31.670Z",
+  "source_title": "2 PCS Surface Mounted Can Lights Ultra-Thin Round Modern LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Can Lights > Surface Mount Can Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "5812a04544a3a21c8395ddf5a505a5aa7112e094",
+  "description": "A bright, open-plan living room in a contemporary home with an adjacent staircase. The space is airy and modern with smooth warm white walls and ceilings. On the left, a straight-run staircase ascends with honey-toned light oak treads and a sleek black powder-coated metal balustrade with vertical spindles. A large cream or off-white L-shaped sectional sofa dominates the center of the room, dressed with several throw pillows and a woven throw blanket in oat tones. A simple rectangular light oak coffee table sits on a flat-weave natural fiber area rug; the coffee table holds a wicker basket with a small potted plant and a glass of water. A round white bean bag chair or pod chair sits beside the coffee table. On the right wall, a full floor-to-ceiling wall of flush white painted cabinetry with integrated television niche houses a large flat-screen TV; a small potted plant sits on one shelf. In the background near the center wall, a large-leafed dark green tropical plant stands in a simple pot beside a small framed abstract artwork. The ceiling is smooth warm white with multiple low-profile surface-mounted disc elements providing a grid of warm-toned ambient downlight pools across the room. The floor is wide-plank blonde oak. The palette is monochromatic warm white and oat with oak accents. Camera at standing eye-level, wide establishing shot from the corner, showing the full room depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "pendant",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.295Z"
+}

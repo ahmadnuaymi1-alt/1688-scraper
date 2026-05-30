@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-8118d02161f631cf",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/brass-wall-light-modern-minimalist-up-and-down-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-brass-wall-lights-mirror-wood-sideboard.jpg?v=1777446429",
+  "scraped_date": "2026-05-21T12:03:30.503Z",
+  "source_title": "Brass Wall Light Modern Minimalist up and down Lighting",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Up & Down Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8118d02161f631cf6bb9f2d1a0a9a2dd0dde26ec",
+  "description": "A formal hallway or foyer console vignette photographed at standing eye-level, approximately five feet off the floor, using a normal lens and a perfectly centered symmetrical composition. The wall is finished in a warm off-white matte paint and is richly detailed with applied classical moulding: a wainscoting dado rail runs at mid-height with raised rectilinear panel fields below, and the upper wall carries wide-framed raised panels separated by pilaster strips that frame the central console position. A large rounded-rectangle mirror with a slim brass frame hangs centered on the wall, its reflection showing a black-framed multi-pane casement window and tree foliage beyond. Flanking the mirror symmetrically on the left and right walls, warm amber glow washes upward and downward from sources mounted mid-height at eye level, illuminating the moulding details and casting soft halos on the creamy plaster. Below the mirror sits a warm walnut console cabinet with a curved front face and close-spaced vertical slatted door fronts, its proportions low and broad. The console surface holds a styled grouping: on the left, a smoked glass tealight holder, a small reed diffuser, and a pair of votive candles; in the center, a stack of three coffee-table books; on the right, a large handmade ceramic bud vase in rough unglazed terracotta with coiled or ridged texture, holding a loose arrangement of olive branches and eucalyptus stems in dusty grey-green. The overall palette is warm ivory moulding, rich walnut, antique brass, and dusty botanical green. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting",
+      "paneled_walls",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.451Z"
+}

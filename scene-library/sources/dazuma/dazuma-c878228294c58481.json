@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-c878228294c58481",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/feather-table-lamps-nordic-ins-style-romantic-wedding-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_cc74f77c-2337-4863-a5d9-1d752a6c7561.jpg?v=1774595567",
+  "scraped_date": "2026-05-21T12:04:17.333Z",
+  "source_title": "Feather Table Lamps Nordic Ins Style Romantic Wedding Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c878228294c58481641e1339b061a97c3263f42e",
+  "description": "An intimate living room side table vignette photographed at seated eye-level with a normal-to-telephoto lens in a vignette composition tightly focused on the round side table surface. The frame is deliberately shallow in depth of field, with the background softly blurred into warm earthy tones of caramel and mocha. A dark walnut round side table on a single-column pedestal base occupies the center of the frame, its warm wood grain glowing in the amber light from the surface. On the table rests a rounded teardrop-shaped amber glass base with ribbed detailing set on a small brushed brass disc footing, emitting a warm constellation of micro-light points through the glass — a rich, jewel-like internal glow in deep amber and gold. The shade above the base is a full rounded dome constructed entirely of layered mauve-to-taupe feathers, their soft filaments catching the warm backlight and creating a halo of softness. The warm amber glow illuminates the table surface and casts a dim, enveloping warmth on the surrounding area. In the background, a large sofa in smooth warm greige upholstery is partially visible with an oversized ribbed ivory cushion leaning against the back. Curtain panels in warm taupe hang in the far background. A corner of a coffee table book is barely visible at the lower left foreground. The palette is entirely warm neutral — walnut, amber, taupe feather, brass, and greige upholstery. The atmosphere is cozy, romantic, and softly theatrical. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.813Z"
+}

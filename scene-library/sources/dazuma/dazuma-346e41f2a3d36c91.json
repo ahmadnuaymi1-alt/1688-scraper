@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-346e41f2a3d36c91",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/3-light-linear-pendant-light-italian-creative-vertical-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3-light-linear-pendant-light-glass-detail.jpg?v=1777107852",
+  "scraped_date": "2026-05-21T12:03:14.328Z",
+  "source_title": "3 Light Linear Pendant Light Italian Creative Vertical Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Multi-Light Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "346e41f2a3d36c91b8efa68894d8450e69f81c42",
+  "description": "An extreme close-up product detail photograph of a contemporary ceiling-mounted decorative lighting form, shot against a flat neutral mid-grey background with no room context visible. The frame fills with a tight macro view of the structural detail: a cluster of matte black cylindrical metal arms radiating outward from a central junction, terminating in glass globe elements at the periphery. At the center of the frame, a large flat circular clear glass disc element is mounted on the arm junction — a disc approximately 6 inches in diameter, with thick transparent glass and a smooth rounded edge, framing a central bright LED point source that illuminates an inner ring, creating a halo of cool white light within the glass ring form. A small round white LED element blazes at the very center surrounded by a warm gold-toned brass collar. Additional smaller clear glass sphere-and-globe elements are partially visible at the upper left and lower right of the frame, each also lit with cool-white integrated LED sources. The materials are a combination of smooth matte black powder-coated metal and clear optically clear glass. The grey background is uniformly lit and completely featureless. Camera at an elevated angle looking slightly downward at the product in close detail, normal macro lens, vignette composition filling the frame entirely with the central disc detail. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.155Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-492c933b98c98538",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-492c933b98c98538.jpg",
+  "source_url": "https://dazuma.us/products/bubbles-glass-modern-chandelier-minimalist-creative-ceiling-light",
+  "description": "A softly lit, contemporary bedroom with a warm, minimalist sensibility. The walls are smooth warm plaster in a pale greige tone, and the ceiling is clean white. Sheer linen curtains hang floor-to-ceiling across a large window behind the bed, diffusing natural daylight into a luminous, gauzy glow that fills the upper portion of the frame. The bed in the foreground has a tall, rounded arch-back upholstered headboard in warm cream, dressed with layered bedding in light grey and a cognac-brown leather throw pillow that anchors the palette. In the background, a sitting area features two low rounded armchairs in warm camel-tone velvet fabric, with a small light-oak side table between them holding a delicate ceramic vase with a single dried branch. A second small stem arrangement sits on the nightstand area. The overall mood is serene and spa-like, with an enveloping warmth. Diffused warm light filters evenly throughout the space from above, the ceiling-mounted source casting a gentle ambient glow with no harsh shadows. The room carries the quality of a high-end hotel suite in a warm-minimalist register. Camera is centered at standing eye-level, shooting a wide-establishing composition that places the ceiling in the upper portion of the frame and the bed in the lower foreground, capturing both the seating area in the background and the full ceiling height. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

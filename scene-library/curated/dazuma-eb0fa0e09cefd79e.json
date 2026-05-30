@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-eb0fa0e09cefd79e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-eb0fa0e09cefd79e.jpg",
+  "source_url": "https://dazuma.us/products/decorative-floor-standing-lamp-unique-nordic-led-lamp",
+  "description": "A moody evening living room side table vignette photographed at low-to-seated eye level — approximately three feet — with a normal lens and a vignette composition centered on the primary table surface. The scene is very dark, with the only significant light emanating from the table itself and casting warm amber illumination outward across the immediate foreground, creating a deep moody contrast between glowing center and shadowed surroundings. Two round side tables with dark walnut tops and slender matte-black hairpin legs sit at slightly different heights, partially overlapping in the composition. The foreground table holds an open book, splayed flat. The partially behind table holds a stack of two hardcover books and a small decorative object. The wall behind is a flat warm grey-taupe, catching a soft gradient of amber at the lower edge where baseboard and floor transition. The hardwood floor in warm honey-brown tones is partially visible at the lower corners. To the right, the arm of a light camel-tan upholstered lounge chair is softly visible. A window at upper right reveals a deep blue-black nighttime exterior. The warm amber glow from the table surface illuminates the open book pages and spills warmth across the dark walnut surface and immediately surrounding floor area. The palette is dark charcoal-grey, warm walnut brown, amber-gold, and ivory white. The mood is romantic, intimate, and moody — a late-night reading corner. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-b29e388750e3cfb5",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/cognac-disc-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Cognac_Disc_Table_Lamp25.png?v=1778462947",
+  "scraped_date": "2026-05-21T15:53:07.515Z",
+  "source_title": "Cognac Disc Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "b29e388750e3cfb5deb485f67c720adc2fb3d943",
+  "description": "A warm, rustic sitting room nightstand or side table vignette photographed at standing eye-level with a normal lens in a three-quarter corner view. The walls are painted a soft warm cream, and sheer ivory curtains filter gentle daylight from an off-camera window, creating a softly luminous backdrop. A solid rustic oak or pine side table with a drawer and lower shelf, showing natural wood grain and slightly rough saw-mark texture, dominates the center of the frame. On its surface, a warm amber glow radiates outward at table height, illuminating the tabletop and casting a warm pool onto the surrounding area and the lower wall behind. The glow illuminates a small ceramic mug, a pair of folded reading glasses, and a compact succulent plant in a small dark pot placed to the left on a stack of well-worn paperback books. To the right, the edge and arm of a large upholstered armchair in warm oatmeal linen is visible, with a chunky-knit cream throw blanket draped over its arm, adding softness and texture. The floor appears to be warm honey-tone hardwood. The mood is quiet and comforting — a lived-in literary corner with organic, tactile materials and earthy warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.188Z"
+}

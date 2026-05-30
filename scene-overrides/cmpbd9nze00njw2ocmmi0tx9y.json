@@ -1,0 +1,82 @@
+{
+  "productId": "cmpbd9nze00njw2ocmmi0tx9y",
+  "productTitle": "Cream Iron Plug-In Ambient Atmosphere Bedside Lamp (scalloped pressed-glass)",
+  "authoredBy": "in-chat scene design — vintage decorative bedside with scalloped pressed-glass shade and gold flecks on round body base in 5 finishes (wine red / pink / cream / snow white / wood-grain); warm white 2700-3000K per the warm amber glow visible through the gold-flecked glass",
+  "authoredAt": "2026-05-23T13:30:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "victorian-vanity-pink",
+      "mode": "homey",
+      "prompt": "A romantic Victorian-style dressing vanity corner of a primary bedroom, shot on a 50mm lens at seated vanity-stool eye-level slightly off-centre right so the scalloped pressed-glass bedside lamp on its round body base anchors the back-right of a 1:1 frame on an antique gilt-framed marble-topped vanity. Late afternoon: soft warm window light filters through sheer blush-pink linen curtains at frame-left. Style with a footed gilt-edged porcelain trinket dish holding three pearl drop earrings, a hand-blown perfume bottle with brass atomiser, a small bouquet of garden peonies in a cut-crystal vase, a folded ivory silk handkerchief, and a tortoiseshell-handled silver hairbrush. Walls are a soft blush-rose damask wallpaper. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of blush rose, antique gilt, marble, ivory silk, peony pink. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "Victorian dressing vanity",
+      "designStyle": "romantic Victorian boudoir",
+      "wallColour": "blush-rose damask wallpaper",
+      "cameraAngle": "50mm seated vanity stool height",
+      "timeOfDay": "late afternoon",
+      "accents": ["antique gilt marble-topped vanity", "porcelain trinket dish with pearl earrings", "perfume bottle with brass atomiser", "peonies in cut-crystal vase", "tortoiseshell silver hairbrush"]
+    },
+    {
+      "slug": "country-bedside-table",
+      "mode": "homey",
+      "prompt": "A cottagecore country-bedroom bedside table, shot on a 35mm lens at seated bedside eye-level slight three-quarter so the scalloped pressed-glass bedside lamp on its round body base sits in the back-left of a 1:1 frame on a painted-cream nightstand. Late evening: the only second light source is the moon through a sash window with a partially drawn ditsy-floral cotton curtain at frame-right. Style with a stack of two cloth-bound novels with leather bookmarks, a small porcelain saucer holding a chamomile tea bag and a sprig of fresh mint, a small woven willow basket with a folded antique handkerchief, and a single garden sweet-pea stem in a glass milk bottle. Walls are a faded ditsy-floral wallpaper above pale wood wainscoting. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of faded floral, painted cream, soft pink, mint green, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "country-cottage bedside",
+      "designStyle": "warm English cottage",
+      "wallColour": "ditsy-floral wallpaper above wainscoting",
+      "cameraAngle": "35mm seated bedside three-quarter",
+      "timeOfDay": "late evening",
+      "accents": ["painted-cream nightstand", "stack of cloth-bound novels", "porcelain saucer with chamomile and mint", "willow basket with handkerchief", "sweet pea in milk bottle"]
+    },
+    {
+      "slug": "parlour-reading-corner",
+      "mode": "minimalist",
+      "prompt": "A small parlour reading corner with a single high-back velvet armchair, shot on a 35mm lens at seated eye-level so the scalloped pressed-glass bedside lamp on its round body base anchors the back-right of a 1:1 frame on a slim mahogany side table. Dusk: the only second light source is a slim antique-brass picture light glowing low across a leaning small landscape oil on the back wall. Tight styling — a single leather-bound poetry volume open face-down with a green silk bookmark, a footed porcelain cup of black tea on a saucer, and an oxblood-leather correspondence portfolio at the side. Walls are a deep oxblood-burgundy limewash with an oil-rubbed bronze picture rail. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of oxblood, mahogany, antique brass, oxblood leather, soft porcelain ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "Victorian parlour reading corner",
+      "designStyle": "rich Victorian parlour",
+      "wallColour": "oxblood-burgundy limewash",
+      "cameraAngle": "35mm seated eye-level",
+      "timeOfDay": "dusk",
+      "accents": ["slim mahogany side table", "leather poetry volume face-down", "porcelain cup of black tea", "oxblood-leather correspondence portfolio", "antique-brass picture light"]
+    },
+    {
+      "slug": "powder-room-vanity-counter",
+      "mode": "minimalist",
+      "prompt": "A small luxe powder-room marble vanity counter, shot on a 50mm lens at head-height looking gently down so the scalloped pressed-glass bedside lamp on its round body base sits in the upper-right of a 1:1 frame on the honed marble. Night: the only second light source is a slim brushed-brass wall sconce throwing a soft glow on the far side of an antique gilt-framed mirror at frame-left. Tight styling — a slim hand-thrown stoneware soap dispenser, a folded ivory cotton hand towel with whip-stitched edge, a small porcelain tray holding a hand-blown perfume bottle and a sprig of dried lavender, and a small porcelain dish with a single bar of milled soap. Walls are a soft mossy sage limewash; honed marble counter with brushed-brass faucet at frame-edge. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of mossy sage, honed marble, soft gold, ivory, lavender silver. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "powder-room vanity counter",
+      "designStyle": "soft luxe Victorian powder room",
+      "wallColour": "mossy-sage limewash",
+      "cameraAngle": "50mm head-level looking down",
+      "timeOfDay": "night",
+      "accents": ["honed marble counter", "stoneware soap dispenser", "ivory cotton hand towel", "porcelain tray with perfume and dried lavender", "porcelain dish with milled soap"]
+    },
+    {
+      "slug": "cottage-entry-console",
+      "mode": "homey",
+      "prompt": "A small painted-pale-blue entry hall console table beneath a leaning gilt mirror, shot on a 35mm lens at standing eye-level slight three-quarter so the scalloped pressed-glass bedside lamp on its round body base anchors the right-third of a 1:1 frame. Mid-morning: warm light filters through a leaded-glass front door panel at the back of the hallway as the only second light source. Style with a small woven straw market bag holding garden flowers, a folded knit cardigan on the console edge, a porcelain dish with three antique brass house keys, a leather-bound visitor book with a tortoiseshell pen, and a small ceramic jug of fresh garden roses. Walls are a soft blush-clay limewash with painted pale-blue wainscoting below. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of blush-clay, pale blue, antique brass, garden rose pink, woven straw. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "cottage entry hall console",
+      "designStyle": "warm English country entry",
+      "wallColour": "blush-clay limewash with pale-blue wainscoting",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "mid-morning",
+      "accents": ["painted pale-blue console table", "woven straw market bag with garden flowers", "folded knit cardigan", "porcelain dish with brass keys", "ceramic jug of garden roses"]
+    },
+    {
+      "slug": "boudoir-armoire-side",
+      "mode": "minimalist",
+      "prompt": "A small side-table corner beside a tall ivory-painted boudoir armoire, shot on a 50mm lens at standing eye-level so the scalloped pressed-glass bedside lamp on its round body base sits in the upper-left of a 1:1 frame on a slim round walnut tripod side table. Early evening: the only second light source is a single brass picture-light glowing low across a leaning small framed botanical etching on the back wall. Tight styling — three intentional objects — a small footed crystal bowl holding pearl drop earrings and a single garden rose, a folded ivory linen handkerchief, and a tortoiseshell hand-mirror laid flat at the edge. Walls are warm cream limewash with a pale-pink hand-painted vine motif climbing the corner. The lamp matches the reference image exactly — scalloped clear pressed-glass shade with delicate gold fleck embedded throughout, brass acorn finial, brass neck, round body base in the colour shown in the reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the gold-flecked glass in the variant reference). Palette of warm cream, antique gilt, walnut, pearl ivory, pale rose pink. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "boudoir armoire side table",
+      "designStyle": "soft Victorian boudoir minimal",
+      "wallColour": "warm cream limewash with hand-painted vine",
+      "cameraAngle": "50mm standing eye-level",
+      "timeOfDay": "early evening",
+      "accents": ["walnut tripod side table", "crystal bowl with pearl earrings and rose", "ivory linen handkerchief", "tortoiseshell hand mirror", "brass picture light"]
+    }
+  ]
+}

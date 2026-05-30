@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-a28a4b847d1b216f",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/axis-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Axis_Alabaster_Table_Lamp3.png?v=1777530848",
+  "scraped_date": "2026-05-21T15:53:45.638Z",
+  "source_title": "Axis Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "a28a4b847d1b216fbfb7feac072eb7f62a5fb148",
+  "description": "A sitting room or living room corner photographed at seated eye-level with a normal lens, framing a three-quarter corner view of a low sideboard and adjacent armchair. The walls are smooth warm sand-beige plaster with a barely perceptible texture. A large abstract artwork in brown, sandy beige, and ochre tones hangs on the wall to the right of the sideboard. The sideboard is a dark-stained walnut console with a horizontal wood-grain front and two doors. On its surface, a tall round ceramic vase in a warm natural tone holds branching dried botanical stems, flanked by a stack of two coffee table books and a small round wooden tray with a decorative object. A diffuse warm glow pools across the sideboard surface from the object placed near center. To the right of the sideboard, a low cream upholstered armchair with a soft rounded back and seat carries a loosely draped chunky knit throw. The floor is a natural jute rug over pale oak hardwood. The mood is quiet, refined, and editorial. Color palette is warm neutral with ochre and cognac. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.175Z"
+}

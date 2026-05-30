@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-2622a53d9139b718",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2622a53d9139b718.jpg",
+  "source_url": "https://dazuma.us/products/modern-minimalist-floor-lamp-decorative-landscape-light",
+  "description": "An outdoor restaurant terrace along a marina photographed at dusk from standing eye-level with a normal lens, wide establishing composition. The terrace floor is wide-plank hardwood decking in warm brown tones. Multiple rectangular dining tables are dressed in a casual outdoor setting — amber-tinted transparent stacking chairs in the left foreground, dark powder-coat metal chairs in the background, and tables set with glassware, candles, and bottles. A black fringed market umbrella hovers over the left tables, and a white logo-printed umbrella stands at center-right. Neatly clipped boxwood spheres in raised white planters accent the terrace perimeter. In the background, the marina is richly atmospheric — large white yachts are moored with their running lights visible, palm trees rise against the deep dusk sky, and warm amber candlelight glows from tables throughout the terrace. Small votive candles on each table cast individual pools of warm light across the dining surfaces. A broad, diffuse warm glow emanates from a tall floor-level accent form at the center of the scene, casting even warm illumination outward across the deck planks and touching the surrounding tables and chairs. Camera is at standing eye-level, wide establishing composition, slightly left of center. The mood is romantic and festive, a warm Mediterranean marina evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

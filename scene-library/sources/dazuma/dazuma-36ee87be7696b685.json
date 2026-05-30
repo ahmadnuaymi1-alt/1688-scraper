@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-36ee87be7696b685",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-italian-floor-lamp-elegant-minimalist-gray-creative-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/tall-modern-italian-floor-lamp-ambient-light-chic-corner.jpg?v=1768965610",
+  "scraped_date": "2026-05-21T15:52:31.785Z",
+  "source_title": "Italian Floor Lamp Elegant Minimalist Gray Creative Design light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "36ee87be7696b685414d9872398a281e4932d578",
+  "description": "A living room sitting corner photographed at standing eye-level with a normal lens in a wide establishing composition, showing a full corner with two walls and a large window. The cream-white walls are smooth and simply finished. A compact upholstered slipper chair or accent bench covered in a soft grey floral-pattern fabric sits center frame with a simple grey square cushion propped against it. To the right, a round glass-top side table on a black metal hairpin base holds a tall clear glass vase with dried cherry blossom branches in dusty rose-pink, a small framed oil painting of roses with soft painterly brushwork, and an empty crystal wine glass. A warm golden wash radiates from floor level at the left side of the frame, illuminating the cream wall behind at standing height and casting a column of warm light across the wall plaster from floor to above. The window to the right is dressed in sheer white curtains, with a glimpse of an urban city skyline and glass towers visible through the glass. At the far left, large tropical green plant leaves enter the frame. In the foreground, vivid orange gerbera daisies are blurred close to the lens. On the floor, a grey and charcoal abstract area rug with a low pile. The palette is cream, grey, warm gold, dusty rose, and muted silver. The mood is quiet and serene with a contemporary urban quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.163Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-86c5040a5d968766",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorator-floor-lamps-wedding-prop-iron-olive-fruit-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-decorator-floor-lamps-garden-wedding-aisle-white-tent.jpg?v=1777088449",
+  "scraped_date": "2026-05-21T12:04:26.575Z",
+  "source_title": "6 PCS Decorator Floor Lamps Wedding Prop Iron Olive Fruit Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "86c5040a5d9687665173d8fcc7df69b0ae8388d5",
+  "description": "An outdoor wedding ceremony entrance photographed at golden-hour dusk. A straight pathway of rectangular stone pavers, edged with scattered petals, leads directly toward a large white peaked pavilion tent that glows warmly from within with a soft amber radiance. Manicured green lawn flanks the path on both sides, and a backdrop of tall dark evergreen trees frames the scene. To the left stands a white arched metal arbor draped with sheer ivory fabric panels, with a lush low arrangement of white roses, purple hydrangeas and trailing greenery massed at its base. To the right, a white classical stone urn raised on a pedestal holds a generous bouquet of white and pale-blue blooms, beside a white-framed signboard propped on an easel and finished with a soft fabric bow. The pathway is lined on both sides by a rhythmic, evenly spaced row of warm golden points of light that scatter a soft white-gold sparkle along the aisle, deepening the romantic atmosphere. Above the treeline the sky fades from deep dusk blue to warm orange and gold. The palette is soft and romantic — ivory, white, gold, lavender and dusty blue against lush green. The mood is romantic and celebratory. The camera is at standing eye-level, shooting level with a normal-to-slightly-wide lens in a centered symmetrical composition, the pathway receding toward the glowing tent as the vanishing point. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.467Z"
+}

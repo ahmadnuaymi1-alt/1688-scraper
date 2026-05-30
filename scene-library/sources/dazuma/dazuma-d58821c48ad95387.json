@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-d58821c48ad95387",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/decorative-led-table-lamp-wooden-glass-ornament-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/decorative-led-table-lamp-wooden-base-cone-tree.jpg?v=1763810175",
+  "scraped_date": "2026-05-21T15:52:09.521Z",
+  "source_title": "Decorative LED Table Lamp Wooden Glass Ornament Two-Pack Light",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d58821c48ad95387e72b35b8b950318720635f64",
+  "description": "A tight tabletop vignette on a medium warm-toned walnut or cherry wood surface, photographed in close-up. A decorative glass terrarium in a conical shape sits on a round natural wood base — inside the glass cone, a miniature carved wood diorama depicts a reindeer and evergreen tree, surrounded by warm golden micro-LED fairy lights that illuminate the interior with a soft amber glow. A jute loop at the apex suggests it doubles as an ornament. Pine branches with a pinecone enter the upper left corner of frame, adding seasonal texture. The background is a pale gray smooth wall, soft and out of focus. The atmosphere is intimate, Scandinavian-inflected, and quietly festive — warm wood tones, natural materials, and handcrafted detailing. A warm amber glow emanates from the glass object at tabletop level, casting a soft pool of golden light onto the wood surface below and warming the immediate surroundings at table height. Camera at seated to low eye-level, normal lens, tight close-up vignette centered on the glass terrarium object. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.867Z"
+}

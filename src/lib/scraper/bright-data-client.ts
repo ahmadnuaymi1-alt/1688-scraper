@@ -12,8 +12,15 @@
 
 const BD_ENDPOINT = "https://api.brightdata.com/request";
 const FETCH_TIMEOUT_MS = 120_000;
-const MAX_ATTEMPTS = 3;
-const RETRY_DELAY_MS = 2_000;
+const MAX_ATTEMPTS = 5;
+/**
+ * Backoff in ms between attempts. Bright Data 0-byte/short-body responses
+ * are usually a stale residential-proxy session that takes 10–30s to rotate;
+ * a flat 2s delay puts every retry on the same dead session. Exponential
+ * pattern is 2s → 5s → 10s → 20s for the 4 inter-attempt gaps (sums to ~37s),
+ * which gives the BD-side session pool time to recycle.
+ */
+const RETRY_DELAYS_MS = [2_000, 5_000, 10_000, 20_000];
 
 /**
  * Minimum body size to consider a response "real". Successful 1688 detail-page
@@ -79,7 +86,8 @@ export async function fetchViaBrightData(
     } catch (err) {
       lastTransportError = err;
       if (attempt < MAX_ATTEMPTS) {
-        await new Promise((r) => setTimeout(r, RETRY_DELAY_MS));
+        const delay = RETRY_DELAYS_MS[attempt - 1] ?? RETRY_DELAYS_MS[RETRY_DELAYS_MS.length - 1];
+        await new Promise((r) => setTimeout(r, delay));
         continue;
       }
       throw new BrightDataError(
@@ -99,7 +107,8 @@ export async function fetchViaBrightData(
     if (body.length < MIN_BODY_BYTES) {
       lastShortBodyLength = body.length;
       if (attempt < MAX_ATTEMPTS) {
-        await new Promise((r) => setTimeout(r, RETRY_DELAY_MS));
+        const delay = RETRY_DELAYS_MS[attempt - 1] ?? RETRY_DELAYS_MS[RETRY_DELAYS_MS.length - 1];
+        await new Promise((r) => setTimeout(r, delay));
         continue;
       }
       throw new BrightDataError(

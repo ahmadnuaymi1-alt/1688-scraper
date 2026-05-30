@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-b9abada2f93b8861",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/european-retro-outdoor-waterproof-metal-column-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/1_4bf5df27-1f86-4e1d-ac50-fc77b5c20407.jpg?v=1774175759",
+  "scraped_date": "2026-05-21T12:04:34.494Z",
+  "source_title": "European Retro Outdoor Waterproof Metal Column Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b9abada2f93b8861cbe32396dda8506c376caa3c",
+  "description": "A formal residential front garden photographed at dusk from a low-to-standing eye level in an off-center composition focused on a limestone pillar gate post. The scene is dominated by a substantial square pillar constructed of warm cream travertine or limestone blocks, its top surface supporting a post-mounted outdoor lantern with an antique bronze or oil-rubbed bronze finish. The lantern emits a warm amber-gold glow through amber-tinted glass panels with decorative grid tracery, casting a generous pool of warm light that washes down the limestone pillar face, illuminating its texture dramatically. A tall ornamental matte black wrought iron fence with pointed spear finials runs horizontally behind the pillar. Well-maintained rounded boxwood and broadleaf evergreen shrubs in deep green fill both sides of the pillar in a manicured landscape. A smooth stone or concrete path is partially visible in the lower left. In the softly blurred background, a grand two-story French-country or Italian-influenced stucco residence with white painted trim, arched windows, and a hip roof in dark slate grey is visible — warm amber light glowing in the background windows. The palette is warm cream limestone, matte black iron, deep green landscaping, amber-gold light, and creamy white stucco. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.736Z"
+}

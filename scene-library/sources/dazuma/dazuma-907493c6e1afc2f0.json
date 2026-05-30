@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-907493c6e1afc2f0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-vintage-european-home-user-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_52e55a77-a61c-46d0-bf1f-2e7c8e8a35b5.jpg?v=1773886784",
+  "scraped_date": "2026-05-21T12:04:57.018Z",
+  "source_title": "Wall Sconces Vintage European Home User Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "907493c6e1afc2f09da006211a8ee53cfdbfc778",
+  "description": "A charming outdoor covered porch or terrace at what appears to be a coastal New England or Hamptons-style property, photographed in soft even daylight. The building facade is classic horizontal white shiplap or clapboard siding, crisp and freshly painted. A small multi-pane wood-framed window with white trim is set into the siding mid-frame. Overhead, a raw wood beam in warm honey-oak tone spans the corner of the porch cover, suggesting an exposed timber post-and-beam structure. A warm amber glow emanates from a wall-mounted position on the siding to the left of the window, casting a gentle puddle of warm light against the white clapboard. A white multi-lite French door with divided glass panes stands at the left edge of the frame. A natural teak or light wood outdoor coffee table occupies the foreground center; on its surface sits an abundant casual arrangement of flowers: two large white ceramic squat vases overflow with full white hydrangeas, a wicker basket holds a bunch of white tulips, another wicker basket at the table edge holds more white blooms, and a small silver lantern accent sits between the arrangements. A light blue-upholstered outdoor sofa with a blue-and-white striped accent pillow is visible at the left edge of the frame. To the right, a manicured boxwood hedge runs along a low wall or fence line, and a mature standard-form olive tree with silver-green leaves and a slender trunk rises above the hedge against a soft gray-blue overcast sky with a faint horizon suggesting ocean or bay. The camera is at standing eye-level, roughly 5–6 feet, with a normal lens. The composition is a three-quarter corner view facing the wall, table, and garden. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "shiplap",
+      "exposed_beams",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.514Z"
+}

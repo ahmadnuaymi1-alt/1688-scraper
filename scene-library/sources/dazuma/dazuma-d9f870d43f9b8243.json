@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-d9f870d43f9b8243",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-outdoor-floor-lamps-waterproof-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-outdoor-floor-lamps-luxury-patio-walkway.jpg?v=1778566986",
+  "scraped_date": "2026-05-21T12:02:52.453Z",
+  "source_title": "Modern Outdoor Floor Lamps Waterproof Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Flood Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d9f870d43f9b8243159fece2b94c85ba44a401e6",
+  "description": "A contemporary commercial exterior landscape photographed at dusk from a seated-to-standing eye-level vantage, in an off-center thirds composition with the subject placed just left of center on a wide open paved courtyard. The camera is at a slight low-to-level pitch, lending the scene a grounded, monumental quality. The foreground is broad grey large-format stone paving in a grid pattern, clean and uncluttered. In the mid-ground, a low gabion retaining wall — wire mesh cages filled with rough grey and brown stones — runs horizontally across the frame, creating a textural band that separates the paved terrace from a planted garden bed behind it. Ornamental grasses in tawny gold and sage green grow in the planting bed, their dry seed heads catching the last ambient sky glow. Small compact boxwood-like shrubs anchor the corners of the planting zone. Behind and above, the glazed curtain wall of a contemporary office or commercial building rises, its floor-to-ceiling glass panels reflecting the deep blue dusk sky and the silhouettes of trees beyond the site. On the paved surface, an illuminated sculptural form emits a warm soft-white glow — opalescent and even — washing a gentle circle of light onto the dark paving around its base and casting a very faint upward reflection against the building glass above. The mood is calm, architectural, and quietly dramatic, the blue-dusk sky contrasting with the warm radiance at grade level. Camera is at low-to-standing height, level pitch, off-center thirds. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.885Z"
+}

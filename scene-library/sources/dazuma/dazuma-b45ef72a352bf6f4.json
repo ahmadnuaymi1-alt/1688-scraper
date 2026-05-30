@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-b45ef72a352bf6f4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/bollard-pathway-lighting-outdoor-waterproof-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/bollard-pathway-lighting-modern-wooden-deck-cozy-seating.jpg?v=1774078701",
+  "scraped_date": "2026-05-21T12:04:48.090Z",
+  "source_title": "Bollard Pathway Lighting Outdoor Waterproof Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Bollard Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b45ef72a352bf6f4a13cc8d19b56d42e457818a5",
+  "description": "A residential outdoor deck or patio setting photographed at dusk or early evening. The deck surface is composed of wide horizontal hardwood planks in a warm honey-blonde teak or composite wood with a slightly weathered tone, running in a pleasing parallel horizontal pattern. At the far left background, the warm interior of a brick home glows through a window, revealing a cream upholstered armchair draped with a chunky oatmeal knit throw and a slender black side table. A large dense evergreen shrub, likely rosemary or boxwood, fills the right side of the frame with deep rich green texture, creating a natural privacy screen. The deck is otherwise clean and uncluttered. Warm amber light pools on the deck surface from floor-placed sources, casting dramatic upward and sideward light that highlights the wood grain texture and extends in bright horizontal bands across the decking. Camera is at a very low angle, approximately 1 to 2 feet, shooting with a normal lens in a slight three-quarter composition looking across the deck surface from close range. The low viewpoint makes the deck planks run toward the camera, emphasizing the horizontal grain and the dramatic warm pools of light. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.710Z"
+}

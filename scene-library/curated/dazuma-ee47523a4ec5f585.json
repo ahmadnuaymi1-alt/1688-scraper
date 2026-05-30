@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-ee47523a4ec5f585",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ee47523a4ec5f585.jpg",
+  "source_url": "https://dazuma.us/products/vintage-metal-fabric-shade-table-lamp",
+  "description": "A home office photographed at standing eye-level with a wide lens, showing a wide establishing three-quarter view of the room. The left wall features a large multi-pane window with matte black frames looking out to green foliage, with sheer white floor-length drapery drawn to the right side diffusing bright daylight. The right wall is clad in light natural oak with a diamond-pattern applied relief in the lower two-thirds and a smooth painted panel above — a warm, textural architectural feature. Against the right wall sits a low matte slate-grey two-door credenza. The room centers on a large writing desk with a cream or chalk-white laminate top and medium-tone warm walnut tapered legs. On the desk, an open hard-cover coffee table book lies flat, and a dark navy-bronze vintage globe on a walnut stand sits in the far right position. The focal point on the desk's left corner is a sculptural table-height glowing object with a bold gold branching sculptural base and a cream fabric drum shade, positioned near the window where diffused daylight spills across the desk surface. Warm light from the base of the object supplemented by the daylight creates a bright even reading environment. A cream textural bouclé lounge chair with tapered legs is partially visible in the foreground. The mood is scholarly, stylish, and bright. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "flush_mount",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

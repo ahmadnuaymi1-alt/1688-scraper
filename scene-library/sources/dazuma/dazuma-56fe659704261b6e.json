@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-56fe659704261b6e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gate-post-solar-pillar-light-modern-outdoor-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/gate-post-solar-pillar-light-modern-driveway-gate.jpg?v=1778566386",
+  "scraped_date": "2026-05-21T12:02:59.876Z",
+  "source_title": "Gate Post Solar Pillar Light Modern Outdoor Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "56fe659704261b6e042bdcb065a551143d2256b2",
+  "description": "A sleek modern residential entry gate photographed at night against a deep blue-black sky. Two substantial square columns clad in textured gray split-face or bush-hammered stone block flank a wide horizontal-slat matte black aluminum driveway gate. The gate's closely spaced parallel slats create a graphic linear pattern. Matching matte black horizontal-slat side fence panels extend to the right of the frame. Behind the gate, a contemporary white stucco two-story villa is visible, its interior illuminated in warm amber through a large recessed entry portal on the upper right side, contrasting with the dark cool night sky. A leafy green tropical or garden shrub is silhouetted against the lit house in the midground center. From the top of each stone column, a warm horizontal amber glow radiates outward and downward in two to three precise horizontal bands, illuminating the textured stone surfaces and casting graduated warm light downward onto the gate panels below. The pale concrete paved driveway approach reflects a faint warm glow at grade. The palette is cool gray stone, matte black metal, stark white stucco, with amber lighting accents. Camera is at standing eye-level, centered symmetrical composition facing the gate head-on, normal focal length, capturing both pillars equally. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.292Z"
+}

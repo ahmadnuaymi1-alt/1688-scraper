@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-cc35fc2cde90089a",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/plinth-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Plinth_Alabaster_Table_Lamp59.png?v=1778092509",
+  "scraped_date": "2026-05-21T15:53:17.754Z",
+  "source_title": "Plinth Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "cc35fc2cde90089a416b8a0c4d6c762f7492c61d",
+  "description": "A bedroom corner photographed at standing eye-level with a normal lens, framing a nightstand vignette in a three-quarter composition. A solid oak nightstand with clean lines and a flat-front drawer sits to the right of the bed, its surface holding a small stack of books topped with a sprig of dried botanicals in a bud vase. The headboard is upholstered in warm oatmeal linen, and the bed is dressed in layered dove-gray and cream linen. Behind the nightstand, a tall multi-pane window admits warm golden late-afternoon or early-evening light, the sky outside glowing in soft amber and peach tones. A slender potted olive tree in a matte clay pot stands to the right of the window, its delicate silvery-green foliage catching the backlight. The walls are finished in smooth warm sand-toned plaster. A warm amber glow pools at table level around the nightstand surface, illuminating the books and vase with soft directional warmth. The color palette is anchored in warm neutrals — sand plaster, honey oak, oatmeal linen, dusty sage — with the golden ambient quality of the window light tying the scene together. The mood is serene and softly romantic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.221Z"
+}

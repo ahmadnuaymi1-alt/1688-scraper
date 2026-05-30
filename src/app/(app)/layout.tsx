@@ -6,10 +6,11 @@ export default function AppLayout({ children }: { children: ReactNode }) {
     <div className="flex min-h-screen flex-col">
       <Nav />
       <main className="flex-1">
-        {/* Subtle page-entry fade on route change — animate-in fires on every
-            mount, including client-side navigations under the App Router. The
-            motion-reduce variant skips it for users with prefers-reduced-motion. */}
-        <div className="mx-auto w-full max-w-7xl px-4 py-6 animate-in fade-in-0 duration-300 motion-reduce:animate-none">
+        {/* Fast page-entry fade on route change. Kept short (120ms) so the
+            animation doesn't pile on top of the SSR cost — at 300ms the
+            navigation felt sluggish even when the actual server work was
+            quick. Motion-reduce variant skips it entirely. */}
+        <div className="mx-auto w-full max-w-7xl px-4 py-6 animate-in fade-in-0 duration-100 motion-reduce:animate-none">
           {children}
         </div>
       </main>

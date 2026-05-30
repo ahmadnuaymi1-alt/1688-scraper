@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-885edeae7ac330d3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ins-style-minimalist-unique-table-lamps-creative-charging-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/cordless-black-table-unique-lamps-marble-nightstand-cozy-light.jpg?v=1768964823",
+  "scraped_date": "2026-05-21T15:52:34.476Z",
+  "source_title": "Table Unique Lamps Ins-style Minimalist Creative Charging Design Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "885edeae7ac330d3d7777f072f5a8eb3fd97dd73",
+  "description": "A refined bedroom nightstand vignette photographed at seated eye-level with a normal lens, composed as an off-center thirds shot showing a marble-topped nightstand against a bed. The nightstand surface is white Carrara marble with soft grey veining, cool and polished. A hardcover book with a grey cover featuring a classic car photograph lies flat on the left side of the surface. The nightstand cabinet below has rich walnut drawer fronts with a warm reddish-brown grain, suggesting a mid-century influenced piece. Behind the nightstand, the bed has an upholstered headboard in a warm greige bouclé-like fabric with walnut side posts, and two oversized throw pillows: the back one in crisp white linen and the front one in a striking cobalt blue velvet. The wall behind is painted a clean warm white. The color palette contrasts cool marble, warm walnut wood, and the rich cobalt accent. The mood is quiet and sophisticated — a modern hotel aesthetic with masculine undertones. A warm glow from the surface level warms the marble top and the lower portions of the headboard. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.472Z"
+}

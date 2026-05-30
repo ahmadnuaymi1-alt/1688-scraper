@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-ac536f0ceaafabc8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/minimalist-square-floor-lamps-with-a-sleek-design-versatile-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-outdoor-black-base-illuminated-square-floor-lamps-patio.jpg?v=1763625684",
+  "scraped_date": "2026-05-21T15:52:54.809Z",
+  "source_title": "Square Floor Lamps with a Sleek Design Versatile Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ac536f0ceaafabc8a5ed596fec8f00baf3b1e717",
+  "description": "A dramatic outdoor covered terrace or patio photographed at dusk in a wide establishing view. The background wall consists of vertical dark charcoal wood or composite cladding panels — narrow shiplap-style planks running floor to ceiling. The deck floor is light blonde natural wood decking with fine linear grain. At left, a contemporary outdoor modular sofa in light gray cushions with a sand-colored metal frame has a loose linen throw draped over one arm. A gold-finished round nest of small side tables sits beside a matching metal outdoor armchair. At far right, a large white ceramic pot holds wild-looking pampas grass or ornamental grasses. A large tropical dracaena or bird-of-paradise plant with broad lush leaves rises at center. Warm amber light bathes the plant and wooden wall from floor level, washing up the dark cladding behind. At the far left, the very edge of the terrace opens to deep blue evening sky with dark tree silhouettes. The mood is romantic and resort-luxe, with a modern tropical warmth. Camera is at standing eye-level, roughly 5–6 feet high, with a wide lens, in a wide establishing composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.672Z"
+}

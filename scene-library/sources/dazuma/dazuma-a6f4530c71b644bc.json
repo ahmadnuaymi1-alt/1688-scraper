@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-a6f4530c71b644bc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-gate-modern-minimalist-outdoor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_b12e5977-a556-4e54-ac92-9690796d833f.jpg?v=1773717270",
+  "scraped_date": "2026-05-21T12:19:45.259Z",
+  "source_title": "Pillar Lights for Gate Modern Minimalist Outdoor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a6f4530c71b644bc648e1dec03a7a66db8040e85",
+  "description": "A luxury residential outdoor pool terrace and fence perimeter photographed at a slightly low angle at dusk, with a three-quarter composition looking diagonally along the fence line toward the pool corner. The fence consists of square granite or concrete posts with a rough-hewn textured surface supporting horizontal matte black aluminum slat rails between them. The corner of a rectangular swimming pool with a tiled blue mosaic waterline is visible at lower right, its water reflecting the fading sky. Beyond the fence, a dense backdrop of dark columnar cypress trees and low ornamental shrubs creates a green privacy screen, and the flat-faced facade of a contemporary stucco residence is partially visible. The sky is a cool blue-to-amber dusk gradient at the horizon. A warm amber glow emanates from each post cap fixture, casting golden pools of light on the grey granite post tops and spilling across the horizontal fence rails. The foreground post and its glowing cap are in sharp focus while the second post and cap recede softly in the background. The palette is cool grey granite, matte black steel, dark green foliage, blue pool water, and warm amber glow. Mood is serene, modern, and residential-resort. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.646Z"
+}

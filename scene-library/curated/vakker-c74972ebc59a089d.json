@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-c74972ebc59a089d",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-c74972ebc59a089d.png",
+  "source_url": "https://vakkerlight.com/products/olera-wood-table-lamp",
+  "description": "A bedroom nightstand vignette shot at seated eye-level with a normal-to-telephoto lens, the camera positioned off-center to the left in a close composition that fills the frame with the side-table surface and the near edge of the bed. The scene is bathed in soft, indirect natural morning light entering from a partially visible window in the right background, casting a mild diffused brightness across the white plaster wall. A rustic reclaimed-wood side table with rough-hewn legs and a thick slab top anchors the foreground. On its surface rests a warm glow emanating from a stout ceramic-base piece with a wide conical textile shade, the warm light pooling softly down onto the wood surface, illuminating the grain and warming the adjacent objects without reaching the ceiling. Beside the glowing source sits a small stack of two or three paperback books and a simple ceramic mug in warm off-white. A compact potted fern in a plain terracotta pot sits on the floor in the left foreground, its fronds picking up a touch of the warm ambient light at table height. The bed in the right half of the frame is dressed in layers of natural linen — undyed linen pillowcases stacked generously, a loose linen duvet, and a chunky open-weave knit throw in warm oat draped over the edge. The plaster wall behind has a rough, hand-applied texture in warm white. The palette is warm neutral throughout — aged wood, undyed linen, warm plaster, terracotta — with no strong color accents beyond the earthy clay tone of the pot. The mood is intimate and quietly domestic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

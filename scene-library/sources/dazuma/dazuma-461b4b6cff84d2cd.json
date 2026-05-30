@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-461b4b6cff84d2cd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-led-outdoor-wall-lights-waterproof-mushroom-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-led-outdoor-wall-lights-white-brick-entrance.jpg?v=1773717736",
+  "scraped_date": "2026-05-21T12:19:37.485Z",
+  "source_title": "Modern LED Outdoor Wall Lights Waterproof Mushroom Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "461b4b6cff84d2cdf2c5fe8fbaf831959556474e",
+  "description": "A symmetrical exterior front entry photographed at standing eye-level in a centered, straight-on composition. The house facade is white painted brick with crisp clean lines. The entry is anchored by a pair of double french doors in a warm natural oak or rift-sawn white oak tone, with multi-pane reeded or ribbed glass panels and matte-black lever handles and smart lock hardware. The door pair is sheltered under a flat modern shed-style porch overhang with a dark charcoal or near-black roof panel and clean painted soffit — no columns, just a floating rectangular plane projecting over the entry. Broad shallow concrete steps in a clean grey tone lead up to the entry threshold, which holds a natural fiber coir doormat. Flanking the double doors symmetrically are two dark walnut or mahogany square planters, each holding a neatly pruned spiral topiary boxwood or arborvitae in a cone form. The low foundation plantings include trimmed boxwood hedges with fall color from an adjacent tree providing golden-orange foliage in the upper left. The two outer windows of the facade are framed with grey-painted surrounds, and a second-floor multi-pane window is centered above the entry. Warm white glows emanate from symmetrical wall-mounted positions on the brick flanking each side of the door pair, casting soft ambient washes across the brick surface. Camera is at standing eye-level, centered symmetrically, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "french_door"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor",
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.230Z"
+}

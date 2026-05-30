@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-cbc9d29d052be161",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-light-for-home-outdoor-waterproof-gate-side-column-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_4af0ecfb-297b-4f12-81dc-17346cdcc726.jpg?v=1774175670",
+  "scraped_date": "2026-05-21T12:04:36.114Z",
+  "source_title": "Pillar Light for Home Outdoor Waterproof Gate Side Column Lights",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cbc9d29d052be161f1aea2f77e48a8d9375c59cd",
+  "description": "A contemporary residential entry forecourt photographed at low eye-level with a normal lens in a three-quarter corner composition. The camera is positioned close to the ground on the approach pathway, looking diagonally up toward the entry steps and facade. Two dark charcoal grey cube-form bollard fixtures sit low on the pale granite paving, their open-face sides projecting warm amber light directly outward onto the grey stone pavers in broad, glowing rectangles. The constellation of small circular perforations across their sides casts tiny star-like pinpoints of golden light onto the surrounding paving surface. A wide set of three broad entry steps in light limestone or travertine leads up to the raised entry level. The house facade is clad in large-format rough-cut natural stone blocks in warm cream and tan, the corner column warmly washed by illumination from above. The entry door is a dark-framed glass-and-steel divided-light door of commercial scale, with interior amber light glowing beyond. A large black metal planter with a dense multi-stemmed magnolia or similar broadleaf tree stands to the left of the entry. Low clipped boxwood mounding occupies the planting beds at the right base. The foreground lawn is close-clipped green grass bordered by the paving edge. The background sky is deep dusk blue-grey. The palette is pale grey stone, warm amber, dark charcoal metal, and deep green. The atmosphere is grand, residential, and understated. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.833Z"
+}

@@ -370,26 +370,41 @@ Return ONLY the JSON object. No markdown fences, no commentary.
 Corpus:
 ${corpus.slice(0, 14000)}`;
 
-  try {
-    const parsed = await claudeJSON({
-      model: MODEL,
-      system: systemPrompt,
-      user: userPrompt,
-      maxTokens: 8192,
-      schema: StructuredCorpusSchema,
-    });
-    return {
-      extractedSpecs: parsed.extractedSpecs,
-      featureCallouts: parsed.featureCallouts,
-      marketingAngles: parsed.marketingAngles,
-    };
-  } catch (err) {
-    await log(
-      "warn",
-      `[desc-enrichment] structuring call failed: ${err instanceof Error ? err.message : err}`,
-    );
-    return { extractedSpecs: [], featureCallouts: [], marketingAngles: [] };
+  // 2-attempt retry: LLM JSON-parse failures are usually transient (stochastic
+  // decoding glitches) and a clean retry typically succeeds. Without this, a
+  // single bad token causes the entire enrichment to silently fall back to the
+  // raw 1688 image-only HTML.
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const parsed = await claudeJSON({
+        model: MODEL,
+        system: systemPrompt,
+        user: userPrompt,
+        maxTokens: 8192,
+        schema: StructuredCorpusSchema,
+      });
+      return {
+        extractedSpecs: parsed.extractedSpecs,
+        featureCallouts: parsed.featureCallouts,
+        marketingAngles: parsed.marketingAngles,
+      };
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (attempt < 2) {
+        await log(
+          "warn",
+          `[desc-enrichment] structuring attempt 1 failed (${msg.slice(0, 120)}) — retrying once`,
+        );
+        continue;
+      }
+      await log(
+        "warn",
+        `[desc-enrichment] structuring failed after 2 attempts: ${msg}`,
+      );
+      return { extractedSpecs: [], featureCallouts: [], marketingAngles: [] };
+    }
   }
+  return { extractedSpecs: [], featureCallouts: [], marketingAngles: [] };
 }
 
 /**
@@ -466,7 +481,7 @@ Rules:
 - Plain HTML. No CSS, no inline styles, no extra divs. Title Case for headings.
 - Return ONLY the <div>...</div> output. No markdown fences, no commentary, no preamble.
 - If a "Currently offered variants" list is provided, it OVERRIDES extractedSpecs entries that reference variant axis values. Drop or trim any spec bullet that lists options no longer offered (e.g. spec says "Color Options: Gold, Black, Silver" but live axis only has Gold and Black → write "Color Options: Gold, Black"). Don't add bullets for axes that weren't already in extractedSpecs.
-- DIMENSIONS: render every "Dimensions (...)" spec verbatim using the W×H×D format (e.g. "9.4"W × 9.4"H × 2.4"D" or "9.4"W × 2.4"H" for round). If the extractedSpecs contain multiple Dimensions rows that share the same value (only the parenthesized label differs), emit just ONE row per unique value — collapse to per-shape labels like "Dimensions (Round)" and "Dimensions (Square)" instead of one per design.
+- DIMENSIONS — PER-STYLE PRESERVATION IS MANDATORY: render EVERY "Dimensions (...)" spec entry from extractedSpecs verbatim, AS ITS OWN ROW. Use the W×H×D format (e.g. "9.4"W × 9.4"H × 2.4"D" or "9.4"W × 2.4"H" for round). The parenthetical label (e.g. "Dimensions (Yunshi Small)", "Dimensions (Jingyu)", "Dimensions (2-Head)", "Minglan, Shuya Dimensions") MUST appear in the output exactly as given — DO NOT rename "Yunshi Small" to "Small", DO NOT collapse "(2-Head)" into a generic "Small", DO NOT drop the style name. Only collapse two rows into one when the values are IDENTICAL AND the parenthetical labels refer to the same axis category (e.g. two "Dimensions (Round Small)" rows with same value → one row). When labels refer to different style/model/configuration names, keep them separate. Same rule applies to any per-variant spec ("Light Source Power (Small/Medium)", "Applicable Area (14W)", "Coverage Area (2-Head)") — preserve verbatim, one row each.
 - HIDE CHINA: DROP any spec whose name is "Origin", "Country of Origin", "Made In", "Manufacturer Location", or whose value mentions China / Mainland China / 中国 / PRC / Chinese cities (Guangdong, Shenzhen, Zhejiang, Yiwu, etc.). Same for featureCallouts — do not surface anything that reveals Chinese supplier origin.`;
 
   try {

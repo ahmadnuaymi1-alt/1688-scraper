@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-25a1ad9ebc0b4d55",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-mushroom-retro-metal-table-lamp-dimmable-creative-design-iron-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/retro-metal-table-lamp-coral-concrete-atmospheric.jpg?v=1760423980",
+  "scraped_date": "2026-05-21T15:52:28.236Z",
+  "source_title": "Retro Metal Table Lamp Mushroom Dimmable Creative Design Iron Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "25a1ad9ebc0b4d55826ddaf44426e8c31a014ec6",
+  "description": "A low credenza or console surface in a minimalist interior, photographed at standing eye-level with a normal lens in a tight vignette composition centered on the surface. The background wall is raw exposed concrete — coarse-textured, cool grey with natural tonal variation — giving the scene an industrial yet refined quality. The credenza itself has a dark charcoal top surface and warm wood-toned lower cabinet doors with subtle vertical grain, creating a tension between cool and warm materials. To the right of center, a large-format hardcover book lies open, its pages fanned softly, suggesting quiet intellectual atmosphere. A warm amber glow radiates outward from the surface at table height, pooling warmly on the credenza top and casting a gentle gradient of orange-amber illumination against the concrete wall behind — the light effect is intimate and directional, emanating from low on the surface and warming the surrounding textures at that level. The overall palette is cool industrial grey contrasted with warm copper-rose and deep amber tones. The mood is quietly dramatic, focused, and modern — a still moment in a sophisticated interior after dark. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.095Z"
+}

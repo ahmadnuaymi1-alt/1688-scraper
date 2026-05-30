@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-4b9ade44d142748d",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/butterfly-garden-tiffany-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Butterfly_Garden_Tiffany_Table_Lamp30.png?v=1778751183",
+  "scraped_date": "2026-05-21T12:08:51.968Z",
+  "source_title": "Butterfly Garden Tiffany Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "4b9ade44d142748d734c5bd988f180730d165d79",
+  "description": "A warmly intimate bedroom vignette photographed from a seated eye-level, roughly three to four feet high, with a normal-to-telephoto lens compressing the scene into a tight, cozy composition. The camera is positioned close to a dark cherry wood nightstand that occupies the foreground, looking slightly upward and across toward a bed. On the nightstand surface sit a ceramic mug with a gentle warm pool of ambient light catching its rim, a small stack of worn paperback books, and a modest fern in a terracotta-toned pot. The bed beyond is dressed in cream and ivory textiles — a crinkled linen coverlet and a chunky knit throw folded at the foot — with dark walnut bedposts rising toward the ceiling. A second small potted plant with lush green fronds sits on a lower shelf or surface near the bed. Natural light filters through sheer curtains at a window behind the bed, casting a diffused, warm afternoon glow across the creamy bedding. The walls are painted in a deep, muted amber-tan tone that wraps the room in softness. A framed artwork hangs on the wall above the headboard, its details soft and indistinct at this depth of field. The overall mood is quiet, nostalgic, and sheltered — a well-loved room that has accumulated small comforts over time. Antique brass and warm wood tones dominate the material palette, with dusty sage and cream as the primary textile colors. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.096Z"
+}

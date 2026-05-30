@@ -9,12 +9,14 @@
  *      that variant's featuredImageId points at if not a hero.
  *   2. Every lifestyle image (imageType="lifestyle"), in their current
  *      position order.
- *   3. Every subsequent visible variant's featured image, in variant-row order
- *      (skipping the lead's, which is already at position 1, and skipping any
- *      duplicate image IDs).
- *   4. Everything else (source/swatch rows, sister rows, orphan lifestyles
+ *   3. Every close-up image (imageType="closeup"), in their current position
+ *      order. Macro detail shots that sit between the lifestyles and the
+ *      trailing variant heroes.
+ *   4. Every subsequent visible variant's featured image (the remaining heroes),
+ *      in variant-row order.
+ *   5. Everything else (source/swatch rows, sister rows, orphan lifestyles
  *      that didn't have a placement, anything missed), in their existing
- *      position order.
+ *      position order — appended after the trailing heroes.
  *
  * Persisted positions are 0..N-1. The uploader sorts by position ascending
  * when pushing to Shopify, so this is also what Shopify will see.
@@ -26,6 +28,7 @@ export interface ApplyGalleryPresetResult {
   totalImages: number;
   leadHeroImageId: string | null;
   lifestyleCount: number;
+  closeupCount: number;
   trailingHeroCount: number;
   remainderCount: number;
 }
@@ -66,6 +69,10 @@ export async function applyGalleryPreset(
     leadHeroImageId = leadVariant.featuredImageId;
   }
 
+  // (Trailing heroes are placed explicitly in step 4 via featuredImageId
+  // lookup — no longer need to be held aside, because step 5's remainder
+  // sweep runs AFTER trailing heroes have been placed.)
+
   // 2. All lifestyle images, in current position order.
   let lifestyleCount = 0;
   for (const img of images) {
@@ -74,7 +81,15 @@ export async function applyGalleryPreset(
     }
   }
 
-  // 3. Subsequent variants' featured images, in row order.
+  // 3. All close-up images, in current position order.
+  let closeupCount = 0;
+  for (const img of images) {
+    if (img.imageType === "closeup" && placeIfValid(img.id)) {
+      closeupCount++;
+    }
+  }
+
+  // 4. Subsequent variants' featured images (remaining heroes), in row order.
   let trailingHeroCount = 0;
   for (let i = 1; i < variants.length; i++) {
     const v = variants[i];
@@ -83,7 +98,8 @@ export async function applyGalleryPreset(
     }
   }
 
-  // 4. Everything else, in current position order.
+  // 5. Everything else (source/swatch/sister/orphan), in current position
+  //    order — appended at the very end.
   let remainderCount = 0;
   for (const img of images) {
     if (placeIfValid(img.id)) {
@@ -112,6 +128,7 @@ export async function applyGalleryPreset(
     totalImages: images.length,
     leadHeroImageId,
     lifestyleCount,
+    closeupCount,
     trailingHeroCount,
     remainderCount,
   };

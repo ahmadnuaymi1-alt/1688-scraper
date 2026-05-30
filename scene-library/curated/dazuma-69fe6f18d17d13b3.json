@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-69fe6f18d17d13b3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-69fe6f18d17d13b3.jpg",
+  "source_url": "https://dazuma.us/products/unique-modern-chandelier-s-shaped-coral-design-led-light",
+  "description": "A contemporary commercial conference room photographed at standing eye-level with a normal-to-wide lens, capturing a one-point perspective looking down the length of a large dark walnut conference table. The table seats approximately twelve, surrounded by grey upholstered swivel chairs with matte black bases. Two glasses of water and several white document sheets are placed on the table surface. Behind the far end of the table stands a large-leafed tropical potted plant, its deep green foliage providing the only organic note in the otherwise monochromatic scheme. The ceiling is a dramatic composition of matte black parallel slats running along the room's length, creating a strong linear rhythm overhead and evoking a contemporary baffle ceiling treatment. A warm amber glow emanates from a continuous strip embedded in the ceiling near the back wall, washing the textured plaster rear wall with subtle warmth. The left wall is entirely composed of floor-to-ceiling black-framed glass partitions that reveal a bright adjacent office space beyond, reinforcing the modern corporate transparency. The herringbone-patterned dark oak floor runs the full length. The color palette is near-monochromatic — deep charcoal, warm grey, and pale plaster, with only the greenery providing contrast. The atmosphere is focused, minimal, and formally dramatic. Camera is level at standing height, centered on the table's long axis in a straight one-point perspective. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

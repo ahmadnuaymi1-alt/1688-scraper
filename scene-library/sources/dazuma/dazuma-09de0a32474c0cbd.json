@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-09de0a32474c0cbd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/minimalist-crystal-led-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/sophisticated-led-wall-light-decor-bedroom-art.jpg?v=1769996421",
+  "scraped_date": "2026-05-21T12:19:58.839Z",
+  "source_title": "Minimalist Crystal LED Wall Sconce",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "09de0a32474c0cbdaf31bb25b89fee2863949f9f",
+  "description": "A formal, symmetrical bedroom with a refined European-eclectic sensibility. The feature wall behind the bed is white with layered applied panel moulding creating two tall flanking vertical panels flanking a centered wider panel, all framed with delicate cornice moulding where the wall meets the ceiling. The centered wide panel holds a horizontal framed artwork — a dark forest green mat with a warm terracotta-toned abstract gestural figure on a cream ground, in a thin gold-toned frame. The bed has a tufted curved headboard in deep hunter green velvet, dressed with grey linen duvet and throws, terracotta and dusty mushroom throw cushions mixed on the pillows, and a casually folded cognac wool throw draped over the foot bench. The foot-of-bed bench is a fluted forest green velvet rectangular piece on slender gold legs. Flanking the bed are two identical matching nightstands in a warm walnut and white two-tone finish with brushed gold hardware. The left nightstand holds a small clock radio; the right nightstand holds a blue glass vase with a single stem of yellow flowers and a small clear glass vessel. The floor is warm light oak planking with a large grey flat-weave area rug anchoring the bed. Warm amber light emanates from the flanking wall-mounted positions on each side panel, washing the bed wall with gentle symmetrical illumination. Camera is at standing eye-level, shooting a centered symmetrical view of the full bed wall. The lens is a moderate wide angle, capturing the full width of the room including both nightstands and both wall positions. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.980Z"
+}

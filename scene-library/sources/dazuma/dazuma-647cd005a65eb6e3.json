@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-647cd005a65eb6e3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-globe-pendant-light-minimalist-luxury-small-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-modern-globe-pendant-light-bedroom.jpg?v=1776391412",
+  "scraped_date": "2026-05-21T12:03:41.313Z",
+  "source_title": "Modern Globe Pendant Light Minimalist Luxury Small Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Mini Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "647cd005a65eb6e33b7046bae775883780943a84",
+  "description": "A serene, minimalist bedroom photographed from a standing eye-level, off-center thirds composition that places the right side of the bed and the adjacent nightstand zone in the primary frame. The camera is level, with a normal-to-telephoto lens feel that flattens the depth slightly and emphasizes the richness of the wall treatment. The headboard wall is clad in large rectangular panels of deep tobacco-brown suede or leatherette, arranged in a grid with subtle tonal variation between the upper deep-brown panels and the lower grey-taupe panels below the headboard line. The bed itself is dressed in layers of crisp white and warm oatmeal linen, with a tufted caramel-tan upholstered headboard whose vertical channel stitching adds soft texture. A wall-mounted floating nightstand in white Carrara marble — veined in pale grey — hangs at bedside, its single drawer face clean and geometric. Suspended above the nightstand, a soft warm glow emanates from a rounded opalescent diffuser, illuminating the nightstand surface and casting a gentle upward and downward wash of amber-white light against the brown wall panel behind it. The cord disappears to a small brass-toned canopy at the ceiling. To the right, natural daylight filters through floor-length linen drapery in a warm greige tone, the fabric hanging in soft vertical folds. The floor is herringbone-patterned light oak parquet, and a low woven jute rug is partially visible at the bed base. The mood is quiet and refined, the palette earth-toned and warm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "herringbone_floor",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.337Z"
+}

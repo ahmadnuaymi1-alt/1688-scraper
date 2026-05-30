@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-892ed97a7dfaec29",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-spotlight-led-dynamic-water-ripple-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-outdoor-spotlight-led-ripple-wall-light.jpg?v=1775700795",
+  "scraped_date": "2026-05-21T12:03:49.172Z",
+  "source_title": "Outdoor Spotlight LED Dynamic Water Ripple Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Spotlights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "892ed97a7dfaec295e583bcda2a42a84c60c682f",
+  "description": "A contemporary luxury outdoor terrace or covered walkway photographed at dusk in fading twilight. The architecture is dramatically minimal: a long narrow covered passageway with a natural teak or ipe hardwood decking floor that runs in horizontal planks along the length of the space, and a matching teak or hardwood tongue-and-groove ceiling with visible linear grain overhead. The right side of the passage is bounded by a smooth white plaster or painted wall with large-format floor-to-ceiling sliding glass doors framed in warm teak, one of which is ajar and reveals a warm amber-lit interior room. At the far end, the passage opens to an expansive dusk sky — a gradient of pale lavender-pink and deep blue-gray clouds over the distant horizon with low tree silhouettes. To the left, the boundary wall is constructed from rough-cut natural stone in irregular shapes — a dramatic dry-stack or split-face rubble stone wall in shades of gray, taupe, and pale sandy tones. A stunning rippling pattern of warm golden light washes across the entire stone wall surface, creating an organic interplay of highlight and shadow that emphasizes every stone edge and surface irregularity. This warm wash originates from low-positioned light sources at the base of the wall, creating an upward grazing luminance. The overall palette is warm wood tones, cool stone gray, warm amber light, and the soft lavender-blue of the dusk sky. The mood is serene and luxuriously atmospheric. Camera is at approximately seated or low standing eye-level, about 4-5 feet, shooting slightly forward and level with a normal lens in a one-point perspective looking down the length of the passage. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall",
+      "french_door"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.478Z"
+}

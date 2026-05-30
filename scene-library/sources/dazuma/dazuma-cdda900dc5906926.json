@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-cdda900dc5906926",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/multi-light-wall-sconce-nordic-decorative-glass-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multi-light-wall-sconce-bathroom-mirror.jpg?v=1777256670",
+  "scraped_date": "2026-05-21T12:03:05.149Z",
+  "source_title": "Multi Light Wall Sconce Nordic Decorative Glass Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cdda900dc5906926c3aeee82ee2d1bb6b41240a9",
+  "description": "A minimalist foyer or hallway console vignette photographed at standing eye-level with a normal lens, capturing an off-center thirds composition that places the console table and vase on the left two-thirds with a large round mirror partially visible at the right edge. The wall is a smooth warm plaster in a soft off-white greige tone, subtly textured and almost painterly in its surface. Against this plaster wall sits a slim console table with a linen-upholstered or wrapped apron in warm natural greige, very low-profile and understated. On the console top stands a substantial white matte ceramic vase with a rounded organic hourglass form, holding an abundant loose arrangement of eucalyptus and olive branches with silver-grey and forest-green foliage that spills generously upward and to the sides. A warm pool of light illuminates the wall and console from above, with a soft glow visible around the light sources embedded in two clear glass globe forms mounted on a matte black vertical bar form — the sources themselves visible as warm amber filaments. To the right, a large round mirror with a slim matte black frame reveals a pale natural-light window reflection and the soft ambient white of the space. The overall palette is warm white, pale greige, and forest green with matte black accents. The mood is quietly editorial and clean. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.840Z"
+}

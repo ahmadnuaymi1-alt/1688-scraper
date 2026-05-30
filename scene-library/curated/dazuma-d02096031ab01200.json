@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-d02096031ab01200",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d02096031ab01200.jpg",
+  "source_url": "https://dazuma.us/products/exterior-spotlights-water-ripple-outdoor-projection-mood-light",
+  "description": "A dramatic minimalist contemporary residential exterior photographed at standing eye-level with a normal-to-wide lens, capturing a three-quarter corner view of a crisp white stucco wall mass meeting a large-format stone-clad column at right. The building geometry is pure and abstract — smooth white plaster walls meeting at a sharp exterior corner, with the deep blue dusk sky behind creating a silhouette quality to the building edges. Against the base of the central white wall, two ground-level uplight sources project powerful electric blue-white cone-shaped washes upward across the white stucco surface, creating a spectacular rippling water-caustic light effect that covers nearly the full height of the wall in a shimmering, dappled pattern of cyan and blue-white. The effect mimics sunlight through water and is strikingly architectural. Low dark shrub plantings cluster at the base of the wall, lit by the uplight spill in warm amber from below, contrasting with the cool blue above. A white gravel path runs along the base of the building. At the right side of the frame, a broad stone-clad column in warm grey travertine marks the entry porch, with wide shallow concrete steps leading up to a recessed entry alcove with a warm amber interior glow. The sky is a rich deep cobalt blue at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall",
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

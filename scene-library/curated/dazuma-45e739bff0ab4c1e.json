@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-45e739bff0ab4c1e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-45e739bff0ab4c1e.jpg",
+  "source_url": "https://dazuma.us/products/ins-style-minimalist-unique-table-lamps-creative-charging-design-light",
+  "description": "A warm, California-inflected console vignette set against a bright white plaster wall with a large abstract canvas painting in soft off-white and stone tones hanging at the right. The sideboard or credenza features rich dark walnut with vertical fluted door fronts and a smooth flat top. Atop the surface, a large round globular stoneware vase in mottled grey-taupe with a rough hand-thrown texture holds a healthy zamioculcas (ZZ plant) with glossy deep-green upright stems. Two small round turned wooden vessels in warm terracotta-cognac tones sit nestled beside the vase. A soft warm amber glow radiates from surface height, washing the walnut surface, the grey vase, and the lower section of the wall with gentle warmth. The overall palette is warm neutral with terracotta accents. Camera is at standing eye-level, normal lens, three-quarter view of the sideboard and corner wall. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

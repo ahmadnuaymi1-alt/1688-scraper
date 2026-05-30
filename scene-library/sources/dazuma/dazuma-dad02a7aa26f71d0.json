@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-dad02a7aa26f71d0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-up-wooden-christmas-houses-snow-scene-decorative-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/rustic-chalet-snowy-roof-light-up-wooden-christmas-houses.jpg?v=1763810495",
+  "scraped_date": "2026-05-21T15:52:02.527Z",
+  "source_title": "Light up Wooden Christmas Houses Snow Scene Decorative Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "dad02a7aa26f71d0b64d3507ca0fedd58daad04c",
+  "description": "A festive tabletop scene set against a soft white background. The surface is covered in scattered faux white snow material. A large decorative illuminated house ornament — a gabled brown wood and white snow-dusted miniature cottage with arched windows — is positioned as the centerpiece, its interior windows glowing warm golden amber from within. Flanking the house, small white snow-flocked miniature evergreen trees and pinecones are arranged on the snowy base. A small cream paper tree and a single pinecone sit to the right. In the soft-focus background, golden fairy light bokeh from a garland and the green branches of a Christmas tree add warmth and seasonal depth. To the far right edge, the corner of a white wall or door frame is visible. The mood is magical, quiet, and nostalgically festive — a classic Christmas village vignette in white and gold. A warm amber glow at surface level emanates from within the decorative house ornament, pooling softly onto the white snow surface below and around it. Camera at seated eye-level, normal lens, off-center wide vignette composition framing the house ornament from slightly below. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.889Z"
+}

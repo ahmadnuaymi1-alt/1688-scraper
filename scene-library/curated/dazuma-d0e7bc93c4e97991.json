@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-d0e7bc93c4e97991",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d0e7bc93c4e97991.jpg",
+  "source_url": "https://dazuma.us/products/linear-wall-sconces-indoor-high-end-full-copper-lamp",
+  "description": "A living room media wall photographed at standing eye-level with a normal lens, capturing a wide establishing view of the full TV wall and entertainment console. The feature wall is a two-zone composition: the left section is clad in dark chocolate-stained vertical wood slats with tight spacing and deep shadows between them, creating a richly textured dark backdrop. The right section transitions to a large-format warm cream travertine marble slab — creamy beige with fine grey veining and a warm, sandy tone — spanning most of the wall height. A large flat-screen television is wall-mounted centered on the travertine section. Below the TV, a long low walnut-toned media console runs the full width of the scene, with fronts in a rich warm brown walnut or cherry veneer with subtle grain, set on slim brass-tipped hairpin-style legs. On the console surface from left to right: a matte dark charcoal ceramic vase holding a sparse spray of dried cherry branches with tiny white flowers; a flat black decorative bowl with a small mound of warm yellow-orange citrus fruits; a matte white ceramic bottle-shaped vase and a slimmer white cylindrical vase grouped at the far right. A large-leafed tropical plant in a matte black pot stands at the left foreground. On the dark slat wall section, a slim vertical matte black wall form with an interior geometric screen diffuser emits warm amber light. Natural daylight rakes obliquely across the travertine wall from an off-frame window, casting soft architectural shadows. The floor is a large-format ivory or cream stone tile, with a low-pile ivory textured rug beneath the coffee table. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-1f1e1c23d8e0daec",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-1f1e1c23d8e0daec.png",
+  "source_url": "https://vakkerlight.com/products/calla-bloom-floor-lamp",
+  "description": "A feminine, romantic sitting room corner photographed at standing eye-level with a normal lens, showing a three-quarter corner view of two walls meeting. The walls are painted in a warm cream with subtle texture, and a tall multi-pane window on the left lets in soft natural daylight with simple sheer curtains. The floor is covered in a low-pile sisal or natural fiber rug in warm biscuit tones. A voluptuous chaise longue in dusty rose velvet occupies the left side of the frame, dressed with a loosely draped cream knit throw and a small ceramic mug. To the right stands a round dark walnut pedestal side table holding a curated arrangement: a stack of hardcover books, a slender glass vase with a dried floral stem, and a small ceramic dish. On the wall behind the side table, a grid of four small framed botanical prints in gilded frames creates a composed gallery moment. A gentle, warm glow radiates softly from floor level between the chaise and side table, illuminating the surrounding floor and the lower wall surfaces, wrapping the velvety surfaces of the chaise in a rosy warmth — all of the light emanates at floor height and below. The palette combines dusty rose, warm cream, dark walnut brown, and natural biscuit, creating an intimate, romantic atmosphere. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-2712952c93beaf6f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2712952c93beaf6f.jpg",
+  "source_url": "https://dazuma.us/products/fireless-scented-flower-melt-table-lamp-elegant-creative-night-light",
+  "description": "A small round side table styled with a curated botanical vignette, photographed at seated eye-level with a normal lens in a tight vignette composition. The table has a white painted top and a light natural wood base, sitting against a soft warm grey wall. On the table surface, a terracotta pot holds a lush variegated fern with cascading chartreuse and green fronds. A small wooden display tray holds an amber glass jar labeled 'Fine Living' with a cork lid, its warm honey-colored glass catching the glow radiating from table height. To the right, a dusty sage-green metal sculptural candle holder with a petal-form tray and a second small decorative element in the same sage patina sit in the foreground. The warm amber light pools softly on the white table surface and illuminates the surrounding objects at surface level, casting gentle warm gradients across the tray, the terracotta pot, and the wall immediately behind. At the left edge of the frame a textured throw pillow and the partial geometric grid-pattern of a decorative accent are visible. The color palette blends dusty sage green, warm amber, cream, and natural terracotta with an organic botanical sensibility. The mood is casual and warmly lived-in with a crafted, artisan quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

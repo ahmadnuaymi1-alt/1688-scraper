@@ -89,3 +89,72 @@ export async function GET(req: NextRequest) {
 
   return NextResponse.json({ jobs, total, page, limit });
 }
+
+/**
+ * Delete N ScrapeJobs and their linked Products from the imports list.
+ *
+ * Body: { jobIds: string[] }
+ *
+ * Each row on /imports is a job joined to its product — deleting the job
+ * alone would leave the product orphaned in the DB (still reachable via
+ * /review/<id>), so we remove both. Prisma cascades handle the rest:
+ *   - Product.delete  → cascades to Variant + ProductImage (onDelete: Cascade)
+ *   - ScrapeJob.delete → cascades to JobLog (onDelete: Cascade)
+ *
+ * Supabase storage blobs are intentionally NOT scrubbed here — matches the
+ * existing image-gallery bulk-delete behavior. (Follow-up if we want it.)
+ */
+export async function DELETE(req: NextRequest) {
+  let user;
+  try {
+    user = await requireUser();
+  } catch {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  let body: { jobIds?: unknown };
+  try {
+    body = (await req.json()) as { jobIds?: unknown };
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+  if (!Array.isArray(body.jobIds) || body.jobIds.length === 0) {
+    return NextResponse.json({ error: "jobIds must be a non-empty array" }, { status: 400 });
+  }
+  const requestedJobIds = body.jobIds.filter((id): id is string => typeof id === "string");
+  if (requestedJobIds.length === 0) {
+    return NextResponse.json({ error: "jobIds must contain at least one string id" }, { status: 400 });
+  }
+
+  // Scope to jobs the caller actually owns. Anything missing or owned by
+  // someone else is silently dropped — the response counts what we touched.
+  const jobs = await prisma.scrapeJob.findMany({
+    where: { id: { in: requestedJobIds }, userId: user.id },
+    select: { id: true, product: { select: { id: true } } },
+  });
+  const allowedJobIds = jobs.map((j) => j.id);
+  const productIds = jobs
+    .map((j) => j.product?.id)
+    .filter((id): id is string => typeof id === "string");
+
+  if (allowedJobIds.length === 0) {
+    return NextResponse.json(
+      { error: "No accessible jobs in request" },
+      { status: 404 },
+    );
+  }
+
+  // Products first (cascades to variants + images), then jobs (cascades to
+  // JobLogs). Both in one transaction so a half-state can't happen.
+  await prisma.$transaction([
+    ...(productIds.length > 0
+      ? [prisma.product.deleteMany({ where: { id: { in: productIds } } })]
+      : []),
+    prisma.scrapeJob.deleteMany({ where: { id: { in: allowedJobIds } } }),
+  ]);
+
+  return NextResponse.json({
+    deletedJobs: allowedJobIds.length,
+    deletedProducts: productIds.length,
+  });
+}

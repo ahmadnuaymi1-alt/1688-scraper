@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-ae54f591b76d28fd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mount-outdoor-light-modern-minimalist-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-pair-geometric-wall-mount-light.jpg?v=1775700513",
+  "scraped_date": "2026-05-21T12:03:55.965Z",
+  "source_title": "Wall Mount Outdoor Light Modern Minimalist Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ae54f591b76d28fd7f6cfb565741dc2f166acd3c",
+  "description": "An exterior evening wall vignette photographed at standing eye-level with a normal lens, centered symmetrical composition showing a smooth stucco exterior facade wall with two matching mounted fixtures side by side. The wall is rendered in a rough smooth white or light cream stucco with an irregular matte plaster finish, its surface showing slight variation in tone and texture typical of hand-applied or machine-spray exterior render. The two fixture positions are evenly spaced on the wall, each creating a dramatic halo of warm amber light that spreads in an upward and downward wash from each unit, casting a golden glow on the stucco and throwing deep shadows of the ornate geometric frame patterns against the pale wall surface. The shadow play is highly decorative, with concentric square or chevron-shaped outlines repeating in relief against the illuminated surface. At the top right corner of the image, a broad fan-shaped tropical palm frond intrudes slightly into the frame in the upper right. Behind the right fixture, a partially visible warm interior window glow and glimpse of a building corner suggest a residential or resort context. The sky is fully dark — clear nighttime. The mood is contemporary tropical luxury, architecturally bold. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.681Z"
+}

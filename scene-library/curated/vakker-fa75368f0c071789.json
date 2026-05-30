@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-fa75368f0c071789",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-fa75368f0c071789.png",
+  "source_url": "https://vakkerlight.com/products/halo-muse-sculptural-table-lamp",
+  "description": "A moody and dramatic sitting room corner photographed at standing eye-level with a normal lens, capturing a three-quarter view. The walls are painted in deep charcoal matte black, creating an enveloping dark atmosphere. A forest green velvet armchair with slim brass-tube legs sits center-right in the frame. To its left, a large sculptural classical bust in dark stone or resin stands atop a rough stone or concrete pedestal block. Behind the bust, a circular ring element emanates a warm golden ambient glow in a halo form, casting a warm circle of light against the dark charcoal wall and illuminating the bust from behind. A tall dark side table to the far left holds a ceramic vase with a dried floral arrangement. On the upper right wall, a large abstract painting in deep forest green, matte black, and gold tones hangs prominently. A stack of books is arranged on the floor beside the pedestal. A low-pile charcoal rug covers the floor. Natural light from a window to the left casts a narrow shaft of cold daylight along the far wall. The palette is richly dark — matte black, forest green, brass gold, warm amber, with dried organic ivory accents. The mood is dramatic and scholarly with a maximalist editorial quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

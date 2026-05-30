@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-2ae9e7bc5c58f946",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2ae9e7bc5c58f946.jpg",
+  "source_url": "https://dazuma.us/products/stained-glass-flush-mount-light-modern-led-creative-ceiling-light",
+  "description": "A residential room corner photographed at a slightly elevated eye-level with an off-center thirds composition, the camera looking up toward the ceiling junction where two walls meet, with a partial white painted door surround and moulding visible at lower left. The walls are a warm greige or sand-beige tone — smooth painted plaster with simple flat painted woodwork at the door opening. The ceiling is painted the same warm white tone. In the lower right corner, a dried botanical arrangement stands in a vase or vessel — a mix of tall natural dried pampas grass plumes in sandy beige and eucalyptus stems in dusty green, creating an organic textural vignette against the beige wall. The multi-globe ceiling-mounted element at center emits soft warm-tinted multicolored illumination from its cluster of marbled glass sphere elements in sage green, butter yellow, coral orange, pale lavender, and frosted white, washing the warm greige ceiling in a gentle diffused glow of mixed pastel light. The palette is warm greige, soft multi-pastel tones from the glass elements, crisp white woodwork, and natural dried botanical textures. The mood is playful, warm, and domestically cozy. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

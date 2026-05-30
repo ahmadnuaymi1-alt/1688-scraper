@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-a02fe13206fa3b7e",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-a02fe13206fa3b7e.jpg",
+  "source_url": "https://vakkerlight.com/products/gingko-chandelier-i",
+  "description": "A sophisticated contemporary living room with dramatic dark grey paneled walls articulated by vertical grooves, creating a refined architectural backdrop. The ceiling is a smooth mid-grey. A generous L-shaped or multi-seat sofa arrangement in light warm grey upholstery is partially visible in the lower third of the frame, accessorized with a single mustard-yellow accent cushion and paired with a small round coffee table with a gold-toned metallic surface. A boldly patterned houndstooth accent chair or footstool in black and white appears at the far right edge. A large tropical plant — likely a banana leaf or bird of paradise — in a dark olive-toned vessel anchors the lower left corner, its broad verdant leaves fanning outward. The walls glow faintly warm from above, with sparkle-point highlights scattered across the upper frame suggesting multiple small point sources nestled within an elaborate botanical sculpture suspended from the grey ceiling on fine cables. The overall palette is dark and rich: charcoal walls, grey sofa, gold metallic accents, and clean white from the sculptural botanical element overhead. The atmosphere is formal, luxurious, and theatrical. Camera positioned at approximately seated to standing eye-level, slightly below the suspended sculptural element, using a normal to slightly wide lens. The composition is centered and symmetrical, with the overhead botanical installation commanding the full upper half of the frame while the living room arrangement is presented as a backdrop below. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

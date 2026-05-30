@@ -1,0 +1,123 @@
+{
+  "productId": "cmpi9wjfd009xw2f05mtmoesu",
+  "productTitle": "Iron Adjustable No Flicker E27 Screw Base LED Desk Lamp",
+  "authoredBy": "in-chat scene design (per-variant cool white 4500K; all 4 variants share same bulb; 4 colourways pink/blue/green/purple cycled across 6 slots)",
+  "authoredAt": "2026-05-23T12:25:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "pink-tween-homework-desk",
+      "mode": "homey",
+      "prompt": "A tween-girl's bedroom homework desk corner, shot on a 35mm lens at seated-child eye-level slight three-quarter so the pink retro desk lamp anchors the back-left of a 1:1 frame on a slim white-painted writing desk. Late afternoon: warm window light rakes in from a sash window at frame-right with sheer cotton curtains pulled halfway, throwing soft golden bars across the desk. Style with a tilted open spiral notebook half-filled with handwriting, a yellow ticonderoga pencil resting in the spine, a chunky stack of three well-loved hardback novels stood vertical with a small ceramic horse figurine on top, a striped enamel mug of milk on a folded gingham coaster, and a small terracotta pot of trailing pothos at frame-right. Walls are a soft butter-yellow paint with a leaning small framed botanical sketch. The lamp matches the reference image exactly — glossy pink painted iron bell-shade with the black ribbed gooseneck arm and matching pink painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of butter yellow, dusty pink, cream, pale oak, fresh green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "tween bedroom homework desk",
+      "designStyle": "cheerful cottagecore tween",
+      "wallColour": "butter-yellow paint",
+      "cameraAngle": "35mm seated child eye-level three-quarter",
+      "timeOfDay": "late afternoon",
+      "accents": [
+        "white-painted writing desk",
+        "open spiral notebook with ticonderoga pencil",
+        "stack of hardback novels with ceramic horse figurine",
+        "striped enamel mug on gingham coaster",
+        "terracotta pot of trailing pothos"
+      ]
+    },
+    {
+      "slug": "blue-midcentury-writers-desk",
+      "mode": "minimalist",
+      "prompt": "A small mid-century writer's home office, shot on a 35mm lens at standing eye-level slight three-quarter so the blue retro desk lamp sits in the upper-left third of a 1:1 frame on a walnut tanker-style desk. Early morning: cool quiet light through a single steel-framed casement window at frame-right; the only second light source is a slim brushed-brass picture light glowing softly over a leaning small framed abstract sketch on the back wall. Tight styling — three intentional objects — a leather-bound writing journal open to a clean page with a tortoiseshell fountain pen resting across it, a small ceramic dish holding two brass paper clips and a half-burned beeswax stub, and a single dried teasel head in a slim stoneware bottle. Walls are a warm cream limewash; the oak chair back just visible at frame-edge. The lamp matches the reference image exactly — glossy cornflower-blue painted iron bell-shade with the black ribbed gooseneck arm and matching blue painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of cream, cornflower blue, walnut, brass, soft teasel beige. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "mid-century writer's home office",
+      "designStyle": "quiet mid-century modern",
+      "wallColour": "warm cream limewash",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "early morning",
+      "accents": [
+        "walnut tanker desk",
+        "leather-bound journal with tortoiseshell fountain pen",
+        "ceramic dish with brass clips and beeswax stub",
+        "dried teasel head in slim stoneware bottle",
+        "brushed-brass picture light"
+      ]
+    },
+    {
+      "slug": "green-greenhouse-potting-bench",
+      "mode": "homey",
+      "prompt": "A weathered indoor potting bench in a small glass-walled garden room off a kitchen, shot on a 50mm lens slightly above the bench looking gently down so the green retro desk lamp anchors the back-right of a 1:1 frame on a reclaimed-oak workbench. Mid-morning: cool soft light pours through a tall steel-framed casement to frame-left, plus warmer reflected light off the weathered whitewashed brick wall behind. Style with a clutch of small terracotta pots — one empty, one with a chocolate-brown seedling tray of basil starts, one with a clay tag tied with twine — beside a small linen sack of seed mix with a wooden scoop, a folded leather gardening glove pair, a small stoneware crock holding shears and twine, and a single trimmed eucalyptus sprig laid across the bench. Walls are weathered whitewashed brick with peg-rail hooks. The lamp matches the reference image exactly — glossy spring-green painted iron bell-shade with the black ribbed gooseneck arm and matching green painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of weathered white brick, spring green, terracotta, oak, sage. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "indoor potting bench / garden room",
+      "designStyle": "weathered horticultural workshop",
+      "wallColour": "weathered whitewashed brick",
+      "cameraAngle": "50mm slightly above bench looking down",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "reclaimed-oak workbench",
+        "cluster of terracotta pots with seedling tray",
+        "linen seed-mix sack with wooden scoop",
+        "stoneware crock with shears and twine",
+        "leather gardening gloves",
+        "eucalyptus sprig"
+      ]
+    },
+    {
+      "slug": "purple-bohemian-art-studio",
+      "mode": "homey",
+      "prompt": "A working corner of a small artist's studio, shot on a 35mm lens at standing eye-level slight three-quarter so the purple retro desk lamp anchors the upper-right of a 1:1 frame above a paint-splattered oak craft table. Midday: cool flat north-facing skylight from above is the only second light source. Style with a small linen-stretched canvas mid-paint propped against the wall (loose abstract daubs of muted ochre and slate), a chunky stoneware mason jar densely packed with worn paintbrushes handles-up, a wooden palette with smears of cobalt, ochre, ivory, a folded paint-rag, a tin tray with three small ceramic dishes of mixed pigment, and a stack of cloth-bound sketchbooks beside a stoneware mug of black coffee. Walls are a deep dusty-aubergine limewash with two more leaning unfinished canvases visible at frame-edges. The lamp matches the reference image exactly — glossy violet-purple painted iron bell-shade with the black ribbed gooseneck arm and matching purple painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of dusty aubergine, ochre, ivory, slate blue, oak. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "small artist's studio corner",
+      "designStyle": "bohemian working artist's studio",
+      "wallColour": "dusty aubergine limewash",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "midday",
+      "accents": [
+        "paint-splattered oak craft table",
+        "linen canvas mid-paint with abstract daubs",
+        "stoneware jar of worn paintbrushes",
+        "wooden palette with cobalt/ochre/ivory smears",
+        "tin tray with mixed pigment dishes",
+        "stack of cloth-bound sketchbooks"
+      ]
+    },
+    {
+      "slug": "pink-cottagecore-sewing-corner",
+      "mode": "homey",
+      "prompt": "A cottagecore sewing corner of a small craft room, shot on a 35mm lens slightly elevated three-quarter so the pink retro desk lamp anchors the back-centre of a 1:1 frame on a vintage scrubbed-pine sewing table. Golden hour: a warm orange-pink wash from a low sash window at frame-right catches dust motes; the only second light source is that window light itself. Style with the corner of a folded antique quilt peeking out from a wicker basket below the table, a small mason jar half-filled with pearl buttons sorted by colour, a wooden spool of cream cotton thread standing on end, a single pewter thimble resting in a tiny stoneware dish, a folded stack of three fabric remnants in calico, ticking-stripe and ditsy-floral cotton, a small enamel teacup half-full of tea, and a pin cushion shaped like a tomato. Walls are a soft blush-rose limewash with a leaning small embroidery hoop sampler. The lamp matches the reference image exactly — glossy pink painted iron bell-shade with the black ribbed gooseneck arm and matching pink painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of blush rose, cream, faded pink, pale oak, ditsy floral. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "cottagecore sewing corner",
+      "designStyle": "warm cottagecore craft",
+      "wallColour": "soft blush-rose limewash",
+      "cameraAngle": "35mm slightly elevated three-quarter",
+      "timeOfDay": "golden hour",
+      "accents": [
+        "scrubbed-pine sewing table",
+        "wicker basket with antique quilt corner",
+        "mason jar of sorted pearl buttons",
+        "wooden spool of cream thread",
+        "pewter thimble in stoneware dish",
+        "folded fabric remnants",
+        "tomato pin cushion"
+      ]
+    },
+    {
+      "slug": "blue-japandi-student-study",
+      "mode": "minimalist",
+      "prompt": "A pared-back student study nook in a small bedroom corner, shot on a 50mm lens at seated desk-height so the blue retro desk lamp sits centred in the upper-left of a 1:1 frame on a slim ash-veneer floating desk. Late evening: walls dark beyond the desk, the only second light source is a small linen-shaded floor lamp throwing a soft pool of warmth from the far corner. Tight styling — three intentional objects — a stack of three hardback textbooks with library plastic covers neatly stacked, a folded grid-paper notebook with a green silk bookmark and a sharpened wooden pencil resting across it, and a slim stoneware mug of steaming green tea on a small cork coaster. A single dried wheat stem stands in a slim clear bud vase beside the books. Walls are a warm off-white with a single small leaning framed ink sketch at floor-edge. The lamp matches the reference image exactly — glossy cornflower-blue painted iron bell-shade with the black ribbed gooseneck arm and matching blue painted round base with rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of warm off-white, cornflower blue, ash, oat linen, green tea. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "student study nook",
+      "designStyle": "pared-back Japandi student",
+      "wallColour": "warm off-white",
+      "cameraAngle": "50mm seated desk-height",
+      "timeOfDay": "late evening",
+      "accents": [
+        "ash-veneer floating desk",
+        "stack of library-covered textbooks",
+        "grid-paper notebook with green silk bookmark",
+        "stoneware mug of green tea on cork coaster",
+        "dried wheat stem in clear bud vase",
+        "leaning small framed ink sketch"
+      ]
+    }
+  ]
+}

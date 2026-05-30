@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-f2c82e628c8462fe",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/forest-leaf-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Sunrise_Dome_Table_Lamp33.png?v=1778751331",
+  "scraped_date": "2026-05-21T12:08:53.367Z",
+  "source_title": "Forest Leaf Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "f2c82e628c8462fee958adfe39078bbc908bb70b",
+  "description": "A warm lived-in living room side table vignette photographed at seated eye-level with a normal lens, framing an off-center composition focused on a small rustic end table between a sofa and the wall. The walls are smooth plaster in a warm cream-ivory tone. Soft afternoon light enters from a multi-pane window at the far right, casting warm golden rays across the scene and illuminating the space with a gentle glow. A framed botanical print hangs on the wall at the upper left — a sprig of leaves on an aged cream paper. A warm amber glow radiates from the table surface, spilling upward and outward onto the botanical shade above it with a print of illustrated leaves in brown and green, and pooling on the tabletop objects below. On the side table surface: a small terracotta pot with a green fern or herb plant, a ceramic mug in a warm cream glaze, and a stack of two books. The table itself is a small rustic wood form in a warm mid-brown, with a lower shelf visible. At the right, the rounded arm of a cream upholstered sofa is visible, with a mustard yellow knit throw draped over it. The palette is warm neutral with mustard and terracotta accents. The mood is casual and lived-in. Object density is mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.254Z"
+}

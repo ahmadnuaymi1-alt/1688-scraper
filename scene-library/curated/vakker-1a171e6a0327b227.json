@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-1a171e6a0327b227",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-1a171e6a0327b227.png",
+  "source_url": "https://vakkerlight.com/products/trapezia-alabaster-desk-lamp",
+  "description": "A sophisticated dark living room photographed in a square format with a moody editorial quality. A near-black painted wall in a deep graphite or charcoal tone serves as the backdrop, creating strong contrast with the lighter furnishings. On the left, a warm walnut or cognac-finish console side table hosts a stack of worn leather-bound books as bookends along with a small decorative figurine in dark patinated bronze. A large abstract artwork in a warm wood frame hangs on the back wall — the print is in muted sand, warm off-white, and charcoal tones with loosely gestural forms. A generous cream or off-white linen sofa sits at center right, its back pillows in neutral ivory, with a loosely draped cream-grey herringbone throw. A large fiddle-leaf fig tree in a woven basket planter fills the far right corner with dramatic dark green broad leaves. A warm amber pool of light illuminates the console table surface and the side wall area from the right side at surface level. The floor is dark-stained hardwood in a near-black warm finish. Camera at standing eye-level, normal lens, three-quarter view of the living room corner showing the sofa, console, art, and plant, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

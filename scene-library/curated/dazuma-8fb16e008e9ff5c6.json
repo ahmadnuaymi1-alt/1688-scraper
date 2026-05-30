@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-8fb16e008e9ff5c6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-8fb16e008e9ff5c6.jpg",
+  "source_url": "https://dazuma.us/products/led-light-bar-for-wall-single-character-long-strip-rotatable-lamp",
+  "description": "A contemporary Asian-influenced bedroom photographed at standing eye-level with a normal lens, composed as a three-quarter corner shot showing the junction between the built-in wardrobe wall and the bed headboard wall. The left side shows a floor-to-ceiling built-in wardrobe system in matte cream-white panel fronts with minimal recessed line handles and small brass rectangular pull hardware. The wall face is smooth cream plaster. The bed headboard is a wide horizontal form in natural warm walnut wood with an inset cream leather or fabric upholstered panel, clean and geometric. The bed is dressed in crisp white bedding with a draped grey woven throw folded across the foot and a grey linen accent pillow. Beside the bed, a dark walnut floating shelf nightstand holds a magazine or small art book leaning in a gold frame, and a white flip clock showing 10:10. The warm amber glow from the wall-mounted source above casts a directed pool of warm light downward onto the nightstand surface and the cream wall below. The palette is creamy ivory, warm walnut, cool grey, and brass gold. The mood is quiet and hotel-refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp",
+      "pendant",
+      "flush_mount"
+    ],
+    "source_hero_position": "wall",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

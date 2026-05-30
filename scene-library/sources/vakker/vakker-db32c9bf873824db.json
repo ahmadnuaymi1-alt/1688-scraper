@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-db32c9bf873824db",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/adjustable-travertine-dome-vanity-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Adjustable_Travertine_Dome_Vanity_Light38.png?v=1779331886",
+  "scraped_date": "2026-05-21T12:08:29.573Z",
+  "source_title": "Adjustable Travertine Dome Vanity Light",
+  "source_product_type": "Wall Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "db32c9bf873824dbb9819b30e31cdcde3a8adefd",
+  "description": "A warm, rustic bathroom vanity photographed at standing eye-level with a normal lens, framing a centered symmetrical view of the vanity and mirror wall. The wall behind is finished in a rough, textured warm plaster in a dusty camel-sand tone. A wide rectangular mirror with a slim dark bronze or aged brown metal frame dominates the center of the wall, flanked by neutral linen-colored curtain panels at the right edge. The vanity surface below is a live-edge or thick-slab wood plank in a warm honey and amber tone, sitting on a dark metal frame. On the vanity countertop, a collection of amber glass apothecary bottles in various sizes forms a casual grouping, alongside a neatly folded white hand towel. A small ceramic or stone under-mount basin in white sits to the right of center, paired with a warm antique brass deck-mount faucet. Two small terracotta-potted succulents or cacti add a naturalistic note at right. The reflected view in the mirror reveals a bathtub or soaking tub in the background. Above the mirror, four directed round spot heads are mounted on a linear horizontal bar, angled downward to illuminate the vanity surface in focused warm beams. The palette is amber, dusty sand plaster, warm brown metal, and ivory — a deeply earthy and rustic California or French farmhouse character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.231Z"
+}

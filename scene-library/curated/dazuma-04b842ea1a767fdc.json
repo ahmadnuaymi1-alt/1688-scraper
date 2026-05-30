@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-04b842ea1a767fdc",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-04b842ea1a767fdc.jpg",
+  "source_url": "https://dazuma.us/products/linear-suspension-lighting-fixtures-modern-aluminum-light",
+  "description": "A sleek, minimalist corporate conference room photographed at standing eye-level, roughly 5–6 feet, with a moderately wide lens — approximately 24–28mm — in a one-point perspective composition. The camera is positioned at the narrow end of the room, level, looking straight down the length of the conference table, with the far wall centered in the frame. Both long walls recede symmetrically toward a vanishing point at the back wall, giving the room a strong tunnel-like depth. The full room is visible from floor to ceiling, capturing the entirety of the space.\n\nThe architecture is clean and rectilinear with smooth plaster walls in a warm off-white, almost greige tone. The ceiling is flat and unadorned, a pale neutral concrete or plaster finish. Large-format porcelain tile flooring in a cool medium grey runs throughout, laid in a simple grid pattern. Along the left wall, a full-width built-in credenza in matte white with flush panel doors provides low horizontal storage. Above it, a large-format flat-screen display panel is flush-mounted in a dark recessed surround, creating a bold rectangular black focal element anchoring the left side of the back wall.\n\nThe back wall features a recessed open shelving unit in dark charcoal or near-black finish, styled with ceramic vases of varying heights in matte white and stone tones, small decorative books, and a compact potted green plant — a small leafy indoor tree — whose fresh foliage provides the only organic note of green in the room. The shelving unit is flanked by the display panel to the left and a floor-to-ceiling window with horizontal blinds to the right, which admit soft diffused daylight suggesting midday or early afternoon. The blinds are partially lowered, softening the incoming light to a gentle, even wash across the right side of the room.\n\nThe central conference table is a statement piece: a long rectangular form with a white Calacatta-style sintered stone or marble-look top, displaying soft grey veining on a creamy white ground. Its base is a bold sculptural trapezoid form in matte black, creating a dramatic contrast between the pale tabletop and the dark structural pedestal. Two open laptops sit on the table surface along with a small stack of books or materials, suggesting the room is prepared but not yet occupied. The table comfortably seats approximately ten to twelve.\n\nSurrounding the table are ergonomic mesh task chairs in two slightly different finishes: those along the left side are a darker charcoal-grey with darker seat pads, while those along the right side are a lighter warm white-grey mesh with white frames. Both styles are modern, high-backed, and mounted on castors. The chairs are neatly positioned at even intervals, reinforcing the room's precision and order.\n\nAmbient illumination in the scene is calm and layered. A soft warm glow emanates from a cove or recessed strip concealed along the top of the left-wall credenza surround, washing the upper back wall with a gentle warm amber tone that contrasts subtly with the cooler daylight entering from the right window. The table surface receives a clean, even pool of cool-white illumination from directly overhead. The overall atmosphere is composed, formal, and quietly aspirational — a premium executive environment that balances warmth and precision.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

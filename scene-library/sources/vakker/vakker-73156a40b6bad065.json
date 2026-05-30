@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-73156a40b6bad065",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/playline-cactus-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/BK516_1.jpg?v=1778932388",
+  "scraped_date": "2026-05-21T15:53:15.160Z",
+  "source_title": "Playline Cactus Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1500,
+  "height": 1500,
+  "content_sha1": "73156a40b6bad065a1f56c5df955ed3e90fa2230",
+  "description": "A maximalist, playful living room photographed at seated eye-level with a normal-to-wide lens, framing a centered view of a coffee table vignette against a bold geometric color-blocked feature wall. The wall behind is painted in large irregular shapes of bubblegum pink, golden yellow, sky blue, and cream white, creating a graphic pop-art backdrop. Two framed art prints are visible on the wall — one abstract pink-and-orange geometric composition and one illustrated flower poster with a text label in a cobalt frame. A glossy yellow round coffee table anchors the center of the frame, styled with a small light-blue ceramic cup and saucer, a pink sculptural bubble-cube object, a stack of colorful design books, and a glass vase of bright yellow and pink tulips. In the background left, a yellow velvet armchair draped with a faux fur ivory throw is partially visible, accompanied by a large leafy monstera plant in a pink pot. A pink console or dresser is partially visible at far right, styled with a small vintage radio-shaped object, a vase with dried blooms, and a circular mirror. The palette is fully saturated color — hot pink, lemon yellow, forest green, sky blue, and white. Diffused daylight from a window at left provides even bright illumination across the scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "mustard",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "pendant",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.126Z"
+}

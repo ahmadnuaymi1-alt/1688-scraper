@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-ea63ab4ea85ba164",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ea63ab4ea85ba164.jpg",
+  "source_url": "https://dazuma.us/products/french-creative-diy-bubble-table-lamps-with-flexible-stems-adjustable-lamp",
+  "description": "A children's room or playful bedroom vignette photographed at standing eye-level with a normal lens, framing a small round white side table against a backdrop of white horizontal slatted roller blinds that diffuse even soft daylight throughout the frame. The round table has natural light beech wood tapered dowel legs and a bright white top surface. On the left edge of the frame, a small matte forest-green cube side unit holds a colorful vinyl toy rabbit figurine in pastel pink, yellow, and blue, along with a small glass jar of granola or dried fruit. On the table surface itself, a collection of objects clusters around the central glowing piece: a small wooden framed print that reads 'HAVE GOOD THINGS INSIDE' in hand-lettered type, and a clear glass mug of amber tea with a slight steam visible. The central sculptural piece branches outward with vine-like twisted forest-green metal arms bearing orb-shaped clear glass globes, each emitting warm light from within. The warm glow from each glass globe creates soft pools of golden light on the white table surface below. The mood is whimsical, youthful, and nature-inspired — a botanical fairy-tale vignette with playful warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

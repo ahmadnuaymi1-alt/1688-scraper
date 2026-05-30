@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-9b52b7942b9262dd",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/conical-travertine-wall-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Conical_Travertine_Wall_Light143.png?v=1779332081",
+  "scraped_date": "2026-05-21T12:08:26.791Z",
+  "source_title": "Conical Travertine Wall Light",
+  "source_product_type": "Wall Lamp",
+  "width": 1125,
+  "height": 1498,
+  "content_sha1": "9b52b7942b9262dd33dcb47833e04a9f88b1b187",
+  "description": "A serene minimalist bedroom with an airy, Japandi-influenced aesthetic. The wall is finished in a textured off-white plaster with a subtly organic, uneven surface that adds quiet depth without pattern. A low-profile bed frame in warm walnut with a woven cane headboard insert dominates the lower frame, dressed in layers of soft linen bedding in cream and warm white with gentle wrinkles suggesting relaxed ease. To the right, a compact walnut nightstand holds a small ceramic vase with dried pampas grass and dried botanicals alongside a vintage-style brass alarm clock. A warm gentle glow emanates from just above and beside the headboard, softly illuminating the plaster wall and casting a narrow cone of warm light downward toward the nightstand surface. On the far right edge, sheer linen curtain panels in natural white diffuse soft daylight from an unseen window, adding a bright airy quality to the right side of the frame. The overall atmosphere is serene, restful, and organic, the palette restricted to off-whites, warm stone, natural walnut, and sandy beige. Camera at approximately standing eye-level, 5–6 feet high, using a normal lens and an off-center composition weighted toward the left — the bed and headboard fill the lower-left, the nightstand anchors the lower-right, and the warm wall glow draws the eye to the center-left. The entire composition is wide enough to establish the room corner context clearly. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.165Z"
+}

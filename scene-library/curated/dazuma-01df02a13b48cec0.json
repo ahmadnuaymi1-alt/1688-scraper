@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-01df02a13b48cec0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-01df02a13b48cec0.jpg",
+  "source_url": "https://dazuma.us/products/usb-touch-control-classic-table-lamp-iron-body-and-acrylic-shade-light",
+  "description": "A home office or library desk scene photographed at standing eye level, slightly looking down, with a normal lens, framing a wide vignette of the full desk surface. The desk is solid light maple with a visible drawer pull, its grain warm and honey-toned. An open paperback book lies flat in the foreground, pages spread and slightly curved. To the left of the central surface sits a plain white ceramic mug. On the right side of the desk a stack of three dark-covered hardback books supports a small white geometric concrete planter holding a compact succulent. The background wall is a smooth, plain warm peach-beige with no architectural detail, giving a quiet studio feel. The ambient light in the scene is evening-warm: a golden glow emanates from the tabletop level, spilling softly across the book's open pages and warming the wall behind with a soft halo. The chair in the foreground is a partially visible upholstered seat in charcoal gray. The palette is anchored in warm honey, cream, and charcoal, with a small sage-green note from the succulent. The mood is quiet and scholarly — a solitary reading session at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

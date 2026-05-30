@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-44ae57fa798c781b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-nordic-table-lamp-creative-minimalist-design-nightstand-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-black-nordic-table-lamp-white-conical-base-coffee-table.jpg?v=1768965544",
+  "scraped_date": "2026-05-21T15:52:33.538Z",
+  "source_title": "Nordic Table Lamp Creative Minimalist Design Nightstand Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "44ae57fa798c781b5e4bb8f9021749f8ce1d44e7",
+  "description": "A cozy living room vignette centered on a small round side table in light natural oak. On the table surface sit a closed hardcover coffee-table book with a soft landscape image on the cover and a black-and-white ceramic mug with a bold banded stripe pattern. A warm cream-toned sofa fills the background, draped with a floral-patterned blanket in muted terracotta, navy, and cream tones that adds a lived-in, casual warmth. The wall behind is painted in a soft greige. The tabletop receives a diffuse, even white-cool illumination from the object centered on it, with no strong shadows or dramatic contrast. The scene feels domestic and unhurried. Camera is at seated eye-level, approximately 3 to 4 feet, using a normal to slight telephoto lens that softly blurs the sofa background. Composition is a tight off-center vignette showing the tabletop with the sofa as a soft backdrop. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.212Z"
+}

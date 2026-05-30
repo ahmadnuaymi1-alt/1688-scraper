@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-f971beb9b745003e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f971beb9b745003e.jpg",
+  "source_url": "https://dazuma.us/products/reading-light-for-bed-wall-mounted-modern-rotatable-lamp",
+  "description": "An intimate contemporary bedroom nightstand vignette with luxurious layered materials. The headboard wall features two distinct zones: on the left, a tall upholstered panel headboard in soft oatmeal quilted fabric with a subtle grid stitching pattern, flanked above by flush cream-white applied wall panels with an integrated warm horizontal LED strip behind that casts a discreet glowing band along the upper panel edge. On the right, a vertical accent panel of rich dark walnut veneer with a fine straight grain runs from floor to ceiling. Flush-mounted to the walnut panel is a modern circular ring of warm illumination in gold-toned metal, casting a warm halo upward and downward across the dark wood grain. The bed linens are layered in taupe and greige, with dusty rose velvet and grey linen accent pillows. Beside the bed, a slim white rectangular nightstand with vertical metal tube legs in a rose gold finish holds a small black celestial globe with gold continent detailing, plus a small white storage box. A matte black dual-outlet wall switch is visible on the walnut panel. Camera at seated height, vignette composition tight on the nightstand zone with half the headboard visible to the left, lens at normal character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "table"
+  }
+}

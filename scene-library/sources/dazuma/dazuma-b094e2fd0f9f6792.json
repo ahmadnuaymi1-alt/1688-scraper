@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-b094e2fd0f9f6792",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-glass-pendant-light-nordic-luxury-single-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/single-vintage-glass-pendant-light-bedside-lamp-bedroom.jpg?v=1777448501",
+  "scraped_date": "2026-05-21T12:03:43.672Z",
+  "source_title": "Vintage Glass Pendant Light Nordic Luxury Single Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Mini Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b094e2fd0f9f67929f42132ef80c86929262d51c",
+  "description": "A serene bedroom with warm greige plaster walls and light oak hardwood flooring. The bed features a tall, button-tufted upholstered headboard in natural linen, dressed with layered cream and oatmeal bedding including a loosely folded linen coverlet and stacked euro pillows. A round side table in dark walnut with antique brass cross-base legs sits beside the bed, holding a tall ceramic vase in creamy white with a bouquet of dried blush flowers, a small stack of two books, and a small dark spherical object. To the far left, a portion of an upholstered chair in warm cream fabric is visible, and in the foreground bottom-left corner a low round coffee table edge is partially in frame. Full-length charcoal drape curtains hang at the left wall, deepening the room's tone on that side. A natural jute rug covers the floor beneath the bed, its coarse texture contrasting with the smooth linen. A warm amber glow falls from a ceiling drop source, pooling over the nightstand vignette and casting soft shadows on the wall. The overall atmosphere is hushed and composed, with a monochromatic sandy palette punctuated only by the soft blush of dried botanicals. Camera is at standing eye-level, shooting with a normal lens at a slightly off-center angle that shows the bed's full headboard and the nightstand together. The composition is a wide vignette capturing approximately two-thirds of the room from the left wall toward the right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.692Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-c38ef7e32f68275e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/unique-modern-chandelier-s-shaped-coral-design-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/unique-modern-chandelier-creative-office-area-wave-inspired-design.jpg?v=1770459040",
+  "scraped_date": "2026-05-21T12:19:49.163Z",
+  "source_title": "Unique Modern Chandelier S-Shaped Coral Design LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c38ef7e32f68275e42dbe1dc923068843ffe42c9",
+  "description": "A large open-plan commercial office space photographed at standing eye-level with a wide lens, capturing a wide establishing view of the workspace. The ceiling is exposed industrial black — painted black ductwork, structural beams, and suspension hardware are all visible, creating an urban loft quality. A cluster of interconnected organic blob-shaped flat panel fixtures in matte black frames emit bright cool-white even illumination across the workspace below. The workstations feature rows of light oak desktop surfaces with white panel dividers, each station equipped with a desktop monitor in white or black, and a white molded ergonomic task chair. A tall indoor tree in a round planter at the far right adds a living green element. Along the back wall, a floor-to-ceiling grid of dark gray and light oak open shelving holds books, binders, and objects — providing a richly layered backdrop. The floor is large-format polished concrete or gray tile. The overall palette is a graphic combination of matte black, white, and warm light oak. The mood is formal and clean — a minimalist corporate environment with an industrial character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.776Z"
+}

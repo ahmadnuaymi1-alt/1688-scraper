@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-204ee2d92e66d6e0",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/sunrise-dome-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Sunrise_Dome_Table_Lamp42.png?v=1778751300",
+  "scraped_date": "2026-05-21T12:08:52.637Z",
+  "source_title": "Sunrise Dome Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "204ee2d92e66d6e0210c63437de23bcf14299748",
+  "description": "A cozy sitting room vignette photographed at seated eye-level, roughly three to four feet from the floor, with a normal-to-telephoto lens compressing the shallow depth of the scene. The composition is a tight off-center vignette anchored on a rustic reclaimed-wood side table occupying the right two-thirds of the frame, with the left third given to the back corner of a linen upholstered armchair with exposed natural wood arms. The camera is level, pitched very slightly downward, and captures only a fragment of the room — two surfaces and a slice of wall — rather than a full-room establishing shot.\n\nThe side table is constructed from rough-sawn reclaimed planks with a heavily grained, weathered surface in warm ash-grey and honey tones, sitting on a blocky, chunky base. On its surface rest a speckled stoneware mug in matte dove-grey, a small stack of two worn hardcover books with tan and faded-cream spines, and a compact terracotta-toned ceramic pot planted with a healthy Boston fern, its delicate fronds arching outward in vivid mid-green. A soft pool of warm amber light washes across the table surface and the upper face of the stacked books, emanating from a low source and casting gentle graduated shadows behind the objects.\n\nThe armchair to the left is upholstered in a warm oatmeal linen, its cushion catching a shaft of natural light from the window. Draped loosely over its back and arm is a chunky hand-knitted throw in cream and pale ecru, with an open, airy weave and generous texture. The chair frame is solid natural oak with a light honey finish.\n\nBehind the chair, a large multi-pane casement window fills the background with soft diffused daylight filtered through floor-length linen curtains in warm sand. The curtains are unlined and slightly translucent, allowing dappled leaf shadow and bright ambient light to press through them, creating a luminous, softly glowing backdrop. Beyond the glass, out-of-focus foliage in pale green is just barely legible.\n\nThe wall to the right is finished in a warm limewash or Venetian plaster treatment — cream with subtle rose-beige undertones, lightly mottled with natural texture variation. In the upper right corner, two botanical prints in natural oak frames are partially visible, each featuring fine-line illustrations of plant specimens on cream paper.\n\nThe overall palette is deeply warm neutral — oatmeal, honey, wheat, warm ash — with accents of forest green from the fern and a flash of cognac-amber warmth pooling across the table. The mood is serene and lived-in, evoking a quiet weekend morning. The aesthetic blends organic farmhouse materiality with restrained editorial styling.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:21.489Z"
+}

@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-21a57d35b40d9d83",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/trio-travertine-ceiling-light-1",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793331691887.png?v=1779333190",
+  "scraped_date": "2026-05-21T12:08:14.888Z",
+  "source_title": "Trio Travertine Ceiling Light",
+  "source_product_type": "Ceiling Light",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "21a57d35b40d9d83d55cf2c8eac0fff84eea9ec1",
+  "description": "A serene living room bathed in warm, diffused natural light entering from a tall, wood-framed window on the right wall. The room features smooth, hand-troweled plaster walls in a deep sand and warm greige tone, with a slightly textured ceiling in the same earthy palette. The floor is covered in a chunky, natural-fiber jute rug that anchors the seating area. A generously proportioned, slipcovered sofa in off-white linen occupies the left-center of the room, dressed with a shaggy cream sheepskin throw pillow, a woven textural cushion in natural oat, and a loosely draped chunky-knit throw blanket in warm camel tones with fringe detail. In front of the sofa sits a low, wide coffee table crafted from heavily grained, weathered reclaimed wood with thick trestle-style legs — deeply rustic and tactile in character. On the coffee table: a large terracotta-toned stoneware jug holding tall dried pampas and wheat stalks, a smaller squat clay pot in warm brown, a stack of three coffee table books in muted linen and sage covers, and a simple matte ceramic mug. To the right of the sofa, a slender white metal side table holds a small potted olive tree in a rough terracotta planter, its silvery-green foliage casting a soft, branching shadow across the plaster wall behind it — a shadow rendered painterly by the raking afternoon light from the window. A small ceramic cup sits beside the planter. Natural light from the right-side window washes the right wall and corner in warm, golden-hour softness, casting long diagonal bands of light across the plaster surfaces and creating a gentle warm glow that pools across the side table area. The atmosphere is calm, unhurried, and deeply organic. The overall palette is tightly cohesive: raw sand, warm greige, oat, camel, terracotta, and natural dried botanicals with a single note of muted olive green from the potted tree. Camera is positioned at approximately standing eye-level, roughly five to six feet high, shooting a three-quarter corner view that captures both the left and right walls meeting at the far corner, with the ceiling visible above. The lens reads as a moderate wide-angle — approximately 24–28mm — giving slight spatial breadth to the room without significant distortion. The composition places the sofa and coffee table grouping centrally, with the window corner receding naturally to the right. Camera pitch is level with only the slightest downward tilt to include the coffee table surface fully. The full seating vignette is visible from floor to ceiling. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "sage"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:42.323Z"
+}

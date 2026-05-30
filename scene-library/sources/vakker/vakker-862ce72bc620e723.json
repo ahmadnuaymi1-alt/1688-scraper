@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-862ce72bc620e723",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/conical-travertine-wall-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Conical_Travertine_Wall_Light81.png?v=1779332194",
+  "scraped_date": "2026-05-21T12:08:26.795Z",
+  "source_title": "Conical Travertine Wall Light",
+  "source_product_type": "Wall Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "862ce72bc620e723da0dc2233517d36abcb475f0",
+  "description": "A bright, airy living room corner photographed at standing eye-level with a normal lens, using an off-center thirds composition that places a linen armchair at left and a walnut floating console shelf along the right wall. The walls are smooth, lightly textured plaster in a warm off-white tone that catches bright natural light streaming in from a large window at the far left; the light creates soft, raking shadows across the plaster texture and illuminates the room with an almost noon-bright clarity. The armchair is upholstered in a natural linen fabric, its low wooden legs in light oak. A small round side table in dark wood sits beside it, holding a few small objects. A folded cream sheepskin throw is casually draped over one arm. Along the right wall, a chunky dark walnut floating shelf holds a small arrangement of books, a ceramic vessel, and a few decorative objects in neutral tones. The floor is wide-plank light wood, partially covered by a large natural fiber jute rug. A warm, directed glow is cast from a wall-mounted position, illuminating the area between the chair and the shelf in a focused, golden warmth against the pale plaster wall. The mood is effortlessly casual and Scandinavian-influenced — clean lines, organic materials, and abundant natural light. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.138Z"
+}

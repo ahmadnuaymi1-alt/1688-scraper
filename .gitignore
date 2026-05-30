@@ -40,3 +40,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lifestyle scene-prep artifacts (disposable; downloaded gallery images)
+scene-overrides/_prep/
+
+# personal Claude Code project settings (per-user allow rules etc.)
+.claude/settings.local.json
+
+# Run-time log files emitted by ad-hoc scripts at repo root
+*.log
+!CHANGELOG.log
+# Temp inspection / scratch directories used by one-off scripts
+tmp-*/
+kie-test-output/
+# Debug screenshots / scratch HTML emitted by one-off scripts (Buckydrop probe etc.)
+scripts/*.png
+scripts/*.jpg
+scripts/*.jpeg
+scripts/*.html

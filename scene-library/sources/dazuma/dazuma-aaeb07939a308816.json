@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-aaeb07939a308816",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wood-modern-table-lamp-modern-minimalist-artistic-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wood-modern-table-lamp-corner-light.jpg?v=1762581684",
+  "scraped_date": "2026-05-21T15:52:14.294Z",
+  "source_title": "Wood Modern Table Lamp Modern Minimalist Artistic Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "aaeb07939a3088163ab04f278585bf31c2f15dd9",
+  "description": "A contemporary minimalist living room corner photographed at seated eye-level. A low, wide walnut console or window shelf runs horizontally across the frame, its dark warm grain richly textured. The shelf's surface supports a small stack of three design coffee table books with muted covers — the top one open to a landscape photograph page. Behind the shelf, a large window with crisp white horizontal Venetian blinds admits soft diffused natural daylight, with the blinds casting gentle horizontal shadow lines. To the right, the armrest and a portion of a large beige linen sofa is visible, dressed with a charcoal geometric pattern throw cushion. The background wall at right is smooth pale greige plaster. A warm ring of light glows from the circular wood disc element on the shelf, its warm amber hue illuminating the grain around the central aperture and casting a warm accent against the nearby wall. The mood is quiet and modern-Japandi with a strong material focus on walnut grain. Camera is at seated eye-level, roughly 3–4 feet high, with a normal lens, in a three-quarter corner composition showing the shelf and sofa arm side by side. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.663Z"
+}

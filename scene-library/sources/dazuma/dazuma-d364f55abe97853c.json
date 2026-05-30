@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-d364f55abe97853c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-industrial-table-lamps-stylish-two-color-decorative-objects-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/round-marble-table-warm-glow-minimalist-pink-modern-industrial-table-lamps-living.jpg?v=1763625640",
+  "scraped_date": "2026-05-21T15:52:57.429Z",
+  "source_title": "Modern Industrial Table Lamps Stylish Fabric Decorative Objects Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d364f55abe97853c62c029aead199d10add84f11",
+  "description": "A soft, contemporary living room vignette styled around a round marble-topped side table on tapered walnut legs. The wall behind is a warm dusty rose-pink matte plaster — a saturated yet muted blush tone that fills the entire background. To the upper left corner, a black-and-white abstract expressionist print in a black frame leans or hangs, with bold organic circle and oval forms. The side table surface holds a large white coffee table art book, a small matte celadon/sage bud vase with a single dried botanical twig, and the table object in the center. To the left, the curved arm and seat of a pale gray leather or bouclé sofa is visible in soft focus. The scene is curated and gallery-adjacent — pink walls, marble surfaces, muted ceramics, and abstract art together creating a warm, modern feminine aesthetic. A warm amber glow at table height illuminates the marble surface and the pink wall above and behind at standing height, creating a soft halo. Camera at standing eye-level, off-center right composition framing the table as the focal anchor, with the sofa arm providing depth on the left, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.857Z"
+}

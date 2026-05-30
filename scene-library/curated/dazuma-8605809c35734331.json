@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-8605809c35734331",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-8605809c35734331.jpg",
+  "source_url": "https://dazuma.us/products/natural-wood-table-lamp-nordic-minimalist-luxury-creative-lamp",
+  "description": "A serene Scandinavian-influenced study or sitting room vignette photographed at standing eye-level with a normal lens, composed as a centered symmetrical shot showing a round dining or work table near a window. The table has a pale natural light oak top with visible wood grain, set on a tapered leg partially visible beneath. On the left edge of the table sits a small stack of two or three softcover and hardcover books in cream and beige tones. The arm of a minimal dark metal-framed chair is just visible at the lower left corner. Floor-to-ceiling linen drape curtains in warm ivory hang in soft gathered vertical folds behind the table, filtering diffuse cool daylight from the window. Through the curtain fabric and at the gap between panels, a wintry outdoor landscape is faintly visible — bare tree branches against a pale grey overcast sky, suggesting a cold northern day. The palette is warm ivory, light ash wood, walnut brown, and pale brass gold. A warm soft glow from the tabletop level washes downward across the table surface, casting gentle light onto the books and the pale wood grain. The mood is quiet and scholarly, with a cozy winter-morning intimacy. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

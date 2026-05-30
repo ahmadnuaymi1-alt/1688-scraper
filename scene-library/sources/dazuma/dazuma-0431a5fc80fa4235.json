@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-0431a5fc80fa4235",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-hanging-wedding-decorative-waterproof-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-lighting-hanging-vintage-garden-wedding-setup.jpg?v=1774595410",
+  "scraped_date": "2026-05-21T12:04:21.131Z",
+  "source_title": "Outdoor Lighting Hanging Wedding Decorative Waterproof Pendant Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0431a5fc80fa42358f63e97cab7a02d39d014f95",
+  "description": "An elegant outdoor garden dining scene photographed at dusk, set within the manicured grounds of a grand European-style villa. The manor house in the background is rendered in crisp white stucco with ornate classical detailing — arched dormer windows, decorative pilasters, a balustraded upper terrace, and a warm terracotta-tiled roof. Tall columnar cypress trees line the rear hedge wall, their dark silhouettes rising against a soft lavender-grey evening sky. The garden is enclosed by a precisely clipped dark green boxwood hedge running horizontally across the mid-ground, creating a clean formal boundary between the lawn and the manor facade.\n\nTwo long rectangular banquet tables are set in a parallel arrangement directly on the lush green lawn, dressed in crisp white linen tablecloths that fall to just above the grass. Each table is styled with an abundant continuous floral runner composed of blush pink garden roses, ivory hydrangeas, and chartreuse-green ball hydrangeas — lush, generous, and romantic. Tall white taper candles in varying heights are interspersed throughout the floral garlands, their flames burning softly in the still evening air, casting a warm intimate glow across the tableware. Place settings are formal and precise: white porcelain plates, polished glassware in multiple sizes, and neatly folded napkins. Cross-back chairs in a light honey-toned wood flank both sides of each table, their open lattice backs giving a casual yet refined quality to the setting.\n\nBeyond the tables, a black-and-white checkerboard dance floor has been installed directly on the lawn — bold, large-scale squares alternating in a classic pattern, creating a graphic focal element that anchors the space between the dining area and the hedgerow. The floor's high contrast reads as both playful and sophisticated against the organic green surroundings.\n\nAbove the scene, warm ambient light pools softly across the tabletops from overhead sources, supplemented by gentle Edison-style string light strands that crisscross at varying heights across the garden, draping in loose catenary curves and dotting the twilight air with hundreds of small warm golden points of light. A warm golden glow washes down from above, illuminating the floral centerpieces and tableware with flattering light while the surrounding lawn and hedge recede into softer shadow.\n\nThe camera is positioned at approximately standing eye-level, roughly five to six feet high, using what reads as a moderate wide-angle lens — approximately 24–35mm equivalent — capturing a wide establishing view of the full scene. The composition is nearly centered and symmetrical along the central axis between the two parallel tables, with the checkerboard floor, hedge, manor facade, and cypress trees all receding toward a central vanishing point. The camera pitches very slightly downward — perhaps five to ten degrees — allowing both table surfaces and the full architectural backdrop to remain in frame simultaneously. The framing is a wide establishing shot that captures the full spatial depth of the garden from foreground tableware to the distant villa.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:29.433Z"
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-7d491d8c7b25ca72",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-pillar-for-home-modern-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/light-pillar-home-warm-glow-garden-stone.jpg?v=1773717498",
+  "scraped_date": "2026-05-21T12:19:41.561Z",
+  "source_title": "Light Pillar for Home Modern Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7d491d8c7b25ca7215beafb5d067bba88a9eff71",
+  "description": "An exterior garden wall setting photographed at night from a low to seated camera height — approximately three feet off grade — using a normal lens and an off-center thirds composition that places the nearest post cap in the left foreground and the second post cap receding to the right at medium distance. Two square masonry piers constructed of warm buff-colored travertine or limestone blocks form a low garden boundary wall, their flat cap surfaces serving as platforms. On the right side of each pier cap and tucked into a corner of the foreground wall, clusters of compact succulent rosettes grow in rich blue-green tones, their fleshy leaves catching the warm radiated glow from the mounted objects. In the background, a Japanese maple with deep burgundy-red foliage is warmly lit from below, its lace-leaf canopy glowing orange-amber against the dark night sky. Beyond the tree, the arched facade of a classical building is barely visible in deep shadow. All ambient illumination is nighttime dark, with warm amber light pools washing downward and outward across the limestone pier faces and the low succulent planting bed from sources atop the piers. The mood is dramatic and garden-romantic, with rich burgundy foliage, creamy limestone masonry, and deep cool night sky providing the backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.435Z"
+}

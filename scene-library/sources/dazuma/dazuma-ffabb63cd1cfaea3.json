@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-ffabb63cd1cfaea3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/bedroom-lighting-suite-glass-sconces-table-lamp-under-bed-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/009.jpg?v=1764293277",
+  "scraped_date": "2026-05-21T15:52:00.810Z",
+  "source_title": "Bedroom Lighting Suite: Glass Sconces, Table Lamp & Under-Bed Light",
+  "source_product_type": "Lighting > Lamps Kit",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ffabb63cd1cfaea3e90f220578ee2fdb53e9018a",
+  "description": "A primary bedroom photographed in a wide establishing shot showing the full bed wall composition. The room features a heavily textured geometric sculptural plaster accent wall behind the bed, rendered in a warm cream-white tone with angular faceted relief panels creating depth and shadow. The bed is a platform style with a deep channel-tufted headboard in rich chocolate brown velvet, flanked by dark walnut-finish nightstands with two drawers and slim black metal legs. Grey-toned satin or microfiber bedding is dressed with multiple layered pillows in slate grey tones. A chunky-knit cream throw blanket drapes across the foot of the bed. On the right nightstand, a tall white ceramic vase holds a spray of dried grasses and preserved botanicals. A woven sisal or wool rug in a warm taupe tone anchors the floor below the bed. Dark engineered wood flooring in a warm brown extends at the perimeter. Warm amber glowing light sources on either side of the headboard at wall level cast a gentle halo against the textured plaster, warming the sculptural relief. A small white dome form sits on the left nightstand. Camera at standing eye-level, wide lens, centered symmetrical composition with the headboard centered in frame, level pitch showing the full bed width and flanking nightstands. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "wall",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.022Z"
+}

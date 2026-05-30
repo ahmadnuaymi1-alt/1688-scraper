@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-667193bf00bff535",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-post-lights-outdoor-waterproof-courtyard-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_ffc20f87-4c2c-459b-8fe5-02d5ccd8d513.jpg?v=1774175820",
+  "scraped_date": "2026-05-21T12:04:33.952Z",
+  "source_title": "Pillar Post Lights Outdoor Waterproof Courtyard Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "667193bf00bff535b1141173163ca28149db5891",
+  "description": "A residential front yard or driveway boundary at dusk, captured in a tight telephoto vignette. In the foreground, blurred green shrub foliage frames the lower portion of the frame with soft bokeh. A charcoal-gray powder-coated aluminum fence system occupies the mid-frame — the horizontal top rail, vertical balusters, and a square fence post are all rendered in the same deep matte charcoal tone. The fence post's cap position glows with warm amber light that radiates horizontally outward through the ribbed glass sides, illuminating the top rail and casting a warm golden wash across the immediate surroundings. Behind the fence, a shallow depth of field blurs a wide driveway, a tightly clipped hedge row, the facade of a light beige suburban home, and a white SUV parked in the driveway. The background is rendered in soft blue-gray evening light. The overall scene is a close-up dusk residential exterior, quiet and suburban in character. Camera is at a low angle — approximately knee to low-standing height — shooting up and across at the fence post from a slightly off-center position, normal-to-telephoto compression flattening the background into smooth bokeh. The warm glow emanating from the post cap provides the sole source of warm illumination against the cool dusk atmosphere. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.346Z"
+}

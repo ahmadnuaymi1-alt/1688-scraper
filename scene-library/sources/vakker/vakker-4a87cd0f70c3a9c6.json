@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-4a87cd0f70c3a9c6",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/dual-disc-travertine-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Dual_Disc_Travertine_Wall_Sconce651.png?v=1779331386",
+  "scraped_date": "2026-05-21T12:08:18.174Z",
+  "source_title": "Dual Disc Travertine Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "4a87cd0f70c3a9c6f64328b3dab3787aafc059d3",
+  "description": "A serene, organic bathroom vanity in warm sand plaster with a minimalist Japandi-California sensibility. The wall is finished in heavily textured warm sand or stucco plaster with a rough, uneven hand-applied surface, the color falling between pale gold and warm taupe. A large free-form organic mirror with a thin curved frame in warm antiqued brass hangs at standing eye height, its irregular silhouette echoing natural stone shapes. Below the mirror, a thick live-edge wood vanity slab in warm honey oak serves as the counter, its raw organic edge visible. On this counter surface sit three pump bottles — one amber glass and two in matte neutral tones — a neatly folded soft linen hand towel in a warm grid check pattern in sage and cream, a small ceramic cup holding a bud vase with one dried stem, and a small decorative ceramic tray with a few pebble-like objects. A round vessel sink in textured natural travertine or light stone sits to the left. The wall-mounted faucet set is in a warm matte brass finish. The room receives soft natural light from a partially visible window at upper left. A warm glow flanks the mirror on the right side, washing the plaster texture with honeyed illumination. The overall palette is warm neutral — sand plaster, honey wood, warm brass. The mood is serene and spa-like. Camera is at standing eye level, centered on the vanity mirror in a near-symmetrical composition with a normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.092Z"
+}

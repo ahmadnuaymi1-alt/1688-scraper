@@ -1,0 +1,27 @@
+{
+  "scene_id": "vakker-c3e290956ca49ade",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-c3e290956ca49ade.jpg",
+  "source_url": "https://vakkerlight.com/products/alabaster-cylinder-cluster-chandelier",
+  "description": "A stark product-isolation shot photographed at standing eye-level with a normal lens, centered and symmetrical against a flat, matte dark charcoal-grey background with no environmental context, architectural features, furniture, or decorative objects visible. The entire composition is dedicated to showcasing the hanging fixture in isolation. The background is a uniform deep grey that transitions subtly darker at the edges, creating a slight vignette effect. The cord drops from the top of the frame on a black textile cord, connecting to a small brass knurled canopy fitting. Warm amber light glows from within, creating a soft illumination that reveals subtle veining or translucency through the body of the fixture. The overall atmosphere is a clean, commercial product presentation with no spatial context. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

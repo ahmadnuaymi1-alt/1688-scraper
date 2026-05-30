@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-af552593e0870bc8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/reading-led-eye-protecting-usb-table-lamps-creative-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-black-usb-table-lamps-bedside-glow-wooden-nightstand.jpg?v=1768964779",
+  "scraped_date": "2026-05-21T15:52:35.513Z",
+  "source_title": "USB Table Lamps Reading LED Eye-Protecting Creative Design Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "af552593e0870bc8fbf47975954feb8df6b7b05f",
+  "description": "A bedroom vignette photographed at seated eye-level with a normal lens, framing a three-quarter corner view of the right side of the bed and its accompanying round nightstand. The wall behind is a warm pale sand tone with no architectural ornamentation — smooth plaster that reads almost cream in the amber glow emanating from the surface of the nightstand. The bed frame is solid walnut with a sculptural, gently curved headboard panel and a platform base, its grain richly visible. Linen bedding in natural undyed oat drapes loosely across the mattress, two stacked pillows in the same tone leaning against the headboard. The nightstand is a compact two-tier round table in matching walnut with rounded cylindrical legs and a lower shelf holding a small stack of magazines. On the tabletop sits a small white ceramic bottle-neck vase holding a cluster of dried wildflowers in dusty ochre and caramel. A warm pool of amber light bathes the nightstand surface and spills softly onto the adjacent wall, creating a gentle halo of warmth. The floor appears to be a warm terra-cotta tone visible at the bottom edge. Overall mood is serene, minimal, and quietly domestic — Japandi-adjacent with Californian warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.685Z"
+}

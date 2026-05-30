@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-14f32818ae1e4e79",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-pillar-lights-modern-outdoor-waterproof-gate-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wall-pillar-lights-stone-pillars-wooden-fence-dusk.jpg?v=1773717788",
+  "scraped_date": "2026-05-21T12:19:36.095Z",
+  "source_title": "Wall Pillar Lights Modern Outdoor Waterproof Gate Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "14f32818ae1e4e79e704b791d1cc2027af9575d6",
+  "description": "An outdoor residential driveway entrance photographed at dusk in a wide establishing shot. The scene is captured at standing eye-level, roughly 5–6 feet high, with a normal-to-slightly-wide lens looking level toward the property gate. The full-frame composition includes three concrete pillar posts supporting a horizontal-slat walnut-toned wood gate, flanked by matching perimeter walls of smooth cast concrete. Each post cap emits a warm amber glow that pools downward onto the concrete pillar tops, creating small halos of golden light in the cooling blue-grey dusk air. The gate panels are rich dark walnut-colored horizontal wood slats with matte black metal framing. In the background, a contemporary single-story home with a flat roof and a slatted wood ceiling on the covered entry porch is partially visible through large floor-to-ceiling glass panels. A mature deciduous tree rises to the upper left against a gradient sky shifting from soft peach-orange at the horizon to muted periwinkle above. The foreground is a wide pale grey concrete driveway apron edged with clipped dark green boxwood hedges and low ornamental grass plantings. The overall mood is serene and cinematic — the warmth of the amber glow on the posts contrasts beautifully with the cool ambient dusk light enveloping the landscaping. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.031Z"
+}

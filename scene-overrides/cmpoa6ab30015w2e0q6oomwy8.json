@@ -1,0 +1,82 @@
+{
+  "productId": "cmpoa6ab30015w2e0q6oomwy8",
+  "productTitle": "Mommy Diaper Backpack (cartoon-print Oxford, 20L, 5 variants)",
+  "authoredBy": "in-chat scene design — BATCH 2 of 2: research-derived scene dialects from premium baby/mom brand photography (Lovevery documentary-warm, Solly insta-millennial-mom, Lalo modern-millennial-parent, Pehr playful pastel, Olli Ella bohemian-pastoral, Hatch fashion editorial). All eye-level intimate, no architectural-wide angles, no people, no alcohol.",
+  "authoredAt": "2026-05-27T00:00:00.000Z",
+  "classification": "indoor",
+  "category": "diaper-bag",
+  "scenes": [
+    {
+      "slug": "lovevery-nursery-floor-play",
+      "mode": "homey",
+      "prompt": "A Lovevery-style developmental-nursery floor scene at late morning, shot on a 35mm lens at low seated-floor eye-level so the diaper backpack sits in the back-left of a 1:1 frame on a soft cream Berber-stripe rug, slightly slumped open. Natural light from a tall window with sheer cotton curtains floods the room from frame-right. Spread on the rug in front of the bag: a small wooden grasping bell rattle, two wooden blocks (one painted natural pale-yellow, one cream), a folded Montessori-style play mat in pastel pink, a soft cotton ball in muted sage, and a hand-illustrated cloth book opened to a forest-animals page. Behind the bag: a low woven seagrass basket holding two rolled muslin blankets, and a small framed botanical print leaning against a creamy plaster wall. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — slumped slightly with the print fully readable. Palette of cream, pale pink, warm natural wood, muted sage, dusty rose. Sharp focus across the bag and toys, photographic and documentary-warm, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "Lovevery-style developmental nursery floor",
+      "designStyle": "documentary-warm Lovevery",
+      "wallColour": "creamy plaster",
+      "cameraAngle": "35mm low seated-floor eye-level",
+      "timeOfDay": "late morning",
+      "accents": ["cream Berber-stripe rug", "wooden grasping bell rattle", "wooden blocks pale-yellow + cream", "pastel-pink folded play mat", "muted-sage cotton ball", "forest-animals cloth book", "seagrass basket of muslin blankets"]
+    },
+    {
+      "slug": "solly-window-newborn-chair",
+      "mode": "homey",
+      "prompt": "A soft-focus Solly-Baby-style mom-and-newborn moment at golden hour shown only through props and lived-in cues, shot on a 50mm lens at low chair-seated eye-level so the diaper backpack sits in the back-right of a 1:1 frame on a worn oatmeal-linen reading chair beside an implied seat. Warm late-afternoon natural light pours through tall white-curtained windows at frame-right. The mom is implied through soft styling rather than shown: an open hardback parenting book face-down on the chair seat next to the bag, a small folded oatmeal-cashmere baby blanket draped over the chair arm, a single empty stoneware mug with a faint coffee ring on a small wooden side table at frame-left, and a swaddled newborn-sized soft cloth doll resting on a folded muslin on the side table (the doll's face is wrapped, no realistic-baby-likeness). The chair is a mid-century walnut frame with oatmeal-linen cushions. Walls are warm-cream limewash with one large dried pampas-grass arrangement in a hand-thrown terracotta pot. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — sitting upright on the chair, top handle visible. Palette of oatmeal, cream, warm terracotta, dusty pink, sun-warmed walnut. Sharp focus on the bag and chair, soft natural depth-of-field on the room, no people, no cinematic moodiness, no alcohol.",
+      "variantSlot": 5,
+      "room": "warm-domestic Solly Baby reading chair",
+      "designStyle": "insta-millennial-mom warm",
+      "wallColour": "warm-cream limewash",
+      "cameraAngle": "50mm low chair-seated eye-level",
+      "timeOfDay": "golden hour late afternoon",
+      "accents": ["walnut-framed oatmeal-linen reading chair", "open hardback parenting book face-down", "oatmeal-cashmere baby blanket on chair arm", "empty stoneware mug with coffee ring", "swaddled cloth doll on side table", "dried pampas in terracotta pot"]
+    },
+    {
+      "slug": "lalo-modern-kitchen-highchair",
+      "mode": "homey",
+      "prompt": "A modern-millennial-parent open-plan kitchen scene at midday in the Lalo aesthetic, shot on a 35mm lens at standing-adult eye-level slight three-quarter so the diaper backpack sits in the front-left of a 1:1 frame on the seat of a sage-green Lalo-style modern wooden high chair. Bright midday natural light from a large window at frame-right floods the room. Just behind the high chair on the kitchen island in soft focus: a small wooden cutting board with a halved navel orange, a sippy cup in matte stainless steel, a half-eaten lemon-poppy-seed muffin on a small cream plate, and a stack of cloth napkins in muted dusty-sage. The kitchen is open-plan with handleless warm-cream cabinetry, a butcher-block wood counter, a brushed-brass faucet over a white Belfast sink, and a single small olive tree in a black ceramic pot in the soft-focus background. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — sitting upright on the high-chair seat with straps falling naturally to the sides. Palette of warm-cream cabinetry, sage green, butcher-block wood, soft brass, warm midday light. Sharp focus on the bag and high chair, soft natural depth-of-field on the kitchen, no people, photographic and lived-in, no cinematic moodiness, no alcohol.",
+      "variantSlot": 1,
+      "room": "Lalo-style modern open-plan kitchen",
+      "designStyle": "modern-millennial-parent Lalo",
+      "wallColour": "warm-cream cabinetry + cream-white walls",
+      "cameraAngle": "35mm standing-adult eye-level three-quarter",
+      "timeOfDay": "midday",
+      "accents": ["sage-green Lalo wooden high chair", "halved navel orange on wood cutting board", "matte stainless sippy cup", "half-eaten lemon-poppy muffin on cream plate", "stack of dusty-sage cloth napkins", "butcher-block counter", "Belfast sink + brushed-brass faucet", "small olive tree in soft focus"]
+    },
+    {
+      "slug": "pehr-pastel-nursery-vignette",
+      "mode": "homey",
+      "prompt": "A Pehr-style playful-pastel nursery vignette at gentle midmorning, shot on a 35mm lens at low seated-floor eye-level so the diaper backpack sits in the front-right of a 1:1 frame on a soft pastel hand-tufted wool rug. Soft natural light from a tall window at frame-left, gauzy and even. The bag sits upright with the top loop handle visible. Behind and to the left: a low wicker bassinet with a folded pastel-pink waffle baby blanket, a small framed pastel watercolor of a sleeping fox on the wall, and a stack of three pastel Pehr-style fabric storage bins (blush, sage, soft cream) holding rolled blankets. To the right of the bag: a small natural-pine pull-along duck toy with a length of cream cotton string. Walls are a pale powder-blue limewash above white shiplap chair-rail wainscoting. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket. Palette of powder blue, blush, sage, cream, soft natural pine. Sharp focus on the bag and bassinet area, photographic and playful-sophisticated, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "Pehr-style playful-pastel nursery",
+      "designStyle": "Pehr playful sophistication",
+      "wallColour": "powder-blue limewash over white shiplap",
+      "cameraAngle": "35mm low seated-floor eye-level",
+      "timeOfDay": "gentle midmorning",
+      "accents": ["pastel hand-tufted wool rug", "wicker bassinet with pastel-pink waffle blanket", "framed sleeping-fox pastel watercolor", "three Pehr-style storage bins (blush + sage + cream)", "natural-pine pull-along duck toy"]
+    },
+    {
+      "slug": "olli-ella-meadow-golden-hour",
+      "mode": "homey",
+      "prompt": "A bohemian-pastoral outdoor picnic scene at golden hour in the Olli Ella aesthetic, shot on a 50mm lens at low ground-level eye-level so the diaper backpack sits in the front-left of a 1:1 frame on a soft vintage Welsh-blanket-striped picnic blanket spread on long grass dotted with wildflowers. Warm late-afternoon golden-hour sun spills from behind the bag with soft lens haze. Around the bag on the blanket: an open canvas-bound vintage children's storybook turned to a hand-illustrated page, an Olli-Ella-style rattan basket with two ripe peaches and a small apple inside, a small natural-pine push-toy lying on its side, a folded cream muslin baby blanket, and a tiny enamel tin cup tipped over with the last drops spilled. In the soft-focus background: a meadow of long grass with white daisies and cornflowers, with warm sun flaring through the seedheads at frame-right. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — sitting upright on the blanket with the print fully readable. Palette of vintage red-and-cream stripe, meadow gold, cornflower blue, golden-hour sun, soft enamel tin. Sharp focus on the bag and props, soft natural depth-of-field on the meadow, no people, photographic and bohemian-pastoral, no cinematic moodiness, no alcohol.",
+      "variantSlot": 3,
+      "room": "wildflower meadow picnic",
+      "designStyle": "Olli Ella bohemian-pastoral",
+      "wallColour": "(outdoor) wildflower meadow",
+      "cameraAngle": "50mm low ground-level eye-level",
+      "timeOfDay": "golden hour late afternoon",
+      "accents": ["vintage Welsh-stripe picnic blanket", "open canvas-bound storybook", "rattan basket with peaches + apple", "natural-pine push-toy on its side", "folded cream muslin", "tipped enamel tin cup", "wildflower meadow soft focus"]
+    },
+    {
+      "slug": "hatch-editorial-flatlay",
+      "mode": "minimalist",
+      "prompt": "A Hatch-style 'cool girl' editorial overhead flat-lay accessories feature, shot from directly overhead 90° so the diaper backpack lies fully centered in a 1:1 frame on a warm-toned raw-linen surface. Soft, even diffused natural studio light, no hard shadows. Around the bag, styled accessories arranged with editorial precision: a folded cream cable-knit cardigan along the top edge of frame, a leather-bound Filofax notebook with a slim brass pen, a fresh-cut sprig of lavender, a small gold-rim ceramic dish holding a single brass key and a tortoiseshell hair clip, an unopened tube of lip balm, a folded white cotton onesie, and one folded muslin baby blanket in soft cream. The bag's dual shoulder straps are arranged in a gentle curve to the right of the bag, top loop handle pointing up. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket. Palette of cream linen, soft brass, tortoiseshell, dusty lavender, warm gold. Sharp focus across the entire arrangement, photographic editorial-fashion, no people, no cinematic moodiness, no alcohol.",
+      "variantSlot": 2,
+      "room": "Hatch-style editorial flat-lay studio",
+      "designStyle": "Hatch fashion-editorial flat-lay",
+      "wallColour": "(top-down on raw linen surface)",
+      "cameraAngle": "90° directly overhead",
+      "timeOfDay": "soft diffused studio midday",
+      "accents": ["raw-linen surface", "folded cream cable-knit cardigan", "leather-bound Filofax + brass pen", "fresh lavender sprig", "gold-rim ceramic dish with brass key + tortoiseshell clip", "lip balm", "folded white cotton onesie", "folded cream muslin blanket"]
+    }
+  ]
+}

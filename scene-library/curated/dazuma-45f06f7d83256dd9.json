@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-45f06f7d83256dd9",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-45f06f7d83256dd9.jpg",
+  "source_url": "https://dazuma.us/products/stylish-uv-led-outdoor-solar-lantern-creative-design-mosquito-lamp",
+  "description": "An outdoor garden scene at sunset, with a glowing orange-pink sky and the last sliver of sun visible at the horizon above a dark treeline. A solid teak or acacia wood outdoor armchair with a tufted white cushion pad sits on a lawn, with a matching small square side table in front of it. On the side table rests an open book with aged cream pages and a delicate white porcelain teacup and saucer with a soft floral pattern. A warm amber glow emanates from surface level, pooling across the table surface and book pages, and illuminating the teak wood grain with a golden warmth. The lush green lawn and bokeh trees provide depth in the background. The scene is serene and romantic with a single moment of still evening reading. Camera is at seated eye-level using a normal lens, three-quarter view of the chair and table from the side. Camera pitch is level to slightly looking up due to the low positioning. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

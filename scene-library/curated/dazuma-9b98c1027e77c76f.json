@@ -1,0 +1,36 @@
+{
+  "scene_id": "dazuma-9b98c1027e77c76f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9b98c1027e77c76f.jpg",
+  "source_url": "https://dazuma.us/products/vintage-style-copper-finish-floor-lamp-adjustable-arch-fabric-shade-light",
+  "description": "A formal home office interior photographed in a wide establishing shot at standing eye-level. The room features a grand arched doorway or architectural alcove in the center background, with ornate plaster molding detailing. A large mural or photographic wallpaper of an urban skyline — in warm sepia tones — fills the background wall behind the arch. A white-painted French Provincial desk with carved acanthus-leaf gilded details and cabriole legs occupies the center of the room, paired with a cream button-tufted high-back executive chair on casters. On the desk surface sit a few books and papers. White-painted built-in cabinetry with paneled doors flanks both sides, with open shelving displaying rows of leather-bound books, a white marble figurine, and decorative blue-and-gold books. To the left, a secondary warm glow pools from a low surface source on the desk corner. A patterned area rug in ivory and soft tones covers the hardwood floor, which appears to be a warm medium oak. A tropical palm frond is partially visible at the lower right. The mood is formal and classical with Beaux-Arts aspirations. Camera is at standing eye-level, roughly 5–6 feet high, wide lens, centered symmetrical composition looking down a slight depth toward the desk and arched back wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "applied_moulding",
+      "wainscoting",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  }
+}

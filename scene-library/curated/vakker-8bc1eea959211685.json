@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-8bc1eea959211685",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-8bc1eea959211685.png",
+  "source_url": "https://vakkerlight.com/products/tiered-alabaster-cluster-chandelier",
+  "description": "A double-height foyer and upper landing, captured at standing eye-level from the upper floor looking slightly down into the entryway below, with a normal-to-wide lens taking in both levels and the void between them. The staircase runs along the right side of the frame in warm stained walnut with open balusters and a dark metal railing. At upper left, a long low sideboard in dark oiled walnut displays a collection of sculptural objects — a large hammered brass-toned urn, a dark bronze bust, and an organic sculptural form — alongside several framed artworks hung on the textured taupe-grey plaster wall. The floor below is laid in large-format pale stone tiles anchored by a deep navy and burgundy Persian rug with medallion pattern. Tall multi-pane windows on the right wall frame a twilight garden view, with deep indigo blue sky and illuminated foliage visible through the glass. Multiple clusters of warm glowing light cascade downward through the double-height void in overlapping rings, washing the staircase treads and walls in soft amber. The mood is dramatic and editorial with rich earth tones and jewel-accented textiles. Camera is at standing height on the upper landing, wide composition showing through the railing into the entry below. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-2e4fe31bd883487d",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/droplet-alabaster-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/DropletAlabasterPendantLamp_1.webp?v=1778651651",
+  "scraped_date": "2026-05-21T12:20:08.768Z",
+  "source_title": "Droplet Alabaster Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 1200,
+  "height": 1200,
+  "content_sha1": "2e4fe31bd883487dc4fcebdad80360852662d9d7",
+  "description": "A spare, Scandinavian-minimalist interior vignette set at the base of an open-tread staircase. The stair treads are visible along the upper-left edge — cantilevered slabs in pale light oak or ash-toned wood with no risers, mounted flush to a smooth warm greige plaster wall. The background wall is a clean, matte warm taupe. In the lower left, a geometric solid-wood side table or bench in pale ash with a simple rectangular joinery form is partially visible. In the lower right, a large framed photograph or artwork with a gray wood frame leans casually against the wall on the floor, its image showing pale sculptural forms in a minimalist composition. A warm diffused glow emanates from the suspended form at center — an alabaster or frosted-stone tapered cone with a brass cap fitting at the top, hanging on a thin matte-black cord — casting a soft warm pool of light against the wall behind it. The floor appears to be pale polished concrete or light stone. The palette is entirely neutral — warm greige, ash, brass, and soft white. Camera at standing eye-level, centered composition with the hanging element as the focal point, normal lens, level pitch, tight vignette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.061Z"
+}

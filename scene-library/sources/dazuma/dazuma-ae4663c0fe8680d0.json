@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-ae4663c0fe8680d0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-pillar-light-modern-minimalist-entryway-landscape-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-pillar-light-modern-stone-pillar-design.jpg?v=1778566322",
+  "scraped_date": "2026-05-21T12:03:00.764Z",
+  "source_title": "Solar Pillar Light Modern Minimalist Entryway Landscape Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ae4663c0fe8680d053ac18ff677f26c0daafd412",
+  "description": "An outdoor evening scene at a garden entrance or driveway gate, photographed at low-to-seated camera height around 2-3 feet with a normal lens, in an off-center thirds composition with shallow depth of field. Two matching stone gate pillars or bollard-style posts stand in a receding pair — the nearest in the foreground in sharp focus, the second slightly behind and to the right rendered in gentle bokeh. The near pillar is dark charcoal granite or polished stone with a rough-textured face and a flat smooth cap on top. The far pillar is a contrasting pale warm sandstone or limestone with a smoother-textured surface. Both pillars sit on a grey tile or stone paved surface. The background is filled with a lush, densely planted garden with abundant red-flowering shrubs — azaleas or rhododendrons — blooming in deep crimson against a very dark nocturnal sky, creating a dramatically colorful backdrop. Warm amber illumination glows on the cap of each pillar and washes softly downward over the stone face, emphasizing the texture of the masonry and creating a rich warm halo against the dark surroundings. The mood is elegant and garden-formal, cinematic in its evening color contrast. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "mixed",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.680Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-d714fdc7ddf10552",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-ceiling-light-modern-minimalist-white-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_4_4965c794-41e2-42a6-a0f6-e6865e9bcbf2.jpg?v=1778838856",
+  "scraped_date": "2026-05-21T12:02:24.320Z",
+  "source_title": "Linear Ceiling Light Modern Minimalist White LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d714fdc7ddf105520e052892aed96f1afc935d99",
+  "description": "A sleek five-star hotel reception lobby photographed at a three-quarter angle from standing height. The primary architectural backdrop is a full-height feature wall clad in horizontal light oak wood planking with a pronounced warm grain, backlit along a cove at the top where warm amber light bleeds upward and creates a luminous gradient on the wood surface. Inset into the oak wall is the text \"hotel domus\" with a five-star rating beneath, rendered in dark laser-cut letters. The reception counter itself is a long horizontal monolith — matte white lacquered on the front face with three inset warm oak panels as decorative accents, topped with a white composite surface. The counter is entirely clear of objects except for a single dark monitor barely visible at the far end. On the right side of the frame, a cognac leather lounge chair with slim dark legs sits on a circular warm caramel jute or felt area rug. The floor throughout is large-format dark charcoal or anthracite porcelain tile. The right wall opens into a full-height black-framed glass storefront or door giving onto a street with trees visible outside. The ceiling is dark, almost black, providing sharp contrast against the illuminated wood wall. Warm cove light and ambient diffuse warm illumination from above create layered warmth across the oak wall while the dark ceiling and floor frame the scene with drama. Camera is at standing eye-level, three-quarter corner view looking toward the back wall and right glass facade simultaneously. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.871Z"
+}

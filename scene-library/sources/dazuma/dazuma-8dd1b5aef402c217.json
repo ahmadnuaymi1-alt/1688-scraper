@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-8dd1b5aef402c217",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-surface-mount-can-lights-glare-free-vintage-style-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/bright-kitchen-surface-mount-can-lights.jpg?v=1775905170",
+  "scraped_date": "2026-05-21T12:03:32.978Z",
+  "source_title": "2 PCS Surface Mount Can Lights Glare-Free Vintage Style Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8dd1b5aef402c217be5fa455ae1f163191cb341f",
+  "description": "A bright, open-plan contemporary kitchen bathed in cool natural daylight streaming through a large picture window on the left wall. The ceiling is smooth flat white with a subtle arched or vaulted section in the center that creates a gentle barrel effect. Two small cylindrical silver brushed-nickel surface-mounted spotlights are mounted on the flat ceiling areas to either side of the arch. The kitchen cabinetry is a mix of clean matte white flat-panel lower and upper cabinets on the right wall, with warm light oak upper open shelving above displaying white ceramic plates, bowls, and a trailing green plant. The backsplash and countertops are a continuous white or pale gray stone with subtle veining. A stainless steel undermount sink with a brushed-nickel arc-neck faucet is set into the perimeter counter. A black gas cooktop is visible at the far right edge. A large kitchen island with a thick waterfall quartz or engineered stone top in the same pale marble finish occupies the foreground center. On the island surface sits a round wooden bowl filled with bright green pears, a wooden utensil holder, and a faucet set into the island's sink. A white ceramic vase with a loose arrangement of fresh flowers sits on the perimeter counter near the sink. A glimpse of a gray sofa with textured throw pillows is visible through the open-plan passthrough at the left, beyond the large window that frames a sunny garden with a warm wood privacy fence. The camera is at standing eye-level, approximately 5–6 feet, with a wide lens. The composition is a wide three-quarter corner view capturing both the island and the perimeter wall with the full depth of the open-plan space. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.499Z"
+}

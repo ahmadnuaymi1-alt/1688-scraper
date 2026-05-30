@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-38a37c7622dd596c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/black-wrought-iron-chandelier-minimalist-style-luxury-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-wrought-iron-chandelier-kitchen-island.jpg?v=1777107936",
+  "scraped_date": "2026-05-21T12:03:07.924Z",
+  "source_title": "Black Wrought Iron Chandelier Minimalist Style Luxury Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1079,
+  "content_sha1": "38a37c7622dd596cd075127e4aefb6e4b1422c44",
+  "description": "A bright, transitional kitchen anchored by a white Shaker-style cabinetry suite that runs floor to ceiling on two walls. The backsplash is a bold encaustic-patterned cement tile in charcoal and white, its floral medallion repeat adding handcrafted texture against the otherwise crisp palette. Countertops are white quartz with soft grey veining, carried across both the perimeter counter and the island apron. The kitchen island is clad in painted white paneling and seats three at its long side, where a trio of backless upholstered stools in warm linen sit on matte-black and brass legs. On the island surface a large rounded white ceramic vase holds an abundant arrangement of eucalyptus branches, their silvery-green leaves arcing well above the countertop. On the perimeter counter, a small wooden utensil holder, a white ceramic canister, and a compact potted plant provide low-density styling. A window to the right floods the space with natural daylight, keeping the atmosphere airy and fresh. Warm incandescent glow pools downward over the island from above, the light effect creating soft graduated shadows on the quartz surface below. The overall mood is clean, polished, and subtly warm — a contemporary take on transitional American kitchen design. Camera is at standing eye-level, roughly centered on the island, shooting a one-point perspective that looks slightly toward the back wall, with the island occupying the lower foreground and full cabinetry visible in the background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.173Z"
+}

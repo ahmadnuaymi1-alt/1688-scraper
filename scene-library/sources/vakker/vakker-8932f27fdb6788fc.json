@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-8932f27fdb6788fc",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/spindle-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17792418377913.png?v=1779299050",
+  "scraped_date": "2026-05-21T12:08:32.156Z",
+  "source_title": "Spindle Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "8932f27fdb6788fca724c24fa2e2f160fa5a3b69",
+  "description": "A grand double-height staircase hall photographed from a standing eye-level vantage at the base of the stair, with a wide lens capturing the full sweeping arc of the curved stair run and both floors. The staircase curves gracefully in a continuous spiral, its balustrade finished in warm brass with smooth, rounded plaster cladding on the inner newel wall. Steps are clad in a rich dark taupe-brown stone with a polished matte finish. The walls are smooth plaster in a warm off-white, almost pale mushroom tone, with gentle texture catching raking light. At the upper landing a terracotta-toned ceramic vase holds a loose arrangement of dried architectural branches, placed on a recessed ledge. To the lower right of the frame sits a curved velvet armchair in deep sage green, its softly rounded silhouette echoing the stair's arc. Warm golden light cascades through the vertical stairwell from above, pooling in overlapping soft circles across the treads and plaster wall, creating a dramatic layered luminescence that draws the eye upward along the spiral. The composition is a centered one-point perspective looking upward through the stairwell void, camera pitched slightly up to emphasize height and drama. The overall mood is dramatic and editorial, with a cool-neutral plaster palette warmed by brass tones and the deep green accent of the chair. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.144Z"
+}

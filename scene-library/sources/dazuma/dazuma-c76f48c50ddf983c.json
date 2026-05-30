@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-c76f48c50ddf983c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-gold-table-lamp-christmas-snowfall-car-ornament-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/three-truck-display-light-08.jpg?v=1763810264",
+  "scraped_date": "2026-05-21T15:52:05.955Z",
+  "source_title": "Modern Gold Table Lamp Christmas Snowfall Car Ornament Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c76f48c50ddf983cf136857491ac9c8947a2a7cf",
+  "description": "A close-up tabletop vignette on a warm medium-toned wood surface, styled with festive Christmas decorative objects. A dark bronze-toned vintage pickup truck figurine — functioning as a snow globe — occupies center frame; inside its cab, a miniature snowman figure is visible. The truck bed carries a small artificial tree, red berry sprigs, and a stuffed bear. To the truck's left, a small potted evergreen, a pinecone, and a draped white linen cloth add texture. To the right, a small laser-cut wooden house with a glowing interior creates a warm golden luminescence at tabletop level. A wicker rectangular tray forms the base for the truck. The background is heavily blurred — a cream curtain or drape and out-of-focus warm golden bokeh circles create a festive, intimate atmosphere. Deep green foliage from a Christmas tree enters the right upper corner. The mood is warm, cozy, and seasonal. Camera is at seated eye-level, normal lens, tight vignette composition focusing on the tabletop arrangement. Warm glow emanates from within the wooden house ornament at surface level, casting soft golden light on the surrounding objects and table. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.795Z"
+}

@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-464a5ae54f58503e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-464a5ae54f58503e.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-spotlight-lamps-round-anti-glare-surface-mount-light",
+  "description": "A refined contemporary hallway or foyer with organic curved architecture, photographed from the entry looking down toward a door at the far end. The left wall curves dramatically at the top in a sweeping arc, with the full wall surface clad floor-to-ceiling in warm medium-toned oak veneer paneling that transitions seamlessly from wall to ceiling. The right side opens to a brighter white plaster wall that hosts a floating console station. The corridor floor is laid in a fine herringbone pattern of warm honey-toned oak parquet, adding texture and warmth underfoot. At the far end, a full-height solid door in dark walnut veneer with a matte-black circular knob set is centered in the corridor, framed by white plaster reveals on either side. On the right wall, a floating console unit with a thick terrazzo or speckled granite top and warm light oak drawer cabinet below serves as an entry station; its surface holds two white ceramic vases of varying heights, one filled with delicate dried cherry blossom branches, and a small black round object. Above the console, a tall thin-framed black rectangular mirror reflects the corridor and the opposite wall, making the space feel deeper. A single white cylindrical ceiling-mounted spotlight is positioned centrally on the smooth greige ceiling, casting a focused downward beam that illuminates the corridor floor and adds a warm directional pool of light. The atmosphere is calm, minimal, and hotel-refined. Camera is at standing eye-level, one-point perspective looking down the corridor with a normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

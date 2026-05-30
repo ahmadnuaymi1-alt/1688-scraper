@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-decb3c78dd4abc97",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-gate-outdoor-courtyard-exterior-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_c39872e0-72a4-4b2d-abf6-29099b1a395b.jpg?v=1774175702",
+  "scraped_date": "2026-05-21T12:04:35.431Z",
+  "source_title": "Pillar Lights for Gate Outdoor Courtyard Exterior Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "decb3c78dd4abc972ab32c66c513b6c5786a91ee",
+  "description": "An elegant classical residential exterior photographed at dusk, showing the front gate entrance to a white Mediterranean or Florida classical-style home. The house facade is crisp bright white stucco with Corinthian column pilasters flanking a grand arched entrance portico — the arch is softly illuminated from within, casting a warm amber glow through the covered entry and revealing a dark mahogany front door beyond. A black wrought iron gate with vertical pickets connects two substantial white limestone or cast stone gate piers or entry pillars; matching black metal fence panels extend to both sides. Lush tropical and formal landscape plantings surround the entry — neatly trimmed boxwood hedges line the base of both fence piers, and a tall palm tree with feathery fronds rises behind the right side. A wide concrete or paver walkway leads toward the gate. The sky is deep dusk blue with soft cloud cover. Warm amber light glows from within the two post cap positions on top of the white stone pillars — the concentrated warm luminescence from each pillar cap creates a golden pool that illuminates the top stone surface and faces of each pier, contrasting richly with the cool twilight blue. Camera is at standing eye-level, normal to wide lens, centered symmetrical composition framing both gate pillars equally with the arched portico centered in the background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.901Z"
+}

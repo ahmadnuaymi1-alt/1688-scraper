@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-6f8dc0516541eb9c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/inground-landscape-lights-outdoor-garden-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/inground-landscape-lights-contemporary-backyard-garden.jpg?v=1774595363",
+  "scraped_date": "2026-05-21T12:04:23.483Z",
+  "source_title": "Inground Landscape Lights Outdoor Garden Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Well Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6f8dc0516541eb9c1a60f30bc903fe64be985922",
+  "description": "A contemporary Mediterranean exterior at deep dusk, with a twilight blue sky darkening above. The scene features a smooth white stucco residential exterior wall on the right, with a straight exterior staircase of rendered concrete steps climbing upward with a simple white metal pipe railing. A large, architectural agave plant in a natural decomposed granite bed anchors the base of the staircase. The flat terrace surface is paved in large-format light cream stone or concrete tiles. A tall dry-stone rubble wall in natural grey-brown fieldstone runs along the back left plane, with a planting bed of dark ornamental grasses or bronze fennel standing before it. A manicured grass lawn in the lower foreground features a warm golden upward-aimed beam of light washing across a rounded grass mound, creating a dramatic spot of warmth on the lawn. Warm amber light glows from two simple casement windows on the white stucco building upper story. The overall mood is cool, minimal, and dramatic — a spare modern Mediterranean at night. Camera is at standing or slightly low eye-level, off-center thirds with the staircase and building on the right, the stone wall on the left, and the lawn and ground-level warm light beam in the immediate foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.379Z"
+}

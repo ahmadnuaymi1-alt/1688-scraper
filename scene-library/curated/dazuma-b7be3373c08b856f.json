@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-b7be3373c08b856f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b7be3373c08b856f.jpg",
+  "source_url": "https://dazuma.us/products/portable-table-lamps-mid-century-style-usb-charger-lamp",
+  "description": "An outdoor garden bench vignette photographed at seated eye-level with a normal lens, framing a close off-center thirds composition of a slatted wood bench seat. The bench is constructed from light, natural-toned weathered teak or acacia wood with wide flat horizontal slats. Two decorative throw pillows lean against the back of the bench — one in a geometric tonal pattern in pale blues and light gray, one in plain light linen texture. At the right corner, a tightly wound jute or rattan bolster roll in natural tan adds texture. The bench seat itself is the primary surface, with outdoor greenery suggested in soft focus at the upper corners. The overall light is bright diffused daylight — even, airy, and natural. The mood is casual and serene, with a coastal-influenced outdoor comfort aesthetic. No artificial lighting effects are visible in the scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

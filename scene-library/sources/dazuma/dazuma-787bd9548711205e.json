@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-787bd9548711205e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-solar-lighting-wall-mount-motion-sensor-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-solar-lighting-wall-mount-contemporary-warm-porch.jpg?v=1774836465",
+  "scraped_date": "2026-05-21T12:04:05.004Z",
+  "source_title": "Outdoor Solar Lighting Wall Mount Motion Sensor LED Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "787bd9548711205e502244be0cfe64c42d0494ed",
+  "description": "A contemporary rural or forest retreat exterior photographed in full autumn daylight. The single-story building features light natural wood vertical board-and-batten siding in a pale blonde tone, with matte black steel structural posts and window frames. A covered front porch with a dark stained wood beam ceiling and exposed rafter ends extends across the facade. A wide black-framed sliding glass door serves as the main entry, flanked by fixed-pane black-framed windows. Warm honey-toned wood decking covers the porch floor and leads down broad steps to a path of large grey pavers. A simple wood bench sits on the porch left. The surrounding landscape is a spectacular autumn forest, with gold, orange, and russet tree canopies filling the upper background and long grass and low plantings framing the base of the building. Natural daylight is warm and golden — soft autumn afternoon light illuminating the facade and casting gentle shadows from the porch structure. Two wall-mounted positions are visible on the siding flanking the door, each providing focused directional illumination onto the deck surface. The mood is quiet, nature-connected, and architecturally precise. Camera at standing eye-level, three-quarter corner view capturing the full porch and facade in a wide establishing composition, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.414Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-02a643784fa09352",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-solar-lights-modern-outdoor-landscape-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-solar-lights-contemporary-patio-walls.jpg?v=1778566448",
+  "scraped_date": "2026-05-21T12:02:58.729Z",
+  "source_title": "Pillar Solar Lights Modern Outdoor Landscape Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "02a643784fa09352bf3bba7343b1a5bce48fda15",
+  "description": "An exterior courtyard scene photographed at dusk or early evening, where the ambient sky has dimmed to a deep blue-grey twilight. The space is defined by a minimalist modernist landscape design built almost entirely from raw concrete and natural stone. Two large cubic concrete plinths — squared-off, rough-cast with a smooth matte finish in cool grey — rise from a dark grey stone-tile patio floor laid in large rectangular slabs with tight grout joints. The plinths are arranged in an offset receding pattern from the lower foreground to the middle distance, creating a gentle diagonal rhythm across the frame. Between and around the plinths, a narrow gravel bed of pale white pea-gravel separates the hardscape zones, and a strip of manicured short grass is visible at the lower right corner.\n\nA low planted retaining wall of matching cast concrete runs across the background, backed by a dense layered planting of small-leafed shrubs, ornamental grasses, and broad-leafed tropical accent plants in deep forest green and olive tones. The planting beds are lush and full, providing a rich textural contrast to the severe geometry of the hardscape. At the upper right edge of the frame, a warm amber light spills from what reads as a building interior — a softly lit opening suggesting a residence beyond the courtyard — adding depth and a sense of inhabited warmth behind the scene.\n\nWarm golden light pools softly across the flat tops and upper edges of both concrete plinths, radiating outward and downward onto the patio surface below in a diffused horizontal glow. The light has a distinctly warm amber-gold color temperature, creating a strong contrast against the cool blue-grey of the surrounding concrete, gravel, and evening sky. The glow washes gently across the patio tiles and catches the texture of the concrete faces with subtle low-angle luminance.\n\nCamera angle: The camera is positioned at a low-to-seated height, approximately two to three feet above the patio surface, with a slight upward pitch of roughly ten to fifteen degrees. The lens reads as a normal-to-slightly-wide focal length, approximately 35–40mm equivalent. The composition is an off-center three-quarter view looking diagonally across the courtyard, with the foreground plinth occupying the right-center of the frame and the second plinth receding naturally into the left middle distance. The framing is a wide establishing shot that captures the full spatial environment — patio floor, plinths, planted background wall, and sky — rather than isolating a single surface.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:28:34.272Z"
+}

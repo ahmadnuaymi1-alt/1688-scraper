@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-16f7871dd15ec373",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/adjustable-travertine-dome-vanity-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Adjustable_Travertine_Dome_Vanity_Light60.png?v=1779331873",
+  "scraped_date": "2026-05-21T12:08:29.572Z",
+  "source_title": "Adjustable Travertine Dome Vanity Light",
+  "source_product_type": "Wall Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "16f7871dd15ec373de7547d3baeaef6b036cf827",
+  "description": "A bathroom vanity vignette rendered in warm, organic materials with a meditative stillness. The architecture is minimal — smooth plaster walls in a muted greige-white with a tactile, slightly uneven surface texture that catches raking light from a single multi-pane window at the left edge of the frame. The window admits a soft column of natural daylight that falls diagonally across the wall surface and countertop, creating gentle warm highlights and diffuse shadow play without hard lines.\n\nThe vanity surface is a thick slab of reclaimed wood with pronounced grain, knots, nail holes, and weathered edges in a pale driftwood tone — raw, unfinished, and deliberately imperfect. Below the counter, rolled towels rest in a woven seagrass basket, with a small shelf or ledge supporting additional folded linens.\n\nAtop the counter sits a round vessel sink in cast concrete or terrazzo, off-white with fine aggregate texture, mounted centered slightly right of midframe. The wall-mount faucet extends from the plaster wall in a dark gunmetal or blackened bronze finish — two lever handles flanking a spout, all in the same dark metal tone, simple and architectural. To the left of the sink, a ceramic vase holds dried eucalyptus branches in muted silver-green; beside it, two amber-glass pump dispensers with minimal white labels sit on the raw wood surface. A larger matte ceramic vessel — squat, textured, off-white — anchors the grouping. To the right of the sink, a small stack of folded white cotton towels rests neatly.\n\nThe mirror above the vanity is framed in reclaimed barn wood — pale, bleached, rough-hewn planks with visible nail holes and grain variation, assembled in a wide rectangular frame that is slightly oversized relative to the mirror glass. The mirror reflects soft ambient light and a suggestion of the window behind the camera.\n\nA warm downward glow washes across the top of the mirror frame and the upper portion of the wall surface above the vanity, creating a soft arc of illumination that brightens the plaster and grazes the top edge of the wood mirror frame. The light quality is warm white, intimate, and focused — pooling downward rather than flooding the room.\n\nThe overall palette is tightly controlled: warm whites, driftwood tans, raw concrete cream, and dark gunmetal accents. The mood is spa-like, unhurried, and grounded in natural materiality. No paint, no pattern — only texture.\n\nCamera is positioned at approximately seated-to-standing eye level (roughly 4–5 feet), slightly left of the sink centerline, shooting with a normal focal length lens (approximately 35–50mm equivalent). The composition is a centered-symmetrical vignette tightly framed on the vanity wall — both the mirror and countertop surface are fully visible, with the wall extending to the window at the left. Camera pitch is level with minimal downward tilt. The frame captures a single-wall vignette rather than a full room or corner view.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:07.268Z"
+}

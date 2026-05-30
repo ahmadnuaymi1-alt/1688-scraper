@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-88f385328e59eee8",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-88f385328e59eee8.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-surface-mounted-can-lights-ultra-thin-round-modern-led-light",
+  "description": "An open-plan kitchen, dining, and living area photographed in bright, even natural and artificial light. The kitchen runs along the back and right walls with white shaker-style cabinetry with brass bar-pull hardware throughout, a white painted custom range hood over a black gas range, and a white quartz or marble countertop. A central kitchen island with two walnut or medium-brown bentwood bar stools provides a casual seating perch. The sink station at the right wall features a brushed nickel gooseneck faucet and a few small decorative vessels. Small potted green plants and a round ceramic dish accessorize the island and countertop. The kitchen is open to a dining area at the right with a matte black dining table surrounded by gray upholstered side chairs. The living zone at left foreground features a large, deep cream boucle or shaggy sofa, a simple square light oak coffee table with a small potted plant and stack of books, and a woven natural fiber area rug in gray tones. A large picture window at the far left floods the room with bright natural daylight, illuminating the pale greige walls and light hardwood floors. The ceiling is smooth greige with small recessed cylinder-style downlights spaced across it, each emitting a focused cool-white downward spotlight. The palette is warm neutral throughout — cream, white, warm oak, brass, greige, charcoal accents. The mood is casual and lived-in, bright and inviting. Camera is at standing eye-level, approximately 5-6 feet, shooting level with a wide lens in a wide establishing view from the front-left corner, capturing all three zones in a single frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

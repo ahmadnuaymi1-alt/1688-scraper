@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-c25836a67a19a32b",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-c25836a67a19a32b.png",
+  "source_url": "https://vakkerlight.com/products/vesper-onyx-table-lamp",
+  "description": "A refined home office photographed at standing eye-level with a normal lens in a three-quarter corner view showing the desk, built-in shelving on the left wall, and a tall window on the right. The walls are painted in warm cream-white, and abundant natural daylight floods in through a large floor-to-ceiling glazed door or picture window on the right, the view beyond showing lush garden foliage in vivid green. The built-in shelving unit on the left wall, in warm walnut or dark-stained wood, houses an edited collection of books, small sculptural objects, and a small framed photograph — a curated intellectual arrangement. A rectangular writing desk in warm walnut with a long surface and clean apron profile occupies the foreground, a stack of art and design hardcover books laid flat on the left end. On the desk surface, a warm diffuse glow emanates at table height, casting a soft pool of illumination onto the desk surface. Beside it, a small potted fiddle-leaf fig or ficus in a compact ceramic pot adds a living, organic note. A gold-toned abstract wall sculpture in brass hangs on the wall above the shelving. The desk chair — a deep forest-green velvet or leather armchair — is partially visible to the left. A natural sisal rug covers the floor. The mood is scholarly and aspirational, with warm walnut tones and green accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

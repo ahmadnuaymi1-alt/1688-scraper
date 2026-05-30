@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-1830ab621a00d697",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/paper-pendant-light-fixtures-movable-japanese-ambient-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-paper-pendant-light-fixtures-dining.jpg?v=1776391577",
+  "scraped_date": "2026-05-21T12:03:34.153Z",
+  "source_title": "Paper Pendant Light Fixtures Movable Japanese Ambient Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1830ab621a00d697fe2eb9e3f9267cfe02d09212",
+  "description": "An open-plan kitchen and casual dining area photographed at standing eye-level with a normal lens in a centered symmetrical one-point perspective composition. The camera looks straight into the kitchen from the dining zone, with the island and back wall centered in the frame. The ceiling is flat white with two round woven rattan-shade paper lanterns suspended on long black cords from a shared ceiling canopy in a swag cluster arrangement — their warm cream diffusion casts a soft even glow downward over the dining table below. The kitchen cabinetry is all-white painted shaker with thin brass bar pulls, flanking an arched niche above the range that acts as a full-height marble slab backsplash in Carrara with dramatic grey veining carried from counter to ceiling. The kitchen island has a white marble top and a warm medium walnut stained base with a cane-paneled front apron, bridging white cabinetry and wood tones. Open walnut-stained floating shelves on the left wall display a curated collection of stoneware, ceramic vases, a mortar, and small potted plants — earthy and editorial. Stainless steel professional appliances including a six-burner range, wall oven stack, and French-door refrigerator are integrated into the run. In the foreground, a substantial round dining table with a deeply carved dark walnut pedestal base and antique-inspired frieze is surrounded by five cream bouclé upholstered barrel-back chairs with tapered walnut legs. The table is set casually with white ceramic dinner plates, placemats, crystal glasses, and a large olive-green glazed ceramic vase overflowing with a loose fresh floral arrangement of peonies, garden roses, and greenery. A vintage Persian-inspired area rug in dusty red, ochre, and cream grounds the dining zone. On the far left, a large picture window with no dressing frames bright daylight and outdoor foliage. Wide-plank honey oak flooring runs throughout. The mood is warm, lived-in, and casually elegant. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.046Z"
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-e7d86d6726f84d5d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e7d86d6726f84d5d.jpg",
+  "source_url": "https://dazuma.us/products/american-glamorous-floor-crystal-lamp-decorative-standing-luxury-light",
+  "description": "A library sitting room photographed at standing eye-level with a normal lens, showing a three-quarter corner view with two walls visible. The walls are painted a warm sandy beige and are finished with applied white wainscoting panels on the lower third separated by a white chair rail, giving an English traditional feel. The floor is warm light parquet in a herringbone or basket-weave pattern with a large area rug in camel, cream, and dark brown diamond motifs. Anchoring the left side is a tall dark mahogany open bookcase with four shelves holding leather-bound and paperback books in warm earth tones, a dark glass bottle, a small wooden bowl, and a dried botanical arrangement in a grey ceramic vase at the top. Leaning against the bookcase is a large flat artwork panel printed with a geometric tribal pattern in black and cream. To the right of the bookcase, a tall floor-standing piece with a slender matte black rod and round marble base stands beside a classic button-tufted black leather wingback armchair. The chair holds a white-on-black abstract line-drawn throw pillow. Warm amber light from the piece at floor height illuminates the rug below it and the surrounding wall with a soft golden pool. The mood is scholarly, rich, and traditionally styled. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "wainscoting",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "sconce"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

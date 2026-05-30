@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-e31ec927f228cb17",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-pillar-for-home-modern-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/light-pillar-home-stone-pillars-luxury-entrance.jpg?v=1773717498",
+  "scraped_date": "2026-05-21T12:19:41.560Z",
+  "source_title": "Light Pillar for Home Modern Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e31ec927f228cb174bb450ab1d9a2bd7adccc129",
+  "description": "A contemporary Central European or Eastern European residential exterior under a clear bright blue daytime sky. The perimeter fence is a dramatic composition of dark charcoal natural stone or dark slate cladding — three tall, chunky rectangular gate pillars with rough-cut stone facing anchor the composition at left, center-gate, and right. Between the pillars, horizontal dark metal fence panels run in parallel bands with slight gaps, creating a modern horizontal-slat effect in a very dark near-black tone. The driveway or approach surface is composed of large-format gray stone or paver tiles. At the base of the fence, a decorative gravel planting bed runs the width — large white rounded pebbles ground the fence line, from which three neatly trimmed boxwood or similar round shrubs emerge symmetrically between the pillars. The house behind the fence is a two-story suburban residence with a pale beige or cream smooth stucco exterior and a dark gray hip roof — a skylight or two is visible in the roof plane. Dark evergreen trees are visible at the property edges. Each gate pillar has a flat-topped stone cap from which a warm ambient glow can be inferred but is not prominent in the bright daylight — decorative cap fixtures are mounted atop each pillar in a lantern-with-scroll-detail form. The scene is photographed from street level, standing eye-level, wide lens, centered on the gate opening with the house in the distance. Camera is at standing eye-level, normal lens, one-point perspective looking through the gate axis toward the house. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.916Z"
+}

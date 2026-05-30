@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-ad3a128a8f318ffd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-suspension-lighting-fixtures-modern-aluminum-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_e88308c4-a8bd-4274-a1d7-83ab571e5415.jpg?v=1779070697",
+  "scraped_date": "2026-05-21T12:02:14.417Z",
+  "source_title": "Linear Suspension Lighting Fixtures Modern Aluminum Light",
+  "source_product_type": "Lighting > Ceiling Lights > Linear Suspension",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ad3a128a8f318ffd1e1558f40c02f94fc9ca78f9",
+  "description": "A contemporary private office or executive workspace photographed at standing eye-level with a wide-normal lens around 28-35mm, three-quarter corner composition capturing both the desk arrangement and the windowed wall. The far wall is paneled in a grid of large flat rectangular panels in cool light grey with fine black metal reveals separating each section — a high-end joinery or architectural cladding system that creates a refined, hotel-lobby quality surface. A full-height curtained window on the left admits filtered daylight through sheer ivory panels overlaid with brown-bronze velvet blackout drapes partially drawn. Two executive desks with cream-painted lacquer pedestals and dark charcoal marble-effect stone worktops are arranged facing each other in the center of the room, each topped with a black monitor, small framed photos, and minimal desk accessories. Four white mesh ergonomic task chairs with adjustable arms surround the desks. A large leafy tropical plant in a dark container stands between the desks in the background. The floor is wide-plank dark walnut herringbone parquet, its warm brown tones contrasting with the grey wall paneling. On the far left foreground, an off-white sofa armrest is partially visible, suggesting a reception zone. Direct sunlight stripes the herringbone floor diagonally. The mood is precise and corporate but architecturally refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.675Z"
+}

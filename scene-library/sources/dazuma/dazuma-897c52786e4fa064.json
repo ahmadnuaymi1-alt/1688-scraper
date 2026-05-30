@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-897c52786e4fa064",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-hanging-lights-for-porch-american-waterproof-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-hanging-lights-porch-classic-cozy-dining-area.jpg?v=1774078533",
+  "scraped_date": "2026-05-21T12:04:50.856Z",
+  "source_title": "Outdoor Hanging Lights for Porch American Waterproof Pendant Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "897c52786e4fa06412413f951b7ebeccc7de76bd",
+  "description": "A covered outdoor dining terrace photographed at standing eye-level with a normal lens, capturing a three-quarter view of a long outdoor dining table and its surrounding landscape. The table is painted white with a distressed finish, surrounded by six woven rattan chairs in warm caramel tones. A white ceramic vase holding white calla lilies, a glass carafe, and a natural wood storage box dressed in woven rattan are arranged along the table. The overhead structure is a pergola or covered terrace with a ceiling of warm teak wood slats running in tight parallel rows, creating a linear ceiling texture. A natural stone column clad in rough-textured limestone anchors the left side, and a wall-mounted screen is partially visible beyond it. The landscape beyond the terrace is characteristically Mediterranean — mature silver-leafed olive trees, a tall dark Italian cypress in the middle distance, and a laid-back modern outdoor seating group visible farther back. Two dark iron lantern forms with seeded glass panels hang on iron chains from the ceiling above the table, emitting a warm amber glow that pools across the white tabletop and catches the warm golden tones of the rattan chairs. The sky beyond is pale blue-grey. The mood is relaxed, al fresco, and Californian-Mediterranean. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.481Z"
+}

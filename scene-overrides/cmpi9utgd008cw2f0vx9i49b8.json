@@ -1,0 +1,121 @@
+{
+  "productId": "cmpi9utgd008cw2f0vx9i49b8",
+  "productTitle": "European Aluminum Touch Dimmable USB Rechargeable LED Bedside Lamp",
+  "authoredBy": "in-chat scene design (per-variant warm white 2700K; lamp shows warm amber light in ref; no alcohol)",
+  "authoredAt": "2026-05-23T12:10:00.000Z",
+  "classification": "both",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "hotel-bedside-terracotta",
+      "mode": "homey",
+      "prompt": "A boutique hotel guest-room bedside, shot on a 50mm lens at seated bedside eye-level, slightly off-centre right so the small copper rechargeable lamp sits in the lower-left third of a 1:1 frame on a slim walnut nightstand. Late evening, around 9pm: the only second light source is a small recessed reading sconce throwing a soft halo over the linen channel-tufted headboard in the background. Style the nightstand with a linen-bound novel face-down with a leather bookmark, a hammered brass tray holding folded reading glasses, a small ceramic carafe and matching tumbler half full of water, and a single dried eucalyptus stem in a stoneware bud vase. Walls are a warm terracotta-clay limewash; layered oat-linen bedding and a chocolate cashmere throw visible at frame-right. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of terracotta clay, copper, oat linen, walnut, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "boutique hotel bedside",
+      "designStyle": "warm Mediterranean hospitality",
+      "wallColour": "terracotta clay limewash",
+      "cameraAngle": "50mm seated bedside off-centre right",
+      "timeOfDay": "late evening",
+      "accents": [
+        "walnut nightstand",
+        "linen-bound novel with leather bookmark",
+        "hammered brass tray with reading glasses",
+        "ceramic carafe and water tumbler",
+        "dried eucalyptus in stoneware bud vase"
+      ]
+    },
+    {
+      "slug": "trattoria-marble-bistro",
+      "mode": "homey",
+      "prompt": "An intimate Italian trattoria two-top table set against a craquelure-cream plaster wall, shot on a 35mm lens at seated guest eye-level, slight three-quarter so the small copper rechargeable lamp anchors the back-centre of a 1:1 frame on a round white-marble bistro table. Early evening dusk: the only second light source is a distant pendant glowing softly over the bar deep in the blurred background. Style with two small espresso cups on saucers, a hand-thrown stoneware plate of pizzelle and biscotti, a folded raw-linen napkin tied with twine, a footed ceramic dish of olive-oil-dressed marcona almonds, and a tiny clear bud vase with a single sprig of fresh rosemary; cane-back bistro chair just visible at frame-edge. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of cream plaster, white marble, copper, warm-brown stoneware, sage rosemary. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "trattoria two-top bistro table",
+      "designStyle": "rustic Italian neighbourhood restaurant",
+      "wallColour": "cream limewash with craquelure plaster",
+      "cameraAngle": "35mm seated guest eye-level three-quarter",
+      "timeOfDay": "early evening dusk",
+      "accents": [
+        "round white-marble bistro table",
+        "two espresso cups on saucers",
+        "stoneware plate of pizzelle and biscotti",
+        "footed dish of marcona almonds",
+        "rosemary sprig in clear bud vase"
+      ]
+    },
+    {
+      "slug": "forest-green-reading-nook",
+      "mode": "minimalist",
+      "prompt": "A quiet reading nook in a converted attic study, shot on a 35mm lens at seated eye-level just off the side of a high-back oat-linen wingback chair so the small copper rechargeable lamp sits centred in the upper-right third of a 1:1 frame on a slim walnut tripod side table. Dusk, golden-blue: the only second light source is a slim antique-brass picture light glowing low across a leaning landscape oil on the floor at frame-left. Tight styling — only three intentional objects — a single linen-cloth-bound hardback open face-down with a green silk bookmark, a footed stoneware mug of black tea, and an oat-cashmere throw draped casually over the chair arm. Walls are a deep forest-green limewash; oak-plank floor visible. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of forest green, oat linen, walnut, copper, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "attic reading nook",
+      "designStyle": "scholarly English minimalist",
+      "wallColour": "forest-green limewash",
+      "cameraAngle": "35mm seated eye-level beside wingback",
+      "timeOfDay": "dusk",
+      "accents": [
+        "walnut tripod side table",
+        "linen hardback with green silk bookmark",
+        "footed stoneware mug of black tea",
+        "oat-cashmere throw on chair arm",
+        "leaning landscape oil at floor"
+      ]
+    },
+    {
+      "slug": "patio-bistro-golden-hour",
+      "mode": "homey",
+      "prompt": "A covered Mediterranean terrace with terracotta-tile flooring and a slim round white-marble café table for two, shot on a 35mm lens standing slightly above the table looking gently down so the small copper rechargeable lamp anchors centre-frame in a 1:1 composition. Late golden hour, around 7pm: the only second light source is a warm woven-rattan lantern hanging from an exposed beam in the upper-left corner of the frame. Style the table with two glazed terracotta dessert plates holding sliced fresh figs and a small heap of pistachios, a small clear-glass carafe of sparkling water with a wheel of lemon, a folded oat-linen napkin, and a woven palm placemat under each plate; one cane-back bistro chair just visible at frame-right, and a potted olive tree at the far edge against weathered whitewashed stucco. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of terracotta tile, weathered white stucco, copper, olive green, pale lemon. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "covered Mediterranean patio bistro",
+      "designStyle": "weathered Mediterranean outdoor",
+      "wallColour": "whitewashed weathered stucco",
+      "cameraAngle": "35mm standing slightly above looking down",
+      "timeOfDay": "late golden hour",
+      "accents": [
+        "white marble café table",
+        "terracotta plates with figs and pistachios",
+        "carafe of sparkling water with lemon",
+        "woven palm placemats",
+        "rattan lantern from exposed beam",
+        "potted olive tree"
+      ]
+    },
+    {
+      "slug": "putty-powder-room-vanity",
+      "mode": "minimalist",
+      "prompt": "A small luxe powder-room vanity beside a hand-thrown stoneware vessel sink, shot on a 50mm lens at head-height looking gently down so the small copper rechargeable lamp sits in the upper-right of a 1:1 frame on the honed marble counter. Night: the only second light source is a slim brushed-brass wall sconce throwing a soft glow on the far side of the mirror at frame-left. Tight styling — three intentional objects — a slim hand-thrown stoneware soap dispenser, a folded oat-cotton hand towel with a whip-stitched edge, and a small terracotta tray holding two amber-glass apothecary bottles; a single sprig of dried eucalyptus in a slim stem vase at the back. Walls are a warm putty-pink limewash; honed marble counter with a brushed-brass faucet just visible at frame-edge. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of putty pink, honed marble, copper, eucalyptus green, brushed brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "powder room vanity counter",
+      "designStyle": "soft luxe minimalist bathroom",
+      "wallColour": "warm putty-pink limewash",
+      "cameraAngle": "50mm head-level looking gently down",
+      "timeOfDay": "night",
+      "accents": [
+        "honed marble counter",
+        "stoneware soap dispenser",
+        "folded oat-cotton hand towel",
+        "terracotta tray with apothecary bottles",
+        "dried eucalyptus stem vase",
+        "brushed-brass wall sconce"
+      ]
+    },
+    {
+      "slug": "library-mahogany-side-table",
+      "mode": "minimalist",
+      "prompt": "A side table beside a leather chesterfield in a private gentleman's library, shot on a 35mm lens at standing eye-level looking down at the corner of a round mahogany side table so the small copper rechargeable lamp sits centred in a 1:1 frame. Late evening, post-dinner: the only second light source is a single banker's-green lamp glowing softly across the room on a leather-topped partners desk in the deep background. Tight styling — a neat stack of three leather-bound first editions, an antique brass magnifying glass resting on top, a small leather correspondence tray with a folded ivory pocket square, and a footed stoneware mug of black coffee with a thin curl of steam. Walls are a deep oxblood-burgundy limewash with a leaning small gilt-framed botanical print just visible at frame-edge. The lamp matches the reference image exactly — copper-bronze tapered aluminium body with the woven honeycomb-textured shade and round touch-button base — switched ON, warm white 2700K (matches the warm amber glow shown in the variant reference). Palette of oxblood burgundy, mahogany, copper, oxblood leather, ivory, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "private library side table",
+      "designStyle": "English gentleman's club",
+      "wallColour": "oxblood-burgundy limewash",
+      "cameraAngle": "35mm standing eye-level looking down",
+      "timeOfDay": "late evening",
+      "accents": [
+        "round mahogany side table",
+        "stack of leather-bound first editions",
+        "antique brass magnifying glass",
+        "leather correspondence tray with pocket square",
+        "stoneware mug of black coffee",
+        "leaning gilt-framed botanical print"
+      ]
+    }
+  ]
+}

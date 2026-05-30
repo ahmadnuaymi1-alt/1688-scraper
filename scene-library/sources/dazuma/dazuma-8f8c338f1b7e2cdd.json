@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-8f8c338f1b7e2cdd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/swing-arm-desk-lamps-italian-style-metal-long-mechanical-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-reading-swing-arm-desk-lamps.jpg?v=1770543460",
+  "scraped_date": "2026-05-21T15:52:19.291Z",
+  "source_title": "Swing Arm Desk Lamps Italian-Style Metal Long Mechanical Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Desk Lamps > Swing Arm Desk Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8f8c338f1b7e2cdd40d2cd98703e13f160f09e56",
+  "description": "A moody, contemporary living room interior photographed at seated eye-level with a normal-to-wide lens, composed as a wide establishing shot looking across a deep, dark room. The entire back wall is a floor-to-ceiling built-in shelving unit in matte dark charcoal or dark espresso — a seamless recessed panel system with open shelves and closed lower cabinets. On the shelves, a few curated objects are visible: a small matte black silhouette cyclist sculpture, a stack of white and cream books, and a textured dark stone bookend object. The lower cabinets have a warm walnut wood veneer face. In the foreground, two sofa elements are visible from behind: on the left, a chunky textured grey boucle sofa arm with a small grey knit throw pillow; on the right, a natural linen or jute-textured ottoman or sofa section. Between the sofa pieces, a small dark smoked-glass or lacquer side table holds the primary surface object. A warm directed beam of light falls across the sofa seat cushion top in the foreground, creating a dramatic chiaroscuro against the near-black room. The palette is monochromatic dark charcoal, warm walnut, and natural linen. The mood is moody and architectural. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "pendant",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.508Z"
+}

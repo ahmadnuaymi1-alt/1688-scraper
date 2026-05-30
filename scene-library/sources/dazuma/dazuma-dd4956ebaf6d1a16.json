@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-dd4956ebaf6d1a16",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/swing-arm-wall-mount-light-modern-flexible-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_8db7b8e0-36c9-4b4a-ab4c-8854ecc66cb0.jpg?v=1778838723",
+  "scraped_date": "2026-05-21T12:02:27.229Z",
+  "source_title": "Swing Arm Wall Mount Light Modern Flexible LED Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "dd4956ebaf6d1a16b455c4bd258975d7c84acefd",
+  "description": "A warm, intimate bedroom corner featuring a paneled headboard wall that combines rich dark walnut wood grain panels above with a wide linen-textured upholstered panel insert below — the contrast of materials creates a layered, hotel-quality backdrop. The bed has a saddle tan cognac leather upholstered headboard with a low, rectangular silhouette. Bedding is layered in warm cream and ivory tones — a crinkled cotton duvet or sheet, a warm ivory pillow, and a chunky knit throw at the foot suggesting lived-in comfort. To the left of the bed sits a small walnut-stained nightstand with a single drawer, topped with a clear glass bud vase holding a few delicate dried branches with tiny white blooms. A white rocker switch plate is mounted on the upholstered panel above the nightstand. A concentrated warm amber spotlight pools down from the wall onto the nightstand surface and upper pillow area, casting soft shadow on the linen-textured panel and creating a cozy reading atmosphere. The overall color palette is warm earth tones — cognac, walnut brown, ivory, and oat — with the glass vase providing a subtle transparent accent. Camera is at seated to standing eye-level, normal lens, three-quarter view of the bed headboard corner emphasizing the left nightstand side. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.895Z"
+}

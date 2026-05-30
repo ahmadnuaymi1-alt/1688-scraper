@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-53ca36a3fb6b116b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-gold-chandelier-french-star-luxury-glass-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/vintage-gold-chandelier-bedroom.jpg?v=1777107652",
+  "scraped_date": "2026-05-21T12:03:10.019Z",
+  "source_title": "Vintage Gold Chandelier French Star Luxury Glass Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "53ca36a3fb6b116bd15e805fe7bb26166375e412",
+  "description": "A serene, softly lit bedroom in a warm neutral palette. The room centers on a king-sized bed with an upholstered linen wingback headboard in warm oat-beige, dressed with layered white and taupe bedding, a textured knitted throw draped across the foot, and several graduated throw pillows in ivory and greige tones. Beneath the bed, a large natural fiber area rug in a tone-on-tone woven pattern anchors the space. The floor is medium-stained hardwood planks running lengthwise. To the right of the bed stands a long walnut console or media credenza with tapered legs, its surface bare. Above it, two rows of framed landscape prints in walnut frames — pastoral scenes in muted earth tones — form a small gallery wall. A pair of large windows on the left wall are dressed with floor-length sheer curtains in ivory linen, softly diffusing the daylight into a gentle, even ambient glow across the room. The walls are smooth painted plaster in warm white. Soft, even illumination fills the ceiling space, rendering the room in a quiet, daylit mood. Camera is at standing eye-level, positioned in a centered symmetrical composition facing the headboard wall, with a normal to slightly wide focal length that captures both side walls, the full ceiling, and the floor. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.280Z"
+}

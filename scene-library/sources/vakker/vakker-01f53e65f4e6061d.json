@@ -1,0 +1,46 @@
+{
+  "image_id": "vakker-01f53e65f4e6061d",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/rustic-antler-lodge-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17785519914537.png?v=1778555947",
+  "scraped_date": "2026-05-21T12:20:12.481Z",
+  "source_title": "Rustic Antler Lodge Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "01f53e65f4e6061da407fb236b5164443690c616",
+  "description": "A rugged, deeply atmospheric mountain cabin living room photographed at seated eye-level height, roughly three to four feet from the floor, with a wide-angle lens capturing a three-quarter corner view of the space. The camera faces the far left corner, encompassing both the fireplace wall and the right side wall with its large multi-pane window, while the vaulted ceiling with exposed dark timber beams dominates the upper register of the frame. The room pitches very slightly upward in gaze to accommodate the soaring ceiling height.\n\nArchitecture is defined by rough-hewn exposed timber beams running diagonally across a dark stained wood plank ceiling, steeply vaulted toward the peak. The fireplace surround is built from irregular dry-stacked fieldstone rising nearly to the ceiling, anchored by a thick reclaimed-wood beam mantel with visible saw marks and weathered texture. The walls are finished in coarse textured plaster in a warm cream-beige tone, contrasting richly against the dark wood overhead. A large multi-pane casement window on the right wall frames a twilight view of tall evergreen pines outside, admitting cool ambient exterior light that counterpoints the warm interior tone.\n\nFurniture centers on two substantial dark cognac brown leather Chesterfield-style sofas — one angled left, one facing the viewer — both dressed with plaid wool tartan throws in deep brown, amber, and rust tones. Throw pillows in matching plaid textile add softness. A leather wingback armchair in similar cognac sits left of frame with a folded forest green wool blanket draped over its arm. A large rectangular coffee table in heavily distressed reclaimed wood sits centrally, holding a ceramic mug, a small pair of binoculars, a shallow wooden bowl filled with pine cones, and scattered books. An ornate Persian-style area rug in muted reds, creams, and browns grounds the seating arrangement.\n\nDecorative objects are layered densely throughout. On the left wall, two traditional wooden snowshoes are crossed and mounted above a hanging black lantern-form accent. A framed black-and-white mountain landscape print leans against a small side table near the armchair, accompanied by brass candlesticks and stacked books. On the fireplace hearth, cast-iron fireplace tools stand to the left, and a carved wooden bear figurine sits to the right of the glowing firebox. Stacked books and a small arrangement of objects rest on the hearth floor. Two dark metal lantern-style accent pieces hang on the right wall between the fireplace and window. The fireplace itself burns with a vivid, crackling open flame producing the room's dominant warm orange and amber glow.\n\nLighting effects throughout are warm and layered. The open hearth casts a deep amber and orange wash across the stone surround, the mantel face, and the floor in front of the firebox, with dancing reflections playing across the leather furniture nearby. A general warm incandescent-toned illumination warms the entire ceiling plane and upper wall surfaces from above, softening the dark timber beams with golden light. The reclaimed wood coffee table surface receives a soft warm pool of downward light from above. Cool, diffused grey-blue daylight filters in through the window at right, creating subtle contrast along the right sofa and window wall. The overall atmosphere is dramatically warm, intimate, and deeply cocooning — a moody, lived-in wilderness retreat at early evening.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "plaster",
+      "multi_pane_window",
+      "fireplace",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "seated",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:27:33.158Z"
+}

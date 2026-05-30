@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-0b79419c9e4287fc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-landscape-path-lighting-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_85775832-bf72-47de-9da6-c8fb2e07a0f0.jpg?v=1774595460",
+  "scraped_date": "2026-05-21T12:04:19.108Z",
+  "source_title": "LED Landscape Path Lighting Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0b79419c9e4287fcdcbdeecbef9dbaf879623381",
+  "description": "A contemporary Scandinavian-influenced residential garden photographed at dusk, capturing the blue hour transition between natural daylight and artificial illumination. The background features a low, flat-roofed modern house with exterior cladding in warm natural pine horizontal boards, a projecting flat roof fascia in pale concrete or render, and large glass sliding doors that glow warmly amber from interior lighting. The garden planting is lush and naturalistic — tall feathery ornamental grasses sway in the foreground, their golden seed heads catching warm light; a large rounded low-growing ground cover plant with broad dark leaves fills the mid-ground; small yellow flowering plants carpet the base of the planting bed; and low ornamental shrubs fill the background border. A narrow cobblestone or sett pathway runs along the near edge of the planting bed, its surface picking up a soft ambient glow. The sky is a soft cool periwinkle-grey of approaching dusk with no cloud detail. The warm amber glow falling from a low source illuminates the grasses and the base of the planting bed, creating a warm pool of light that emphasizes the texture and movement of the garden plants. Camera is at a low-to-seated eye-level, approximately 2–3 feet, shooting an off-center composition that places the path and grasses in the foreground with the house softly out of focus in the background. The lens is a moderate wide angle with shallow depth of field compressing the garden depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.991Z"
+}

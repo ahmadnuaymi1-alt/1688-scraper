@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-cedf8d5876ec903a",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-cedf8d5876ec903a.png",
+  "source_url": "https://vakkerlight.com/products/faceted-alabaster-cluster-chandelier",
+  "description": "A contemporary double-height staircase hall photographed at standing eye-level with a wide lens in a centered composition capturing both floors and the full stair run. The staircase has warm stone or concrete treads in grey-taupe, with a sweeping brass or brushed gold handrail that curves gracefully and an open balustrade with vertical steel elements. The inner stair wall is smooth pale grey plaster. At the base of the stair on the left, a low dark walnut side table or console holds a small collection of objects — a stack of books, an abstract sculptural piece. Beside the stairs at floor level, a large woven-grass or terracotta urn holds a tall arrangement of dried pampas grass plumes, their feathery heads catching the ambient light. A smaller ceramic vase with a dried twig arrangement sits on the lower landing shelf. A tall picture window at upper right floods the space with bright, diffuse daylight. A framed abstract artwork in warm beige tones hangs on the plaster wall at mid-height. On the upper landing, a partially visible armchair in warm cognac or camel tone sits against the railing. Multiple warm glowing forms cascade through the double-height void at varying drop heights, their faceted translucent stone bodies radiating soft amber warmth across the plaster walls and stairs. The palette is warm grey plaster, brass, dried grass amber, and stone. The mood is dramatic, serene, and architectural. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

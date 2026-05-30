@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-37b1fd505df26cde",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-up-christmas-ornaments-fireplace-with-snowfall-creative-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/light-up-christmas-fireplace-ornament-04_4154576b-09c2-4cc5-8df8-3ea589d582e7.jpg?v=1763810349",
+  "scraped_date": "2026-05-21T15:52:04.921Z",
+  "source_title": "Light up Christmas Ornaments Fireplace with Snowfall Creative Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "37b1fd505df26cde02bb562e26d6a8735850633d",
+  "description": "A warm holiday tabletop vignette photographed at seated eye-level with a normal lens in a three-quarter corner view, showing three decorative tabletop accent pieces displayed on a warm walnut-tone wood surface. A cream knit throw is draped casually across the table beneath the displays, and a small natural pine cone sits in the foreground. Each miniature decorative piece resembles a small framed fireplace mantel in dark walnut-finish wood, trimmed with painted green garland, red stockings, gold bells, and gift boxes — their illuminated interiors glowing with a warm amber candlelight effect that casts a soft orange-gold pool at table level around each object. The three pieces are stacked and arranged at varying heights. A natural woven circular mat sits beneath them. In the background right, a full Christmas tree decorated with red ornaments and twinkling gold lights is softly blurred, adding depth and festive context. A warm cream-gold glow suffuses the scene at surface height from the internal illumination of the decorative objects, warming the wood tabletop and the knit textile with a honeyed light. The palette is walnut brown, red, forest green, gold, cream, and warm amber. The mood is romantic and festive with strong holiday character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.166Z"
+}

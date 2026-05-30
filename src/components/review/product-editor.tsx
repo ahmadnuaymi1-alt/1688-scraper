@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -60,6 +60,7 @@ export interface ProductEditorData {
   tags: string | null;
   descriptionHtml: string | null;
   metaDescription: string | null;
+  lifestyleUnitMode: "auto" | "single" | "multi" | null;
   optionNames: string[];
   pricingNotes: AiPricingRationale | null;
   sourceUrl: string | null;
@@ -78,6 +79,19 @@ interface ProductEditorProps {
 
 export function ProductEditor({ product }: ProductEditorProps) {
   const router = useRouter();
+  // Mark navigation as pending immediately so the button shows feedback even
+  // before the new route's loading.tsx skeleton mounts. Together with the
+  // prefetch below this makes prev/next navigation feel instant.
+  const [navPending, startNavTransition] = useTransition();
+
+  // Prefetch the prev/next product pages as soon as this page mounts so
+  // clicking the chevron just swaps the cached page. Re-runs if the ids
+  // change (after a navigation lands on a new product).
+  useEffect(() => {
+    if (product.newerProductId) router.prefetch(`/review/${product.newerProductId}`);
+    if (product.olderProductId) router.prefetch(`/review/${product.olderProductId}`);
+  }, [router, product.newerProductId, product.olderProductId]);
+
   const [title, setTitle] = useState(product.title);
   const [vendor, setVendor] = useState(product.vendor ?? "");
   const [productType, setProductType] = useState(product.productType ?? "");
@@ -88,11 +102,16 @@ export function ProductEditor({ product }: ProductEditorProps) {
   const [metaDescription, setMetaDescription] = useState(
     product.metaDescription ?? "",
   );
+  const [lifestyleUnitMode, setLifestyleUnitMode] = useState<
+    "auto" | "single" | "multi"
+  >(product.lifestyleUnitMode ?? "auto");
   const [pricingNotes, setPricingNotes] = useState<AiPricingRationale | null>(
     product.pricingNotes,
   );
   const [saving, setSaving] = useState(false);
   const [reapplying, setReapplying] = useState(false);
+  const [auditing, setAuditing] = useState(false);
+  const [deletingOriginals, setDeletingOriginals] = useState(false);
   const [reapplySelection, setReapplySelection] = useState<
     Record<string, boolean>
   >({
@@ -154,6 +173,7 @@ export function ProductEditor({ product }: ProductEditorProps) {
           tags: tags || null,
           descriptionHtml: descriptionHtml || null,
           metaDescription: metaDescription || null,
+          lifestyleUnitMode,
         }),
       });
       if (!res.ok) {
@@ -172,6 +192,92 @@ export function ProductEditor({ product }: ProductEditorProps) {
   // Auto-save on blur for any Product-card field, silent (errors still toasted).
   // Fixes the "I edited and navigated away and it reverted" problem.
   const autoSave = () => handleSave({ silent: true });
+
+  // The two endpoints below return 202 immediately and run the LLM work as a
+  // detached server promise — so the spinner only spans the ~200 ms accept;
+  // the actual rewrite/reapply keeps going if the user navigates away. The
+  // page won't auto-update with the new content (no polling); the user
+  // refreshes to see it land.
+  async function handleDeleteOriginals() {
+    if (
+      !window.confirm(
+        "Delete all originally-scraped 1688 images for this product? Starred images will be kept. Heroes and lifestyles are never touched.",
+      )
+    ) {
+      return;
+    }
+    setDeletingOriginals(true);
+    try {
+      const res = await fetch(`/api/products/${product.id}/delete-originals`, {
+        method: "POST",
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`);
+      const deleted = typeof json.deleted === "number" ? json.deleted : 0;
+      const kept = typeof json.kept === "number" ? json.kept : 0;
+      toast.success(
+        `Deleted ${deleted} original image${deleted === 1 ? "" : "s"}${kept > 0 ? `; kept ${kept} starred` : ""}. Refresh to see the gallery update.`,
+      );
+      refresh();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Delete originals failed");
+    } finally {
+      setDeletingOriginals(false);
+    }
+  }
+
+  async function handleDeleteUnassigned() {
+    if (
+      !window.confirm(
+        "Delete every gallery image that isn't assigned to a variant? Starred images will be kept. Heroes and lifestyles are never touched.",
+      )
+    ) {
+      return;
+    }
+    setDeletingOriginals(true);
+    try {
+      const res = await fetch(
+        `/api/products/${product.id}/delete-unassigned-images`,
+        { method: "POST" },
+      );
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`);
+      const deleted = typeof json.deleted === "number" ? json.deleted : 0;
+      const kept = typeof json.kept === "number" ? json.kept : 0;
+      toast.success(
+        `Deleted ${deleted} unassigned image${deleted === 1 ? "" : "s"}${kept > 0 ? `; kept ${kept} starred` : ""}.`,
+      );
+      refresh();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Delete unassigned failed");
+    } finally {
+      setDeletingOriginals(false);
+    }
+  }
+
+  async function handleReaudit() {
+    setAuditing(true);
+    try {
+      const res = await fetch(`/api/products/${product.id}/audit`, {
+        method: "POST",
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(json.error || `HTTP ${res.status}`);
+      const audit = json.audit as {
+        totalFixed: number;
+        totalFlagged: number;
+        durationMs: number;
+      };
+      const secs = Math.round(audit.durationMs / 100) / 10;
+      toast.success(
+        `Audit done in ${secs}s — ${audit.totalFixed} fix${audit.totalFixed === 1 ? "" : "es"}, ${audit.totalFlagged} flag${audit.totalFlagged === 1 ? "" : "s"}. Refresh to see changes.`,
+      );
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Audit failed");
+    } finally {
+      setAuditing(false);
+    }
+  }
 
   async function handleReapplyRules(categories?: readonly string[]) {
     setReapplying(true);
@@ -192,12 +298,17 @@ export function ProductEditor({ product }: ProductEditorProps) {
         const json = await res.json().catch(() => ({}));
         throw new Error(json.error || `HTTP ${res.status}`);
       }
-      toast.success(
+      const label =
         categories && categories.length > 0
-          ? `Re-applied ${categories.length === 1 ? `${categories[0]} rule` : `${categories.length} rules (${categories.join(", ")})`}`
-          : "Rules re-applied (all categories)",
-      );
+          ? categories.length === 1
+            ? `${categories[0]} rule`
+            : `${categories.length} rules (${categories.join(", ")})`
+          : "all rules";
+      // The route is now synchronous — by the time we get here, the DB has
+      // the new fileName / altText / etc. Force a server-component refresh so
+      // the editor sees the updated state without a manual reload.
       refresh();
+      toast.success(`Re-applied ${label}.`);
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Re-apply failed");
     } finally {
@@ -212,17 +323,13 @@ export function ProductEditor({ product }: ProductEditorProps) {
         `/api/products/${product.id}/rewrite-description`,
         { method: "POST" },
       );
-      const json = await res.json().catch(() => ({}));
       if (!res.ok) {
+        const json = await res.json().catch(() => ({}));
         throw new Error(json.error || `HTTP ${res.status}`);
       }
-      if (typeof json.descriptionHtml === "string") {
-        setDescriptionHtml(json.descriptionHtml);
-      }
       toast.success(
-        `Description rewritten (${json.liveVariantCount ?? 0} live variant${json.liveVariantCount === 1 ? "" : "s"})`,
+        "Rewriting description in the background — refresh in a few seconds to see it.",
       );
-      refresh();
     } catch (err) {
       toast.error(err instanceof Error ? err.message : "Rewrite failed");
     } finally {
@@ -380,11 +487,13 @@ export function ProductEditor({ product }: ProductEditorProps) {
             <Button
               variant="outline"
               size="icon-sm"
-              disabled={!product.newerProductId}
-              onClick={() =>
-                product.newerProductId &&
-                router.push(`/review/${product.newerProductId}`)
-              }
+              disabled={!product.newerProductId || navPending}
+              onClick={() => {
+                if (!product.newerProductId) return;
+                startNavTransition(() => {
+                  router.push(`/review/${product.newerProductId}`);
+                });
+              }}
               title={
                 product.newerProductId
                   ? "Newer product (scraped after this one)"
@@ -396,11 +505,13 @@ export function ProductEditor({ product }: ProductEditorProps) {
             <Button
               variant="outline"
               size="icon-sm"
-              disabled={!product.olderProductId}
-              onClick={() =>
-                product.olderProductId &&
-                router.push(`/review/${product.olderProductId}`)
-              }
+              disabled={!product.olderProductId || navPending}
+              onClick={() => {
+                if (!product.olderProductId) return;
+                startNavTransition(() => {
+                  router.push(`/review/${product.olderProductId}`);
+                });
+              }}
               title={
                 product.olderProductId
                   ? "Older product (scraped before this one)"
@@ -410,6 +521,66 @@ export function ProductEditor({ product }: ProductEditorProps) {
               <ChevronDown className="h-4 w-4" />
             </Button>
           </div>
+          {/* Cleanup popover — groups the three "tidy this product" actions
+              (re-run the post-scrape audit, delete originals, delete unassigned)
+              into one button so the toolbar doesn't blow out into a 10-button
+              row. */}
+          <Popover>
+            <PopoverTrigger asChild>
+              <Button
+                variant="outline"
+                size="sm"
+                disabled={auditing || deletingOriginals}
+                title="Cleanup actions for this product"
+              >
+                {auditing
+                  ? "Auditing…"
+                  : deletingOriginals
+                    ? "Deleting…"
+                    : "Cleanup"}
+                <ChevronDown className="ml-1 h-3 w-3" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-72 p-1" align="end">
+              <button
+                type="button"
+                className="hover:bg-accent w-full rounded-sm px-2 py-2 text-left text-sm transition-colors disabled:opacity-50"
+                onClick={handleReaudit}
+                disabled={auditing || deletingOriginals}
+                title="Re-run the post-scrape audit (waffle SKU rename, variant link fixes, pack-axis cleanup, empty-axis drop, size-image unification, description retry)."
+              >
+                <div className="font-medium">Re-run post-scrape audit</div>
+                <div className="text-xs text-muted-foreground">
+                  SKU rename, variant link fixes, empty-axis drop, &c.
+                </div>
+              </button>
+              <div className="my-1 h-px bg-border" />
+              <button
+                type="button"
+                className="hover:bg-accent w-full rounded-sm px-2 py-2 text-left text-sm text-destructive transition-colors disabled:opacity-50"
+                onClick={handleDeleteOriginals}
+                disabled={auditing || deletingOriginals}
+                title="Delete the originally-scraped 1688 gallery images (keeps heroes, lifestyles, and any image you've starred)."
+              >
+                <div className="font-medium">Delete originals</div>
+                <div className="text-xs text-muted-foreground">
+                  Originally-scraped 1688 images. Starred + AI-generated kept.
+                </div>
+              </button>
+              <button
+                type="button"
+                className="hover:bg-accent w-full rounded-sm px-2 py-2 text-left text-sm text-destructive transition-colors disabled:opacity-50"
+                onClick={handleDeleteUnassigned}
+                disabled={auditing || deletingOriginals}
+                title="Delete every gallery image that isn't assigned to a variant (keeps heroes, lifestyles, and any image you've starred)."
+              >
+                <div className="font-medium">Delete unassigned</div>
+                <div className="text-xs text-muted-foreground">
+                  Any non-AI image with no variant assignment. Starred kept.
+                </div>
+              </button>
+            </PopoverContent>
+          </Popover>
           <Popover>
             <PopoverTrigger asChild>
               <Button
@@ -493,36 +664,9 @@ export function ProductEditor({ product }: ProductEditorProps) {
           >
             {recalculating ? "Recalculating…" : "Recalculate pricing"}
           </Button>
-          {connections.length > 0 ? (
-            <>
-              <Select
-                value={selectedConnectionId}
-                onValueChange={setSelectedConnectionId}
-              >
-                <SelectTrigger size="sm" className="min-w-40">
-                  <SelectValue placeholder="Pick connection" />
-                </SelectTrigger>
-                <SelectContent>
-                  {connections.map((c) => (
-                    <SelectItem key={c.id} value={c.id}>
-                      {c.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              <Button
-                size="sm"
-                onClick={handleUpload}
-                disabled={uploading || !selectedConnectionId}
-              >
-                {uploading ? "Uploading…" : "Upload to Shopify"}
-              </Button>
-            </>
-          ) : (
-            <Button size="sm" disabled title="No Shopify connections">
-              Upload to Shopify
-            </Button>
-          )}
+          {/* Upload-to-Shopify lives in the page-level header above (see
+              review/[id]/page.tsx -> UploadToShopifyButton) — the in-toolbar
+              duplicate was removed to keep this row from spilling. */}
           <Button size="sm" onClick={() => handleSave()} disabled={saving}>
             {saving ? "Saving…" : "Save"}
           </Button>
@@ -609,6 +753,48 @@ export function ProductEditor({ product }: ProductEditorProps) {
               onBlur={autoSave}
               rows={3}
             />
+          </div>
+          <div className="space-y-2">
+            <Label>Lifestyle units</Label>
+            <div className="flex items-center gap-2">
+              {(["auto", "single", "multi"] as const).map((m) => (
+                <Button
+                  key={m}
+                  type="button"
+                  size="sm"
+                  variant={lifestyleUnitMode === m ? "default" : "outline"}
+                  onClick={() => {
+                    if (m === lifestyleUnitMode) return;
+                    setLifestyleUnitMode(m);
+                    // Save immediately — no blur event on button picker.
+                    void fetch(`/api/products/${product.id}`, {
+                      method: "PATCH",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ lifestyleUnitMode: m }),
+                    })
+                      .then((res) => {
+                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                        toast.success(`Lifestyle units → ${m}`);
+                      })
+                      .catch((err) => {
+                        toast.error(
+                          err instanceof Error ? err.message : "Failed to save",
+                        );
+                        // Roll back the visual state.
+                        setLifestyleUnitMode(product.lifestyleUnitMode ?? "auto");
+                      });
+                  }}
+                >
+                  {m === "auto" ? "Auto" : m === "single" ? "Single-unit" : "Multi-unit"}
+                </Button>
+              ))}
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Controls how many copies of the product appear in each of the 6
+              lifestyle images. <span className="font-medium">Auto</span> picks
+              by category (table/floor/chandelier → single; sconce/pendant/outdoor → 4–5 of 6 multi-unit).
+              Override here if Auto guesses wrong.
+            </p>
           </div>
         </CardContent>
       </Card>

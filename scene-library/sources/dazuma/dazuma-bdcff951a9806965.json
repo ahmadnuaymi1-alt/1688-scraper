@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-bdcff951a9806965",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-inground-well-light-anti-glare-recessed-step-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/inground-well-light-sleek-modern-house-pathway.jpg?v=1774595211",
+  "scraped_date": "2026-05-21T12:04:31.852Z",
+  "source_title": "6 PCS Inground Well Light Anti-Glare Recessed Step Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Step & Deck Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bdcff951a980696524aff8de2bacdd56c20e0c3b",
+  "description": "A contemporary outdoor walkway or passage at night, photographed at a very low angle almost at ground level in a one-point perspective composition looking along the corridor. A smooth concrete pavement path runs the length of the frame toward a sliding glass door entry in the far background. The left wall is rendered smooth white stucco extending to the height of the frame. Flush-set round stainless steel ground-well fixtures are installed at even intervals in the concrete at the base of the wall, each casting a concentrated upward wash of warm amber light that fans up the white stucco wall surface in a characteristic triangular flare pattern — the nearest one is large and detailed, and the series recedes in scale down the perspective toward the entry. The stainless steel bezels of the ground fixtures catch warm light. In the far background, a contemporary house exterior is visible: a glass sliding door opening, a large planted pot with a tree, and a partial view of a grey aluminium-framed window with a dark night sky above. The overall mood is dramatic, quiet, and architectural — the wall wash effect is the sole source of light, making the white stucco glow with a warm amber-cream tone against the deep night sky. The palette is white stucco, grey concrete, brushed stainless steel, and warm amber. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "low",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.749Z"
+}

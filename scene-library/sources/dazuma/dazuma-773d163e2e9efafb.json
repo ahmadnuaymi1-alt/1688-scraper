@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-773d163e2e9efafb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/patio-outdoor-floor-lamps-water-drop-decoration-landscape-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/patio-outdoor-floor-lamps-wooden-boardwalk.jpg?v=1778567017",
+  "scraped_date": "2026-05-21T12:02:51.724Z",
+  "source_title": "Patio Outdoor Floor Lamps Water Drop Decoration Landscape Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Flood Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "773d163e2e9efafb51841a8e7ff8a15ab4526eff",
+  "description": "A tropical beachside deck scene at sunset. A weathered wooden boardwalk extends from the foreground toward the ocean in a one-point perspective, flanked by rustic round log posts supporting a simple linen or canvas shade sail overhead. The shallow turquoise water and soft sandy beach are visible through the railing on the left. The sky is a spectacular gradient of lavender, rose pink, and pale blue, capturing the last moments of a tropical sunset. A palm tree's fronds intrude from the upper right. Four organic glowing floor forms are spaced along the boardwalk, their warm white illumination pooling softly on the weathered deck boards beneath each one — creating a rhythmic chain of warm glowing accents receding toward the sea. The warm glow from the floor-level sources contrasts beautifully with the cool pink and lavender sky. The mood is dreamy, romantic, and otherworldly. Camera at standing eye-level, one-point perspective down the length of the boardwalk, wide to normal lens, level pitch, capturing the full length of the deck with the ocean and sky visible. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.407Z"
+}

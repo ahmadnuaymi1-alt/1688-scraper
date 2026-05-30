@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-3061832daed7652d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-antler-chandelier-vintage-metal-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-antler-chandelier-bedroom-rustic-style.jpg?v=1778566316",
+  "scraped_date": "2026-05-21T12:02:42.386Z",
+  "source_title": "Modern Antler Chandelier Vintage Metal Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3061832daed7652d262d9f2bfa43fbc5e159a471",
+  "description": "A spacious primary bedroom photographed from standing eye-level in a wide establishing composition, capturing the full room from a slightly elevated vantage looking slightly down. The architecture features smooth off-white plaster walls with applied rectangular moulding panels and a crisp white crown moulding at the ceiling line. The ceiling is flat white. A white-painted plantation shutter window on the left wall allows diffused natural daylight into the room. The primary bed is a large upholstered king with a tall tufted headboard in cream or ivory fabric, dressed in crisp white and warm linen bedding with a chunky cable-knit throw draped across the foot, and two decorative pillows in a woven terracotta and cream pattern. To the right of the bed sits a light oak nightstand holding a small dark ceramic vessel and a soft warm glow emanating from a low table surface source. A small rounded armchair and matching ottoman in camel boucle fabric occupy the left foreground, with a small round dark wood side table nearby. A medium-height indoor olive or ficus tree in a terracotta planter stands against the far wall. The flooring is light oak wide-plank hardwood. The color palette is entirely warm cream, ivory, and camel, with earthy brown accents. The mood is serene, plush, and refined with a subtle rustic warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.143Z"
+}

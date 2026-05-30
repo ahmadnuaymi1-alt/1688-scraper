@@ -24,6 +24,7 @@ import { openaiJSON, openaiText, isOpenAIConfigured } from "@/lib/ai/openai-clie
 import type { ScrapeOptions } from "@/types/scrape-options";
 import { DEFAULT_SCRAPE_OPTIONS } from "@/types/scrape-options";
 import type { ProductContext } from "@/types/product";
+import { deriveHandle } from "@/lib/handle";
 
 export type RuleCategory = "title" | "description" | "tags" | "image" | "seo";
 
@@ -238,9 +239,15 @@ Return ONLY the new product title. No explanation, no surrounding quotes, no mar
           });
     const cleaned = newTitle.replace(/^["']|["']$/g, "").trim();
     if (cleaned) {
+      // Handle tracks title — the rule rewrote the title (typically from
+      // Chinese → English), so the slug derived from the old title is now
+      // stale. Re-derive with a productId-tail fallback for the short cases.
       await prisma.product.update({
         where: { id: productId },
-        data: { title: cleaned },
+        data: {
+          title: cleaned,
+          handle: deriveHandle(cleaned, productId.slice(-8)),
+        },
       });
     }
   }
@@ -344,16 +351,23 @@ async function applyTagsRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        // Feed the real source URL so the prompt can reference it directly
+        // (without it the LLM had no real URL and copied the rule's hardcoded
+        // example, producing the same wrong URL on every product).
+        scrapeJob: { select: { sourceUrl: true } },
       },
     });
     if (!product) return;
 
     const variantBlock = await loadLiveVariantBlock(productId);
+    const sourceUrlLine = product.scrapeJob?.sourceUrl
+      ? `\nSource URL: ${product.scrapeJob.sourceUrl}`
+      : "";
 
     const userMessage = `${rule.config.prompt}
 
 Product context:
-${buildProductContextBlock(product)}
+${buildProductContextBlock(product)}${sourceUrlLine}
 
 ${variantBlock}
 
@@ -500,7 +514,11 @@ ${variantBlock}
 
 ${STAY_INSIDE_VARIANTS_TRAILER}
 
-You will rename ${images.length} product image(s). Return a JSON array with EXACTLY ${images.length} entries, in the same order as listed below:
+You will rename ${images.length} product image(s) listed below. You will NOT be shown the actual image content — generate fileName + altText for each row using ONLY the product context above and the position-based assumptions below. Do not ask to see the images.
+
+Each entry is a DISTINCT image identified by its \`id\` — treat every row as a unique image even if many currently share the same filename (or all show "(none)"). The \`position\` field is the display order in the product gallery; assume the following typical layout: position 0 = primary/hero front-view of the product, positions 1-3 = detail / angle / close-up shots (specify a distinct angle for each like front, three-quarter, side, top, detail), positions 4+ = variant or lifestyle / in-context shots in plausible rooms appropriate to the product type. Make each entry's filename + altText reflect that assumed angle / context.
+
+Return a JSON array with EXACTLY ${images.length} entries, in the same order as the list below. Do NOT ask for clarification, do NOT return an error object — generate output for every ID:
 
 ${imageList}
 
@@ -510,32 +528,53 @@ Each entry MUST match this shape:
   ...
 ]
 
-Follow the rule above for filename format, length, and the level of descriptive detail expected. Return ONLY the JSON array — no markdown fences, no commentary.`;
+Follow the rule above for filename format, length, and the level of descriptive detail expected. Make each fileName UNIQUE across this batch — incorporate the position number, a scene/angle descriptor, or a variant cue so no two filenames collide. Return ONLY the JSON array — no markdown fences, no commentary.`;
 
     const model = rule.config.model || DEFAULT_RULE_MODEL;
     const provider = chooseProvider(model);
     if (!isProviderConfigured(provider)) continue;
 
+    async function callModel(user: string): Promise<ImageRuleResponse> {
+      return provider === "openai"
+        ? await openaiJSON({
+            model,
+            user,
+            maxTokens: 8192,
+            temperature: 0.4,
+            schema: ImageRuleResponseSchema,
+          })
+        : await claudeJSON({
+            model,
+            user,
+            maxTokens: 8192,
+            temperature: 0.4,
+            schema: ImageRuleResponseSchema,
+          });
+    }
+
     let response: ImageRuleResponse;
     try {
-      response =
-        provider === "openai"
-          ? await openaiJSON({
-              model,
-              user: userMessage,
-              maxTokens: 4096,
-              temperature: 0.4,
-              schema: ImageRuleResponseSchema,
-            })
-          : await claudeJSON({
-              model,
-              user: userMessage,
-              maxTokens: 4096,
-              temperature: 0.4,
-              schema: ImageRuleResponseSchema,
-            });
-    } catch {
-      continue; // skip this rule on parse failure
+      response = await callModel(userMessage);
+    } catch (err) {
+      // First attempt failed schema validation — usually the model returned
+      // a SINGLE object instead of an array (one-off compliance failure for
+      // larger image lists). Retry once with a sharper "must return N
+      // entries" reminder placed near the end of the prompt where recency
+      // weight is highest.
+      const retryMessage = `${userMessage}
+
+CRITICAL FORMAT REMINDER: Your previous attempt returned a single object instead of an array. You MUST return a JSON array of EXACTLY ${images.length} entries — one per image listed above. Even if the images are similar, output ${images.length} array entries. Start your response with [ and end with ]. Do NOT return a single object.`;
+      try {
+        response = await callModel(retryMessage);
+        console.log(
+          `[rule.service:image] rule "${rule.name}" succeeded on retry for product ${productId}`,
+        );
+      } catch (err2) {
+        console.warn(
+          `[rule.service:image] rule "${rule.name}" failed for product ${productId} (after retry): ${err2 instanceof Error ? err2.message : String(err2)}`,
+        );
+        continue;
+      }
     }
 
     const updates: Array<Promise<unknown>> = [];

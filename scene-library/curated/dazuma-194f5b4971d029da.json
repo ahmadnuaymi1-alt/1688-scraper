@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-194f5b4971d029da",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-194f5b4971d029da.jpg",
+  "source_url": "https://dazuma.us/products/nordic-white-marble-tapered-table-lamp",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level with a normal lens, composed in off-center thirds with the nightstand occupying the left two-thirds of the frame and the bed's headboard and bedding filling the right. The wall behind is a flat, medium-cool charcoal grey. A matte grey nightstand with a clean angular profile sits beside the bed. Hanging to the left is a floor-length rust-orange velvet drape adjacent to a sheer white curtain through which cool daylight filters softly, casting a gentle bright wash on the left wall and floor. A warm glow pools lightly around the nightstand surface from the immediate vicinity of the table surface. The upholstered headboard is a mid-toned grey fabric with button tufting, and the bed linens are a soft peachy-terracotta cotton with an unmade, lived-in quality, a pillow in matching peachy tone resting against the headboard. Above and partially cropped at upper right, a sculptural wall-hung textile piece in off-white adds a soft art element. The mood is quiet and residential, the cool grey envelope broken by the warmth of rust drapes and apricot bedding. Color palette is cool neutral with terracotta and rust accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "terracotta",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

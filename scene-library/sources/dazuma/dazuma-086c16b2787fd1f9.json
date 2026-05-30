@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-086c16b2787fd1f9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/square-flush-mount-ceiling-light-outdoor-waterproof-courtyard-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_4ebd7bf2-035b-4702-beff-5c8784931e1b.jpg?v=1774175553",
+  "scraped_date": "2026-05-21T12:04:39.383Z",
+  "source_title": "Square Flush Mount Ceiling Light Outdoor Waterproof Courtyard Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "086c16b2787fd1f9077d120426d707c469dbfe5e",
+  "description": "A covered outdoor terrace or patio at dusk, photographed at the transitional moment when the deep cobalt blue of the evening sky just outweighs the last traces of natural light. The structure's ceiling and soffit are rendered in smooth pale concrete with a cool grey-beige finish. Vertical shiplap-style timber cladding in weathered charcoal grey lines the exterior wall panel to the left of a large sliding glass door with matte black aluminum framing. Through the glass door, sheer white curtains glow amber from warm interior lighting beyond, hinting at a well-lit living space inside. To the right of the door, a vertical strip of warm wood paneling adds an organic accent to the predominantly grey-and-black palette. A generous tropical plant — broad-leafed and lush green — pushes into the lower left corner of the frame, providing organic contrast against the hard architectural surfaces. The mood is cool, contemporary, and urban-tranquil — the golden warmth from within reading as a soft beacon against the cool dusk atmosphere. Camera is at a low angle, approximately 3–4 feet from the ceiling surface, shooting upward with a moderate wide-angle lens, angled to capture the underside of the eave and ceiling in a tight vignette composition. The frame captures primarily the corner of the outdoor soffit, part of the wall cladding, the sliding door, and the plant foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "wide",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.971Z"
+}

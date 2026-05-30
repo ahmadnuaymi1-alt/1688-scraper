@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-17fcf91d1d9af1b0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pendant-light-with-white-shade-french-creative-silk-led-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_d77e665e-74ca-4e20-b831-6ce1a3684368.jpg?v=1774595736",
+  "scraped_date": "2026-05-21T12:04:14.036Z",
+  "source_title": "Pendant Light with White Shade French Creative Silk LED Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "17fcf91d1d9af1b0f7e01fbbe11b635d90853691",
+  "description": "A stunning light-filled primary bedroom under a dramatic vaulted cathedral ceiling of white-painted shiplap planking with exposed white-painted structural ridge beams. The room is saturated in soft creamy natural light streaming through a pair of tall French doors with black hardware and multi-pane glazing centered on the far wall, framed by floor-to-ceiling linen drapery panels in the palest ivory-white. Beyond the French doors, a lush green meadow and mature trees are visible. The wall surfaces are smooth warm off-white plaster. A large bed with a woven rattan or cane-panel headboard in warm honey wood tones is dressed in a generous layering of cream linen, caramel boucle pillows, and a soft sand-toned throw blanket at the foot. A low-pile natural fiber area rug in warm ivory grounds the seating zone. On the right side of the frame, a low white painted six-drawer dresser with brushed nickel hardware sits against the wall, topped with a round ceramic vase holding a loose arrangement of dried natural stems. A small upholstered armchair in cream fabric with an exposed light wood frame and an accent pillow sits adjacent to the dresser. A large potted olive tree in a tall white ceramic pot is positioned in the left corner, its silvery-green branches arching toward the ridge of the ceiling. A ribbed or fluted oblate sphere-form fabric ceiling element hangs from the ridge at center, emitting warm diffused glow downward through the room. Camera at standing eye-level, wide lens, three-quarter view of the bedroom with the French doors and ceiling in frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "shiplap",
+      "french_door"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.042Z"
+}

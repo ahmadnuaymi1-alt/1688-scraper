@@ -1,0 +1,46 @@
+{
+  "image_id": "vakker-0af5c60eb26dae3f",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/stacked-geometric-rice-paper-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Stacked_Geometric_Rice_Paper_Pendant_Lamp__2.png?v=1779212167",
+  "scraped_date": "2026-05-21T12:08:37.964Z",
+  "source_title": "Stacked Geometric Rice Paper Pendant Lamp",
+  "source_product_type": "pendant Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "0af5c60eb26dae3f3fcd051e366b0b85e0050cee",
+  "description": "A spacious mid-century modern living room photographed at standing eye-level, roughly 5–6 feet high, with a wide-angle lens pulling in the full breadth of the space. The composition is a three-quarter corner view that captures both the left bookcase wall and the right window wall simultaneously, with a gentle one-point perspective recession toward the back of the room. The camera is level, with no pronounced upward or downward pitch, and the full room is visible from foreground rug edge to the rear bookshelves.\n\nThe architecture is defined by a steeply vaulted ceiling clad entirely in warm honey-toned tongue-and-groove wood planking, supported by exposed structural beams of the same rich walnut-stained timber. The ceiling rises dramatically from approximately 10 feet at the perimeter to well over 16 feet at the ridge. The right wall is dominated by a floor-to-ceiling multi-pane window system in dark wood frames, arranged in a grid of tall rectangular lites that flood the room with cool, diffuse natural daylight from what appears to be a bare-canopy late-autumn or winter exterior. Sheer linen curtains in pale straw hang at the window's edge, softening the light without blocking it. A sliding glass door is visible at the far right, opening to an exterior deck.\n\nThe left side of the room is anchored by built-in open bookshelves running floor to ceiling in warm walnut, densely packed with books in muted spines — cream, tan, olive, burgundy — interspersed with ceramic vessels, small sculptural objects, and framed artwork leaning casually against the shelves. A cluster of framed works on paper and prints occupies the back wall above the lower shelving unit, including figural sketches and abstract compositions in muted earth tones with cream mats and simple frames.\n\nThe seating is anchored by a generous L-shaped sectional sofa in a nubby, textured oatmeal bouclé fabric, low-profile with track arms and tapered walnut legs — a classically proportioned mid-century silhouette. It is dressed with throw pillows in faded botanical prints, woven stripe, and muted terracotta tones. A rectangular walnut coffee table with a lower shelf sits in front of the sectional, its surface styled with a stack of oversized art books, a cluster of organic stoneware bowls in ash and slate glazes, and a small ceramic pitcher. The lower shelf holds additional books in tight stacks.\n\nOn either end of the sectional, small walnut side tables carry simple styling — a pale ceramic mushroom-form object on the left, a small stoneware vessel on the right. A tall fiddle-leaf fig in a large cream ceramic pot anchors the right foreground, its broad glossy leaves catching the window light. A secondary potted plant sits nearby at a lower height.\n\nThe floor is wide-plank light oak hardwood, partially covered by a large vintage-style area rug in faded terracotta, dusty rose, and warm sand tones with a traditional medallion-adjacent pattern that has aged into soft abstraction.\n\nThe overall atmosphere is warm, intellectual, and deeply lived-in — the home of someone who reads seriously and collects slowly. Natural light from the windows casts soft, even cool illumination across the seating area, while the warm wood ceiling and walnut furnishings radiate amber undertones throughout. A soft warm glow pools gently on the left side table surface from a low nearby source, contrasting subtly with the cooler daylight from the windows. The mood is unhurried and scholarly, with enough visual richness to reward close looking.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "multi_pane_window",
+      "shiplap"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:28:22.859Z"
+}

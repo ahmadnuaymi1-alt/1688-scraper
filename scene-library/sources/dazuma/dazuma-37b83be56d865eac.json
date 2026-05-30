@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-37b83be56d865eac",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stained-glass-flush-mount-light-modern-led-creative-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multicolor-glass-ceiling-light-bedroom-ambient.jpg?v=1777107627",
+  "scraped_date": "2026-05-21T12:03:20.507Z",
+  "source_title": "Stained Glass Flush Mount Light Modern LED Creative Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "37b83be56d865eac8b90a22642603331bd9abe3f",
+  "description": "A serene bedroom photographed from standing eye-level in a three-quarter corner composition, capturing both the ceiling and the bed with the window wall. The walls are finished in a smooth Venetian plaster or textured limewash in a muted cool grey-white tone with subtle organic variation across the surface. The ceiling is smooth flat white. A white-framed double-hung window with sheer white linen curtains allows filtered natural light to wash gently into the room. The primary bed has a low natural linen upholstered headboard in soft oatmeal fabric, dressed in layered light grey and white bedding with multiple scatter cushions in grey tones. To the right of the bed sits a low chest of drawers in light natural oak with simple rounded pull hardware, its surface styled with a round textured ceramic vase holding a generous bunch of dried eucalyptus, a small white candle vessel, and a framed botanical print leaning against the wall. The floor is visible at the lower right, appearing to be bleached light oak or painted white. A partial cream upholstered armchair is visible at the lower left. A cluster of multi-colored glass sphere forms mounted flush to the ceiling creates a playful focal point — the spheres display jewel-toned turquoise, sage green, amber yellow, coral orange, and white moon-like textures, all radiating a gentle soft glow. The mood is calm, serene, and softly playful. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.168Z"
+}

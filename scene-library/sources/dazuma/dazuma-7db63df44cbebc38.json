@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-7db63df44cbebc38",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-landscaping-lighting-modern-decorative-portable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-landscaping-lighting-garden-pathway-lights.jpg?v=1765157551",
+  "scraped_date": "2026-05-21T15:51:58.504Z",
+  "source_title": "Outdoor Landscaping Lighting Modern Decorative Portable Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Novelty Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7db63df44cbebc389120682334c61eabd7d587d1",
+  "description": "A contemporary outdoor terrace scene photographed at low camera height — approximately 2 feet from the ground — with a normal lens and an off-center thirds composition looking diagonally across a dark slatted deck surface. The deck is made of dark charcoal-grey ribbed composite or hardwood planks running horizontally across the frame. In the foreground left, a large serrated tropical leaf in vivid lime-green juts into the frame from a planter just out of shot. The edge of a deep-grey upholstered outdoor sectional sofa is visible at the upper left, its cushions covered in a textured heathered bouclé fabric. The background is softly blurred with a dark privacy hedge or treeline and a pale sandy pathway or courtyard visible beyond, creating a layered depth of field. Two matte charcoal-black portable outdoor objects sit on the deck — one close in the foreground and one receding mid-distance — both with an arch-handle design and flat circular base. The color palette is composed entirely of deep charcoal, cool grey, and vibrant green, with natural daylight providing even, cool illumination across the deck surface. The mood is serene and architecturally refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "outdoor",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.438Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-abc5bff86f1644b7",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-abc5bff86f1644b7.png",
+  "source_url": "https://vakkerlight.com/products/stacked-geometric-rice-paper-pendant-lamp",
+  "description": "A vibrant, double-height living room with an eclectic bohemian-modernist character and exceptionally tall ceilings. The walls are a warm off-white cream on the main surfaces, with a deep terracotta-painted niche or architectural reveal visible on the right side creating a bold color-blocked contrast. Large multi-pane windows on the rear wall flood the room with abundant natural daylight, backlighting the entire space in bright California-style sunshine. The lower seating area centers around a low white rectangular coffee table on a large natural jute or sisal area rug, flanked by two sofas and lounge chairs in warm cognac and caramel toned upholstery, dressed in layered patterned throw cushions in rust, ochre, and sage green. A low open bookshelf on the right is stacked with art books and small decorative objects. Several large tropical plants — bird of paradise and large-leaf varieties — are placed around the room, and trailing vines hang from a high shelf at left. A geometric sculptural object in faceted polygon form, its panels colored in deep red, yellow, grey, orange, and black, hangs suspended from the soaring ceiling in the upper center of the frame, its vivid colors catching the daylight and creating a bold focal point. The atmosphere is sunny, eclectic, and artistic — a curated boho modern gathering space. Camera at approximately standing eye-level, using a moderate wide lens, with a centered symmetrical composition that frames the sofa arrangement symmetrically with the tall ceiling and suspended geometric sculpture commanding the center upper frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

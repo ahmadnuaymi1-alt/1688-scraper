@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-1c251b7349433acf",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/calla-bloom-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Calla_Bloom_Floor_Lamp88.png?v=1777857083",
+  "scraped_date": "2026-05-21T15:53:37.543Z",
+  "source_title": "Calla Bloom Floor Lamp",
+  "source_product_type": "Floor lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "1c251b7349433acf60d39db0e6f1853ad82769ad",
+  "description": "A warm sitting room corner photographed at standing eye-level with a normal-to-telephoto lens, composed in a three-quarter view showing two walls converging. The walls are finished in a pale warm greige with subtle texture, and tall sheer curtains in ivory frame tall multi-pane windows that let in soft, diffuse daylight from the right side of the frame. The floor is covered in a low-pile sisal or jute area rug in sandy tan. A plump, fully slipcovered armchair in cream linen sits at center-left, draped casually with a chunky woven throw in warm taupe. To the right, a slender pedestal side table in dark walnut holds a small stack of books, a ceramic bird figurine, and a compact potted plant with rounded green leaves. Framed botanical artwork hangs on the wall behind the chair. The room is flooded with warm golden light emanating from the floor level beside the chair — a soft, directional glow that illuminates the surrounding floor, the side of the chair, and the lower portion of the curtains, with the warmth concentrated at waist height and below, creating a cozy, intimate radius. The palette is warm neutral throughout — cream, taupe, honey-warm wood, and soft greige — with touches of green from the plant. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.045Z"
+}

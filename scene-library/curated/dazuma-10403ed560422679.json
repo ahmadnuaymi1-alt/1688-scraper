@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-10403ed560422679",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-10403ed560422679.jpg",
+  "source_url": "https://dazuma.us/products/round-pillar-lights-outdoor-waterproof-garden-landscape-light",
+  "description": "An exterior boundary fence photographed at dusk from a low-to-seated eye-level with a normal lens in a one-point perspective composition that follows the fence line receding toward the right. The fence is a contemporary combination of pale cream-colored cast concrete or render piers, each topped with a flat square cap, connected by sleek matte black vertical bar metal panels. Three post-cap fixtures are mounted on successive piers, each glowing with a warm amber light that halos outward against the dusk sky and illuminates the fence cap below. Behind the fence top, a dense hedge of clipped green shrubs spills slightly over the concrete piers. In the background, two residential buildings are visible in soft focus — a white render modern townhouse on the left and a traditional red brick building on the right, with a pale gradient evening sky above. A strip of lush green lawn is visible in the lower foreground. The palette is cool concrete neutrals, matte black metal, fresh green landscaping, and warm amber glow from the mounted elements. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

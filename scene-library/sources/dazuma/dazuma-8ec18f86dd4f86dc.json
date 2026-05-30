@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-8ec18f86dd4f86dc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-wall-sconces-indoor-high-end-full-copper-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_d3ef38b6-d2d7-4f86-b213-6bf25540618d.jpg?v=1773886456",
+  "scraped_date": "2026-05-21T12:19:33.195Z",
+  "source_title": "Linear Wall Sconces Indoor High-End Full Copper Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8ec18f86dd4f86dcff70ce426523ebf6978a9ce3",
+  "description": "A contemporary living room or sitting room corner photographed in bright natural daylight. The dominant feature is a full wall of wide vertical wood slat paneling in a warm blonde or honey oak tone with a linear grain pattern. The floor is large-format polished white marble or porcelain tile with very faint gray veining, reflecting the light from the room. On the right side, a floor-to-ceiling black-framed casement window with horizontal venetian blinds partially lowered allows bright cool daylight to wash in from the right. Two large houseplants in white cylindrical ceramic planters fill the right corner — a large Strelitzia or Bird of Paradise with wide tropical leaves, and a smaller olive or ficus tree behind it. Against the left-center of the wall sits a compact rounded lounge chair in light cool-gray heathered fabric with thin black metal hairpin legs, its silhouette soft and low-set. A warm, diffuse amber glow emanates from a wall-mounted position on the wood panel wall above and to the right of the chair, its light warming the surrounding oak slats with a soft rectangular halo. The entire palette is clean and restrained: pale gray, warm blonde wood, glossy white floor, and deep green foliage with black metal accents. The camera is at standing eye-level, roughly 5–6 feet, with a normal lens. The composition is a three-quarter corner view showing the full wood wall and the right-side window corner, with the chair and plants occupying the middle ground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.504Z"
+}

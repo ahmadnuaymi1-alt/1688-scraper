@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-837999b2b2c95817",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/sculptural-glass-base-table-lamp-with-a-classic-linen-shade-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-antique-copper-glass-base-table-lamp-drum-shade.jpg?v=1763625651",
+  "scraped_date": "2026-05-21T15:52:56.716Z",
+  "source_title": "Glass Base Table Lamp with Sculptural  Classic Linen Shade Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "837999b2b2c95817bfd708348f626405b60bd6fe",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level with a normal lens, in a three-quarter corner view that reveals both the nightstand and the adjacent bed with partial headboard. The walls are a warm sand-beige plaster tone, transitioning to deep brown-khaki on the left where heavy linen drapes in dark taupe-olive block the window. A walnut-stained nightstand with a single drawer and round pull sits beside the bed, carrying a small hardcover book. The bed features a carved walnut headboard with vertical channel-tufted forest-green velvet panels, a dark walnut turned-post finial crowning the post, and bedding in crisp off-white cotton layered with a tawny rust-orange corduroy throw pillow. A warm amber glow pools across the nightstand surface and splashes softly onto the beige wall, the illumination concentrated at table level and lower, radiating upward to bathe the adjacent wall in honeyed warmth. A very faint hanging cord is visible at the top right corner — a drop from above — but the primary warmth and compositional emphasis is on the nightstand. The mood is romantic and cocoon-like, with saturated forest green and burnt amber accents anchoring the warm earth palette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "pendant",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.455Z"
+}

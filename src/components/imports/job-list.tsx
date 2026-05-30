@@ -19,7 +19,15 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { ChevronDown } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+  DialogDescription,
+} from "@/components/ui/dialog";
+import { ChevronDown, Trash2, Upload } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
@@ -132,6 +140,18 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
   const [selectedJobIds, setSelectedJobIds] = useState<Set<string>>(new Set());
   const [bulkBusy, setBulkBusy] = useState(false);
   const [bulkProgress, setBulkProgress] = useState<string | null>(null);
+  const [showDeleteDialog, setShowDeleteDialog] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  // Anchor + action for shift+click range selection. Plain click sets both;
+  // shift+click extends the same action (check / uncheck) to the inclusive
+  // range, matching the gallery's behavior.
+  const [lastCheckedIdx, setLastCheckedIdx] = useState<number | null>(null);
+  const [lastCheckedAction, setLastCheckedAction] = useState<"check" | "uncheck" | null>(null);
+  // Shopify connections — fetched once for the bulk Upload button (0 disables,
+  // 1 single-click, 2+ opens a Popover to pick which store).
+  const [connections, setConnections] = useState<
+    Array<{ id: string; label: string; isDefault: boolean }>
+  >([]);
   const [reapplySelection, setReapplySelection] = useState<Record<RuleCategory, boolean>>({
     description: false,
     title: false,
@@ -172,6 +192,18 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
     return () => clearInterval(id);
   }, [fetchJobs, kickProcessor, pollMs]);
 
+  // One-shot fetch of Shopify connections for the bulk Upload button.
+  useEffect(() => {
+    fetch("/api/connections")
+      .then((r) => (r.ok ? r.json() : { connections: [] }))
+      .then((json) => {
+        if (Array.isArray(json?.connections)) setConnections(json.connections);
+      })
+      .catch(() => {
+        // silent — bulk Upload button just stays disabled
+      });
+  }, []);
+
   const sorted = [...jobs].sort((a, b) => {
     const ad = new Date(a.createdAt).getTime();
     const bd = new Date(b.createdAt).getTime();
@@ -181,6 +213,14 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
   function handleRowClick(job: JobRow) {
     if (job.status === "ready" && job.product?.id) {
       router.push(`/review/${job.product.id}`);
+    }
+  }
+
+  // Prefetch the review page on hover so the click feels instant. Cheap —
+  // Next caches the result and dedupes repeat calls for the same href.
+  function handleRowHover(job: JobRow) {
+    if (job.status === "ready" && job.product?.id) {
+      router.prefetch(`/review/${job.product.id}`);
     }
   }
 
@@ -215,6 +255,42 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
 
   function clearSelection() {
     setSelectedJobIds(new Set());
+    setLastCheckedIdx(null);
+    setLastCheckedAction(null);
+  }
+
+  /**
+   * Click handler for a row's checkbox wrapper. The inner Radix Checkbox
+   * handles the per-row toggle via its own onCheckedChange — this wrapper
+   * only owns the shift+click range-extend path. On a plain click we just
+   * remember the anchor (the row we clicked) and the action that the
+   * Checkbox is about to apply (check or uncheck), so a subsequent
+   * shift+click knows which direction to fill.
+   */
+  function handleRowCheckClick(e: React.MouseEvent, idx: number, jobId: string) {
+    if (e.shiftKey && lastCheckedIdx !== null && lastCheckedAction !== null) {
+      const [lo, hi] =
+        lastCheckedIdx < idx ? [lastCheckedIdx, idx] : [idx, lastCheckedIdx];
+      setSelectedJobIds((prev) => {
+        const next = new Set(prev);
+        for (let i = lo; i <= hi; i++) {
+          const j = sorted[i];
+          // Only eligible jobs (ready + product attached) can be in the
+          // selection pool — skip the rest silently.
+          if (!j || j.status !== "ready" || !j.product?.id) continue;
+          if (lastCheckedAction === "check") next.add(j.id);
+          else next.delete(j.id);
+        }
+        return next;
+      });
+      // Don't move the anchor — let the user chain further shift-clicks.
+      return;
+    }
+    // Plain click — Checkbox toggles via onCheckedChange. Record the anchor
+    // and the action it's about to apply (pre-click state inverted).
+    const willBeSelected = !selectedJobIds.has(jobId);
+    setLastCheckedIdx(idx);
+    setLastCheckedAction(willBeSelected ? "check" : "uncheck");
   }
 
   function selectedProductIds(): string[] {
@@ -223,77 +299,189 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
       .map((j) => j.product!.id);
   }
 
-  async function runBulk(opts: {
-    label: string;
-    callPerProduct: (productId: string) => Promise<void>;
-  }) {
-    setBulkBusy(true);
+  // Both bulk actions POST once to a server-side endpoint that loops sequentially
+  // and returns 202 immediately. The work continues in the Node process even
+  // after the user navigates away — no client-side per-product loop, no
+  // visible-only progress that dies on unmount.
+  async function runBulkRewrite() {
     const productIds = selectedProductIds();
-    let ok = 0;
-    const failures: Array<{ productId: string; error: string }> = [];
-    for (let i = 0; i < productIds.length; i++) {
-      setBulkProgress(`${i + 1}/${productIds.length}…`);
-      try {
-        await opts.callPerProduct(productIds[i]);
-        ok++;
-      } catch (err) {
-        failures.push({
-          productId: productIds[i],
-          error: err instanceof Error ? err.message : "Unknown",
-        });
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const res = await fetch(`/api/products/bulk/rewrite-descriptions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
       }
-    }
-    setBulkBusy(false);
-    setBulkProgress(null);
-    if (ok > 0) {
+      const count = typeof json.count === "number" ? json.count : productIds.length;
       toast.success(
-        `${opts.label}: ${ok} succeeded${failures.length ? `, ${failures.length} failed` : ""}`,
+        `Rewriting ${count} description${count === 1 ? "" : "s"} in the background — refresh to see them as they complete.`,
       );
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk rewrite failed");
+    } finally {
+      setBulkBusy(false);
+      setBulkProgress(null);
     }
-    if (failures.length > 0) {
-      console.warn(`Bulk ${opts.label} failures:`, failures);
-      toast.error(`${failures.length} failed — see console`);
-    }
-    fetchJobs();
   }
 
-  async function runBulkRewrite() {
-    await runBulk({
-      label: "Rewrite description",
-      callPerProduct: async (id) => {
-        const res = await fetch(`/api/products/${id}/rewrite-description`, {
-          method: "POST",
-        });
-        if (!res.ok) {
-          const j = await res.json().catch(() => ({}));
-          throw new Error(j.error || `HTTP ${res.status}`);
-        }
-      },
-    });
+  async function runBulkApplyPreset() {
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const res = await fetch(`/api/products/bulk/apply-gallery-preset`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const count = typeof json.count === "number" ? json.count : productIds.length;
+      toast.success(
+        `Applying preset order on ${count} product${count === 1 ? "" : "s"} in the background — refresh to see them as they complete.`,
+      );
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk apply-preset failed");
+    } finally {
+      setBulkBusy(false);
+      setBulkProgress(null);
+    }
+  }
+
+  async function runBulkSetLifestyleUnitMode(
+    mode: "auto" | "single" | "multi",
+  ) {
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const res = await fetch(`/api/products/bulk/set-lifestyle-unit-mode`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds, mode }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const updated = typeof json.updated === "number" ? json.updated : productIds.length;
+      toast.success(`Lifestyle units → ${mode} on ${updated} product(s)`);
+    } catch (err) {
+      toast.error(
+        err instanceof Error ? err.message : "Bulk lifestyle-units update failed",
+      );
+    } finally {
+      setBulkBusy(false);
+    }
+  }
+
+  async function runBulkDeleteOriginals() {
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    if (
+      !window.confirm(
+        `Delete originally-scraped 1688 images for ${productIds.length} product${productIds.length === 1 ? "" : "s"}? Starred images and AI-generated images (heroes/lifestyles) will be kept. This runs in the background.`,
+      )
+    ) {
+      return;
+    }
+    setBulkBusy(true);
+    try {
+      const res = await fetch(`/api/products/bulk/delete-originals`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const count = typeof json.count === "number" ? json.count : productIds.length;
+      toast.success(
+        `Deleting originals for ${count} product${count === 1 ? "" : "s"} in the background.`,
+      );
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk delete originals failed");
+    } finally {
+      setBulkBusy(false);
+    }
+  }
+
+  async function runBulkAudit() {
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const res = await fetch(`/api/products/bulk/audit`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productIds }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const count = typeof json.count === "number" ? json.count : productIds.length;
+      toast.success(
+        `Auditing ${count} product${count === 1 ? "" : "s"} in the background — refresh each to see fixes land.`,
+      );
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk audit failed");
+    } finally {
+      setBulkBusy(false);
+    }
   }
 
   async function runBulkReapply(categories?: readonly RuleCategory[]) {
-    await runBulk({
-      label: categories?.length
-        ? `Re-apply ${categories.join(", ")}`
-        : "Re-apply all rules",
-      callPerProduct: async (id) => {
-        const body =
-          categories && categories.length > 0
-            ? JSON.stringify({ categories })
-            : undefined;
-        const res = await fetch(`/api/products/${id}/reapply-rules`, {
-          method: "POST",
-          headers: body ? { "Content-Type": "application/json" } : undefined,
-          body,
-        });
-        if (!res.ok) {
-          const j = await res.json().catch(() => ({}));
-          throw new Error(j.error || `HTTP ${res.status}`);
-        }
-      },
-    });
-    // Reset the picker after a run completes so the next round starts clean.
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const body: { productIds: string[]; categories?: readonly RuleCategory[] } = {
+        productIds,
+      };
+      if (categories && categories.length > 0) body.categories = categories;
+      const res = await fetch(`/api/products/bulk/reapply-rules`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const okN = typeof json.ok === "number" ? json.ok : 0;
+      const failedN = typeof json.failed === "number" ? json.failed : 0;
+      const total = typeof json.count === "number" ? json.count : productIds.length;
+      const label = categories?.length ? categories.join(", ") : "all rules";
+      if (failedN === 0) {
+        toast.success(`Re-applied ${label} on ${okN}/${total} product(s).`);
+      } else if (okN === 0) {
+        toast.error(`Re-apply ${label} failed for all ${total} product(s) — see server logs.`);
+      } else {
+        toast.warning(
+          `Re-applied ${label} on ${okN}/${total}. ${failedN} failed — see server logs.`,
+        );
+      }
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk re-apply failed");
+    } finally {
+      setBulkBusy(false);
+      setBulkProgress(null);
+    }
+    // Reset the picker after dispatch so the next round starts clean.
     setReapplySelection({
       description: false,
       title: false,
@@ -301,6 +489,79 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
       tags: false,
       image: false,
     });
+  }
+
+  // Fire the bulk upload-to-Shopify endpoint. Server returns 202 immediately
+  // and runs the per-product upload loop as a detached promise — user can
+  // navigate freely. Optional `connectionId` overrides the server-side
+  // default-or-only-one resolution.
+  async function runBulkUpload(connectionId?: string) {
+    const productIds = selectedProductIds();
+    if (productIds.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const body: { productIds: string[]; connectionId?: string } = { productIds };
+      if (connectionId) body.connectionId = connectionId;
+      const res = await fetch(`/api/products/bulk/upload-to-shopify`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const okN = typeof json.ok === "number" ? json.ok : 0;
+      const failedN = typeof json.failed === "number" ? json.failed : 0;
+      const total = typeof json.count === "number" ? json.count : productIds.length;
+      const label = typeof json.connectionLabel === "string" ? json.connectionLabel : "Shopify";
+      if (failedN === 0) {
+        toast.success(`Uploaded ${okN}/${total} to ${label}.`);
+      } else if (okN === 0) {
+        toast.error(`All ${total} uploads to ${label} failed — see server logs.`);
+      } else {
+        toast.warning(
+          `Uploaded ${okN}/${total} to ${label}. ${failedN} failed — see server logs.`,
+        );
+      }
+      setSelectedJobIds(new Set());
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Bulk upload failed");
+    } finally {
+      setBulkBusy(false);
+    }
+  }
+
+  // Delete selected jobs + their scraped products. Single transactional
+  // DELETE call; cascades wipe variants, images, and JobLogs.
+  async function runBulkDelete() {
+    const jobIds = Array.from(selectedJobIds);
+    if (jobIds.length === 0) return;
+    setDeleting(true);
+    try {
+      const res = await fetch(`/api/jobs`, {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ jobIds }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(json.error || `HTTP ${res.status}`);
+      }
+      const dj = typeof json.deletedJobs === "number" ? json.deletedJobs : jobIds.length;
+      const dp = typeof json.deletedProducts === "number" ? json.deletedProducts : 0;
+      toast.success(
+        `Deleted ${dj} job${dj === 1 ? "" : "s"}` +
+          (dp > 0 ? ` and ${dp} product${dp === 1 ? "" : "s"}.` : "."),
+      );
+      setSelectedJobIds(new Set());
+      setShowDeleteDialog(false);
+      fetchJobs();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Delete failed");
+    } finally {
+      setDeleting(false);
+    }
   }
 
   const pickedCategories = (Object.keys(reapplySelection) as RuleCategory[]).filter(
@@ -341,6 +602,68 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
             >
               Rewrite description
             </Button>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={runBulkApplyPreset}
+              disabled={bulkBusy}
+            >
+              Apply preset order
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              disabled={bulkBusy}
+              onClick={runBulkAudit}
+              title="Run the post-scrape audit on selected products (waffle SKU rename, link unlinked variants, hide pack-axis remnants, drop empty axes, unify size images + cm→in, retry image-only descriptions)."
+            >
+              Audit selected
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              disabled={bulkBusy}
+              onClick={runBulkDeleteOriginals}
+              title="Delete originally-scraped 1688 gallery images on selected products (keeps heroes, lifestyles, and any starred images)."
+            >
+              Delete originals
+            </Button>
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  disabled={bulkBusy}
+                  title="Set the Lifestyle units mode (Auto / Single / Multi) on the selected products. Drives the multi-unit majority rule in the lifestyle image generator."
+                >
+                  Lifestyle units <ChevronDown className="ml-1 h-3 w-3" />
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-56 p-1" align="start">
+                {(
+                  [
+                    { mode: "auto", label: "Auto", help: "Use category default" },
+                    { mode: "single", label: "Single-unit", help: "Force all 6 single" },
+                    { mode: "multi", label: "Multi-unit", help: "Force 4–5 of 6 multi" },
+                  ] as const
+                ).map((opt) => (
+                  <button
+                    key={opt.mode}
+                    type="button"
+                    className="hover:bg-accent w-full rounded-sm px-2 py-1.5 text-left text-sm transition-colors disabled:opacity-50"
+                    onClick={() => runBulkSetLifestyleUnitMode(opt.mode)}
+                    disabled={bulkBusy}
+                  >
+                    <div className="font-medium">{opt.label}</div>
+                    <div className="text-xs text-muted-foreground">{opt.help}</div>
+                  </button>
+                ))}
+              </PopoverContent>
+            </Popover>
             <Popover>
               <PopoverTrigger asChild>
                 <Button
@@ -397,6 +720,73 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
                 </button>
               </PopoverContent>
             </Popover>
+            {connections.length === 0 ? (
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                disabled
+                title="Add a Shopify connection in Settings first"
+              >
+                <Upload className="mr-1 h-3 w-3" />
+                Upload to Shopify
+              </Button>
+            ) : connections.length === 1 ? (
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                onClick={() => runBulkUpload(connections[0].id)}
+                disabled={bulkBusy}
+                title={`Upload selected to ${connections[0].label}`}
+              >
+                <Upload className="mr-1 h-3 w-3" />
+                Upload to Shopify
+              </Button>
+            ) : (
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button
+                    type="button"
+                    size="sm"
+                    variant="outline"
+                    disabled={bulkBusy}
+                    title="Upload selected — pick which Shopify store"
+                  >
+                    <Upload className="mr-1 h-3 w-3" />
+                    Upload to Shopify <ChevronDown className="ml-1 h-3 w-3" />
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent className="w-56 p-1" align="start">
+                  {connections.map((c) => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      className="hover:bg-accent w-full rounded-sm px-2 py-1.5 text-left text-sm transition-colors disabled:opacity-50"
+                      onClick={() => runBulkUpload(c.id)}
+                      disabled={bulkBusy}
+                    >
+                      {c.label}
+                      {c.isDefault && (
+                        <span className="ml-1 text-xs text-muted-foreground">
+                          (default)
+                        </span>
+                      )}
+                    </button>
+                  ))}
+                </PopoverContent>
+              </Popover>
+            )}
+            <Button
+              type="button"
+              size="sm"
+              variant="destructive"
+              onClick={() => setShowDeleteDialog(true)}
+              disabled={bulkBusy || deleting}
+            >
+              <Trash2 className="mr-1 h-3 w-3" />
+              Delete
+            </Button>
             <Button
               type="button"
               size="sm"
@@ -445,7 +835,7 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
                   </TableCell>
                 </TableRow>
               ) : (
-                sorted.map((job) => {
+                sorted.map((job, i) => {
                   const clickable =
                     job.status === "ready" && job.product?.id;
                   const eligible = clickable;
@@ -455,20 +845,26 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
                       key={job.id}
                       className={cn(clickable && "cursor-pointer")}
                       onClick={() => handleRowClick(job)}
+                      onMouseEnter={() => handleRowHover(job)}
                     >
                       <TableCell
                         className="w-10"
                         onClick={(e) => e.stopPropagation()}
                       >
                         {eligible ? (
-                          <Checkbox
-                            checked={isSelected}
-                            onCheckedChange={(v) =>
-                              toggleSelected(job.id, v === true)
-                            }
-                            disabled={bulkBusy}
-                            aria-label="Select job for bulk action"
-                          />
+                          <div
+                            role="presentation"
+                            onClick={(e) => handleRowCheckClick(e, i, job.id)}
+                          >
+                            <Checkbox
+                              checked={isSelected}
+                              onCheckedChange={(v) =>
+                                toggleSelected(job.id, v === true)
+                              }
+                              disabled={bulkBusy}
+                              aria-label="Select job for bulk action"
+                            />
+                          </div>
                         ) : (
                           <Checkbox checked={false} disabled aria-hidden />
                         )}
@@ -511,6 +907,40 @@ export function JobList({ pollMs = 3000 }: JobListProps) {
             </TableBody>
           </Table>
         </div>
+
+        <Dialog open={showDeleteDialog} onOpenChange={setShowDeleteDialog}>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>
+                Delete {selectedJobIds.size} job
+                {selectedJobIds.size === 1 ? "" : "s"} and their products?
+              </DialogTitle>
+              <DialogDescription>
+                This permanently removes each product&apos;s variants, images,
+                and any generated hero / lifestyle data, plus the job&apos;s
+                logs. Cannot be undone.
+              </DialogDescription>
+            </DialogHeader>
+            <DialogFooter>
+              <Button
+                variant="outline"
+                onClick={() => setShowDeleteDialog(false)}
+                disabled={deleting}
+              >
+                Cancel
+              </Button>
+              <Button
+                variant="destructive"
+                onClick={runBulkDelete}
+                disabled={deleting || selectedJobIds.size === 0}
+              >
+                {deleting
+                  ? "Deleting..."
+                  : `Delete ${selectedJobIds.size}`}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
       </CardContent>
     </Card>
   );

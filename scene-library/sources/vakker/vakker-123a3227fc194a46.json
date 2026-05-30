@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-123a3227fc194a46",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/cognac-disc-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/1Cognac_Disc_Table_Lamp166.png?v=1778462947",
+  "scraped_date": "2026-05-21T15:53:07.518Z",
+  "source_title": "Cognac Disc Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "123a3227fc194a46a3c44564bc49534f2aae074a",
+  "description": "A quiet bedroom scene photographed in portrait format at golden hour, the atmosphere cosy and warm. A low solid oak platform bedside table or trunk bench sits at center-left as the foreground surface, its top holding a small glass and metal dome form that glows amber and casts a warm patterned shadow of horizontal lines across the wall behind and the wooden surface below. Beside it, a small white ceramic mug and two or three worn hardcover books are stacked casually. Warm textured striped shadows fan across the plaster wall, echoing the diffusion pattern through the glowing object above. In the background, the bed is a low platform with a natural linen duvet and multiple cream and oat pillows, the bedding rumpled slightly in a lived-in way. A chunky-knit oatmeal throw is piled at the foot. The wall is smooth off-white plaster. A small window to the right shows cool blue-grey sky outside, with no curtain or blind, letting natural cool daylight mix with the warm amber surface glow in the room. A small green potted plant sits on the table beside the mug. Camera at low-to-seated eye-level, normal lens, vignette off-center composition focused on the bedside surface with the bed softly out of focus in the background, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.037Z"
+}

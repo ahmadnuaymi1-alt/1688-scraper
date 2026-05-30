@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-c233385778dfa1b2",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-c233385778dfa1b2.png",
+  "source_url": "https://vakkerlight.com/products/eclipse-travertine-table-lamp",
+  "description": "A composed console-bench vignette photographed at seated eye-level with a normal lens, camera level and centered, presenting a symmetrical arrangement against a smooth warm-plaster wall. The bench is a low, solid slab of aged, wire-brushed oak with visible grain and dark knots, sitting directly on a tightly woven natural jute rug. On the bench surface, a sculptural piece with a stone-and-concrete texture emits a rich amber-golden glow that warms the surrounding objects and traces a soft halo against the plaster wall behind it. To its right, a loosely gathered arrangement of tall dried pampas grass stands in a matte-stone stoneware vase, its feathery plumes catching the warm light. Beside the vase sits a small stack of hardcover books and a low brass bowl with a burnished patina. A framed abstract print in muted sand and taupe tones leans against the wall behind the arrangement. The overall palette is deeply warm neutral — raw concrete tones, aged linen, dry pampas, warm plaster — with a single brass-gold accent threading through the bowl and the warm amber glow pooling across the bench surface. The atmosphere is calm and gallery-quiet, minimal in density yet richly textured. The architecture reads as a bare plaster interior with no trim or moulding, evoking a Parisian or Californian loft sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

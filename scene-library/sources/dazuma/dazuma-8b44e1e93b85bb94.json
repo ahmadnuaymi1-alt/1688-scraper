@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-8b44e1e93b85bb94",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-hanging-lantern-light-fixtures-luxury-crystal-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-hanging-lantern-light-fixtures-vintage-decorated-dining-table.jpg?v=1774595340",
+  "scraped_date": "2026-05-21T12:04:25.683Z",
+  "source_title": "Outdoor Hanging Lantern Light Fixtures Luxury Crystal Ceiling Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8b44e1e93b85bb94aa60b286256650a34c16725d",
+  "description": "An outdoor garden pergola dining scene photographed at standing eye-level with a normal lens, framing a close three-quarter view of a fully set rectangular dining table. The table has a weathered grey-painted wood surface and substantial turned legs, surrounded by six high-back wicker and rattan chairs with thick cream seat cushions. The table is beautifully set for a romantic occasion — woven placemats, ivory cloth napkins, polished brass candlestick holders of varying heights bearing lit white tapers, a round arrangement of pink garden roses, white roses, hydrangeas, and trailing eucalyptus, and filled red wine glasses. The overhead structure is a dark stained wood pergola with a horizontal beam grid, and trailing leafy vines spill across the pergola from both sides, framing the view with green foliage. A strand of small warm glowing string lights is woven through the vine canopy above. Two large draped basket-woven crystal glowing forms hang on brass chains above the table, their amber-tinged illumination cascading downward across the table setting. The background is a dense clipped boxwood or ivy hedge wall, providing a rich dark green backdrop. The mood is romantic, celebratory, and garden-formal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.490Z"
+}

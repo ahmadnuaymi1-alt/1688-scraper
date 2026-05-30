@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-0b3da0ac1ea2d6ff",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/brass-wall-light-modern-minimalist-up-and-down-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/square-brass-wall-light-glowing-luxury-home-interior.jpg?v=1777446429",
+  "scraped_date": "2026-05-21T12:03:30.505Z",
+  "source_title": "Brass Wall Light Modern Minimalist up and down Lighting",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Up & Down Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0b3da0ac1ea2d6ffda0f0b41026a01f59d9ae216",
+  "description": "A warm, classically European hallway or sitting room passage photographed in soft natural light. The walls are finished in a creamy warm white plaster with smooth, painterly texture. Architectural trim is painted in a matching cream-white — simple door architrave with a slight ovolo profile and a low wainscot-height baseboard visible along the wall. A set of French doors with multi-pane glass panels and white painted wood frames stands open to the left of frame, revealing a glimpse of a neighboring dining room: a round wooden table, upholstered dining chairs in a pale floral print, and a white ceramic vase holding a spray of dried cherry blossom branches on the table. Through the dining room windows beyond, leafy green trees are visible in full summer foliage, flooding the far room with bright soft natural light. On the right wall of the hallway, two framed architectural or topographic etchings in pale grey-beige mats are hung vertically in a stacked arrangement, each in a thin antique gold leaf frame. A warm amber glow washes upward and outward on the cream plaster wall from a square wall-mounted source between the door and the artwork. The mood is gracious, understated, and quietly European — morning light, fresh flowers, inherited artwork. Camera is at standing eye-level, approximately 5–6 feet, shooting an off-center thirds view that places the French door opening on the left third and the wall with the artwork and wall glow on the right. Lens is a normal focal length. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "wainscoting",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.988Z"
+}

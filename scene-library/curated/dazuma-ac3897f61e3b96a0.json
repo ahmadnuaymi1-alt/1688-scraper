@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-ac3897f61e3b96a0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ac3897f61e3b96a0.jpg",
+  "source_url": "https://dazuma.us/products/modern-full-copper-crystal-flush-mount",
+  "description": "A cozy bedroom photographed at standing eye-level with a normal lens around 35-50mm, in a three-quarter corner composition that frames the bed against the far wall with the window wall visible on the left and a partial right wall with artwork. The walls are finished in smooth Venetian or limewash plaster in a warm sandy beige-taupe, with visible texture and slight variations in tone that give the surface an organic, aged quality. The ceiling is smooth and slightly paler. A large single-pane casement window with a deep sill on the left wall admits warm ambient daylight, its white-painted wood frame dividing the view of an exterior with foliage. On the deep window sill, a collection of terracotta pots and ceramic planters hold an assortment of trailing and leafy houseplants — pothos, succulents, small ferns — creating a lush, personal windowsill garden. The floor is medium-tone warm oak in a straight-plank configuration partially covered by a low-pile area rug in warm taupe. The bed has a upholstered linen-grey tufted headboard, the bedding a layered arrangement of grey linen duvet, white pillow shams with grey euro pillows, and a rumpled warm grey throw or blanket casually draped at the foot. A live-edge solid wood round side table in rich brown walnut sits beside the bed on the right, holding a small tumbler glass and a dark object. A larger potted leafy plant in a dark woven basket planter anchors the right-side floor between the bed and wall. A thin-framed botanical or landscape print hangs on the far right wall. Soft, diffuse warm afternoon light fills the room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

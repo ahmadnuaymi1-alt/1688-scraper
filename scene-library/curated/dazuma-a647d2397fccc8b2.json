@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-a647d2397fccc8b2",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a647d2397fccc8b2.jpg",
+  "source_url": "https://dazuma.us/products/modern-black-wall-sconce-minimalist-retro-led-light",
+  "description": "A contemporary luxury living room corner photographed at seated-to-standing eye-level with a three-quarter composition showing the sofa arm, side table, and adjacent wall section. The wall is paneled in large cool grey upholstered or lacquered panels with a subtle grid seam pattern, and to the far right a vertical panel of textured volcanic stone or lava-rock in dark grey-black adds dramatic organic contrast. The sofa is a low-profile modern design with an ivory off-white leather or smooth fabric seat and back, articulated by a slim dark espresso-stained wood frame with visible arm and leg detail. Two throw cushions are placed on the sofa — a bold zebra-print cowhide pillow in black and white, and a large rectangular ivory linen cushion with a slim dark leather trim band and a brass clasp. Beside the sofa, a square end table in near-black lacquered steel with an open-shelf base holds a raw dark stone sculptural boulder placed on a white granite slab, and two small dark metallic lidded vessels. The floor is a pale neutral grey short-pile area rug or polished stone. A warm amber light washes upward and downward along the wall panel from the wall-mounted position, creating a vertical luminous wash on either side of the fixture and illuminating the grey panel surface with warm golden contrast. The palette is cool grey, ivory white, near-black, and warm amber glow. Mood is formal, gallery-caliber, and dramatically monochromatic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

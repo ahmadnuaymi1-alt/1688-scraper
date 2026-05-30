@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-cc14ccc148c59390",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/open-box-square-waterproof-led-solar-modern-outdoor-fence-post-lights-pillar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/products/outdoor-waterproof-led-column-lamp-landscape-decorative-lighting-for-villa-courtyard-gatepost-562910.jpg?v=1652190793",
+  "scraped_date": "2026-05-21T12:19:53.024Z",
+  "source_title": "[Open-Box]Square Waterproof LED Solar Modern Outdoor Fence Post Lights Pillar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1020,
+  "height": 1020,
+  "content_sha1": "cc14ccc148c593906a54ecb8992e7823f5ef4d88",
+  "description": "An outdoor deck scene photographed at dusk or evening, showing a wide composite deck surface in pale grey-white tones with linear board striping running horizontally across the frame. Three low-profile dark charcoal rectangular block forms sit at evenly spaced intervals receding diagonally into the mid-distance, each emitting a warm amber-gold glow that fans out in a wide horizontal wash across the pale deck boards, casting sharp elongated shadows that radiate outward from each unit. The warm tones of the glow contrast richly against the cool grey composite decking. In the background, large-format floor-to-ceiling sliding glass doors with dark matte frames reveal a warmly lit interior with honey-toned wood wall paneling and the warm orange glow of an interior space. The interplay between the cool pale deck surface and the warm amber pools of light creates a dramatic, moody twilight atmosphere. Camera is positioned at a very low angle, approximately 1-2 feet above the deck surface, shooting at a slight upward pitch, with a wide-to-normal lens capturing a three-quarter diagonal view of the deck looking toward the glass façade in the upper-left background. The full width of the deck fills the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.834Z"
+}

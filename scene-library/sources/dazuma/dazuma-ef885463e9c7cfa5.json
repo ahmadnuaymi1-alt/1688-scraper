@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-ef885463e9c7cfa5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-outdoor-sconces-european-style-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_cb483870-834c-4483-809b-8700abdad18c.jpg?v=1773886754",
+  "scraped_date": "2026-05-21T12:04:57.399Z",
+  "source_title": "Solar Outdoor Sconces European-Style Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ef885463e9c7cfa521658455e91ba782317672eb",
+  "description": "A Mediterranean or European country-style residential front entrance photographed at standing eye-level, slightly off-center with the door to the left and garden to the right. The house facade is smooth painted stucco in warm cream-white. A pair of wide double entry doors painted in warm cream with deep inset raised panels and polished gold hardware occupy the left portion of the frame, approached by irregular stone or brick entry steps with a rustic flagstone feel. Climbing yellow rose branches, heavy with clusters of bright lemon-yellow blooms, cascade across the top of the door frame and along the upper facade, spilling downward in an abundant organic curtain. To the right of the door, the smooth stucco wall continues. A small olive tree in a stone or terracotta ornamental planter sits at the right foreground, with silvery-green foliage. Behind it, clipped low-growing grey-green mounding shrubs form a tidy landscape border running along the base of the wall. A large stone urn or classical planter with an ornate decorative band sits in the mid-right ground. The garden path or approach is flagstone in warm grey with small pebble or gravel infill. Warm amber light glows from the wall to the right of the door, washing a gentle circle of gold across the cream stucco. The overall palette is warm cream stucco, yellow blooms, olive-grey foliage, stone, and warm gold. Camera is standing height, slightly off-center favoring the doorway, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.962Z"
+}

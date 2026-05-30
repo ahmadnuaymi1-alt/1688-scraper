@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-1ab138a03ccb67c7",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-1ab138a03ccb67c7.jpg",
+  "source_url": "https://dazuma.us/products/solar-outdoor-wall-mounted-lights-modern-infrared-sensor-light",
+  "description": "A classic American farmhouse-style front porch entry photographed at standing eye-level with a normal lens in a centered symmetrical wide establishing composition. The camera looks level directly at the double entry door, capturing the full porch width. The exterior facade is white board-and-batten vertical siding — crisp painted white with clean shadow lines from the wide vertical battens. Two fluted square white-painted columns frame the porch opening and support a shallow coffered porch overhang. The overhang ceiling is tongue-and-groove planking in warm honey pine or cedar with a natural clear-coated finish — a warm amber wood ceiling that contrasts beautifully against all the white elements. Two recessed pot lights in the porch ceiling emit soft warm circular pools of light onto the porch deck. On either side of the double entry door, matte black wall-mounted lantern fixtures with rectangular cage-frame bodies and frosted opal inner diffusers emit a warm amber glow through the white diffuser panels, washing the white board-and-batten wall with a soft warm halo. The double entry doors are solid natural walnut-toned craftsman-style wood with nine-pane glass grids in the upper panels and solid wood lower panels, fitted with matte black lever handles and a smart keypad lock. A natural fiber doormat sits at the threshold. Three low bluestone or limestone steps with a slightly rough edge lead up to the porch landing. At the base of the left column, a large weathered galvanized metal or antique stone urn holds a lush arrangement of white hydrangeas, trailing ivy, and a small olive tree. To the right, a medium terracotta pot contains mixed white and pale pink garden flowers and ornamental grass. The mood is welcoming, warm, and quintessentially American farmhouse-transitional. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-886e5e6fb734f06c",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/pavilion-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Pavilion-Alabaster-Cluster-Chandelier-_3.jpg?v=1779258035",
+  "scraped_date": "2026-05-21T12:08:33.075Z",
+  "source_title": "Pavilion Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1500,
+  "height": 2000,
+  "content_sha1": "886e5e6fb734f06c003b46ebcbc41b861298a68e",
+  "description": "A grand, light-filled double-height foyer with a sweeping curved staircase as its centerpiece. The staircase curves in a wide spiral from the ground floor up to the second level — its treads are medium-toned walnut or dark honey-brown wood, and its railing system consists of slim matte-black iron balusters with a continuous rounded walnut handrail. A circular matte-black iron railing wall at ground floor encircles the stair base. The stair soffit is smooth white plaster, curving in a smooth arc. Behind the staircase, a very tall multi-pane steel-framed window wall fills the void with abundant natural green-filtered daylight, offering a view of mature garden trees outside. The foyer walls are smooth white plaster, and the floor is wide-plank pale blonde oak in a straight-lay pattern. To the lower left, a tall ceramic vessel or urn in warm terracotta tones holds a dried branchy arrangement, placed on or beside a light wood console. A framed artwork in a simple frame hangs at the left wall. Multiple faceted or angular alabaster or frosted-stone forms in matte-black conical caps hang at dramatically staggered heights through the full double-height void of the stairwell, each glowing with warm amber translucent light. Camera at standing eye-level, centered wide-establishing view of the full staircase run and foyer floor, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.143Z"
+}

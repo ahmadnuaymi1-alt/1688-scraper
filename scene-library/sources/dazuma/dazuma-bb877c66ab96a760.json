@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-bb877c66ab96a760",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-pillar-light-modern-minimalist-entryway-landscape-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-pillar-light-fence-post-pathway-lighting.jpg?v=1778566322",
+  "scraped_date": "2026-05-21T12:03:00.761Z",
+  "source_title": "Solar Pillar Light Modern Minimalist Entryway Landscape Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bb877c66ab96a76037df83536335f7a21c73c7af",
+  "description": "A contemporary residential boundary fence photographed at sunset from a low-to-standing eye level in a one-point perspective composition looking along the fence line. The fence is constructed of substantial square concrete pillar posts in a rough-faced light grey concrete finish, connected by horizontal-slatted dark espresso or charcoal metal fence panels between each post. On top of each concrete pillar post sits a dome-shaped frosted glass post-cap fixture in a mushroom or wide-hat form with a solar panel integrated at the crown, glowing with warm amber-cream light. The nearest fixture in the foreground is large and sharply detailed; the subsequent fixtures recede in size into the background perspective, creating a repeating rhythm of warm glowing domes diminishing into the distance. Lush green shrubs and hedging grow behind the fence on both sides. In the blurred background, two-story suburban residential houses with rendered facades are softly visible, their interior windows glowing with warm light. A dramatic orange and pink gradient sunset sky fills the upper right of the frame. The palette is raw concrete grey, charcoal espresso metal, warm amber-cream glow, deep green foliage, and sunset orange sky. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.743Z"
+}

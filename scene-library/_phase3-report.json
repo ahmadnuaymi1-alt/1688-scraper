@@ -1,0 +1,93 @@
+{
+  "generated": "2026-05-21T16:16:44.836Z",
+  "described": 1350,
+  "accepted": 1044,
+  "rejected": 306,
+  "flagged": 0,
+  "flagged_ids": [],
+  "reject_reasons": {
+    "competing-fixtures": 285,
+    "ambiguous-hero": 167
+  },
+  "by_brand": {
+    "dazuma": 756,
+    "vakker": 288
+  },
+  "by_category": {
+    "chandelier": {
+      "scenes": 341,
+      "room_types": 14
+    },
+    "pendant": {
+      "scenes": 349,
+      "room_types": 13
+    },
+    "flush_mount": {
+      "scenes": 115,
+      "room_types": 13
+    },
+    "sconce": {
+      "scenes": 374,
+      "room_types": 11
+    },
+    "table_lamp": {
+      "scenes": 466,
+      "room_types": 11
+    },
+    "floor_lamp": {
+      "scenes": 229,
+      "room_types": 8
+    },
+    "outdoor": {
+      "scenes": 252,
+      "room_types": 2
+    }
+  },
+  "by_room": {
+    "sitting_room": 50,
+    "outdoor": 254,
+    "bedroom": 184,
+    "home_office": 56,
+    "dining_room": 79,
+    "living_room": 254,
+    "other": 43,
+    "foyer": 45,
+    "hallway": 20,
+    "kitchen": 32,
+    "library": 10,
+    "bathroom": 15,
+    "sunroom": 1,
+    "mudroom": 1
+  },
+  "by_flavor": {
+    "amber_california": 141,
+    "dazuma_clean": 178,
+    "allied_minimalist": 92,
+    "devol_country": 143,
+    "pierre_parisian": 72,
+    "mcgee_color": 120,
+    "modern_japandi": 83,
+    "apparatus_gallery": 85,
+    "visual_comfort_editorial": 59,
+    "schoolhouse_moody": 71
+  },
+  "by_density": {
+    "low": 707,
+    "mid": 337
+  },
+  "by_source_hero": {
+    "floor": 195,
+    "table": 309,
+    "wall": 219,
+    "ceiling": 321
+  },
+  "cat_hero_compatible": {
+    "chandelier": 260,
+    "pendant": 281,
+    "flush_mount": 82,
+    "sconce": 219,
+    "table_lamp": 297,
+    "floor_lamp": 97,
+    "outdoor": 252
+  }
+}

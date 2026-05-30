@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-29bb98fc6def44f1",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-29bb98fc6def44f1.png",
+  "source_url": "https://vakkerlight.com/products/dome-globe-travertine-arc-sconce",
+  "description": "A warm and minimal living room or entryway corner vignette photographed at seated eye-level with a normal lens. The walls are smooth plaster in a warm sandy off-white, with natural light from a tall window on the left edge casting raking sun patterns and soft shadow shapes across the plaster surface. The floor is covered with a flat-weave natural jute or sisal rug in a warm honey tone. A long, low solid wood bench with a reclaimed or lightly distressed surface in natural warm oak-brown sits against the wall. On top of the bench, two or three stacked white softcover books support a small matte taupe ceramic bowl, and a large terracotta ceramic vase with a flared lip holds a generous bunch of dried olive branches with silver-green foliage. At the right edge of the frame, the arm of a cream bouclé or chunky knit upholstered armchair is visible, with a soft natural linen throw draped over it. The corner where the bench meets the wall has a warm concentrated light pool cast from a low wall-mounted source above and to the right, illuminating the plaster and the top surface of the bench in warm gold tones. The overall atmosphere is quiet, organic, and California-casual. Camera is at seated eye-level in a tight vignette composition, slightly off-center with the bench and wall plant arrangement in focus and the chair arm cutting in from the right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

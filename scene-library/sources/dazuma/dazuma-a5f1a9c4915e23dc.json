@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-a5f1a9c4915e23dc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/farmhouse-outdoor-sconce-american-country-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/farmhouse-outdoor-sconce-classic-black-brick-house-entrance.jpg?v=1774836620",
+  "scraped_date": "2026-05-21T12:04:02.156Z",
+  "source_title": "Farmhouse Outdoor Sconce American Country Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a5f1a9c4915e23dc19e07554e6a9783713916a08",
+  "description": "A contemporary Scandinavian-style exterior house wall photographed at standing eye-level with a three-quarter composition showing the facade beside a large white-framed sliding patio door at night. The exterior wall is grey painted or natural grey brick with a modern horizontal running bond pattern — the grey tone is cool and even, characteristic of Northern European residential architecture. White painted eaves and fascia trim detail the roofline at the upper right. The large sliding patio door to the right is framed in bright white uPVC with a simple panel-and-glass design, and the warm amber glow of the interior spills out through the glass. In the lower foreground, clusters of white hydrangea flowers in full bloom spill in from the right edge and lower left, their large round flower heads catching both the interior warmth and the cool night air. The night sky is a deep dark blue behind the roofline. Warm amber light radiates outward from the wall-mounted position above, illuminating the textured grey brick surface with a golden fan of light. The palette is cool grey brick, bright white trim, warm amber, and ivory white hydrangea. Mood is clean, contemporary, and welcoming. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.643Z"
+}

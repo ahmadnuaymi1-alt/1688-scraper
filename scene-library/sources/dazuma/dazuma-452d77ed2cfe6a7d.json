@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-452d77ed2cfe6a7d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/elegant-woven-outdoor-lanterns-unique-woven-texture-stylish-portable-lanterns",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pair-illuminated-rooftop-patio-lounge-woven-outdoor-lanterns-white-base.jpg?v=1763625667",
+  "scraped_date": "2026-05-21T15:52:56.008Z",
+  "source_title": "Woven Outdoor Lanterns Stylish with Handle Portable Patio Floor Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "452d77ed2cfe6a7d646b356256b9c72da669a735",
+  "description": "A rooftop terrace photographed at twilight with a deep blue city skyline in the background, skyscrapers glowing against the dusk sky. The terrace features a wide L-shaped outdoor sofa in natural wood frame with thick cream cushions, arranged around a low rectangular stone-topped coffee table. The deck is finished in warm teak wood planks. Potted tropical-looking plants and low shrubs line the terrace railing, adding lush greenery. A large cream market umbrella is partially visible at upper left. Three woven rattan-style portable lanterns are placed across the scene — one on the coffee table, one resting on the sofa cushion, and one on the deck floor in the foreground — each casting warm amber geometric pools of light onto the surfaces immediately beneath and around them, with no illumination reaching above surface level. The atmosphere is sophisticated and relaxed, suggesting an urban evening gathering. Camera is at standing eye-level using a wide lens, with a slightly elevated vantage looking slightly downward across the sofa arrangement. Composition is a wide establishing three-quarter view of the terrace corner with the city backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.215Z"
+}

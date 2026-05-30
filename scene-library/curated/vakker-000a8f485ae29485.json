@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-000a8f485ae29485",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-000a8f485ae29485.png",
+  "source_url": "https://vakkerlight.com/products/sculptural-pleated-paper-lamp",
+  "description": "A minimalist living room or entryway sitting area photographed in a warm square-format composition. A raw-edge live-edge solid wood bench or low table in a medium oak tone anchors the center of the frame, its organic slab top rough-hewn and irregular at the edges, supported by simple block legs. On the bench's surface sit two coffee table books stacked neatly and a small sculptural decorative arrangement. To the left of the bench, a tall ceramic or textured pottery vase holds dried pampas grass plumes, their feathery tufts catching warm golden light. To the right, a small potted olive tree in a terracotta or natural clay pot fills a bright corner area with soft green foliage. A linen-upholstered armchair in natural oat tone sits at the far right, its back turned three-quarters toward the camera, a loosely draped grey throw blanket over its arm. The floor is covered by a large natural jute rug in warm honey tones. Creamy plaster walls carry a warm golden cast from the afternoon light entering through a right-side window, which is softly diffused and not directly visible. A warm luminous glow radiates from a sculptural large-scale disc-form object on the bench surface, casting warm light onto the surrounding books and bench surface. Camera at standing eye-level, slightly wide, three-quarter view of the corner showing both the bench and the chair, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-32116fa75f976d94",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-style-table-lamps-elegant-mushroom-atmosphere-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/retro-table-lamps-wooden-cabinet-vintage-elegance.jpg?v=1761360473",
+  "scraped_date": "2026-05-21T15:52:23.236Z",
+  "source_title": "Retro Style Table Lamps Elegant Mushroom Atmosphere Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "32116fa75f976d94203583b013ef0a5904942d15",
+  "description": "A mid-century modern living room vignette photographed at seated eye-level with a normal lens in a three-quarter corner view. The entire background wall is clad in vertical slatted wood panels of a warm amber-orange cherry or walnut tone, creating a bold, retro-rich backdrop. A compact mid-century side table with chrome tubular legs and a warm wood-veneered cabinet body with a single door and small round knob handle sits center frame. On the table surface, a stack of design books — the top one reading 'Real Estate Graphics' — is arranged alongside a small ceramic bowl with a graphic printed pattern in brown. A warm cream glow floods outward from the table surface, washing up the slatted wood wall immediately behind and creating a soft warm pool on the shelf surface at that level. To the left, the arm and seat cushion of a retro-style armchair in deep burnt orange ribbed corduroy are visible, with a magazine open on the arm. The floor is covered in a warm beige or ochre striped area rug. In the far right foreground, the blurred stems of dried botanical stems add depth. The palette is saturated amber orange, burnt sienna, cream, chrome, and warm walnut — a confident, saturated, retro-California mood. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "chrome",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.149Z"
+}

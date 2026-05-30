@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-3517d236c81c3042",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/butterfly-glow-tiffany-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17785532542499.png?v=1778555947",
+  "scraped_date": "2026-05-21T12:20:11.256Z",
+  "source_title": "Butterfly Glow Tiffany Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "3517d236c81c3042d5a9f26a51477e3708a6a35d",
+  "description": "A cozy, vintage-style bedroom nightstand vignette suffused in warm, honeyed light. The nightstand is a small dark-stained wooden side table with carved detailing, on which rest two stacked books, a white ceramic teacup, and a small dried floral arrangement in a short vase. Behind it, a wrought iron bed headboard with ornate scrollwork in dark antiqued bronze provides a strong vertical element. The wallpaper behind is a soft cream ground with a small repeated botanical or toile pattern in muted blush-rose tones. A multi-pane window to the upper left admits soft morning light, bathing the scene in warm golden diffusion. The bed linens feature a vintage floral quilt in cream and soft rose. The entire color palette is warm and muted — honey, cream, dusty rose — with the wood tones anchoring the scene in warm amber. The atmosphere is lived-in, cottage-y, and quietly nostalgic. Camera is at a low-to-seated eye level, framing a tight vignette of the nightstand and bed corner using a normal lens. The composition is slightly off-center with the nightstand at center-left and the bed headboard filling the right background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.067Z"
+}

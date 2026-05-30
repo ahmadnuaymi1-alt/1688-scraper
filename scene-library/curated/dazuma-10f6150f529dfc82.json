@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-10f6150f529dfc82",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-10f6150f529dfc82.jpg",
+  "source_url": "https://dazuma.us/products/bollard-garden-lights-outdoor-waterproof-garden-landscape-light",
+  "description": "A residential exterior pathway photographed at dusk from a low eye-level — approximately knee-to-waist height — with a normal-to-telephoto lens looking slightly upward. The foreground is a broad paved stone walkway with large square pavers in a warm gray-buff tone, transitioning to a herringbone red brick driveway on the right side. A tall rectangular bollard-style path light stands in the left foreground, its warm amber glow spilling outward in a soft pool across the pavers and illuminating the dense round boxwood shrubs that flank it. Multiple clipped boxwood globes in rich dark green are arranged along the border, creating a formal, manicured landscape edge. In the background, slightly out of focus, is the front entry of a stone-clad residential home — a warm-toned natural stone facade with wood-trimmed entry door, concrete steps, a covered porch with timber framing, and warm amber light emanating from within the entry area. The overall mood is calm, secure, and warmly lit against the deepening night sky. The composition places the bollard prominently in the left-center foreground, with the house entry visible as a warm glowing focal point in the background at one-third right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-b5622c9d30e4110f",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-b5622c9d30e4110f.png",
+  "source_url": "https://vakkerlight.com/products/flex-clamp-task-lamp",
+  "description": "A minimal, playful home office or reading nook vignette photographed at standing eye-level with a normal to telephoto lens in a tight off-center composition. The background wall is painted a flat crisp white, providing a clean, graphic backdrop. A wooden wall shelf with a rounded arched lower edge in warm medium oak finish is mounted to the wall at mid-frame, its curved form introducing a soft, organic architectural note against the white wall. The shelf surface holds a small glass or ceramic vessel with a dried twig arrangement and a compact storage object, styled simply. A focused warm light emanates from the direction of the wall-mounted element, casting a warm directional glow downward onto the shelf surface and creating a soft illuminated patch on the white wall behind. The composition is tight and graphic, letting the orange-painted fitting and silvery flexible arm of the wall-mounted element read as a sculptural accent against the white expanse. The mood is playful and informal, with a retro-modernist craft sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

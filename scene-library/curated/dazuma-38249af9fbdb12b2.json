@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-38249af9fbdb12b2",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-38249af9fbdb12b2.jpg",
+  "source_url": "https://dazuma.us/products/modern-industrial-table-lamps-stylish-two-color-decorative-objects-light",
+  "description": "A mid-century credenza or sideboard styled with a vibrant console vignette, photographed at standing eye-level with a normal lens in a centered symmetrical composition. The credenza is warm walnut with a clean horizontal profile and tapered legs. Against the bright white wall in the background, a large bold botanical print in a gold frame leans without hanging — its dark background featuring oversized tropical leaves in teal, orange-red, chartreuse green, and cobalt blue creates a vivid graphic accent. On the left end of the credenza, a short round stoneware vessel in matte brown-grey sits atop a small stack of design books. On the right, a living white phalaenopsis orchid in a matte brown glazed ceramic pot extends upward with elegant arching stems and white blooms with yellow centers. A soft warm cream glow emanates from the credenza surface at its center, pooling warmly on the walnut wood at that height and illuminating the art canvas behind from the surface level upward. The palette is warm walnut brown, white, teal, saturated tropical multi-color, matte grey, and gold frame accents. The mood is casual and vibrant — a confidently styled California-influenced vignette with botanical energy. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "cobalt",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

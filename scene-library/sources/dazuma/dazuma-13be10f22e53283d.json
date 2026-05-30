@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-13be10f22e53283d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorate-floor-lamp-wedding-decoration-cotton-tree-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/luxury-decorate-floor-lamp-wedding-aisle-stage-lights.jpg?v=1777086795",
+  "scraped_date": "2026-05-21T12:04:27.845Z",
+  "source_title": "6 PCS Decorate Floor Lamp Wedding Decoration Cotton Tree Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "13be10f22e53283dac8dff6a346e5d68952bf455",
+  "description": "An outdoor evening wedding ceremony setup photographed from a standing eye-level vantage, centered symmetrically along the central aisle runner. The perspective is level and head-on, looking straight down the white reflective runway toward the altar backdrop, with the full width of the ceremonial space visible on both sides. The backdrop is a crisp white paneled screen decorated with an arrangement of blush pink, powder blue, and ivory florals — roses, hydrangeas, and greenery — framing a calligraphed monogram. Two tall gold spiral-ring arch structures flank the backdrop on left and right, creating a dramatic geometric frame. On either side of the aisle, plush white modular sofas rest on lush grass, and low white floral clusters of baby's breath and small blooms carpet the ground between them. Tall branching sculptural forms on brass bases line both sides of the aisle, each emitting a soft warm glow from rounded opalescent diffusers clustered at the branch tips, casting gentle pools of warm amber and ivory light onto the grass and pavement below. Overhead, festoon-style strings trace curves across the dark open sky, each globe diffuser adding small punctuations of warm incandescent-toned glow against the dark canopy of tropical palms silhouetted behind. The overall atmosphere is romantic and celebratory, the palette anchored in white and gold with soft blush and blue floral accents. Camera is at roughly standing height, centered, looking level down the aisle in one-point perspective. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "blush",
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.024Z"
+}

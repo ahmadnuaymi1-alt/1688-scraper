@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-ded3dd5ccdcd98d3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ded3dd5ccdcd98d3.jpg",
+  "source_url": "https://dazuma.us/products/linear-modern-chandelier-minimalist-creative-ceiling-light",
+  "description": "A clean, minimalist contemporary home office with smooth warm off-white plaster walls and a continuous cove detail near the ceiling that emits a soft linear strip of warm ambient light, washing upward across the plaster and ceiling in a warm glow. The floor is polished light gray concrete. The right wall is a floor-to-ceiling frameless glass partition with a matte gray aluminum frame, partially visible, separating this office from an adjacent space. The primary work surface is a large L-shaped or extended rectangular desk with a light stone or concrete-look laminate top and slender silvery metal legs. On the desk surface sit an all-white Apple desktop computer monitor, a small decorative hinged box, and a matte black ceramic vase holding a few sprigs of dried wild grass. The office chair is a low-back executive form upholstered in dark chocolate brown leather with black casters. A low cabinet with gray-painted panel doors sits at the right end of the desk as a pedestal unit. The palette is all warm and cool neutral — off-white plaster, pale gray concrete floor, silver-tone metal, deep brown leather — with the matte black vase as a lone dark accent. Light fills the room evenly from the cove glow above combined with unseen ambient sources. Camera is at standing eye-level, wide to normal lens, centered symmetrical composition showing the full desk and office with the wall straight ahead. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

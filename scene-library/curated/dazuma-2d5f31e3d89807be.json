@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-2d5f31e3d89807be",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2d5f31e3d89807be.jpg",
+  "source_url": "https://dazuma.us/products/retro-wall-sconces-american-outdoor-waterproof-lamp",
+  "description": "An exterior residential entryway wall close-up photographed at standing eye-level with a vignette composition, the camera level and slightly angled toward the brick wall surface with the mounted position as the dominant subject. The wall is painted white brick — the brick joints and some areas of paint wear or deliberate distress give the surface a charming aged cottage texture of white over pale grey and tan undertones. To the left, a multi-pane Georgian-style window with painted grey-white frames opens onto the facade, and through the glass the warm amber glow of a sunset sky and silhouetted garden trees is reflected. Below the window, a painted door is partially visible with a brass letter slot. At the bottom of the frame, clusters of pink geranium blooms with fresh green foliage spill toward the camera. The mounted position on the right-of-center wall surface emits warm amber light from a ribbed glass lantern body — the vertical fluted glass panels glow warmly, and a soft warm amber pool washes the white brick below the fixture. The sunset colours in the window reflection add a peachy-amber glow to the upper left of the composition. The palette is chalky white painted brick, pale grey woodwork, warm amber glow, pink geranium blooms, and deep green foliage against a dusky peachy sky reflected. The mood is charming, cottage-traditional, and warmly welcoming at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

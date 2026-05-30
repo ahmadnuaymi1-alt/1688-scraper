@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-8dcc8ce302a2cd87",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pendant-light-white-japanese-silk-fabric-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_4ee09303-6325-4dc5-9387-b26bb00b99e4.jpg?v=1774595812",
+  "scraped_date": "2026-05-21T12:04:12.107Z",
+  "source_title": "Pendant Light White Japanese Silk Fabric Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8dcc8ce302a2cd87cb0e322b88c17eb82a48877e",
+  "description": "A serene primary bedroom photographed at standing eye-level with a normal lens, framing a centered symmetrical view of the bed against the far wall. The room features a vaulted white plaster ceiling with three exposed dark walnut structural beams crossing diagonally across the vault. A tall black-framed French door on the left wall opens to a winter landscape of bare trees in snow, flanked by cream linen floor-length drapery. Three small multi-pane windows with black steel frames and grey linen Roman shades line the back wall above the bed. The bed is a generously sized upholstered platform in warm cream bouclé fabric with a tall channeled headboard, dressed with crisp white bedding, a charcoal wool throw draped across the foot, and layered pillows in ivory, grey, and warm caramel. A low rounded bouclé bench in heathered grey sits across the foot of the bed. On each bedside, a small walnut nightstand holds minimal decoration — a single slender vase with a bare branch on the left, a small ceramic object on the right. The floor is pale washed wide-plank oak beneath a natural flat-weave area rug. A ribbed organic gourd-shaped diffuser glows warmly above the center of the room, suspended from the ceiling on a thin cord, casting a soft warm halo into the vault. The mood is deeply serene, winter-cozy, and refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.498Z"
+}

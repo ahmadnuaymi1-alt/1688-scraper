@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-d40de3aa73292eaa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/halloween-pumpkin-light-waterproof-ambience-resin-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/realistic-halloween-pumpkin-light-kitchen-counter-decor.jpg?v=1762225942",
+  "scraped_date": "2026-05-21T15:52:20.941Z",
+  "source_title": "Halloween Pumpkin Light Waterproof Ambience Resin Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Halloween Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d40de3aa73292eaab33f66542c6eaae70f54b31a",
+  "description": "A warm autumnal kitchen counter scene photographed at a low, close-up angle. Two bright orange pumpkins with green stems sit on a natural light wood cutting board at the center of frame, their vivid tangerine-orange skins richly detailed in the foreground. To the left, a ribbed cream ceramic vase holds a loose arrangement of eucalyptus and small rust-orange dried botanicals. In the background, slightly out of focus, multiple clusters of orange chrysanthemums or marigolds are arranged on the counter near white-painted cabinetry, with a wooden cutting board visible at the right edge. The surfaces are marble-look white countertops with white shaker-style lower cabinets visible in the background. The mood is festive, warm, and domestic — an autumn harvest-style kitchen vignette. Camera at seated or low eye-level, normal to telephoto lens, tight off-center vignette composition focused closely on the pumpkins in the foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "terracotta",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.859Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-38885642531b135e",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/sunrise-dome-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Sunrise_Dome_Table_Lamp35.png?v=1778751355",
+  "scraped_date": "2026-05-21T12:08:52.639Z",
+  "source_title": "Sunrise Dome Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "38885642531b135e4b81dbdc718adb4b7af4ae31",
+  "description": "A warm, lived-in sitting room corner bathed in soft natural light. The walls are painted in a soft warm white, with a framed botanical print in a thin dark wood frame hung at mid-height. A low walnut media console or side cabinet with a sliding panel door sits center-frame, its top surface holding a stack of three vintage hardcover books, a small stoneware mug in warm oatmeal, and a small potted green trailing plant. Behind the console, a large multi-pane window lets in diffuse natural light from outside. In the right portion of the frame, a generously proportioned armchair upholstered in warm cream or natural linen with a loose slipcover is partially visible, draped with a casual off-white throw blanket. The floor is medium walnut hardwood. The color palette is warm neutral with saturated amber-orange accents, evoking an autumn warmth. The mood is casual and lived-in, quiet and comfortable. Camera is at seated eye level, framing a tight vignette of the side table surface and the immediate armchair in an off-center composition using a normal lens. The console occupies the center-left, with the chair cropped at right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.073Z"
+}

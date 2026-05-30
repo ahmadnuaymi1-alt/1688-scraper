@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-e349c33b8f45ec44",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e349c33b8f45ec44.jpg",
+  "source_url": "https://dazuma.us/products/nordic-white-marble-tapered-table-lamp",
+  "description": "A sitting room vignette photographed at standing eye-level with a normal lens, framing a corner where floor-length blush-pink velvet drapery meets a smooth pale dusty-rose plaster wall. The composition is off-center, placing the surface on the left third and a partial glimpse of deep navy blue tufted velvet upholstery on the right edge. A small round side table with a white Italian Carrara marble top and matte black steel hairpin-style legs holds a single decorative surface object. The table surface shows the warm halo effect of illumination at table height, with a soft amber glow emanating from the mid-section and warming the blush wall behind in a gentle upward fan of light. To the upper right, a framed artwork in a gold leaf frame is partially visible at the frame's edge, its pale champagne mat and neutral tones harmonizing with the wall. The palette reads entirely in blush, champagne, ivory, and navy — romantic and French-inflected. A small gold decorative finial detail is visible at the top of the surface object. The mood is polished, intimate, and quietly glamorous. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

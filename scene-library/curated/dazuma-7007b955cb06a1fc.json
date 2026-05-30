@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-7007b955cb06a1fc",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7007b955cb06a1fc.jpg",
+  "source_url": "https://dazuma.us/products/creative-design-vase-table-lamp-with-mosquito-repellent-function-artistic-light",
+  "description": "A bedroom nightstand vignette photographed at standing eye-level with a normal lens, showing a three-quarter view of the bedside corner. The nightstand is solid walnut with a warm red-brown grain, featuring two drawer fronts visible on the face. On the nightstand surface rests a small stack of three books — the top one a dark hardcover, the others lighter-toned paperbacks. Rising from the table surface, a delicate branching arrangement of bare dark woody stems with small clusters of yellow blossoms fans dramatically upward to nearly the top of the frame — the yellow flowers standing out warmly against the peachy-beige wall. A soft warm glow at table level illuminates the nightstand surface and the lower stems of the arrangement. To the right, the corner of a walnut bed frame and an ivory linen pillow edge the composition. The background wall is flat smooth plaster in a warm peach-cream tone. The palette is warm walnut brown, ivory, and mustard yellow against peach — an understated warmth. No overhead light is visible. The mood is serene and naturally elegant, with Japanese-influenced flower arranging sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

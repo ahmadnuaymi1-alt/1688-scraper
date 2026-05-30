@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-eef83a9820a753e9",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-eef83a9820a753e9.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-recessed-ceiling-spotlights-modern-waterproof-light",
+  "description": "A compact modern bathroom photographed at standing eye-level in a centered composition showing the back wall and partial side walls. The walls and partial ceiling are clad in large-format dark grey veined stone-effect porcelain tile with subtle grey-on-grey marbling, giving the space a cool, monolithic character. The ceiling is flat medium grey, matching the tile in tone. A wall-hung white ceramic toilet sits flush to the floor on the lower left. Above it, a white ladder-style heated towel rail is mounted to the wall. A small square smart thermostat panel is mounted on the wall to the right of the towel rail. A wall-mounted white enclosed tissue or dispenser box is to the right of that. On the far right, a white countertop slab vanity edge is partially visible, with a small glass vase holding dried or dark botanical stems and a small gold or brass decorative object. A large mirror reflects the left shower enclosure with a frameless glass partition. The shower area is partially visible at the far left edge. The floor tile echoes the wall tile in the same dark grey stone-effect. The space is cool and monochromatic — deep grey, white fixtures, and chrome accents. A pool of cool neutral light comes from directly overhead. Camera is standing height, centered symmetrical view of the back wall, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

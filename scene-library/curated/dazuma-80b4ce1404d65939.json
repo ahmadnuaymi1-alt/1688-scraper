@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-80b4ce1404d65939",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-80b4ce1404d65939.jpg",
+  "source_url": "https://dazuma.us/products/long-linear-wall-sconce-modern-accent-led-wall-light",
+  "description": "A contemporary luxury bedroom photographed at standing eye-level, approximately five feet off the floor, using a normal lens and an off-center thirds composition that centers the bed and headboard wall with the right nightstand zone included in the frame. The headboard accent wall is clad in full-height wide panels of dark walnut veneer in a rich espresso-brown tone with a fine straight grain, their vertical seams creating quiet rhythm. The headboard itself is upholstered in a smooth greige leather or fabric with low horizontal quilted stitching in wide channel tucks. Bedding is dressed in bright white: crisp duvet, stacked king pillows in white with European shams in soft greige, and two smaller accent pillows — one in a mid-grey tone and one charcoal velvet. A chunky knit throw in medium grey is draped across the foot of the bed, with an open magazine lying casually on top. To the right of the bed, heavy floor-length drapery panels in medium charcoal grey velvet or wool hang at the window, their deep folds casting dark vertical shadows. Beside the drapes, a low-profile dark grey matte nightstand cabinet holds a small gold-frame photograph and a small brass-toned decorative vase. A narrow vertical amber glow runs floor-to-ceiling on the walnut panel between the bed and the window zone, like a thin line of warm light inset into the paneling, radiating warm gold onto the surrounding dark walnut and the nearby drape fabric. The palette is deep walnut brown, charcoal grey, crisp white bedding, and warm brass accents in a moody intimate atmosphere. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

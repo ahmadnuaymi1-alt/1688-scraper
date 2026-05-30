@@ -1,0 +1,100 @@
+{
+  "productId": "cmpr75j2m0085w2wo50ou3h12",
+  "productTitle": "Step-light editorial scenes (outdoor)",
+  "authoredBy": "step-light-parallel-rebuild script — generic-product editorial framing per user instruction",
+  "authoredAt": "2026-05-29T19:52:54.273Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "dwell-deck-stair-edge",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Dwell magazine, modern-architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, 45mm f/2.8 lens, aperture f/4.0. Exterior hardwood deck staircase descending to a concrete patio at dusk, Pacific Northwest residential home. The small rectangular aluminum step light is surface-mounted flush into the riser face of the second step, at ankle level, one of three identical units spaced evenly down the stair run — a minor integrated safety detail, not the visual subject. The deck boards show genuine weathered grain, silver-gray from UV exposure, with a hairline split along one plank edge. Concrete patio below carries faint efflorescence streaking and a dried leaf pressed flat by rain. Exposure committed: the fixture's frosted glass panel clips to near-white at its center, surrounding tread surfaces stay in deep shadow with no fill. Warm 3000K glow stays strictly local — a soft pool on the riser face only; the cedar boards above read their true silver-gray, the concrete reads cool stone. Kodak Portra 400 grain throughout, 2% corner vignette, 1px chromatic aberration at the clipped fixture face. Palette: weathered silver-gray cedar, charcoal concrete, deep forest shadow, warm amber fixture glow, muted sage from distant plantings. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 1,
+      "room": "exterior hardwood deck staircase",
+      "designStyle": "Dwell — West Coast modernist residential",
+      "cameraAngle": "low three-quarter, shooting up the stair run",
+      "timeOfDay": "dusk, ambient near-dark",
+      "accents": [
+        "hairline plank split in weathered cedar",
+        "efflorescence streaks on concrete patio",
+        "dried leaf pressed flat against lower tread"
+      ]
+    },
+    {
+      "slug": "architectural-digest-hotel-corridor",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Architectural Digest, luxury-hospitality interiors spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-50c, 80mm f/2.8 lens, aperture f/3.5. Long hotel corridor, late night, boutique property with polished dark-marble floors and plaster walls painted a deep warm greige. The small aluminum step light is recessed into the baseboard at floor level on the left wall, one of a repeating series disappearing into perspective — a background safety element, not the subject. Scuff marks at baseboard height from luggage wheels, a faint dust film on the upper wall surface above the dado rail, and one hairline crack running diagonally through the plaster near the skirting. Exposure committed: the frosted glass face of the nearest fixture clips bright, the far end of the corridor falls into near-black with no recovery. Warm 3000K glow stays local to the immediate floor plane; the marble reads its true cool charcoal, the plaster reads greige without color contamination. Kodak Portra 400 grain, 1.5% corner vignette, 1px chromatic aberration at the clipped fixture face. Palette: deep charcoal marble, warm greige plaster, near-black corridor shadow, clipped warm white fixture, brushed brass door hardware. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 2,
+      "room": "boutique hotel corridor baseboard",
+      "designStyle": "Architectural Digest — luxury hospitality minimalism",
+      "cameraAngle": "low eye-level, corridor perspective receding",
+      "timeOfDay": "late night, interior only",
+      "accents": [
+        "luggage-wheel scuff marks on baseboard",
+        "dust film on upper plaster above dado rail",
+        "hairline diagonal crack in plaster near skirting"
+      ]
+    },
+    {
+      "slug": "kinfolk-garden-path-stones",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Kinfolk magazine, slow-living outdoor spaces feature; NOT a product render, NOT advertising, NOT stock. Hasselblad X1D II 50C, 65mm f/2.8 lens, aperture f/3.2. Japanese-influenced residential garden at blue hour, a stepping-stone path flanked by moss and low ornamental grasses leading to a timber gate. The small rectangular step light is surface-mounted into the stone riser of a single raised garden step at the path's midpoint, sitting at ground level — a quiet functional note, not the visual anchor. The stepping stones carry genuine lichen patches, a thin algae film on their shaded edges, and one stone has a chip on its near corner. Timber gate boards show peeling paint at the bottom rail and a rust bleed from an iron hinge. Exposure committed: the frosted glass face clips to white, the mossy ground plane on either side stays in cool blue-hour shadow with no artificial lift. Warm 3000K pool stays local to the riser face; moss reads true muted green, stone reads cool gray. Kodak Portra 400 grain, 2% corner vignette, 1.5px chromatic aberration at the clipped fixture. Palette: cool blue-hour sky, lichen-gray stone, muted moss green, warm amber fixture glow, weathered timber brown. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 3,
+      "room": "Japanese-influenced garden stepping-stone path",
+      "designStyle": "Kinfolk — slow-living outdoor quietude",
+      "cameraAngle": "low ground-level, along the path axis",
+      "timeOfDay": "blue hour, ambient cool",
+      "accents": [
+        "lichen patches and algae film on stepping stones",
+        "chipped corner on foreground stone",
+        "peeling paint and rust bleed on timber gate"
+      ]
+    },
+    {
+      "slug": "wallpaper-patio-concrete-stair",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Wallpaper* magazine, contemporary residential architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-100c, 35mm f/3.5 lens, aperture f/4.5. Poured-in-place concrete staircase rising from a lower patio to a cantilevered terrace, brutalist residential property, evening. The small aluminum step light is mounted into the vertical face of the third riser, one of four identical units — a minor code-compliance detail integrated into the raw concrete. The riser face shows formwork tie-hole patches, a water stain running vertically from a construction joint, and a thin hairline crack branching from the lower left corner of the fixture cutout. The terrace soffit above is unpainted board-formed concrete with residual release-agent discoloration. Exposure committed: the fixture's frosted face clips hard, the surrounding concrete stays in deep cool shadow with no fill bounce. Warm 3000K glow falls only on the immediate tread nose; the concrete reads its true cool medium gray throughout. Kodak Portra 400 grain, 1% corner vignette, 2px chromatic aberration at the clipped fixture edge. Palette: raw medium-gray concrete, deep cool shadow, clipped warm white fixture, rust-brown water stain, charcoal board-form soffit. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 4,
+      "room": "brutalist poured-concrete exterior staircase",
+      "designStyle": "Wallpaper* — contemporary brutalist residential",
+      "cameraAngle": "straight-on low angle, stair face filling frame",
+      "timeOfDay": "evening, ambient near-dark",
+      "accents": [
+        "formwork tie-hole patches on riser face",
+        "vertical water stain from construction joint",
+        "hairline crack branching from fixture cutout corner"
+      ]
+    },
+    {
+      "slug": "garden-gun-farmhouse-porch-steps",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Garden & Gun magazine, Southern vernacular architecture feature; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, 55mm f/2.8 lens, aperture f/3.5. Painted-wood farmhouse porch steps, rural Georgia property, early evening. Three wide timber treads descend from a wraparound porch to a gravel path. The small aluminum step light is mounted into the riser of the middle step at ankle height — a practical addition to an old structure, sitting quietly against the painted wood. The riser paint is chalking and chipped at the lower edge, showing bare wood beneath; the tread surface has worn through the paint entirely at the center from foot traffic, and a rust bleed runs from an old nail head near the step light. Porch boards above show cupped edges and a gap where one board has shrunk. Exposure committed: the frosted glass clips to near-white, the gravel path below sits in unlit cool shadow. Warm 3000K glow stays local to the riser face; the painted wood reads its true faded white, the gravel reads cool gray. Kodak Portra 400 grain, 2% corner vignette, 1px chromatic aberration at the clipped fixture face. Palette: chalking faded white paint, bare worn timber, cool gray gravel, warm amber fixture glow, deep porch shadow. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 5,
+      "room": "painted-wood farmhouse porch steps",
+      "designStyle": "Garden & Gun — Southern vernacular residential",
+      "cameraAngle": "low side angle, riser face in focus",
+      "timeOfDay": "early evening, ambient fading",
+      "accents": [
+        "chalking chipped paint on riser revealing bare wood",
+        "worn-through paint on tread center from foot traffic",
+        "rust bleed from old nail head near fixture"
+      ]
+    },
+    {
+      "slug": "world-of-interiors-stone-stair-cellar",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for World of Interiors magazine, historic European residential feature; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-50c, 100mm f/2.8 lens, aperture f/3.5. Narrow stone staircase descending to a cellar or lower-ground passage in a centuries-old English country house, night. The small aluminum step light is surface-mounted into the mortar joint between two limestone risers at mid-flight — a modern safety retrofit sitting against ancient material. The limestone treads are worn concave at their centers from generations of use, with iron-oxide staining along the mortar joints and a patch of white efflorescence blooming from a damp seam in the left wall. The stone wall carries a smear of limewash that has partially flaked, revealing the raw stone beneath. Exposure committed: the frosted glass face clips fully white, the stair above and below falls into near-black with no shadow recovery. Warm 3000K glow stays local to the immediate riser and tread nose; the limestone reads its true cool buff, the mortar reads pale gray. Kodak Portra 400 grain, 3% corner vignette, 1.5px chromatic aberration at the clipped fixture. Palette: cool buff limestone, pale gray mortar, iron-oxide rust staining, near-black stair shadow, clipped warm white fixture. No people, no alcohol. The fixture matches the variant reference image exactly — finish and form as shown.",
+      "variantSlot": 6,
+      "room": "historic limestone cellar staircase",
+      "designStyle": "World of Interiors — historic English country house",
+      "cameraAngle": "low three-quarter looking down the stair descent",
+      "timeOfDay": "night, no ambient light",
+      "accents": [
+        "concave-worn limestone treads from centuries of use",
+        "efflorescence bloom from damp seam in left wall",
+        "flaking limewash patch revealing raw stone beneath"
+      ]
+    }
+  ]
+}

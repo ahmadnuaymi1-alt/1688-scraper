@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-b1c8ba014c22f944",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-outdoor-wall-mounted-lights-modern-infrared-sensor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-outdoor-wall-mounted-lights-contemporary-warm-illumination-front-door.jpg?v=1774836389",
+  "scraped_date": "2026-05-21T12:04:06.819Z",
+  "source_title": "Solar Outdoor Wall Mounted Lights Modern Infrared Sensor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b1c8ba014c22f944e445c6019dcaf73de3115ae7",
+  "description": "An elegant residential exterior photographed at dusk, showing the front facade of a two-story home with a standing-seam dark charcoal metal roof. The exterior cladding is cut limestone or cream-colored stone with a lightly textured coursed pattern, punctuated by thick white stone pilasters framing the entry portico. The double front door is painted a deep charcoal or near-black with simple inset panels and a long vertical bar handle set. A Juliet balcony with ornate matte black iron railings adorns the second-floor window directly above the entry. Black-framed casement windows flank the entry on the right side. A stone-paved walkway leads up to the entry steps. On both sides of the door, raised planter beds hold neatly clipped conical boxwood topiaries and low ornamental shrubs. A wide mixed perennial garden borders the pathway with hostas, ornamental grasses, and low flowering plants. Surrounding the home, deciduous trees display vivid autumn foliage in orange, red, and golden tones against a deep blue twilight sky. Warm amber light washes down both sides of the entry door from wall-mounted sources flanking the portal, pooling onto the stone steps and making the entry glow invitingly at dusk. Camera is at standing eye-level, shooting with a normal to slightly wide lens from across the front yard in a three-quarter angle view that shows the entry facade, partial right side of the house, and flanking landscape. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.701Z"
+}

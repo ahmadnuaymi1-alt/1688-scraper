@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-130abe4952f30f5e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-led-step-lighting-honeycomb-anti-glare-recessed-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/well-lights-in-concrete-sleek-garden-pathway-night.jpg?v=1774595236",
+  "scraped_date": "2026-05-21T12:04:30.045Z",
+  "source_title": "4 PCS LED Step Lighting Honeycomb Anti-Glare Recessed Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Step & Deck Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "130abe4952f30f5ea0560a09ba7a25feeadb9682",
+  "description": "An exterior garden pathway photographed at night from a ground-level, low angle — virtually at surface height — looking along the edge of a large flat stone stepping paver. The stone is a warm buff sandstone or bluestone, set within a sea of rounded river-stone pea gravel in warm tan and gray tones. An in-ground fixture is flush-set into the stepping stone's surface, its warm amber-orange glow illuminating the pea gravel around it and the underside of ornamental grasses nearby. The light casts a soft warm puddle that fades into the gravel and darkens into shadow at the frame edges. In the background, softly out of focus, is a planted border with clumping ornamental grasses with warm amber-tinged blades on the left, and a mass of soft purple or pink flowering shrubs on the right. The overall palette is earth tones — warm buff stone, tan pea gravel, golden grass — with a vivid warm amber glow from the in-ground element as the visual focal point. The mood is intimate, nocturnal, and carefully curated — the scene of a landscape designer's carefully lit garden path. Camera is at extreme low angle, nearly ground level, with a normal-to-wide lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.017Z"
+}

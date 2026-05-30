@@ -1,0 +1,82 @@
+{
+  "productId": "cmpijmt8z018nw2f0g2fxwvty",
+  "productTitle": "Mini USB-Rechargeable LED Touch-Dim Tri-Color Bedside Desk Lamp",
+  "authoredBy": "in-chat — small portable USB-rechargeable LED lamp, gooseneck + conical shade on round disc base, 3 colourways (white / pink / green) cycled 1,2,3,1,2,3; warm white 2700-3000K per the warm amber glow in all 3 lit variant refs",
+  "authoredAt": "2026-05-23T16:20:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "kids-homework-desk-white",
+      "mode": "homey",
+      "prompt": "A tween's bedroom homework desk corner, shot on a 35mm lens at seated-child eye-level slight three-quarter so the mini gooseneck desk lamp on its round disc base anchors the back-left of a 1:1 frame on a small white-painted writing desk. Late afternoon: warm window light rakes from a sash window at frame-right. Style with a tilted open spiral notebook with a ticonderoga pencil resting in the spine, a stack of three hardback storybooks topped with a small carved wooden bird figurine, a striped enamel mug of milk on a folded gingham coaster, and a small terracotta pot of trailing pothos. Walls are soft butter-yellow paint. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of butter yellow, body-colour accent, cream, pale oak. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "tween homework desk",
+      "designStyle": "cheerful child's room",
+      "wallColour": "butter-yellow paint",
+      "cameraAngle": "35mm seated child eye-level three-quarter",
+      "timeOfDay": "late afternoon",
+      "accents": ["white writing desk", "spiral notebook with pencil", "storybooks with wooden bird", "enamel milk mug", "pothos pot"]
+    },
+    {
+      "slug": "vanity-makeup-corner-pink",
+      "mode": "homey",
+      "prompt": "A small makeup vanity corner of a guest bedroom, shot on a 50mm lens at seated vanity-stool eye-level so the mini gooseneck desk lamp on its round disc base anchors the back-left of a 1:1 frame on a slim white-painted dressing table. Mid-morning: cool soft window light through sheer white linen curtains at frame-right. Style with a mirrored tray holding a hand-blown perfume bottle and a brass-handled hairbrush, a porcelain dish with a small bar of milled soap and pearl earrings, a folded ivory cotton washcloth, and a single fresh garden rose in a clear bud vase. Walls are a soft blush-rose limewash with a leaning small oval gilt mirror. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of blush rose, body-colour accent, ivory, soft gold, garden rose pink. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "vanity makeup corner",
+      "designStyle": "soft romantic vanity",
+      "wallColour": "blush-rose limewash",
+      "cameraAngle": "50mm seated vanity-stool",
+      "timeOfDay": "mid-morning",
+      "accents": ["white dressing table", "mirrored tray with perfume and hairbrush", "porcelain dish with soap and pearl earrings", "ivory washcloth", "garden rose"]
+    },
+    {
+      "slug": "home-office-plant-corner-green",
+      "mode": "minimalist",
+      "prompt": "A pared-back home office desk in a plant-filled corner, shot on a 35mm lens at seated desk-height slight three-quarter so the mini gooseneck desk lamp on its round disc base anchors the back-right of a 1:1 frame on a slim ash-veneer floating desk. Mid-morning: cool diffuse light through a tall steel-framed casement window at frame-left. Tight styling — a leather-bound writing journal open with a tortoiseshell fountain pen across it, a stoneware mug of black tea, a small ceramic dish holding two brass paperclips, and a slim raku bud vase with a single dried wheat stem. A small potted fiddle-leaf fig stands at the floor edge at frame-right. Walls are soft eucalyptus-sage limewash. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of eucalyptus sage, body-colour accent, ash, walnut, brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "home office plant corner",
+      "designStyle": "serene Japandi office",
+      "wallColour": "eucalyptus-sage limewash",
+      "cameraAngle": "35mm seated desk-height three-quarter",
+      "timeOfDay": "mid-morning",
+      "accents": ["ash-veneer floating desk", "leather journal with fountain pen", "stoneware mug of black tea", "raku bud vase with dried wheat", "potted fiddle-leaf fig"]
+    },
+    {
+      "slug": "bedside-nightstand-cottage",
+      "mode": "homey",
+      "prompt": "A warm cottage bedroom bedside nightstand, shot on a 35mm lens at seated bedside eye-level slight three-quarter so the mini gooseneck desk lamp on its round disc base sits in the back-right of a 1:1 frame on a painted-pale-blue nightstand. Late evening: the only second light source is the moon through a sash window with sheer cream linen curtains at frame-left. Style with a linen-bound novel face-down with a leather bookmark, a small ceramic mug of chamomile tea on a folded gingham coaster, a stoneware dish holding a half-burned beeswax candle, and a small willow basket with a folded antique quilt corner. Walls are faded ditsy-floral wallpaper above pale-blue wainscoting. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of ditsy floral, pale blue, faded cream, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "cottage bedside nightstand",
+      "designStyle": "warm English cottage",
+      "wallColour": "ditsy-floral above pale-blue wainscoting",
+      "cameraAngle": "35mm seated bedside three-quarter",
+      "timeOfDay": "late evening",
+      "accents": ["painted-pale-blue nightstand", "linen novel with bookmark", "chamomile tea mug on gingham", "beeswax candle in stoneware", "willow basket with quilt"]
+    },
+    {
+      "slug": "craft-room-corner-cottagecore",
+      "mode": "homey",
+      "prompt": "A small craft-table corner of a cottagecore hobby room, shot on a 35mm lens slightly elevated three-quarter so the mini gooseneck desk lamp on its round disc base anchors the back-left of a 1:1 frame on a vintage scrubbed-pine craft table. Golden hour: warm raking light through a low sash window at frame-right. Style with a small ceramic mason jar densely packed with worn coloured pencils handles-up, a folded cotton patchwork remnant, a stack of three cloth-bound sketchbooks, a small enamel mug of tea, and a wooden spool of cream cotton thread standing on end. Walls are a soft blush-clay limewash with a leaning small embroidery hoop sampler. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of blush clay, body-colour accent, cream, pale pine, soft thread cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "cottagecore craft room",
+      "designStyle": "warm cottagecore craft corner",
+      "wallColour": "blush-clay limewash",
+      "cameraAngle": "35mm slightly elevated three-quarter",
+      "timeOfDay": "golden hour",
+      "accents": ["scrubbed-pine craft table", "mason jar of coloured pencils", "patchwork cotton remnant", "cloth-bound sketchbooks", "wooden spool of cream thread"]
+    },
+    {
+      "slug": "dorm-study-nook-minimalist",
+      "mode": "minimalist",
+      "prompt": "A pared-back college-student study nook in a small dorm corner, shot on a 50mm lens at seated desk-height so the mini gooseneck desk lamp on its round disc base sits centred in the upper-right of a 1:1 frame on a slim ash-veneer floating desk. Late evening: walls dark beyond the desk; the only second light source is a small string of fairy lights draped along the back shelf in the deep blurred background. Tight styling — a stack of three hardback textbooks with library plastic covers, a folded grid-paper notebook with a green silk bookmark and a sharpened wooden pencil resting across it, a slim stoneware mug of steaming green tea on a cork coaster, and a single dried wheat stem in a slim clear bud vase. Walls are warm off-white. The lamp matches the reference image exactly — slim conical bell shade on a flexible matte gooseneck arm with a round disc base, in the body colour shown in the variant reference — switched ON, warm white 2700-3000K (matches the warm amber glow visible inside the shade in the variant reference). Palette of warm off-white, body-colour accent, ash, oat linen, green tea. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "dorm study nook",
+      "designStyle": "pared-back student study",
+      "wallColour": "warm off-white",
+      "cameraAngle": "50mm seated desk-height",
+      "timeOfDay": "late evening",
+      "accents": ["ash-veneer floating desk", "stack of library textbooks", "grid-paper notebook with silk bookmark", "stoneware mug of green tea", "dried wheat in bud vase", "fairy lights"]
+    }
+  ]
+}

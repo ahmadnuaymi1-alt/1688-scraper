@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-9650f61dd33737f4",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-9650f61dd33737f4.jpg",
+  "source_url": "https://vakkerlight.com/products/petra-marble-table-lamp",
+  "description": "A warm, intimate bedroom dresser vignette photographed at standing-to-elevated eye-level with a telephoto lens, capturing a tight off-center composition of a floating wall-mounted nightstand or low dresser surface. The wall behind is a smooth warm greige plaster in a mid-toned taupe. A wall-mounted or floating dresser in rich dark walnut with deeply grained panel drawer fronts occupies the majority of the frame, its broad flat top surface showing the beauty of the warm wood grain. The dresser surface is styled minimally — a single book with a graphic black-and-white cover placed at the right edge. At the bottom left of the frame, the corner of a velvet bed cushion in deep sage-olive green and a portion of a chunky-knit cream-white throw are partially visible, suggesting the bed below. Dappled natural light enters from an unseen source to the left, casting gentle leaf-shadow patterns across the plaster wall and the white shade at the surface. The palette is warm and earthy — dark walnut, warm greige plaster, cream, and sage green accent from the bedding. Warm soft light radiates from the tabletop level of the dresser surface, illuminating the walnut grain and casting soft dappled patterns on the wall behind. Styling density on the surface is very low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-9b256774c19bfa3a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-recessed-ceiling-spotlight-frameless-silver-glare-free-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-kitchen-recessed-ceiling-spotlight.jpg?v=1775905060",
+  "scraped_date": "2026-05-21T12:03:34.984Z",
+  "source_title": "2 PCS Recessed Ceiling Spotlight Frameless Silver Glare-Free Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9b256774c19bfa3a0701658c1358ac4f6a68d2d3",
+  "description": "A serene, minimalist contemporary kitchen photographed at standing eye-level with a three-quarter view facing the island and perimeter wall. The kitchen is flooded with soft diffused daylight from a large window on the left wall dressed with white horizontal Venetian blinds in a warm honey-toned wood frame. The ceiling is smooth bright white, lit from above by a pair of recessed downlights that cast clean bright pools of light across the white upper cabinets and ceiling plane. The perimeter wall cabinets are flat-panel in a pure matte white, floor to ceiling, with push-to-open hardware-free doors. A recessed open shelving niche at mid-height is lined with brushed stainless steel, housing a professional espresso machine, a toaster, and a small wooden utensil cup with various kitchen tools. A white ceramic mug, glass canisters, and small kitchen items are arranged on the shelving. The island has a soft greige flat-panel base and a thick white marble-look quartz countertop with subtle grey veining. An undermount stainless steel sink with a brushed nickel arc-neck faucet is set into the island top. Two backless wooden counter stools in warm honey-toned solid oak flank the near side of the island. The floor is large-format cream limestone or porcelain tile in a warm ivory tone. The overall palette is brilliant white, warm beige, honey oak, and brushed steel. The mood is calm, precise, and quietly luxurious in its restraint. Camera is at standing height, using a normal lens, looking across the kitchen in a three-quarter composition that shows the island, the two stools, and the full perimeter wall with shelving behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.543Z"
+}

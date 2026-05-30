@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-b638d8813413259c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b638d8813413259c.jpg",
+  "source_url": "https://dazuma.us/products/colored-glass-table-lamp-french-style-multi-light-lamp",
+  "description": "A minimal, architecturally interesting interior featuring a sweeping series of wide low platform steps or low-profile bleacher-style seating in pale natural white oak, with clean mitered corners and a perfectly consistent grain running horizontally across each tread. The steps cascade from the lower right foreground up toward the left background where they open onto an elevated room. In the background at the top of the steps, a softly lit space is visible with a light-oak framed lounge chair in pale linen fabric, sheer ivory curtain panels billowing gently, and bright diffuse daylight. The right wall adjacent to the steps is smooth warm white plaster with a large stretched canvas leaning or hung on it — the canvas is a pale cream monochromatic abstract with light texture. The floor at the base of the steps is polished grey concrete. Two stacked art or design magazines rest on the lower step surface to the right. Bright neutral daylight fills the scene from the upper background, the atmosphere spare, clean, and gallery-like. Camera is at seated or low standing eye-level, shooting with a normal lens at an off-center composition that emphasizes the horizontal step structure leading the eye diagonally toward the upper background room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "plum"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

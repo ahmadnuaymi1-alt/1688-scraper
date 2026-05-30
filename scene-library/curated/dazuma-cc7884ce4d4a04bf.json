@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-cc7884ce4d4a04bf",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-cc7884ce4d4a04bf.jpg",
+  "source_url": "https://dazuma.us/products/pillar-lamp-light-modern-outdoor-landscape-lighting",
+  "description": "A residential exterior photographed at dusk, showing a symmetrical gate entrance to a well-landscaped property. The house facade in the background is faced with a warm cream-ivory brick, featuring arched multi-pane windows with dark bronze frames and a formal paneled front door flanked by sidelights. A brick and iron gate flanks the central entry, with two square brick gate pillars capped in tan limestone or cast stone, each holding a cap-mount fixture that emits a warm amber glow fanning down around the pillar tops. The iron gate itself is an ornate scrollwork design in matte black, with matching black vertical fence panels extending to either side. The path through the gate is laid in a herringbone brick paver pattern bordered by lawn edging. The landscaping is manicured, with low boxwood hedges along the foundation, trimmed shrubs flanking the walkway, and a carefully pruned ornamental tree visible at the far right. The interior windows of the house glow with warm amber-orange interior light, reinforcing the dusk atmosphere. The sky is a deep blue twilight tone. Camera is at standing eye-level with a normal lens, centered symmetrically on the gate, level pitch, capturing a wide establishing shot of the full entry scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-d75caee1caf739bf",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d75caee1caf739bf.jpg",
+  "source_url": "https://dazuma.us/products/led-linear-suspension-lighting-modern-minimalist-ceiling-light",
+  "description": "A refined corporate conference room finished entirely in light oak wood paneling — full-height wall panels, built-in shelving alcoves, and matching conference table all share the same pale blonde grain, creating a seamless, monochromatic warmth. The large rectangular conference table seats twelve in cream-upholstered task chairs with brushed nickel sled bases. The table surface is light and near-white, with a desk phone and a single notepad visible. The accent wall behind features a white glass marker board mounted flush to the paneling, flanked symmetrically by open shelf niches holding ceramic vases, stacked books, and a small potted green plant. A larger potted green plant sits on the table surface near the far end, adding a living element. To the right, full-height windows are dressed with sheer white layered curtains, flooding the space with cool diffused daylight from outside. A grey-toned commercial carpet tiles the floor. A horizontal bar of warm directional light runs the length of the table from above — a clean, even wash of illumination that makes the pale wood surfaces glow. Camera at standing eye-level, one-point perspective looking straight down the length of the table, normal-to-wide lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

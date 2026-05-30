@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-50038b138efa256b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-spotlight-light-fixture-silver-full-spectrum-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/living-room-spotlight-light-fixture_332daf32-faf4-40d2-b7c9-0a3f6fefac75.jpg?v=1775904893",
+  "scraped_date": "2026-05-21T12:03:40.751Z",
+  "source_title": "2 PCS Spotlight Light Fixture Silver Full-Spectrum LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "50038b138efa256b2ffcf68e823fd7a2a8ebe002",
+  "description": "A large open-plan living and kitchen space photographed at standing eye-level with a wide lens in a wide establishing composition. The ceiling is a warm off-white with a wide stepped soffit detail framing the kitchen zone and a cove recess at the perimeter, from which a soft warm glow washes across the ceiling edge. Three focused warm spotlights beam downward from the ceiling track, creating three overlapping pools of amber light on the kitchen island and dining area beyond. The kitchen is fitted with floor-to-ceiling flat-front cabinetry in warm greige and matte white, with a dramatic marble island in book-matched white and grey Calacatta stone. Open shelving with matte black frames displays ceramic and glass objects. Black appliances including a double oven are recessed into the cabinetry on the left. The dining zone has four cream upholstered chairs around a white marble table. The living area foreground features a large modular low-profile sofa in cream bouclé arranged in an L-shape, dressed with cylindrical cushions. The coffee table is an organic sculptural raw stone or travertine slab — irregular, geological, and striking. A large dark charcoal woven area rug grounds the seating group. The floor throughout is wide-plank chevron parquet in warm light oak. The palette is entirely warm monochromatic neutrals: cream, warm white, greige, warm stone, charcoal. The mood is serene, minimal, and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.264Z"
+}

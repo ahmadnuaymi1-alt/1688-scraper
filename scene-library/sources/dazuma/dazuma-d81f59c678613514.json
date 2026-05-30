@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-d81f59c678613514",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-wall-light-sconces-waterproof-outdoor-courtyard-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/1_ca579151-3fb1-4adf-b75d-d2bbcf7d7a28.jpg?v=1773886682",
+  "scraped_date": "2026-05-21T12:04:58.757Z",
+  "source_title": "Vintage Wall Light Sconces Waterproof Outdoor Courtyard Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d81f59c678613514a3d6ac4483dcdc800ef6e7a9",
+  "description": "A charming cottage or farmhouse exterior side-entry vignette photographed at dusk in a three-quarter composition. The exterior wall is white-painted or lime-washed brick in a traditional bond pattern, giving a clean, aged, cottage texture. The entry door is a tall white vertical board-and-batten garage or outbuilding door with a dark hardware pull, occupying the right edge of the frame. To the left of the door, a wooden lattice gate in weathered gray-silver timber sits in a low brick wall, offering access to a rear garden. On the brick wall surface, centered between the gate and door, a warm amber glow emanates from a mounted fixture, casting rich amber-orange illumination downward onto the brick surface and upward in a small halo. Below the fixture, a large stone urn planter overflows with white roses, purple and yellow pansies, and trailing foliage in full bloom, its carved classical form a soft cream against the white brick. The sky above is a muted dusk blue-gray. A neighboring house's roofline and gray shingles are visible in the upper-left background. The palette is warm neutral — white brick, cream urn — with the warm amber glow and purple flower accents. Camera is at standing eye-level in a three-quarter angle showing the wall, gate, and door together, looking level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.875Z"
+}

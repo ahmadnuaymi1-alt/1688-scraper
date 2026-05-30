@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-45c02a1327c8d86b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-light-outdoor-wall-mount-waterproof-wall-light-sensor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-light-outdoor-wall-mount-modern-wooden-door.jpg?v=1774836435",
+  "scraped_date": "2026-05-21T12:04:05.603Z",
+  "source_title": "Solar Light Outdoor Wall Mount Waterproof Wall Light Sensor Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "45c02a1327c8d86b529e2624bd97892064090b99",
+  "description": "A contemporary California-style exterior entry photographed at dusk. The house facade is clad in large-format light limestone or concrete panel cladding in a warm greige tone, giving the exterior a refined, monolithic quality. The entry is sheltered by a flat overhang with a natural wood tongue-and-groove ceiling in warm honey tones, edged with a flat black metal fascia that creates a clean shadow line. The front door is a solid pivot-style door clad in warm rift-cut white oak with a tall narrow vertical sidelight window and a matte-black lever handle. Broad concrete steps lead up to the entry landing, flanked by two black textured ceramic round planters holding low mediterranean-style shrubs. A mature olive tree with a gnarled trunk and grey-green foliage occupies the right foreground, its canopy framing the upper right quadrant of the image. Wide-format stone pavers form the front pathway and continue as groundcover between plantings. A narrow garden bed with low-growing rosemary or similar Mediterranean planting runs along the right side. The sky is a soft gradient of dusk pinks, peaches, and muted blues. Two horizontal bands of warm white light glow symmetrically on either side of the entry door on the limestone walls, casting a soft horizontal wash across the stone cladding surface. Camera is at standing eye-level, slightly off-center to favor the left approach, with a normal-to-wide lens showing a three-quarter view of the entry facade. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.223Z"
+}

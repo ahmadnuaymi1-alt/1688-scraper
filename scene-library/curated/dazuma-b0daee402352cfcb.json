@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-b0daee402352cfcb",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b0daee402352cfcb.jpg",
+  "source_url": "https://dazuma.us/products/hanging-outdoor-light-waterproof-minimalist-garden-pendant-light",
+  "description": "A craftsman-style residential front entry porch shot from outside at street level. The home exterior features warm khaki-tan lap siding with crisp white trim boards and two square tapered white columns rising from brick-base pedestals. A gabled portico roof with vertical tongue-and-groove shiplap ceiling spans the entry in a peaked triangle. The front door is a rich dark mahogany stained wood with four raised panels and a transom of small divided lights above. Bluestone or concrete step treads with brick risers lead up to the porch landing. A black and white narrow striped doormat lays flat at the threshold. On either side of the door, a round black planter holds a lush mixed arrangement of soft pink, purple, yellow, and white flowers. Flanking Japanese maple trees frame the composition on both sides with vivid crimson-red autumn foliage, their branches reaching into the upper frame. The sky is overcast, casting flat even autumn light across the facade. A warm amber glow emanates from beneath the portico ceiling above the door, creating a welcoming focal point. Camera is at standing eye-level, shooting with a normal lens from directly in front of the entry in a centered symmetrical composition. The full porch, door, and flanking trees are visible, giving a classic wide establishing view of the entry. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "terracotta"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

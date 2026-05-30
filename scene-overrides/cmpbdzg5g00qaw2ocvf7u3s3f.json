@@ -1,0 +1,82 @@
+{
+  "productId": "cmpbdzg5g00qaw2ocvf7u3s3f",
+  "productTitle": "Metal Arched Touch-Control Three-Color Dimmable Rechargeable Lantern",
+  "authoredBy": "in-chat scene design — modern portable lantern with smoked-glass dome and matte-metal arched handle; 3 colour variants cycled across 6 slots; warm amber 2400-2700K per the candle-like glow shown inside the smoked dome",
+  "authoredAt": "2026-05-23T13:30:00.000Z",
+  "classification": "both",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "covered-terrace-bistro-dusk",
+      "mode": "homey",
+      "prompt": "A covered Mediterranean terra-cotta-tile patio with a small round white-marble bistro table, shot on a 35mm lens standing slightly above the table looking gently down so the metal-arched lantern with smoked-glass dome anchors centre-frame in a 1:1 composition. Late golden-hour blue-hour: the only second light source is a warm woven-rattan lantern hanging from an exposed beam in the upper-left. Style with two glazed terracotta plates of sliced figs and a small heap of pistachios, a small clear-glass carafe of sparkling water with a wheel of lemon, a folded oat-linen napkin, and a woven palm placemat; potted olive tree at the far edge against weathered whitewashed stucco. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of terracotta tile, weathered stucco, smoked glass, olive green, pale lemon. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "covered Mediterranean patio bistro",
+      "designStyle": "weathered Mediterranean outdoor",
+      "wallColour": "weathered whitewashed stucco",
+      "cameraAngle": "35mm standing slightly above looking down",
+      "timeOfDay": "late golden hour to blue hour",
+      "accents": ["white marble bistro table", "terracotta plates with figs and pistachios", "carafe of sparkling water with lemon", "woven palm placemat", "potted olive tree"]
+    },
+    {
+      "slug": "bedside-nightstand-evening",
+      "mode": "homey",
+      "prompt": "A boutique hotel guest-room bedside nightstand, shot on a 50mm lens at seated bedside eye-level slight three-quarter so the metal-arched lantern with smoked-glass dome sits in the lower-left of a 1:1 frame on a slim walnut nightstand. Late evening: the only second light source is a small recessed reading sconce throwing a soft halo over the linen channel-tufted headboard. Style with a linen-bound novel face-down with a leather bookmark, a hammered brass tray holding folded reading glasses, a small ceramic carafe and tumbler of water, and a single dried eucalyptus stem in a stoneware bud vase. Walls are warm terracotta-clay limewash; layered oat-linen bedding visible at frame-right. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of terracotta clay, smoked glass, oat linen, walnut, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "hotel bedside nightstand",
+      "designStyle": "warm hospitality boutique",
+      "wallColour": "terracotta clay limewash",
+      "cameraAngle": "50mm seated bedside three-quarter",
+      "timeOfDay": "late evening",
+      "accents": ["walnut nightstand", "linen novel with bookmark", "hammered brass tray", "ceramic carafe and tumbler", "dried eucalyptus bud vase"]
+    },
+    {
+      "slug": "spa-bathroom-vanity-night",
+      "mode": "minimalist",
+      "prompt": "A small spa-style bathroom vanity corner beside a hand-thrown stoneware vessel sink, shot on a 50mm lens at head-height looking gently down so the metal-arched lantern with smoked-glass dome sits in the upper-right of a 1:1 frame on a honed marble counter. Night: the only second light source is a slim brushed-brass wall sconce on the far side of the mirror. Tight styling — a slim hand-thrown stoneware soap dispenser, a folded oat-cotton hand towel with whip-stitched edge, a small terracotta tray with two amber-glass apothecary bottles, and a single sprig of dried eucalyptus in a slim stem vase. Walls are warm putty-pink limewash; honed marble counter with brushed-brass faucet at frame-edge. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of putty pink, honed marble, smoked glass, eucalyptus green, brushed brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "spa bathroom vanity",
+      "designStyle": "soft luxe minimalist bathroom",
+      "wallColour": "warm putty-pink limewash",
+      "cameraAngle": "50mm head-level looking down",
+      "timeOfDay": "night",
+      "accents": ["honed marble counter", "stoneware soap dispenser", "oat-cotton hand towel", "terracotta tray with apothecary bottles", "dried eucalyptus stem vase"]
+    },
+    {
+      "slug": "garden-picnic-blanket",
+      "mode": "homey",
+      "prompt": "A late-afternoon garden picnic set on a wool blanket beneath an apple tree, shot on a 35mm lens from a low cross-legged seated angle so the metal-arched lantern with smoked-glass dome anchors the back-left third of a 1:1 frame on the picnic blanket beside a wicker hamper. Late golden hour: warm raking sun streams through tree foliage from frame-right. Style with a stoneware plate of sliced peaches and a wedge of soft cheese, a glass jug of cold-pressed apple juice with mint, a folded cotton ticking-stripe napkin tied with twine, a slim wooden cutting board, and a small bouquet of garden cosmos in a clear jar. Surrounding grass and a small woven straw hat at frame-edge. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of grass green, apple-juice gold, ticking blue, peach, smoked glass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "garden picnic blanket",
+      "designStyle": "warm cottagecore garden picnic",
+      "wallColour": "lush garden grass beyond",
+      "cameraAngle": "35mm low cross-legged seated",
+      "timeOfDay": "late golden hour",
+      "accents": ["wicker picnic hamper", "stoneware plate of peaches and cheese", "glass jug of apple juice with mint", "wooden cutting board", "garden cosmos in clear jar"]
+    },
+    {
+      "slug": "hallway-console-night",
+      "mode": "minimalist",
+      "prompt": "A long apartment hallway leading to a black-framed divided-light entry door, shot on a 35mm lens at standing eye-level dead-centre down the depth axis so the metal-arched lantern with smoked-glass dome sits mid-frame on a slim oak floating console table. Late evening: deep dusk through the door's glass at the vanishing point, and a small linen-shade wall sconce throwing a low halo on the side wall as the second light source. Tight styling — a low woven seagrass tray holding a set of brass house keys and a folded raw-linen runner, a tall stoneware jug with a single olive branch, and a leaning small framed botanical print. Walls are a warm taupe limewash; oak plank floor recedes. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of warm taupe, oak, smoked glass, olive green, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "apartment hallway console",
+      "designStyle": "quiet luxury contemporary",
+      "wallColour": "warm taupe limewash",
+      "cameraAngle": "35mm standing eye-level depth axis",
+      "timeOfDay": "late evening",
+      "accents": ["slim oak floating console", "seagrass tray with brass keys", "stoneware jug with olive branch", "leaning botanical print", "linen-shade wall sconce"]
+    },
+    {
+      "slug": "library-armchair-side",
+      "mode": "homey",
+      "prompt": "A small private library armchair side table beside a leather wingback, shot on a 35mm lens at standing eye-level looking down at the corner of a round mahogany side table so the metal-arched lantern with smoked-glass dome sits centred in a 1:1 frame. Late evening, post-dinner: the only second light source is a single banker's-green lamp glowing softly across the room on a leather-topped partners desk in the blurred background. Tight styling — a stack of three leather-bound first editions, an antique brass magnifying glass resting on top, a small leather correspondence tray with a folded ivory pocket square, and a footed stoneware mug of black coffee with a thin curl of steam. Walls are a deep oxblood-burgundy limewash with a leaning small gilt-framed botanical print. The lamp matches the reference image exactly — slim arched matte-metal handle in the body colour shown in the reference, smoked-glass cylindrical dome, internal frosted cylinder LED — switched ON, warm amber 2400-2700K (matches the candle-like glow visible through the smoked glass in the variant reference). Palette of oxblood burgundy, mahogany, smoked glass, oxblood leather, ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "private library armchair side table",
+      "designStyle": "English gentleman's club",
+      "wallColour": "oxblood-burgundy limewash",
+      "cameraAngle": "35mm standing eye-level looking down",
+      "timeOfDay": "late evening",
+      "accents": ["round mahogany side table", "leather first editions", "brass magnifying glass", "leather correspondence tray with pocket square", "stoneware mug of black coffee"]
+    }
+  ]
+}

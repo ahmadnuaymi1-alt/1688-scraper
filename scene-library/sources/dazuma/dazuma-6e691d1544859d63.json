@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-6e691d1544859d63",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/semi-flush-mount-ceiling-lighting-nordic-feather-decor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_9a836978-af1f-43f0-bfff-6e24c87770c2.jpg?v=1774595609",
+  "scraped_date": "2026-05-21T12:04:15.917Z",
+  "source_title": "Semi Flush Mount Ceiling Lighting Nordic Feather Decor Light",
+  "source_product_type": "Lighting > Ceiling Lights > Semi Flush Mount Lights > LED Semi-Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6e691d1544859d6315705ad4f65606a30f12bc85",
+  "description": "A luminous coastal living room with a dramatic ocean panorama as its centerpiece. The ceiling is clad in horizontal natural wood planks in a warm honey-blond tone, giving the space an organic, beachy warmth. A floor-to-ceiling fixed picture window with slender black aluminum frames dominates the back wall and floods the room with brilliant blue-sky and ocean light — waves break gently over dark rocks in the mid-ground, and the horizon stretches to the far left. Cream linen floor-to-ceiling curtains hang to the right of the window on a brass rod, softening the edge of the glass with a gentle glow. Below, a low curved cream upholstered sofa faces outward, dressed with a single cream square pillow. A round low coffee table in natural rattan or wicker holds a small dried floral arrangement in a slim ceramic vase. To the far right, a large leafy potted palm adds a burst of deep forest green against the warm plaster walls. The walls are smooth warm greige plaster. Warm light glows from above the sofa zone, casting a soft pool onto the seating area. The atmosphere is serene and resort-like, airy and sun-filled. Camera is at standing eye-level with a three-quarter corner view capturing the ocean window on the left and the curtained wall on the right, framing both the sofa and a generous slice of ceiling. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.373Z"
+}

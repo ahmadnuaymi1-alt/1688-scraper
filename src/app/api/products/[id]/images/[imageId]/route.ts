@@ -8,6 +8,7 @@ interface ImagePatchBody {
   altText?: unknown;
   variantId?: unknown;
   fileName?: unknown;
+  keep?: unknown;
 }
 
 async function loadAndAuthorize(
@@ -64,6 +65,7 @@ export async function PATCH(
     altText?: string | null;
     variantId?: string | null;
     fileName?: string | null;
+    keep?: boolean;
   } = {};
 
   if (typeof body.position === "number") data.position = body.position;
@@ -76,6 +78,7 @@ export async function PATCH(
   if (typeof body.fileName === "string" || body.fileName === null) {
     data.fileName = body.fileName as string | null;
   }
+  if (typeof body.keep === "boolean") data.keep = body.keep;
 
   const image = await prisma.productImage.update({ where: { id: imageId }, data });
   return NextResponse.json({ image });

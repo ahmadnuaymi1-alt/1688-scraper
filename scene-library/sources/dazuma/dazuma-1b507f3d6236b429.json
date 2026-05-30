@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-1b507f3d6236b429",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/large-pillar-lights-outdoor-modern-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/large-outdoor-pillar-light-gated-driveway.jpg?v=1773717247",
+  "scraped_date": "2026-05-21T12:19:46.137Z",
+  "source_title": "Large Pillar Lights Outdoor Modern Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1b507f3d6236b429818375be4f967f25709714b0",
+  "description": "A traditional residential gate entrance photographed at night in a three-quarter off-center composition at standing eye-level with a normal lens. The camera is positioned slightly to the left and below the dominant right pillar cap fixture, looking across the gate toward the house beyond. The two square stucco-clad gate pillars are a warm cream or pale sand tone — smooth plastered masonry with a simple flat cap. On each cap, a warm golden glow radiates from a traditional pagoda-profile post-top lantern, the frosted glass panel sides transmitting a warm amber light that illuminates the pillar cap and casts a soft downward wash onto the stone. The gate between the pillars is an ornate matte black wrought-iron design with arched top rail, decorative finials, vertical pickets, and interlocking circle motifs — clearly a traditional estate-style ironwork pattern. A cobblestone or brick-paved drive winds from the gate toward the home. The home in the background is a two-story traditional American Colonial with warm cream horizontal siding, grey roof shingles, and double-hung multi-pane windows — upper floor windows glowing with warm amber interior light, suggesting lived-in warmth. Foundation shrubs line the gate pillars. The deep night sky is indigo blue with a soft graduated horizon. The entire scene has a warm, classic, inviting quality punctuated by the rich amber glow from the post caps. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.056Z"
+}

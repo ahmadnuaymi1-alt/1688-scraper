@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-3e1e34ed4bc22b51",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-resin-table-mushroom-lamps-led-unique-atmosphere-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_14c59f8f-3d7f-44e6-ac30-d87493291197.jpg?v=1758852764",
+  "scraped_date": "2026-05-21T15:52:51.283Z",
+  "source_title": "Table Mushroom Lamps Nordic Resin  LED Unique Atmosphere Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3e1e34ed4bc22b51b426004f1cf7667143584858",
+  "description": "A minimalist stone-surface side table photographed at seated eye-level with a normal lens in a vignette composition showing two tabletop objects. The table has a natural rough-edged travertine or limestone slab top in warm sandy-beige tone with subtle natural veining. On the surface, two stacked art books — one labeled 'Van Gogh' and another 'TASCHEN' — form a platform for the further object, while an open book with cream pages fans out behind them. The background is a floor-to-ceiling sheer white curtain that diffuses bright daylight into a soft, even, high-key glow — clean and gallery-like. A warm amber-gold glow emanates from the nearer of the two tabletop objects at surface height, illuminating the travertine slab with a warm pool and casting warmth across the hand visible entering from the left side of the frame — the light effect is entirely at table surface level. A darker matte-black sculptural form and a warm brown companion form sit side by side on the table. The palette is cream white, travertine sandy beige, matte black, warm amber, and brown. The mood is quiet and serene with a gallery-minimalist aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.187Z"
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-02e352f2fd32ae87",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-02e352f2fd32ae87.jpg",
+  "source_url": "https://dazuma.us/products/coloured-glass-table-lamps-french-style-three-head-light",
+  "description": "A refined home office or study corner photographed at seated eye-level, roughly 3–4 feet from the floor, with a normal-to-slightly-telephoto lens character that compresses the depth of the space pleasantly. The composition is a three-quarter corner view, showing two walls converging in the upper right background, capturing both the full length of the desk surface and the chair at lower left. The camera pitches very slightly downward, perhaps 5–10 degrees, giving a clear read of the tabletop objects while keeping the wall paneling fully legible.\n\nThe room is anchored by a sculptural kidney-shaped or organically contoured desk in deep, richly grained walnut with a satin finish, supported by turned wood legs in the same dark walnut stain. The table edge is curved and irregular, clearly a statement piece. A low upholstered side chair in a warm oatmeal or flax boucle fabric sits at lower left, partially cropped by the frame.\n\nThe walls are finished in a warm greige plaster tone — barely a step above white — and are divided horizontally by a classical wainscoting rail at roughly mid-height. Below the rail, the wall is articulated with recessed rectangular paneling in a traditional applied-moulding style, painted the same warm greige. The upper wall above the rail is smooth and flat. The wall junctures and shadow lines give the room quiet architectural weight without heaviness.\n\nDecorative objects on the desk surface are composed with restrained editorial intent. On the left side, a matte black oval tray holds a small rattan or woven ball in warm natural tan, a cluster of small white sculptural stones or crystals, and what appear to be a few small mixed decorative objects. Beside the tray, a matte black cylindrical pencil cup holds a generous fan of colored pencils — their multicolor tops adding a quiet pop of saturated detail. A hammered silver or pewter-toned ovoid object, smooth and reflective with a dimpled surface, sits between the tray grouping and the right side of the table, catching warm ambient light across its curved top.\n\nA warm, diffused golden glow radiates from the right side of the desk surface, emanating from a low source, casting soft pools of amber, coral-orange, and green-tinted light upward and outward across the wall surface and table. The light is gentle and atmospheric rather than task-bright, warming the cream wall tones and giving the greige surfaces a honeyed cast. Subtle variations in the glow — cool citrine near the table, soft coral above — layer the ambient quality of the scene.\n\nThe overall mood is scholarly but warm — a working surface styled with considered object placement, classical architectural bones, and rich material contrast between dark walnut and pale plaster walls. Time of day feels like late afternoon or evening interior, lit primarily by warm interior sources.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

@@ -47,6 +47,8 @@ import {
 } from "@/services/pricing.service";
 import { uploadProductToShopify } from "@/services/uploader.service";
 import { applyRulesByCategory } from "@/services/rule.service";
+import { runPostScrapeAudit } from "@/services/post-scrape-audit.service";
+import { buildSku, generateSkusForVariants } from "@/lib/sku";
 
 const URL_RE = /^https?:\/\/(detail\.)?(1688|m\.1688)\.com\//;
 
@@ -227,24 +229,26 @@ export async function handleScrapeJob(jobId: string, sourceUrl: string): Promise
 
   const productLevelWeight = scraped.productWeightG;
 
-  const created = await prisma.product.create({
-    data: {
-      scrapeJobId: jobId,
-      userId: job?.userId ?? null,
-      title: scraped.title,
-      handle: scraped.handle,
-      vendor: vendor ?? null,
-      productType: productType ?? null,
-      tags: tagsCsv,
-      descriptionHtml: scraped.descriptionHtml ?? null,
-      metaDescription: scraped.metaDescription ?? null,
-      optionNames:
-        scraped.optionNames.length > 0 ? JSON.stringify(scraped.optionNames) : null,
-      productContext: JSON.stringify(phase1Context),
-      minOrderQuantity: scraped.minOrderQuantity ?? null,
-      rawPayload: JSON.stringify(scraped.rawPayload ?? null),
-      variants: {
-        create: scraped.variants.map((v) => {
+  // Default SKU per variant — variant-aware (uses option values to make each
+  // SKU recognizable, e.g. "LED-PINK", "USB-WHIT", "LED-BLAC-TMAL"). Uses
+  // `generateSkusForVariants` to also handle deduplication. Per-variant
+  // supplier SKU still wins via the truthy check in the map below.
+  const skuByPosition = generateSkusForVariants(scraped.handle, scraped.title, scraped.variants.map((v) => ({
+    key: v.position,
+    option1: v.option1,
+    option2: v.option2,
+    option3: v.option3,
+    position: v.position,
+  })));
+  const defaultSku = (positionZeroIndexed: number): string =>
+    skuByPosition.get(positionZeroIndexed) ??
+    buildSku(scraped.handle, scraped.title, [null, null, null], positionZeroIndexed);
+
+  // Build variant create rows up front — if the 1688 source returned zero
+  // variants we don't synthesize a placeholder, the Product is persisted
+  // variantless and the Shopify uploader synthesizes a Default Title
+  // variant at upload time.
+  const variantCreates = scraped.variants.map((v) => {
           // Resolve per-variant packing dimensions. User-confirmed priority:
           // Specs > Description > Packing-section (packing is shipping-box
           // dims, less accurate than product dims). Description-OCR doesn't
@@ -276,7 +280,7 @@ export async function handleScrapeJob(jobId: string, sourceUrl: string): Promise
             price: v.price,
             compareAtPrice: v.compareAtPrice ?? null,
             supplierCost: v.supplierCost ?? null,
-            sku: v.sku ?? null,
+            sku: (v.sku && v.sku.trim().length > 0) ? v.sku : defaultSku(v.position),
             barcode: v.barcode ?? null,
             weight,
             weightUnit:
@@ -288,7 +292,52 @@ export async function handleScrapeJob(jobId: string, sourceUrl: string): Promise
             supplierLabel2: v.supplierLabel2 ?? null,
             supplierLabel3: v.supplierLabel3 ?? null,
           };
-        }),
+        });
+
+  const created = await prisma.product.create({
+    data: {
+      scrapeJobId: jobId,
+      userId: job?.userId ?? null,
+      title: scraped.title,
+      handle: scraped.handle,
+      vendor: vendor ?? null,
+      productType: productType ?? null,
+      tags: tagsCsv,
+      descriptionHtml: scraped.descriptionHtml ?? null,
+      metaDescription: scraped.metaDescription ?? null,
+      optionNames:
+        scraped.optionNames.length > 0 ? JSON.stringify(scraped.optionNames) : null,
+      productContext: JSON.stringify(phase1Context),
+      minOrderQuantity: scraped.minOrderQuantity ?? null,
+      rawPayload: JSON.stringify(scraped.rawPayload ?? null),
+      variants: {
+        // Always create at least one variant — Shopify requires ≥ 1, and a
+        // synthesized Default Title variant gives variantless products a
+        // place to hang price/sku/weight/compareAt for the inline editor.
+        create:
+          variantCreates.length > 0
+            ? variantCreates
+            : [
+                {
+                  title: "Default Title",
+                  option1: null,
+                  option2: null,
+                  option3: null,
+                  price: "0.00",
+                  compareAtPrice: null,
+                  supplierCost: null,
+                  sku: defaultSku(0),
+                  barcode: null,
+                  weight: null,
+                  weightUnit: null,
+                  packagingDimensions: null,
+                  position: 0,
+                  sourceVariantId: null,
+                  supplierLabel1: null,
+                  supplierLabel2: null,
+                  supplierLabel3: null,
+                },
+              ],
       },
     },
     include: { variants: true },
@@ -299,6 +348,26 @@ export async function handleScrapeJob(jobId: string, sourceUrl: string): Promise
     "info",
     `Phase 1: persisted Product ${created.id} with ${created.variants.length} variant(s)`,
   );
+
+  // 8b) Finalize SKUs with a per-variant cuid suffix so every SKU in the
+  //     catalog is globally unique by construction. Only touches variants
+  //     whose SKU was auto-generated (not supplier-provided) — supplier SKUs
+  //     stay as the manufacturer wrote them.
+  const supplierSkuByPosition = new Map<number, string>();
+  for (const v of scraped.variants) {
+    const s = (v.sku ?? "").trim();
+    if (s.length > 0) supplierSkuByPosition.set(v.position, s);
+  }
+  const skuFinalizeUpdates = created.variants
+    .filter((v) => !supplierSkuByPosition.has(v.position))
+    .map((v) => {
+      const tag = v.id.slice(-6).toUpperCase().replace(/[^A-Z0-9]/g, "");
+      const finalSku = `${v.sku}-${tag || "000000"}`;
+      return prisma.variant.update({ where: { id: v.id }, data: { sku: finalSku } });
+    });
+  if (skuFinalizeUpdates.length > 0) {
+    await prisma.$transaction(skuFinalizeUpdates);
+  }
 
   // 9) Download gallery images to Supabase (and persist ProductImage rows).
   if (scraped.images.length > 0) {
@@ -683,6 +752,46 @@ export async function handleRulesJob(jobId: string): Promise<void> {
         jobId,
         "warn",
         `Phase 2: ${category} rules failed: ${err instanceof Error ? err.message : err}`,
+      );
+    }
+  }
+
+  // 5a) Post-scrape audit — auto-fixes confident issues (waffle SKUs,
+  //     unlinked variants, pack-axis remnants, empty axes, size-axis image
+  //     unification + cm→in, image-only descriptions). Non-fatal: any
+  //     internal failure is logged but does not abort the scrape job.
+  try {
+    await runPostScrapeAudit(product.id, jobId);
+  } catch (err) {
+    await addJobLog(
+      jobId,
+      "warn",
+      `Phase 2: post-scrape audit failed (non-fatal): ${err instanceof Error ? err.message : err}`,
+    );
+  }
+
+  // 5b) Defense-in-depth for omitCompareAtPrice. The pricing service already
+  //     honors this flag, but `Variant.compareAtPrice` can also leak in from
+  //     the raw 1688 scrape (Phase 1) or from a rule/AI suggestion that
+  //     bypasses the gate. Sweep AFTER all rules so this is the last word.
+  if (options.omitCompareAtPrice) {
+    try {
+      const result = await prisma.variant.updateMany({
+        where: { productId: product.id, compareAtPrice: { not: null } },
+        data: { compareAtPrice: null },
+      });
+      if (result.count > 0) {
+        await addJobLog(
+          jobId,
+          "info",
+          `Phase 2: cleared compareAtPrice on ${result.count} variant(s) per omitCompareAtPrice option`,
+        );
+      }
+    } catch (err) {
+      await addJobLog(
+        jobId,
+        "warn",
+        `Phase 2: compareAt sweep failed (non-fatal): ${err instanceof Error ? err.message : err}`,
       );
     }
   }

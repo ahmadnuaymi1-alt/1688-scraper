@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-3e8e083d3582afc1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-spotlight-light-fixture-silver-full-spectrum-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/office-spotlight-light-fixture.jpg?v=1775904894",
+  "scraped_date": "2026-05-21T12:03:40.752Z",
+  "source_title": "2 PCS Spotlight Light Fixture Silver Full-Spectrum LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3e8e083d3582afc1f8109d8d4cf23583fec7385d",
+  "description": "A contemporary open-plan home office or professional workspace photographed at standing eye-level with a normal-to-wide lens in a three-quarter corner composition, revealing two workstation desks and the full back wall. The ceiling is smooth warm white plaster. The back wall is partially clad in large light gray acoustic felt panels in a warm putty tone, offering visual softness and texture. Adjacent built-in cabinetry runs floor to ceiling on the left wall in matte white laminate with matte black rectangular pulls — a mix of closed upper cabinets and a low credenza. The sit-stand desks have light terrazzo-effect stone-look surfaces on white powder-coated metal frames with motorized legs. Monitor arms in brushed chrome support large-format Apple-style all-in-one monitors. Office chairs are in cognac tan leather on chrome five-star rolling bases. A woven gray low-pile area rug anchors the floor zone. Two floor-to-ceiling multi-pane windows with matte black frames fill the right wall, offering a view of a city skyline in daylight. Natural cool daylight floods in from the right, casting clean directional shadows across the desktop and floor. Two ceiling-mounted directional spot heads in brushed chrome cast bright, defined white cones down onto the acoustic wall panel surface. The palette is warm greige, white, and cognac leather with chrome accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.189Z"
+}

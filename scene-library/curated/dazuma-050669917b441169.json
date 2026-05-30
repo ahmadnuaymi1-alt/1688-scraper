@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-050669917b441169",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-050669917b441169.jpg",
+  "source_url": "https://dazuma.us/products/decor-floor-lamp-vintage-minimalist-artistic-light",
+  "description": "A cozy living room corner captured at seated eye-level, roughly 3–4 feet from the floor, with a normal to slightly wide lens character. The composition is a three-quarter corner view, showing two converging walls meeting at the back-left corner, with the right wall implied by the partial armchair at the frame's edge. The camera is level with a slight downward pitch of perhaps 5–10 degrees, taking in the full vignette from baseboard to just above the wall art, framing both the seating zone and the accent table in the mid-ground.\n\nThe room's architecture is clean and unadorned: smooth plaster walls painted in a warm greige-white, dark-stained wide-plank hardwood flooring running horizontally across the frame, and simple painted white baseboards. No crown moulding or ceiling details are visible.\n\nA round side table in rich walnut occupies the center of the composition, its top a smooth circular disc supported by four sculptural, curved legs that arch and taper toward an arched cross-brace at the base — a mid-century Scandinavian silhouette with organic warmth. The walnut grain is pronounced, honey-amber at the edges with darker streaks through the center.\n\nTo the right, a low-profile lounge armchair in soft warm ivory boucle-style upholstery sits on turned legs in medium-toned walnut. A square cushion in muted cognac-gold occupies the seat back, and a loosely draped sage-green throw with fringe hem spills over the chair's right arm onto the floor. The chair's legs are visible, grounding it lightly on the rug.\n\nBeneath both the table and chair, a low-pile area rug in off-white with a subtle tonal geometric or abstract weave pattern anchors the seating grouping. The rug's texture has a slight sheen, suggesting a polychrome ivory-on-ivory construction.\n\nIn the back-left corner, a large fiddle-leaf fig in a tall cylindrical ceramic planter — the planter a matte concrete or light warm grey — adds vertical organic mass. The fig's large, waxy, deep-green lobed leaves fan outward against the wall, creating a lush botanical counterpoint to the room's restrained palette.\n\nOn the back wall, a grouped gallery arrangement of three black-and-white photographic prints in thin dark frames hangs at eye level to the right of center. The prints depict solitary figures — a woman with an umbrella on a city street, a figure on a path — rendered in high-contrast monochrome with a cinematic, melancholic mood. The arrangement is asymmetric: one taller vertical print to the left paired with two smaller prints stacked on the right.\n\nA soft pool of warm light radiates at mid-height in the center of the scene, bathing the walnut table surface and the immediate floor area in a gentle amber glow. The warmth of this illumination graduates outward, lending the greige wall behind it a honey cast and softly catching the cognac pillow on the chair. The corner with the plant receives softer, more diffuse ambient fill, while the wall art is kissed by a gentle warm wash from the same general source zone. The overall lighting mood is intimate and layered — neither flat nor theatrical — evoking a quiet evening interior.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

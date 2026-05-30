@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-70cf9d19ea23fec4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-outdoor-sconce-modern-black-long-aluminum-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-outdoor-sconce-sleek-garage-exterior-dusk.jpg?v=1774836323",
+  "scraped_date": "2026-05-21T12:04:08.008Z",
+  "source_title": "LED Outdoor Sconce Modern Black Long Aluminum Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "70cf9d19ea23fec43ab791f6130303bda7054dd3",
+  "description": "A clean suburban garage exterior photographed at dusk with a cool blue sky and mature green oak tree canopy overhead. The facade features white board-and-batten vertical siding on the upper portion, with a stone veneer base in warm natural buff tones along the lower section. A wide double-car garage door in matte black with raised horizontal panel detailing and a row of small rectangular glass lights across the top fills the center of the facade. Two large matte black ceramic or metal planters flank the garage door, planted with ornamental grasses — pampas-style plumes on the right and a bushy grass clump on the left. The driveway is dark grey large-format paving stone. Tall shade trees partially overhanging the roofline soften the hard architectural geometry. Two warm vertical streaks of light appear on the white siding wall to the left and right of the garage door, casting a glowing column of illumination on the white board-and-batten surface. The overall mood is clean, modern-farmhouse, quietly elegant. Camera is at standing eye-level, wide centered view of the garage facade with the flanking plantings and driveway in the foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.387Z"
+}

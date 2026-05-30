@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-301241a8659d22bd",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-301241a8659d22bd.jpg",
+  "source_url": "https://dazuma.us/products/round-wall-light-natural-marble-nordic-luxury-light",
+  "description": "A formal foyer or hallway console vignette photographed from standing eye-level in a centered symmetrical composition, shot through a doorway that frames the scene. The back wall is finished in creamy off-white plaster with applied rectangular moulding panels creating a classic Parisian-style paneled wall treatment. Two circular disc-shaped forms mounted symmetrically on the wall flanking the artwork emit a warm diffused glow, casting soft pools of amber light that illuminate the surrounding plaster panels. A large square abstract oil painting with a gold leaf frame hangs centered above the console; the canvas is painted in soft washes of dusty peach, blush, soft blue-grey, and cream — an atmospheric cloudscape. Below it sits a dark walnut three-drawer console table with angular matte black steel legs. The console surface holds a white ribbed ceramic vase filled with eucalyptus branches, a small stack of three hardcover coffee table books, and minimal spacing. A charcoal grey low-pile rectangular area rug lies on the herringbone-patterned dark walnut parquet floor. The doorframe and baseboard moulding are all crisp painted white. The composition is viewed through a doorway, lending a portrait-framed quality to the vignette. The mood is formal, quietly elegant, and refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "herringbone_floor",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

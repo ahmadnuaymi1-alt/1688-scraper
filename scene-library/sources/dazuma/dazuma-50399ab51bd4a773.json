@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-50399ab51bd4a773",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/glass-ceiling-light-fixtures-french-vintage-metal-flush-mount-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/glass-ceiling-light-fixtures-staircase-entryway.jpg?v=1778566395",
+  "scraped_date": "2026-05-21T12:02:38.806Z",
+  "source_title": "Glass Ceiling Light Fixtures French Vintage Metal Flush Mount Lights",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "50399ab51bd4a77323d6ef487316c002e4d8aa5c",
+  "description": "A traditional American foyer photographed at standing eye-level with a normal lens in a wide establishing composition that captures the entry hall with staircase and console to the right. The walls are covered in a fine-weave grey grasscloth or linen-texture wallcovering above white wainscoting with raised panel detail that runs to chair-rail height, painted in a muted grey-blue. The dark-painted front door is a classic six-panel style, flanked by multi-pane sidelights that flood the entry with soft natural light. The staircase to the right has a dark walnut wood handrail and newel post, white balusters, and a neutral geometric stair runner in tan and grey that anchors the steps. On the wall between the entry and stair, a semi-circular demilune console table in dark walnut holds a decorative silver vase with white flowers or dried botanicals, and a small tray with objects. Above it hangs a round mirror with an ornate carved white shell or leaf frame, creating a focal point on the back wall. A natural woven sisal or jute rug with a geometric diamond pattern lies on the dark walnut hardwood floor, and a small woven storage basket sits in the corner by the door. Warm diffuse daylight fills the space from the sidelights. A warm soft glow descends from the ceiling above the console, illuminating the entry from above. The mood is quietly charming, traditionally American, and welcoming. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "multi_pane_window",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.266Z"
+}

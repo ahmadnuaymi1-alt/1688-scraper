@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-d9496fea7ea78e27",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/eclipse-embrace-sculpture-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Moonlit_Embrace_Sculpture_Lamp30.png?v=1777859377",
+  "scraped_date": "2026-05-21T15:53:47.509Z",
+  "source_title": "Moonlit Embrace Sculpture Lamp",
+  "source_product_type": "Floor Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "d9496fea7ea78e27cab2ba518cbe6396ed3013d5",
+  "description": "A contemporary urban living room photographed at standing eye-level with a wide lens, capturing a wide establishing view of the sitting area. The room features dark charcoal textured plaster walls and a large floor-to-ceiling window framing a city skyline view with visible high-rise buildings. A deep charcoal upholstered armchair sits center-left in the scene, dressed with a heathered gray throw. A walnut side table beside the chair holds a small dark vase. To the right of the chair, a large sculptural black figurative form with globular glowing elements stands at floor level, emanating warm amber light that pools against the nearby floor and dark wall. On the far left, a large abstract painting in black, white, and gray hangs on the wall beside a dark ceramic vase arrangement. A natural jute rug grounds the seating area. A tall potted plant with broad tropical leaves stands behind the chair. The color palette is dark and dramatic — charcoal, matte black, warm amber, natural jute — with the city window light adding cold blue-gray daylight from the right. The mood is dramatic and moody with an urban editorial quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.230Z"
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-54e0faeb01777e93",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/classic-outdoor-patio-floor-lamps-aluminum-pe-body-solar-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/glamping-tent-outdoor-patio-floor-lamp.jpg?v=1767091784",
+  "scraped_date": "2026-05-21T15:52:26.142Z",
+  "source_title": "Outdoor Patio Floor Lamps Aluminum PE Body Solar Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "54e0faeb01777e931dfff15f64fac59582532c35",
+  "description": "A glamping or outdoor camping scene at twilight on a lush green grass lawn. In the background, a large canvas bell tent glows warmly from within, its cream fabric walls lit amber from inside, with colorful triangular bunting flags and a string of round bistro lights draped across the front. A folding camp chair is visible to the left of the tent entrance alongside various camping gear. In the mid-foreground, a metal tripod camp cooking stand holds a black cast-iron Dutch oven suspended on a chain with a wooden-handled pot. Green trees fade into dark bokeh behind the tent. A slender floor-standing post on a white circular base stands in the left foreground, its disc element at the top emitting a warm amber-white glow that illuminates the surrounding grass and the camp cooking area. Camera is at standing eye-level using a wide lens, three-quarter view of the campsite with the glowing tent as the backdrop. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.284Z"
+}

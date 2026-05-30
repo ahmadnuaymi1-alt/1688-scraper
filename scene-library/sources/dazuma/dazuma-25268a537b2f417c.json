@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-25268a537b2f417c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-lighting-bollard-waterproof-landscape-lawn-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/2_76f5800b-4741-43cd-a6a3-045be73d03ab.jpg?v=1774175588",
+  "scraped_date": "2026-05-21T12:04:38.629Z",
+  "source_title": "LED Lighting Bollard Waterproof Landscape Lawn Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Bollard Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "25268a537b2f417c668ee871c008c84ddab69254",
+  "description": "A contemporary residential garden and rear terrace scene photographed at dusk, standing eye-level with a normal lens, off-center composition looking toward the home's back terrace. The lawn is lush, closely mown, vivid green, and manicured, edged by well-tended tropical and subtropical planting beds — palms, birds of paradise, red-leafed cordyline, and neatly trimmed hedge blocks. A series of wide flat limestone or travertine steps rises from the lawn to a raised terrace landing. Beyond the steps, a pair of slim black-framed sliding doors or large glass panels leads to an interior space visible in the background — floor-length ivory linen curtains are drawn partially, with warm amber interior light glowing through, and natural rattan chairs visible inside. Warm chartreuse-green light pools radiantly from the base of two bollard-style post forms positioned symmetrically flanking the lawn path, illuminating the grass with vivid yellow-green patches and casting warm glows outward into the surrounding planting beds. Camera is at standing eye-level, low-to-mid height, off-center slightly right, with the nearer bollard in the left foreground and the second in the mid-right, both framing the terrace stair approach in a balanced composition. The mood is serene and welcoming, an elegant tropical modern home exterior at evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.091Z"
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-1203d6a3894b2f7a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-wall-sconces-and-spotlight-for-tv-background",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_f441827c-dd55-4791-b328-fe3990ecee94.jpg?v=1778838111",
+  "scraped_date": "2026-05-21T12:02:37.020Z",
+  "source_title": "Linear Wall Sconces and Spotlight for TV Background",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1203d6a3894b2f7af8b8edc614bd0a0f85bc515b",
+  "description": "A contemporary minimalist bedroom vignette shot at seated eye-level with a normal lens, framed as an off-center thirds composition that captures the left nightstand side of the bed. The wall is a smooth matte warm greige plaster finish. A wall-mounted reading element in matte black is positioned above the nightstand — it consists of a horizontal bar with a cylindrical spotlight arm — emitting a directed downward warm amber spot onto the wall below and a soft warm wash spreading upward, creating dramatic contrast between the brightly lit wall zone and the deeper shadow on either side. A floating walnut nightstand with a single wide drawer is wall-mounted below, its warm dark wood grain catching the light from above. On the nightstand surface rests a single hardcover book. A matte black electrical outlet plate is flush-mounted to the wall below the wall fixture. The bed features a tall tufted upholstered headboard in a soft cream linen with a deep button-tufted grid, dressed with crisp white and ecru pillows and sheets. At the lower left corner, the edge of a gray upholstered accent chair is barely visible. The floor shows dark-stained wide plank hardwood with a cream geometric diamond-weave textured area rug at the foot of the bed. The overall mood is moody, composed, and modern with a hotel-like precision. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.013Z"
+}

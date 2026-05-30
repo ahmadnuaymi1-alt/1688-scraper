@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-d89f8b7d07e9607f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-wall-sconce-lighting-american-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_ce1c81d7-07f8-42ae-b2f8-7453988ab9d7.jpg?v=1774175635",
+  "scraped_date": "2026-05-21T12:04:37.305Z",
+  "source_title": "Retro Wall Sconce Lighting American Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d89f8b7d07e9607f9cb8795db52b4c4658e2dcaa",
+  "description": "An exterior residential entryway photographed at dusk, where the deep blue of the evening sky fades into indigo over a silhouette of distant rolling hills. The home's facade is clad in rough-textured natural stone in a cool grey, with a large floor-to-ceiling sliding glass door in matte charcoal frames flanked by sheer white curtains visible through the glass. The interior glows warmly through the glass, revealing a glimpse of a softly lit living area. The entryway patio is paved in large-format pale limestone tiles. To the right of the doorway, a manicured boxwood shrub rounds against the stone corner, its deep green leaves catching the ambient dusk light. A warm amber glow radiates from the stone wall face beside the door, casting a pool of honeyed light downward across the textured stone surface and onto the patio below — a welcoming wash of warmth against the cool evening air. Camera at standing eye-level, off-center thirds composition with the door occupying the left two-thirds and the stone wall and planted corner to the right, level pitch, normal lens character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.879Z"
+}

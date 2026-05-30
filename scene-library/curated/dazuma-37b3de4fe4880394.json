@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-37b3de4fe4880394",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-37b3de4fe4880394.jpg",
+  "source_url": "https://dazuma.us/products/cloth-table-lamp-american-retro-creative-decorative-lamp",
+  "description": "A sophisticated living room corner vignette photographed at standing eye-level with a normal lens in a three-quarter corner composition, showing wainscoted walls and a plush seating area. The walls are a soft warm grey above the wainscoting, with crisp white painted rail-and-panel wainscoting running along the lower portion — clean, traditional millwork. In the upper left, large glossy leaves of a rubber tree or fiddle-leaf fig plant extend into the frame against a window-bright background with additional bare-branch stems. At the lower left, a deeply upholstered armchair in oxblood or raspberry-red velvet occupies the foreground, its plush cushioned back and arm visible. On a small round side table with a dark green-veined black marble top and a burnished antique brass base, a small brass dish holds what appears to be a gold trinket. A warm cream glow suffuses the table surface and the surrounding wall from the table level upward, warming the grey wall above the wainscoting with a soft even pool. The overall palette is warm grey, oxblood red, antique brass, dark marble, and cream — a confident, formally elegant sitting room atmosphere. The mood is quiet and formal with rich textile and material layering. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "oxblood",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

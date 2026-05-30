@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-e9ca448aca7d75e4",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-e9ca448aca7d75e4.png",
+  "source_url": "https://vakkerlight.com/products/pillar-alabaster-floor-lamp",
+  "description": "A warm living room sitting area photographed at standing eye-level with a normal lens, capturing a three-quarter view of the corner. A cognac-rust velvet armchair with rounded barrel arms and sturdy legs dominates the center of the frame, dressed with a heathered sage-gray throw with fringe. To the left, a dark circular side table holds a small glass tumbler and a sculptural ceramic figure. Behind and to the left, a low horizontal abstract painting in warm ochre and neutral tones is visible on the sand-plaster wall. A tall cylindrical floor-standing element with stacked translucent panels stands between the side table and the chair, emanating a warm diffuse glow upward along its column at floor height, spreading soft amber warmth across the adjacent wall and the surrounding rug. A large terracotta pot with a slender olive tree stands to the far right, filling the upper corner with delicate silvery-green foliage. The floor is covered in a textured wool rug in warm taupe. The palette is rich and warm — cognac velvet, sand plaster, terracotta clay, warm amber — creating a deeply inviting atmosphere. The mood is romantic and lived-in. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-afc5548b56bef855",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/lantern-wall-lights-outdoor-american-waterproof-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-lantern-wall-lights-outdoor-front-door.jpg?v=1775700585",
+  "scraped_date": "2026-05-21T12:03:54.660Z",
+  "source_title": "Lantern Wall Lights Outdoor American Waterproof Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "afc5548b56bef8557b3376dc9cde7c6b241b4ec2",
+  "description": "A residential front entry exterior photographed at standing eye-level with a normal lens around 35-50mm, in a centered symmetrical composition looking directly at the front door. The facade is finished in a coarse-texture sand or pebble-aggregate stucco in a warm cream-white, the rough particulate surface catching light and shadow in tiny variations across its face. The front door is a contemporary pivot or hinged door with vertical-grain natural oak slat cladding in a blonde or honey tone, its tight parallel lines of solid wood strips creating a strong architectural statement; a narrow full-height sidelight of dark-framed glass runs along the right edge. The door hardware is a matte black escutcheon plate with a substantial bar lever handle. The doorway surround trim is a thin dark matte black frame, creating a clean graphic outline that contrasts with the pale stucco and warm wood. On the lower left, a compact mounded shrub — likely a globe boxwood or pittosporum — in a pale concrete or stone planter contributes a formal note. On the right, partial foliage from another leafy plant intrudes at the corner. Both sides of the door on the stucco facade are lit by a warm amber glow emanating from matching wall-mounted ornate fixtures, their light pools casting warm halos on the textured stucco surface at entry height. The overall palette is warm sand, honey oak, matte black, and living green. The mood is welcoming, transitional between traditional and modern. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.690Z"
+}

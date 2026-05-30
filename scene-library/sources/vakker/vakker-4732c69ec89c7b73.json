@@ -1,0 +1,46 @@
+{
+  "image_id": "vakker-4732c69ec89c7b73",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/woven-drum-globe-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Woven_Drum_Globe_Pendant_Lamp__2.jpg?v=1779299051",
+  "scraped_date": "2026-05-21T12:08:31.164Z",
+  "source_title": "Woven Drum Globe Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 1500,
+  "height": 1872,
+  "content_sha1": "4732c69ec89c7b73c9bca081f37b35a33a8bbd9c",
+  "description": "A warm, traditional sitting room or reading corner with a quiet, literary atmosphere. The walls are painted in soft cream or off-white with a deep wainscoting panel profile in painted white with beveled rectangular fields, running to about chair-rail height. The ceiling is also white and smooth. A tall dark-stained walnut bookcase with open shelving fills the left side of the frame, packed with an eclectic mix of leather-bound and cloth-cover hardback books in rust, burgundy, and brown tones. Center frame, a generously proportioned armchair upholstered in a vintage floral chintz — cream ground with soft mustard, blush, and sage botanical motifs — sits over a large flat-woven natural jute rug. In front of the chair, a square cognac leather ottoman with tapered dark legs serves as a footrest. Behind and to the right, a small antique-style side table in a worn whitewashed or lightly distressed paint finish holds two stacked books, an open book, and a white ceramic teacup in a saucer. The walls receive soft filtered daylight from a tall window at center with simple white sheer curtains on a rod. A warm, golden glow from the side table area illuminates the reading surface. The floor is wide-plank honey-warm hardwood at the perimeter beyond the rug. The overall palette is warm neutral — cream, honey, cognac — with small mustard and sage floral accents. Camera is at standing eye level, off-center thirds composition with the chair and bookcase, using a normal lens capturing the full corner. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.086Z"
+}

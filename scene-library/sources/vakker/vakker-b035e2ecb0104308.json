@@ -1,0 +1,37 @@
+{
+  "image_id": "vakker-b035e2ecb0104308",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/resin-apollo-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Gypsum_Apollo_Pendant_Light_7.jpg?v=1714019334",
+  "scraped_date": "2026-05-21T12:08:50.591Z",
+  "source_title": "Resin Apollo Pendant Light",
+  "source_product_type": "Pendant light",
+  "width": 1500,
+  "height": 1500,
+  "content_sha1": "b035e2ecb0104308133e9543bc84d0b2e81177ba",
+  "description": "A clean, contemporary dining area in a soft monochromatic palette of warm whites and pale beige. The walls and ceiling are both smooth, matte off-white, meeting at a gentle right-angle corner at the upper right of the frame. On the left wall, a simple framed artwork in a white frame presents a warm sandy-toned abstract with a large letter M graphic, adding a quiet decorative note. The floor is not visible. A round white tulip-style dining table with a smooth glossy white surface sits at the lower center of the frame, surrounded by pale cream-beige upholstered dining chairs with a curved, slightly scalloped silhouette. A single decorative object in the center of the table — a tall sculptural branched wood form in natural blonde wood — holds small white dried flowers and a sprig of olive, its organic shape providing a focal point. Against the left wall, a low white modular storage cabinet with chrome-edged drawer pulls presents a horizontal surface holding a small decorative object. Against the right wall, the corner of a similar white modular storage unit is visible. Warm cream-toned light emanates from below a wide ribbed dome form suspended on a fine wire from the ceiling's center, filling the table below with a broad wash of warm ambient downlight. The overall palette is entirely cream, chalk white, and pale beige — quiet and gallery-minimal. Camera at approximately standing eye-level using a normal lens, centered symmetrical composition framing the round table directly beneath the ceiling element. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.187Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-feb3ebc960bdc524",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-feb3ebc960bdc524.jpg",
+  "source_url": "https://dazuma.us/products/vintage-ambient-light-floor-lamp-with-pull-chain-switch-fabric-shade-light",
+  "description": "A sitting room corner photographed at a standing eye-level, showing a warm mid-century inspired interior in earth tones and creamy whites. The wall behind is a smooth painted plaster in warm off-white, and a wooden venetian blind in natural light oak tone filters daylight through a right-side window, casting horizontal bands of warm light across the wall. A dark bookcase or shelving unit with an oxblood or deep burgundy-lacquered wood interior fills the left third of the frame, its curved-edge shelves displaying round decorative vessels and objects of terracotta and dark tones. A rattan or wicker-backed chair is partly visible at the lower left. In the lower right, a small square light oak side table holds an open book, suggesting a reading nook arrangement. The floor visible at the base appears to be a warm parquet or solid wood in medium brown tone. The overall palette is warm earth tones — cream walls, cognac-tinted wood, burgundy cabinetry interior. A soft warm glow warms the wall on the right at mid-height from the general area of the primary floor-standing light source. Camera at standing eye-level, normal lens, roughly centered composition showing both the bookcase on the left, the window blind on the right, and the pale wall in between as the main vertical axis. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "lived_in",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

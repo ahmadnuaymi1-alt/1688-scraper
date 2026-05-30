@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-463ac404ae0e9fa3",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-463ac404ae0e9fa3.png",
+  "source_url": "https://vakkerlight.com/products/calix-alabaster-table-lamp",
+  "description": "A gallery-quiet living room photographed at standing eye-level with a normal lens, showing a wide three-quarter view of the main living space. The walls are finished in smooth warm plaster in a soft greige-cream tone with a beautiful matte depth. A large window on the left lets in diffuse natural light, partially covered by minimal sheer curtains. The floor is finished in a low-pile natural fiber rug, and the overall space feels spare and considered. In the foreground, a dark walnut console or sideboard with a clean low profile holds a curated arrangement: a round ceramic vase with loose dried botanical stems in warm bronze, a small abstract sculptural form in twisted wood or bronze, and a stack of books. A large-format framed abstract artwork in warm ivory, sandy ochre, and soft charcoal leans on or hangs from the back wall. To the right, a generously upholstered low armchair in warm oatmeal bouclé with a simple boxy form faces outward. A soft, translucent warm glow diffuses from the alabaster or milky stone-like form on the console surface, spreading a gentle haze of warm light across the nearby wall and console surface at table height, without extending upward to the ceiling. The palette is quiet and tonal: warm plaster, dark walnut, sandy cream, dried bronze botanicals, and pale natural linen. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "pendant",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

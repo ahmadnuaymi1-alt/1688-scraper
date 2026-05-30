@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-794961a3ef58b3d4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/waterproof-outdoor-floor-lamps-garden-decor-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/waterproof-outdoor-floor-lamps-x3.jpg?v=1765009922",
+  "scraped_date": "2026-05-21T15:51:59.338Z",
+  "source_title": "Waterproof Outdoor Floor Lamps Garden Decor Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "794961a3ef58b3d406c3d8e3ebe663b30ac1d8e3",
+  "description": "An outdoor residential entrance or garden terrace photographed at standing eye-level with a wide lens, showing a modern landscaped front entry at dusk. The architecture features a dark grey or charcoal tile facade with large-format tiles, a glass entry door partially visible, and wide stone or concrete paving steps. A planting bed along the entry path is filled with ornamental grasses, pink and purple cosmos flowers, and low garden plants. Bamboo or tropical foliage plants flank the right side of the entry. Warm white light glows from three different positions within the scene: a tall tripod-base unit standing on the right pathway, and two shorter ground-level or low-standing units placed within or beside the planting bed — each emitting a soft warm ivory glow. The warm illumination from these multiple sources pools gently onto the surrounding paving and planting, contrasting beautifully with the blue-grey dusk sky and the dark architectural surfaces. The mood is serene and quietly welcoming — a contemporary residential landscape at evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.419Z"
+}

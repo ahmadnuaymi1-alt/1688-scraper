@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-d2102e6fb36db286",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d2102e6fb36db286.jpg",
+  "source_url": "https://dazuma.us/products/4-pcs-outdoor-spotlights-led-waterproof-landscape-lighting",
+  "description": "A monumental commercial or luxury hotel exterior facade photographed at standing eye-level with a telephoto lens, using a one-point perspective composition that looks along the face of a colonnade at a roughly 30-degree angle. The facade consists of a series of large rectangular stone-clad pillars or projecting columns in smooth pale warm limestone or cream-white stone, separated by dark recessed bays. The stone is flat-faced and precisely jointed in a large-format grid. From the base of each column or recess bay, powerful warm amber uplights wash vertically up the stone surfaces in wide scallop-shaped fans of light, dramatically grazing the flat stone and creating alternating bright lit pillars and deep shadow bays in a rhythmic pattern. At the lintel height, warm amber grazing also illuminates the soffit or header plane, repeating the warm glow horizontally. Through the tall dark-framed floor-to-ceiling windows at the base of the facade, warmly lit interior spaces are visible — suggesting a luxury hotel lobby or restaurant interior glowing golden amber. The deep night sky above and the dark foreground create maximum contrast with the lit stone. The effect is architectural and dramatic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

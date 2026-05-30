@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-737bdfd5ba286f19",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/gilded-cocoon-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/1778661228621.png?v=1778748969",
+  "scraped_date": "2026-05-21T12:08:58.392Z",
+  "source_title": "Gilded Cocoon Wall Lamp",
+  "source_product_type": "Wall Lamp",
+  "width": 1254,
+  "height": 1254,
+  "content_sha1": "737bdfd5ba286f19e15fab1f87f21b5ce032829d",
+  "description": "A sophisticated urban sitting room corner photographed at standing eye-level with a normal lens in a three-quarter corner composition that sweeps from a seating area on the left to a small writing desk at the corner. The camera looks level across the room. On the left, a compact mid-century-influenced armchair in deep cobalt-blue wool or velvet has a walnut wood frame with slender tapered legs; a gray linen throw is casually folded over one arm. The chair sits on a smooth neutral floor, with a warm amber glow from a nearby source just out of frame to its right. The center of the frame is dominated by a smooth painted white wall. Mounted on this wall, slightly left of center, a brushed brass half-shell or ovoid form glows with upward-spilling warm cream-white light that washes the wall surface in a warm luminous bloom. To the right, a small dark walnut writing desk or side table is positioned directly beneath a tall arched window — the arch's graceful curve is visible in the upper right. Through the window, a twilight city skyline is glimpsed at dusk with soft blues and purples outside. On the desk surface sit a small framed artwork leaning against the wall, a stack of books, and a small object or jar with pencils. At the far right edge, the slender base of a table reading light is just visible. An abstract framed print hangs on the left wall above the chair level. The mood is warmly cosmopolitan and quietly refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt",
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.128Z"
+}

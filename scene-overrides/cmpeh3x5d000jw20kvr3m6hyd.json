@@ -1,0 +1,118 @@
+{
+  "productId": "cmpeh3x5d000jw20kvr3m6hyd",
+  "productTitle": "草裙落地灯网红直播间氛围灯客厅沙发角落装饰灯台灯立式艺术灯具",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-22T11:07:09.779Z",
+  "classification": "indoor",
+  "category": "floor-lamp",
+  "scenes": [
+    {
+      "slug": "japandi-bedroom-corner",
+      "mode": "minimalist",
+      "prompt": "A warm-Japandi primary bedroom shot from a 35mm three-quarter standing angle, 1:1 framing, camera positioned just inside the doorway so the tall sculptural floor lamp anchors the corner between an oat-mushroom limewashed plaster wall and a wide-plank light-oak floor. Early evening; soft cool dusk light slips through a sheer linen curtain on the left, balanced by a small alabaster bedside lamp glowing on a low walnut nightstand as a layered secondary source. A low linen-upholstered platform bed sits at the head height of the lamp's lowest bulge, a walnut bench at its foot, a stoneware carafe with magnolia branches on the bench, and a draped wool throw softening the corner. The floor lamp matches the reference image exactly — four stacked wavy acrylic gourds on a slim cream column with a small disc base — switched ON with a soft warm 2700-3000K glow. Palette: oat plaster, milk-white acrylic, honey oak, walnut, brass pin-points. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "primary bedroom corner",
+      "designStyle": "warm Japandi",
+      "wallColour": "oat-mushroom limewash plaster",
+      "cameraAngle": "35mm three-quarter standing",
+      "timeOfDay": "early evening",
+      "accents": [
+        "walnut bench",
+        "stoneware carafe with magnolia branches",
+        "draped wool throw",
+        "linen platform bed",
+        "small alabaster bedside lamp"
+      ]
+    },
+    {
+      "slug": "sage-modern-organic-study",
+      "mode": "homey",
+      "prompt": "A modern-organic home study captured at 50mm from a seated eye-level angle, 1:1 framing, looking diagonally across an oak writing desk toward the floor lamp standing in the corner against a sage-green limewashed wall with subtle tonal mottling. Dusk; the window beyond shows a deep cool-blue sky, while a small brass-shaded desk lamp on the desk provides a warm secondary pool. Styling beats: an open fountain pen resting on a folded newspaper, a terracotta pot of trailing pothos cascading off the desk's edge, a framed travel photography print leaning against the wall, and a worn-leather desk chair pushed slightly back. The floor lamp matches the reference image exactly — four undulating cream acrylic segments stacked on a hidden iron column, narrow disc base — switched ON with a soft warm 2700-3000K glow that throws gentle waved shadows on the sage plaster. Palette: sage green, milk acrylic, warm oak, aged brass, terracotta. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "home study",
+      "designStyle": "modern organic",
+      "wallColour": "sage-green limewash",
+      "cameraAngle": "50mm seated eye-level",
+      "timeOfDay": "dusk",
+      "accents": [
+        "oak writing desk",
+        "fountain pen on folded newspaper",
+        "framed travel photography",
+        "terracotta pot of trailing pothos",
+        "brass desk lamp"
+      ]
+    },
+    {
+      "slug": "dove-gray-dressing-room",
+      "mode": "minimalist",
+      "prompt": "A quiet-luxury walk-in dressing room shot at 35mm from a slightly elevated three-quarter standing angle, 1:1 framing, the sculptural floor lamp set against a dove-gray applied-panel wall with crisp rectangular moulding. Morning; cool diffused daylight enters from a tall window on the left, while a small ceiling pendant glows softly behind a partial open door as a layered second source. Styling beats: a blush velvet ottoman in the foreground with a linen kimono robe draped across one arm, a porcelain trinket dish holding gold hoop earrings on the panel ledge, a single ranunculus stem in a slim bud vase, and a pale wool runner underfoot. The floor lamp matches the reference image exactly — four stacked wavy cream acrylic gourds, slim iron core, small disc base — switched ON with a soft warm 2700-3000K glow that warms the cool gray paneling. Tight 30% framing around the lamp. Palette: dove gray, milk cream, blush velvet, pale brass, soft white. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "walk-in dressing room",
+      "designStyle": "quiet luxury",
+      "wallColour": "dove-gray applied-panel",
+      "cameraAngle": "elevated three-quarter standing",
+      "timeOfDay": "morning",
+      "accents": [
+        "blush velvet ottoman",
+        "linen kimono robe",
+        "porcelain trinket dish with gold hoop earrings",
+        "ranunculus in bud vase",
+        "pale wool runner"
+      ]
+    },
+    {
+      "slug": "wabi-sabi-meditation-nook",
+      "mode": "minimalist",
+      "prompt": "A serene wabi-sabi meditation nook captured at 35mm from a low straight-on angle close to the floor, 1:1 framing, the tall floor lamp centered against a warm-taupe rough-plaster wall under a ceiling of narrow light-oak slats. Dawn; a slim clerestory window casts a cool pale-blue wash from above, while a single chunky ivory candle on a stone tray provides a tiny warm secondary glow. Styling beats: a low solid-oak meditation bench parallel to the wall, a hand-painted ceramic pot holding a small potted fern, a cairn of smooth river stones, a raw-clay incense holder with a thin curl of smoke, and a tatami-edged jute mat grounding the scene. The floor lamp matches the reference image exactly — four wavy stacked acrylic segments, cream finish, small disc base — switched ON with a soft warm 2700-3000K glow that ripples across the textured plaster. Tight composition, lamp ~30% of frame. Palette: warm taupe, milk acrylic, raw clay, pale oak, riverstone gray. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "meditation nook",
+      "designStyle": "wabi-sabi minimal",
+      "wallColour": "warm taupe rough plaster",
+      "cameraAngle": "35mm low straight-on",
+      "timeOfDay": "dawn",
+      "accents": [
+        "low oak meditation bench",
+        "hand-painted ceramic pot with fern",
+        "cairn of smooth river stones",
+        "raw-clay incense holder",
+        "chunky ivory candle"
+      ]
+    },
+    {
+      "slug": "plum-loft-lounge",
+      "mode": "homey",
+      "prompt": "A modern hospitality loft lounge shot at 35mm from a wide eye-level standing angle, 1:1 framing, the sculptural floor lamp standing tall in a corner where a deep plum-aubergine limewashed accent wall meets polished concrete flooring. Night; a city window beyond shows distant warm pinprick lights, while a low brass picture light above a leaning canvas provides a quiet secondary halo. Styling beats: a bouclé lounge chair angled toward the lamp, a travertine drum side table beside it carrying a small brass tray with a smoked-glass decanter and one tumbler, a stoneware jug on the floor with a single dried-grass plume, a leaning framed abstract artwork against the wall, and a low-pile charcoal rug pooled beneath. The floor lamp matches the reference image exactly — stacked wavy cream acrylic gourds on slim iron core, small disc base — switched ON with a soft warm 2700-3000K glow that pops vividly against the deep plum. Palette: aubergine plum, milk cream, travertine, brass, ivory bouclé. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "loft lounge",
+      "designStyle": "modern hospitality",
+      "wallColour": "deep plum-aubergine limewash (accent)",
+      "cameraAngle": "wide eye-level standing",
+      "timeOfDay": "night",
+      "accents": [
+        "bouclé lounge chair",
+        "travertine drum side table",
+        "brass tray with smoked-glass decanter",
+        "leaning framed abstract artwork",
+        "stoneware jug with dried grass"
+      ]
+    },
+    {
+      "slug": "peach-sunroom-sitting-nook",
+      "mode": "homey",
+      "prompt": "A soft-contemporary sunroom sitting nook captured at 50mm from a low seated angle, 1:1 framing, the floor lamp anchoring the corner of a peach-terracotta plaster wall meeting a band of multi-paned divided-light windows in white-painted frames. Golden hour; warm raking sunlight enters from the right and pools on a wide-plank pine floor, layered with a small ceramic table lamp glowing on a side console as a secondary source. Styling beats: a cream bouclé rocking chair angled toward the lamp, a woven seagrass basket of softly folded blankets on the floor, an enamel watering can beside it, a cream stoneware vase of garden peonies on a low side table, and a half-finished mug of tea resting on a stack of cloth-bound books. The floor lamp matches the reference image exactly — four stacked wavy acrylic gourds, cream-white finish, slim disc base — switched ON with a soft warm 2700-3000K glow harmonising with the peach plaster. Palette: peach-terracotta, milk acrylic, pine, blush, cream bouclé. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "sunroom sitting nook",
+      "designStyle": "soft contemporary cottage",
+      "wallColour": "peach-terracotta plaster",
+      "cameraAngle": "50mm low seated",
+      "timeOfDay": "golden hour",
+      "accents": [
+        "bouclé rocking chair",
+        "woven seagrass basket of blankets",
+        "enamel watering can",
+        "garden peonies in cream stoneware vase",
+        "mug of tea on cloth-bound books"
+      ]
+    }
+  ]
+}

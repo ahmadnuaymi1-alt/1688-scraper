@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-45a0008e6d4cb66f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/hanging-outdoor-light-waterproof-minimalist-garden-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/hanging-outdoor-light-classic-cozy-front-porch.jpg?v=1774078430",
+  "scraped_date": "2026-05-21T12:04:52.767Z",
+  "source_title": "Hanging Outdoor Light Waterproof Minimalist Garden Pendant Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "45a0008e6d4cb66f6582d3ff5ca7f4c9a172e6fb",
+  "description": "A covered front porch viewed from a three-quarter angle from the front walk, looking back toward a pair of dark-stained french doors with multi-pane glazing. The house exterior is white horizontal lap siding with wide square painted columns supporting a shallow porch roof lined with narrow white shiplap tongue-and-groove ceiling boards. The porch floor is painted light grey, and three painted wood steps with a clean white railing descend to a brick walkway below. At the far end of the porch, a pair of natural wood Adirondack chairs sit side by side near the french doors, one holding a blue plaid throw pillow. A small round plant stand holds a white terra cotta pot near the chairs. The surrounding landscape includes established pines and mixed low shrubs along the foundation, with a neighborhood streetscape visible behind the trees. The doors are a warm dark mahogany stain with brass hardware visible on the multi-pane frame. Soft afternoon natural light floods the covered porch space, giving the white painted wood surfaces a clean, inviting warmth. The palette is predominantly white and warm grey with the dark door providing a strong focal anchor. Camera is at standing eye-level outside the porch, with a normal lens, in a three-quarter view showing the entry porch corridor and the door at the far end. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.221Z"
+}

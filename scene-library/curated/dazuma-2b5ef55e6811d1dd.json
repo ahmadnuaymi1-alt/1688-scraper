@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-2b5ef55e6811d1dd",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2b5ef55e6811d1dd.jpg",
+  "source_url": "https://dazuma.us/products/stained-glass-chandeliers-modern-creative-led-ceiling-light",
+  "description": "A minimalist contemporary dining room photographed at standing eye-level with a centered symmetrical composition, the camera level and looking directly at the dining table with a large picture window centered in the background wall. The room features warm sand-beige smooth plaster walls and a flat white ceiling with two square skylights visible at the upper corners of the frame. The large picture window with a thin matte black frame looks out to an exterior cedar or pine timber fence of vertical-slatted boards in natural wood tone, and beyond that a white adjacent building wall. The dining table is an organic oval-rounded form in natural light oak, surrounded by four plush upholstered dining chairs in a warm medium grey woven fabric with subtle curves. On the table surface, a terracotta hand-thrown ceramic vase holds a spray of deep plum-toned dried botanical stems, and a small abstract white ceramic arch sculpture sits nearby. The ceiling position holds a multicolored glass globe cluster hanging from a black cord, with marbled glass spheres in mint green, coral pink, butter yellow, teal, white, and pale lavender catching the daylight and glowing softly. The palette is warm sand, natural oak, medium grey, terracotta, deep plum botanicals, and pastel multicolored glass. The mood is playful yet quiet and refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

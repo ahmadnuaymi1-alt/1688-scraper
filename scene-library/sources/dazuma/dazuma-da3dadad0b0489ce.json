@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-da3dadad0b0489ce",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-surface-mounted-can-lights-ultra-thin-round-modern-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stylish-hallway-surface-mounted-can-lights.jpg?v=1775905241",
+  "scraped_date": "2026-05-21T12:03:31.671Z",
+  "source_title": "2 PCS Surface Mounted Can Lights Ultra-Thin Round Modern LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Can Lights > Surface Mount Can Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "da3dadad0b0489ce6f42bb0c54ec3b0be0f4f58c",
+  "description": "A sleek, minimal walk-in wardrobe or dressing room photographed at standing eye-level from a one-point perspective looking straight down the length of the room. The room is long and narrow — a hallway-like dressing room — with the vanishing point ending at a solid black door with simple chrome lever handle. The right wall is occupied entirely by a floor-to-ceiling fitted wardrobe system with smoked glass sliding doors framed in matte black metal, revealing organized clothing racks, folded items, and drawers behind the glass. The left wall features open white-painted shelving built directly into the wall recess — three to four horizontal shelves currently empty, anticipating use. The floor is a herringbone-pattern parquet in a deep charcoal gray or dark smoked oak tone. Centered in the floor space is a cream-upholstered tufted bench with a rolled blanket draped over one end, and in front of it a round cream velvet ottoman or pouf. A warm ambient pool of light falls from above, with two small ceiling-mounted flush fixtures visible in the white ceiling providing diffuse downlight throughout the room. The palette is cool neutral — white, black, gray — with cream accents from the bench and ottoman. Camera is at standing eye-level in a strict one-point perspective centered on the black door at the far end of the room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.887Z"
+}

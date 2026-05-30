@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-9e4b8799409dcd22",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9e4b8799409dcd22.jpg",
+  "source_url": "https://dazuma.us/products/solar-gate-pillar-lights-modern-outdoor-waterproof-light",
+  "description": "A close-up outdoor garden vignette photographed at low camera height — roughly two to three feet — with a normal lens, framing the top surface of a square concrete garden column or plinth as the central subject. The camera is aimed level with a slight downward pitch, filling the frame with the plinth top, flanking plantings, and the warm timber fence wall in the background.\n\nThe plinth itself is a large square cast concrete block with a smooth-to-lightly-textured surface in mid-grey, sitting on a pale grey concrete paving surface. White flowering ground-cover plants — small-petaled white blooms, possibly cosmos or phlox — press closely against the left and front faces of the plinth, while tall decorative pampas-style ornamental grasses with feathery amber-gold plumes rise on the right side of the frame.\n\nIn the background, a horizontal board fence in rich warm honey-toned cedar or teak runs the full width of the frame, with boards of consistent width spaced tightly. A long low built-in wooden bench seat in the same warm timber tone is visible running along the base of the fence wall in the midground.\n\nWarm amber light glows intensely from the top of the plinth in all directions, casting an orange-gold illumination across the plinth surface and radiating into the surrounding plantings and pavement. The overall mood is intimate, garden-residential, and warm — evening atmosphere with dramatic horizontal contrast between the glowing amber centre and the cool grey stone and deep blue-grey dusk surroundings.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

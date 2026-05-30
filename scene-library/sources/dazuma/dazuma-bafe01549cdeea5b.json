@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-bafe01549cdeea5b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-fixtures-wall-mount-waterproof-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_4_171e5ba3-321f-49f3-ab09-f271f4b168d3.jpg?v=1774175338",
+  "scraped_date": "2026-05-21T12:04:42.289Z",
+  "source_title": "Outdoor Lighting Fixtures Wall Mount Waterproof Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bafe01549cdeea5b8c764d35f88525915a721a85",
+  "description": "A contemporary residential outdoor deck area photographed at dusk from standing eye level in a three-quarter corner composition. The building exterior is smooth white stucco rendered in clean contemporary surfaces. The deck floor is warm-toned composite or real wood decking in a horizontal plank pattern. To the left, a sliding glass door with a slim aluminium frame opens into the warmly lit interior. A narrow corner of the house presents a right-angle junction where two white stucco walls meet. On the left wall face, a rectangular bronze or antique brass framed outdoor wall fixture with horizontal-ribbed diffuser panels glows with warm amber light, casting a warm halo against the white stucco surface. To the right, a second identical fixture is mounted on the other stucco wall face beside a large black-framed window with interior louvred shutters in warm wood tones. A slim aluminium-framed lounge chair with cream/beige strapping sits beneath the right wall fixture. A small potted flowering plant in a simple white round planter sits on the deck between the two fixtures. Beyond the deck edge, a well-manicured green lawn transitions to a white painted timber privacy fence, with mature tree canopy silhouetted against a deep blue twilight sky. The palette is white stucco, warm deck wood, antique bronze/brass, cream and amber. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.739Z"
+}

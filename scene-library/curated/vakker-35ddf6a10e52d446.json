@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-35ddf6a10e52d446",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-35ddf6a10e52d446.png",
+  "source_url": "https://vakkerlight.com/products/eclipse-embrace-sculpture-lamp",
+  "description": "A dramatically styled living room photographed at standing eye-level with a normal lens, showing a wide three-quarter view that takes in most of the room. The walls are finished in rough, heavily textured concrete or plaster in a deep cool grey-brown, giving the space an industrial, moody character. A large abstract artwork in dark charcoals, blacks, and ochre hangs on the back wall. The floor is covered with a low-pile natural jute rug. At the center-left sits a low open bookshelf unit in dark finish wood, holding an eclectic collection of ceramic vessels, vases, and small sculptural objects in earthy and warm tones — raw ceramics, round stoneware, dried botanicals. To the right, a compact armchair in dark charcoal-grey textured fabric sits with a loosely draped woven throw in warm khaki. A low rounded side table beside the chair holds additional decorative objects including what appears to be a small mechanical or sculptural piece. The dominant light source in the scene is a sculptural floor-standing figure — a large-scale human-like abstract form in matte black with two glowing orb shapes held at its torso — emitting a soft warm glow that radiates outward at waist height and below, illuminating the surrounding rug and nearby chair and wall surfaces. The palette is dark and dramatic — charcoal, raw concrete grey, warm black, muted ochre, and honey tones. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

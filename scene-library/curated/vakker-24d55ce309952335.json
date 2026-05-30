@@ -1,0 +1,37 @@
+{
+  "scene_id": "vakker-24d55ce309952335",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-24d55ce309952335.png",
+  "source_url": "https://vakkerlight.com/products/trio-travertine-ceiling-light-1",
+  "description": "A warmly atmospheric open-plan dining and living room photographed at seated eye-level height, roughly 3–4 feet off the ground, using what appears to be a normal-to-slightly-wide lens in the 28–35mm range. The composition is a centered symmetrical one-point perspective: the camera faces directly toward the stone fireplace on the back wall, with the rustic dining table running away from the viewer along the central axis, and the room's architecture receding symmetrically to left and right. The frame captures the full depth of the room from the foreground bench to the far wall, with the ceiling plane visible overhead and the left-side French door in peripheral view.\n\nThe architecture is defined by thick, hand-troweled plaster walls and ceiling in a warm sand-and-bone tone — the surface texture is visibly irregular, with slight undulation and organic variation suggesting aged lime or clay plaster. The floor is laid in large-format antique stone tiles in a muted buff-grey, worn smooth with age. Built-in open shelving flanks the fireplace symmetrically on both sides, recessed into the plaster walls with no visible trim or hardware — purely architectural cutouts. The fireplace surround is carved from pale limestone with classical but understated molding, the opening dark with soot and age. The mantel shelf holds a single small terracotta vessel and a framed abstract painting leaning casually against the wall.\n\nThe dining table dominates the foreground: a thick-planked farmhouse trestle table in heavily worn, unfinished reclaimed oak — the surface grain is open and tactile, the legs mortise-and-tenon joinery. A matching reclaimed bench sits at the near end. The table is set for four with matte, unglazed stoneware plates in a warm sand tone, paired with small ceramic cups and simple linen napkins folded loosely. At the center stands a terracotta pitcher-vase — hand-formed, in a warm burnt clay color — filled with a generous arrangement of dried olive branches with silvery-green leaves gone papery.\n\nBeyond the table, two oversized linen slipcover sofas face each other across a woven jute area rug in natural straw tones. The linen is an unbleached warm cream, the slipcovers loose and casual with the fabric slightly rumpled. A small wooden stool in rough-hewn natural wood sits beside the right sofa. A warm, soft glow emanates from a low source in the right rear corner of the room, washing gently across the sofa and adjacent shelving without hard shadows — a quiet ambient warmth pooling at low level.\n\nThe built-in shelves on both sides of the fireplace are styled with an edited collection of antique and studio pottery: large amphora forms, small footed vessels, squat bowls, and one or two taller pitchers, all in earth tones ranging from raw sienna to dark umber and pale celadon. Woven seagrass baskets sit on the lower shelves. On the right side, a few stacked books appear among the vessels. A tall dried botanical stem arrangement in a slender vase sits atop the right shelving unit. The overall density is mid — three to five objects per shelf — arranged with breathing room between groupings.\n\nNatural light enters from a tall multi-pane French door on the left wall, casting a soft diagonal shaft of warm afternoon light across the stone floor and the near edge of the jute rug. The quality of light suggests late afternoon, golden and low-angled, contributing a honeyed warmth to the already amber palette. The ceiling overhead receives a soft, diffused warm ambient glow from above.\n\nThe color palette is entirely earth tones: sand, bone, warm taupe, raw sienna, unbleached linen, and aged terracotta, with no cool notes anywhere in the frame. The mood is deeply serene — unhurried, tactile, and rooted.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "fireplace",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "seated",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

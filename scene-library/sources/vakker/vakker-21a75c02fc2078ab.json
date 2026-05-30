@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-21a75c02fc2078ab",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/bell-glass-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17787410366634.png?v=1778748969",
+  "scraped_date": "2026-05-21T12:08:54.221Z",
+  "source_title": "Bell Glass Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "21a75c02fc2078ab67cef25b69453be3e780acb9",
+  "description": "A quiet sitting room corner captured at seated eye-level, roughly three to four feet off the ground, with a normal-to-telephoto lens rendering the space with gentle compression and minimal distortion. The composition is a vignette framing of a single corner, showing two walls meeting at a right angle with no ceiling visible. The camera pitches very slightly downward, keeping the side table surface and chair arm within the lower two-thirds of the frame.\n\nThe room is built on warm, muted earth tones throughout. The walls are finished in a textured plaster, painted a soft warm cream that catches diffused daylight from a sheer linen curtain to the left. The curtains are floor-length, loosely hung, in an unbleached natural ivory that filters and softens the incoming daylight into a pale luminous wash across the left side of the scene. A soft pool of warm amber light sits on the side table surface, radiating gently upward and outward from a low source, warming the spines of the stacked books beneath it and casting a honeyed glow across the tabletop. The overall illumination of the corner is layered — diffused cool daylight from the window on the left counterbalanced by intimate warm tonality from the right.\n\nThe side table is a compact square form in medium walnut with a Craftsman or Mission-influenced silhouette — straight tapered legs, a flat apron, and a warm reddish-brown finish with visible grain. On its surface sits a small stack of two antique hardcover books in olive and burgundy cloth bindings, a ceramic stoneware mug in matte warm grey containing what appears to be coffee or tea, and a small terracotta pot holding a lush, densely-frilled Boston fern with vivid green fronds cascading over its rim.\n\nTo the right, a low-profile upholstered armchair sits in sage green woven fabric — a boxy, slightly vintage silhouette with a tufted back button detail and broad flat arms. Draped casually over the back and right arm is a chunky hand-knit throw blanket in oatmeal and cream, adding tactile warmth and informality. The chair faces loosely toward the viewer and the window.\n\nOn the upper right wall, a framed botanical print hangs in a simple natural wood frame — the illustration depicting a sprig of foliage in muted grey-green ink on cream paper, lending a quiet scholarly note to the space. The floor is not clearly visible but the overall room reads as a traditional or transitional residential interior with a softly lived-in, unhurried mood.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:49.058Z"
+}

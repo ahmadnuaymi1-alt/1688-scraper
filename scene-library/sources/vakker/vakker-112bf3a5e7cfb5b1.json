@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-112bf3a5e7cfb5b1",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/spindle-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Spindle-Alabaster-Cluster-Chandelier-_2.jpg?v=1779260179",
+  "scraped_date": "2026-05-21T12:08:32.157Z",
+  "source_title": "Spindle Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1500,
+  "height": 2000,
+  "content_sha1": "112bf3a5e7cfb5b17cf299c68f97bb032274951e",
+  "description": "A soaring double-height residential foyer photographed at standing eye-level with a wide-angle lens, composition centered on the graceful sweep of a curved staircase that arcs from the lower right foreground up and around to the upper left of the frame. The camera pitches very slightly upward — perhaps 10–15 degrees — to capture the full vertical drama of the two-story volume. The full room is visible as a wide establishing shot, with both the ground floor and the upper landing balustrade visible simultaneously.\n\nThe architecture is the dominant character here: a continuous curved wall of smooth plaster in a warm off-white sweeps the interior of the staircase's radius, meeting an elliptical ceiling opening at the top that frames the upper volume. The staircase treads are wide-plank light oak with a natural, low-sheen finish, cantilevered cleanly from the curved plaster wall with no visible support stringers. The balustrade combines a sleek matte black steel top rail with a warm wood cap and frameless glass infill panels, giving the railing a light, transparent quality that preserves sightlines across the curved run of stairs.\n\nThe flooring throughout the ground level is wide-plank light oak in a straight-lay pattern, continuous with the stair treads and unified in tone. The walls are a consistent warm white plaster with no applied moulding — clean, monolithic, and contemporary.\n\nOn the left side of the frame, floor-to-ceiling steel-framed windows in a matte black finish fill an entire two-story wall, divided into a grid of rectangular panes. Through the glass, a lush deciduous tree canopy is visible in full summer green, flooding the foyer with diffuse natural daylight that washes the floor and the curved stair wall with soft, even illumination. The exterior light reads as overcast-bright — shadowless and cool — creating a serene, gallery-like luminosity throughout the space.\n\nAt the center-right of the ground floor sits a small round side table with a solid pedestal base in a dark espresso-stained finish, topped with a white ceramic vase holding a loose arrangement of flowering branches with delicate small leaves in muted olive and cream tones. Two small books rest flat on the table surface. Behind the table, a small framed artwork — likely a photograph or print — hangs low on the plaster wall beneath the stair underside.\n\nOn the right wall of the foyer, at upper-story height, a large framed abstract artwork in a warm wood frame is prominently displayed. The piece uses a muted palette of warm sand, cream, and charcoal, with organic biomorphic forms suggesting minimalist figurative abstraction — consistent with contemporary gallery-adjacent styling. Beside it and slightly in front, a slender indoor tree in a light-colored ceramic or plaster pot grows tall with branching stems and fine small leaves in soft green, adding organic warmth against the white wall.\n\nThe overall atmosphere is serene, formal, and architecturally assured — a restrained luxury that prioritizes proportion and material quality over decorative accumulation. The palette is dominated by warm whites and natural light oak, with matte black metal as a recurring accent in the window frames, balustrade, and furniture.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "matte_black",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:28:46.417Z"
+}

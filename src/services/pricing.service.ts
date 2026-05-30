@@ -11,8 +11,8 @@
  *                                  / "bundle"), update every Variant.price +
  *                                  compareAtPrice using the multipliers and
  *                                  rounding mode from ScrapeOptions.
- *   - `roundPrice()`             — small numeric helper for the 4 rounding
- *                                  modes (".95" | ".99" | "5.00" | "none").
+ *   - `roundPrice()`             — small numeric helper for the 5 rounding
+ *                                  modes (".95" | ".99" | "5.00" | "9" | "none").
  */
 
 import { prisma } from "@/lib/db";
@@ -52,6 +52,12 @@ export function roundPrice(
     case "5.00": {
       // Round to the nearest multiple of 5, biased upward
       const rounded = Math.ceil(n / 5) * 5;
+      return rounded.toFixed(2);
+    }
+    case "9": {
+      // Round to the nearest whole dollar ending in 9 (e.g. 24.30 → 29,
+      // 33 → 29, 87 → 89). Floor at 9 so tiny prices snap up to $9.
+      const rounded = Math.max(9, Math.round((n - 9) / 10) * 10 + 9);
       return rounded.toFixed(2);
     }
     default:

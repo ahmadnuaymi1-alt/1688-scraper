@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-271c36997bdbc6ed",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-outdoor-sconces-european-style-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_381fcee0-a0e6-45c0-b7cc-33fb8a341d84.jpg?v=1773886764",
+  "scraped_date": "2026-05-21T12:04:57.397Z",
+  "source_title": "Solar Outdoor Sconces European-Style Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "271c36997bdbc6ed2e241b520afbcc427ae62dc2",
+  "description": "An exterior entryway of a white stucco home photographed at standing eye-level with a centered symmetrical composition, the camera level and facing directly toward the front door. A natural cedar wood door surround with broad flanking corbels and a substantial header beam frames a six-pane glass-paneled wooden door in warm honey-toned lumber. The stucco facade is a clean off-white, and a glimpse of grey roof soffit and blue sky appears at the top corners of the frame. Flanking the entry on either side of the door are large dark-brown terracotta-style glazed planters, roughly knee to waist height, overflowing with lush green topiaries, white-blooming low shrubs, and trailing soft-grey foliage. A concrete path leads from the base of the step to the foreground, edged by naturalistic cottage-garden plantings of silvery and green groundcover. The overall palette is warm cream, honey wood, deep brown earth, and abundant soft green and white botanical tones. The scene carries a clean, California-farmhouse warmth with a relaxed but curated landscaping sensibility. Daylight is bright and even — a midday or afternoon sun produces clean ambient illumination across the stucco face and crisp shadows beneath the door surround overhang. A warm glow emanates from inside the entry through the glazed door panels. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.100Z"
+}

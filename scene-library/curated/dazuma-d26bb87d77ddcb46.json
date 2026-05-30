@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-d26bb87d77ddcb46",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d26bb87d77ddcb46.jpg",
+  "source_url": "https://dazuma.us/products/stainless-steel-outdoor-pillar-lights-minimalist-square-light",
+  "description": "A residential terrace or elevated patio exterior photographed at standing eye-level with a normal lens, using a three-quarter angled view looking diagonally along a fence line at dusk. The fence is composed of a series of rectangular pillars in pale warm limestone or textured cream stone masonry, connected by vertical slat black powder-coated iron rails. The pillars are capped with low-profile flat-top pillar cap mounts in matte dark bronze or dark charcoal with visible recessed slots emitting a warm amber glow from the underside, illuminating the top surface of each limestone pillar cap in a warm wash and casting subtle downward light to the iron rail below. The three visible posts recede diagonally into the frame, with the near post in sharp focus and the rearmost blurred softly. A pale smooth concrete patio surface is visible at the lower left foreground edge. Behind the fence, a mature deciduous tree in full summer leaf and a cluster of white flowering shrubs are visible in the soft dusk-orange glow of the sky. The sky is a warm peach-pink and soft violet at dusk with a layered cloud formation above the horizon. The house wall behind is smooth cream plaster or stucco. The overall mood is formal, residential, and warm-twilight. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-7ead44ce6f5c2919",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7ead44ce6f5c2919.jpg",
+  "source_url": "https://dazuma.us/products/linear-pendant-light-fixtures-modern-minimalist-pendant-light",
+  "description": "A contemporary hospitality or event venue bar space photographed at standing eye-level, approximately five to six feet off the floor, using a normal lens and a centered symmetrical composition that places the bar counter perfectly center frame with the gable apex of the ceiling directly above. The ceiling structure is a dramatic pitched gable with exposed natural oak beams in a raw unfinished blond tone, the ceiling planes between them plastered smooth in bright white. Black-framed floor-to-ceiling glass doors flank the left side of the room, admitting generous bright natural daylight. The plaster back wall behind the bar is a smooth matte warm off-white. A large dramatic installation of dried floral material — preserved pampas, dried hydrangeas, and wheat-toned botanicals in dusty blush, cream, and tan — hangs suspended from the peak of the ceiling beam ridge, filling the upper center of the frame with organic softness. The bar counter itself has a grooved ribbed-panel fascia in cream painted plaster or tile, topped with a thick slab of warm terrazzo or speckled stone in off-white with warm aggregate. Behind the counter, a row of chrome beverage taps and glass vessels are visible. Five contemporary bar stools with matte black thin tubular steel frames and rounded-back bucket seats in grey boucle or wool fabric are positioned along the bar front with uniform spacing. Warm amber under-counter strip illumination washes the ribbed bar face in a low golden line. The floor is large-format polished concrete in light warm grey. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "plaster",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

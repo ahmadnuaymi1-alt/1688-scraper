@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-4ceec203b78466fa",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-4ceec203b78466fa.png",
+  "source_url": "https://vakkerlight.com/products/sliced-travertine-globe-pendant-lamp",
+  "description": "A modern California kitchen photographed at standing eye-level with a wide-to-normal lens, using a three-quarter corner composition that shows the full length of a thick-edged light oak island along its long face. The camera is slightly low and level, emphasizing the island's substantial slab edge. The island surface is dressed with a few modest objects — a round wooden bowl, a small loaf of bread on a cutting board, a few stacked books, and a simple ceramic vessel holding a slender branching stem. The island cabinetry is flat-panel light oak with no visible hardware, and the countertop is the same continuous warm-toned wood slab. The kitchen walls are finished in a smooth, hand-troweled ochre-sand plaster with very subtle texture, glowing warmly in the diffused afternoon light. Wide-plank light oak flooring runs the length of the room. At the far end of the island, a large steel-framed floor-to-ceiling window or sliding door opens to a lush green outdoor garden, flooding the back of the room with cool natural light that contrasts gently with the warm plaster wall. Three warm circular glows hang in series above the island, each casting a soft, intimate downward bloom of amber light onto the countertop. The overall mood is calm, editorial, and sun-warmed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

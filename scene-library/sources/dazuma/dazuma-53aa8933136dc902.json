@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-53aa8933136dc902",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/reading-led-eye-protecting-usb-table-lamps-creative-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/cordless-black-usb-table-lamps-mushroom-shade-task-desk.jpg?v=1768964779",
+  "scraped_date": "2026-05-21T15:52:35.512Z",
+  "source_title": "USB Table Lamps Reading LED Eye-Protecting Creative Design Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "53aa8933136dc9023a6faf91aa19c1a4c9b27aea",
+  "description": "A tidy home office or student desk scene with a light natural blonde wood desktop. The wall behind is painted a warm peach-beige, and a small printed photograph of a dramatic cloud formation is pinned or taped at an angle, its lower edge visible above the desk. On the desk surface, a stack of two journals or notebooks — one tan leather-bound and one navy — sits to the left. A white ceramic cylinder pencil cup holds an assortment of pencils, pens, and markers of varying heights. To the right, a small tan paper spiral-bound desktop calendar showing the number 5 leans against a surface. A warm amber glow at table height washes across the desk surface and the lower portion of the wall behind. The scene is organized and youthful, quietly studious. Camera is at seated eye-level using a normal lens, centered on the desk surface. Composition is a wide vignette showing the desk surface and objects against the wall. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.279Z"
+}

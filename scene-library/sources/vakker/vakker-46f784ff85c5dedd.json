@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-46f784ff85c5dedd",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/conical-travertine-wall-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Conical_Travertine_Wall_Light08.png?v=1779332095",
+  "scraped_date": "2026-05-21T12:08:26.793Z",
+  "source_title": "Conical Travertine Wall Light",
+  "source_product_type": "Wall Lamp",
+  "width": 1127,
+  "height": 1558,
+  "content_sha1": "46f784ff85c5dedd38a15889fc7a48252ee8d32e",
+  "description": "A serene, minimalist bedroom corner vignette with an artisanal organic character. The wall is smooth plaster or unpainted limewash in warm off-white, with a gentle mottled texture visible where two wall planes meet at a corner. Mounted on the wall is a wall-mounted form consisting of a terracotta-pink circular backplate, a short matte-black arm, and a tapered cone shade in speckled sand-white ceramic or concrete with a warm gold interior — casting a downward warm amber glow onto the surface below. On the floor beneath the wall-mounted form, a large rounded vessel or drum stool in heavily textured aged concrete or raw ceramic with a weathered patina acts as a nightstand. On its flat top surface rest a small stack of linen-covered books, a shallow ceramic dish, and a small stone or mineral object. To the right, the foot of a solid oak bed frame with a simple joinery-style headboard in natural pale oak is visible, dressed with a rumpled linen pillowcase and a folded throw. The floor is wide-plank reclaimed wood in a washed pale grey-white tone. Camera at seated to standing eye-level, off-center thirds composition with the wall-mount and vessel left of center and the bed at right edge, normal lens, level pitch, tight vignette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.085Z"
+}

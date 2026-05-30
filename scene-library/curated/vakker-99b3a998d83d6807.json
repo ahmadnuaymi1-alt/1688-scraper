@@ -1,0 +1,35 @@
+{
+  "scene_id": "vakker-99b3a998d83d6807",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-99b3a998d83d6807.png",
+  "source_url": "https://vakkerlight.com/products/geometric-stone-table-lamp",
+  "description": "A cozy library or living room corner photographed at seated eye-level with a normal lens in a vignette composition centered on a console table against a soft grey plaster wall. The console table is a thick slab of pale natural stone or concrete with a matte honed surface, its legs appearing solid and architectural. On the table surface sits a stack of design coffee-table books with embossed linen covers, a rough ceramic vase holding dried architectural seedpods and pampas-like blooms in warm amber tones, a pair of reading glasses resting on the books, and a worn leather-bound journal. A warm amber glow emanates from a source on the table surface, spilling softly across the books and casting gentle shadows against the plaster wall. Behind the table, a large framed abstract drawing in grey and raw umber tones hangs centred on the wall. At right, a multi-pane window frames a soft overcast garden view, admitting cool diffuse light that balances the warm table-surface glow. In the background at left, floor-to-ceiling bookshelves filled with books line the wall, and a deep olive green armchair with a forest-green throw draped over one arm occupies the corner, with a flat woven jute rug underfoot. The palette is warm taupe, grey plaster, forest green, and natural wood. The mood is scholarly and quietly lived-in. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

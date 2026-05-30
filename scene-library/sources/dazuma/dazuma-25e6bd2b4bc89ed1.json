@@ -1,0 +1,47 @@
+{
+  "image_id": "dazuma-25e6bd2b4bc89ed1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-art-deco-minimalist-wall-decor-strip-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_726e5e16-a014-4aec-b48a-1d32be8e38d9.jpg?v=1773886535",
+  "scraped_date": "2026-05-21T12:05:02.052Z",
+  "source_title": "Wall Sconces Art Deco Minimalist Wall Decor Strip Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "25e6bd2b4bc89ed15abfeeeb6295bfa15e43f0c8",
+  "description": "A formal living room corner photographed at standing eye-level with a normal lens, off-center thirds composition capturing the fireplace and the adjoining panel wall with a coffee table in the foreground. The left wall features an architectural fireplace surround clad in an oxidized copper or rust-patinated plaster surface in deep reddish-brown with metallic undertones — richly textured and dramatic. A wide horizontal linear gas fireplace with live flame is recessed into this copper wall, flanked by horizontal amber light strips above and below the firebox opening. The adjacent right wall transitions to smooth plaster in a warm cream-beige tone, articulated with wide applied moulding rectangular panels. Floor-to-ceiling dark chocolate brown velvet drapes hang at the far right background, adding depth. A long rectangular coffee table with a dark red-brown marble or marble-effect top on a matte black steel frame occupies the foreground, styled with two white taper candles in crystal holders, a green malachite or mosaic-patterned decorative box, a bronze horse head sculpture, a blue and white ginger jar vase with white garden roses and greenery, a reed diffuser, and hardcover books. A low moss-form arrangement is visible in the lower right. The herringbone wood floor partially shows beneath the textured area rug. The room is filled with warm amber and orange tones from the fireplace. Camera is at standing eye-level, off-center thirds. Mood is dramatic and romantic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting",
+      "fireplace",
+      "herringbone_floor",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.096Z"
+}

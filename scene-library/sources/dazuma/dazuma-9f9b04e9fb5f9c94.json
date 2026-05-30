@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-9f9b04e9fb5f9c94",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/portable-table-lamps-mid-century-style-usb-charger-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-outdoor-wall-lighting-portable-table-lamp-bedside-soft-illumination.jpg?v=1765522508",
+  "scraped_date": "2026-05-21T15:51:57.502Z",
+  "source_title": "Portable Table Lamps Mid-Century Style USB Charger Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9f9b04e9fb5f9c94a1a965a3136d53cf24406cd4",
+  "description": "A serene bedroom nightstand vignette photographed at seated eye-level. A low concrete or stone ledge serves as a nightstand surface, its rough-textured gray surface supporting a curated cluster of objects: a stoneware bottle vase in mottled earth brown-gray with a trailing vine of small green leaves, a small white marble or stone book resting flat beneath a dark oxblood-glazed ceramic bowl, and a matte black pencil with a brass tip. The bed is visible in the foreground lower left, dressed with a natural linen coverlet in neutral gray-white and a cream pillow. A white cushioned sofa arm or headboard extends slightly into the right side of the frame. The background wall is rough bare concrete or plaster in cool gray, with a soft warm glow washing across it from a low source at surface level, contrasting beautifully against the cool stone wall. Trailing ivy-like vines extend from the vase into the upper left. The mood is serene and modern-Japandi, with a quiet restraint in the tonal palette. Camera is at seated eye-level, roughly 3–4 feet high, with a normal lens, in an off-center thirds composition that places objects in the left-center zone. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.585Z"
+}

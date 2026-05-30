@@ -1,0 +1,119 @@
+{
+  "productId": "cmpbgqgdz013jw2ocdhixwu3o",
+  "productTitle": "中古客厅卧室床头台灯触摸充电便携灯复古创意炫彩酒吧氛围装饰灯",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-22T11:10:37.863Z",
+  "classification": "both",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "boutique-hotel-bedside",
+      "mode": "minimalist",
+      "prompt": "Square 1:1 frame of a boutique hotel suite nightstand vignette, 50mm lens at nightstand height, late evening. A deep ink-navy hand-painted wall — the warmest thing in frame is the lamp — meets a walnut night console with brass cup pulls. To the right a low channel-tufted linen headboard creeps into the frame; the secondary glow is a sliver of city window light dropping a cool blue rectangle on the herringbone oak floor beyond. On the surface beside the lamp: a single leather-bound book, a small brass travel clock, and a faceted crystal carafe of water beaded with condensation. The lamp sits at roughly the height of a seated guest's shoulder, switched ON in warm mode, soft warm 2700-3000K glow pooling on the navy wall behind. Matches the reference image exactly — ribbed tea-brown translucent shade, slim dark stem, round dark base, top touch dial visible. Palette: ink navy, walnut, unlacquered brass, parchment cream, single amber-glow accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "boutique hotel suite bedside",
+      "designStyle": "moody hospitality",
+      "wallColour": "deep ink navy",
+      "cameraAngle": "50mm nightstand-height level",
+      "timeOfDay": "late evening",
+      "accents": [
+        "walnut night console",
+        "leather-bound book",
+        "small brass travel clock",
+        "crystal water carafe",
+        "channel-tufted linen headboard"
+      ]
+    },
+    {
+      "slug": "plum-velvet-lounge-corner",
+      "mode": "homey",
+      "prompt": "Square 1:1 wide eye-level shot of a moody apartment lounge corner at night, 35mm lens framing the floor lamp at roughly three-quarters frame height between a low plum-velvet sofa and a smoked-glass coffee table. The wall is a velvety aubergine limewash that drinks the light; the secondary source is a soft hallway glow leaking around an open dark-oak doorway in the deep background, giving cool counter-tone to the lamp's warm pool. Styling beats: an aged brass tray on the coffee table holding a faceted crystal decanter and two amber lowball glasses, a draped chocolate mohair throw across the sofa arm, and dried allium stems in a tall stoneware jug on the floor beside the lamp. The lamp stands at roughly chair-arm-plus-shade height, switched ON in warm mode, soft warm 2700-3000K casting a halo on the aubergine wall. Matches the reference image exactly — ribbed tea-brown shade on slim black stem with weighted round black base. Palette: aubergine, plum velvet, smoked glass, aged brass, walnut. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "apartment lounge corner",
+      "designStyle": "modern jewel-tone glam",
+      "wallColour": "aubergine limewash plaster",
+      "cameraAngle": "35mm wide eye-level standing",
+      "timeOfDay": "night",
+      "accents": [
+        "plum-velvet low sofa",
+        "smoked-glass coffee table",
+        "crystal decanter and amber lowballs on brass tray",
+        "chocolate mohair throw",
+        "stoneware jug of dried alliums"
+      ]
+    },
+    {
+      "slug": "speakeasy-bar-counter",
+      "mode": "minimalist",
+      "prompt": "Square 1:1 frame, 50mm lens at bar-counter height, low angle looking slightly up across a slab of figured walnut bar top in a small speakeasy at night. Behind the bar a smoke-gray fluted-oak back wall lit by a low slot of warm picture-light grazing bottle silhouettes — that is the cool-distant secondary source — while the tea-shaded lamp sits in the front-right third of frame as the warmest hero glow. Styling beats kept tight: a hammered copper cocktail shaker, a single chilled coupe with a twist of lemon peel, a small slate coaster with a sprig of rosemary, all clustered low to leave breathing space around the lamp. The lamp stands at roughly the height of a seated guest's eyeline so the bulb hides behind the ribbed shade. Switched ON in warm mode, soft warm 2700-3000K, the ribbed shade fracturing the glow onto the walnut. Matches the reference image exactly — ribbed translucent tea-brown shade, slim dark stem, round dark metal base. Palette: smoke gray oak, walnut, hammered copper, citrus yellow, amber glow. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "speakeasy bar counter",
+      "designStyle": "moody hospitality / bar",
+      "wallColour": "smoke-gray fluted oak",
+      "cameraAngle": "50mm low bar-height looking up",
+      "timeOfDay": "night",
+      "accents": [
+        "figured walnut bar slab",
+        "hammered copper cocktail shaker",
+        "chilled coupe with lemon-peel twist",
+        "slate coaster with rosemary sprig"
+      ]
+    },
+    {
+      "slug": "organic-modern-reading-nook",
+      "mode": "homey",
+      "prompt": "Square 1:1 three-quarter seated view of a quiet reading nook, 35mm lens at the height of a seated reader, evening. The wall is a warm putty hand-troweled plaster that catches mottled tonal depth; the secondary light is a low stoneware table lamp on a small side table across the nook, throwing a second warm pool so the room reads layered rather than single-source. The floor lamp stands just behind and beside a low bouclé wingback chair, shade roughly at standing shoulder height. Styling beats: a draped sheepskin over the wingback, a woven seagrass basket of rolled linen throws on the wide-plank oak floor, an open hardback face-down on the chair seat, and a single curling stem of magnolia in a raw-clay floor pot. The lamp is switched ON in warm mode, soft warm 2700-3000K halo glowing against the putty plaster. Matches the reference image exactly — slim black stem, weighted round base, small tea-brown ribbed shade tilted slightly forward. Palette: warm putty, oat bouclé, raw clay, oak, sheepskin cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "reading nook",
+      "designStyle": "organic modern",
+      "wallColour": "warm putty troweled plaster",
+      "cameraAngle": "35mm three-quarter seated eye-level",
+      "timeOfDay": "evening",
+      "accents": [
+        "bouclé wingback chair",
+        "draped sheepskin",
+        "seagrass basket of linen throws",
+        "open hardback face-down",
+        "magnolia stem in raw-clay floor pot",
+        "small stoneware secondary table lamp"
+      ]
+    },
+    {
+      "slug": "mediterranean-terrace-dinner",
+      "mode": "minimalist",
+      "prompt": "Square 1:1 low seated view, 50mm lens, of a small covered Mediterranean terrace at deep blue hour. A pale lime-washed exterior wall recedes behind a round limestone bistro table; the secondary source is a soft rectangle of warm interior light spilling from an arched doorway in the far background, balancing the lamp's foreground amber pool. The portable tea-shaded touch lamp sits centered on the limestone tabletop as the hero. Tight styling: a shallow olivewood platter of fresh figs and a torn loaf, a squat terracotta water pitcher, a folded oatmeal linen napkin tied with twine. A single woven rush chair is pulled slightly out of frame at the right edge; clipped boxwood blurs at the table's back. The lamp is switched ON in warm mode at the height of the table setting, soft warm 2700-3000K, glowing visibly against the deep cobalt twilight sky beyond the arch. Matches the reference image exactly — ribbed tea-brown shade, slim dark stem, small round dark base. Palette: lime-washed cream, limestone, terracotta, olive wood, deep cobalt dusk. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "covered Mediterranean terrace",
+      "designStyle": "modern Mediterranean outdoor",
+      "wallColour": "pale lime-washed stucco",
+      "cameraAngle": "50mm low seated table-height",
+      "timeOfDay": "deep blue hour",
+      "accents": [
+        "limestone bistro table",
+        "olivewood platter with figs and bread",
+        "terracotta water pitcher",
+        "linen napkin tied with twine",
+        "rush chair",
+        "clipped boxwood"
+      ]
+    },
+    {
+      "slug": "loft-bedroom-corner",
+      "mode": "homey",
+      "prompt": "Square 1:1 three-quarter standing shot of an industrial loft bedroom corner at night, 35mm lens, the floor lamp anchoring the front-left third of the frame. The wall behind is a charcoal limewash with subtle vertical cloudiness; the secondary glow is a small filament bedside reading sconce above a low platform bed in the deeper right of the frame, layering a second warm pool so the room feels lived-in rather than single-lit. Styling beats: a chunky natural-linen duvet rumpled on the low oak platform, a square dark-leather pouf at the bed's foot, an oversized hand-thrown stoneware floor vase holding a single curling bare branch beside the lamp, and a soft jute runner underfoot. The lamp stands at roughly armchair-plus-shade height in this corner, switched ON in warm mode, soft warm 2700-3000K halo glowing against the charcoal wall. Matches the reference image exactly — slim black stem with weighted round black base, small ribbed tea-brown shade tilted slightly. Palette: charcoal, oak, dark leather, natural linen, jute. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "loft bedroom corner",
+      "designStyle": "urban industrial warm",
+      "wallColour": "charcoal limewash",
+      "cameraAngle": "35mm three-quarter standing",
+      "timeOfDay": "night",
+      "accents": [
+        "low oak platform bed with linen duvet",
+        "square dark-leather pouf",
+        "oversized stoneware floor vase with bare branch",
+        "jute runner",
+        "small filament reading sconce"
+      ]
+    }
+  ]
+}

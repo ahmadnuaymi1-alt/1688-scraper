@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-7075c61e911667f9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-pillar-lights-modern-outdoor-waterproof-gate-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wall-pillar-lights-driveway-stone-pillars-black-fence.jpg?v=1773717788",
+  "scraped_date": "2026-05-21T12:19:36.096Z",
+  "source_title": "Wall Pillar Lights Modern Outdoor Waterproof Gate Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7075c61e911667f96a6318fd88038ded61b3477d",
+  "description": "An outdoor railing and balustrade wall photographed at dusk with a dark blue-grey sky and a dense tree canopy backdrop. A series of square textured concrete or limestone pillar caps repeat in perspective recession from right foreground to left background, each pillar separated by vertical matte black iron baluster panels. The pillar caps have a rough-hewn light grey stone texture with visible aggregate. On top of each pillar cap sits a glowing lantern-style post cap that casts warm amber light through ribbed or water-patterned glass panels, illuminating each pillar surface from above. The pillars recede in sharp one-point perspective, creating a strong rhythmic pattern. The smooth light concrete walkway surface is just visible at the base. The atmosphere is crisp, formal, and dusk-quiet — the repetition of warm glowing tops against the dark iron and cool stone creates an elegant border. Camera is at standing eye-level, angled in a one-point perspective along the railing line from a position beside the nearest pillar, with a slightly telephoto compression flattening the depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.384Z"
+}

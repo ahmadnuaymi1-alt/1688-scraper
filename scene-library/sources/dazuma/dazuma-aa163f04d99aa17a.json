@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-aa163f04d99aa17a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-ceiling-light-modern-minimalist-white-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_c0753031-2c70-4a9e-9361-451966a7d9fa.jpg?v=1778838859",
+  "scraped_date": "2026-05-21T12:02:24.321Z",
+  "source_title": "Linear Ceiling Light Modern Minimalist White LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "aa163f04d99aa17a1d3a758edc8de83abf3881bd",
+  "description": "A wide establishing shot of an open-plan modern lounge or collaborative workspace, photographed at standing eye-level with a wide-angle lens around 24mm, looking diagonally across the room toward a glazed corner with floor-to-ceiling city-view windows. The composition is off-center, anchored by the far window wall on the right that floods the interior with cool daylight, revealing a downtown skyline through double-height curtain-wall glazing. The ceiling is a coffered grid of white painted panels with shallow reveals, lending a lightweight architectural texture overhead. The floor throughout is wide-plank light oak in a pale blonde finish, installed in a straight run. On the left side, a generous cream bouclé sofa and two upholstered grey lounge chairs cluster around a round travertine pedestal coffee table sitting on a light grey low-pile area rug; two stacked magazines rest on the coffee table alongside a small white potted plant. Behind the seating area, an open black powder-coated steel shelving unit spans the full left wall, loosely populated with cardboard box storage, small objects, and green potted plants. A sculptural round powder-blue sofa sits alone in the middle ground. Along the right window wall, a narrow light oak counter runs the length of the glazing, served by a row of tall natural oak bar stools with bentwood seats. Two large fiddle-leaf fig trees in white planters anchor the corners. The palette is airy and cool — cream, light grey, pale oak, soft blue — with city grey sky beyond. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "coffered_ceiling",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.660Z"
+}

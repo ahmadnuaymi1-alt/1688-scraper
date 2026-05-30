@@ -17,6 +17,7 @@ import type { ScrapedProduct, ScrapedVariant, ScrapedImage } from "@/types/produ
 import { fetch1688Description } from "./desc-fetcher";
 import { extractSkuPropsFromHtml, type SkuPropAxis } from "./sku-props-parser";
 import { parsePageState, type Bd1688Product } from "./page-state-parser";
+import { deriveHandle } from "@/lib/handle";
 
 /**
  * Variant values that signal "buyer supplies their own bulb" — packaging quirk
@@ -341,10 +342,11 @@ function buildScrapedProduct(
   const description = buildDescriptionHtml(descriptionHtml);
   const tags = buildTags(p);
 
-  // Title is Chinese — slugify strips it to garbage. Use offer ID as the
-  // stable handle; downstream translation can regenerate from English title.
-  const slugCandidate = slugify(p.title);
-  const handle = slugCandidate.length >= 3 ? slugCandidate : `offer-${p.offerId}`;
+  // Title is Chinese at scrape time — slugify produces empty or short ASCII
+  // fragments. Use the shared deriveHandle helper so the slug behavior is
+  // identical here, in the PATCH route, and in the title-rule applier; offerId
+  // is the per-product fallback for short / empty slugs.
+  const handle = deriveHandle(p.title, `offer-${p.offerId}`);
 
   const result: ScrapedProduct = {
     sourceUrl,

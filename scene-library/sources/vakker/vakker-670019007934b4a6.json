@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-670019007934b4a6",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/woven-drum-globe-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Woven_Drum_Globe_Pendant_Lamp__13.jpg?v=1779299051",
+  "scraped_date": "2026-05-21T12:08:31.163Z",
+  "source_title": "Woven Drum Globe Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 1200,
+  "height": 1500,
+  "content_sha1": "670019007934b4a6ca57fe60ee99d87c9cca3b44",
+  "description": "A fresh, feminine bedroom or sitting room corner photographed at standing eye-level with a normal lens in an off-center thirds composition. The camera is positioned to show the corner junction of two smooth, warm cream-white walls. In the lower left of the frame, a low mid-century-inspired sideboard or dresser in warm cognac-orange lacquered wood holds a neat stack of blush pink gift boxes, a small brass arch-form decorative object, and an art book. Above the dresser at the left edge, the lower portion of a tall, narrow framed abstract artwork is visible — soft watercolor-like peach, coral, and blush forms on a white ground. The walls are smooth plaster in a warm cream-ivory tone. Gentle ambient light washes evenly across the ceiling and walls, contributing to a soft, luminous atmosphere. A warm milky-white glow emanates from the spherical element of the hung piece and spreads a soft pool of golden light downward onto the sideboard surface. The pulled brass chain detail hanging from the globe adds an unusual artisanal charm. The overall palette is creamy white, blush, cognac, and brass — a warm, Parisian-inflected feminine aesthetic. The mood is romantic, playful, and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.117Z"
+}

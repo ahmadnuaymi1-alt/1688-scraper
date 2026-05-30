@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-c26e6bde84f01ba9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-wall-mount-light-led-waterproof-garden-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-lantern-brick-wall-outdoor-wall-mount-light-led.jpg?v=1775700553",
+  "scraped_date": "2026-05-21T12:03:55.288Z",
+  "source_title": "Outdoor Wall Mount Light LED Waterproof Garden Decorative Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c26e6bde84f01ba9969df7f312f2fdfe8f4d652f",
+  "description": "A dusk residential exterior vignette photographed at standing eye-level with a telephoto lens, tightly framing a section of a home's natural stone facade in a vignette composition that places the wall-mounted outdoor unit at center. The wall is constructed of large-format split-face limestone blocks in silver-grey and cream tones with irregular coursing — a modern craftsman masonry aesthetic. A matte black rectangular box-frame outdoor wall unit is mounted flush to the stone surface; within its frame, a small suspended teardrop-form ribbed glass diffuser emits a warm amber glow, visible even in the twilight conditions. The warm amber glow washes softly downward and across the stone wall surface, picking up the texture of the limestone's irregular face. In the background, slightly out of focus, a modern house facade continues — grey board-and-batten siding with large black-framed windows glowing warmly from within. Autumn foliage in orange and russet tones fills the foreground lower left, with green shrubs to the right. The evening sky behind the house is a soft pearl blue. The overall character is calm, new-American-craftsman residential exterior at the onset of night. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.772Z"
+}

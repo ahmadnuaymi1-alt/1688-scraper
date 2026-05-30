@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-20a40a4146f6b4a7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-patio-floor-lamps-led-vintage-landscape-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-outdoor-patio-floor-lamps-potted-plants-seating-area.jpg?v=1766225919",
+  "scraped_date": "2026-05-21T15:51:57.069Z",
+  "source_title": "Outdoor Patio Floor Lamps LED Vintage Landscape Minimalist Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "20a40a4146f6b4a718931f15421c76d319467dbf",
+  "description": "An outdoor terrace patio photographed at standing eye level with a normal lens, framing a centered three-quarter composition with a light beige large-format tile wall as the primary backdrop. The terrace floor is matching beige limestone-look tile in a running bond pattern. The large tile wall has visible grout lines and a clean, modern hotel-lobby quality. To the upper left, a large glossy-leafed tropical plant — likely a Ficus or rubber tree — extends its dark green branches into the frame with bold graphic leaves catching warm side light. To the right, a woven resin-rattan outdoor lounge chair in greige sits beside a teak outdoor dining table and dining chairs visible in the background. Through a glazed door or window opening at the upper right, a warmly lit interior space is partially visible. A warm downward glow radiates from the top of the standing light source, washing the beige tile wall with a circular pattern of warm amber illumination and casting a pool of warmth across the terrace floor at the base. The mood is serene, resort-like, and sophisticated. The palette is beige stone, matte black metal, dark green foliage, and warm amber glow. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.068Z"
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-6598f16fde7fb715",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-floor-lamp-decor-wedding-decor-stage-t-stage-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/rose-gold-floor-lamp-decor-garden-wedding-aisle-lamp.jpg?v=1777086398",
+  "scraped_date": "2026-05-21T12:04:28.680Z",
+  "source_title": "4 PCS Floor Lamp Decor Wedding Decor Stage T-Stage Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6598f16fde7fb7155089da01db0fa0d6d8438fe2",
+  "description": "A romantic outdoor wedding ceremony aisle in a lush garden setting, photographed in warm dappled daylight. A central lawn aisle leads the eye in one-point perspective toward a grand floral arch at the far end — a full circular arbor densely wreathed in blush pink and cream garden roses, white hydrangeas, and trailing greenery, set against a backdrop of mature deciduous trees with dense green canopy. The grass path is strewn with scattered white and blush rose petals along its length. On either side of the aisle, rows of natural wood cross-back or folding garden chairs are arranged for guests, their warm honey-toned wood visible in receding perspective. At the aisle edge on both sides, full bouquets of white hydrangeas and blush roses are placed at chair level. Two carved limestone or white stone classical bust sculptures on tall square pedestals flank the entrance to the arch, adding an antiquarian garden-estate quality. Dense floral clusters of white hydrangea and blush roses are arranged on the ground level at the base of the pedestals. Overhanging tree branches with dappled leaf canopy frame the upper corners of the composition. The scene is saturated with warm garden greens, blush pinks, cream whites, and warm wood tones. Two branching floor-standing structures with multiple glowing warm white globe lights are positioned symmetrically on both sides of the aisle at mid-ground, their warm globular illuminations catching the eye in the soft garden light. Camera is at standing eye-level, shooting a centered one-point perspective straight down the aisle axis toward the floral arch. Wide to normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.339Z"
+}

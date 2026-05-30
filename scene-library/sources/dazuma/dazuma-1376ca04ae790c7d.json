@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-1376ca04ae790c7d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-bollard-path-lights-waterproof-outdoor-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-bollard-path-lights-modern-warm-illumination-patio.jpg?v=1774836292",
+  "scraped_date": "2026-05-21T12:04:08.479Z",
+  "source_title": "LED Bollard Path Lights Waterproof Outdoor Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1376ca04ae790c7dfb11d6b7f561df61b9bb30bb",
+  "description": "A modern suburban residential backyard photographed at dusk from a standing eye-level with a wide lens, capturing a wide establishing view of the garden and house. Two sleek cylindrical path bollard lights on thin metal stems are positioned in the lawn foreground, each casting a soft downward pool of warm amber light onto the dark green grass and clipped low shrubs below them. The lawn is lush and well-kept, with large boulders and rounded garden shrubs providing naturalistic landscaping. Beyond the lawn, a contemporary house is visible — light painted render or limestone exterior with a gray roofline, a deck or terrace with a glass and metal railing, and a covered porch area with warm amber light emanating from within, silhouetting two wicker lounge chairs. Mature deciduous trees fill the background against a soft dusk sky fading from pale peach at the horizon to deep blue-gray overhead. A neighboring house and parked cars are dimly visible through the trees at the far left. The mood is peaceful, suburban, and cleanly modern. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.019Z"
+}

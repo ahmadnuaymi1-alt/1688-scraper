@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-16704a2ef272ed40",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-16704a2ef272ed40.jpg",
+  "source_url": "https://dazuma.us/products/led-wall-reading-light-minimalist-bedside-metal-lamp",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level, roughly 3–4 feet high, with a normal lens and an off-center thirds composition. The camera is positioned to the left of the nightstand, angled slightly to capture the right portion of the bed and the full nightstand arrangement in a three-quarter view. The accent wall behind the headboard is painted a deep warm chocolate brown — a rich, earthy tone that absorbs light and anchors the space with depth. Against this dark wall, a directional warm beam of light emanates from a mounted position high on the wall, creating a distinct conical pool of warm amber illumination that falls across the upper headboard panel and fades softly into the dark wall around it. The headboard is a tall floor-to-ceiling upholstered panel in light grey linen-textured fabric with vertical channel tufting — refined and architectural in scale. The bed itself is dressed in crisp white cotton bedding with a charcoal grey accent pillow and a chunky sage-green knit throw folded across the foot. The nightstand is a small round-drum form in dark walnut with a satin finish and two small drawers with slim brass bar pulls — compact and elegant. On the nightstand surface sit a clear drinking glass with water and a matte white ceramic bud vase holding a few stems of dried eucalyptus with dusty green leaves. A matte black rocker-switch wall plate is mounted on the headboard panel at bedside-control height. The corner of the adjacent white-painted wall is visible at the far right edge. The mood is quiet, contemporary, and warmly restrained. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

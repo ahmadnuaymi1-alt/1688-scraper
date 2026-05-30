@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-6675f8634c8b9bb6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/swing-arm-wall-mount-light-modern-flexible-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_a4f375b8-c630-4372-bd1f-4c6797a7cd6f.jpg?v=1778838723",
+  "scraped_date": "2026-05-21T12:02:27.232Z",
+  "source_title": "Swing Arm Wall Mount Light Modern Flexible LED Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6675f8634c8b9bb642d8a8e7caa2624cf25b865b",
+  "description": "A contemporary café or restaurant dining area featuring a run of upholstered banquette booths arranged along a smooth white plaster wall. Each booth unit is framed in natural light oak wood with a two-tone upholstery scheme: a tall cream linen back panel with a contrasting cognac leather center stripe, and olive green textured fabric seat cushions. The booth bases are dark walnut-stained wood. Individual light oak dining tables on cream pedestal bases with small brass foot discs are positioned within each booth. Small narrow focused beams of warm light rake down from three evenly-spaced positions along the wall above the booths, highlighting the tabletops and back cushions with precise directional illumination. The wall above the booths is smooth matte white plaster, and the floor is a large-format pale warm grey porcelain tile. The corner of the room is visible at the right edge. The overall scene has a refined, current Parisian brasserie or Scandinavian café aesthetic — clean, warm, and materially rich without being heavy. Camera is at standing eye-level, shooting a one-point perspective down the length of the booth wall with the corner visible at the right, capturing three booth bays receding in a mild forced perspective. Mood is casual yet polished. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.347Z"
+}

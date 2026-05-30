@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-f3e864e972021144",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ins-style-cordless-mushroom-table-lamp-creative-design-portable-atmosphere-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/luxury-style-cordless-mushroom-table-lamp-marble-table.jpg?v=1760000335",
+  "scraped_date": "2026-05-21T15:52:42.952Z",
+  "source_title": "Cordless Mushroom Table Lamp INS-style Portable Atmosphere Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f3e864e9720211443c030d3aa3ceb95a573093d1",
+  "description": "A sitting room vignette photographed at standing eye-level with a normal lens, framing a small round accent table against a corner where two walls meet. The walls are a smooth, muted light grey with a slightly warm undertone, bare and clean. To the left, sheer white curtain fabric from an off-frame window allows soft diffused natural daylight to filter evenly across the scene. The table is a small round side table with a white Italian Carrara marble top, showing soft grey veining, and a slender geometric hairpin base in brass or antique gold. On the marble surface, three styling objects accompany the central glowing piece: two dark antique leather-bound hardcover books stacked together on the left, a small white painted frame leaning against the wall holding a text print in minimal black type, and a tiny dark bronze sculptural figurine — a small crouching figure object. The central glowing piece is a table-height decorative object with a round faceted crystal-clear textured glass drum shade, a white cylindrical stem, and a polished rose-gold to gold trumpet-flare base. Warm amber-gold light radiates softly from within the crystal glass drum and pools on the marble table surface and the adjacent wall. The mood is refined, Parisian, and softly glamorous. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.980Z"
+}

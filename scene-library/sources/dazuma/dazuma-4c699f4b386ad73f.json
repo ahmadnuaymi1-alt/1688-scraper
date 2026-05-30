@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-4c699f4b386ad73f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-minimalist-crystal-flush-mount",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-crystal-flush-mount-ceiling-lights-round-hallway-minimalist-decor.jpg?v=1769996360",
+  "scraped_date": "2026-05-21T12:19:57.401Z",
+  "source_title": "Modern Minimalist Crystal Flush Mount",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > Crystal Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "4c699f4b386ad73f69424ebd55f7a5dc382d6a45",
+  "description": "A minimal room corner photographed from a low angle looking upward at approximately 30 degrees, with a normal lens capturing the ceiling and upper walls in a three-quarter corner composition. The walls are smooth matte white plaster, and the ceiling is white. The corner where the two walls meet is clean and crisp. A recessed cove channel runs along the ceiling-wall junction on one side, from which a narrow warm amber strip of light glows continuously, washing a soft, even uplight across the ceiling plane and creating a warm halo effect in the room corner. On the left wall, a deep-set window with white painted reveals and a black venetian blind is partially visible, with a muted urban view through the glass suggesting a city context. The scene is intentionally sparse — no furniture, no decorative objects — the entire visual interest is the interplay between the crisp architectural geometry and the warm cove illumination. The palette is purely monochromatic: warm white walls, cool daylight from the window, warm amber cove glow. The mood is serene, minimal, and cleanly modern. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.257Z"
+}

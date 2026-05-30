@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-6602a9832efcdd49",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solid-wood-table-lamps-american-retro-full-spectrum-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solid-wood-stacked-lamp.jpg?v=1777103384",
+  "scraped_date": "2026-05-21T15:52:13.422Z",
+  "source_title": "Solid Wood Table Lamps American Retro Full-Spectrum Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6602a9832efcdd49dac83b4f0c3aa6e1cba55721",
+  "description": "A living room side-table vignette photographed at seated eye-level with a normal lens, centered on a fluted cylindrical side table in pale light oak. The table sits between two rounded cream boucle armchairs, which flank the composition on both sides with their generous armrests and soft upholstery cropped at the edges. The right chair carries a small plaid throw in warm caramel. A warm amber glow emanates from the table surface, softly illuminating the surrounding chairs and casting warm light upward against the wall. The background wall is flat plaster in cool warm grey-white, and a hint of a curtain appears at the upper right in a warm linen tone. The palette is almost entirely warm cream, ivory, and golden honey-brown, with the dark walnut geometric stacked sculptural element on the side table providing the only dark visual anchor. The mood is serene and richly textural — a quiet California modern living room with significant warmth. The scene is lit primarily by the warm table-level source with background ambient light providing a soft fill. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.342Z"
+}

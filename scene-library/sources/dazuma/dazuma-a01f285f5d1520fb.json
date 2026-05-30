@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-a01f285f5d1520fb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/cylinder-wall-sconce-modern-solid-copper-cloud-stone-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_932efe6a-427e-4138-b833-d54b27ba7ac3.jpg?v=1773886503",
+  "scraped_date": "2026-05-21T12:19:32.503Z",
+  "source_title": "Cylinder Wall Sconce Modern Solid Copper Cloud Stone Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a01f285f5d1520fb6cddc7200b0852e522fdee89",
+  "description": "A formal European-style living room vignette photographed at standing eye level with a normal-to-telephoto lens, framing the right half of a media-and-console wall with a close, off-center composition. The camera is at approximately five feet, level, focused on the wall surface and the console surface below it.\n\nThe wall is clad entirely in tall applied panel moulding in a classic French Haussmann or Neo-Classical style — deep rectangular coffers with layered ogee moulding profiles in a warm off-white or light greige finish. The moulded fields extend full height and are evenly proportioned, giving the surface an almost architectural, three-dimensional relief. A flat-screen TV mounted flush within the left moulding field is visible in the upper-left corner, its black glass surface creating a dark graphic rectangle within the cream paneling.\n\nBelow the paneled wall, a wide console or TV cabinet surface is wrapped in a spectacular book-matched marble slab with bold swirling golden, brown, and cream veining in dramatic diagonal flows — likely Calacatta or Fantasy Brown marble. A warm LED strip concealed beneath the console lip emits a soft horizontal amber glow along the full floor-level front of the console, creating a floating ambient effect. The console surface holds two objects: a sculptural abstract circular bronze-tone ring-on-base kinetic sculpture on the left, and a small cluster of four upright hardcover books with typographic spines on the right.\n\nThe overall palette is warm greige, cream, gold, and marble brown — a formal, gallery-quality European interior at quiet evening.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "mixed",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.589Z"
+}

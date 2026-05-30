@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-ea285701e281af0c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gold-wall-light-fixtures-brass-natural-marble-luxury-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/linear-gold-wall-light-fixture-brown-leather-sofa_cbe46481-b002-4ed5-bcfe-82d625be98b2.jpg?v=1777448882",
+  "scraped_date": "2026-05-21T12:03:27.937Z",
+  "source_title": "Gold Wall Light Fixtures Brass Natural Marble Luxury Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Linear Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ea285701e281af0c5ca45a8dc50fd24b6850268b",
+  "description": "A warm, earthy living room photographed at standing eye-level with a normal lens in an off-center thirds composition, showing the sofa and accent wall in intimate framing. The walls are finished in rough-troweled warm sand plaster — a natural, slightly textured surface in a bone-white to greige tone that catches the warm light with gentle variation. The floor is wide-plank medium-dark walnut hardwood with visible grain. A large sectional sofa in cognac saddle leather with a low profile and clean modern silhouette dominates the foreground, its left chaise extending forward. The sectional is dressed with two linen throw pillows in warm grey and sage-khaki. A substantial dark-walnut coffee table with a solid block plinth-like form sits before the sofa, holding a stack of two books and a tall textured white ceramic vase containing a sparse dried botanical stem arrangement. To the far left, near a window draped in dark chocolate-brown velvet curtains, a large tree — possibly an olive or a multi-branched indoor specimen — grows in a dark grey matte planter, its leafy branches softening the corner. Diffused warm natural light filters in from the left window. On the back wall above the sofa, a warm amber glow radiates softly from a tall wall-mounted source, spreading a golden wash across the plaster surface and creating a luminous focal point that anchors the composition. A natural jute or sisal rug in sandy beige grounds the seating zone. The palette is cognac leather, warm sand plaster, dark walnut, amber, and sage green. The mood is romantic, earthy, and deeply warm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.939Z"
+}

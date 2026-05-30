@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-2b381945adfc07ee",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2b381945adfc07ee.jpg",
+  "source_url": "https://dazuma.us/products/luxury-full-copper-glass-flush-mount",
+  "description": "A luxurious formal bedroom photographed at standing eye-level with a centered symmetrical composition, the camera level and looking directly at the bed and feature wall. The wall behind the bed is a deep charcoal grey-blue, articulated with full-height raised rectangular panel moulding in the same dark paint — a stately neoclassical panelled wall treatment. The ceiling is a contrasting smooth white with a simple crown moulding line at the junction with the wall. The floor is a warm medium-toned oak parquet in herringbone or straight-lay planks, partially covered by a large flat-weave light grey area rug. The bed is an upholstered king in deep midnight navy blue velvet, diamond-tufted, with a tall padded headboard. The bedding is layered in cool greys and warm champagne linen. Throw pillows include terracotta burnt orange velvet, taupe, and muted gold tones. A matching tufted bench in navy velvet with a polished brass X-frame base sits at the foot of the bed. On either side of the bed, small geometric side tables in polished brass with open lattice or faceted geometric frames serve as nightstands. The ceiling position bathes the space with warm golden-white ambient illumination, which reflects softly off the polished brass side tables. The palette is deep navy, charcoal grey, warm brass-gold, grey, and terracotta accent. The mood is dramatic, romantic, and formally opulent. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "flush_mount",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

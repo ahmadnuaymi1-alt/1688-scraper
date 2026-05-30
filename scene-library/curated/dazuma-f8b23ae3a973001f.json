@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-f8b23ae3a973001f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f8b23ae3a973001f.jpg",
+  "source_url": "https://dazuma.us/products/french-vintage-walnut-colored-acrylic-table-lamp-artistic-atmosphere-light",
+  "description": "A close-up vignette of a dark walnut side table or nightstand surface, photographed tight to isolate a carefully arranged styling moment. The rich warm-brown walnut surface hosts a stack of two large coffee table books — a white-spine 'LOEWE' volume on top and a 'Impressionist Art' book beneath. On top of the book stack sits a sculptural decorative object with a ring of upward-pointing cut-glass spikes arranged in a crown form around a circular wooden disc base with a small spherical wooden finial at center, glowing with warm amber internal illumination. The warm light spills softly onto the book covers and table surface below. In the background, slightly out of focus, a framed portrait photograph in a simple white mat leans against the warm beige plaster wall — the photograph is a black-and-white or color portrait of a person in warm tones. To the right, the curved chrome or nickel arm of an off-frame piece is barely visible, suggesting a bedside or sitting room context. Camera at seated-to-standing eye-level, very close telephoto vignette shot, looking slightly down at the surface, off-center composition with the book stack centered and the portrait background soft. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

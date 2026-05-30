@@ -1,0 +1,123 @@
+{
+  "productId": "cmph9kvuf00muw20gqmtk0bc0",
+  "productTitle": "客厅卧室灯新款主卧客厅吸顶灯led全光谱护眼北欧房间儿童房灯具",
+  "authoredBy": "in-chat patch — explicit per-variant colour (neutral white 4000K, derived from variant ref LED), soft-light closer reverted",
+  "authoredAt": "2026-05-23T11:30:00.000Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "round-nursery-reading",
+      "mode": "homey",
+      "prompt": "A child's reading-and-sleep bedroom shot on a 35mm lens at standing eye-level, slightly tilted up so the round flush-mount sits in the upper third of a 1:1 frame above a low pale-oak daybed. Late afternoon: golden window light rakes across a soft butter-yellow plaster wall through white-painted divided-light windows, while a small fabric-shade table lamp glows on a wicker nightstand for a layered second source. Style the bed with a ticking-stripe quilt, a chunky knit throw at footboard, two well-loved cloth-bound storybooks, a carved wooden bird figurine, and a single potted geranium on the sill — about head height of the seated child. The ceiling light matches the reference image exactly: a slim round white drum with the soft scalloped trim arc and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of butter yellow, cream, pale oak, soft sage, brushed brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "child's bedroom",
+      "designStyle": "soft contemporary nursery",
+      "wallColour": "butter-yellow plaster",
+      "cameraAngle": "35mm standing eye-level tilted up",
+      "timeOfDay": "late afternoon golden hour",
+      "accents": [
+        "pale-oak daybed",
+        "ticking-stripe quilt",
+        "cloth-bound storybooks",
+        "carved wooden bird figurine",
+        "potted geranium",
+        "wicker nightstand with small fabric-shade lamp"
+      ]
+    },
+    {
+      "slug": "square-kitchen-breakfast",
+      "mode": "homey",
+      "prompt": "A small apartment breakfast kitchen captured on a 35mm lens at standing eye-level, looking diagonally into the corner so the square flush-mount anchors the upper-left of a 1:1 frame above a compact Calacatta-marble peninsula. Mid-morning sunlight pours through a steel-framed casement at right, with a small brass picture light glowing softly over a recipe-board for the second source. Style the peninsula with a stoneware fruit bowl of pears and clementines, a folded waffle-weave tea-towel, a moka pot on a slate trivet, and a glass jar of fresh rosemary; reeded white-oak cabinets line the back wall under a warm clay-pink limewash. The ceiling light matches the reference image exactly: square white frame with the soft curved scalloped trim band and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of clay-pink, cream, warm oak, marble white, brushed brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "breakfast kitchen",
+      "designStyle": "warm transitional cottage",
+      "wallColour": "clay-pink limewash plaster",
+      "cameraAngle": "35mm standing eye-level into corner",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "Calacatta-marble peninsula",
+        "moka pot on slate trivet",
+        "stoneware fruit bowl of pears and clementines",
+        "jar of fresh rosemary",
+        "waffle-weave tea-towel",
+        "small brass picture light"
+      ]
+    },
+    {
+      "slug": "rectangle-living-room",
+      "mode": "homey",
+      "prompt": "A spacious primary living room shot on a 35mm lens, camera at standing eye-level, slightly off-centre so the long rectangular flush-mount runs across the upper third of a 1:1 frame parallel to a low linen sofa. Early evening dusk: deep navy sky shows through tall steel-framed casement windows behind sheer linen drapes, while a slim arched brass floor lamp glows beside the sofa as a second source. Style with a travertine drum coffee table, a footed brass dish of figs, a stack of three hardback design books with a small carved soapstone object on top, a chunky bouclé throw casually folded, and a tall raw-clay floor vessel holding a single magnolia branch beside the sofa. The ceiling light matches the reference image exactly: long rectangular white frame with the gentle curved trim arc and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of warm cream, oat linen, walnut, travertine, brushed brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "primary living room",
+      "designStyle": "warm organic modern",
+      "wallColour": "warm cream limewash plaster",
+      "cameraAngle": "35mm standing eye-level off-centre",
+      "timeOfDay": "early evening dusk",
+      "accents": [
+        "oat-linen low sofa",
+        "travertine drum coffee table",
+        "footed brass dish of figs",
+        "carved soapstone object on design books",
+        "raw-clay floor vessel with magnolia branch",
+        "arched brass floor lamp"
+      ]
+    },
+    {
+      "slug": "round-study-desk",
+      "mode": "minimalist",
+      "prompt": "A compact home study captured on a 50mm lens at seated desk-height, slightly elevated so the round flush-mount centres in the upper portion of a 1:1 frame above a white-oak floating desk. Quiet morning light filters through a single sage-curtained window at frame-right, with a slim brass desk lamp throwing a focused glow onto an open leather sketchbook for the second source. Tight 30% framing — only three styled objects: a stoneware mug of tea, a graphite pencil resting in the sketchbook fold, and a small celadon bud vase holding a single dried wheat sprig. The wall is a sage-green limewash with a single framed botanical print leaning at floor-line, oak floor visible at the bottom edge. The ceiling light matches the reference image exactly: slim round white drum with soft scalloped trim arc and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of sage green, pale oak, cream, soft graphite, brushed brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "home study",
+      "designStyle": "Japandi warm minimal",
+      "wallColour": "sage-green limewash",
+      "cameraAngle": "50mm seated desk-height slightly elevated",
+      "timeOfDay": "morning",
+      "accents": [
+        "white-oak floating desk",
+        "leather sketchbook with graphite pencil",
+        "stoneware mug of tea",
+        "celadon bud vase with dried wheat",
+        "leaning framed botanical print",
+        "brass desk lamp"
+      ]
+    },
+    {
+      "slug": "square-hallway-passage",
+      "mode": "minimalist",
+      "prompt": "A long apartment hallway captured on a 35mm lens at standing eye-level, dead-centre down the depth axis so the square flush-mount sits mid-frame in the upper third of a 1:1 composition, leading the eye to a black-framed divided-light door at the vanishing point. Late evening: deep dusk visible through the door's glass, a small wall sconce halo on the side wall provides the second light source. Tight styling — a slim walnut console at midground with one tall stoneware vase holding three bare cherry branches and a single woven jute runner under foot. Walls are a warm taupe limewash; oak plank floor recedes. The ceiling light matches the reference image exactly: square white frame with curved scalloped trim band and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of warm taupe, walnut, oat, charcoal accents, soft brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "long apartment hallway",
+      "designStyle": "quiet luxury contemporary",
+      "wallColour": "warm taupe limewash",
+      "cameraAngle": "35mm standing eye-level down-corridor depth axis",
+      "timeOfDay": "late evening dusk",
+      "accents": [
+        "slim walnut console",
+        "tall stoneware vase with bare cherry branches",
+        "woven jute runner",
+        "black-framed divided-light door",
+        "small wall sconce"
+      ]
+    },
+    {
+      "slug": "rectangle-primary-bedroom",
+      "mode": "homey",
+      "prompt": "A primary bedroom shot on a 35mm lens at standing eye-level, slightly tilted up so the long rectangular flush-mount runs across the upper third of a 1:1 frame, centred above a wide channel-tufted linen headboard. Late evening: a deep mulberry-aubergine accent wall envelopes the headboard wall, plantation-shuttered windows are nearly closed, and a pair of small alabaster bedside lamps cast a warm pool for the second source. Style with walnut nightstands holding a folded face-down hardback and a porcelain trinket dish, a draped mohair throw at the foot of the bed, a small footed compote of pomegranates on one nightstand, and a low stoneware jug of dried pampas plumes on the floor at frame-left. Oak plank floor with a soft wool flatweave at footboard. The ceiling light matches the reference image exactly: long rectangular white frame with gentle curved trim arc and flat opal diffuser, switched ON, neutral white 4000K (matches the clean white LED clearly shown in the variant reference). Palette of mulberry-aubergine, cream linen, walnut, soft pomegranate red, brushed brass — sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "primary bedroom",
+      "designStyle": "jewel-tone romantic modern",
+      "wallColour": "mulberry-aubergine limewash accent",
+      "cameraAngle": "35mm standing eye-level tilted up",
+      "timeOfDay": "late evening",
+      "accents": [
+        "channel-tufted linen headboard",
+        "walnut nightstands",
+        "folded mohair throw",
+        "footed compote of pomegranates",
+        "stoneware jug of dried pampas",
+        "pair of alabaster bedside lamps"
+      ]
+    }
+  ]
+}

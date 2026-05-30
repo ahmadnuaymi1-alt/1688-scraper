@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-aa8573fb2a1172d3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-aa8573fb2a1172d3.jpg",
+  "source_url": "https://dazuma.us/products/chandelier-lighting-crystal-all-copper-postmodern-luxury-ceiling-light",
+  "description": "A formally composed, centered symmetrical view of a grand foyer or hotel-lobby-style entrance hall, photographed at standing eye-level with a normal lens, camera level and aligned precisely on the room's central axis. The architecture is the defining character of the space: a barrel-vaulted ceiling in smooth white plaster arches overhead, its concave surface washed with a soft diffuse warm glow emanating from a hidden cove at the crown transition, emphasizing the vault's geometry. The walls are paneled in a refined system of tall rectangular fields framed in fine black metal reveals set against cream-white lacquered or plaster panels, giving the interior a precise, high-fashion sensibility. Two arched niche openings flank a central recessed arch behind the console, each niche softly warmed from within by unseen light sources that cast a gentle amber glow. The floor is polished black granite or dark stone tile with a high-gloss mirror-like reflection. A dramatic ebonized console table with a turned pedestal base and a circular top bearing a classical diamond-pattern edge stands as the focal point of the room, supporting an enormous branching white cherry-blossom arrangement in a low dark glazed ceramic vessel — the blooms radiating outward in an extravagant cloud of white. Warm light rakes across the side walls, creating subtle pools on the paneling. The mood is formal, grand, quietly theatrical. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

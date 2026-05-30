@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-6f86b44f40628e04",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-wall-sconce-lighting-outdoor-european-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_d3fbfa4c-f942-4257-9b66-169b1b8d3e57.jpg?v=1773806032",
+  "scraped_date": "2026-05-21T12:19:47.835Z",
+  "source_title": "Retro Wall Sconce Lighting Outdoor European Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6f86b44f40628e04ae8489cb1747a9d5194200be",
+  "description": "A Spanish Colonial or Mediterranean exterior entry portico at blue dusk. The entry is constructed from rough-cut cream limestone blocks with deeply textured coursing, forming a gabled arch portico with exposed natural wood beam rafters at the roofline. A tall black steel arched double door with a sunburst pattern of multi-pane glass fills the center of the archway, offering a warm amber view into a bright interior living space beyond — a sofa and chairs are visible through the glass. Large stone steppers set in decomposed granite and gravel lead from the right foreground to the door. The low-growing desert landscaping includes agave, sparse groundcover, and a gnarled olive tree whose branches reach in from the upper left. A large natural boulder sits at the left foreground. Warm amber light emanates from both sides of the door portal, glowing against the cream limestone and casting golden pools on the entry threshold and ground. The blue-to-lavender dusk sky forms a soft backdrop. The atmosphere is serene, Mediterranean, and quietly dramatic. Camera is at standing eye-level, centered, with a wide establishing view of the full portico facade and entry path. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall",
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.377Z"
+}

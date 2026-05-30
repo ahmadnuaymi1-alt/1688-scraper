@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-276a25071924e7b8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/oversized-chandeliers-modern-chip-shaped-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-oversized-chandeliers-spacious-bedroom.jpg?v=1776391525",
+  "scraped_date": "2026-05-21T12:03:35.986Z",
+  "source_title": "Oversized Chandeliers Modern Chip-Shaped Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "276a25071924e7b84e14c5daba1c9727001d1278",
+  "description": "A spacious primary bedroom photographed at standing eye-level with a wide establishing composition, the camera slightly elevated and looking straight down the central axis of the room toward a large picture window. The ceiling is a dramatic vaulted cathedral form with a central ridge beam and matching paired exposed beams in a grey-washed oak finish running down both sides, all against smooth white plaster. The walls and ceiling are a consistent warm white. The floor is wide-plank light oak hardwood in a natural tone. The bed is upholstered in a tufted linen-colored fabric with a tall headboard, dressed in layered cream, ivory, and taupe bedding with an assortment of textured knit and stripe throw pillows in greige and taupe tones. At the foot of the bed sits a dark espresso-stained wood bench holding a round woven tray. Beyond the bed, two low upholstered swivel chairs in cream bouclé flank a small walnut side table in a seating area placed in front of the window. A dark-stained chest of drawers with metal hardware occupies the right wall, topped with a vase of dark leafy branches. Floor-length linen drapes in pale sand frame the window, which looks out to a lush green garden and pool. A warm ambient glow falls generally across the ceiling and upper walls. The overall palette is warm white, grey-washed wood, espresso, cream, and taupe — serene and luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.103Z"
+}

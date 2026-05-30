@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-da2fbdf4266b7bee",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-da2fbdf4266b7bee.jpg",
+  "source_url": "https://dazuma.us/products/gold-lantern-chandelier-american-vintage-iron-ceiling-light",
+  "description": "A warmly characterful farmhouse kitchen bathed in bright morning light. The shiplap ceiling is painted crisp white, intersected by a thick hand-hewn reclaimed wood beam running horizontally just above the island zone. The walls are painted white with a white-painted brick subway tile backsplash behind a large professional-grade stainless steel range with pot filler. Perimeter cabinetry is all-white shaker style with simple hardware. The large central kitchen island features a dark walnut-stained base with raised panel detailing and a thick white marble top veined in grey — on it a wooden cutting board holds fresh-baked croissants, a white ceramic pitcher holds a branch of green foliage, and a single faucet serves an integrated sink. Three black Windsor-style stools with spindle backs tuck under the island's overhang. To the left, a pair of warm wood French doors with cross-pattern divided glazing opens to the outside, flooding the left side of the kitchen with natural light. The floor is wide-plank light oak with visible grain. Warm amber glows descend from above the island, casting golden pools of light onto the marble surface. Camera at standing eye-level, wide-establishing composition showing the full island and range wall behind, three-quarter corner view, lens at wide character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "shiplap",
+      "exposed_beams",
+      "french_door"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

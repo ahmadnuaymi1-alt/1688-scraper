@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-34b5c3c81ff54cac",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-industrial-chandelier-led-metal-unique-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-industrial-chandelier-boardroom-lighting.jpg?v=1770458932",
+  "scraped_date": "2026-05-21T12:19:51.787Z",
+  "source_title": "Modern Industrial Chandelier LED Metal Unique Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "34b5c3c81ff54cac5218411159332f15bf66614e",
+  "description": "A modern corporate conference room photographed from standing eye-level in a three-quarter corner composition, looking across the length of the table toward the far corner. The ceiling is exposed and painted matte black, with visible structural beams, HVAC ducts, and conduit runs — an industrial loft-office aesthetic. A large rectangular conference table with a light blonde oak or birch veneer top and thick rounded profile legs fills the room, surrounded by ten cream-white upholstered office chairs with chrome five-star rolling bases. The table surface holds individual folded notepads and glasses of water at each position. The right wall is a three-dimensional white gesso relief panel with overlapping arc and circle motifs creating a geometric textured artwork. At the back wall, a slim brushed gold brass rack or shelving stand holds several tall vertical elements — decorative rods or architectural forms. The left wall is a full-height glass partition with a black steel frame, partially obscured by frosted or ribbed glass panels, with warm amber strip-lit wooden slat paneling visible beyond. The floor is a grey geometric carpet tile. Multiple geometric linear LED forms suspended from the ceiling emit bright white light across the table below — the matte black structural arms radiate sharp angular branches, glowing with a cool crisp white illumination along their edges. The mood is confident, contemporary, and professionally staged. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.158Z"
+}

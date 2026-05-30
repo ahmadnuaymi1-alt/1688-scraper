@@ -1,0 +1,27 @@
+{
+  "scene_id": "vakker-9e480f3e2ff7809b",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-9e480f3e2ff7809b.jpg",
+  "source_url": "https://vakkerlight.com/products/travertine-cone-wall-sconce",
+  "description": "A spare, contemporary living room or media room corner rendered in a crisp minimalist palette of white and near-black. The walls are smooth bright white, meeting in a clean right-angle corner at center frame. On the right side, a large flat-panel television is mounted flush to the wall, its black screen creating a strong rectangular graphic element. Beneath the TV, a low dark media cabinet in charcoal or near-black stained wood presents a clean horizontal surface with rectilinear drawer fronts. On the lower left, a portion of a low-slung upholstered seat — likely a sofa or sectional — is visible in dark charcoal-grey fabric, its cushion slightly rumpled. A small but intense warm pool of amber light falls on the white wall from a wall-mounted source, casting a tight downward cone of warm golden illumination against the cool white plaster. The atmosphere is quiet and highly controlled, with no decorative clutter — the composition is almost entirely about the contrast between the white wall planes, the dark furnishings, and the warm light accent. Camera positioned at approximately standing eye-level, using a normal lens, with a three-quarter corner composition that captures the junction of the two white walls and the placement of the media unit and sofa fragment. The framing is clean and architectural, emphasizing negative space. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

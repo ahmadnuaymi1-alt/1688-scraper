@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-2104c1cb7a243182",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/garden-path-lights-led-outdoor-waterproof-modern-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_243ff9dc-1012-4fce-b5eb-ed8d92d3e74a.jpg?v=1774595391",
+  "scraped_date": "2026-05-21T12:04:21.768Z",
+  "source_title": "Garden Path Lights LED Outdoor Waterproof Modern Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "2104c1cb7a24318280fd7bfd674d797fe14752ba",
+  "description": "An outdoor garden scene photographed at twilight, when the sky has deepened to vivid bands of purple, magenta, and violet. The foreground is a well-tended garden bed featuring a clump of tall ornamental grasses with fine arching blades in the center, a neatly clipped boxwood sphere to the right, and a sweep of dense lavender in full purple bloom stretching across the mid-ground. A lawn of lush green grass extends to the left. In the background, the illuminated stone columns and facade of what appears to be a heritage building or villa are faintly visible at far right. A second warm amber glow from a ground-level accent source is visible at mid-ground left, adding depth and layered warmth to the garden. The sky transitions from a deep violet at the zenith to a warm rose-peach band at the horizon. A warm pinpoint of amber light pools at the base of the ornamental grass, casting a soft glow on the surrounding foliage. Camera is at low eye-level — approximately seated or slightly below — with a normal lens, off-center composition favoring the slender upright form centered slightly left, with the garden foliage framing it from below and the dusk sky filling the upper half of the frame. The mood is romantic and serene, evoking a twilight European garden. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "plum",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.070Z"
+}

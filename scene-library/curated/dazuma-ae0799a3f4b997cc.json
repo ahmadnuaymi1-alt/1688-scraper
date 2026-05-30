@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-ae0799a3f4b997cc",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ae0799a3f4b997cc.jpg",
+  "source_url": "https://dazuma.us/products/bronze-metal-table-lamps-european-luxury-fabric-light",
+  "description": "A serene, quiet living room corner vignette photographed at seated eye-level. The scene is composed around a corner where two surfaces meet: a warm taupe-gray plaster wall on the left and a panel of rich reddish-brown cherry or mahogany wood cladding on the right, creating a warm textural corner. A low travertine or stone side table pedestal in pale ivory sits in the corner, its smooth matte surface contrasting with both the wall textures behind it. On the pedestal top, a warm glow pools softly from a surface-level source, the light washing against the warm wood panel and the taupe plaster with gentle warmth. In the foreground, the corner of a large low-profile rounded sofa upholstered in boucle ivory fabric is visible — its sculptural pillow-back form distinctive and modern. The palette is entirely warm neutrals — stone, ivory, taupe, cognac — with no bright accents. Camera is at seated eye-level, roughly 3–4 feet high, with a normal-to-telephoto lens, in a three-quarter corner composition showing the sofa, side table, and the wall corner behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

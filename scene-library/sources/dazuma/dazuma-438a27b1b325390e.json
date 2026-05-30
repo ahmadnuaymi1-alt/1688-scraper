@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-438a27b1b325390e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-vintage-european-home-user-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_4_587a9d3f-8338-4689-b87b-67c3ef134980.jpg?v=1773886797",
+  "scraped_date": "2026-05-21T12:04:57.016Z",
+  "source_title": "Wall Sconces Vintage European Home User Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "438a27b1b325390ed9c322ceff87050c76f375f6",
+  "description": "A romantic European-style terrace or loggia photographed at standing eye-level with a normal lens in an off-center thirds composition, framing the bistro corner against the building facade. The exterior building wall is smooth white stucco plaster, clean and brilliant in the daylight. Two dramatic arched French doors with matte black multi-pane steel frames dominate the facade — full semicircular fan-arch transoms above the door openings add a classical Parisian grandeur. The wall is partially draped with climbing ivy vines. At the corner of the terrace, a large mature tree trunk rises from the terrace floor, its canopy spreading overhead and filtering dappled summer light. The terrace floor is laid in terracotta or antique red tile pavers in a running-bond pattern, worn and warm. A small round bistro table with a white marble top on a black wrought-iron scrollwork base holds two champagne bottles and a flute glass. A single ornate black cast-iron chair with intricate scrollwork back is tucked under the table. A built-in upholstered bench with cream cushions runs along the wall under the window. Potted ball-shaped boxwood topiaries in terracotta urns flank the door, and low flowering white plants nestle in the corner. A black wrought-iron balustrade rail runs at the terrace perimeter. Bright dappled summer daylight filters through the tree canopy, casting soft dappled shadows across the floor and wall. A warm amber glow emanates from the classical antique brass lantern-style wall fixture mounted between the two arched doors, casting a warm halo on the white stucco. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "arched_doorway",
+      "french_door",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.209Z"
+}

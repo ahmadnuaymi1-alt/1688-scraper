@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-c23c0fde58cdbc94",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-dimmable-led-table-lamp-stylish-iron-and-acrylic-ambience-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-white-dimmable-led-table-lamp-coffee-table-reading.jpg?v=1768965588",
+  "scraped_date": "2026-05-21T15:52:32.332Z",
+  "source_title": "Dimmable LED Table Lamp Stylish Iron and Acrylic Ambience Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c23c0fde58cdbc945cb5717224b54f64044c33ac",
+  "description": "A living room coffee table vignette photographed at a low seated eye-level with a normal lens, using a slightly elevated three-quarter view looking down at a round white matte coffee table. The table surface is smooth off-white or pale gray. On it, two books with light-toned covers are stacked flat to the right, and a small espresso cup on a beige saucer rests on top of the books. The decorative table object sits to the left in the center of the composition on the bare table surface. In the background, a large rounded modular sofa in cream boucle fills most of the upper portion of the frame — its cylindrical arms and round corner sections are visible. Three throw cushions in warm tones of terracotta-rust, chocolate brown, and oatmeal accent the sofa. The ambient light is bright, even, and soft — warm daylight with no strong directionality. The mood is serene and contemporary-casual — a European-minimalist residential living room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.770Z"
+}

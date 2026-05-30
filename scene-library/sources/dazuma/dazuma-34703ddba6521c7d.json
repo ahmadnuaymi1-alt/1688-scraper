@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-34703ddba6521c7d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-wall-sconce-light-fixtures-european-style-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3_148980b2-05c8-47bc-91ea-65e4e9f8f539.jpg?v=1773886715",
+  "scraped_date": "2026-05-21T12:04:58.155Z",
+  "source_title": "Vintage Wall Sconce Light Fixtures European-Style Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "34703ddba6521c7db8d40fbe58aeb047b9d067c6",
+  "description": "A charming residential cottage entry photographed from standing eye-level in a centered composition at dusk, capturing the full facade of the front door and surrounding brick wall. The house exterior is painted white brick with a slightly textured, antique-whitewashed surface that shows the brick coursing through the paint. The architectural focal point is a beautifully arched wooden front door with a rounded arch top, solid lower panel, and glass-paned upper section with a divided grid of six lights. The door is a warm natural honey-stained wood, contrasting warmly with the white brick. The arched door surround is smooth painted plaster within the brick. Two ornate bronze or antique brass lantern forms are mounted symmetrically on the brick flanking the door, emitting warm amber glowing light that casts a golden wash across the surrounding white brick surface. A vigorous climbing plant — dark green ivy or creeping fig — spreads across the entire left portion of the facade and over the arch, softening the architecture with organic forms. The stone entry steps are irregular flat fieldstone in grey and buff tones, edged with agave plants and flowering purple ground cover. A large round terracotta-colored ceramic pot with a small ornamental boxwood sits on the step landing. Teal-painted window shutters are visible at the right edge. The mood is warmly romantic and cottage-domestic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "dusty_blue"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.156Z"
+}

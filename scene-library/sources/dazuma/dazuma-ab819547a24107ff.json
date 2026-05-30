@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-ab819547a24107ff",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/multi-light-wall-sconce-nordic-decorative-glass-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multi-light-wall-sconce-living-room-artwork.jpg?v=1777256670",
+  "scraped_date": "2026-05-21T12:03:05.151Z",
+  "source_title": "Multi Light Wall Sconce Nordic Decorative Glass Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ab819547a24107ff2163b8c084cd091ff8344522",
+  "description": "A calm sitting room vignette photographed at standing eye-level with a normal lens, framing a dark walnut credenza against a grasscloth-textured grey-white wall in a centered symmetrical composition. The wall is clad in a fine woven grasscloth in warm silver-grey, adding tactile dimension. Above the credenza, a large-format landscape painting in warm earth tones — russet fields, ochre skies, and muted sage — is hung in a natural wood frame with a white mat, dominating the wall. Flanking the painting at equal heights on either side, two warm glowing orb-form diffuser panels mounted on brushed brass vertical stems each cast a soft, rounded pool of warm amber light upward and outward, illuminating the grasscloth wall with a smooth golden halo. The dark walnut credenza below features two sets of glass-front cabinet doors with slim brass hardware, its top surface dressed with a stack of three coffee table books, a small dark wood turned bowl, and a white stone vase. A loose, arching large-leaf tree — an olive or ficus — stands to the right, its grey ceramic pot grounding the corner. A fragment of a round-armed cream boucle chair occupies the lower foreground. A linen curtain panel hangs at the right edge. The mood is warm, editorial, and gently layered. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.666Z"
+}

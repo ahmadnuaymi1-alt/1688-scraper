@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-204bd2047f386d59",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-sconce-wall-light-outdoor-waterproof-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_21b905df-8891-44b7-bfa2-1692026db062.jpg?v=1773886600",
+  "scraped_date": "2026-05-21T12:05:00.468Z",
+  "source_title": "Vintage Sconce Wall Light Outdoor Waterproof Minimalist Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "204bd2047f386d59ff51554a17ae8019bcb167a3",
+  "description": "An exterior facade shot of a Mediterranean-style farmhouse photographed at dusk, capturing the textured white plaster wall of the building as its primary surface. The wall texture is rough-cast stucco with visible trowel marks. A large multi-pane black steel casement window with stone sill occupies the right third of the frame. A low raised planting bed constructed from aged red brick runs along the building's base, densely planted with blooming lavender in full purple bloom and neatly trimmed boxwood hedging. A large terracotta urn planted with shrubbery sits at the left edge of the planting bed. The foreground path is laid in antique cobblestones. In the background, an olive grove with gnarled silver-leafed trees recedes into a soft peach-and-lilac dusk sky. The warm glow from the wall mount position illuminates a soft halo against the rough plaster, catching the texture of the facade and casting a warm amber bloom into the surrounding wall surface. Camera is at standing eye-level, shot with a normal lens, off-center thirds composition favoring the left-center wall face, with a slight upward tilt to include the roofline and sky. The mood is romantic and quietly bucolic, evoking a Provencal evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.066Z"
+}

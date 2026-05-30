@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-e40d22742c37d30b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/rectangular-wall-sconce-full-copper-cloud-stone-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_e142c35a-0948-456d-8060-f07cee89e210.jpg?v=1773886478",
+  "scraped_date": "2026-05-21T12:19:32.843Z",
+  "source_title": "Rectangular Wall Sconce Full Copper Cloud Stone Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e40d22742c37d30bf0d8f50c90967484aa007591",
+  "description": "A beautifully resolved contemporary entryway or foyer with a warm, enveloping Japandi-inflected character. The walls are wrapped in light warm oak or ash wood tongue-and-groove or paneled cladding running vertically, with shallow shadow-gap details between panels — the wood tone is a golden sand with visible straight grain. A tall arched mirror with a sleek matte black frame stands against the wall, its curved top reflecting the warm spatial depth. Floating just below the mirror is a slim wall-mounted console shelf in the same light oak, held off the wall on minimal metal brackets. The console holds a single hardcover book and a clear glass globe vase with a few bare branching twigs — graphic and botanical at once. In front of the console, a low stacked-ring upholstered ottoman or pouf in cream boucle or oat textured fabric sits on the large-format light gray stone or polished concrete floor tile. To the right, the foyer opens via a passage into a corridor or other room — curved wall forms and additional cabinetry in matching warm oak are partially visible, suggesting a thoughtfully composed domestic sequence. An open front door at left reveals a glimpse of bright outdoor light and greenery beyond, providing an illuminated contrast. Warm amber light radiates from the wall above the console, from a rectangular vertical wall fixture above the mirror, casting a downward warm wash across the console surface and arched mirror frame. The palette is entirely warm neutral — sand oak, oat, cream, pale stone — with the matte black mirror frame as the sole dark accent. Camera is at standing eye-level, normal lens, centered composition looking directly at the console and arched mirror. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.918Z"
+}

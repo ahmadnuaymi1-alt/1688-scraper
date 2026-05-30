@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-c4b6069ac6d80eeb",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c4b6069ac6d80eeb.jpg",
+  "source_url": "https://dazuma.us/products/american-country-style-vintage-wrought-iron-floor-lamps-fabric-shade-light",
+  "description": "A living room corner photographed at standing eye-level with a normal lens, capturing a wide three-quarter view showing the space between two sofas and a side table. The walls are plain off-white with a faint warm tone. A small walnut-toned side table or console surface against the back wall is loaded with an assortment of decorative objects: a large dark amethyst crystal cluster column standing tall (approximately 50cm), a small bronze Buddha figurine, a golden ingot-form object, a small white crystal figurine, and a stacked arrangement of dark rectangular books or plaques. A colorful oil-painting on canvas depicting a mountain landscape in vivid blues, greens, and whites leans against the wall behind the side table. Heavy floor-to-ceiling curtains in medium warm gray velvet are drawn at the right, covering a full-height window. At the left, a caramel-tan leather armchair is partially in frame, and a gray upholstered sofa arm is at the right. A warm pool of amber-white illumination floods the upper portion of the wall and the side table area from a warm source, casting dramatic upward triangular wall warmth that defines the corner. The floor appears to be light laminate wood. The mood is casual and lived-in with an eclectic East Asian-domestic aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cobalt",
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

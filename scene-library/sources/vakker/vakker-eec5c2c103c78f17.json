@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-eec5c2c103c78f17",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/playful-dot-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/PlayfulDotTableLamp_1.jpg?v=1778748969",
+  "scraped_date": "2026-05-21T12:09:02.572Z",
+  "source_title": "Playful Dot Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1254,
+  "height": 1254,
+  "content_sha1": "eec5c2c103c78f173bc1db557374aa78d8652afd",
+  "description": "A casual bedroom or living room vignette photographed at low eye-level with a normal lens, angled slightly downward looking toward a sofa surface and a window beyond. The composition is an off-center vignette tightly framing one end of a sofa and the low surface in front of it. A textured bouclé or boucle sofa in a warm cream-white fills the upper portion of the frame; a magazine or photo book with a landscape coastal photograph on its cover is open and resting on the sofa cushion. A horizontal slatted window blind in dark wood tone frames the background, with a curtain panel in sheer white visible at the right edge admitting soft cool daylight from outside. The surface in the foreground holds a retro-form table piece with a round tray integrated into its base, on which small personal objects are arranged: a pair of wireless earbuds in their white case, a small gold ring, and a few other tiny trinkets. A warm directed light emanates from the piece, casting a warm glow against the cream bouclé sofa behind it. The dominant color accent is a vivid orange-red — a bright midcentury pop that stands out sharply against the cream sofa and cool window light. The mood is playful and casual. Object density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.250Z"
+}

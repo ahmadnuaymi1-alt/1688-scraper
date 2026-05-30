@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-2f1f8ca68abd75f1",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-2f1f8ca68abd75f1.jpg",
+  "source_url": "https://dazuma.us/products/semi-flush-mount-ceiling-lighting-nordic-feather-decor-light",
+  "description": "A luxury coastal living room photographed from standing eye-level in a centered, wide-establishing composition looking toward the panoramic ocean view. The architecture features a recessed cove ceiling with smooth plaster, its curved perimeter emitting a continuous warm amber glow that defines the room's boundary. Full-height floor-to-ceiling sliding glass doors and fixed pane windows frame a breathtaking view of a bright blue ocean with white sailboats on the horizon under a clear daytime sky. Sheer cream floor-length curtain panels soften the glazing edges. The seating area centers on a large L-shaped sectional sofa in soft greige linen with scatter cushions in warm caramel and light grey. A round dark stone or concrete low coffee table in front holds two cut-crystal drinking glasses and a slender brass diffuser on a small gold tray. A cream area rug grounds the seating zone. To the left rear, a dining area is partially visible with a marble or stone rectangular table and caramel leather dining chairs. The flooring appears to be light oak wide-plank wood. The palette is entirely composed of warm neutrals — cream, greige, caramel, and brass — with the vivid aquamarine ocean view providing the sole saturated color accent. The mood is serene, aspirational, and luminously quiet. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window",
+      "french_door",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-b2a98367d02b17a0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-top-solar-lights-waterproof-garden-gate-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-top-solar-lights-stone-gate-posts.jpg?v=1778566699",
+  "scraped_date": "2026-05-21T12:02:56.214Z",
+  "source_title": "Pillar Top Solar Lights Waterproof Garden Gate Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b2a98367d02b17a05f66f732de522382adb97bae",
+  "description": "An exterior residential garden fence scene photographed at dusk, showing a long straight fence line receding into the background in a one-point perspective composition. The fence is composed of dark charcoal or matte black painted metal vertical bars set between large square granite or grey stone pillar columns, each column capped with a flat square stone slab. The fence line extends from the foreground pillar all the way to the far background where it approaches the smooth white stucco facade of a modern two-story home with clean contemporary lines and a warm wood-panel front door. The background garden is lush with medium-height green hedges and mature leafy trees in soft summer or early autumn foliage. A stone-paved footpath runs parallel to the fence on the right. The scene is photographed at twilight, with the deep blue sky just visible above the treeline. Warm amber light emanates from top-mounted sources on each pillar cap, casting a downward glow onto the stone pillar faces and the ground below, creating a rhythmic repetition of warm pools of light receding into the distance. Camera is at low eye-level — approximately 2 to 3 feet — with a normal to slightly telephoto lens, angled along the fence line in a one-point perspective composition that leads the eye from the foreground pillar to the house. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.707Z"
+}

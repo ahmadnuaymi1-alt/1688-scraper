@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-f8710109178f25f8",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/marisol-marble-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Marisol_Marble_Table_Lamp25.png?v=1777901528",
+  "scraped_date": "2026-05-21T15:53:28.498Z",
+  "source_title": "Marisol Marble Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "f8710109178f25f8a3a3bbf53d42cc93753d7db9",
+  "description": "A warm sitting room corner photographed at seated eye-level with a normal lens, capturing a tight three-quarter view of a side table arrangement. A solid rustic oak side table with a weathered, slightly rough surface and straight legs sits in the foreground. The table surface holds a small stack of books with reading glasses resting on top, a small brass-toned shallow dish, and a ceramic mug. A marble-based surface element with a wide conical woven rattan crown sits centrally on the table, emanating a warm directional glow downward onto the tabletop. On the wall above, a grid of four framed botanical prints in light wood frames hangs in a relaxed arrangement. The wall finish is warm sand-toned plaster. Partially visible to the left, an upholstered chair with a loose flax-linen back and a soft throw draped over it contributes warm cream tones. The palette is entirely warm neutral and organic — marble white, warm sand plaster, honey oak, natural rattan, cream linen — with brass as a quiet metallic accent. The mood is quiet and restorative. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.258Z"
+}

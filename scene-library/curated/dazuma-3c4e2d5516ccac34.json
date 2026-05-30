@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-3c4e2d5516ccac34",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3c4e2d5516ccac34.jpg",
+  "source_url": "https://dazuma.us/products/luxury-crystal-led-floor-lamp",
+  "description": "A living room corner photographed at standing eye-level with a wide lens in a three-quarter corner view, showing two walls meeting at a right angle with a full-height composition. The walls are smooth warm cream plaster. On the left, a quilted diamond-pattern upholstered ottoman or bench in deep rust-orange velvet sits with a gold metallic accent cushion and an open magazine resting on it — a portion of the matching lounge chair back visible at the far left edge. On the right, a lean black metal ladder-style bookshelf with walnut-toned shelves holds a collection of colorful bound books, a terracotta-glazed tall bottle vase in deep plum-mauve, and a small gold wire fruit bowl on the lower shelf. A framed seascape painting in a thin black frame hangs on the upper left wall, its grey-blue tones cool and minimal. The floor is a warm medium-dark wood with a horizontal plank pattern. A warm golden wash radiates outward from the floor level at the center of the frame, spreading up the cream wall at standing height and pooling warmth across the wood floor at the base around the room's central vertical axis. The palette is warm cream, rust-orange, plum, walnut brown, gold, and matte black. The mood is lived-in and casual with warm jewel-tone accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

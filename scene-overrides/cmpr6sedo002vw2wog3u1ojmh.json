@@ -1,0 +1,100 @@
+{
+  "productId": "cmpr6sedo002vw2wog3u1ojmh",
+  "productTitle": "Step-light editorial scenes (indoor)",
+  "authoredBy": "step-light-parallel-rebuild script — generic-product editorial framing per user instruction",
+  "authoredAt": "2026-05-29T19:52:51.695Z",
+  "classification": "indoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "dwell-modern-staircase-landing",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Dwell magazine, modern-architecture spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, XCD 45mm f/2.8, aperture f/4. A poured-concrete residential staircase at night, treads cantilevered from a raw plaster wall. A small square frameless COB recessed step light sits flush into the baseboard at ankle height, its face barely distinguishable from the surrounding wall finish — one modest glowing rectangle among shadow. The fixture matches the variant reference image exactly — finish and form as shown. Concrete shows hairline shrinkage cracks and a faint dust film along the tread nosings; the plaster wall carries a ghost watermark near the base. Exposure committed: the lit tread edge clips to near-white, upper stair run stays genuinely dark — no fill, no artificial balance. Warm 3000K glow stays strictly local, cool ambient from a distant skylight stays cool, no blending. Kodak Portra 400 grain throughout, 2% corner vignette, 1px chromatic aberration at the clipped tread edge. Palette: raw concrete grey, warm ivory plaster, shadow black, clipped chalk-white, dusty taupe. No people, no alcohol.",
+      "variantSlot": 1,
+      "room": "modern home staircase",
+      "designStyle": "Dwell — raw minimalist concrete residential",
+      "cameraAngle": "low three-quarter, ankle level looking up the stair run",
+      "timeOfDay": "night interior",
+      "accents": [
+        "hairline concrete shrinkage cracks",
+        "dust film on tread nosings",
+        "ghost watermark on plaster base"
+      ]
+    },
+    {
+      "slug": "architectural-digest-hotel-corridor",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Architectural Digest, luxury-hospitality spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-100c, HC 50mm f/3.5, aperture f/5.6. A long hotel corridor, walls clad in honed dark limestone, carpet runner in deep charcoal wool. A rectangular frameless COB recessed step light is set flush into the limestone baseboard at ankle height — a quiet, barely-there slit of warm light at floor level, entirely secondary to the corridor's receding geometry. The fixture matches the variant reference image exactly — finish and form as shown. The limestone shows faint efflorescence at grout joints and a scuff mark at baseboard height from luggage wheels; carpet runner has a slight compression track down its centre. Exposure committed: the fixture's immediate halo clips, the far corridor end falls to genuine darkness — no graduated fill. Warm 3000K source stays local; corridor ambient is cool and uninfluenced. Kodak Portra 400 grain, 3% corner vignette, 2px chromatic aberration at the clipped light slit. Palette: honed charcoal limestone, deep wool charcoal, warm ivory glow, shadow black, aged brass accent. No people, no alcohol.",
+      "variantSlot": 2,
+      "room": "luxury hotel corridor",
+      "designStyle": "Architectural Digest — dark-stone hospitality minimalism",
+      "cameraAngle": "low wide, centred on corridor vanishing point",
+      "timeOfDay": "night interior",
+      "accents": [
+        "efflorescence at limestone grout joints",
+        "luggage scuff on baseboard",
+        "carpet compression track"
+      ]
+    },
+    {
+      "slug": "kinfolk-hallway-baseboard-home",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Kinfolk magazine, slow-living interiors spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X1D II 50C, XCD 30mm f/3.5, aperture f/3.5. A narrow hallway in a well-worn Scandinavian-influenced home, painted timber wainscoting in faded off-white, wide-plank oak floorboards. A small square frameless COB recessed step light is set flush into the painted wainscoting at ankle height, glowing softly — one quiet domestic detail among the texture of lived-in walls. The fixture matches the variant reference image exactly — finish and form as shown. Wainscoting paint shows chips at the corner bead and a faint scuff at knee height; oak floorboards carry a worn, slightly greyed patina with visible grain and a dried mud smear near the skirting. Exposure committed: the small glow clips locally, the hallway end stays dim and unlit — no fill light added. Warm 3000K stays local; cool morning window light from an unseen source stays distinctly cool. Kodak Portra 400 grain, 2% corner vignette, 1px chromatic aberration at clipped fixture face. Palette: faded off-white paint, honey oak, warm ivory glow, greyed wood patina, shadow umber. No people, no alcohol.",
+      "variantSlot": 3,
+      "room": "Scandinavian home hallway baseboard",
+      "designStyle": "Kinfolk — slow-living worn domestic warmth",
+      "cameraAngle": "low oblique, floor level along wainscoting",
+      "timeOfDay": "early morning interior",
+      "accents": [
+        "chipped paint at wainscoting corner bead",
+        "greyed oak floorboard patina",
+        "dried mud smear near skirting"
+      ]
+    },
+    {
+      "slug": "wallpaper-basement-entry-wine-cellar",
+      "mode": "minimalist",
+      "prompt": "Commissioned editorial photography for Wallpaper* magazine, architecture and interiors spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-400c MS, HC Macro 120mm f/4, aperture f/4. A basement entry stair descending to a wine cellar, walls of aged brick with a skim-coat plaster reveal at the base. A rectangular frameless COB recessed step light is embedded flush into the plaster baseboard at the first tread — a single functional rectangle of neutral 4000K light, incidental to the heavy masonry architecture. The fixture matches the variant reference image exactly — finish and form as shown. Brick shows water-staining tide marks and a white efflorescence bloom at mortar joints; the plaster skim coat has a hairline crack running diagonally from the fixture corner; the tread edge carries a thin dust deposit. Exposure committed: the lit tread clips hard, the stair descent below falls to near-black — no bounce fill. Cool 4000K source stays local and neutral; no warm cast introduced. Kodak Portra 400 grain, 3% corner vignette, 2px chromatic aberration at clipped tread edge. Palette: aged brick terracotta, white efflorescence, cool neutral glow, deep shadow black, raw plaster grey. No people, no alcohol.",
+      "variantSlot": 4,
+      "room": "basement wine cellar entry stair",
+      "designStyle": "Wallpaper* — raw material architecture editorial",
+      "cameraAngle": "low side angle, tread level looking into descent",
+      "timeOfDay": "night interior",
+      "accents": [
+        "water-stain tide marks on brick",
+        "efflorescence bloom at mortar joints",
+        "hairline crack from fixture corner in plaster"
+      ]
+    },
+    {
+      "slug": "garden-gun-outdoor-deck-edge",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for Garden & Gun magazine, Southern architecture and outdoor living spread; NOT a product render, NOT advertising, NOT stock. Hasselblad X2D 100C, XCD 65mm f/2.8, aperture f/4. A wide timber deck at the rear of a Southern vernacular home at dusk, deck boards of weathered cypress running perpendicular to the house wall. A square frameless COB recessed step light is set flush into the timber riser of the deck's single step down to the yard — a small warm rectangle at ankle height, barely noticeable against the weathered wood. The fixture matches the variant reference image exactly — finish and form as shown. Cypress deck boards show deep weathered grain, greying surface checks, and a rust bleed from a corroded nail head; the riser board carries a dirt smear and a small patch of lichen at one corner. Exposure committed: the fixture glow clips to white locally, the yard beyond falls to genuine dusk darkness — no fill. Warm 3000K stays strictly local; the dusk sky reads as cool blue-grey without influence. Kodak Portra 400 grain, 2% corner vignette, 1px chromatic aberration at clipped fixture face. Palette: weathered silver cypress, rust bleed ochre, warm ivory glow, dusk blue-grey, shadow black. No people, no alcohol.",
+      "variantSlot": 5,
+      "room": "Southern home weathered timber deck step",
+      "designStyle": "Garden & Gun — Southern vernacular outdoor living",
+      "cameraAngle": "low oblique, deck level at riser height",
+      "timeOfDay": "dusk exterior",
+      "accents": [
+        "deep weathered grain and surface checks in cypress",
+        "rust bleed from corroded nail head",
+        "lichen patch on riser board corner"
+      ]
+    },
+    {
+      "slug": "world-of-interiors-period-stair-run",
+      "mode": "homey",
+      "prompt": "Commissioned editorial photography for World of Interiors magazine, historic-house interiors spread; NOT a product render, NOT advertising, NOT stock. Hasselblad H6D-100c, HC 35mm f/3.5, aperture f/5.6. A Georgian townhouse stair run, walls hung with faded striped wallpaper, painted timber skirting board in aged cream. A small rectangular frameless COB recessed step light is set flush into the skirting at ankle height on the landing — a quietly modern intrusion into the period interior, glowing warm against the antique setting. The fixture matches the variant reference image exactly — finish and form as shown. Wallpaper shows a faded horizontal tide mark from a past damp episode and a small torn edge at a seam; the skirting paint is crazed and yellowed with age, carrying a scuff from a moved piece of furniture; the stair carpet runner shows a worn central path. Exposure committed: the fixture's local glow clips, the upper stair run stays authentically dark — no supplemental fill. Warm 3000K stays local; cool daylight from an unseen landing window stays cool and separate. Kodak Portra 400 grain, 3% corner vignette, 2px chromatic aberration at clipped fixture face. Palette: faded stripe wallpaper ivory and sage, aged cream skirting, warm ivory glow, worn carpet dusty rose, shadow umber. No people, no alcohol.",
+      "variantSlot": 6,
+      "room": "Georgian townhouse period stair landing",
+      "designStyle": "World of Interiors — layered historic domestic patina",
+      "cameraAngle": "low wide, landing level looking up stair run",
+      "timeOfDay": "overcast day interior",
+      "accents": [
+        "faded damp tide mark on wallpaper",
+        "crazed yellowed skirting paint with furniture scuff",
+        "worn central path on stair carpet runner"
+      ]
+    }
+  ]
+}

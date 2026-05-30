@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-bde99770625d0f0a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-green-artistic-table-lamps-with-flexible-stems-unique-creative-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_5cfe5cfb-1ed5-4b29-9a17-fe61374f5427.jpg?v=1758871144",
+  "scraped_date": "2026-05-21T15:52:48.029Z",
+  "source_title": "Artistic Table Lamps Vintage Green with Flexible Stems Creative Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bde99770625d0f0acf862b7f4b4898b9bc551c93",
+  "description": "A simple room surface vignette photographed at standing eye-level with a normal lens, using an off-center thirds composition focused on a low flat white table or shelf surface. The background wall is a flat light blue-gray — cool, clean, and minimal. On the white surface, the sculptural floral light object in sage green with multiple illuminated white-glass tulip-head forms sits to the left, casting a gentle warm glow outward at the surface level. To the right, a small living succulent-and-grass arrangement grows in a low matte-black ceramic pot in a rounded geometric form. The cool gray wall behind provides no warmth, making the gentle warm white glow from the decorative object stand out as the only warm element. The mood is playful and fresh — a botanically-inspired decorative object in a minimal, clean setting. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.749Z"
+}

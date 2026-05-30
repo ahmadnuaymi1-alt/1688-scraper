@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-789178ac23c7f008",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mount-reading-light-modern-up-and-down-adjustable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_b6c8f8c1-b4c8-42d1-ad0f-5b8cd8b6b9a0.jpg?v=1778838422",
+  "scraped_date": "2026-05-21T12:02:31.469Z",
+  "source_title": "Wall Mount Reading Light Modern Up-and-Down Adjustable Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "789178ac23c7f0080c307b3b8027f5f756dbb75b",
+  "description": "A contemporary Japandi-inflected bedroom vignette showing one side of a bed and its adjacent nightstand. The accent wall behind the bed features closely spaced vertical oak slat paneling in a warm pale blonde tone that spans from floor to ceiling, with a thin horizontal strip of warm indirect light glowing from a cove at the very top edge where the slats meet the ceiling. The upholstered platform bed has a low-profile charcoal grey fabric headboard and is dressed in crisp white and warm linen-toned pillows and a soft grey duvet. A floating shelf-style nightstand in light oak is cantilevered from the wall at bedside, its clean surface holding a glass reed diffuser with amber liquid, a small amber glass bottle, a white ceramic gourd vase, a smooth river stone, and a small stack of books. A pair of black slip-on sandals rests on the pale concrete-toned floor below. A focused warm beam of light directs downward from the wall-mounted position toward the nightstand, illuminating the surface objects with a tight amber pool. The mood is serene, minimal, and spa-like. Camera at standing eye-level, off-center thirds composition framing the right side of the bed and nightstand, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.415Z"
+}

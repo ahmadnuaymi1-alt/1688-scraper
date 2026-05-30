@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-f2d2d12e6b6afd99",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f2d2d12e6b6afd99.jpg",
+  "source_url": "https://dazuma.us/products/crystal-lamp-floor-minimalist-modern-metal-aluminum-lamp",
+  "description": "A bedroom photographed at standing eye-level with a normal lens, in a three-quarter corner view showing two walls and the bed surface. The left wall is dominated by a large slatted window with warm-tone natural wood horizontal blinds, partially open, casting soft warm dappled light and shadow lines across the scene. The right wall is a textural feature wall combining two materials: the upper section is a ribbed or striated light grey-white plaster or fabric-textured panel, and the lower section is woven natural rattan or cane webbing in a warm honey-tan tone — separated by a thin copper-finish rail. Mounted vertically against this wall, a rose-gold copper metal pole-mount arrangement holds two illuminated capsule-form glass objects at different heights, each with clear glass bodies and warm amber inner glow. On the left, a low dark espresso wood dresser with clean handle-free drawers and a glass top holds a single book. The bed surface shows a textural linen bedhead in a pale greige bouclé fabric with subtle stitching, stacked with pillows in cream white linen and a deep oxblood velvet accent cushion. A dark hardcover book rests on the white bedding. Warm light from the wall-mounted pieces at bedhead height washes softly across the textured wall panels. The mood is contemporary, warm, and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "oxblood"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  }
+}

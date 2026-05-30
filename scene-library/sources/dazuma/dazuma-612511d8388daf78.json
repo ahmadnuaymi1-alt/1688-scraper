@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-612511d8388daf78",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-garden-outdoor-waterproof-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-lights-garden-stone-pillars-entrance.jpg?v=1773717341",
+  "scraped_date": "2026-05-21T12:19:43.402Z",
+  "source_title": "Pillar Lights for Garden Outdoor Waterproof Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "612511d8388daf784d4cc9bf0aece235962f1780",
+  "description": "A welcoming residential garden gate entry photographed in soft daylight. Two substantial rectangular natural stone pillars built from rough-cut tan and brown fieldstone blocks flank a formal gate entry, separated by two shallow risers of warm limestone or travertine steps leading up to a paved garden path. The stone walls extending from each pillar form a low garden boundary, also constructed in the same fieldstone material. The path beyond the entry is paved in brick or terracotta-toned pavers set in a running bond pattern. The garden is lush and well-tended: a large cloud-pruned globe boxwood topiary sits in the mid-ground left, and a loose bed of white garden roses or peonies blooms in the lower right foreground. A small silver-leafed olive tree with wispy branching habit occupies the lower right edge. In the far background, the white-painted facade of a single-story residence is visible — with horizontal siding, a dark grey hip roof, shuttered windows, and a covered porch where a grey sofa is visible beneath a white patio umbrella. A flowering lilac or jacaranda tree at the upper left provides canopy and soft purple-lavender blooms. Two warm amber glowing geometric forms sit on top of each gate pillar, casting soft warm light across the stone cap surfaces. The scene reads as early evening or overcast natural light. Camera is at standing eye-level, shooting a centered symmetrical view straight down the garden axis through the gate toward the house, using a normal to slightly telephoto lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "sage",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.326Z"
+}

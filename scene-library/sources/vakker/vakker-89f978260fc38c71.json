@@ -1,0 +1,36 @@
+{
+  "image_id": "vakker-89f978260fc38c71",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/luminous-orb-alabaster-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/LuminousOrbAlabasterPendantLamp_1.webp?v=1778748969",
+  "scraped_date": "2026-05-21T12:08:59.391Z",
+  "source_title": "Luminous Orb Alabaster Pendant Lamp",
+  "source_product_type": "Pendant light",
+  "width": 800,
+  "height": 800,
+  "content_sha1": "89f978260fc38c713735d3bd358542fdeab0c8a5",
+  "description": "A clean product studio shot against a flat warm beige background, photographed at standing eye-level with a normal lens and a centered symmetrical composition. The image isolates a single hanging object: a vertical stack of four translucent alabaster-white spheres in graduated sizes, connected along a central brass hardware spine, suspended from a round brushed brass canopy by a thin cord. The spheres glow with a milky, veined luminescence suggesting the warmth of natural stone. The background is a solid warm greige tone with no furniture, no architectural detail, and no styling objects present. The image functions as a reference product shot rather than an interior scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.147Z"
+}

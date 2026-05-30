@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-142734f798ebda22",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-light-pendant-creative-minimalist-decorative-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-nordic-light-pendant-minimal-bedroom.jpg?v=1776391387",
+  "scraped_date": "2026-05-21T12:03:41.879Z",
+  "source_title": "Nordic Light Pendant Creative Minimalist Decorative Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Mini Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "142734f798ebda223f8e638189c8d9ca102859dc",
+  "description": "A moody, intimate bedroom vignette focused on the nightstand area. The wall is painted a warm off-white with a subtle warm undertone. A black-painted wood bed with classic turned posts and a ball finial is partially visible on the left, dressed in layers of white waffle-weave linen and a chunky heathered grey knit throw. Two framed prints in simple black frames hang in a pair on the wall — one shows a loose watercolor landscape in muted grey-green tones, the other is a plain matted frame. A dark espresso-stained wood nightstand with two drawers and black hardware supports a thick marble slab top in white with subtle grey veining. On the marble surface: a textured cream ceramic vase in a rounded belly form holds a generous bouquet of dried wildflower stems in pale amber and dusty pink, a small pillar candle with a warm flame, a minimalist reed diffuser with thin black sticks, and a small book or tray beneath the candle. A rich deep chocolate brown velvet floor-to-ceiling curtain panel is drawn on the right side, adding warmth and depth. A cone of warm amber glow washes down from above onto the nightstand surface, illuminating the vase arrangement and candle from overhead, creating a golden circle of light on the marble surface. The mood is quiet, romantic, and darkly cozy — moody Nordic with classical undertones. Camera at seated eye-level, normal-to-telephoto lens, tight off-center vignette composition showing only the nightstand zone and partial bed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "pendant",
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.025Z"
+}

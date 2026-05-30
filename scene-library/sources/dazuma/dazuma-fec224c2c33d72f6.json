@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-fec224c2c33d72f6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/glass-ceiling-light-fixtures-french-vintage-metal-flush-mount-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/glass-ceiling-light-fixtures-walk-in-closet.jpg?v=1778566395",
+  "scraped_date": "2026-05-21T12:02:38.809Z",
+  "source_title": "Glass Ceiling Light Fixtures French Vintage Metal Flush Mount Lights",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "fec224c2c33d72f67513a7217d919b6563ff518d",
+  "description": "A luxurious walk-in dressing room or boutique closet photographed from a standing eye-level, centered symmetrical one-point perspective looking straight down the length of the room. Deep, rich walnut built-in shelving systems line both side walls floor to ceiling, fitted with hanging rods bearing a curated wardrobe in cream, ivory and neutral tones, open shelves neatly folded with white linens, woven rattan baskets, and shoe storage at floor level. The stone tile floor is large-format warm travertine, with a natural sisal or jute area rug centered under a rectangular dark walnut island. The island has an open lower shelf with stacked white folded textiles and a woven rattan basket underneath, topped with a white marble slab holding a small wooden tray with glass perfume bottles and a reed diffuser. At the far end of the room, cream linen curtain panels frame a multi-pane window with garden view, and a low upholstered window bench in cream cushioning sits beneath, flanked by two small potted fiddle leaf green plants. To the right near the foreground, a tall floor-length oval mirror in a slim gold frame leans against the wall, with a woven basket and cream throw draped nearby. Crown moulding trims the ceiling perimeter in white. The ceiling is bright white with a warm central glow illuminating the room evenly downward. Camera is at standing eye-level, perfectly centered in a one-point perspective shooting down the long axis with a normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.018Z"
+}

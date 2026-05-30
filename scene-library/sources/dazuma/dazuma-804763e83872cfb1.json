@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-804763e83872cfb1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/classic-outdoor-patio-floor-lamps-aluminum-pe-body-solar-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/cozy-outdoor-dining-patio-floor-lamp.jpg?v=1767091784",
+  "scraped_date": "2026-05-21T15:52:26.140Z",
+  "source_title": "Outdoor Patio Floor Lamps Aluminum PE Body Solar Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "804763e83872cfb16eee493cb5771a8efb96e6fb",
+  "description": "A glamping or outdoor evening camp scene photographed at standing eye-level with a wide-to-normal lens, composed as a wide establishing shot showing the full breadth of an outdoor setup at dusk. The background is a deep twilight blue sky with distant hills silhouetted at the horizon. A large canvas bell tent in natural cream-white occupies the center-right of the frame, its peaked form draped with a string of warm glowing globe lights that trace the tent's entrance edges. In front of the tent is a portable wooden folding camp table in light honey oak, set with a stainless steel camping kettle on a compact burner, a small glass teapot, several small candle glasses, a cluster of yellow citrus fruits, and a terracotta vase holding dried botanical stems. Lush green grass covers the ground. The color palette contrasts the cool cobalt blue of the night sky with warm amber and gold tones emanating from the tent interior and the table accessories. A warm glow emanates from around the floor-level area of the standing fixture at left, illuminating the surrounding grass and casting warm light on the pole and the white marble base. The mood is casual and enchanting — a curated outdoor evening gathering. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cobalt",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.449Z"
+}

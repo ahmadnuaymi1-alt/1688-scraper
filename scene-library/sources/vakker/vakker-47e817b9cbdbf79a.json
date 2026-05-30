@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-47e817b9cbdbf79a",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/cap-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Cap_Alabaster_Table_Lamp79.png?v=1778462887",
+  "scraped_date": "2026-05-21T15:53:05.480Z",
+  "source_title": "Cap Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "47e817b9cbdbf79acffa2cde73a76ee807cc3ebb",
+  "description": "A thoughtfully layered living room corner photographed at seated eye-level with a normal lens, framed as a close three-quarter view showing the side table and adjacent wall. The walls are clad in white-painted brick, adding a raw, textural quality to the otherwise polished space. On the left edge, a chunky charcoal grey sofa is partially visible with a loosely draped cream knit throw. A sculptural live-edge or organic-form wood coffee or side table in warm walnut with an irregular, organic top sits at center, holding a small dark ceramic bowl and a tight cluster of books. Beside it, a slim glass vase with a single dried branch adds a delicate vertical line. A compact open shelf unit in the background holds a few books, a small white ceramic vessel, and a petite potted fiddle-leaf fig. A large-format framed artwork in bold black-and-white graphic form — abstract organic shapes — hangs on the brick wall above the shelf. A warm, upward-diffusing glow radiates from the translucent disc-form sitting on the dark cylindrical base at the table surface, spreading a broad warm pool of light across the table objects and onto the brick wall immediately behind at table height — the light does not extend to the ceiling. The palette is tonal and design-forward: white-painted brick, dark matte black, warm walnut, charcoal grey, and alabaster cream. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.087Z"
+}

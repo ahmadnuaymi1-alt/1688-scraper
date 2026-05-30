@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-e07ae1ec1fc271ca",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/garden-path-lights-led-outdoor-waterproof-modern-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_8cd09e9a-91fa-4007-9992-920b762968b4.jpg?v=1774595392",
+  "scraped_date": "2026-05-21T12:04:21.767Z",
+  "source_title": "Garden Path Lights LED Outdoor Waterproof Modern Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e07ae1ec1fc271cabf7770b41a988e4a45354adf",
+  "description": "A luxurious outdoor terrace seating area at sunset, with a warm peach-to-blush sky fading behind silhouetted palm trees and a lush Mediterranean garden. The patio surface is large-format brushed concrete in pale sand tone, partially covered by a flat-weave charcoal grey outdoor rug with a subtle grid texture. The furniture grouping consists of a round woven rope lounge chair in natural beige with a cobalt blue throw cushion, a large round pouffe ottoman upholstered in oatmeal outdoor fabric, and two round white coffee tables with slim matte black metal bases at different heights. On the lower table, a dark ceramic mug and a small black tray holding limes sit alongside a small potted green plant. On the higher table, an unlit pillar candle surrounded by votive candles and three sage-green drinking glasses create an intimate tabletop vignette. The garden backdrop is dense with olive trees, low shrubs, and tropical foliage. Warm amber glows from close-up sources bathe both table surfaces in intimate golden pools, contrasting beautifully with the cool dusk sky. Camera at low-to-seated height, wide-establishing composition capturing the full furniture grouping and the sky horizon behind, lens at normal character, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cobalt",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.907Z"
+}

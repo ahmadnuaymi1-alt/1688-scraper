@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-732b22e33a7730bc",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/vesper-onyx-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17778848735058.png?v=1777901528",
+  "scraped_date": "2026-05-21T15:53:29.858Z",
+  "source_title": "Vesper Onyx Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "732b22e33a7730bcdd8a875d923aac1cb840c7cd",
+  "description": "A warm, scholarly home library or study photographed at seated eye-level with a normal lens, framing a three-quarter view of a desk vignette with a leather armchair and floor-to-ceiling bookcase behind. The walls are a warm cream-white. A broad wooden desk in warm walnut or medium oak occupies the foreground, its surface styled with a set of stacked vintage hardcover books used as bookends, a small ceramic mug, a round brass tray, a leather-bound journal, and a pen. In the background, a classic padded leather armchair in rich cognac brown with a plaid wool throw casually draped over it sits between the desk and a tall built-in open bookcase filled with rows of upright books in warm earth-toned spines. A window with a simple white trim admits soft, warm diffused daylight from the upper left. The palette is warm and traditional — walnut wood, cognac leather, cream, and parchment book spines. Warm ambient light fills the scene evenly, with a gentle golden glow at the desk surface level illuminating the objects from nearby. Styling density on the desk is low-to-mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.127Z"
+}

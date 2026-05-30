@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-6c668bc3ed5ec59b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-light-with-reading-light-rotatable-multi-function-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_dd2a1902-1456-4f26-a050-5ece17accf02.jpg?v=1778838151",
+  "scraped_date": "2026-05-21T12:02:36.311Z",
+  "source_title": "Wall Light with Reading Light Rotatable Multi-function Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6c668bc3ed5ec59bfe316492cae79b263175c82b",
+  "description": "A refined contemporary hotel bedroom or luxury residential bedroom with a sophisticated layered material palette. The walls are smooth plaster in a warm greige-taupe tone, and the head-of-bed wall features a framed panel detail with a dark copper-bronze metal inlay border creating an architectural panel recess. A tall upholstered headboard in warm cream fabric is partially visible at the right edge. The bed is dressed in crisp hotel-white bed linen with a white euro sham. A dark walnut bedside table with a travertine marble top surface sits at the bed edge. To the left of the bed, a compact grey linen two-seat sofa or loveseat with loose cushions in greige and warm tan is positioned facing forward. Between the sofa and the bed, a low rectangular coffee table with a white marble or stone top and a thin dark metal frame holds a wicker rattan tray with a small matte tan ceramic pouring vessel, a terracotta-brown ceramic mug, and a small fruit arrangement, alongside two open hardcover books and a magazine. The floor is a deep charcoal grey patterned carpet. Floor-length sheer white curtains diffuse soft natural daylight from the left window. A warm amber spotlight beam falls precisely downward from a single focused source on the paneled wall above the sofa, pooling on the sofa back and lighting the seating area with dramatic directional warmth. A glow of warm indirect light also emanates from behind the headboard panel along the top edge. Camera is at standing eye-level, three-quarter view of the sitting area and bed corner, capturing both the sofa grouping and the partial bed at frame right. Mood is quiet and formal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.368Z"
+}

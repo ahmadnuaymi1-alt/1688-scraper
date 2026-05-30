@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-767919f54154f889",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/large-modern-pendant-light-fixtures-rattan-weave-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-large-modern-pendant-light-fixtures-kitchen.jpg?v=1775700968",
+  "scraped_date": "2026-05-21T12:03:46.513Z",
+  "source_title": "Large Modern Pendant Light Fixtures Rattan Weave Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "767919f54154f889e60a48611c398098501c84be",
+  "description": "A warm California farmhouse kitchen bathed in generous natural light. Flat-panel light oak cabinetry lines the perimeter at counter height, with open floating walnut shelves above the rear counter displaying neat stacks of white plates, ceramic mugs, and glass storage jars. The backsplash features a sculptural arched tile relief in white, framing the gas cooktop. A large multi-pane window with a matte black steel frame fills the right wall, looking out onto green foliage and a stone garden wall beyond. The island is clad in warm medium oak with a thick white marble slab top; its surface holds a clear glass vase of full white hydrangeas, a lit cream pillar candle on a wooden round, and a small decorative sphere. Two woven rattan backless barstools flank the island's near side. Large-format pale limestone tiles cover the floor. Rough-hewn exposed wood beams cross the white plaster ceiling, adding rustic texture. Warm pools of light glow from the hanging positions above the island, complementing the soft diffuse daylight flooding in from the windows. The mood is inviting, organic, and sun-drenched. Camera at standing eye-level, three-quarter corner view angled slightly toward the rear-left, normal lens, level pitch, capturing the full island and both side walls in a wide establishing composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "exposed_beams",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.402Z"
+}

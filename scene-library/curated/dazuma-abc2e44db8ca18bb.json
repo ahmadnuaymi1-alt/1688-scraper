@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-abc2e44db8ca18bb",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-abc2e44db8ca18bb.jpg",
+  "source_url": "https://dazuma.us/products/glass-candle-chandelier-minimalist-american-ceiling-light",
+  "description": "A bright, airy dining room adjacent to a kitchen, photographed at standing eye-level with a normal lens around 35mm, in a three-quarter corner composition that captures both the dining zone and the kitchen beyond a large arched doorway. The ceiling is a vaulted cathedral with exposed natural bleached oak timber beams and white-painted tongue-and-groove shiplap planks filling the panels between, giving the space a relaxed coastal or Hamptons character. The arched doorway through to the kitchen is a generous smooth-plastered round-topped arch. The kitchen visible beyond features white painted cabinetry, a marble slab backsplash, a reeded-front light oak island with a marble countertop, and a bright multi-pane window flooding the space with daylight. Back in the dining room, a large round light oak pedestal dining table is surrounded by six upholstered dining chairs in natural linen with a skirted base and loose cushion seat; two arm chairs at the table ends have a slightly more formal presence. On the table, a large cream ceramic jug-vase and a low wooden bowl filled with round wooden objects serve as simple centerpiece styling. A floor-to-ceiling light oak cabinet with flat panel doors and small knobs stands against the back wall. On the kitchen pass-through counter is a large grey stoneware vase of significant height, a piece of coastal artwork in soft blue-grey tones, and a coral specimen. The floor is wide-plank light oak. The palette is entirely composed of cream, warm white, and natural sandy oak tones — serene, coastal, understated. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "shiplap",
+      "arched_doorway",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

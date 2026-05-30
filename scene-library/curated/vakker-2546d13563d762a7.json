@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-2546d13563d762a7",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-2546d13563d762a7.png",
+  "source_url": "https://vakkerlight.com/products/dome-alabaster-table-lamp",
+  "description": "A serene, organic living room corner photographed at seated eye-level with a normal lens, showing a three-quarter view of two walls converging. The walls are finished in smooth warm greige plaster with a subtle matte texture. A large window on the left wall floods the scene with soft natural daylight, revealing a tall arrangement of dried pampas grass in a large round ceramic vase placed on the windowsill, alongside a smaller ceramic vessel and a stack of books. The floor is covered in a chunky woven natural jute rug, adding warmth and texture underfoot. A low, rustic wooden stool in rough-sawn light oak serves as a side table at the center of the composition, positioned between the window and the sofa. On its surface rests a small collection including a polished brass ball decorative object and a small ceramic dish. The right edge of the frame shows the arm of a slipcovered or loose-covered sofa in warm sand-grey linen, draped with a loosely fringed woven throw in neutral tones. A soft, warm glow radiates outward from the table surface, pooling light gently around the stool and onto the nearby rug and wall at that level. The palette is entirely warm neutral — plaster greige, honey oak, sandy linen, dried pampas ivory, and antique brass — deeply tranquil and textural. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

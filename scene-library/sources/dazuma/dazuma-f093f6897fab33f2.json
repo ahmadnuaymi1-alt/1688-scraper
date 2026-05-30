@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-f093f6897fab33f2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-recessed-ceiling-spotlight-frameless-silver-glare-free-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-living-room-recessed-ceiling-spotlight.jpg?v=1775905063",
+  "scraped_date": "2026-05-21T12:03:34.985Z",
+  "source_title": "2 PCS Recessed Ceiling Spotlight Frameless Silver Glare-Free Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f093f6897fab33f25566c79bd9308817bb4d3194",
+  "description": "A bright minimal contemporary living-dining room photographed at standing eye-level in a wide establishing shot showing the full room depth. The space is defined by a large floor-to-ceiling sliding glass door system in dark grey aluminum frames that opens the entire back wall to a timber-deck outdoor terrace where two white lounge chairs with a cream umbrella are visible among dense green garden hedges and mature trees. Abundant diffuse natural daylight pours in from the garden, bathing the room in soft even light. The ceiling is flat smooth plaster in warm off-white. The walls are equally smooth warm off-white plaster throughout. The sofa is a large L-shaped low-profile sectional in cream boucle fabric, set on a thick low-pile rug in warm putty grey. The coffee table is distinctive — a round stone or marble top on two black spherical or orb-shaped pedestal bases, sculptural and modern. On the right wall, a floating low-profile white lacquer media console spans most of the wall width, with a large flat screen TV mounted above, and a small abstract artwork in sandy tones leaning against the wall. A small reed diffuser in a dark glass bottle and small ceramic vessels dot the console. A large fiddle-leaf tropical plant in a pot occupies the left corner. On the left, a dining table edge with textured brown upholstered dining chairs is partially visible. The floor is large-format light grey concrete-look porcelain tile. The palette is warm off-white, cream, putty grey, and deep green with matte black accents. Camera is standing height, wide lens, centered view looking toward the glass wall, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.967Z"
+}

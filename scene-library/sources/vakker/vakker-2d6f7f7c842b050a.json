@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-2d6f7f7c842b050a",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/celestine-lantern-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Celestine_Lantern_Table_Lamp06.png?v=1778469122",
+  "scraped_date": "2026-05-21T15:53:01.997Z",
+  "source_title": "Celestine Lantern Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "2d6f7f7c842b050a210f9c6d4e4898bd47485625",
+  "description": "A warm, layered living room vignette photographed at standing eye-level with a normal lens, showing a close three-quarter view of a console area and the room receding behind it. The walls are painted in warm soft white with a gentle depth. On the left wall, an arrangement of framed artworks and a round mirror with a thin brass frame form a small gallery grouping — prints include soft botanical illustrations in earthy tones with cream matting. A solid oak console or sideboard with clean, chunky construction sits in the foreground, its warm honey-toned wood grain clearly visible. On its surface rests a small white ceramic vase and a softly glowing warm illumination that pools gently outward across the console surface, warming the nearby wall and the objects on the table at that level. A small terracotta-potted trailing plant sits on the floor beside the console. In the background, a rounded green velvet armchair with organic form sits against the far wall, accompanied by a small side table holding a book and a white throw. The palette is warm throughout — honey oak, cream plaster, dusty sage green, and antique brass — evoking a collected, European-influenced residential comfort. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.059Z"
+}

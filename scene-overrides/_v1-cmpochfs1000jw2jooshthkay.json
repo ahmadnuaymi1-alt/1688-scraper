@@ -1,0 +1,82 @@
+{
+  "productId": "cmpochfs1000jw2jooshthkay",
+  "productTitle": "Vintage Western Bolo Tie (leather cord, alloy pendant, 10 designs)",
+  "authoredBy": "in-chat scene design — Western/Americana vocabulary (Tecovas / Yellow Rose / RRL / Pendleton inspired); 3 editorial-marketing + 3 contextual-lifestyle scenes, eye-level intimate, single-unit, no people, no alcohol, 1:1 frame",
+  "authoredAt": "2026-05-27T00:00:00.000Z",
+  "classification": "indoor",
+  "category": "bolo-tie",
+  "scenes": [
+    {
+      "slug": "ranch-dresser-vignette",
+      "mode": "homey",
+      "prompt": "A refined ranch-house dresser-top vignette at late afternoon, shot on a 50mm lens at standing-adult chest-level slight three-quarter so the bolo tie lies coiled gently in the front-centre of a 1:1 frame on a small rectangular tan saddle-leather valet tray atop a vintage solid-oak six-drawer dresser. Warm window light from frame-left falls across the dresser in long soft beams. Style with a black felt wide-brim cowboy hat resting brim-down on the dresser at frame-right, a small heavy white-stoneware dish holding two brass collar stays and a worn brass belt buckle, a leather-bound pocket notebook closed with a wraparound elastic, and a folded indigo-and-cream Pendleton-style striped wool blanket peeking out of a half-open dresser drawer below. Walls are warm whitewashed limewash with a small framed sepia-toned vintage rodeo photograph above the dresser. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image, with the metal tip aglets visible at the cord ends. Palette of saddle-tan leather, warm cream, oak, soft brass, faded indigo, black felt. Sharp focus on the bolo tie and tray, soft natural depth-of-field on the room, no people, photographic and lived-in, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "ranch-house dresser top",
+      "designStyle": "refined Western ranch",
+      "wallColour": "whitewashed limewash",
+      "cameraAngle": "50mm standing chest-level three-quarter",
+      "timeOfDay": "late afternoon warm window light",
+      "accents": ["tan saddle-leather valet tray", "vintage oak six-drawer dresser", "black felt cowboy hat brim-down", "white stoneware dish with brass collar stays + belt buckle", "leather pocket notebook", "Pendleton-style striped blanket peeking from drawer", "sepia rodeo photograph"]
+    },
+    {
+      "slug": "western-shop-counter-marketing",
+      "mode": "minimalist",
+      "prompt": "A clean editorial Western-haberdashery shop-counter marketing shot, shot on a 50mm lens at slight three-quarter overhead 30-degree angle so the bolo tie lies fully extended along the diagonal of a 1:1 frame on a worn slate-grey natural-stone counter surface. Soft, even diffused natural studio light from a tall window at camera-left, faint shadow falling to the right. Tight styling — an open vintage cardboard Stetson hat box (lid resting beside it) in the upper-right with crumpled cream tissue paper visible inside, a leather-bound order book closed with a brass clasp at lower-right, a small ironstone tumbler holding three antique writing pens at upper-left, and a single dried tumbleweed sprig curved across the lower-left edge of the frame. Background is the soft-focus interior of a Western-goods shop — out-of-focus shelves with rolled leather belts and folded denim. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image, the metal tip aglets clearly visible. Palette of slate-grey stone, warm cream cardboard, oak, soft brass, tan leather. Sharp focus across the bolo tie and props, photographic catalog clarity, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "Western-haberdashery shop counter",
+      "designStyle": "editorial Western-shop marketing",
+      "wallColour": "soft-focus shop shelving",
+      "cameraAngle": "50mm three-quarter overhead 30°",
+      "timeOfDay": "soft natural studio midday",
+      "accents": ["slate-grey natural stone counter", "open vintage Stetson hat box with cream tissue", "leather order book with brass clasp", "ironstone tumbler of antique pens", "dried tumbleweed sprig"]
+    },
+    {
+      "slug": "saddle-makers-workshop",
+      "mode": "homey",
+      "prompt": "A leather saddle-maker's workshop bench at midday, shot on a 35mm lens at seated workbench eye-level so the bolo tie lies coiled gently in the front-centre of a 1:1 frame on a piece of cut tan saddle leather on a sturdy weathered-oak workbench. Bright soft natural overhead light. Style with hand-stitching tools laid out with intention — a steel awl with a wooden handle, a pair of brass-and-walnut pricking irons, a small block of natural beeswax with worn cord groove, a curved skiving knife, a thick spool of waxed natural cotton thread, and a worn brass-buckled canvas work apron folded loosely at frame-right. Behind, in soft focus: hanging straps of cut hide on wooden pegs, a vintage hand-cranked sewing machine, and a small framed leather-craftsman's certificate on the plank wall. Walls are deep-grain weathered oak boards. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image. Palette of warm tan leather, oak, brass, natural beeswax-cream, deep grain wood. Sharp focus on the bolo tie and tools, soft natural depth-of-field on the workshop behind, no people, photographic and craft-warm, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "leather saddle-maker's workshop",
+      "designStyle": "craft-leather workshop",
+      "wallColour": "deep-grain weathered oak boards",
+      "cameraAngle": "35mm seated workbench eye-level",
+      "timeOfDay": "midday soft overhead",
+      "accents": ["cut tan saddle leather", "weathered-oak workbench", "steel awl + walnut handle", "brass pricking irons", "natural beeswax block", "curved skiving knife", "waxed cotton thread spool", "canvas work apron folded"]
+    },
+    {
+      "slug": "pendleton-flatlay-editorial",
+      "mode": "minimalist",
+      "prompt": "An editorial Western-styling flat-lay shot from directly overhead 90° so the bolo tie lies coiled in a relaxed loop in the front-centre of a 1:1 frame on a faded vintage Pendleton-style wool blanket with a cream-and-rust geometric Native-American-inspired pattern. Soft even diffused natural studio light, no hard shadows. Around the bolo tie, styled with editorial restraint — a neatly folded chambray work shirt in the upper-left, a worn caramel-leather bifold wallet in the upper-right, a small handmade clay bowl holding a brass key and a single arrowhead charm in the lower-right, a hand-bound notebook with a leather thong tie in the lower-left, and a sprig of dried desert sage placed casually across the lower-centre. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image, with the metal tip aglets visible. Palette of cream, rust, deep indigo, caramel leather, soft brass, dried sage green. Sharp focus across the entire arrangement, photographic editorial-magazine, no people, no cinematic moodiness, no alcohol.",
+      "variantSlot": 4,
+      "room": "Pendleton-blanket editorial flat-lay",
+      "designStyle": "Western-Americana editorial",
+      "wallColour": "(overhead on vintage Pendleton blanket)",
+      "cameraAngle": "90° directly overhead",
+      "timeOfDay": "soft diffused studio midday",
+      "accents": ["vintage cream-and-rust Pendleton-style wool blanket", "folded chambray work shirt", "caramel-leather bifold wallet", "clay bowl with brass key + arrowhead charm", "hand-bound notebook with leather tie", "dried desert sage sprig"]
+    },
+    {
+      "slug": "pearl-snap-shirt-styling",
+      "mode": "minimalist",
+      "prompt": "A clean editorial Western-fashion styling shot of the bolo tie laid over a cream pearl-snap Western shirt, shot on a 50mm lens at slight overhead 60-degree angle so the bolo tie sits centered on the upper chest of a folded cream pearl-snap Western shirt with arrowhead chest pockets and pearl-buttoned cuffs, filling the front-centre of a 1:1 frame. Soft, even diffused natural studio light, faint side shadow. The bolo tie sits with the pendant at the top of the shirt's open collar and the cord ends draped naturally down the shirt placket, metal tip aglets visible. The shirt rests flat on a warm-cream linen surface. Just visible at frame-right: the rolled cuff of a folded camel-tan suede western jacket, and a small brass collar bar. At frame-left: a single dried wheat stem placed casually as a styling cue. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image. Palette of cream pearl-snap, camel suede, warm cream linen, soft brass, dried wheat gold. Sharp focus on the bolo and shirt collar, photographic editorial styling, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "Western-fashion styling table",
+      "designStyle": "Western pearl-snap editorial",
+      "wallColour": "warm cream linen surface",
+      "cameraAngle": "50mm slight overhead 60°",
+      "timeOfDay": "soft diffused studio midday",
+      "accents": ["cream pearl-snap Western shirt with arrowhead pockets", "camel-tan suede jacket cuff peeking in", "small brass collar bar", "dried wheat stem"]
+    },
+    {
+      "slug": "barnwood-golden-hour",
+      "mode": "homey",
+      "prompt": "A contained Western-Americana still-life at golden hour, shot on a 50mm lens at slight three-quarter low angle so the bolo tie lies draped across a folded vintage paperback Western novel in the front-centre of a 1:1 frame on a sun-bleached weathered barnwood surface. Warm late-afternoon golden-hour sun spills from frame-right with soft lens haze and long warm shadows. Style with a single enamel tin cup half-tipped at frame-left, a small iron horseshoe charm placed casually at the foot of the book, a single hawk feather laid diagonally, and the brim of a tan straw cowboy hat half-cropped at the upper-right edge of the frame. Background is soft-focus weathered barnwood with one or two slivers of warm sunset light breaking through gaps in the boards. The bolo tie matches the reference exactly — the leather cord color and pendant ornament shown in the variant reference image, with the metal tip aglets visible. Palette of sun-bleached barnwood grey, golden-hour amber, faded paperback brown, iron, hawk-feather brown-and-cream, tan straw. Sharp focus on the bolo tie and book, soft natural depth-of-field on the barnwood, no people, photographic and warm-Americana, no cinematic moodiness, no alcohol.",
+      "variantSlot": 6,
+      "room": "weathered barnwood still-life",
+      "designStyle": "Western-Americana golden hour",
+      "wallColour": "weathered barnwood boards",
+      "cameraAngle": "50mm slight three-quarter low",
+      "timeOfDay": "golden hour late afternoon",
+      "accents": ["vintage Western paperback novel folded", "enamel tin cup half-tipped", "iron horseshoe charm", "hawk feather laid diagonally", "tan straw cowboy hat brim cropped at edge", "sunset light slivers"]
+    }
+  ]
+}

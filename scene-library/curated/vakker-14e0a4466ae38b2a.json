@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-14e0a4466ae38b2a",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-14e0a4466ae38b2a.jpg",
+  "source_url": "https://vakkerlight.com/products/luminous-orb-alabaster-pendant-lamp",
+  "description": "A living room corner vignette photographed at seated eye level, approximately three to four feet off the ground, using a normal-to-telephoto lens that compresses the depth between the sofa, side table, and the large glazed window wall behind them. The composition is off-center, weighted to the left by the dark leather sofa and to the right by the slim side table, with the wall beyond serving as a warm neutral backdrop. The camera pitches very slightly upward, just enough to include the ceiling zone above the side table without revealing the full ceiling plane.\n\nThe architecture is defined primarily by a floor-to-ceiling multi-pane window system with slim matte black frames, occupying the entire rear wall and flooding the room with cool, diffused natural light from what reads as a late afternoon or overcast exterior. Beyond the glass, a lush garden or atrium is visible — dense tropical foliage in deep greens, with large-leafed palms and broad-canopy plants pressing close to the panes. The exterior greenery creates a layered, almost painterly backdrop that contrasts richly with the warm interior tones.\n\nThe primary furniture piece is a substantial dark chocolate brown leather sofa — deep, tufted, and generously proportioned with visible seam stitching and a high cushioned back. The leather has a slight sheen suggesting full-grain or semi-aniline material. Its legs are polished metal, likely brushed nickel or chrome, peeking just below the base. The sofa occupies the left two-thirds of the frame and is cut off by the left edge of the image, implying a larger seating arrangement beyond the frame.\n\nTo the right of the sofa sits a minimal side table with a matte black powder-coated steel frame — open cube geometry with two shelf tiers, the upper surface serving as the tabletop. The tabletop surface is dark, likely a matte black metal or lacquered finish. No objects are staged on the table in this view.\n\nThe flooring is a medium-toned wood plank, laid in a straight orientation, with a warm grey-brown tone suggesting white oak or engineered hardwood with a matte finish.\n\nThe wall to the right is a smooth plaster in a warm greige — a soft beige with barely perceptible warmth, consistent with a limewash or flat paint finish. It is unadorned, functioning as a clean canvas. A warm amber glow emanates softly down this wall from above, creating a gentle gradient that warms the upper right quadrant of the scene and pools faintly onto the side table surface below, suggesting a low-intensity concentrated source above. The overall ambient light in the room is cool and restrained, balanced by this focused warm accent that draws the eye to the right wall zone.\n\nThe mood is serene and quietly sophisticated — a high-contrast interplay between cool exterior daylight flooding through the glass, the dark saturated leather, and the warm amber wash on the plaster wall. The styling density is low: no decorative objects clutter any surface. The plant life is entirely exterior, seen through glass.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

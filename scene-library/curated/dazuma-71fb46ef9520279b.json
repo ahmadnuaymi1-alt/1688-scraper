@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-71fb46ef9520279b",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-71fb46ef9520279b.jpg",
+  "source_url": "https://dazuma.us/products/ins-style-cordless-mushroom-table-lamp-creative-design-portable-atmosphere-lamp",
+  "description": "A desk or console surface vignette photographed at seated eye-level with a normal lens, showing a clean grey or cool-toned matte surface with minimal styling. At the left edge of the frame, a large format book or magazine lies face-up with a white cover partially visible. To the right, a small matte black square tray holds a single cylindrical matte ceramic candle vessel in warm cream. The entire background is covered by horizontal window blinds in bright white, their slat texture creating a clean linear pattern that reads almost as a graphic backdrop. A warm glow radiates from the table surface area, casting a pool of light across the cool grey desk surface and creating a soft halo. The color palette is a precise study in cool grey and crisp white with only the warm cream candle and amber glow providing warmth. The overall mood is minimal and editorial — a cool-toned workspace with deliberate object curation. The shadows from the warm light fall crisply on the cool surface. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

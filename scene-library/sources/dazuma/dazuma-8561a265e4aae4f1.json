@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-8561a265e4aae4f1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-outdoor-modern-minimalist-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_5c0752da-5349-4c1e-9f25-41d2a0b6ded5.jpg?v=1774175124",
+  "scraped_date": "2026-05-21T12:04:45.270Z",
+  "source_title": "Wall Sconces Outdoor Modern Minimalist Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8561a265e4aae4f12ba19bb60cc7eeea1ca0625d",
+  "description": "An exterior wall vignette photographed in bright, direct midday sunlight. The architecture is a smooth white stucco exterior wall with a crisp, clean texture that catches hard shadows. At the left edge of the frame, a matte black window or door frame with slim profile is partially visible, suggesting a modern or transitional residential facade. A large-leafed fiddle-leaf fig or similar tropical foliage plant occupies the right side of the frame, its deep glossy green leaves casting organic shadows across the white stucco wall surface. The plant's irregular shadow pattern contrasts beautifully against the bright wall. Bright, direct sunlight floods the scene from above left, creating sharp-edged shadows on the stucco and emphasizing the wall's texture. The palette is high contrast — brilliant white, deep matte black, warm brass, and vivid botanical green. The mood is clean and crisp, befitting a well-maintained residential exterior in a warm climate. Camera is positioned at approximately standing eye-level, roughly 5 feet high, shooting nearly level with a normal to slightly telephoto lens. The composition is a tight vignette centered on the wall mount position, with the foliage framing the right edge and the architectural frame at left, creating an intimate product-in-context shot rather than a full exterior establishing view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.461Z"
+}

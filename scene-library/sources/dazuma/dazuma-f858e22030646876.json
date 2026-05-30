@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-f858e22030646876",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/house-pillar-lights-modern-creative-outdoor-pillar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/house-pillar-lights-modern-entrance-black-metal-stone.jpg?v=1773717686",
+  "scraped_date": "2026-05-21T12:19:38.117Z",
+  "source_title": "House Pillar Lights Modern Creative Outdoor Pillar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f858e2203064687671ce3c0c4d388fdcc56f5477",
+  "description": "A residential garden boundary at warm sunset, photographed from a standing eye-level position with a normal lens in a three-quarter vignette composition centered on a gate post. The scene features a contemporary fence and gate system: to the left, a low grey painted slatted wood picket fence panel, and to the right, a wider section of warm honey-toned horizontal wood slat fencing in a modern prairie style — the warm tones of the cedar or redwood boards glowing richly in the last light of the golden sunset sky. At the transition between the two fence styles sits a substantial square cast-stone or precast concrete post/pillar with a smooth finish and visible aggregate texture. Atop the pillar, a squat rectangular post-cap lantern glows with warm amber light, casting a gentle halo downward onto the pillar surface and the garden below. In the foreground, a cottage-style garden planting tumbles in front of the fence — white daisy blooms with yellow centers, soft purple lavender spikes, and ornamental grasses catching the golden light. In the background, a flat-roofed contemporary single-story home is visible through a stand of dark cypress or arborvitae trees, its windows lit from within. The sky behind is a warm peachy-orange sunset gradient. The mood is romantic, residential, and quietly twilit. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.000Z"
+}

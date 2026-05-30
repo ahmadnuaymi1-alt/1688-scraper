@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-ce838a965f2c0ea2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-nordic-table-lamp-creative-minimalist-design-nightstand-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-white-nordic-table-lamp-pleated-shade-angular-design.jpg?v=1760000211",
+  "scraped_date": "2026-05-21T15:52:33.536Z",
+  "source_title": "Nordic Table Lamp Creative Minimalist Design Nightstand Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ce838a965f2c0ea20e03b2221b622e39ef5c15c1",
+  "description": "A casual, light-filled living space side table scene in a Scandinavian-influenced style. The surface is a light natural oak or rubberwood side table with a clean rounded edge. On the table to the left sits a bone-china teacup and saucer with a delicate floral botanical print in gray, and a coil-bound desk calendar showing the number six. A small leafy green plant is just visible at the top left of frame. To the far right, the curved arm of a caramel-tan upholstered sofa or armchair is partially in frame. The background wall is soft medium gray, smooth and matte, with faint white horizontal shiplap or paneling visible in the out-of-focus upper portion. The mood is casual, fresh, and quietly Nordic — light natural wood, neutral gray, and domestic everyday objects. A warm soft glow emanates at tabletop height, illuminating the surface, teacup, and surrounding floor area below. Camera at seated eye-level, slightly angled, normal lens, tight vignette composition on the tabletop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.842Z"
+}

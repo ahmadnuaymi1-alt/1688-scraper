@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-3a2a9447e9d6358d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/swing-arm-wall-mount-light-modern-flexible-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_e0ccea67-f31f-421d-a483-1228a09913ce.jpg?v=1778838723",
+  "scraped_date": "2026-05-21T12:02:27.233Z",
+  "source_title": "Swing Arm Wall Mount Light Modern Flexible LED Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3a2a9447e9d6358d4be4b2696e478662e71815f6",
+  "description": "A restaurant or cafe dining nook photographed at standing eye-level with a normal lens in a three-quarter corner composition, capturing the L-shaped banquette and back wall fully. The ceiling is a geometric grid of narrow light oak wood slats creating a linear pattern overhead, with warm grain visible between the batten spacings. The walls are smooth plaster in a pale bone-gray tone with a matte, slightly aged finish. The L-shaped built-in banquette is fabricated in matte sage green powder-coated metal with striped woven cushion seats in a cream and warm gray textile. A built-in planter box runs along the back of the banquette, filled with lush tropical foliage — large-leafed monstera, philodendron, and tropical greenery in varying heights that creates a living green backdrop. A square dining table with a matte sage green top and a matte black cylindrical pedestal base sits centered in the nook, an open magazine resting on its surface. The floor is warm light oak hardwood laid in a linear pattern. Two flexible-arm brass reading fixtures are mounted on the plaster wall above the planters, their warm directed beams casting focused spots of amber light downward onto the planter foliage and the table surface. The overall palette is earthy sage, warm oak, and cream with brass accents — a contemporary biophilic dining aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.179Z"
+}

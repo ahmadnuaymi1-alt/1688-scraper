@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-9e8406d318f50bbc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-sconces-outdoor-waterproof-metal-led-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-sconces-outdoor-contemporary-wooden-front-door.jpg?v=1774836597",
+  "scraped_date": "2026-05-21T12:04:02.592Z",
+  "source_title": "Modern Sconces Outdoor Waterproof Metal LED Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9e8406d318f50bbc24e22bd9dd38cdaf7f125c9f",
+  "description": "A traditional American farmhouse-style covered front porch photographed at standing eye level with a normal lens in a three-quarter corner composition, framing the front door and left porch wall together. The camera is at approximately five feet, pitched level, positioned to show both the door and the side porch seating area in a single angled view.\n\nThe porch exterior walls are white painted horizontal lap siding — clean, crisp farmhouse boards running uniformly. The porch ceiling overhead is also white painted tongue-and-groove or beadboard planking. The porch deck floor is painted white or light grey wood planking. A sturdy white painted round classical column is visible at the right frame edge, supporting the porch roof.\n\nThe front door is solid walnut or dark-stained oak with a warm brown grain, featuring a divided upper glass section with six panes and a solid lower two-panel wood section with matte-black hardware — door knob and a matte-black lever. A woven natural jute doormat sits at the threshold.\n\nTo the right of the door, a large rough-textured off-white or stone-grey ceramic urn planter holds a generous arrangement of bright green ivy, sweet potato vine, and mixed leafy shrubs spilling over the rim. To the left of the door along the porch wall, a low rustic wooden bench with simple slatted back and legs holds several layered white linen and natural woven cushions and throw pillows. A woven wicker basket sits on the floor beside it. A small trailing green plant grows in a pot at the bench base.\n\nAn amber warm glow emanates from the left wall beside the door, casting a warm pool of light onto the white siding. Through the glass door panes, a blurred rural landscape of brown winter trees and an overcast sky is visible beyond.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.579Z"
+}

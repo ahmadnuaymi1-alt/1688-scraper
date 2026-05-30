@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-9ecda9fb9a31b618",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-9ecda9fb9a31b618.png",
+  "source_url": "https://vakkerlight.com/products/pavilion-alabaster-cluster-chandelier",
+  "description": "A gracious stairwell passage in a classically proportioned home with warm off-white walls showing subtle plaster texture. The staircase rises along the right wall with dark-stained wood treads and a slender black metal railing, climbing through a tall double-height volume. Natural daylight streams in from a multi-pane window high on the right wall, casting bright rectangles of light across the stair treads. On the left wall at the lower landing level, a large framed artwork in a simple dark frame hangs at picture-rail height, and beside it a healthy fiddle-leaf fig plant in a terracotta-tone pot anchors the corner. The floor at the base of the stairs appears to be stone tile with a worn runner rug laid over the stair treads in rust and cream tones. Warm glowing forms cascade in a cluster at varying drop heights through the stairwell void — translucent natural-material shades allow warm amber light to filter through, creating soft glowing pools on the white walls and stair surfaces. Wainscoting or paneled detail is suggested on the lower wall section. The atmosphere is warm, classical, and inviting — a well-loved home with tasteful traditional proportions. Camera at approximately standing eye-level at the base of the stair, using a moderate wide lens with a one-point perspective looking directly up the stair passage. The composition emphasizes the tall vertical void and the cascade of warm light elements from ceiling height down through the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

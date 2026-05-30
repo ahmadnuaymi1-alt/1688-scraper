@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-5622e3433321a5a0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-minimalist-forged-iron-table-lamps-acrylic-lampshade-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/minimalist-black-forged-iron-table-lamps-soft-ambient-light.jpg?v=1768964737",
+  "scraped_date": "2026-05-21T15:52:37.000Z",
+  "source_title": "Forged Iron Table Lamps Nordic Minimalist Acrylic Decorative Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "5622e3433321a5a0a878a71dacae13680d126ea1",
+  "description": "A dramatically styled bedroom with a bold matte-black vertical slat headboard wall panel creating a strong graphic presence on the left. The bed features a high upholstered panel headboard in black leather or faux leather, contrasted with crisp white hotel-quality bedding and a plaid or houndstooth throw in cream, grey, and black at the foot. The right side of the scene features a smooth plaster or painted wall in soft cool grey-white. A cylindrical drum-form nightstand in dark mahogany or oxblood-lacquered wood with rounded sides and a light natural oak top surface sits to the right of the bed. A prismatic crystal glow at tabletop height scatters faceted light across the light oak surface and onto the grey wall at the same level, the effect contained to the area around and below the object. The composition reads as editorial and high-contrast. Camera is at standing eye-level using a normal lens, three-quarter view from slightly right of center showing both the bed and nightstand. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.289Z"
+}

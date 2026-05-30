@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-a5a41642b97b7500",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-circle-table-lamp-with-iron-body-stylish-acrylic-shade-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/circle-table-lamp-red-handle-rustic-indoor-desk.jpg?v=1760000362",
+  "scraped_date": "2026-05-21T15:52:42.091Z",
+  "source_title": "Circle Table Lamp with Iron Body Acrylic Shade Decorative Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a5a41642b97b750083223df2cdb08b1e62f4d382",
+  "description": "A moody evening home office or study desk scene photographed at seated eye-level. The desk is a rich dark mahogany or walnut with a deep lustrous grain, occupying the lower half of the frame. On the desk surface, a small stack of two well-worn hardcover books sits at the left beside a matte dark brown ceramic mug with a handle. To the right of center, a pair of round gold-rimmed reading glasses rests flat on the desk surface, and at the far right, a vintage 35mm SLR film camera sits in a relaxed manner. Behind the desk, a large window spans the full upper background, through which a blurred nighttime cityscape is visible — bokeh circles of amber and blue-white city lights create a romantic atmospheric glow. White sheer curtain panels hang at either side of the window. The warm amber pool from the surface source illuminates the tabletop objects and the lower portion of the window frame, contrasting with the cool blue of the night sky outside. The mood is scholarly and intimate. Camera is at seated eye-level, roughly 3–4 feet high, with a normal lens, in a centered composition with the window as the backdrop and the desk objects occupying the foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.641Z"
+}

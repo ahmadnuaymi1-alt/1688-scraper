@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-df87bc76db43298b",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/arch-form-pleated-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Arch_Form_Pleated_Table_Lamp11.png?v=1777858042",
+  "scraped_date": "2026-05-21T15:53:42.584Z",
+  "source_title": "Arch Form Pleated Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "df87bc76db43298b15a2fc54bf3931e917dcf067",
+  "description": "A warm sitting room corner photographed at seated eye-level with a normal lens, framing a rustic bench-side arrangement in a three-quarter view. A heavy reclaimed-wood bench sits in the foreground left, its surface holding a stack of large hardcover books and a small ceramic dish with stones. Beside the books, a tall ceramic vase in rough sandy earth-tone holds a generous dried pampas grass arrangement. A sculptural ceramic biomorphic figure rests on the bench. A low boucle armchair in warm cream upholstery sits to the right, draped with a chunky hand-knit throw in oatmeal. Sheer linen curtain panels hang at the tall window behind the chair, admitting soft diffuse daylight. A warm glow emanates at bench level from a concentrically pleated fabric surface, bathing the nearby books and ceramic objects in warm amber light. The wall is rough textured plaster in pale sand. The floor is covered in natural jute rug. The palette is unified in warm, undyed organic tones — flax, oatmeal, sand, dried ivory — evoking a curated Scandinavian-country serenity. The mood is serene and gently layered with natural textures. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.234Z"
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-b68645ac2fccf403",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-modern-chandelier-minimalist-creative-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/linear-modern-chandelier-dining-room-round-table.jpg?v=1777107826",
+  "scraped_date": "2026-05-21T12:03:14.960Z",
+  "source_title": "Linear Modern Chandelier Minimalist Creative Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b68645ac2fccf403a1e1ffbe80b5891865a0f564",
+  "description": "A bright, luminous contemporary home office and lounge space photographed at standing eye-level with a wide lens, capturing a full-room wide establishing shot with the round desk zone centered and the lounge seating extending to the left. Walls and ceiling are finished in smooth warm cream plaster, unadorned and clean. Two large wood-slatted venetian blinds on the right wall filter the daylight into warm horizontal bands of light and shadow that rake dramatically across the right wall and floor. The floor is light bleached oak parquet in a herringbone-adjacent pattern. A round white lacquer desk on a sculptural pedestal base anchors the right center; a slim high-back cream upholstered task chair on an arc base sits before it, with two hardcover books and an open laptop on the desk surface. To the left, a curved cream bouclé loveseat in a crescent form holds a few scatter pillows. A round low marble side table with a sculptural white stone base sits beside it. Above this entire scene, suspended from the white ceiling on a matte black linear rail, a horizontal bar element supports multiple frosted globe diffusers at varying positions — their white luminous glow contributes a soft, evenly distributed light across the workspace. The overall mood is calm, aspirational, and minimal-luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.720Z"
+}

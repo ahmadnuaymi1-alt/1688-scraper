@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-54def259d3882599",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-54def259d3882599.jpg",
+  "source_url": "https://dazuma.us/products/swing-arm-desk-lamps-italian-style-metal-long-mechanical-lamp",
+  "description": "A contemporary bedroom with a striking full-height headboard wall panel in warm dark walnut with a pronounced horizontal wood grain, giving the room depth and texture. On the left, a deeply tufted or quilted upholstered headboard in off-white fabric with a subtle braid pattern anchors the bed, which holds white bedding and a chunky charcoal-grey knit throw blanket. The dark walnut floating nightstand has a clean rectangular profile. On the nightstand surface, a small smooth stone or sculptural pebble form in matte grey sits on top of a closed book or slim device. A warm amber glow at table height illuminates the headboard upholstery and the surrounding walnut wall panel from below with a soft pool of light. The scene is composed with refined restraint. Camera is at standing eye-level using a normal lens, three-quarter view of the nightstand, headboard, and wall panel. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

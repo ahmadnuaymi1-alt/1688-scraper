@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-221f1ca9039fafd7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/nordic-novelty-table-lamps-iron-base-and-rotomolded-mushroom-shade-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/novelty-table-lamps-desk-workspace-ambient.jpg?v=1767091350",
+  "scraped_date": "2026-05-21T15:52:29.907Z",
+  "source_title": "Novelty Table Lamps Iron Base and Rotomolded Mushroom Shade Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "221f1ca9039fafd7072dfa3c25618ff0f527cf30",
+  "description": "A desk or vanity surface vignette photographed at seated eye level with a normal lens, framing an off-center composition with the subject placed on the right third. The desk is a painted white or very pale cream with a white plastic or painted-wood desk organizer visible in the background holding four or five fine-tipped brushes or pens. An open paperback book lies face-up at the lower left foreground of the desk surface. The wall behind is a textured matte pink-terracotta with a sand-grain surface quality, giving it a warm Mediterranean adobe quality. In the upper left, a small artwork or framed print with a warm peach-blue landscape is partially visible. A soft, glowing warmth emanates from the table surface at the center-right, radiating onto the textured wall and casting a warm golden halo on the pink-terracotta surface. The palette is terracotta pink, cream white, and warm orange from the hero light source, creating a monochromatic warmth in the scene. The mood is playful and casual, with a creative-studio energy. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.076Z"
+}

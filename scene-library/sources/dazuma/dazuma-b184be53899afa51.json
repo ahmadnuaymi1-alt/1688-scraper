@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-b184be53899afa51",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/glass-ceiling-light-luxury-modern-led-flush-mount-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/glass-ceiling-light-dining-room.jpg?v=1777107574",
+  "scraped_date": "2026-05-21T12:03:21.807Z",
+  "source_title": "Glass Ceiling Light Luxury Modern LED Flush Mount Lights",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b184be53899afa51cfac4bf8f5a04fa162998b92",
+  "description": "A grand Parisian-style dining room with elaborate plaster crown molding and ceiling coffers at the cornice line. The walls are painted in a warm off-white with applied panel moulding pilasters flanking an arched doorway at the back right, which opens through to a secondary seating room and beyond to an arched multi-pane window framing green trees. The ceiling height is generous, with smooth white plaster. A large-scale abstract expressionist canvas in mauve, olive, black, and pale pink hangs on the left wall in a thin gilded frame. The dining table is a rectangular slab in dark veined nero marquina marble atop a brass-paneled pedestal base. Around it, six low rounded armchairs in cream bouclé fabric with sculptural thick-legged forms create a casual, organic counterpoint to the formal architecture. A large flat cream wool area rug covers herringbone parquet flooring in warm medium oak beneath the seating group. On the table, two stacked coffee-table books rest as the only styling object. Through the arched passage behind, two grey occasional chairs and a small classical bust sculpture on a column are visible. Bright even natural light enters from the arched window at the back. Camera is at standing eye-level shooting with a normal to slightly wide lens in an off-center composition that shows the full table, all six chairs, and the arched passage into the beyond. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "arched_doorway",
+      "herringbone_floor",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.700Z"
+}

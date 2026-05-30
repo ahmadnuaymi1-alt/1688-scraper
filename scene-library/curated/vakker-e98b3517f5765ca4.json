@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-e98b3517f5765ca4",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-e98b3517f5765ca4.jpg",
+  "source_url": "https://vakkerlight.com/products/pillow-alabaster-cluster-chandelier",
+  "description": "A minimal vignette photographed at seated eye-level with a normal lens in a centered symmetrical composition, isolating a small tabletop scene against a flat cool grey wall. The surface is a clean white or pale grey shelf or console top, holding a single styling object: a geometric open-frame brass vase in an architectural cage structure, holding a few stems of fresh eucalyptus with round silver-green leaves. In the upper right of the frame, the corner of a framed abstract artwork is partially visible — pale grey and raw umber washes on a white ground. Warm amber-golden light emanates from above the surface, its milky, translucent alabaster form glowing with a soft moon-like radiance that casts a warm pool across the white surface and the brass vase beneath. The palette is cool grey, warm white, brass, and botanical green. The mood is serene and quiet, editorial in its simplicity. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

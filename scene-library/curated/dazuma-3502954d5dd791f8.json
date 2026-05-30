@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-3502954d5dd791f8",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3502954d5dd791f8.jpg",
+  "source_url": "https://dazuma.us/products/unique-modern-chandelier-s-shaped-coral-design-led-light",
+  "description": "A large contemporary open-plan commercial office interior photographed with a one-point perspective looking down the central corridor. The space is defined by an extensive black-framed full-height glass partition system on both sides of the main corridor, separating private or semi-private workstation zones from the central passage and reception/lounge area. Through the transparent glass walls, rows of light oak desk workstations with ergonomic black chairs and computer monitors are visible on both sides. Built-in open shelving in light oak with books and accessories lines the far walls. Large potted tropical plants are placed within each zone for greenery. The floor throughout is smooth light grey carpet tile. The reception/lounge area in the foreground has a round light oak coffee table with a small potted plant, a stack of books, and two low oatmeal-toned upholstered armchairs. The ceiling is flat white with recessed linear and ambient lighting systems. Suspended from multiple wires at the central overhead position, three tier-stacked sculptural cloud or organic wave-form ceiling-hung elements in matte black metal each hold illuminated frosted white curved diffuser panels that emit a broad, even warm-white downward glow across the lounge and corridor below. Additional matching wave-form elements continue down the corridor receding into the distance above the passage. Camera at standing eye-level, normal lens, one-point perspective directly down the corridor. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

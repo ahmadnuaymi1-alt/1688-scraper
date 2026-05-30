@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-0ed1a3b3d530eef9",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-0ed1a3b3d530eef9.jpg",
+  "source_url": "https://dazuma.us/products/sphere-floor-lamp-led-garden-decorative-landscape-light",
+  "description": "A minimalist outdoor terrace or pool deck vignette photographed at deep dusk, with a calm open ocean filling the entire background horizon. The sky is a layered gradient from pale blush pink and peach near the horizon through a warm lilac-mauve band to a deep cool steel blue overhead, with no clouds. The ocean surface is still and mirror-like in this light. In the soft-focus background, two or three wide outdoor sun loungers with white cushions are barely visible on a pale stone or concrete terrace deck, alongside dark wood furniture frames. A warm amber glow from a low source in the background distance adds a secondary point of warmth to the far left of the scene. The central foreground is dominated by a large solid square pedestal or plinth in rich dark walnut or teak — a cube form with a pronounced natural wood grain, its square top surface nearly filling the bottom quarter of the frame. On top of the wood pedestal sits a large perfectly spherical form in luminous opal-white, glowing from within with a warm golden-white light that diffuses evenly through its surface, casting a warm amber pool onto the top of the wooden cube below it. Camera is at a very low angle, approximately 2–3 feet, shooting nearly eye-level with the top surface of the pedestal. The lens is a normal focal length with a very shallow depth of field, keeping the glowing sphere and the pedestal surface sharp while the entire background terrace and ocean are a soft gradient blur. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

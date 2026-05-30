@@ -1,0 +1,44 @@
+{
+  "image_id": "vakker-e645e6e31523d756",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/olive-petal-glass-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Olive_Petal_Glass_Pendant_Lamp_1.jpg?v=1778651652",
+  "scraped_date": "2026-05-21T12:20:06.659Z",
+  "source_title": "Olive Petal Glass Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 800,
+  "height": 800,
+  "content_sha1": "e645e6e31523d756e67111bb58a63177223f2c2d",
+  "description": "A kitchen counter and bar area photographed at standing eye-level with a normal lens, framing a three-quarter corner view that captures both the kitchen peninsula surface and the adjacent wall. Two warm amber glows radiate from hanging positions above the counter — one closer in the left corner, one centered above the sink — bathing the cream-white plaster walls in a honeyed warmth that flickers with organic intensity. A sweeping arched doorway in the right-center background opens into a secondary space, its curved plaster reveal painted the same warm off-white as the surrounding walls. Crown moulding runs along the ceiling perimeter. At the foreground counter, a white marble peninsula top holds a light oak wooden tray cradling three clear tall drinking glasses, a dark wine bottle, and a second wine bottle partially visible at the left edge. A brushed brass gooseneck kitchen faucet rises from the marble at the right. Open floating shelves in light oak are partially visible through the arch, carrying a small stack of plates. The palette is warm neutral with strong forest-green color punctuation from the glowing amber-green masses overhead, supported by brass hardware accents throughout. The mood is casual and inviting with a hint of artisan richness. Object density on the counter is low to mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "plaster",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.241Z"
+}

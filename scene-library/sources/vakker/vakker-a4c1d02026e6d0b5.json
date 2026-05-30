@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-a4c1d02026e6d0b5",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/mira-alabaster-mushroom-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/MiraAlabasterMushroomTableLamp.png?v=1778092508",
+  "scraped_date": "2026-05-21T15:53:20.723Z",
+  "source_title": "Mira Alabaster Mushroom Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 797,
+  "height": 797,
+  "content_sha1": "a4c1d02026e6d0b52abafcb2aedf2c0caa203bc0",
+  "description": "A sleek, moody interior vignette photographed at seated eye-level with a telephoto lens in a tight off-center thirds composition focused on a dark round side table surface. The background wall is clad in dark charcoal vertical wood slat paneling, its deep tone and rhythmic texture creating a dramatic, gallery-quality backdrop. A round dark grey or black stone or lacquered side table sits in the foreground, its polished dark surface reflecting subtle ambient light. On the table surface, a warm diffuse glow emanates softly from the base area, illuminating the tabletop and its objects — a small stack of coffee table books and a slim design magazine are arranged neatly in the right portion of the table surface. To the right, the edge of a large rounded upholstered seating piece in off-white or dove grey is visible, its plush billowing form adding a soft sculptural contrast to the hard, linear wall paneling. The mood is sophisticated and moody, with a restrained palette of near-black, charcoal, and pale cream. The atmosphere evokes a private members club or high-end hotel lounge. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "chrome",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.177Z"
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-1362a4441dce688b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/bubble-chandelier-lighting-luxury-modern-creative-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/bubble-chandelier-dining-room.jpg?v=1777107631",
+  "scraped_date": "2026-05-21T12:03:10.813Z",
+  "source_title": "Bubble Chandelier Lighting Luxury Modern Creative Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1362a4441dce688b269aac24a98b6cd74b35837d",
+  "description": "A sophisticated modern dining space anchored by a striking combination of materials — dark graphite grey flat-panel cabinetry along the right wall paired with a full-height marble feature wall in white with dramatic grey veining. The cabinetry is flush and handle-free, arranged in a grid of large rectangular panels that rise to the ceiling. The marble panel creates a strong focal backdrop, transitioning into a shallow marble ledge countertop below, on which a small wooden board and a few neutral decorative accessories are casually placed. The ceiling is flat white. A large window on the left floods the room with cool natural daylight. The dining table has a thick white marble top on slim dark legs, set formally for six with matte black ceramic plates layered in two sizes, linen napkins, and gold-toned flatware. Dining chairs have soft grey velvet seat pads on frames of gold-tone metal tubing with a graceful curved profile. A single glass bud vase holds a few loose eucalyptus stems at the table center. An overhead arrangement of branching dark metal arms holds multiple frosted white and amber glass globe-shaped elements, suspended from above by dark cords, casting a warm diffused amber-and-white glow that washes down across the marble table and forward wall. The overall mood is editorial, dramatic, and contemporary with a European cosmopolitan edge. Camera at standing eye-level, wide-normal lens, centered symmetrical composition capturing the full table width and the marble feature wall behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "mustard",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.018Z"
+}

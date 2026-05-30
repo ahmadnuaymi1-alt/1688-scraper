@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-d006ea38b7a85dfd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ceiling-linear-lights-modern-minimalist-metal-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_5_c27b980c-54ee-4593-a60b-e5b5727320fc.jpg?v=1779070503",
+  "scraped_date": "2026-05-21T12:02:23.751Z",
+  "source_title": "Ceiling Linear Lights Modern Minimalist Metal LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d006ea38b7a85dfd07a62502cdcc2e60bd8361ac",
+  "description": "A contemporary corporate office lobby or reception area photographed at standing eye-level with a wide lens, using a one-point perspective composition that looks down a long open corridor. The ceiling is dramatically split: the left zone is entirely flat black with horizontal linear tube elements emitting crisp white light embedded in the surface, while the right zone is bright white with a diagonal black-framed linear tube element that slashes across it. This bold black-and-white ceiling geometry creates a graphic angular composition. The left wall background features a full-height vertical slat wall of warm natural medium-oak wood strips, backlit from behind with warm amber glow that creates a glowing warm honeycomb effect. In front of this backlit slat wall sits a large reception desk in white Carrara marble-look stone with heavy dark grey veining and gold veins, very substantial and frontal. The floor throughout is a highly polished concrete in deep charcoal grey, reflecting all elements above. On the left foreground sits a low round dark coffee table on a grey textured area rug, with a forest green low-back barrel chair nearby. On the right, a round rug in an abstract grey-and-cream pattern anchors a lounge grouping of colorful low armchairs in forest green, burnt orange, and oxblood red. Black-framed glass partition walls divide the open office work areas to the right. The palette is bold — deep black, white, warm oak, and punchy jewel-tone seating against a cool grey floor. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.846Z"
+}

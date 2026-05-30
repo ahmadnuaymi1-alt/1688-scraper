@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-328f12b312c9544f",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/celestial-ring-alabaster-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17786566527861.png?v=1778748969",
+  "scraped_date": "2026-05-21T12:09:00.650Z",
+  "source_title": "Celestial Ring Alabaster Wall Lamp",
+  "source_product_type": "Wall lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "328f12b312c9544fc7ea611d1fe2c87503d5f182",
+  "description": "A refined, spa-inspired bathroom vanity vignette with a warm California aesthetic. The vanity counter is white Carrara or Calacatta marble with subtle grey veining, housing an undermount rectangular sink. The faucet set is in a warm brushed brass or antique brass finish with cross-handle details. Resting on the counter surface are a small woven rattan tray holding neatly rolled white hand towels, a glass pump-top liquid bottle in amber tone, and a small potted herb or succulent in a white ceramic pot. The vanity cabinet below the counter is a creamy painted white with visible drawer hardware in the same warm brass. The background wall is smooth plaster in warm cream or greige. A large round mirror with a thin brass frame is centered above the sink. On either side of the mirror, round globe-like forms in frosted alabaster or cloudy white glass with brass canopy fittings emit a warm diffused glow that washes symmetrically across the plaster wall. Natural light enters from a window to the left, laying a bright diagonal across the wall surface. Camera at standing eye-level, centered symmetrical composition focused on the vanity mirror and counter, normal lens, level pitch, tight vignette on the vanity wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.066Z"
+}

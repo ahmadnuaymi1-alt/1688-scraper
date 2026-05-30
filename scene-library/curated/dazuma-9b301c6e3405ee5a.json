@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-9b301c6e3405ee5a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9b301c6e3405ee5a.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-inset-ceiling-spotlights-waterproof-led-aluminum-light",
+  "description": "A sophisticated contemporary bathroom photographed at standing eye-level with a centered composition, showing the vanity wall alongside an open walk-in shower. Walls and floors are uniformly clad in large-format stone-look porcelain in a deep warm grey with subtle marble veining — the same material wraps all surfaces continuously, creating a monolithic and architectural interior. The ceiling is smooth warm greige plaster, and a warm amber glow emanates from a concealed linear strip running just above the mirror's upper edge and recessed into the wall niche, casting a horizontal band of warm light that grazes the stone wall surface and illuminates the mirror area beautifully. Two recessed downlights are visible in the ceiling. The vanity surface is a thick cantilevered stone slab in the same dark grey marble material, with an integrated square undermount sink in matching grey. A matte black single-lever faucet and drain are the only hardware. Below the stone slab, an open floating shelf in warm natural oak provides a clean contrast of light wood tone against the dark stone above. A small white ceramic cup with a toothbrush sits on the right counter edge. A wide thin-framed black mirror cabinet spans the vanity width, its black frame echoing the shower frame. The walk-in shower on the left has a black-framed glass partition; a matte black wall-mounted rain shower head with a separate handheld slide bar are mounted on the shower wall. A black horizontal towel radiator is reflected in the mirror. The floor has a ribbed teak bath mat at the shower entry. The overall palette is deep charcoal grey stone, warm oak, matte black hardware, and warm amber accent light. The mood is quiet, moody, and architecturally refined. Camera is at standing height, level, using a normal lens in a centered composition framing the full vanity and shower. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

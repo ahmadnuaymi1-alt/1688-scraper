@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-860790235e8b33c0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-860790235e8b33c0.jpg",
+  "source_url": "https://dazuma.us/products/stylish-nordic-sleek-cylindrical-table-lamp-decorative-iron-and-ps-light",
+  "description": "A traditional yet editorial home office or sitting room vignette photographed at seated eye-level with a normal lens, composed as an off-center thirds shot showing a dark walnut desk or side table surface in the foreground. The table top is a deep rich walnut with visible wood grain and a warm reddish-brown tone. On the right side of the table sits a stack of two large hardcover art or design books with a beige and dark grey spines, and atop them a large hand-textured ceramic vase in rough matte white with an irregular crinkled surface. The background wall is finished in white wainscoting paneling — classic inset-panel board-and-batten or raised-panel moulding — rising approximately to chair-rail height. Above the wainscoting, the wall transitions to a warm white plaster. In the upper right corner, the edge of deep chocolate brown floor-length curtains frames the composition. A warm amber glow radiates from the table surface level, illuminating the walnut grain and casting soft warm light upward against the white paneling. The mood is quiet and scholarly with a gallery-editorial refinement. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

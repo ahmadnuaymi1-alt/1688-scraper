@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-fc77bf806a70e1d7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-glam-chandelier-minimalist-molecule-bean-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-glam-chandelier-living-room-ambient-lighting.jpg?v=1777107796",
+  "scraped_date": "2026-05-21T12:03:16.159Z",
+  "source_title": "Modern Glam Chandelier Minimalist Molecule Bean Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "fc77bf806a70e1d775b0baa33cf6e395f44d772a",
+  "description": "An open-plan living and kitchen space rendered in a warm, restrained palette. The kitchen runs along the back wall with light oak flat-front cabinetry, matte cream upper cabinets, and a honed stone slab backsplash in soft greige. A fluted white-panel kitchen island with integrated bar seating hosts three white sculptural stools and holds a small cluster of clear wine glasses, a single dark bottle, and a narrow ceramic vessel. Built-in open shelving to the far left displays a small ceramic bowl and a neat stack of softcover books. A tall built-in tower with black oven and flush light oak panels anchors the right side of the kitchen wall. A large vertical blind filters bright daylight from a floor-to-ceiling window to the right, creating an even, diffused illumination across the room. The living area foreground features a deep, low-slung terracotta-rust velvet modular sofa with tufted cushion segments and a single grey linen throw pillow. Centered in front of it sits a minimal solid light oak coffee table, almost slab-like, bearing two stacked books. A flat-weave ivory rug grounds the seating zone. The ceiling is smooth plaster in warm off-white. Camera is at standing eye-level shooting straight on in a centered symmetrical composition that captures the full open-plan depth from the living zone through to the kitchen. Normal to slightly wide lens with an even, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.010Z"
+}

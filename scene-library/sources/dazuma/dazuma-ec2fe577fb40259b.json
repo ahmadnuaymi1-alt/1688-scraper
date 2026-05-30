@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-ec2fe577fb40259b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/white-plaster-chandelier-french-vintage-style-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/white-plaster-chandelier-hallway-design.jpg?v=1778566098",
+  "scraped_date": "2026-05-21T12:02:48.677Z",
+  "source_title": "White Plaster Chandelier French Vintage Style Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ec2fe577fb40259bedadb8dff2b1b2092420337c",
+  "description": "A grand entry foyer of distinguished traditional architecture, bathed in luminous natural light streaming from wide-open double front doors. The doors are matte black with multi-pane divided-light glass sidelights on both sides, and beyond them stretches a lush green garden with mature trees in full summer foliage and a stone paved path. The foyer walls are painted warm cream-white with applied moulding wainscoting panels running the full height. Above, a spectacular coffered ceiling is composed of deep white moulding grid beams with each coffered panel infilled with planks of natural bleached light oak, creating a warm contrast of white and pale wood. The ceiling has a slightly elevated quality suggesting a generous ceiling height. Warm ambient light fills the space evenly from the flood of outdoor daylight. Camera slightly elevated, one-point perspective looking straight toward the open double doors, lens at normal-to-wide character, level pitch. The ceiling installation zone is centered above and well-defined by the coffered grid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "coffered_ceiling",
+      "applied_moulding",
+      "wainscoting",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.948Z"
+}

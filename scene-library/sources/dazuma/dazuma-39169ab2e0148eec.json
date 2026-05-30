@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-39169ab2e0148eec",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pendant-light-white-japanese-silk-fabric-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_7b174972-9b2e-46d5-93d1-7382574d3709.jpg?v=1774595812",
+  "scraped_date": "2026-05-21T12:04:12.108Z",
+  "source_title": "Pendant Light White Japanese Silk Fabric Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "39169ab2e0148eecaa1e285517d3ec9a8a768a6e",
+  "description": "A serene primary bedroom with a wide-establishing composition, camera at standing eye-level shooting level across the full room. The ceiling is clad in large square panels of light blonde wood with a fine grain, adding warmth and texture overhead against otherwise bone-white plastered walls. A floor-to-ceiling sliding glass door with matte black frames occupies the right third, its sheer white linen curtains billowing softly and admitting diffuse natural daylight that floods the right side of the room. Just beyond the glazing, a rough-hewn stone exterior wall and a terrace with greenery are partially visible. The bed features a tall upholstered headboard in cream tufted linen, dressed with layered pillows in white, sage green, and a natural striped textile. A dark olive wool throw is draped across the foot. A low upholstered bench in heathered gray sits at the foot of the bed. A light oak nightstand holds a small ceramic vase with dried botanicals and a petite ceramic object. An arched slatted-wood cabinet with double doors stands behind the nightstand in the corner. A framed landscape painting with a thin gold frame is hung on the left wall. The floor is a pale stone or large-format tile in ivory. The palette is warm neutral with forest green accents. Daylight enters from the right, casting a clean, even illumination with gentle shadows on the linen textiles. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "french_door"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.176Z"
+}

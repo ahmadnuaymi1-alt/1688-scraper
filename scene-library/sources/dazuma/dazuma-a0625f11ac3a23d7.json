@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-a0625f11ac3a23d7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-solar-lanterns-outdoor-solar-waterproof-portable-ambience-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3_50925f9a-3a4f-4eab-b556-26d635413499.jpg?v=1774175589",
+  "scraped_date": "2026-05-21T12:04:38.080Z",
+  "source_title": "LED Solar Lanterns Outdoor Solar Waterproof Portable Ambience Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a0625f11ac3a23d7d0ab85771f20f27f59bcd6ee",
+  "description": "A contemporary outdoor terrace or rooftop deck photographed at seated-to-standing eye level with a normal lens, in a three-quarter composition framing the deck seating zone and the integrated outdoor fireplace simultaneously. The camera is at approximately four feet, level, capturing both the left sofa corner and the right fireplace wall in a single wide view.\n\nThe deck surface is warm honey-toned hardwood decking in wide planks — teak or ipe — running parallel to the frame. A large built-in outdoor modular sofa on the left is finished in a rendered white plaster or concrete base with thick grey-toned outdoor-fabric cushions and matte charcoal square accent pillows. The sofa wraps in an L-shape around the corner of the terrace.\n\nAt the right, the exterior wall of the house is smooth white rendered plaster. A wide horizontal rectangular outdoor gas fireplace insert with a steel-framed black glass surround is set into this wall, with a roaring orange-amber fire burning vividly behind glass, casting a dramatic warm orange glow outward onto the deck surface and across the white wall.\n\nIn the center of the deck floor between the sofa and the fireplace, a warm amber glow radiates from a low-positioned accent source at floor level, casting a star-pattern shadow outward on the decking.\n\nIn the background, a glass railing reveals mature dark trees at dusk — a deep blue-grey sky, trees silhouetted against the twilight. White louvered shutters are partially visible on the upper-right house facade. The overall atmosphere is sophisticated, moody, and residential — a high-end contemporary outdoor living space at nightfall.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "fireplace"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.591Z"
+}

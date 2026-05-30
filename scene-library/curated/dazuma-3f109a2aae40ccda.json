@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-3f109a2aae40ccda",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3f109a2aae40ccda.jpg",
+  "source_url": "https://dazuma.us/products/black-chandelier-modern-creative-minimalist-ceiling-light",
+  "description": "A contemporary open-plan dining and kitchen space photographed at standing eye-level with a wide lens in a centered symmetrical composition. The ceiling is a dramatic feature: a large circular recessed coffer with a softly illuminated cove edge that emits a warm amber band of indirect light, framing the central dining zone architecturally. The ceiling plane itself is smooth plaster in warm off-white. The kitchen in the background is fully integrated and monochromatic — all flat-front cabinetry in matte warm white lacquer, floor-to-ceiling upper and lower cabinets, with a full-height marble backsplash slab in Calacatta-style white with bold gray veining as the kitchen's primary decorative element. A matte black range hood is integrated flush into the upper cabinet run. The kitchen countertop is a matching marble surface. A polished chrome faucet at the sink is visible at right. The dining table is a large round glass-top on a cross-base in warm natural walnut-toned wood. Around it are molded plastic or upholstered dining chairs in matte white — sculptural tulip-influenced forms. On the table, a tall polished chrome or glass vase holds a generous arrangement of white hydrangeas, with a small potted green plant beside it. The floor is herringbone light oak parquet. A neutral sheer taupe linen drape hangs at the far right against a floor-to-ceiling glazed door. A warm glow emanates from the cove lighting in the ceiling coffer, bathing the dining zone in soft indirect amber. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "coffered_ceiling"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

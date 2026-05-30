@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-fe59efaf8a7c59f0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-gate-outdoor-courtyard-exterior-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_bdc48a98-0ce9-4f1b-880c-a16805aca558.jpg?v=1774175697",
+  "scraped_date": "2026-05-21T12:04:35.433Z",
+  "source_title": "Pillar Lights for Gate Outdoor Courtyard Exterior Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "fe59efaf8a7c59f03852e74d46b6a48299264387",
+  "description": "A Mediterranean coastal terrace photographed at sunset dusk, with a breathtaking view of a still bay and distant mountain silhouettes under a soft peach and pale orange sky. The foreground terrace is paved in large-format warm cream limestone or travertine tiles. A low rough-hewn stone wall with squared pillar caps runs across the middle of the scene, serving as a boundary between the terrace and a lush planted garden edge. Tropical and Mediterranean plantings fill both sides — spiky agave, tall palm-like yucca, dense flowering shrubs with deep orange and red blooms, and silver-leafed ornamental plants. The garden is richly layered and vibrant. Two pillar-cap-mounted fixtures sit atop the stone pillars, casting warm amber glows that radiate outward symmetrically into the surrounding planting and stone surface. A terracotta-lit warmth emanates from within each, illuminating the rough stone texture of the pillar faces. The scene has a dramatic yet serene quality, with the sky deepening to a dusty rose gradient behind the mountain ridgeline and calm water surface. Camera is at standing eye-level, using a normal lens in a centered symmetrical composition looking straight across the terrace toward the water view, level pitch, with the two pillars evenly placed in the middle third of the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.016Z"
+}

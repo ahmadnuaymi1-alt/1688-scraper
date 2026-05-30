@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import type { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/db";
 import { requireUser } from "@/lib/auth";
+import { deriveHandle } from "@/lib/handle";
 
 interface ProductPatchBody {
   title?: unknown;
@@ -13,6 +14,13 @@ interface ProductPatchBody {
   optionNames?: unknown;
   variantOrder?: unknown;
   imageOrder?: unknown;
+  lifestyleUnitMode?: unknown;
+}
+
+const LIFESTYLE_UNIT_MODES = ["auto", "single", "multi"] as const;
+type LifestyleUnitMode = (typeof LIFESTYLE_UNIT_MODES)[number];
+function isLifestyleUnitMode(v: unknown): v is LifestyleUnitMode {
+  return typeof v === "string" && (LIFESTYLE_UNIT_MODES as readonly string[]).includes(v);
 }
 
 export async function GET(
@@ -77,15 +85,24 @@ export async function PATCH(
 
   const data: {
     title?: string;
+    handle?: string;
     descriptionHtml?: string | null;
     vendor?: string | null;
     productType?: string | null;
     tags?: string | null;
     metaDescription?: string | null;
     optionNames?: string | null;
+    lifestyleUnitMode?: string;
   } = {};
 
-  if (typeof body.title === "string") data.title = body.title;
+  if (typeof body.title === "string") {
+    data.title = body.title;
+    // Handle tracks title: every title change re-derives the slug so the
+    // local handle never drifts from the live title (user's standing rule).
+    // The last 8 chars of the productId act as the uniqueness fallback for
+    // very short / Chinese-only titles.
+    data.handle = deriveHandle(body.title, id.slice(-8));
+  }
   if (typeof body.descriptionHtml === "string" || body.descriptionHtml === null) {
     data.descriptionHtml = body.descriptionHtml as string | null;
   }
@@ -100,6 +117,15 @@ export async function PATCH(
   }
   if (typeof body.metaDescription === "string" || body.metaDescription === null) {
     data.metaDescription = body.metaDescription as string | null;
+  }
+  if (body.lifestyleUnitMode !== undefined) {
+    if (!isLifestyleUnitMode(body.lifestyleUnitMode)) {
+      return NextResponse.json(
+        { error: `lifestyleUnitMode must be one of ${LIFESTYLE_UNIT_MODES.join(", ")}` },
+        { status: 400 },
+      );
+    }
+    data.lifestyleUnitMode = body.lifestyleUnitMode;
   }
   if (body.optionNames !== undefined) {
     if (Array.isArray(body.optionNames)) {

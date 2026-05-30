@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-086809f68b2e0384",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-086809f68b2e0384.jpg",
+  "source_url": "https://dazuma.us/products/large-white-pendant-light-creative-nordic-ceiling-light",
+  "description": "A spacious dining room photographed at standing eye-level with a centered symmetrical composition, camera level and pitched very slightly downward, shooting straight toward the far wall. The lens reads as a normal to mildly wide focal length — approximately 35–50mm — capturing the full room width including both side walls, the ceiling plane, and the full depth of the space to the back glazed wall. The framing is architecturally anchored and bilateral in symmetry.\n\nThe architecture is clean and restrained. Walls are finished in a warm plaster-adjacent off-white — not stark, but creamy and light-absorbing in quality, suggesting a smooth Venetian or flat limewash finish. The ceiling is flat and continuous, painted the same tone as the walls, contributing to a seamless, uninterrupted envelope. The floor is wide-plank light oak with a natural, unsealed warmth running longitudinally into the room. A low-profile area rug in warm greige sits beneath the dining table. The dominant architectural feature of the back wall is a three-panel steel-framed window-and-door assembly — a large central casement flanked by two matching narrow panels, all in matte black steel with a fine grid of divided lites. This assembly opens onto a balcony or terrace, beyond which mature deciduous trees frame a Mediterranean-roofed neighboring structure in terracotta tile. Afternoon natural light floods through the glazing, backlighting the room with a warm, diffused outdoor glow.\n\nThe dining table is the room's anchor — a long, raw-edged reclaimed wood table with a heavily textured, bleached, and whitened surface suggesting aged oak or elm. The base is a substantial slab pedestal construction in the same bleached wood, giving the piece a monumental, organic presence. Surrounding the table are ten upholstered dining chairs in a warm sandy linen or woven fabric — high-backed with a clean channel or slab silhouette, set on light natural wood legs. The chairs read as transitional in form: not too formal, not too casual.\n\nTable styling is minimal and intentional. A terracotta-toned ceramic pitcher holds a loosely arranged branch of what appears to be a lemon or citrus tree with fruit and foliage. A wide, shallow wooden or stone bowl sits at the near end of the table with a small cluster of bread rolls or organic objects. No placemats, linens, or tableware are present — the surface is bare and expressive.\n\nAlong the left wall sits a long, low credenza or sideboard in reclaimed or weathered light wood — similar in material register to the dining table. On its surface, three ceramic vessels are grouped asymmetrically: two rounded amphora-style vases in a warm ochre or sand-glazed stoneware of varying heights, and one smaller vessel. These objects are sparse and sculptural.\n\nAmbient light in the scene is dominated by the natural daylight pouring through the rear glazing, which creates a luminous backlit atmosphere throughout. A warm, soft glow emanates from above the table center — a diffused, directional warmth that pools gently downward across the tabletop surface, warming the bleached wood grain without harsh shadows. This illumination lends the table a golden, enveloping quality consistent with late afternoon light interacting with interior sources.\n\nThe overall mood is serene, warm, and quietly luxurious — Californian in spirit, organic in materiality, and restrained in decoration. The palette is entirely within a warm neutral register: cream, sand, linen, ochre, bleached wood, and matte black accents in the window frames.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "french_door",
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-a544dc29bd03d7a8",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a544dc29bd03d7a8.jpg",
+  "source_url": "https://dazuma.us/products/black-lamp-floor-outdoor-garden-waterproof-modern-minimalist-lamp",
+  "description": "A tranquil outdoor wooden deck seating area photographed at standing eye-level with an off-center composition, capturing a small vignette of a rural terrace at dusk with the countryside landscape as a wide backdrop. The deck is made of warm weathered grey-brown horizontal planks. A dark walnut folding armchair with a thick fluffy cream sheepskin throw draped over its back and seat cushion sits to the left. A small square folding teak side table holds a single open book. The scene opens into a soft pastoral landscape beyond the deck: a wooden post-and-rail fence encloses a green meadow, and a rustic stone farmhouse with a terracotta-tile roof sits in the middle distance, surrounded by mature deciduous trees. The sky is a soft gradient of cool dusk blue with a pale horizon. A large mature oak tree at the left edge adds organic canopy framing. The entire mood is deeply peaceful, contemplative, and pastoral — a private rural reading spot at the close of day. A soft directed glow illuminates the immediate area of the seating arrangement and side table, creating a warm intimate cone of light in the gathering dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

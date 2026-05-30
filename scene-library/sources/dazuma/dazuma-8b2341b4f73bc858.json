@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-8b2341b4f73bc858",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-outdoor-modern-minimalist-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_39e86135-2f9b-4ae1-9e48-e928e86eeb9e.jpg?v=1774175122",
+  "scraped_date": "2026-05-21T12:04:45.272Z",
+  "source_title": "Wall Sconces Outdoor Modern Minimalist Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8b2341b4f73bc8584fcb159b5046ae9826d80cca",
+  "description": "An outdoor patio dining setting photographed at standing eye-level with a normal lens, framing a centered symmetrical view of a home's rear facade with a set dining table in the foreground. The house exterior is white board-and-batten vertical siding with dark charcoal louvered shutters flanking a tall black steel-framed French door whose glass reflects a warm evening sky. Two dark matte iron wall-mounted glowing elements with rectangular frosted-glass bodies are mounted symmetrically on either side of the door, each casting a warm amber pool outward and downward against the white siding. A natural teak or blonde oak dining table occupies the foreground, set with white plates, clear glasses, and a wooden fruit bowl holding apples and a carafe. A large woven rattan vase holds a generous arrangement of white flowering branches. The table is accompanied by slender black folding bistro chairs with white seat cushions and a matching blonde wood bench. A large woven wicker basket sits on the floor to the lower left. Pairs of shaped evergreen topiary trees in wicker basket planters frame both sides of the seating area, providing a lush formal symmetry against the white facade. A pale beige woven jute rug defines the outdoor dining area. The mood is fresh, American farmhouse with a European casual-elegance inflection. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "french_door"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.486Z"
+}

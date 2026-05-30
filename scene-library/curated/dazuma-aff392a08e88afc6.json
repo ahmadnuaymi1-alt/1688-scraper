@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-aff392a08e88afc6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-aff392a08e88afc6.jpg",
+  "source_url": "https://dazuma.us/products/feather-table-lamp-nordic-decor-tripod-bedside-lighting",
+  "description": "A cozy living room vignette centered on a small round side table in medium walnut with tapered mid-century legs. The tabletop holds an open paperback book spread flat, a dark stoneware bowl with a matte brown-black glaze, and a smaller ceramic bowl in warm putty. Behind the table, floor-length curtains layer sheer white linen over rich tobacco-brown drapes, allowing soft diffused daylight to filter through and cast warm afternoon glow across the scene. To the right, the arm and front face of an oatmeal-upholstered sofa chair are partially visible, grounding the composition in a sitting room context. The wall behind the curtains reads as a warm taupe. The floor is not visible. A warm amber glow emanates from within the table surface arrangement, giving the scene a golden, intimate quality. Camera is at seated eye-level, roughly 3 to 4 feet high, shooting with a normal to slightly telephoto lens at a mild off-center angle. The composition frames the table as a tight vignette with the window treatment as background, prioritizing depth and warmth over architectural breadth. The mood is quiet and intimate — a private reading moment in a softly furnished living room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

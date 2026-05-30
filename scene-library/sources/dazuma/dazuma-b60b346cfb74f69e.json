@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-b60b346cfb74f69e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/hanging-light-outdoor-european-wedding-acrylic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/hanging-light-outdoor-crystal-garden-archway-sunset.jpg?v=1774595391",
+  "scraped_date": "2026-05-21T12:04:22.418Z",
+  "source_title": "Hanging Light Outdoor European Wedding Acrylic Ceiling Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b60b346cfb74f69e24537fa86391b1c47c68cb96",
+  "description": "An outdoor wedding or event venue scene photographed at dusk from a low upward angle. A polished chrome or silver circular arch structure curves through the upper frame, its surface catching the last warm light of the fading sky. Wrapped around the arch, fresh floral garlands with green eucalyptus leaves, blush pink roses, and small white accent blooms twine up both sides and cluster at the apex. The background sky is a deep blue-purple twilight gradient, with silhouetted tree canopy barely visible beneath the arch frame and a few distant warm amber bokeh points of light suggesting event string lights or other venue elements in the far background. The mood is deeply romantic, ethereal, and celebratory — a lavish outdoor ceremony setting at golden hour's final moment. A golden warm glow radiates from a hanging source at the center of the arch, illuminating the surrounding roses and leaves with a radiant amber warmth against the cool evening sky. Camera is very low — approximately 2 feet — tilted upward looking into the arch, with a normal lens in a centered symmetrical composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.717Z"
+}

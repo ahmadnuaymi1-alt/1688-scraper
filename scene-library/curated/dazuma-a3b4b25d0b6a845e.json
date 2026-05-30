@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-a3b4b25d0b6a845e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a3b4b25d0b6a845e.jpg",
+  "source_url": "https://dazuma.us/products/led-wall-sconce-outdoor-modern-minimalist-waterproof-bubble-light",
+  "description": "An exterior wall vignette photographed at standing eye-level with a centered composition focused tightly on a section of a house's exterior cladding beside an entry door. The wall surface is vertical shiplap-style white-painted board siding in a warm creamy off-white tone. The edge of a door casing is partially visible at the left, suggesting this is the side of a front entry or side door surround, with a small classical crown moulding detail at top left. Two branches of a green-leafed shrub or climbing plant frame the lower left and lower right corners of the composition, their dark green small oval leaves slightly soft with shallow focus. A warm golden wash of light spreads upward and outward from the wall-mounted position, casting a broad fan of amber warmth onto the pale siding both above and below and illuminating the surrounding plant foliage with a honeyed glow. The atmosphere is intimate, cozy, and welcoming — a close-up exterior portrait that captures the texture of the painted vertical siding and the gentle warmth of evening illumination against a quiet residential facade. The entire frame is a quiet, tight vignette showing only this one wall surface and entry edge. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

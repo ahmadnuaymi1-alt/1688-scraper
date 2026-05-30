@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-e8f27c7d29661b4b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/white-pendant-lighting-japanese-vintage-creative-silk-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_958d81c1-4b79-467a-a6c3-fd572e893145.jpg?v=1774595785",
+  "scraped_date": "2026-05-21T12:04:12.586Z",
+  "source_title": "White Pendant Lighting Japanese Vintage Creative Silk Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e8f27c7d29661b4b46a641a2350d0a77dfd7b36f",
+  "description": "A bright California-contemporary kitchen or dining space photographed at elevated camera height — around seven to eight feet — with a normal lens and an off-center thirds composition tilted slightly downward, framing the ceiling zone prominently and revealing the room context below. The ceiling is smooth plaster in warm cream-white, transitioning into painted white upper cabinetry along the back wall. The upper cabinets are flat-panel white with antique-brass cup-pull hardware, above a matte black-framed picture window that looks out to lush tropical banana plant foliage — vibrant green against bright daylight. To the far right, a partial arched opening with a dark matte-black arched surround frames a passage into an adjacent room. The ceiling plane is open and generous, with a white cord descending from center ceiling. The overall palette is warm cream white, matte black metal accents, brass hardware, and tropical greenery. Cool natural light floods in from the large window, providing the primary illumination of the space below, with the warm ceiling tone diffusing the glow gently. The mood is quiet, serene, and Californian-modern with an organic softness. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.935Z"
+}

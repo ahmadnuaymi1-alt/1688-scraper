@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-75599b68699e1b78",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/bell-travertine-arc-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793511797012.png?v=1779351326",
+  "scraped_date": "2026-05-21T12:08:01.044Z",
+  "source_title": "Bell Travertine Arc Sconce",
+  "source_product_type": "Wall lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "75599b68699e1b78477fa714bced295973d3e9a5",
+  "description": "A warm, minimalist bedroom vignette photographed at seated eye-level with a normal lens, in a tight off-center thirds composition focused on the bedside area. The camera sits approximately three feet high, looking level. A floating wall-mounted nightstand shelf in dark reclaimed wood — thick, rough-edged, with visible wood grain and patina — is fixed to the wall at the right of frame. On its surface rest a short ceramic mug with a warm drink steaming gently, a small terracotta pot with a lush compact fern, and the corner of a stacked book. The wall behind is smooth warm plaster in a creamy sand tone, its texture catching soft diffused light. On the wall immediately to the left of the floating shelf, a matte black arched arm curves upward from a round dark wood circular mount, with a small warm-toned sphere accent bead below — the decorative wall element casting a warm gentle glow from a turned-down light source. The bed extends to the left — a simple platform with a natural linen pillowcase in light warm gray and a chunky-knit wool throw in cream and warm taupe draped loosely across the mattress. The overall palette is warm sand, natural linen, dark wood, and terracotta. The mood is intimate, grounded, and unhurried. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.129Z"
+}

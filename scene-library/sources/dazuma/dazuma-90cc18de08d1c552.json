@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-90cc18de08d1c552",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-post-lights-outdoor-waterproof-courtyard-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_f171d7ea-913b-436c-acd6-2f0160ea3d5e.jpg?v=1774175821",
+  "scraped_date": "2026-05-21T12:04:33.954Z",
+  "source_title": "Pillar Post Lights Outdoor Waterproof Courtyard Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "90cc18de08d1c5528925c48fd02093faf7262453",
+  "description": "An evening exterior scene photographed at standing eye-level with a normal lens, framing a residential front-yard setting in an off-center thirds composition that places a stacked-stone pillar cap in the left foreground against a receding suburban streetscape. The stone pillar is constructed of large-format rustic limestone blocks in sandy beige and ivory tones, topped with a square dark bronze cap unit that emanates a warm amber glow from ribbed translucent panels — the light effect reads as a compact, intense pool of amber radiance pushing downward and outward across the surrounding low boxwood hedges and scattered white flowering ground cover. In the middle ground, the residential street stretches into the distance with warm pools of amber illumination dotting the sidewalk edge at regular intervals, cast from tall dark post-mounted units along the boulevard. Mature deciduous trees line the street, their canopies silhouetted against a soft pastel dusk sky in lavender and rose. Tidy suburban homes with manicured lawns recede into the background. The foreground ground cover includes round-leafed boxwood shrubs and clusters of small white flowers adding delicate organic detail. The mood is warm, safe, and settled — a classic American residential twilight scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.516Z"
+}

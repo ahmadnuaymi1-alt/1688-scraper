@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-18211bc6dc01569f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-18211bc6dc01569f.jpg",
+  "source_url": "https://dazuma.us/products/glass-candle-chandelier-minimalist-american-ceiling-light",
+  "description": "A light-saturated open-plan kitchen and dining space rendered in a French Country-meets-coastal-traditional style. The dining zone in the foreground features a rectangular bleached light oak table with carved apron detail and turned-and-scroll legs, surrounded by four Louis XVI-style cane-back dining chairs with painted bleached frames and seat cushions in pale powder blue linen. A small round vase of soft white flowers and loose greenery centers the table. To the left, two tall windows with white moulded trim flood the space with morning light through sheer white curtain panels; two botanical prints in gilded frames hang on the wall between and beside the windows. The kitchen beyond features floor-to-ceiling white inset cabinetry with brass hardware, a large kitchen island with a thick white marble waterfall countertop attended by four upholstered bar stools in cream ribbed fabric on walnut and brass frames, and a tall plaster range hood in creamy white with bracketed detail flanked by white subway tile backsplash. A brass potfiller faucet and brass sink fixture add metallic warmth. On the island surface, a glass vase of white flowers and a few small glass canisters are casually placed. The ceiling carries white tongue-and-groove paneling with crown moulding at the perimeter. Three matching conical brass-framed ceiling-hung elements with glass panels and candelabra arms descend — one above the dining table and two above the island — casting warm golden illumination in a coordinated row across both zones. The floor is warm light-wide-plank hardwood. Camera at standing eye-level, wide lens, three-quarter angle from the dining zone looking back into the kitchen. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "shiplap",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

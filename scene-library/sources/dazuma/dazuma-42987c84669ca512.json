@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-42987c84669ca512",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/elegant-woven-outdoor-lanterns-unique-woven-texture-stylish-portable-lanterns",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/group-solar-pathway-lights-lush-backyard-garden-woven-outdoor-lanterns-decking.jpg?v=1763625667",
+  "scraped_date": "2026-05-21T15:52:56.011Z",
+  "source_title": "Woven Outdoor Lanterns Stylish with Handle Portable Patio Floor Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "42987c84669ca512832852c8c4dd711e6a2062e6",
+  "description": "A lush residential garden photographed at dusk, showing a curved slate stepping-stone path winding through manicured lawn. In the foreground, a wooden deck area holds a brown wicker lounge chair with a light-colored cushion at the right edge. The garden beds on the right burst with vivid purple and pink flowering plants — likely salvia and impatiens — while the background features ornamental shrubs and garden statuary including a white duck figure. Three woven rattan-look portable lanterns are placed across the scene — one on the deck foreground, one on the lawn beside the path, and one further back on a white-painted surface. Each emits a warm amber geometric glow pooling directly onto the grass, path stones, and deck surface beneath them, with no illumination reaching above. The atmosphere is intimate and festive, suggesting an outdoor evening gathering. Camera is at standing eye-level using a normal lens, wide establishing view. Composition is a wide establishing shot looking straight down the garden path with a slight downward pitch showing the full garden space. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.205Z"
+}

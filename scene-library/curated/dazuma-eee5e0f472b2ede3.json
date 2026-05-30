@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-eee5e0f472b2ede3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-eee5e0f472b2ede3.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-driveway-pillar-lights-minimalist-landscape-post-light",
+  "description": "A residential driveway entrance at dusk, photographed at standing eye-level in a three-quarter off-center composition. The scene is set at twilight — a deep blue-grey evening sky silhouettes mature pine trees and the roofline of a traditional home clad in painted white brick with a charcoal asphalt shingle roof and a grey downspout running vertically on the gable end. A decorative white painted brick pillar or gate post stands in the middle ground. To the right, a dark charcoal slatted wood or metal gate with diagonal board pattern is partially visible. The foreground shows a wide sweeping concrete driveway curving from the lower right. A curved planted bed borders the driveway with rounded trimmed boxwood shrubs, low broad-leaf ground cover plants, and red-brown mulch creating a tidy, traditional landscape composition. Warm amber-gold light glows from a post-mounted source in the center of the planted bed, illuminating the surrounding shrubs and casting a warm patch of golden light across the mulch and nearby driveway edge. The light contrasts dramatically with the cool blue dusk beyond. The overall palette is deep blue-grey sky, white brick, charcoal, dark green, warm amber, and concrete grey. Camera is at standing height, slightly off-center favoring the left with the home and gate both visible, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

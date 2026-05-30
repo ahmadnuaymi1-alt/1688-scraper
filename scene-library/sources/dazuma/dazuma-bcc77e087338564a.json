@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-bcc77e087338564a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/french-vintage-green-floral-table-lamps-diy-twistable-white-glass-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_cad91079-3b0e-4ead-ab49-d145797348a7.jpg?v=1758853062",
+  "scraped_date": "2026-05-21T15:52:50.350Z",
+  "source_title": "Floral Table Lamps French Vintage Green DIY Twistable White Glass Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bcc77e087338564abd5142c4acce7fd16d478efa",
+  "description": "A dresser or vanity surface vignette photographed at standing eye-level with a normal lens, framing a centered, close composition of a white surface with a curated arrangement of objects. The background wall is smooth flat warm ivory-cream. To the left, a white paper bag with geometric origami-folded sides overflows with a vibrant bouquet of fresh-cut flowers: red gerbera daisies, pink and cream roses, yellow chrysanthemums, and lush green foliage — the colors saturated and joyful. Center-left is a small clear glass bud vase holding two fresh green leaves in water. A decorative white marquee-style letter sign reading \"BME\" glows faintly white in the background center-right. A small crystal perfume bottle with a silver sprayer cap sits at far right. The warm ambient glow of the space is even and diffuse; a gentle warmth spreads from table level without attributing it to any fixture form. The surface itself is pure white and the overall atmosphere is fresh, feminine, and floral. Color palette is warm neutral with saturated red, pink, and forest green accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.747Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-238c4072da81a198",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-table-lamp-waterproof-garden-landscape-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/balcony-outdoor-led-table-lamp-5.jpg?v=1765006597",
+  "scraped_date": "2026-05-21T15:51:59.856Z",
+  "source_title": "Outdoor LED Table Lamp Waterproof Garden Landscape Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Desk Lamps > LED Desk Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "238c4072da81a1983a6724e0bb5b8bd3e7b5a017",
+  "description": "An urban indoor-outdoor or restaurant-adjacent setting photographed at seated eye level with a normal lens, framing a tight centered vignette of a small round cafe table against a cool blue-gray glass or lacquered panel surface. The table is a small round bistro side table with a matte black metal frame and a dark walnut or painted-black circular top. A closed white hardcover notebook or journal sits flat on the table surface. The background is a cool blue-gray architectural panel, possibly glass or lacquered board, with a dark matte black metal frame section visible to the right. At the far left the blurred texture of an exposed brick wall in warm red-brown is visible. At the upper right, blurred dark green foliage of an indoor plant adds an organic note. To the right edge, a partial view of an armchair in pale beige leather with slender black metal legs. The warm golden pool of light from the table surface illuminates the notebook and spreads gently across the table top, creating a warm intimate contrast against the cool blue-gray backdrop. The mood is moody, intimate, and sophisticated — evening in a curated bar or gallery space. The palette is cool slate blue, matte black, warm amber glow, and brick red. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.084Z"
+}

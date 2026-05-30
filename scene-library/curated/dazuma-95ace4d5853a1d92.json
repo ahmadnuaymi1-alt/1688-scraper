@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-95ace4d5853a1d92",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-95ace4d5853a1d92.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-inset-ceiling-spotlights-waterproof-led-aluminum-light",
+  "description": "A clean, airy contemporary kitchen photographed at standing eye-level with a centered symmetrical composition, capturing the full kitchen layout including island, perimeter cabinetry, and ceiling in a wide establishing shot. The ceiling is a textured plaster in warm greige tone, gently lit from a concealed linear strip running along the ceiling perimeter that casts a continuous warm amber glow upward and outward, softening the ceiling texture beautifully. Upper cabinets are flat-panel in matte white, while lower cabinets and open shelving units are clad in light natural oak with visible wood grain in pale blonde tones. The backsplash is a large-format slab in soft white marble with subtle warm grey veining. The countertop carries through the same white marble material. A central island with a matching marble-topped surface and light oak base panels is flanked by two boucle-upholstered barrel counter stools with light oak legs. On the island surface: a shallow ceramic bowl of fruit, a stack of plates, and two small bottles. The open shelving at the right side holds ceramic bowls, white vessels, and a small vase. A stainless steel refrigerator is visible at the far left. A matte black gooseneck kitchen faucet over an undermount sink anchors the back wall. A floor-to-ceiling sliding glass door at the right edge is dressed with sheer white linen curtains, letting in diffused daylight and revealing green tree foliage outside. The floor is large-format cream limestone tile. A large terracotta planter with a tropical leafy plant sits in the foreground right. The mood is calm, bright, and warmly minimal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "french_door"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-bfe6a3f2150f1087",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-garden-outdoor-waterproof-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-pillar-lights-garden-patio-dusk.jpg?v=1773717341",
+  "scraped_date": "2026-05-21T12:19:43.399Z",
+  "source_title": "Pillar Lights for Garden Outdoor Waterproof Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bfe6a3f2150f1087dfcda46588e1a15e535b001d",
+  "description": "An outdoor patio scene photographed at standing eye-level with a wide lens at dusk, capturing a wide establishing view of a stone garden seating area. The deep blue twilight sky creates a dramatic backdrop for the warm amber glow emanating from multiple geometric light sources perched atop stacked limestone column caps. A built-in stone bench runs along a low retaining wall, dressed with cream cushions and striped rust-and-cream throw pillows. A wrought-iron accent chair in matte black sits to the left on large-format cobblestone pavers. Flowering plants — pink and white blooms in terracotta pots and planted borders — soften the masonry edges with organic color. An ornate wrought-iron fence and gate in dark bronze-black frames the far boundary of the space, with mature trees silhouetted against the blue-gray twilight beyond. Each stone column pier glows with warm amber halos from sources placed atop each cap, creating a rhythmic row of intimate warm pools along the low garden wall. A portable geometric light source also sits on the bench surface, throwing a focused warm glow across the stone top. The paving is tumbled cobblestone in buff and gray tones. The mood is romantic and quietly dramatic, with the contrast of warm amber light against the cool evening sky. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.755Z"
+}

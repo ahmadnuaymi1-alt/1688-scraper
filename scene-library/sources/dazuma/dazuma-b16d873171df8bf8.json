@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-b16d873171df8bf8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/contemporary-outdoor-led-wall-lights-cylindrical-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-outdoor-led-wall-lights-sleek-cylindrical-brick-wall.jpg?v=1774836673",
+  "scraped_date": "2026-05-21T12:04:01.017Z",
+  "source_title": "Contemporary Outdoor LED Wall Lights Cylindrical Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b16d873171df8bf8eb10b4dca3410cd45d5b5535",
+  "description": "An exterior nighttime scene showing the corner of a residential brick wall at dusk. The wall is composed of warm reddish-brown standard-run brick with dark mortar joints, richly textured and aged. The scene is shot tightly against the wall face, with the camera positioned slightly below eye level and aimed upward at a mild angle. Behind the wall and to the left, a landscape background is softly blurred out of focus — low shrubs, stacked stone garden edging, and trees with warm autumn foliage in ochre and rust are barely visible through the bokeh. The deep blue twilight sky sits above the treeline. The scene has a deep moody quality, with the warm amber glow from a wall-mounted source washing broadly across the brick face and creating a rich interplay of illuminated and shadowed mortar lines. The warm light spreads from a vertical source mounted midway up the wall, gently pulling out the texture of the masonry. Camera is at slightly below standing eye-level with a mild upward pitch, shooting with a normal to slightly telephoto lens in an off-center composition that keeps the wall as the primary surface and pushes the background landscape into the far soft-focus periphery. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.696Z"
+}

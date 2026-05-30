@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-b9886d1f1186c1ff",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b9886d1f1186c1ff.jpg",
+  "source_url": "https://dazuma.us/products/bollard-solar-lights-outdoor-mosquito-killer-waterproof-light",
+  "description": "A residential garden pathway photographed at dusk from standing eye level in an off-center thirds composition. The foreground is a planted garden bed with large dark green hostas, ornamental grasses with feathery seed heads catching the last ambient dusk light, and small yellow flowering ground cover plants. A cobblestone or brick paved path runs along the right edge of the frame toward the house. In the center of the garden bed, a matte black square post-mounted bollard fixture stands on a small concrete base, emitting a vivid purple-violet ultraviolet glow from within its pagoda-style lantern head — casting a cool, eerie purple tint against the surrounding plants and ground. In the background right, a contemporary home facade is visible with warm amber interior light spilling through a wide sliding glass door or window framed in natural wood cladding, providing a warm counterpoint to the cool purple foreground. Tall ornamental grasses and the dusky blue-grey sky complete the backdrop. The palette is matte black, deep green foliage, warm wood and amber interior, and cool purple-violet light. Camera is at standing height, positioned slightly below the lantern top, looking across the garden in a three-quarter composition that includes both the garden bed and the house backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "plum",
+      "mustard"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

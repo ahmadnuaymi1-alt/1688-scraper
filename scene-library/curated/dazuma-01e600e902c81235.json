@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-01e600e902c81235",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-01e600e902c81235.jpg",
+  "source_url": "https://dazuma.us/products/led-outdoor-lighting-wall-mount-modern-waterproof-garden-light",
+  "description": "An exterior architectural scene photographed at dusk, capturing the corner edge of a contemporary building facade. The wall surface is a smooth, matte plaster in a warm off-white or light greige tone, cleanly rendered and unadorned. To the right of frame, a full-height glazed curtain wall system dominates — large-format steel or aluminum-framed sliding glass panels with dark matte black frames arranged in a grid pattern, spanning two stories. The upper story reveals an expansive grid of uniform window panes in the same dark-framed system, receding toward the building's upper edge and out of frame. The glass of the sliding doors reflects a dusk sky — deep amber, burnt orange, and soft rose tones bleeding into a darkening blue — along with silhouettes of trees in the middle distance. Through the glass, a warm interior is partially visible: wooden wall paneling or cabinetry in a honey-toned wood, suggesting a residential or hospitality interior. The ground plane is a smooth, pale concrete or stone paver, extending as a flat terrace surface. The overall palette is restrained and sophisticated — warm greige plaster, matte black metal framing, warm amber glow from within and from the wall surface. A soft pool of warm amber light washes upward across the plaster wall above the fixture position, and a second warm cone of light spreads downward across the lower wall surface below, creating two distinct warm zones of illumination against the cool evening plaster — the effect is dramatic and directional, with strong contrast between the lit wall zones and the unlit surrounding plaster. The mood is serene yet architecturally dramatic, evoking a high-end residential or boutique hospitality exterior at the precise transitional moment between golden hour and blue hour. Camera is positioned at approximately standing eye-level, roughly 5 to 6 feet, shooting from a three-quarter angle at the corner of the building with a slight turn toward the wall face. The lens reads as a normal-to-slightly-wide focal length, approximately 35mm. The composition is off-center, with the plaster wall occupying the left half of the frame and the glazed facade occupying the right half, the building's corner edge acting as a vertical dividing line. Camera pitch is level with no perceptible tilt. The frame captures a mid-distance vignette of the wall surface and adjacent facade rather than a full establishing shot. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

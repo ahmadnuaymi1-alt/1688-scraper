@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-d3dec83ebd7f5230",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-d3dec83ebd7f5230.png",
+  "source_url": "https://vakkerlight.com/products/eclipse-travertine-table-lamp",
+  "description": "A living room vignette photographed at standing eye-level with a normal lens, capturing a three-quarter view of a rustic console table arrangement. The console table is crafted from thick, heavily distressed reclaimed wood with raw trestle-style legs, giving it a raw artisanal character. The surface holds a stack of books, a small round ceramic vase with a dried pampas grass arrangement, a woven rattan tray, and a sculptural object glowing with concentrated warm amber light from within. Framed artwork in simple light wood frames hangs on the warm sand-plaster wall behind. A sofa with soft taupe cushions is partially visible in the background left, and the space extends into a sitting area with additional framed art. Diffuse natural light enters from a multi-pane window in the background right, adding gentle daylight to the scene. Warm amber light emanates at table level from the sculptural glowing object, pooling light across the tabletop and washing the adjacent wall with a soft golden warmth. The color palette is warm and earthy — raw wood, sand plaster, ivory, honey amber, and dried organic tones. The mood is quiet and organic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

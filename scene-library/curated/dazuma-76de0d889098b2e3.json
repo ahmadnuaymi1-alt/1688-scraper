@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-76de0d889098b2e3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-76de0d889098b2e3.jpg",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-house-outdoor-waterproof-post-light",
+  "description": "A twilight residential exterior scene focused on a deck railing entry with two post-cap positions. Two substantial grey stone newel posts flank the near end of a wood-railed deck, each post topped with a broad flat cap surface. A natural cedar wood horizontal handrail connects the posts. In the blurred background, a two-story contemporary suburban home in grey siding with dark trim is visible across a concrete pathway, flanked by clusters of tall bamboo on both sides. The sky is a soft blue-grey dusk, transitioning from the last cool light of day. The deck railing is natural cedar toned wood. Warm amber glow radiates from each post-cap position, casting rich golden light through latticed decorative side panels and projecting a warm luminous pattern onto the stone post faces below — a striking beacon effect against the cool evening atmosphere. The mood is tranquil, welcoming, and distinctly East-Asian influenced. Camera at seated to low standing eye-level, centered symmetrical composition with both posts framed equally and the house receding to center background, normal lens with slight telephoto compression, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

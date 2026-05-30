@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-c791359da62f3ec6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-industrial-table-lamps-stylish-two-color-decorative-objects-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/blue-green-geometric-faceted-base-modern-industrial-table-lamps-brass-cabinet.jpg?v=1763625640",
+  "scraped_date": "2026-05-21T15:52:57.427Z",
+  "source_title": "Modern Industrial Table Lamps Stylish Fabric Decorative Objects Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c791359da62f3ec6d87af524b96824c32265294b",
+  "description": "A polished sideboard or console vignette set against a large picture window with white trim. The surface is a richly veined dark-red and brown marble top, mounted on a walnut-toned cabinet base with warm grain visible below. Three styling objects rest on the marble surface: a low dark walnut bowl on the left, a matte black sculptural head bust on a cube pedestal in the middle-left, and centered right a faceted ceramic table object in pale seafoam green with a brass base ring. Through the large picture window, an lush garden unfolds — pink flowering oleander and dense green foliage in bright natural daylight create a vibrant backdrop. The walls are off-white plaster. The room is contemporary with a sculptural, art-forward sensibility. A warm, soft glow emanates at surface level from within the arrangement, illuminating the surrounding objects at tabletop height. Camera is at standing eye-level, normal lens, off-center slightly-left composition framing the console surface as a vignette against the bright window. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "dusty_blue",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.796Z"
+}

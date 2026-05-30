@@ -1,0 +1,122 @@
+{
+  "productId": "cmpbgpoeg00wew2ocfy0e4dzl",
+  "productTitle": "GOOD 创意蘑菇台灯usb充电灯可调光酒店酒吧卧室床头书房氛围小夜灯",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-22T11:20:27.321Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "gold-parisian-foyer-console",
+      "mode": "homey",
+      "prompt": "A petite Parisian-style entry foyer captured in a 1:1 frame on a 35mm lens at standing eye-level, angled three-quarter toward a slim oak-and-cream demilune console pushed against a wall of cream-painted applied panels with delicate plaster cornicing overhead. Late-afternoon golden light rakes in from an unseen window at the right, warming a parquet-de-Versailles floor and catching the gilded edge of a tall leaning vintage mirror behind the console. The small mushroom lamp sits left-of-centre on the console, switched ON with a soft warm 2700-3000K glow pooling under its dome onto a small brass dish of house keys, a cloth-bound monograph, and a single quince branch in a slim porcelain bud vase. Matches the reference image exactly: warm brushed-brass dome shade, slim brass stem, round brass disc base — colour and proportions identical. Palette: champagne brass, ivory cream, honey-oak, pale parchment, a whisper of rose. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "entry foyer console",
+      "designStyle": "Parisian Beaux-Arts transitional",
+      "wallColour": "ivory cream with applied panel mouldings",
+      "cameraAngle": "35mm three-quarter standing eye-level",
+      "timeOfDay": "late afternoon golden hour",
+      "accents": [
+        "leaning vintage gilt mirror",
+        "brass dish with house keys",
+        "cloth-bound monograph",
+        "quince branch in porcelain bud vase",
+        "parquet-de-Versailles floor"
+      ]
+    },
+    {
+      "slug": "silver-japandi-home-desk",
+      "mode": "minimalist",
+      "prompt": "A serene Japandi home study framed 1:1 on a 50mm lens at seated desk eye-level, the camera centred on a white-oak floating desk set against a warm putty troweled-plaster wall with a narrow band of vertical reeded light-oak slats running behind. Morning daylight spills from a tall casement to the left, washing the plaster in soft directional light. The brushed-silver mushroom lamp anchors the desk's left third, switched ON with a soft warm 2700-3000K glow that pools across the oak grain. Beside it: a hand-thrown stoneware mug of green tea on a coaster of folded raw linen, a leather-bound sketchbook with a graphite pencil resting in the spine, and a small ceramic dish holding a single sprig of dried wheat. Matches the reference image exactly: brushed satin-nickel dome shade, slim silver stem, round disc base — identical brushed metallic finish. Palette: brushed silver, oat plaster, pale oak, soft moss, charcoal graphite. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "home study desk",
+      "designStyle": "Japandi warm minimal",
+      "wallColour": "warm putty troweled plaster with reeded oak slat accent",
+      "cameraAngle": "50mm seated desk eye-level",
+      "timeOfDay": "morning",
+      "accents": [
+        "white-oak floating desk",
+        "stoneware mug of green tea",
+        "folded raw-linen coaster",
+        "leather-bound sketchbook with graphite pencil",
+        "ceramic dish with dried wheat sprig"
+      ]
+    },
+    {
+      "slug": "burgundy-restaurant-banquette",
+      "mode": "homey",
+      "prompt": "A small hotel-restaurant banquette corner captured 1:1 on a 50mm lens at low booth-table height, angled three-quarter across a round honed-marble café table set against a curved channel-tufted oxblood-leather banquette. The wall behind the banquette is a deep oxblood limewash above a low band of figured walnut wainscoting, lit only by the lamp and the faint warm glow of distant pendants reflected in a round antique-brass-framed mirror to one side. The burgundy mushroom lamp sits centre-back on the marble, switched ON with a soft warm 2700-3000K glow casting a halo on the polished stone. Around it: a small footed brass dish of dark figs, a folded linen napkin tied with twine, a porcelain espresso cup on its saucer, and a slim cut-glass bud vase holding two stems of dahlia. Matches the reference image exactly: glossy wine-red dome shade, matching wine-red stem and round disc base — colour identical. Palette: oxblood, burnished brass, honed marble, walnut, fig-purple. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "hotel restaurant banquette",
+      "designStyle": "moody jewel-tone hospitality",
+      "wallColour": "deep oxblood limewash with walnut wainscoting",
+      "cameraAngle": "50mm low booth-table-height three-quarter",
+      "timeOfDay": "evening",
+      "accents": [
+        "channel-tufted oxblood leather banquette",
+        "footed brass dish of dark figs",
+        "linen napkin tied with twine",
+        "porcelain espresso cup and saucer",
+        "cut-glass bud vase of dahlia stems",
+        "round antique-brass-framed mirror"
+      ]
+    },
+    {
+      "slug": "pink-blush-vanity",
+      "mode": "minimalist",
+      "prompt": "A small dressing-room vanity scene framed 1:1 on a 35mm lens at low vanity-top eye-level, the camera centred on a slim light-oak vanity table tucked against a pale blush-plaster wall with a softly arched alcove. Early-evening dusk light filters through a sheer linen curtain at frame-left, layered behind the lamp's primary glow. The pink mushroom lamp sits right-of-centre on the vanity, switched ON with a soft warm 2700-3000K glow that pools across a marquetry inlaid jewellery box, a small porcelain trinket dish of pearl earrings, and a single stem of sweet pea in a slender clear bud vase. A narrow oval mirror in a thin brass frame leans against the wall behind, returning a quiet sliver of the lamp's halo. Matches the reference image exactly: glossy dusty-pink dome shade, matching pink slim stem, round pink disc base — colour identical, with the bright white inner diffuser visible from below. Palette: dusty rose, blush plaster, pale oak, soft brass, pearl ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "dressing room vanity",
+      "designStyle": "soft romantic minimalist",
+      "wallColour": "pale blush plaster",
+      "cameraAngle": "35mm low vanity-top eye-level",
+      "timeOfDay": "early evening dusk",
+      "accents": [
+        "light-oak vanity table",
+        "marquetry inlaid jewellery box",
+        "porcelain trinket dish of pearl earrings",
+        "sweet pea stem in clear bud vase",
+        "leaning oval brass-framed mirror",
+        "sheer linen curtain"
+      ]
+    },
+    {
+      "slug": "white-coastal-sunroom-counter",
+      "mode": "homey",
+      "prompt": "A bright coastal sunroom breakfast counter framed 1:1 on a 35mm lens at counter height looking across the long axis of a pale Carrara-marble peninsula. The wall behind is crisp white vertical shiplap meeting a window of black-framed divided-light panes; midday sun pours in soft and diffused, layered with the lamp's warmer pool. The white mushroom lamp sits right-of-centre on the marble, switched ON with a soft warm 2700-3000K glow against the cool stone. Around it: a stack of two cloth-bound vintage botanical hardbacks, an open ceramic fruit bowl holding lemons and a single pear, a folded gingham tea-towel, and a stoneware pitcher of trailing eucalyptus stems. A woven rush counter-stool peeks into the lower frame. Matches the reference image exactly: smooth glossy white dome shade, matching white slim stem and round disc base — colour identical, switch-cap nub centred on top. Palette: bright white, marble grey-veining, lemon yellow, eucalyptus sage, pale rattan. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "coastal sunroom breakfast counter",
+      "designStyle": "bright coastal cottage",
+      "wallColour": "crisp white vertical shiplap",
+      "cameraAngle": "35mm counter height across long axis",
+      "timeOfDay": "midday",
+      "accents": [
+        "pale Carrara-marble peninsula",
+        "stack of vintage botanical hardbacks",
+        "ceramic fruit bowl with lemons and pear",
+        "folded gingham tea-towel",
+        "stoneware pitcher of eucalyptus stems",
+        "woven rush counter-stool"
+      ]
+    },
+    {
+      "slug": "black-slate-gallery-study",
+      "mode": "minimalist",
+      "prompt": "A contemporary collector's study framed 1:1 on a 50mm lens at standing eye-level, angled three-quarter toward a low walnut credenza set against a wall of slate-grey vertically fluted oak paneling. Night outside; a tall narrow window at the right shows deep blue-hour sky reflected as a cool sliver. A leaning large abstract canvas in muted ochre and ink leans behind the credenza, lit secondarily by a slim picture light overhead. The black mushroom lamp sits left-of-centre on the credenza top, switched ON with a soft warm 2700-3000K glow throwing a defined warm halo against the cool slate flutes. Beside it: a small carved soapstone sculpture, a single bare cherry branch rising tall from a charcoal stoneware floor vessel, and a folded leather journal. Matches the reference image exactly: matte black dome shade, matching matte-black slim stem and round disc base — colour and matte finish identical. Palette: matte black, slate grey, walnut brown, ochre canvas, deep blue-hour navy. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "collector's study credenza",
+      "designStyle": "contemporary gallery modern",
+      "wallColour": "slate-grey fluted oak paneling",
+      "cameraAngle": "50mm standing three-quarter eye-level",
+      "timeOfDay": "night blue hour",
+      "accents": [
+        "low walnut credenza",
+        "carved soapstone sculpture",
+        "bare cherry branch in charcoal stoneware floor vessel",
+        "folded leather journal",
+        "leaning ochre-and-ink abstract canvas",
+        "slim picture light"
+      ]
+    }
+  ]
+}

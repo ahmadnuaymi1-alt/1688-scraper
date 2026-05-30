@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-b4a47697d1df1785",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/travertine-column-globe-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Travertine_Column_Globe_Wall_Sconce__1.jpg?v=1778836866",
+  "scraped_date": "2026-05-21T12:08:47.630Z",
+  "source_title": "Travertine Column Globe Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 790,
+  "height": 1063,
+  "content_sha1": "b4a47697d1df178525dabd9612d5407e552161b9",
+  "description": "An extreme close-up product shot against a plain smooth off-white plaster wall, presenting a single wall-mounted sculptural object in complete isolation. The wall surface has a subtle warm beige undertone and a faintly textured matte finish. The object is a vertical stadium or pill-shaped slab of natural travertine stone in warm sandy tan with the characteristic pitted, porous surface texture and organic veining of the material — holes and fossils visible across the surface give it an ancient geological character. At the center of the travertine form, a large spherical opal-white glass globe is nestled in a circular cutout or bracket, illuminated from within to produce a blazing bright circular glow of pure white light that radiates outward, washing the travertine surfaces above and below with warm ambient light and casting a soft luminous halo on the cream wall behind. The warmth of the travertine stone contrasts beautifully with the crisp white sphere and smooth plaster backdrop. There is no other room context visible — the entire frame is dominated by the wall surface and the object on it. Camera positioned directly facing the wall, at close proximity with a normal to slightly telephoto lens, using a centered symmetrical composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.192Z"
+}

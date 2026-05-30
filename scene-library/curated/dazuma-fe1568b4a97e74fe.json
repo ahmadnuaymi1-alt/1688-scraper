@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-fe1568b4a97e74fe",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-fe1568b4a97e74fe.jpg",
+  "source_url": "https://dazuma.us/products/wall-light-with-reading-light-rotatable-multi-function-lamp",
+  "description": "A serene and softly styled bedroom vignette photographed at standing eye-level as a close-up corner composition. The feature wall is upholstered in pale grey fabric panels with subtle applied moulding detail, creating a tailored, European hotel-inspired backdrop. Floor-length grey linen curtains hang at the left edge of the frame, adding soft vertical texture. The bed occupies the right portion of the image — a low, upholstered headboard in warm ivory bouclé supports a layered arrangement of crisp white European shams, a quilted cream pillow with diamond stitching, and soft white linens. A simple pale grey-white wood drawer nightstand sits to the left of the bed, bearing a clear glass vase filled with a generous bouquet of blush pink roses and white hydrangeas, and a small white picture frame. A concentrated warm spotlight casts a directed beam downward onto the nightstand surface from above, illuminating the flowers and creating a focused warm pool against the grey wall. Camera is at standing eye-level shooting with a normal-to-telephoto lens, tightly framed on the nightstand and headboard in a vignette composition that reveals the wall, curtain, and bed corner. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

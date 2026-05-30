@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-fd43e034240e143d",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/cap-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Cap_Alabaster_Table_Lamp911.png?v=1778462887",
+  "scraped_date": "2026-05-21T15:53:05.482Z",
+  "source_title": "Cap Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "fd43e034240e143d65d5e597a312e11853742ccd",
+  "description": "A cozy living room sitting area photographed at standing eye-level with a normal lens, capturing a three-quarter view of a media console and adjacent armchair corner. A long low walnut media bench or console table stretches across the foreground, its surface holding a stack of books, a small dried botanical in a stone vase, and a wide flat-disc form with a matte black cylindrical base, from which warm amber light glows broadly upward and outward at table level, bathing the surrounding book stack and wall in warm diffuse warmth. A large monstera plant in a terracotta pot rises prominently behind the console on the left, its broad split leaves backlit by ambient room light. To the right, a boucle armchair in warm cream is partially visible, draped with a soft caramel throw; a figure is seated and holding a phone, suggesting relaxed evening use. Behind the chair, a large leafy tropical plant adds further greenery. The floor is covered in a Persian-style rug in muted terracotta and dusty ochre tones. The walls are a neutral warm gray-white. The palette is warm and grounded — walnut brown, terracotta, cream boucle, forest green foliage — with the warm amber glow at table level setting an intimate evening tone. The mood is casual and quietly lived-in. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.263Z"
+}

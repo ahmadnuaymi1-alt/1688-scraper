@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-006cbd25877e950a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-006cbd25877e950a.jpg",
+  "source_url": "https://dazuma.us/products/decor-floor-lamp-vintage-minimalist-artistic-light",
+  "description": "A serene sitting room vignette captured at seated eye level, roughly three to four feet from the floor, using a normal-to-slightly-telephoto lens in the 50mm range. The composition is a three-quarter corner view, framing two intersecting walls and a generous sweep of floor, with the scene weighted slightly off-center to the left where a walnut side table anchors the foreground. The camera is level, with no appreciable pitch up or down, and the frame presents a tight but complete vignette — full ceiling is not visible, and the shot reads as an intimate corner rather than a broad establishing view.\n\nThe architecture is clean and understated: flat plaster walls finished in a warm off-white that reads almost as pale greige, a smooth plaster ceiling implied above the frame, and wide-plank light hardwood flooring laid in a straight pattern with visible grain and subtle variation. There are no applied mouldings, no ceiling beams, and no architectural ornament — the space is defined entirely by its materials and proportions.\n\nFloor-to-ceiling drapery dominates the back wall and spills generously onto the floor. The curtains are layered: a sheer ivory panel closest to the window diffuses natural daylight into a soft, even glow, and a heavier outer panel in warm greige-taupe velvet or linen-weave hangs in full, vertical folds with deep shadow between each pleat. The window treatment gives the room a sense of height and enclosure simultaneously.\n\nThe primary furniture piece is a high-backed lounge armchair in light warm grey velvet, set on slender tapered legs with a brushed warm-metal finish. The chair has a generous, slightly cocoon-like silhouette with curved back and deep seat cushion. A matching ottoman of the same grey velvet and identical leg style sits directly in front of the chair, completing the reading-seat arrangement. A single accent cushion in flat matte mustard-gold velvet rests against the chair's back, the only saturated color note in an otherwise tonal palette.\n\nThe side table is a sculptural piece in dark American walnut — likely solid wood — with a distinctive hourglass or waisted pedestal base that flares at top and bottom. Its surface is smooth and unadorned, allowing the warm, soft pool of light that washes across it from a low source to the left to read as a deliberate compositional highlight. That warm amber glow rakes gently across the walnut grain, creating a soft luminous quality on the table surface and casting a short, diffuse shadow toward the chair.\n\nAdditional ambient lighting effects are present: a gentle warm illumination fills the lower left quadrant of the scene, graduating naturally into the slightly cooler daylight filtering through the sheers on the right. The overall light quality is layered and unhurried — part diffused daylight, part warm supplemental fill — giving the room a late-afternoon or early-evening atmosphere.\n\nThe color palette is warm neutral throughout — off-white plaster, greige drapery, warm grey velvet, honey walnut, pale ash flooring — with a single mustard accent from the cushion. Density is low: the surfaces carry almost no decorative objects, letting the furniture forms and materials speak.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

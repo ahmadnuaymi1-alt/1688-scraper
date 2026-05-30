@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-189c3acee2715b62",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-piece-study-lighting-set-led-semi-flush-mount-wood-desk-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/minimalist-linear-wood-led-desk-lamp-with-usb-port-and-dimmable-light-bar-8779579_5b0aed6d-a7ff-429d-b0fa-644e73eb1cc8.jpg?v=1764316902",
+  "scraped_date": "2026-05-21T15:52:00.265Z",
+  "source_title": "2-Piece Study Lighting Set: LED Semi-Flush Mount & Wood Desk Lamp",
+  "source_product_type": "Lighting > Lamps Kit",
+  "width": 1000,
+  "height": 1000,
+  "content_sha1": "189c3acee2715b62eda4ea50c1896389f7b1513b",
+  "description": "A desk surface vignette photographed at standing eye level with a normal lens, framing a centered off-center composition against a smooth light cool-gray wall. The desk surface is a warm honey-oak or maple with a visible reflective surface sheen. To the left of the light source sits a stack of two books — one dark-covered with white lettering and one with a warm-tan dust jacket — topped by a white-framed black-and-white photographic portrait in a simple mat, showing a person performing. The wall behind is a muted cool gray-white, nearly bare, and the warm radiance of the light casts a large gentle arc of warmth across the wall above and behind the books — an even semicircular wash of golden warmth on the otherwise cool wall. The scene is spare, editorial, and clean with a scholarly quality: books, a personal photograph, polished desk surface. The material combination of warm walnut grain and polished brass in the light source contrasts cleanly with the cool-gray wall and warm maple desk. The palette is light maple, cool gray, warm brass, and dark brown, with the black-and-white photograph adding a graphic accent. The mood is quiet and scholarly. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "ceiling",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.047Z"
+}

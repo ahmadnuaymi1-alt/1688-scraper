@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-46e97dc55b76daba",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lighting-minimalist-outdoor-waterproof-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-lighting-modern-house-sleek-black-stone.jpg?v=1773717630",
+  "scraped_date": "2026-05-21T12:19:38.843Z",
+  "source_title": "Pillar Lighting Minimalist Outdoor Waterproof Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "46e97dc55b76daba045a2ef7b896d4193b2a0aba",
+  "description": "A modern residential exterior boundary wall photographed at dusk-to-night, with a three-quarter perspective looking along the fence line toward a contemporary house in the background. The fence structure consists of rough-textured grey concrete or cast stone pillars at regular intervals, connected by horizontal metal louvered or slatted panels in a dark charcoal finish — a contemporary interpretation of a boundary wall with strong horizontal rhythm. The pillar caps are flat-topped, providing a platform surface. In the immediate foreground a strip of closely cropped green lawn runs along the base of the wall. The background reveals a crisp contemporary flat-roof residential house in white render with a vertical dark wooden cladding accent element, surrounded by established tall conifers and an autumn-colored deciduous tree providing warm gold-orange foliage. The sky is a deep blue-grey twilight tone transitioning to dark above. Three pillar-cap positions glow with warm amber light — the nearest one is closest to the lens in sharp focus, the second and third recede in diminishing focus along the fence line — each casting a warm amber glow that illuminates the textured concrete pillar surface below and creates a soft halo above. The contrast between the cool blue evening sky and the warm amber glow at each post creates a dramatic and appealing outdoor night atmosphere. Camera is at standing eye-level, slight telephoto compression, three-quarter view along the fence. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.235Z"
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-40abe6113f297619",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/oval-capsule-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Oval_Capsule_Wall_Sconce82.png?v=1778651595",
+  "scraped_date": "2026-05-21T12:20:03.047Z",
+  "source_title": "Oval Capsule Wall Sconce",
+  "source_product_type": "Wall lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "40abe6113f297619f95b5476510988daef89188e",
+  "description": "A modern, minimalist bathroom vanity wall in a calm, spa-influenced palette. The wall is finished in warm taupe or pale greige plaster with a matte, slightly textured surface. A large rectangular mirror with a thin matte black metal frame hangs centered on the wall. Below it, a white quartz or marble slab counter with crisp edges sits atop a vanity cabinet in natural light oak with simple hardware-free drawer fronts. On the counter surface, a large dark charcoal or slate round vessel sink commands attention, accompanied by a folded charcoal linen hand towel, a small white ceramic pump bottle, and a short cream-glazed ceramic vase holding a small sprig of dried botanicals. The matte black faucet is a simple gooseneck or bridge style. The overall palette is cool neutral — taupe plaster, warm oak, matte black metal, white quartz — with small dried-botanical accents. The atmosphere is quiet, clean, and architectural. Soft, diffuse warm illumination emanates from flanking wall positions on either side of the mirror, washing the plaster surface evenly. Camera is at standing eye level, centered on the vanity mirror in a symmetrical composition using a normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.078Z"
+}

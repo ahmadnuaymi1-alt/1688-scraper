@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-7ae5c7a6369d937c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/cloth-table-lamp-american-retro-creative-decorative-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stacked-ring-cloth-table-lamp-glass-coffee-table.jpg?v=1777103524",
+  "scraped_date": "2026-05-21T15:52:10.112Z",
+  "source_title": "Cloth Table Lamp American Retro Creative Decorative Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7ae5c7a6369d937c0c3ad609fdaa29bdc325dc0e",
+  "description": "A minimalist sitting room vignette photographed at standing eye-level with a normal lens, composed as an off-center thirds shot showing a small round side table in the foreground. The table features a thin glass top with a dark metal rim edge and a white plaster-finish cylindrical base. On the glass surface sits a stack of two large hardcover coffee table books with white and cream covers. To the right of the table, the curved arm and plush bouclé-textured upholstery of a cream armchair is softly visible. The background is a smooth, warm white plaster wall with no architectural ornamentation — utterly bare and serene. The floor appears to be a light warm neutral tone. The overall palette is a tonal study in cream, ivory, and off-white, with small brass accent notes. A soft warm glow emanates from the surface level, casting gentle illumination across the glass tabletop and the stacked books. The mood is quiet and restrained — a clean Parisian-influenced minimalism with sculptural object sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.425Z"
+}

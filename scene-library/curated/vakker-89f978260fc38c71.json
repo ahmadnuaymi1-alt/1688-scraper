@@ -1,0 +1,27 @@
+{
+  "scene_id": "vakker-89f978260fc38c71",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-89f978260fc38c71.jpg",
+  "source_url": "https://vakkerlight.com/products/luminous-orb-alabaster-pendant-lamp",
+  "description": "A clean product studio shot against a flat warm beige background, photographed at standing eye-level with a normal lens and a centered symmetrical composition. The image isolates a single hanging object: a vertical stack of four translucent alabaster-white spheres in graduated sizes, connected along a central brass hardware spine, suspended from a round brushed brass canopy by a thin cord. The spheres glow with a milky, veined luminescence suggesting the warmth of natural stone. The background is a solid warm greige tone with no furniture, no architectural detail, and no styling objects present. The image functions as a reference product shot rather than an interior scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

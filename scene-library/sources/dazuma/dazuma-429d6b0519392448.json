@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-429d6b0519392448",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-large-chandelier-artistic-colored-glass-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/linear-large-chandelier-kitchen-island.jpg?v=1777107598",
+  "scraped_date": "2026-05-21T12:03:11.753Z",
+  "source_title": "Modern Large Chandelier Artistic Colored Glass Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "429d6b05193924480b84386e9f5bdf0d91c4f33c",
+  "description": "A refined, Parisian-influenced kitchen photographed at standing eye-level with a normal lens in a centered symmetrical composition facing the kitchen island and back wall. The ceiling is smooth plaster with a bold white plaster crown molding at the wall-ceiling juncture — a classical decorative detail that frames the room. Walls above the cabinets are warm pale cream plaster. The entire kitchen cabinetry is painted in a soft sage-olive gray-green with a matte finish — tall flat-panel Shaker-style doors floor to ceiling with long slim brass bar pulls. The integrated range hood is clad in a matching plaster or panel finish, seamlessly blending into the cabinetry. The full-height backsplash is a dramatic Calacatta or Arabescato marble slab with bold swooping gray and warm veining. The kitchen island has a thick marble slab top matching the backsplash, with a double farmhouse sink and a brushed unlacquered brass bridge faucet. Countertop accessories include a tall clear glass vase holding a loose arrangement of eucalyptus and dark foliage branches, a matte black pepper grinder, and a small object. The island base is the same sage-green painted cabinetry. Warm angled sunlight from off-camera enters from the lower right, casting a bold sun-rectangle patch across the island face. The overall palette is sage green, Calacatta white marble, and warm brass — sophisticated and culinary. Warm ambient light fills the room evenly. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "plum"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.206Z"
+}

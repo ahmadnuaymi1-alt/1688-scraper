@@ -1,0 +1,36 @@
+{
+  "image_id": "vakker-c3e290956ca49ade",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-cylinder-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Alabaster_Cylinder_Cluster_Chandelier11__1.webp?v=1779121986",
+  "scraped_date": "2026-05-21T12:08:41.043Z",
+  "source_title": "Alabaster Cylinder Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 800,
+  "height": 800,
+  "content_sha1": "c3e290956ca49ade539b9e2a17f85256a6696daf",
+  "description": "A stark product-isolation shot photographed at standing eye-level with a normal lens, centered and symmetrical against a flat, matte dark charcoal-grey background with no environmental context, architectural features, furniture, or decorative objects visible. The entire composition is dedicated to showcasing the hanging fixture in isolation. The background is a uniform deep grey that transitions subtly darker at the edges, creating a slight vignette effect. The cord drops from the top of the frame on a black textile cord, connecting to a small brass knurled canopy fitting. Warm amber light glows from within, creating a soft illumination that reveals subtle veining or translucency through the body of the fixture. The overall atmosphere is a clean, commercial product presentation with no spatial context. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.211Z"
+}

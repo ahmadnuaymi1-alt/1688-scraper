@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-bfedbe22e5da423c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/disc-pendant-light-modern-luxury-marble-single-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pair-disc-pendant-light-fixtures-marble-kitchen-island.jpg?v=1777449614",
+  "scraped_date": "2026-05-21T12:03:39.012Z",
+  "source_title": "Disc Pendant Light Modern Luxury Marble Single Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bfedbe22e5da423c1c185ffa696871852d11320d",
+  "description": "A bright, airy kitchen photographed at standing eye-level with a normal lens, capturing a wide three-quarter view of the island and cabinetry. The kitchen features painted cream upper cabinets with glass-front panels displaying white dishware, combined with light oak lower cabinets that bring warmth and natural grain to the lower zone. Cabinet hardware is simple antique brass bar pulls. The island is clad in light oak millwork with applied panel detailing, topped with a thick slab of white Calacatta marble with bold gray veining. Four upholstered cream barrel-back counter stools with matte black legs line the island. A large vase of green hydrangeas sits at the island center alongside dark slate-colored place settings and glass tumblers. The backsplash continues the marble slab in a full-height slab application. Under-cabinet warm lighting washes the countertop edge with a soft amber glow. A large-format black-framed picture window and French door at right flood the space with bright natural daylight, revealing lush green trees beyond. Two warm amber glowing discs of light float over the island from above, casting a warm zone of light on the marble surface. Wide-plank light oak floors run throughout. Crown moulding meets the flat ceiling. The mood is serene and elegant with warm earth tones throughout. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.756Z"
+}

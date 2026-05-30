@@ -1,13 +1,15 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { prisma } from "@/lib/db";
 import { requireUser } from "@/lib/auth";
+import { exchangeForAccessToken } from "@/lib/shopify/token-exchange";
 
 interface ConnectionCreateBody {
   label?: unknown;
   storeDomain?: unknown;
   accessToken?: unknown;
   // Custom App credentials path: server exchanges them for an access token
-  // via Shopify's client_credentials grant, persists ONLY the token.
+  // via Shopify's client_credentials grant, persists the credentials so the
+  // uploader can refresh the token on 401.
   clientId?: unknown;
   clientSecret?: unknown;
   isDefault?: unknown;
@@ -15,47 +17,6 @@ interface ConnectionCreateBody {
 
 function isValidAccessToken(token: string): boolean {
   return token.startsWith("shpat_") || token.startsWith("shpca_");
-}
-
-/**
- * Exchange a Custom App's client_id + client_secret for an Admin API access
- * token via Shopify's OAuth client_credentials grant. Throws with the
- * verbatim Shopify error body (truncated) if the grant fails so the user
- * can diagnose bad creds or a wrong storeDomain immediately.
- */
-async function exchangeForAccessToken(
-  storeDomain: string,
-  clientId: string,
-  clientSecret: string,
-): Promise<string> {
-  const url = `https://${storeDomain.replace(/^https?:\/\//, "")}/admin/oauth/access_token`;
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      client_id: clientId,
-      client_secret: clientSecret,
-      grant_type: "client_credentials",
-    }),
-    signal: AbortSignal.timeout(15_000),
-  });
-  const body = await res.text();
-  if (!res.ok) {
-    throw new Error(
-      `Shopify client_credentials grant failed (HTTP ${res.status}): ${body.slice(0, 300)}`,
-    );
-  }
-  let parsed: { access_token?: unknown };
-  try {
-    parsed = JSON.parse(body) as { access_token?: unknown };
-  } catch {
-    throw new Error(`Shopify returned non-JSON response: ${body.slice(0, 300)}`);
-  }
-  const token = typeof parsed.access_token === "string" ? parsed.access_token : "";
-  if (!token) {
-    throw new Error(`Shopify response missing access_token field: ${body.slice(0, 300)}`);
-  }
-  return token;
 }
 
 export async function GET() {
@@ -105,8 +66,8 @@ export async function POST(req: NextRequest) {
   // Resolve the access token via one of two paths:
   //   1. accessToken pasted directly → validate prefix, use as-is.
   //   2. clientId + clientSecret → server-side OAuth client_credentials grant
-  //      against the store, persist the returned access_token.
-  // The credentials are NEVER stored; only the resolved token is.
+  //      against the store, persist the returned access_token AND the
+  //      credentials so the uploader can refresh on 401 expiry.
   let accessToken: string;
   if (pastedAccessToken) {
     if (!isValidAccessToken(pastedAccessToken)) {
@@ -149,8 +110,77 @@ export async function POST(req: NextRequest) {
       label,
       storeDomain,
       accessToken,
+      // Persist credentials when the client_credentials path was used. The
+      // uploader's auto-refresh-on-401 path reads these to mint a fresh
+      // token without re-prompting the user. When the user pasted a token
+      // directly, no credentials are stored (and no auto-refresh is
+      // possible — the token will eventually 401 and require manual paste).
+      clientId: clientId || null,
+      clientSecret: clientSecret || null,
       isDefault,
     },
   });
   return NextResponse.json({ connection });
+}
+
+/**
+ * PATCH an existing connection — used to attach client_id + client_secret to
+ * a connection that was originally created with a pasted-token, so the
+ * uploader can start auto-refreshing on its next 401.
+ *
+ * Body: { id, clientId, clientSecret } — all three required.
+ * Also re-runs the grant immediately so the stored accessToken is fresh.
+ */
+interface ConnectionPatchBody {
+  id?: unknown;
+  clientId?: unknown;
+  clientSecret?: unknown;
+}
+
+export async function PATCH(req: NextRequest) {
+  let user;
+  try {
+    user = await requireUser();
+  } catch {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+  let body: ConnectionPatchBody;
+  try {
+    body = (await req.json()) as ConnectionPatchBody;
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+  const id = typeof body.id === "string" ? body.id.trim() : "";
+  const clientId = typeof body.clientId === "string" ? body.clientId.trim() : "";
+  const clientSecret = typeof body.clientSecret === "string" ? body.clientSecret.trim() : "";
+  if (!id || !clientId || !clientSecret) {
+    return NextResponse.json(
+      { error: "id, clientId, and clientSecret are all required" },
+      { status: 400 },
+    );
+  }
+  const existing = await prisma.shopifyConnection.findUnique({
+    where: { id },
+    select: { id: true, userId: true, storeDomain: true },
+  });
+  if (!existing) {
+    return NextResponse.json({ error: "Connection not found" }, { status: 404 });
+  }
+  if (existing.userId && existing.userId !== user.id) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  }
+  let newToken: string;
+  try {
+    newToken = await exchangeForAccessToken(existing.storeDomain, clientId, clientSecret);
+  } catch (err) {
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Token exchange failed" },
+      { status: 400 },
+    );
+  }
+  const updated = await prisma.shopifyConnection.update({
+    where: { id },
+    data: { clientId, clientSecret, accessToken: newToken },
+  });
+  return NextResponse.json({ connection: updated });
 }

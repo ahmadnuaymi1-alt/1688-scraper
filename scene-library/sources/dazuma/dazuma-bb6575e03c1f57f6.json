@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-bb6575e03c1f57f6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconce-reading-light-minimalist-adjustable-bedside-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_9188b03e-59fc-41c6-85c7-7a20a50734a9.jpg?v=1778838358",
+  "scraped_date": "2026-05-21T12:02:32.731Z",
+  "source_title": "Wall Sconce Reading Light Minimalist Adjustable Bedside Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "bb6575e03c1f57f6a9610e9b0883225f8faa403b",
+  "description": "A contemporary cafe or breakout dining space photographed at seated eye-level with a wide lens, showing a banquette seating run along the right wall in a three-quarter corner composition viewed from a slight forward angle. The walls are painted in a deep dusty steel-blue — a moody mid-tone that recedes gracefully. The ceiling is a standard white acoustic drop-tile grid with integrated recessed downlights that cast soft pools of warm-white light at regular intervals across the wall and seating zone. Wainscoting along the banquette base is in natural light oak with clean lines. A long continuous bench is upholstered in smooth cognac tan faux leather. Small round tables on matte black pedestal bases are set along the banquette; round white marble table tops with a subtle grey vein complete the surface. Cobalt navy velvet upholstered barrel-back chairs with slim brushed brass legs pull up to each table. On the dusty blue wall above the banquette, three matte black wall-mounted adjustable arm units each aim a small warm beam downward, marking the zone with tight pools of amber accent illumination. A large-leaf potted plant — fiddle-leaf fig or philodendron — spills into the left foreground out of focus, softening the frame edge. The mood is modern bistro, clean, and color-confident. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt",
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "seated",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.741Z"
+}

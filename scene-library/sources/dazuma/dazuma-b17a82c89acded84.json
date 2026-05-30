@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-b17a82c89acded84",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-art-deco-minimalist-wall-decor-strip-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_c866f65e-bade-4bc7-9afe-30f4a219dc6b.jpg?v=1773886535",
+  "scraped_date": "2026-05-21T12:05:02.053Z",
+  "source_title": "Wall Sconces Art Deco Minimalist Wall Decor Strip Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b17a82c89acded84eece0a5e51450bd2ad47831e",
+  "description": "A sophisticated sitting room with warm off-white plaster walls and dark slate or concrete tile flooring. On the left wall, a long low sideboard in deeply grained dark walnut with vertical fluted door fronts holds two stacked books and a large rough-textured ceramic urn in sandy beige. Above the sideboard, a warm amber glow cascades down the wall from a vertically mounted wall source, adding a column of warmth against the pale plaster. A generously upholstered armchair in cream or white textured linen sits centrally in the composition, dressed with a chunky cream pillow with fringe detail and a small potted miniature conifer in a shallow ceramic dish resting on its arm. In front of the chair, a round low coffee table in matte dark charcoal or ebonized wood bears a carved wooden bowl filled with small dark objects, two stacked books, and a small sculptural white candle grouping. To the right of the chair, a turned pedestal side table in natural warm wood supports a small white cup. A low flat rug in pale stone grey with a subtle geometric cut-pile pattern grounds the seating area. At the back right, steel-framed multi-pane folding or casement doors open to reveal a stone courtyard wall and large monstera plants cascading in from both sides of the threshold, bridging interior and exterior. Natural light pours in from the right, brightening that side of the room. Camera is at standing eye-level, slightly elevated, shooting through a doorway at a mild three-quarter angle with the composition framed off-center. The overall mood is quietly sophisticated and layered, with a material richness of walnut, stone, plaster, and tropical greenery. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "through_doorway",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.698Z"
+}

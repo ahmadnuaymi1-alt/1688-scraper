@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-ebb6daf4d26adb3c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ebb6daf4d26adb3c.jpg",
+  "source_url": "https://dazuma.us/products/stylish-uv-led-outdoor-solar-lantern-creative-design-mosquito-lamp",
+  "description": "A country cottage vignette photographed at standing eye-level with a normal lens, in off-center thirds, framing the top surface of a small dark walnut-stained wooden cabinet against a warm cream plaster wall. The cabinet has two doors with small turned round knobs in dark metal and a single drawer below, finished in a warm mid-brown stained oak with visible wood grain. A crochet or broderie anglaise lace runner drapes across the top surface, its cream cotton texture adding a hand-made romantic layer. On the cabinet top surface, a warm amber glow emanates from the central glowing object, casting a halo of honey-warm light on the surrounding lace runner and wall. To the right, a dark mahogany-framed oil painting of a flower arrangement — pink roses, white roses, and green foliage in a classical vase against a dark background — hangs on the wall. On the left edge of the cabinet, a cascade of trailing ivy with fresh bright green leaves drapes down naturally from above, partially framing the scene. The mood is cottage-romantic, English-country, and warmly nostalgic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

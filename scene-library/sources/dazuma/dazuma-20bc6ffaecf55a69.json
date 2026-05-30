@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-20bc6ffaecf55a69",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/copper-outdoor-wall-lights-semi-cylindrical-design-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stylish-copper-outdoor-wall-lights-contemporary-home-entrance-soft-ambient-lighting.jpg?v=1773886294",
+  "scraped_date": "2026-05-21T12:19:33.764Z",
+  "source_title": "Copper Outdoor Wall Lights Semi-Cylindrical Design LED Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "20bc6ffaecf55a69551f7ac0a9419cd26ba89e48",
+  "description": "A contemporary residential entry facade photographed at standing eye-level with a normal lens, capturing a three-quarter angled view of the front door and flanking exterior wall. The architecture is modern and refined — the facade is clad in large-format cream limestone panels with tight grout joints. A dramatic pair of oversized pivot-style front doors is finished in bookmatched walnut veneer with a bold geometric chevron pattern and long brass pull hardware. A narrow black-framed sidelite runs alongside the doors, offering a glimpse of lush greenery beyond. The entry canopy overhead is finished in flat matte black panel, with recessed downlights casting tight circular pools of warm light on the entry steps. Entry steps are in pale grey large-format concrete or granite tile. A tall matte black cylindrical planter holds an architectural spiky grass or agave specimen. Low boxwood hedging and red-leaf flax grasses frame the planting bed at the facade base. A second window with black steel frame appears at far right. Warm amber light radiates from the wall position onto the textured limestone surface, highlighting the stone's natural variation. Camera is at standing eye-level, composed off-center to the left with the doors dominating the left two-thirds and the wall surface at right occupying the remaining third. The mood is formal and dramatic, projecting polished contemporary luxury. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.069Z"
+}

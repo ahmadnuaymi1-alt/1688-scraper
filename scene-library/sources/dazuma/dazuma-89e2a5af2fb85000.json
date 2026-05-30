@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-89e2a5af2fb85000",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/luxury-crystal-led-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/floor-crystal-lamps-for-elegant-living-room-lighting.jpg?v=1769996559",
+  "scraped_date": "2026-05-21T15:51:55.669Z",
+  "source_title": "Luxury Crystal LED Floor Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "89e2a5af2fb8500096bcdf1234f5037935bfb7e2",
+  "description": "A formal living room photographed at standing eye-level with a normal lens, composed as a centered symmetrical wide establishing shot showing a seating arrangement flanking a central floor space. The wall behind is finished in cream with white raised-panel wainscoting below a chair rail and a subtly striped or textured wallcovering in warm beige above, running to the ceiling. In the upper left, a portion of a framed abstract artwork in grey, olive, and gold is visible. On the left sits a traditional grey rolled-arm club sofa with nailhead trim and a tropical leaf monstera-print pillow in olive and cream. On the right sits a matching grey rolled-arm club chair with a black and white buffalo-check throw draped over its arm. Between the two seating pieces is a low rectangular coffee table with a grey wood-look surface on which rests an open book or magazine. A multi-pane window with sheer white curtains admits soft diffused daylight at the right edge. The color palette is warm cream and ivory with grey, olive, and gold accents. A warm glow from the floor level illuminates the wall behind at torso height and casts a warm pool down toward the dark marble base and the floor plane. The mood is formal but inviting — a traditional European-influenced salon. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.482Z"
+}

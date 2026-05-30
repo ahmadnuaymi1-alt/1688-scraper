@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-be2770c0c087a0fb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/lantern-wall-lights-outdoor-american-waterproof-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-lantern-wall-lights-outdoor-entryway-pair.jpg?v=1775700585",
+  "scraped_date": "2026-05-21T12:03:54.661Z",
+  "source_title": "Lantern Wall Lights Outdoor American Waterproof Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "be2770c0c087a0fbab41362b7e5ab12f944d91ba",
+  "description": "A classic American residential front entry photographed at standing eye level in a centered symmetrical composition. The house exterior is white-painted brick with a clean gable roofline and flat soffit detailing. The central entry features double French-style doors in warm natural clear-finished oak or Douglas fir, each with a 6-light glass upper panel and solid lower panel, fitted with matte black door lever hardware and a smart lock. The entry porch is raised three steps above grade, with smooth grey concrete or limestone steps. The front door is flanked by a symmetrical pair of traditional ornate dark bronze or oil-rubbed bronze outdoor wall lantern fixtures with scroll acanthus backplate detailing, seeded glass panels, and amber warm glow visible within. Each lantern mounts on the white brick wall flanking the door under a shallow portico with a white painted flat fascia. At the base of each step, large grey concrete or cast stone urn planters hold cone-shaped clipped boxwood topiaries. On either side of the entry, mature Japanese maple trees in deep burgundy-red and a low planting bed of mixed greenery add a rich seasonal accent. A dormer window with a black-trim single-hung sash window is centered in the upper gable above the entry. The sky is overcast and bright white. The palette is white painted brick, warm oak, dark bronze, grey concrete, deep burgundy foliage, and boxwood green. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "oxblood",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.751Z"
+}

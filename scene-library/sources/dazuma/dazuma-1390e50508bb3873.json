@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-1390e50508bb3873",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lamp-light-modern-outdoor-landscape-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pillar-lamp-light-luxury-house-entrance.jpg?v=1773717305",
+  "scraped_date": "2026-05-21T12:19:44.653Z",
+  "source_title": "Pillar Lamp Light Modern Outdoor Landscape Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1390e50508bb3873f974827a9256273bda98c17c",
+  "description": "A formal traditional home exterior photographed in daylight from a standing eye-level with a normal lens, framed in a centered symmetrical composition that aligns directly with the front entry gate and door. The home is a classic colonial or Cape Cod-style residence with cream painted stucco or smooth render exterior, a gray slate or asphalt shingle roof, white-trimmed multi-pane windows, white classical pilasters and a formal portico with a triangular pediment above the black paneled front door with brass hardware. Two dormer windows punctuate the roofline. In the foreground, a decorative wrought iron gate with scrollwork detail is flanked by two low rough-cut stone piers. Each pier is topped with a post-mounted lantern style fixture — both glowing with warm amber light even in daylight — their warm illumination visible as a soft orange flicker against the stone pier cap. The boundary wall is constructed of pale limestone or gray fieldstone block. The garden is formally planted with a clipped boxwood or yew hedge running the wall length, colorful low flowering plants at the base — white and yellow blooms — and lush green lawn. Mature deciduous trees form a canopy backdrop. A straight flagstone or paver path leads from the gate to the front door steps. The overall mood is formal, estate-quality, and classically composed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.023Z"
+}

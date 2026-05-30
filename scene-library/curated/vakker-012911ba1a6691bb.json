@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-012911ba1a6691bb",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-012911ba1a6691bb.png",
+  "source_url": "https://vakkerlight.com/products/cognac-disc-table-lamp",
+  "description": "A cosy living room corner photographed in a square format, capturing an intimate side table vignette bathed in warm evening light. A solid oak side table with splayed legs in a warm honey-brown finish sits at center, its surface host to a warm amber glow emanating from within a glass and ceramic form on top of stacked hardcover books. Beside it, a small terracotta clay pot holds a bushy fern with bright green fronds. A white ceramic mug sits on the table surface. In the background, a linen-covered sofa with a plaid throw blanket in grey and cream occupies the left side, while a second linen chair with a similar tartan rug is visible at the right edge. Sheer ivory curtains hang at a window to the upper right, filtering soft cool daylight from the outside garden view, where blurred green foliage can be seen. The floor is a warm medium-toned solid wood in a honey-amber color. Overall palette is warm neutrals — natural oat linens, honey oak, warm amber glow and soft grey plaid accents. The whole scene reads as a damp-country-afternoon living room with layered textiles. Camera at seated eye-level, normal lens, off-center composition with the side table framed in the center-right of the image, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

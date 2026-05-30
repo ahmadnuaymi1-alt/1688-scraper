@@ -1,0 +1,36 @@
+{
+  "scene_id": "dazuma-45b1ddb4d59dd222",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-45b1ddb4d59dd222.jpg",
+  "source_url": "https://dazuma.us/products/luxury-full-copper-glass-flush-mount",
+  "description": "A grand romantic bedroom with elaborate plaster molding and symmetrical furnishings photographed in a centered, standing-height view. The walls are painted bright white and adorned with applied classical plaster moulding in elaborate panel-and-cartouche patterns, with scrolling foliate ornamental plasterwork running along the upper wall frieze below the crown. The ceiling is plain white with crisp applied crown moulding at the cornice. Natural light streams in from an unseen left window, casting warm raking shadows across the moulded wall panels in soft diagonal patterns. The bed is centered on the rear wall with an ornately carved white-painted upholstered headboard in a French Rococo style with button tufting on the cream velvet panel. White bed linens are layered with a rich chocolate-brown faux fur throw draped across the foot. Accent pillows in terracotta velvet, a floral jacquard, and a muted teal-grey linen add a warm jewel-tone layer. Flanking the bed are two matching medium-cherry traditional nightstands with curved legs, each with a single carved drawer. The left nightstand holds a tall dark ceramic vase with a spray of dried autumn branches; the right holds two small stacked books and a small lidded jar. Three gold-framed oval and rectangular oil paintings in muted pastoral tones are hung on the plaster-molded wall — one centered above the headboard, one on each side. The floor is warm honey-toned hardwood. The overall palette is warm white, honey-wood, terracotta, and rich brown, with a romantic and slightly maximalist elegance. Camera is at standing eye-level, centered symmetrically, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "flush_mount",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

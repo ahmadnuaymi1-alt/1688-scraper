@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-77ae99f3c073ad01",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/sculptural-pleated-paper-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/SculpturalPleatedPaperLamp_1.jpg?v=1777973485",
+  "scraped_date": "2026-05-21T15:53:25.108Z",
+  "source_title": "Sculptural Pleated Paper Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1440,
+  "height": 1920,
+  "content_sha1": "77ae99f3c073ad0133907a7c48a1c199a32bf379",
+  "description": "A spare, gallery-caliber home office or sitting room vignette photographed at standing eye-level with a normal-to-telephoto lens, framing a tight off-center composition of a console surface and art behind it. The wall is a smooth warm grey-white plaster with subtle warm undertone. A clean-lined console table in natural light oak with a matte black flat steel base frame sits against the wall, its surface styled minimally with a small stack of art books at one end. Behind the console, leaning casually against the wall rather than hung, a large-format graphite pencil architectural drawing in a natural oak frame depicts an industrial steel structure in detailed line work, filling most of the wall area above the table. A dark upholstered chair — charcoal or near-black — is partially visible at the lower left foreground, its seat and back edge visible at frame bottom. Diffused cool-neutral daylight illuminates the scene evenly, with no strong directional shadows. The palette is entirely cool neutral — grey-white walls, warm oak wood, matte black steel, charcoal — with no color accents except a tiny red cord element in the central zone. Styling density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.131Z"
+}

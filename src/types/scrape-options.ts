@@ -32,7 +32,7 @@ export const ScrapeOptionsSchema = z.object({
   productStatus: z.enum(["draft", "active"]).default("draft"),
 
   sourceCurrency: z.enum(["auto", "USD", "CNY", "GBP", "EUR"]).default("auto"),
-  priceRounding: z.enum(["none", ".95", ".99", "5.00"]).default(".95"),
+  priceRounding: z.enum(["none", ".95", ".99", "5.00", "9"]).default(".95"),
   retailPriceMultiplier: z.number().default(1.0),
   compareAtPriceMultiplier: z.number().default(1.0),
   costPerItem: z.string().optional(),

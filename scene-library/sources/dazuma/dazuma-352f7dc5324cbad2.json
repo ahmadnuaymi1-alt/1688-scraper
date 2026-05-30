@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-352f7dc5324cbad2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/woven-light-pendant-nordic-minimalist-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-woven-light-pendant-patio-dining.jpg?v=1775700860",
+  "scraped_date": "2026-05-21T12:03:48.385Z",
+  "source_title": "Woven Light Pendant Nordic Minimalist Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "352f7dc5324cbad2bd31cbe34f44713acc83fb90",
+  "description": "A bright, casual outdoor covered patio dining area adjacent to a modern farmhouse-style home. The architectural backdrop is clean white vertical board-and-batten siding with crisp painted rafter tails and a gently pitched overhang ceiling extending over the patio space. The covered ceiling is white-painted smooth with the underside of the roof deck exposed to the open air on the outer edge. A large black-framed sliding glass door system with full-height glazing connects the patio to the home interior, offering a view through to white interior curtains and the back garden beyond — a bright suburban lawn with a children's play structure visible in the distance. The dining table is a rectangular outdoor dining table in white coated aluminium or composite, surrounded by eight outdoor dining chairs in a natural bleached teak or acacia wood with woven cord back panels and seat cushions in a sandy neutral. The table centerpiece holds a white ceramic pitcher filled with loose white garden flowers and a wooden bowl of green limes or apples. An outdoor rug in a muted pattern grounds the dining zone. The patio ceiling holds two woven natural fibre basket-drum-form suspended ceiling elements in a warm dark brown-black shade tone, each emitting a warm amber interior glow that diffuses through the weave texture in a dappled organic pattern, casting soft warm pools downward over the table and chairs in the bright daylight setting. The sky above is bright blue with scattered clouds. Camera at standing eye-level, wide normal lens, three-quarter view showing the table, two ceiling-hung forms, the house facade, and the garden beyond through the glass doors. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "outdoor",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.160Z"
+}

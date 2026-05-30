@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-7320f85f4884dc2c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/multi-pendant-light-fixture-colored-glass-artistic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multi-pendant-light-fixture-dining-room.jpg?v=1777107534",
+  "scraped_date": "2026-05-21T12:03:13.631Z",
+  "source_title": "Multi Pendant Light Fixture Colored Glass Artistic Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Multi-Light Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7320f85f4884dc2c737387a7f62a4c97ca498c44",
+  "description": "A cheerful, light-filled dining area photographed at a slightly elevated eye-level with a normal lens, framing a close vignette view of the dining table surface and the ceiling above it. The room's walls are crisp white plaster, and the ceiling meets the walls in a clean right angle at the corner. A pale blonde birch dining table occupies the lower foreground, surrounded by matching light-wood chairs with simple rounded backs. Two white ceramic vases sit on the table — one holding a fresh-cut arrangement of white flowers and eucalyptus branches, the other a compact bunch of chartreuse mophead flowers and garden foliage. On the right wall, a cheerful framed art print in pastel tones — pink, blue, green, and yellow — depicts abstracted botanical forms, flowers, and organic shapes. Bright natural light rakes across the scene from the right, casting soft dappled shadows on the white wall. The space is minimal and whimsical, with the warm brass and colorful glowing orbs of the overhead grouping supplying the only decorative drama against the otherwise pure white and pale wood setting. Three translucent glass drops in white, green, and pink glow from within, suspended on curving brass arms, casting a playful colored light onto the white wall behind. The mood is light, fresh, and playful — a joyful domestic scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "plum"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.391Z"
+}

@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-28edb83a83cc5091",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-28edb83a83cc5091.png",
+  "source_url": "https://vakkerlight.com/products/geometric-stone-table-lamp",
+  "description": "A serene sitting room corner captured at seated eye-level, roughly three to four feet from the floor, using a normal to slight telephoto lens of approximately 50mm. The composition is a three-quarter corner view, showing two walls converging at the back-right of the frame with a tall multi-pane window set into the right wall. The camera is pitched level with a very slight downward tilt, and the frame encompasses a tight vignette of one corner of the room rather than a full wide establishing shot.\n\nThe architecture is clean and restrained — smooth plaster walls painted in a warm off-white or pale greige, with simple baseboards and no applied moulding. Wide-plank light oak hardwood flooring runs beneath the scene, its grain visible at the room's edges. The multi-pane window on the right wall is framed with minimal casing and dressed with floor-length sheer linen curtains in a pale cream-oat tone, softly diffusing bright natural daylight into the room. Foliage from an exterior tree is faintly visible through the glass, suggesting midday or late-morning light.\n\nA large natural jute area rug anchors the seating zone, its tight weave adding organic texture underfoot. The primary seating piece is a generously proportioned upholstered armchair in a warm oat-linen fabric, square-armed and slope-backed with a single oversized pillow in the same textile leaning into one corner. A fringed woven throw blanket in creamy ivory is casually draped over the chair's right arm and trails to the seat cushion, adding softness and a sense of casual comfort.\n\nTo the left of the chair sits a rustic solid-wood bench repurposed as a side table, its surface weathered and natural with visible grain and age marks, supported by angled trestle-style legs in the same raw wood finish. On the bench surface, two large hardcover coffee table books are stacked flat as a base layer. Atop and beside them rest a stoneware ceramic vase in a matte warm grey-cream glaze holding a arrangement of dried eucalyptus with silver-dollar foliage in muted sage-brown tones, and a small woven rattan lidded basket with natural blonde coloring. A soft pool of warm amber light washes across the bench surface from a low source positioned above and behind it, illuminating the books, vase, and basket with gentle directional warmth and casting soft shadows away from the wall.\n\nOn the upper left of the frame, partially cropped, hangs a large round woven wall accent in natural rattan or seagrass, its circular form and open weave adding another layer of organic texture against the plaster wall.\n\nThe entire palette is a disciplined monochromatic warm neutral — layered oat, linen, cream, sand, raw wood, and dried botanicals — with no saturated color accent. The mood is deeply serene and unhurried, evoking a quiet weekend morning. Every material is natural, matte, or lightly textured.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

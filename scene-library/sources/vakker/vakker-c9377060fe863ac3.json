@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-c9377060fe863ac3",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/celestial-ring-alabaster-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/CelestialRingAlabasterWallLamp_2.jpg?v=1778655615",
+  "scraped_date": "2026-05-21T12:09:00.652Z",
+  "source_title": "Celestial Ring Alabaster Wall Lamp",
+  "source_product_type": "Wall lamp",
+  "width": 1440,
+  "height": 1440,
+  "content_sha1": "c9377060fe863ac30a20ab5c5ef3b268d33ab0af",
+  "description": "A richly warm, Parisian-influenced living room corner photographed at standing eye-level with a normal lens, framing a three-quarter corner view that shows both the applied moulding wall at center and the floor-length drapery at the right edge. The wall features full-height applied panel moulding in a classic French style, painted in a warm greige or camel tone — a slightly dusty, aged sand color — that creates a sophisticated backdrop. Floor-length drapery in a matching muted camel or taupe velvet or heavyweight linen fabric hangs from ceiling height to floor along the right wall, its pleated folds catching diffuse light from a window edge at far right that creates a soft bright fill from outside. In the lower foreground, a low-slung leather sofa or loveseat in rich cognac-brown occupies the left and center bottom of the frame, dressed with a pair of leather throw cushions in the same deep brown and a contrasting dusty sage linen pillow. A warm amber glow radiates from a wall-mounted position at center, illuminating the moulding panels with a warm circular pool and casting a small downward spill on the wall below. The palette is uniformly warm and luxurious — cognac leather, camel plaster, antique gold, and pale sage — with a deeply romantic and formal atmosphere. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.217Z"
+}

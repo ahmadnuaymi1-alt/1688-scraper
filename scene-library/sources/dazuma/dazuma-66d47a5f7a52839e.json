@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-66d47a5f7a52839e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/luxury-full-copper-glass-flush-mount",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/glass-flush-mount-serene-bedroom-neutral-tones.jpg?v=1769996331",
+  "scraped_date": "2026-05-21T12:19:56.640Z",
+  "source_title": "Luxury Full Copper Glass Flush Mount",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > Crystal Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "66d47a5f7a52839e6430005742453a67fdb8ad58",
+  "description": "A soft, elegant bedroom in a pale warm-neutral palette with a polished residential hotel quality. The walls are smooth warm white plaster with a subtle wainscoting panel detail on the right side. The ceiling is white and smooth. Floor-to-ceiling curtain panels in a warm caramel-blush linen hang on the right wall, filtering daylight through a large window behind them into a warm diffused glow. The bed is full-width in the frame, with a tall button-tufted upholstered headboard in pale champagne velvet extending nearly from wall to wall. Crisp ivory-white bedding is layered with accent pillows in soft grey and pale butter-yellow, and an open magazine rests on the duvet. The nightstand on the right side is a light blonde-wood two-drawer piece with brass hardware; on it sits a small glass vase with a loose arrangement of peach and cream roses, two stacked books, and a secondary warm accent from a bedside source whose soft glow washes against the wall behind it. Above the nightstand, a framed abstract artwork in cream, sand, and muted blue-grey tones is hung on the wall. Warm amber glow diffuses from the ceiling-mounted source above, its light washing evenly over the bed and bedside table area, creating a warm, enveloping ambient quality. Camera is at standing eye-level, centered symmetrically on the bed, with the ceiling at the top of frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.350Z"
+}

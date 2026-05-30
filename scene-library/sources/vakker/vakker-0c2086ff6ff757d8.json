@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-0c2086ff6ff757d8",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/bell-travertine-arc-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793511723243.png?v=1779351325",
+  "scraped_date": "2026-05-21T09:19:09.548Z",
+  "source_title": "Bell Travertine Arc Sconce",
+  "source_product_type": "Wall lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "0c2086ff6ff757d8a3aa30b27658d6845d452f84",
+  "description": "A quiet corner vignette of a sitting room or study, rendered in a palette of warm sand, raw umber, and aged timber. The architecture is defined by thick plaster walls finished in a matte, slightly textured lime wash — creamy off-white with faint mineral variation across the surface. The wall plane catches a soft, warm glow emanating from a low point on the right side, washing a gentle amber halo onto the plaster and casting delicate dried-stem shadows upward across the wall face. A secondary wash of natural daylight enters from the left through a tall, deep-set window with simple painted wood framing — no treatment, bare glass — casting a cool, diffused sidelight that contrasts softly with the warmer tones on the right.\n\nThe primary furniture piece is a low, reclaimed-wood sideboard or credenza with a deeply grained, knot-rich surface in honey and tobacco tones. The piece has a simple plank-top construction and three shallow drawers beneath, with no hardware — purely utilitarian and hand-built in character. Its surface is styled at mid density: three ceramic vessels cluster to the left — a squat round vase, a slightly taller narrow-necked vessel, and a handled jug, all in unglazed raw clay with a coarse, dusty finish in muted terracotta and warm grey. Center-right of the credenza surface, a small ceramic pot holds a loosely arranged bouquet of dried grasses, seed heads, and wispy botanicals in pale wheat and amber tones. Beside it, a stack of two or three hardcover books — the visible spine reading 'Art of Books' — grounds the arrangement, with a small shallow ceramic dish resting atop the stack.\n\nTo the right of the credenza sits a low lounge chair with a solid wood frame in medium-warm brown and a woven leather seat and back panel — the leather strips interlaced in a classic basket-weave pattern, aged to a cognac tone. A loosely folded linen throw in natural undyed ecru drapes over the chair's arm. The floor beneath is not clearly visible.\n\nThe camera is positioned at approximately seated to standing eye-level — roughly 4 to 5 feet — with a normal to slight telephoto lens character, approximately 50mm equivalent. The composition is a three-quarter corner view, with both the back wall and the right side wall gently implied, though the dominant plane is the flat back wall. The camera is level, with no appreciable pitch up or down. The frame captures a tight vignette centered on the credenza and chair grouping, with ceiling and floor largely cropped. The overall mood is serene and unhurried — organic, artisanal, and deeply warm.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:28:32.556Z"
+}

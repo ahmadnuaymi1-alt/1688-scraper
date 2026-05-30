@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-55f7b7db35b33998",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/mid-century-black-wrought-iron-floor-lamps-artistic-linen-cover-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-floor-lamp-modern-sherpa-chair-accent.jpg?v=1767091415",
+  "scraped_date": "2026-05-21T15:52:29.095Z",
+  "source_title": "Black Wrought Iron Floor Lamps Artistic Linen Cover Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "55f7b7db35b339987e25ab6692f59cf09283256f",
+  "description": "A warm, contemporary living room with a two-tone painted wall — saturated terracotta-rust on the left portion and soft cream on the right — meeting at an off-center vertical seam behind a white-painted fireplace with an ornate molded mantel surround and an active flame visible through the opening. On the mantel, a large framed abstract print in terracotta, cream, and dark maroon leans against the wall, flanked by a slender wooden ribbed decorative object. To the right of the fireplace, a tall white ceramic vase holds dried brown floral stems. The floor is light oak herringbone parquet. A large graphic area rug in off-white with abstract black line work and a pink circle motif anchors the seating area. A plush cream long-fur armchair with a generously oversized form sits centered on the rug. To the left of the chair, a slender black upright post on a round disc base stands on the herringbone floor, emitting a warm amber-gold glow from a cylindrical cream shade at standing height that warms the terracotta wall section behind it. Camera is at standing eye-level using a normal to wide lens, centered-symmetrical wide establishing view. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "fireplace",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.287Z"
+}

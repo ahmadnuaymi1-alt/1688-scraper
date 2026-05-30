@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-d477709820157b8b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/bedroom-lighting-suite-glass-sconces-table-lamp-under-bed-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-brass-glass-wall-lights-living-room_917217d7-a893-415b-a7ad-803d1ccf1510.jpg?v=1764293277",
+  "scraped_date": "2026-05-21T15:52:00.812Z",
+  "source_title": "Bedroom Lighting Suite: Glass Sconces, Table Lamp & Under-Bed Light",
+  "source_product_type": "Lighting > Lamps Kit",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d477709820157b8be53c48c583df14126c7b33c2",
+  "description": "A serene contemporary bedroom or living room wall scene in a palette of cool white, warm gray, and brushed gold. The background is a smooth white or very pale gray plaster wall. Full-length floor-to-ceiling curtain panels in a soft warm greige linen texture hang on the left, with a sheer white inner layer behind, allowing soft diffused daylight to filter through. To the lower right, the corner of a gray upholstered sofa or chair arm is barely visible. The scene is minimal and airy — no art, no clutter, only the play of curtain texture, smooth wall, and warm gold against cool white. A soft warm glow radiates outward from the wall at mid-height, illuminating the surrounding plaster wall in a gentle halo. Camera at standing eye-level, off-center right composition, normal lens, wall vignette tightly framing the mid-section of the wall and curtain arrangement. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "source_hero_position": "wall",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.861Z"
+}

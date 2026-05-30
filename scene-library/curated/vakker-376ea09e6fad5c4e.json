@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-376ea09e6fad5c4e",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-376ea09e6fad5c4e.png",
+  "source_url": "https://vakkerlight.com/products/cairn-alabaster-floor-lamp",
+  "description": "A warm, serene living room photographed at standing eye-level with a normal lens, showing a wide three-quarter view of the room's main living area. The walls are finished in smooth plaster in a warm off-white tone, and a window on the left brings in soft diffuse daylight that rakes across the textured wall surface. A floor-to-ceiling dark walnut shelving unit on the back left wall holds a curated arrangement of books, white ceramic vessels, and a small framed print, all organized with a quiet restraint. A generous sofa in warm oatmeal-textured fabric sits at the center-left, dressed with a loosely folded throw and two plain linen cushions. In the foreground, a round marble-topped coffee table holds a stack of art books, a small sculptural gold object, and a compact potted plant. A tall fiddle-leaf fig in a simple pot stands at the right edge of the frame, its glossy green leaves adding life. A warm, luminous glow emanates from the floor-standing sculptural column at the left — a stacked geometric form that emits a soft warm light, creating a diffuse envelope of golden warmth around its immediate area at floor and waist height, casting gentle illumination onto the nearby sofa cushions and adjacent plaster wall from below. The palette is warm and tonal: plaster white, dark walnut, oatmeal linen, and warm marble veined in ivory. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

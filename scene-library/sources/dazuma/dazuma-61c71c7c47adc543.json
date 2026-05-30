@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-61c71c7c47adc543",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-gate-pillar-lights-outdoor-waterproof-black-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/1_c1f14e07-dc37-4b12-8273-81259efffc94.jpg?v=1774175493",
+  "scraped_date": "2026-05-21T12:04:41.517Z",
+  "source_title": "LED Gate Pillar Lights Outdoor Waterproof Black Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "61c71c7c47adc543f794d9fcba8d79e48f6345af",
+  "description": "A luxurious contemporary outdoor pool terrace photographed at dusk or evening. The scene is organized around a modern residential pool — a rectangular swimming pool with vivid turquoise-blue water glowing with submerged lighting, its tiled coping in light grey or cream travertine. The pool terrace is paved in large-format light grey concrete or stone pavers set in a grid. In the foreground, a square poured-concrete pillar cap or gate post rises to a clean flat top surface. Ornamental grasses with sharp spiky blades grow at the base of the pillar in the lower-left foreground. Low rounded shrub hedging fills the right side and background. Behind the pool, a generous covered outdoor lounge is partially visible: a pale grey sofa with cushions, a mounted flat-screen television on the exterior wall, and warm amber interior lighting glowing behind glass doors — suggesting a poolside pavilion or cabana with an indoor-outdoor living area. Dark green subtropical foliage and garden plantings surround the terrace perimeter. Multiple small warm amber points of landscape lighting are visible in the shrubbery and garden beds at middle distance, creating a scattered constellation of warm pinpoints in the background against the dusk sky. The atmosphere is warm, affluent, and resort-like. A concentrated warm amber glow emanates from the pillar-cap position, its light washing downward over the concrete pillar face and casting a warm halo on the paving below. Camera is at a low-to-standing eye-level, framing the close-up pillar in the foreground with the pool and pavilion as a soft-focus backdrop. Normal lens, off-center composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.330Z"
+}

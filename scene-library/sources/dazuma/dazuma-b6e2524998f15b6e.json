@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-b6e2524998f15b6e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gate-post-solar-pillar-light-modern-outdoor-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/gate-post-solar-pillar-light-luxury-entrance-pillars.jpg?v=1778566386",
+  "scraped_date": "2026-05-21T12:02:59.874Z",
+  "source_title": "Gate Post Solar Pillar Light Modern Outdoor Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b6e2524998f15b6e6025a1febc3f08698bc44495",
+  "description": "A grand classical townhouse exterior photographed at dusk from street level in centered symmetrical composition. The facade is constructed of pale cream limestone blocks with a formal neoclassical arrangement: a central projecting portico with fluted columns and a triangular pediment, flanked by full-height multi-pane sash windows with matte black frames across two stories. The front door is glossy black, set back within the columned entry. A pair of low-clipped boxwood hedges frame a stone pathway from the iron gate to the front steps. The front garden gate is ornate wrought iron in matte black with pointed spear finials and circular decorative elements, mounted between two chunky square limestone pillar posts. Flanking each pillar post, warm amber light glows horizontally outward in thin bands, washing golden light across the limestone surfaces and casting sharp grid shadows from the gate ironwork onto the light stone path below. Dusk sky and mature tree canopy above right add organic softness against the formal facade. The overall palette is pale stone cream, matte black iron, deep forest green boxwood, and amber-gold light. Camera sits at standing eye level, perfectly centered on the gate axis looking straight toward the front door in a one-point perspective composition that aligns the gate, pathway, steps, and door on a single vanishing point. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.721Z"
+}

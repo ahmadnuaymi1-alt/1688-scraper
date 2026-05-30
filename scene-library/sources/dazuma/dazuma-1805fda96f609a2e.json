@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-1805fda96f609a2e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/retro-wall-sconces-american-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_fb7e383c-c404-462c-b63e-bb970f11bbd1.jpg?v=1773886579",
+  "scraped_date": "2026-05-21T12:05:00.938Z",
+  "source_title": "Retro Wall Sconces American Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1805fda96f609a2eaab9049f333d7fac4bc3b498",
+  "description": "An elegant outdoor covered loggia or terrace photographed at standing eye-level with a normal lens in a centered symmetrical composition. The camera looks level at the rear wall, showing the full width of the terrace seating arrangement and the ornate doorway centered behind it. The exterior wall is whitewashed or painted white brick, adding a rustic European texture in a bright, lime-washed tone. The focal architectural centerpiece is a tall set of matte black steel-framed French doors with multi-pane glass grids, surmounted by an elaborate hand-carved or cast stone decorative doorway surround — an ornamental frame of acanthus leaves, garlands, and classical motifs in warm cream limestone. A white ornate ceiling molding with egg-and-dart detailing runs above at the roofline edge. On either side of the doorway, warm glowing wall-mounted lanterns emit a soft warm amber glow through frosted ribbed glass panels — the golden light spills gently onto the white brick flanking the frames. A generous outdoor sofa with a matte black wrought-iron frame and thick cream linen-upholstered cushions is positioned in front of the doorway, dressed with a pair of beige and cream ticking-stripe fringe-edged throw pillows. The accompanying coffee table is a substantial dark espresso-stained wood piece with turned legs and a lower shelf, styled with a bronze tray holding an open bottle of red wine, two crystal wine glasses, and a small white lacquer box arrangement with white roses. A natural sisal area rug grounds the seating zone. On either side of the terrace, large terracotta urns contain mature olive trees — their silver-grey twisted trunks and soft olive-toned foliage framing the scene architecturally. In the far background through the open doors and beyond the left olive tree, a sweeping Mediterranean hillside landscape is faintly visible under a softly overcast sky. The mood is formal, romantic, and deeply European. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "french_door",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.043Z"
+}

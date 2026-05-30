@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-a70868ac685a5efe",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a70868ac685a5efe.jpg",
+  "source_url": "https://dazuma.us/products/flush-mount-wall-light-modern-adjustable-bedside-reading-lamp",
+  "description": "A modern bedroom nightstand vignette photographed at seated eye-level with a three-quarter off-center composition framing the right side of the bed, headboard, and nightstand. The headboard is a large upholstered panel in rich cognac-brown suede or nubuck leather, divided into two rectangular sections with a narrow gap between them. The bedding is crisp white cotton with a warm sand-toned fitted sheet, and two stacked white pillows rest against the headboard. The nightstand is a sculptural double-bowl travertine or cream stone form — a wide shallow bowl top resting on a squat hourglass pedestal base — its surface bare and very clean. A flat white electrical outlet plate is mounted on the headboard panel surface. To the far right, a vertical reeded or fluted honey-oak wall panel or door casing is partially visible, indicating a wardrobe or room division element. The floor has a low woven jute rug with a warm dark tan border visible at the lower edge. The walls and ceiling are clean matte white plaster. A warm pinpoint amber beam of light from the wall-mounted position above the nightstand focuses downward onto the travertine surface, creating a dramatic circular pool of golden warmth on the stone and a warm halo on the brown leather headboard around the mount. The palette is cognac brown, warm sand, travertine cream, and matte black. Mood is quiet, serene, and luxury-hotel-Japandi. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

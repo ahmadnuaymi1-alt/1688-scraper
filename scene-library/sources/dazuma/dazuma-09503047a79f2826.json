@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-09503047a79f2826",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/hanging-light-outdoor-european-wedding-acrylic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/hanging-light-outdoor-vintage-grand-building-entrance.jpg?v=1774595391",
+  "scraped_date": "2026-05-21T12:04:22.419Z",
+  "source_title": "Hanging Light Outdoor European Wedding Acrylic Ceiling Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "09503047a79f282636abfd922758ed954b20ad16",
+  "description": "An outdoor evening dining event set on the grounds of a grand neoclassical estate. The background architecture is a stately white mansion with Corinthian columns, arched entryway with a richly stained dark wood door, symmetrical flanking windows, and ornate pediment detail at the roofline. The facade is warmly uplighted from below, radiating a soft amber glow that contrasts with the deep blue dusk sky above. Lush tree branches frame the upper left of the frame. A long banquet table covered in a deep charcoal linen runner stretches into the background in one-point perspective, set with white china plates, crystal wine glasses, and polished silverware at each place setting. Mahogany-toned chiavari chairs line both sides. The centerpiece is a lush low floral arrangement of blush and cream roses with trailing greenery, flanked by pillar candles in hurricane holders emitting gentle warm flickering light. On the right side of the frame, a tall arching black metal post holds overhead, suspending glowing crystal-draped illumination directly above the near end of the table. The glow cascades down in warm golden tones, scattering prismatic light across the linens and glassware. The overall atmosphere is romantic, formal, and theatrical — an elegant alfresco affair at twilight. Camera at standing eye-level with a normal-to-telephoto lens, slightly off-center composition looking down the length of the table in shallow one-point perspective, with the glowing overhead element filling the upper-right quadrant of the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.978Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-249ace94228f4dc5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mounted-bedside-light-creative-reading-metal-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_ae88a86e-01d1-4b11-b1c4-cbf78b2d590c.jpg?v=1778838500",
+  "scraped_date": "2026-05-21T12:02:30.201Z",
+  "source_title": "Wall Mounted Bedside Light Creative Reading Metal Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "249ace94228f4dc53ae43bba8a27fd74d8e49956",
+  "description": "A cafe or restaurant dining banquette scene photographed at standing eye-level with a normal lens, off-center thirds composition. The primary wall surface is a raw, heavily textured sand and aggregate plaster with visible ridges, divots, and organic tooling marks — a rough artisanal plaster in warm greige. A long upholstered banquette bench in cognac or caramel tan leather runs along the base of the wall, its continuous backrest rising to just below the midpoint of the wall. Two small bistro-style round tables with terrazzo tops — white base with scattered grey and dark aggregate inclusions — stand in front of the banquette on slim matte black pedestal bases. The left table holds a white ceramic mug and a small white plate with a croissant or pastry. The right table has two ivory or cream chairs pulled up to it. A warm amber radiance emanates from a circular backlit halo mounted on the rough plaster wall, casting a soft warm bloom on the textured wall surface around it. Camera is at standing eye-level, normal lens, off-center thirds with the tables in the lower half and the wall mount and plaster filling the upper two-thirds. The mood is casual and warm, a stylish modern cafe. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.090Z"
+}

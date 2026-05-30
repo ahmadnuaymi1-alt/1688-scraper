@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-a1cf68e28c7b9ffd",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-a1cf68e28c7b9ffd.png",
+  "source_url": "https://vakkerlight.com/products/victorian-fringe-table-lamp",
+  "description": "A richly appointed private library or study imbued with deep Edwardian or Victorian scholarly character. The walls are lined floor to ceiling with dark walnut bookshelves densely packed with antique leather-bound volumes in warm brown, burgundy, and gold spines. A tall multi-pane window with dark stained wood casing lets in filtered warm daylight from the left, its panes casting warm rectangles of light across the room. In the background, a large richly colored tapestry or embroidered textile — featuring deep crimson, gold, and sage patterns — hangs on the back wall between the shelves, adding an opulent textural element. The focal point is a large round drum table in dark polished mahogany positioned at center frame. On its surface rest an open leather-bound book, a pair of reading glasses, a small ceramic inkwell, a peacock feather, and a small jade or stone decorative object. A warm amber glow pools softly from the table surface, emanating from an ornate object with a forest-green fabric body hung with silk fringe tassels, its warm light washing gently across the open book and table surface below. The palette is deeply saturated: forest green, walnut brown, crimson, and amber gold. The mood is intensely scholarly, romantic, and theatrical — a private sanctuary of accumulated knowledge. Camera at seated to standing eye-level using a normal lens, with a vignette-style composition tightly framing the desk surface in the foreground while the book-lined walls and tapestry provide a rich layered backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "library",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

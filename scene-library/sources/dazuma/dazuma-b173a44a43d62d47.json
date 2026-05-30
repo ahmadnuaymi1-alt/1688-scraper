@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-b173a44a43d62d47",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-driveway-pillar-lights-waterproof-stainless-steel-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-driveway-pillar-lights-garden-wall-flowers.jpg?v=1778566816",
+  "scraped_date": "2026-05-21T12:02:54.818Z",
+  "source_title": "Solar Driveway Pillar Lights Waterproof Stainless Steel Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b173a44a43d62d47ed585a909cbf1139df776f28",
+  "description": "An intimate outdoor garden scene photographed at dusk or early evening. The foreground is a flat-topped stone garden wall or ledge with a rough-hewn granite or limestone surface in medium grey, its texture finely detailed. Behind the wall, a lush rose bush fills the entire upper two-thirds of the frame, heavy with fully open pink and soft mauve roses and dense green foliage, all rendered in soft bokeh due to shallow depth of field. The background above the roses transitions to a deep, darkening blue twilight sky. The scene has a romantic nocturnal quality — warm amber light glows from the surface of the ledge, projecting soft honeyed warmth onto the stone below and creating a delicate contrast with the cool blue evening behind. Camera is at low eye-level, approximately 2 to 3 feet, shooting with a normal to slightly telephoto lens at a direct frontal angle. The composition is a tight centered vignette focused on the ledge surface and the rose backdrop, with no wider context visible. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.697Z"
+}

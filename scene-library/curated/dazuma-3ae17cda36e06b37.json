@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-3ae17cda36e06b37",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3ae17cda36e06b37.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-hanging-light-fixture-european-wedding-crystal-ceiling-light",
+  "description": "An outdoor wedding or garden dining event captured at dusk, camera at standing eye-level with a normal lens in a centered symmetrical one-point perspective looking down the length of a long banquet table. A matte black iron arch frames the near end of the table, its curved arms draped with trailing greenery and delicate vines. Beyond the arch, the table stretches deep into the composition, dressed with a crisp white linen tablecloth and set for many guests — crystal stemware, white ceramic plates, and tall ivory pillar candles line the centerpiece. A lush floral garland runs the full table length: white and blush roses, green hydrangeas, and trailing eucalyptus cascade in abundant, romantic profusion. Natural wood cross-back chairs flank both sides. Manicured deep green lawn borders the table on both sides. In the middle distance, a stone manor house with a terracotta-tiled roof and neoclassical facade glows softly in the warm twilight hour. Tall clipped hedgerows anchor the estate perimeter. A pale rose-gold sky and gathering dusk atmosphere fill the upper portion of the frame. The candles on the table cast soft intimate halos of warm amber light along the linen surface, and the dusk sky provides a diffuse even blue-hour ambient. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-086ad962d9f955cf",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-traditional-chandelier-minimalist-premium-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-traditional-chandelier-living-room.jpg?v=1777107958",
+  "scraped_date": "2026-05-21T12:03:07.275Z",
+  "source_title": "Modern Traditional Chandelier Minimalist Premium Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "086ad962d9f955cfb9a4b65a1707aff2aff2ec10",
+  "description": "A spacious, minimalist living room rendered in a seamless palette of warm whites and soft greiges. The walls are finished in crisp white with applied rectangular panel moulding framing two large wall sections, lending the space quiet architectural formality. Floor-to-ceiling sheer drapes in a cool dove grey flank a tall multi-pane window, allowing diffused daylight to spill softly across the room and wash the neutral upholstery with gentle natural illumination. A generous L-shaped sectional sofa in plush warm greige microfibre dominates the center of the room, its deep seats and scatter cushions slightly varied in tone from light stone to mid-warm grey. A large square ottoman in matching fabric sits centered before it, holding a single small stack of books as the only styling accent. The floor is covered in a low-pile area rug in pale bone, layered over light wood-tone flooring barely visible at the edges. The ceiling is plain white with minimal cornice detail. The mood is calm, hushed, and carefully restrained — almost sculptural in its reduction of decorative noise. Camera is at approximately standing eye-level, roughly 5–6 feet, shooting a wide establishing three-quarter view of the living room corner that captures both the window wall and the paneled accent wall, with a mild wide-angle lens compressing the generous room into a single composed frame. The pitch is nearly level with only the slightest downward tilt to include the ottoman surface. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.970Z"
+}

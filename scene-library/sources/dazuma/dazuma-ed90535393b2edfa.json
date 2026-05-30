@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-ed90535393b2edfa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/unique-rechargeable-table-lamp-contemporary-portable-cordless-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-black-rechargeable-table-lamps-wooden-console.jpg?v=1760000307",
+  "scraped_date": "2026-05-21T15:52:43.643Z",
+  "source_title": "Rechargeable Table Lamps Unique Contemporary Portable Cordless Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ed90535393b2edfa67ee6f5992d42b2d0878955a",
+  "description": "A living room sideboard vignette photographed at standing eye-level with a normal lens, showing a three-quarter view of a corner with the surface of a credenza as the primary plane. The wall is a smooth flat white, almost pure white with excellent brightness and softness. On the left, a large framed abstract oil painting in a pale gold wood frame depicts loose gestural shapes in off-white, taupe, grey-brown, and black — a muted, sophisticated palette. The credenza itself is a low, long piece in rich mid-tone walnut with a diamond-inlaid veneer pattern on the drawer and door fronts, lending it texture and visual depth. The walnut surface holds three objects: an open art book with printed photographs lying flat, a white ceramic mug with a delicate hand-painted floral motif, and the central glowing surface piece. A warm amber pool of light radiates outward from the object and illuminates the walnut surface in a focused warm halo. To the right, a secondary credenza or nightstand in matching walnut with a glass top and visible drawer units provides a bookend. The mood is refined, modern, and quietly editorial. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.953Z"
+}

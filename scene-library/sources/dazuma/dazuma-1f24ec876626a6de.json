@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-1f24ec876626a6de",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lights-lanterns-portable-waterproof-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-lights-lanterns-sleek-cozy-outdoor-seating.jpg?v=1774836238",
+  "scraped_date": "2026-05-21T12:04:09.792Z",
+  "source_title": "Outdoor Lights Lanterns Portable Waterproof Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1f24ec876626a6de7e67083e8ac4a2904d6c595f",
+  "description": "An outdoor terrace scene photographed at dusk, with a warm amber sunset sky visible beyond a low stucco parapet wall. The terrace floor is laid in large-format limestone-toned pavers with subtle variation in tone. A naturally weathered round wooden table with a raw-edged slab surface occupies the left foreground, accompanied by a matching low rustic wooden stool. On the table rests a woven jute placemat, a loosely draped linen throw with fringe edges, a small ceramic vase with dried botanicals, and a few matte stoneware cups. To the right, a natural rattan armchair with a loose linen cushion and a draped grid-weave throw anchors the right side of the composition. A potted plant with white blooms in a woven basket sits at the base of the chair. The stucco parapet wall behind has a warm sand plaster finish; dappled shadows from overhead tree branches play across its surface. Dense Mediterranean shrubbery and a gnarled tree trunk frame the upper edges of the scene against the peach-and-rose dusk sky. A warm amber glow pools on the paver floor between the furniture pieces, radiating outward and softening the transition from the dusky ambient blue. Camera is at standing eye-level, slightly above, with a normal-to-wide lens offering a three-quarter view of the terrace corner showing both seating areas and the parapet backdrop. The scene reads casual and serene, evoking a slow Mediterranean evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.064Z"
+}

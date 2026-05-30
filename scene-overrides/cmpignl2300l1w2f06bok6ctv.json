@@ -1,0 +1,52 @@
+{
+  "productId": "cmpignl2300l1w2f06bok6ctv",
+  "productTitle": "European Banker's Lamp — Old Shanghai Green Glass Vintage Office Desk Lamp",
+  "authoredBy": "in-chat scene design — iconic banker's lamp with emerald-green glass shade, antique brass base and pull-chain; 5 variants (antique green / electroplated gold / etc.) cycled 1-5 then slot 6 repeats variant 1; warm white 2700-3000K per the warm amber glow through green glass",
+  "authoredAt": "2026-05-23T15:00:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "law-firm-partners-desk",
+      "mode": "minimalist",
+      "prompt": "A senior partner's leather-topped desk in a mahogany-panelled law firm office, shot on a 35mm lens at standing eye-level slight three-quarter so the banker's lamp anchors the back-left of a 1:1 frame on the worn oxblood-leather desk top. Late evening: dim panelled walls beyond; the only second light source is a sliver of warm hallway light through a partially-open mahogany door at frame-right. Style with a leather-bound bound case file open to a clean page with a tortoiseshell fountain pen across it, a small leather correspondence portfolio with a silk ribbon tie, a folded ivory pocket square, a brass-rimmed magnifying glass laid flat, and a stoneware mug of black coffee with a thin curl of steam. Walls are deep oxblood-burgundy mahogany panelling with a single oil-rubbed bronze sconce above. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of mahogany, oxblood leather, emerald green, antique brass, ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1, "room": "law firm partner's desk", "designStyle": "rich English mahogany office", "wallColour": "oxblood-mahogany panelling", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "late evening",
+      "accents": ["oxblood-leather desk top", "leather case file with tortoiseshell pen", "leather correspondence portfolio", "brass magnifying glass", "stoneware mug of coffee"]
+    },
+    {
+      "slug": "library-research-carrel",
+      "mode": "minimalist",
+      "prompt": "A wooden research carrel in an old university library reading room, shot on a 35mm lens at seated eye-level so the banker's lamp anchors the back-right of a 1:1 frame on the worn oak carrel desk. Mid-evening: dim library beyond the carrel walls; the only second light source is a distant chandelier's warm halo deep in the blurred background. Style with a stack of three open hardback academic books with paper bookmarks, a small clothbound notebook with a sharpened HB pencil resting across it, a stoneware mug of black tea, and a small porcelain dish holding two brass paper clips. Walls of the carrel are warm honey-oak panelling with carved nameplate. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of honey oak, emerald green, antique brass, parchment ivory, dark book leather. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2, "room": "library research carrel", "designStyle": "scholarly university library", "wallColour": "honey-oak panelling", "cameraAngle": "35mm seated eye-level", "timeOfDay": "mid-evening",
+      "accents": ["worn oak carrel desk", "stack of academic hardbacks", "clothbound notebook with HB pencil", "stoneware mug of black tea", "porcelain dish with brass clips"]
+    },
+    {
+      "slug": "old-shanghai-study",
+      "mode": "homey",
+      "prompt": "An old-Shanghai 1930s apartment study desk corner, shot on a 35mm lens at standing eye-level slight three-quarter so the banker's lamp anchors the back-right of a 1:1 frame on a carved rosewood desk. Late evening: warm window light filtered through a wooden lattice-screened window at frame-left from a distant gas streetlamp; the only second light source is that lattice-filtered light. Style with a folded silk fan, an open volume of poetry in calligraphic script with a silk bookmark, a small stoneware ink pot with a Chinese brush resting on a brass rest, a porcelain teacup on a saucer, and a small jade seal in a velvet-lined box. Walls are a warm khaki-jade limewash with a hung silk scroll painting. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of khaki jade, rosewood, emerald, antique brass, silk ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3, "room": "old-Shanghai apartment study", "designStyle": "1930s Shanghai literati", "wallColour": "khaki-jade limewash", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "late evening",
+      "accents": ["carved rosewood desk", "silk fan", "calligraphic poetry book", "stoneware ink pot with Chinese brush", "porcelain teacup", "jade seal in velvet box"]
+    },
+    {
+      "slug": "dean-of-college-desk",
+      "mode": "minimalist",
+      "prompt": "A college dean's stately oak desk under a window, shot on a 50mm lens at standing eye-level so the banker's lamp anchors the upper-left of a 1:1 frame on a large worn-oak partners desk. Early evening dusk: cool diffuse light through a tall leaded-glass window directly behind the desk at frame-back; the only second light source is that window. Tight styling — a leather-bound campus directory open to a clean page, a brass-handled letter opener laid across a stack of cream-coloured correspondence envelopes, a small antique brass desk bell, and a sterling-silver-rimmed picture frame turned face-away. Walls are deep forest-green limewash with a leaning small oil portrait at frame-edge. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of forest green, worn oak, emerald, antique brass, cream correspondence. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4, "room": "college dean's desk", "designStyle": "Ivy League dean's office", "wallColour": "deep forest-green limewash", "cameraAngle": "50mm standing eye-level", "timeOfDay": "early evening dusk",
+      "accents": ["large worn-oak partners desk", "leather campus directory", "brass-handled letter opener", "stack of cream envelopes", "antique brass desk bell"]
+    },
+    {
+      "slug": "writers-typewriter-desk",
+      "mode": "homey",
+      "prompt": "A vintage writer's desk corner with a 1940s typewriter, shot on a 35mm lens at standing eye-level slight three-quarter so the banker's lamp anchors the back-right of a 1:1 frame on a deep walnut writing desk. Late evening: warm low ambient light from a distant brass sconce throwing a soft glow across the desk; the only second light source is that sconce. Style with a black 1940s Royal typewriter in profile with a half-typed sheet of cream paper rolled in, a small stoneware cup of black coffee, a stack of three carbon-paper sheets, a Bakelite ashtray-shaped pencil tray with three sharpened pencils, and a small clothbound manuscript folder tied with twine. Walls are warm cognac-leather panelling with a leaning small framed black-and-white photograph. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of cognac leather, walnut, emerald, typewriter black, manuscript ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5, "room": "vintage writer's typewriter desk", "designStyle": "1940s journalist's office", "wallColour": "cognac-leather panelling", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "late evening",
+      "accents": ["1940s Royal typewriter with paper", "stoneware coffee cup", "carbon paper sheets", "Bakelite tray with sharpened pencils", "clothbound manuscript folder"]
+    },
+    {
+      "slug": "hotel-concierge-desk",
+      "mode": "minimalist",
+      "prompt": "A grand hotel concierge desk corner in a warm marble lobby, shot on a 50mm lens at standing eye-level so the banker's lamp anchors the back-centre of a 1:1 frame on a polished walnut concierge counter. Late evening: the only second light source is a distant crystal chandelier glowing softly in the deep blurred background. Tight styling — a leather-bound guest register open to a clean page with a tortoiseshell fountain pen, a small footed brass tray holding three folded room-key cards on monogrammed paper, a stoneware bud vase with a single white orchid stem, and a sterling-silver bell call laid flat. Walls beyond are warm honed-travertine with a small leaning gilt-framed oil landscape. The lamp matches the reference image exactly — wide emerald-green glass canopy shade in the colour shown in the reference, antique-brass turned column base and pull-chain — switched ON, warm white 2700-3000K (matches the warm amber glow visible through the green glass in the variant reference). Palette of honed travertine, walnut, emerald, antique brass, orchid white. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6, "room": "hotel concierge desk", "designStyle": "grand luxury hotel lobby", "wallColour": "warm honed travertine", "cameraAngle": "50mm standing eye-level", "timeOfDay": "late evening",
+      "accents": ["polished walnut concierge counter", "leather guest register with tortoiseshell pen", "brass tray with key cards", "white orchid bud vase", "sterling-silver bell"]
+    }
+  ]
+}

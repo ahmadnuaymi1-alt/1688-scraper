@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-dbcd54832e989180",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-dbcd54832e989180.jpg",
+  "source_url": "https://dazuma.us/products/contemporary-wall-sconce-lighting-simple-background-lamp",
+  "description": "A moody, sophisticated bedroom corner dominated by floor-to-ceiling dark wood wall paneling with vertical grain — the panels run in narrow columns from baseboard to ceiling, lending the space a masculine, tailored quality. Heavy chocolate-brown velvet or woven drape panels hang floor-to-ceiling at the left edge, diffusing faint cool daylight into the otherwise dim room. The bed occupies the lower right of the frame, dressed in a gray quilted coverlet with a subtle geometric weave pattern and crisp white pillow shams and Euro pillows in a wrinkled linen or silk. The upholstered headboard — visible only at the lower edge — is a warm gray fabric. To the immediate left of the bed sits a small round matte black side table on which rest an open book, a small dark amber glass bottle or skincare product, and a slender dried grass arrangement in a dark vessel. A warm amber glow radiates from the wall above the side table, casting soft illumination down the dark paneling and creating a moody, intimate pool of light against the otherwise shadowy surface. The color palette is dark earth tones — deep walnut brown, charcoal, warm gray — with minimal contrast accents of white in the bedding. Camera is at seated eye-level, normal lens, three-quarter view of the bed corner, slightly angled toward the wall feature and side table, looking level across the bed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

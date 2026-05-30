@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-e2cf9878880e3e5a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e2cf9878880e3e5a.jpg",
+  "source_url": "https://dazuma.us/products/french-vintage-walnut-colored-acrylic-table-lamp-artistic-atmosphere-light",
+  "description": "An elevated bird's-eye-view shot looking straight down at a dark walnut scalloped side table, framing a circular decorative object resting flat on the surface. The camera is positioned directly overhead at approximately 7 feet, lens character close to normal, giving the composition a graphic flat-lay quality. The walnut tabletop has a distinctive scalloped multi-lobed edge profile in a rich warm brown grain with natural figure. The object on the surface is a round disc with a crystalline outer ring of textured glass nodules and a warm-glowing alabaster marble-effect center panel with a small dark walnut accent at its midpoint. The entire surface radiates a soft warm amber glow from within the disc, pooling gently on the walnut table around it. In the upper left corner, a fashion magazine or coffee table book is partially visible with a bold black-and-white floral photographic cover, its pages resting casually atop a secondary surface or the same table. The warm oak flooring is visible at the far edges, softly lit. The mood is intimate, editorial, and quietly luxurious — a detail study of natural materials and warm illumination. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

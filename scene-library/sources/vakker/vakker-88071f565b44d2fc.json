@@ -1,0 +1,36 @@
+{
+  "image_id": "vakker-88071f565b44d2fc",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/droplet-alabaster-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/DropletAlabasterPendantLamp_2.jpg?v=1778651652",
+  "scraped_date": "2026-05-21T12:20:08.769Z",
+  "source_title": "Droplet Alabaster Pendant Lamp",
+  "source_product_type": "Pendant Lamp",
+  "width": 1200,
+  "height": 1589,
+  "content_sha1": "88071f565b44d2fc19e25afb90a7e62cb3cc809d",
+  "description": "A stark, gallery-minimal vignette photographed at standing eye-level with a normal lens, composing an off-center frame that places raw architectural furniture elements and a styled surface against a flat, cool grey-greige wall. The primary surface is a stepped, modular bench-and-shelf structure built from raw, unfinished pine with visible grain and knots — chunky, rectilinear forms stacked in a geometric composition at the left. Adjacent and at the same level, a travertine stone surface forms a low table or plinth, its surface holding two coffee table books — the titles \"Giorgio Morandi: A Retrospective\" and \"The New Mediterranean\" stacked in opposing directions — plus a single framed photographic print leaning casually against the wall. The print depicts a collection of stone or clay sculptural vessels in muted warm tones, its frame simple and unornamented in a warm greige. The wall behind is smooth, uniformly painted in a cool mid-grey tone with no decoration. A warm amber translucence glows from a single hanging element descending from above, illuminating the top of the stacked books and casting a soft cone of warmth on the travertine surface. The overall mood is austere and scholarly — a gallery installation aesthetic with art-world minimalism. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "scholarly",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.142Z"
+}

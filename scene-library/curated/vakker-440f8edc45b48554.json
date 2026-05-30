@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-440f8edc45b48554",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-440f8edc45b48554.png",
+  "source_url": "https://vakkerlight.com/products/bloom-wooden-table-lamp",
+  "description": "A warm, layered cottage living room side table vignette with a handcrafted, Scandinavian-country sensibility. The walls are smooth matte warm white, hung with a trio of small framed botanical prints in simple thin natural wood frames, arranged in an informal cluster at mid-height. Open wooden floating shelves at the upper background hold a loose arrangement of small ceramic vessels, a small plant, and stacked books. A rustic side table in rough-sawn natural pine or light oak with angled trestle legs sits center frame, its surface holding three stacked hardcover books, a small woven coaster or placemat, a small ceramic mug in warm cream, and a tiny dried botanical arrangement in a small earthen vase. To the right background, a low armchair in warm natural linen or oatmeal is partially visible, with a chunky knit throw casually draped over its arm. A large lush fern in a terracotta pot sits in the background at floor level. A multi-pane window on the right side admits soft, diffuse natural light. The floor is wide-plank warm honey wood. The color palette is warm neutral — cream, natural wood, oatmeal — with small sage green accents from the plants. The mood is casual and lived-in. Camera is at seated eye level, framing a centered vignette of the side table using a normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

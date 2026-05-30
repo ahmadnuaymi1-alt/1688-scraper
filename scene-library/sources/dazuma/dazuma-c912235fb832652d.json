@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-c912235fb832652d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/floor-crystal-lamps-led-decorative-luxury-hardware-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/gold-floor-crystal-lamps-waterfall-tassel-shade-armchair.jpg?v=1777101890",
+  "scraped_date": "2026-05-21T15:52:21.226Z",
+  "source_title": "Floor Crystal Lamps LED Decorative Luxury Hardware Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c912235fb832652d4d4f93a49eeccba0ac0fb605",
+  "description": "An elegant sitting room corner with crisp white applied panel moulding covering the lower two-thirds of the wall, transitioning to a clean white painted upper wall. Dark hardwood flooring with a natural woven jute rug grounds the composition. On the left, a cylindrical concrete side table holds a ribbed matte charcoal ceramic vase with dried rust-brown botanical stems and a small glass tumbler on a wooden coaster. To the right, a cream upholstered armchair with mid-century walnut legs is draped with a gray fringed throw blanket; a diamond-patterned cream cushion leans against the backrest. The room is spare and refined — warm neutral tones, sculptural objects, and luxurious textures work together for a quiet, editorial sophistication. A warm glowing emanation at standing height washes gently onto the surrounding white panel wall and floor area in front of the chair. Camera is at standing eye-level, centered symmetrical composition framing the wall panel as a clean backdrop with furniture flanking the central floor position, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.814Z"
+}

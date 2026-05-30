@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-04d8f29dbda96c24",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wood-modern-table-lamp-modern-minimalist-artistic-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wood-modern-table-lamp-bedside.jpg?v=1770719802",
+  "scraped_date": "2026-05-21T15:52:14.297Z",
+  "source_title": "Wood Modern Table Lamp Modern Minimalist Artistic Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "04d8f29dbda96c240c97f73f6161214c6b5ee5af",
+  "description": "A bedroom corner photographed at seated eye level with a normal lens, framing a three-quarter view of the junction between a built-in walnut wardrobe or bookcase unit and a paneled walnut headboard wall. The architectural millwork is rich medium-toned walnut with visible grain, featuring a tall open-shelf bookcase with several shelves on the left, transitioning into a flush panel-and-ledge headboard wall. A floating walnut nightstand shelf is integrated directly into the headboard panel. The wall to the left of the built-in is smooth warm greige plaster. The bed at the right edge has a simple upholstered headboard in light gray-white fabric, with a gray linen pillow. The bedding is soft gray. On the nightstand shelf sits a small white ceramic candle or object with a beaded surface texture. The overall scene has a calm, editorial, hotel-like quality — minimal accessories, immaculate joinery, and a daylight-even exposure with no dramatic shadow play. The palette is dominated by walnut brown, warm greige wall, and soft gray textiles. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "flush_mount"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.968Z"
+}

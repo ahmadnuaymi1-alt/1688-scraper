@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-9b31fa733c0e945a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-garden-pillar-lights-modern-round-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-garden-pillar-lights-modern-exterior-pillars.jpg?v=1778566267",
+  "scraped_date": "2026-05-21T12:03:01.469Z",
+  "source_title": "Solar Garden Pillar Lights Modern Round Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9b31fa733c0e945a970ddb79955a12fd537f5a8c",
+  "description": "A contemporary residential entry gate photographed at a low-to-standing eye level looking slightly upward, capturing two tall matte dark charcoal-grey metal pillar posts flanking a vertical-slat metal gate. The pillars are box-profile columns in smooth matte dark anthracite powder-coated metal, topped with flat caps, and each emits a warm amber glow from layered disc-form elements at the top, casting a soft warm halo downward across the black metal cap and pillar faces. The warm light illuminates the pillar surfaces unevenly, creating gentle gradients of warmth on the dark metal. Between the pillars, a narrow gate of closely spaced vertical metal slats in matching dark anthracite stands slightly ajar, revealing a warm amber glow on a rough-face stone wall in buff and brown tones inside the courtyard. The wall behind and to the right of the gate is clad in irregular stacked stone veneer in warm sandy and golden tones. The house structure visible in the background is a contemporary flat-roofed form with a facade of smooth off-white stucco above and a stone veneer base panel below, with a bare winter tree silhouetted against an overcast cool grey sky above and to the right. The ambient light is a cool deep dusk grey, creating strong contrast against the warm amber glow from the post caps and the warm stone interior glimpsed through the gate. The mood is secure, dramatic, and architecturally confident — a bold modern residential entry at evening. Camera is at seated-to-standing height, looking slightly upward at approximately 15 degrees, with a normal lens, capturing both pillars in a centered symmetrical composition with the gate between them and the stone interior visible beyond. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.545Z"
+}

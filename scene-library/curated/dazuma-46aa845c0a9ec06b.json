@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-46aa845c0a9ec06b",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-46aa845c0a9ec06b.jpg",
+  "source_url": "https://dazuma.us/products/open-box-elegant-rattan-shade-led-outdoor-floor-lamp-pendant-light-with-stake-and-open-top-design",
+  "description": "A sophisticated rooftop terrace lounge photographed at dusk with a deep blue twilight sky and a distant ocean horizon glowing in a warm peach-pink band. The terrace features a long built-in low modular sofa with cream cushions arranged against a raised planter bed overflowing with ornamental grasses, lavender, olive-type branches, and dense Mediterranean-style plantings. Uplights buried in the planter cast warm golden pools across the foliage and the cream stucco planter wall, highlighting the plants from below. To the right, a pair of dark metal tables and white upholstered stools create a café-style seating area. A large market umbrella is partially visible at upper right. Three tall slender-stemmed outdoor floor lanterns with tapered woven rattan shades are spaced evenly across the terrace, each emitting a warm amber visible-filament glow at standing height that illuminates the grasses and surrounding floor area around each base. The atmosphere is chic, calm, and coastal. Camera is at standing eye-level using a wide lens, wide establishing shot looking straight across the terrace with a slight downward pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "source_hero_position": "ceiling",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate"
+  }
+}

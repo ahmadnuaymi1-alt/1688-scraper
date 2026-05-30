@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-de15f15d7268394c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-de15f15d7268394c.jpg",
+  "source_url": "https://vakkerlight.com/products/gingko-chandelier-i",
+  "description": "A bright, airy transitional kitchen photographed at standing eye-level with a normal lens in a three-quarter corner composition, centered on a large kitchen island with a white Carrara marble countertop and a natural light-oak base. The island is styled with a ceramic fruit bowl holding apples and lemons, a stack of white plates with gold-toned flatware, a linen napkin, and a clear glass vase holding loose eucalyptus and olive branches. Two light oak counter stools with metal legs are pulled up on the near side. Behind the island, the kitchen perimeter cabinetry is painted a soft warm off-white with shaker-style doors and brushed brass hardware, topped with marble countertops that continue the island tone. The backsplash is a warm cream subway tile in a traditional brick lay. Brushed brass pull-out faucets flank both sinks. Above the counter, upper cabinets reach to a simple white ceiling with applied crown moulding. Bright diffuse daylight from a window at the far wall floods the space with soft, even light. Warm light cascades from above the island, washing the marble top and brass accents in gentle golden illumination. The palette is warm white, natural oak, polished marble, and brass, with a forest-green botanical accent from the flower arrangement. The mood is formal yet casual, quietly refined. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-76ed7b57aeb4dfc0",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-76ed7b57aeb4dfc0.jpg",
+  "source_url": "https://vakkerlight.com/products/petra-marble-table-lamp",
+  "description": "A clean, editorial bedroom nightstand vignette photographed at seated eye-level with a telephoto lens, capturing a tight off-center composition of a single bedside surface. The wall behind is a pure cool grey-white plaster, perfectly smooth and unadorned. Sheer white linen curtain panels at left edge of frame diffuse soft natural daylight from a nearby window, washing the scene in even, cool-neutral light. A compact mid-century-influenced nightstand in rich dark walnut with a single drawer and a warm brass recessed pull sits centered in the frame. On the nightstand surface, two books are stacked — the top one is a vivid rust-orange paperback in French titled \"Les Faces de la Passion\" with readable spine text, the lower a cream-white volume — and a pair of simple reading glasses in translucent amber frames are set casually beside them. A bouclé white chair or bed edge is partially visible at the bottom right. The palette is minimal and cool-neutral with a single bold rust-orange accent from the book. Warm soft light from the nearby table height warms the walnut nightstand surface gently. Styling density on the surface is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-f570e1e8a4a5a0aa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-street-light-landscape-high-post-waterproof-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-street-light-classic-landscaped-garden-pathway.jpg?v=1774078558",
+  "scraped_date": "2026-05-21T12:04:50.325Z",
+  "source_title": "Outdoor Street Light Landscape High-Post Waterproof Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Street Lighting",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f570e1e8a4a5a0aa3f9838f420e0530c43febbb4",
+  "description": "A grand residential sidewalk at dusk, photographed from a standing eye-level position with a normal lens in a three-quarter angled composition that recedes into a one-point perspective. A wide concrete sidewalk runs along the front of an elegant estate property, flanked by meticulously landscaped garden beds blooming with abundant flowers in purple-lavender, white, cream, and yellow — the planting dense and cottage-informal. Behind the garden, an ornate tall wrought-iron fence with decorative spear finials and scrollwork runs the full length of the frontage, anchored to a low limestone or granite garden wall. Beyond the fence, the main residence is an imposing stone manor or Victorian mansion clad in coursed natural limestone, with Ionic or Doric columns at the portico and large multi-pane windows emanating warm amber interior light against the darkening sky. The sky above is a rich dusk purple-rose gradient, and mature deciduous trees silhouette darkly at the upper left. Three tall ornate multi-arm post lanterns stand along the sidewalk in descending perspective, each casting warm amber glows that illuminate the path below and cast halo light upward. Camera is at standing eye-level shooting the length of the walk, slightly angled to create depth. The mood is dramatic and formal, evoking old-world estate grandeur. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.989Z"
+}

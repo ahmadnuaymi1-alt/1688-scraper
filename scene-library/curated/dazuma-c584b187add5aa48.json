@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-c584b187add5aa48",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c584b187add5aa48.jpg",
+  "source_url": "https://dazuma.us/products/gate-pillar-light-design-outdoor-waterproof-courtyard-light",
+  "description": "A residential outdoor garden scene photographed at standing eye-level with a normal lens in a vignette composition focused on a concrete post cap. The frame is dominated by a substantial square concrete column with a rough-textured stone-tile cap and a horizontal cedar or redwood fence rail running to the right. The warm diffused glow from the fixture washes downward onto the textured stone cap of the post, creating a soft amber halo that contrasts with the deepening blue-violet dusk sky. In the mid-ground, a well-maintained residential garden unfolds with layered planting beds containing ornamental grasses, blue-grey agave rosettes, dwarf shrubs, and low groundcover in varying shades of green, gold, and burgundy. Poured concrete retaining walls define the terraced planting beds. Further back, a warm-lit contemporary house with large windows glows on a rolling hillside, and the sky above transitions from deep orange-pink near the horizon to soft purple and lavender higher up — indicating the golden hour just past sunset. The palette is warm and earthy — sandstone, cedar, ochre, sage green — intensified by the apricot and violet of the dusk sky. The atmosphere is residential and serene, suggesting a California-style suburban garden at evening. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-b1eede2c91421b0b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-hanging-wedding-decorative-waterproof-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-lighting-hanging-crystal-garden-archway-dusk.jpg?v=1774595422",
+  "scraped_date": "2026-05-21T12:04:21.130Z",
+  "source_title": "Outdoor Lighting Hanging Wedding Decorative Waterproof Pendant Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b1eede2c91421b0b6a6afa991c9da267f225deec",
+  "description": "An outdoor event or garden dining setting photographed at low eye-level looking slightly upward, with a telephoto lens compressing the background, framing an elegant suspended multi-arm crystalline form in the center upper portion of the composition against a deep blue dusk sky. The sky transitions from indigo overhead to a warm lavender-rose at the horizon. Hundreds of tiny warm white twinkle lights are strung in a dense criss-cross overhead canopy stretching across the background, their points of warm golden light filling the frame and creating a festive, magical atmosphere. A rustic bronze chain drops from an unseen overhead support, suspending the luminous centerpiece form whose multiple candelabra-style arms radiate outward, holding warm amber glowing elongated flame tips and draping crystal strands between them, their warm amber glow twinkling in the open air. In the upper left, dried pampas grass plumes in cream and wheat tones hang from a bronze curved arm, adding organic softness. The mood is celebratory, romantic, and al fresco-glamorous. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "telephoto",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.702Z"
+}

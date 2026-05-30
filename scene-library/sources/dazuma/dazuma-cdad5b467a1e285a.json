@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-cdad5b467a1e285a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mount-spot-lights-recessed-rotatable-bedside-reading-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_e3145a62-664c-4215-906b-0292af07d1bd.jpg?v=1778838234",
+  "scraped_date": "2026-05-21T12:02:34.877Z",
+  "source_title": "Wall Mount Spot Lights Recessed Rotatable Bedside Reading Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cdad5b467a1e285aeff1f06713a43775f0eea0df",
+  "description": "A serene minimalist bedroom vignette photographed at standing eye-level with a normal lens, framing an off-center composition that shows the left side of the bed and the adjacent floating nightstand. The back wall is fully clad in light natural oak wood paneling with a clean horizontal grain, running from floor to ceiling and creating a warm sandy tone throughout the backdrop. Near the ceiling, a continuous warm amber glow runs horizontally just below the crown, emanating from a cove or reveal detail that separates the wood paneling from the white ceiling plane, bathing the entire upper wall in a soft gradient of warm light. A wall-mounted matte black directional reading form is recessed into a rectangular matte black backplate set flush into the wood panel, projecting a tight focused cone of warm amber light downward onto the floating nightstand below. The nightstand is a wall-hung drawer unit in the same light oak as the paneling, with clean hardware-free drawer fronts. On its surface sit two slim hardcover books stacked flat, topped with a small matte ceramic bud vase in pale putty holding a spray of tiny dried yellow flowers. The bed features a rounded upholstered headboard in warm dove-grey linen, dressed in a quilted white coverlet with a diamond stitch pattern and a folded dark charcoal chunky knit throw across the foot. The overall palette is pale sand, ivory, and soft grey with charcoal accents — deeply calm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.838Z"
+}

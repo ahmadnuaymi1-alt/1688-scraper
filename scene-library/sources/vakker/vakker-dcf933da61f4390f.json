@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-dcf933da61f4390f",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/stacked-sculptural-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793350504644.png?v=1779335067",
+  "scraped_date": "2026-05-21T12:08:13.337Z",
+  "source_title": "Stacked Sculptural Floor Lamp",
+  "source_product_type": "Floor Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "dcf933da61f4390feecf11b2fe18c8d3c9deee61",
+  "description": "A bold, jewel-toned living room corner photographed at standing eye-level with a normal lens, framing a three-quarter corner view showing both an accent chair and a credenza against the back wall. The walls are smooth painted in warm cream or off-white with simple applied base moulding at the lower portion, creating a clean traditional backdrop. A large abstract painting in a thin dark frame hangs on the back wall, featuring sweeping gestural marks in forest green, gold leaf, and white on a marble-like ground. Below the painting, a low dark walnut credenza with two doors and a flat top holds a sculptural gold object and two white ceramic vases in varying heights, simply styled. The upholstered accent chair at center foreground is a rounded, curvaceous form in deep emerald green velvet with slim brass or gold-toned legs, creating a vivid jewel-toned focal point. To the left of the chair, a large healthy monstera or tropical leafy plant in a metallic bronze or gold pot adds generous greenery. The hardwood floor is a warm medium-toned plank in amber-brown. A tall sculptural floor piece with a polished brass base and multi-toned elements rises in the background, adding a vertical note with a warm golden glow emanating from upward-facing cups at the top. The palette is emerald green, brass gold, dark walnut, warm cream, and deep tropical greenery — a glamorous, eclectic California aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.232Z"
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-f206cd442a3fc42e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/train-christmas-lights-santa-claus-snowfall-ornament-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/two-piece-glowing-christmas-train_92551063-90b5-4da7-9c20-c13b1b87c1f3.jpg?v=1763810376",
+  "scraped_date": "2026-05-21T15:52:03.758Z",
+  "source_title": "Train Christmas Lights Santa Claus Snowfall Ornament Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f206cd442a3fc42e4c40b5d95a1773770568ef90",
+  "description": "A holiday tabletop vignette photographed at seated eye-level with a normal lens, framing a low table surface covered with soft white artificial snow batting. The background is a soft out-of-focus arrangement of small natural Christmas trees in green with warm fairy lights scattered at varying heights. Additional decorative elements — a wooden block labeled 'NT', more trees, and neutral pottery-style objects — are partially visible in soft focus. The foreground surface holds a detailed two-car locomotive train set as a decorative object — a deep forest green and red vintage-style steam engine with gold trim details, black iron-look wheels, and an ornate funnel, connected to a glass-paneled passenger car that glows with warm amber-white interior illumination. Inside the glass windows of the passenger car, miniature scenes are visible: a Christmas tree, a Santa figure, and glittery swirling confetti. A small plush brown reindeer figurine with a red ribbon sits beside the train to the right. Pine cones are scattered in the foreground snow. The warm glow from the lit car interior illuminates the snowy batting surface around the train. The mood is enchanting, festive, and whimsically cinematic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.972Z"
+}

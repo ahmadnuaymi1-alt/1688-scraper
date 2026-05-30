@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-514b895736b8e7a0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-514b895736b8e7a0.jpg",
+  "source_url": "https://dazuma.us/products/solar-light-outdoor-wall-mount-waterproof-wall-light-sensor-lamp",
+  "description": "A contemporary flat-roofed residential exterior photographed at standing eye-level with a wide lens in a three-quarter composition that captures both the garage bay and the front entry. The facade is smooth white stucco or rendered plaster with clean geometric massing — sharp right-angle rooflines, deep overhangs, and large matte black steel-framed windows on the upper story. A wide matte black horizontal garage door fills the left half of the ground floor. To the right, the front entry is recessed beneath a flat canopy, with a warm walnut-stained flush wood front door flanked by two cylindrical concrete planters holding ornamental shrubs. A raised timber deck step in natural hardwood leads up to the entry. The ground surface is decomposed granite or fine gravel. Low native evergreen shrubs border the right side of the facade. The sky above shows a soft pink and lavender sunset, and the scene is photographed at dusk — the artificial light from within the entry recessed space creates a warm amber glow behind the front door. A warm white rectangular glow emanates horizontally from the fixture mounted on the facade above the garage door, casting both uplight and downlight on the white plaster wall surface. The palette is stark and minimal: pure white, matte black, warm walnut wood, and concrete grey. The mood is quietly modern and restrained. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

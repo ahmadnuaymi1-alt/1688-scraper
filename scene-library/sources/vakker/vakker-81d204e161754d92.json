@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-81d204e161754d92",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/hourglass-travertine-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17793447236359.png?v=1779344755",
+  "scraped_date": "2026-05-21T12:08:09.741Z",
+  "source_title": "Hourglass Travertine Pendant Lamp",
+  "source_product_type": "pendant Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "81d204e161754d923bb8aef653b03e0afad4360f",
+  "description": "A rustic, earthy kitchen photographed at standing eye-level with a wide lens, showing a full-room establishing view in one-point perspective. The scene centers on a substantial kitchen island clad in reclaimed, rough-sawn dark wood planking with a thick concrete-toned stone slab worktop. The island surface holds a terracotta vase with dried pampas grass plumes, a copper mortar and pestle, and a few copper pots and pans stacked to the right. Behind the island, open shelving lines the back wall, holding stacked ceramic bowls and plates in earthy off-white and grey tones alongside a few dried herb bundles. The walls are finished in a textured, uneven lime plaster in a warm olive-sage tone. A large, multi-pane casement window on the left wall floods the space with natural daylight, illuminating dust motes and casting soft shadows across the stone floor tiles laid in a large-format pattern. The flooring is a neutral stone tile with a slightly rough, organic texture. The ceiling is low with a natural look. A jute or sisal area rug runs beneath the island. The overall palette is deeply earthy — aged wood, raw concrete, copper, dried botanicals, and sun-bleached plaster. The mood is devol_country: slow, hand-crafted, and honest. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "mixed",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.135Z"
+}

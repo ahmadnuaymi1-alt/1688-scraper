@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-b60b74595be73d8a",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-b60b74595be73d8a.jpg",
+  "source_url": "https://vakkerlight.com/products/playline-orb-table-lamp",
+  "description": "A child's bedroom photographed at standing eye-level with a normal lens, framing a three-quarter corner view of the bed area and nightstand. The walls are a saturated coral-salmon pink, lively and warm. A gallery wall arrangement of colorful prints hangs above and to the left of the headboard: a green tropical leaf poster, a travel photograph, a daisy illustration, a motivational card reading \"see good in all things,\" and a pastel yellow postcard. The bed's upholstered headboard is rounded in soft ivory with green piping, and the bedding is a riot of saturated pattern — a pink gingham duvet, a blue ruffled pillow, a yellow pillow, and a multicolor confetti-dot blanket. The white painted nightstand with a round drawer pull sits at the left. Atop its surface, a playful sculptural object in cobalt blue with two glowing warm globes at different heights sits in the center; the glowing orbs emit a soft warm incandescent light that spreads at surface level around the nightstand. Adjacent objects include a miniature pink cloud decoration, a retro ice cream cone ornament, and a small yellow disc-shaped container. The mood is playful, saturated, and joyful. Color palette is saturated color — pink dominant — with cobalt and mustard. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "saturated_color",
+    "color_accent": [
+      "cobalt",
+      "mustard"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

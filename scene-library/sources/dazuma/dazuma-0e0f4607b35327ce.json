@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-0e0f4607b35327ce",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-gold-table-lamp-christmas-snowfall-car-ornament-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/holiday-truck-trio-light-09.jpg?v=1763810264",
+  "scraped_date": "2026-05-21T15:52:05.956Z",
+  "source_title": "Modern Gold Table Lamp Christmas Snowfall Car Ornament Lamp",
+  "source_product_type": "Lighting > Holiday Lighting > Christmas Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0e0f4607b35327ce6c4da3cb2fae2217a1c9644f",
+  "description": "A festive holiday living room scene photographed at seated eye level with a normal lens, framing a wide vignette of a large live-edge walnut or acacia dining or coffee table. Three dark bronze-patina vintage-style miniature truck figurines are arranged across the table surface, each with a glowing warm amber interior visible through its cab window, carrying miniature Christmas trees and red-berry foliage in the truck bed. A woven rattan tray sits beneath the center truck as a riser. A loosely draped cream gauze or cheesecloth runner trails across the front-left table surface, alongside a small pinecone. The background shows a softly out-of-focus living room interior: warm white architectural fireplace surround, a lush full Christmas tree with multi-colored ornaments and warm fairy lights, and additional small Christmas foliage at the left. The entire background glows warmly from the tree lights, washing the room in amber and golden light. The table surface itself glows from the three illuminated figurines sitting on it. The palette is walnut brown, cream, deep forest green, and warm amber with red-berry accents. The mood is playful and festive. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "fireplace"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.997Z"
+}

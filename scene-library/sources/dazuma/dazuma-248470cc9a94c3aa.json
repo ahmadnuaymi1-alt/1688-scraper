@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-248470cc9a94c3aa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-wall-light-round-modern-waterproof-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-round-black-stucco-wall-halo-light.jpg?v=1775700417",
+  "scraped_date": "2026-05-21T12:03:57.670Z",
+  "source_title": "Outdoor Wall Light Round Modern Waterproof Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "248470cc9a94c3aa7e6b49d4b38d75dad20772f1",
+  "description": "A close-up exterior wall vignette photographed at dusk, tightly composed on a smooth light grey stucco plaster exterior wall at the corner of a building. The wall surface has a fine hand-trowel texture with subtle variation. In the lower left foreground, a large lush fern frond with dense pinnate leaflets extends into frame, adding organic life against the cool plaster. The right side of the frame reveals the building corner transitioning to a recessed area where an interior space is visible — warm amber light from within illuminates billowing linen or sheer curtains through what appears to be a full-height window, the warm glow spilling into the dusk scene. A soft warm amber halo radiates outward from the wall mount position in both upward and downward arcs, washing gently over the plaster texture and creating a subtle shadow bloom on the wall surface. Camera is at standing eye-level, normal to telephoto lens with a tight vignette composition centred on the wall surface and mount position, with the fern frond and background window as contextual supporting elements in the foreground and far right. The mood is serene and quietly modern, a refined residential exterior moment. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.088Z"
+}

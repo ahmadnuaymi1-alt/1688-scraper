@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-480d4035af386649",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-inground-well-light-anti-glare-recessed-step-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/inground-well-light-warm-glow-driveway-dusk.jpg?v=1774595211",
+  "scraped_date": "2026-05-21T12:04:31.853Z",
+  "source_title": "6 PCS Inground Well Light Anti-Glare Recessed Step Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Step & Deck Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "480d4035af386649ea32383f56085eeefc005e57",
+  "description": "A wide establishing exterior shot of a single-storey American ranch-style home photographed at sunset-to-dusk, viewed from the front lawn looking toward the house. The house is a low-profile ranch in cream or light beige stucco with a dark charcoal asphalt shingle roof, black-framed multi-pane windows with black painted wooden shutters, and a warmly lit front entrance visible in the right background with a dark wood door. Foundation plantings and a gravel mulch bed border the house front. A sweeping curved concrete driveway arcs from the foreground to the right side of the house, forming a graceful S-curve approach. The front lawn is wide and flat, composed of short well-maintained green grass. A series of ground-mounted circular in-ground or low-profile disc lights are embedded in the turf lawn along the left edge of the driveway, evenly spaced in a line that follows the curve of the path, each one glowing with a warm amber pool from below at ground level, illuminating small halos of grass around them. The sky is a dramatic twilight of deep plum-purple, dusty rose, and soft amber at the horizon, with a layered cloud formation. The house windows glow warmly from within, adding depth and life to the background. The perspective is from low angle leaning toward ground level, looking along the driveway approach, lending a photographic quality of receding perspective. Camera is at low angle, close to ground level, using a normal lens in a wide establishing composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.241Z"
+}

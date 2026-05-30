@@ -1,0 +1,36 @@
+{
+  "scene_id": "dazuma-01fe7b95e864b31e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-01fe7b95e864b31e.jpg",
+  "source_url": "https://dazuma.us/products/bollard-garden-lights-outdoor-waterproof-garden-landscape-light",
+  "description": "An exterior approach shot of a stately two-story French country residence photographed at dusk, with the sky transitioning through soft blue-grey tones and the last remnants of daylight fading at the horizon. The house facade is finished in smooth warm limestone stucco with pale cream stone quoining and trim, giving the architecture a refined European character. The steeply pitched slate-grey roof is punctuated by symmetrical dormers with multi-pane casement windows, and two chimneys anchor each end of the roofline. On the second floor, a pair of French doors open onto Juliet balconies enclosed by ornate wrought-iron railings with scrollwork detailing. The ground floor features tall multi-pane French doors with slim black steel frames and column surrounds in carved limestone, flanking a central recessed entry portico with stone steps. Potted clipped boxwood topiaries and a tall conical evergreen shrub frame the entrance symmetrically, while neatly manicured low hedgerows and rounded boxwood mounds line the pathway on both sides. A gently curving concrete flagstone pathway sweeps from the foreground toward the front entrance, its pale stone surface warmed by pools of amber light emanating from low sources on either side of the path at regular intervals. The grass lawn on both sides of the path is a deep, saturated green, lending lushness to the scene. The overall atmosphere is formal, romantic, and quietly dramatic — a twilight arrival moment. Warm golden light washes softly across the pathway surface and spills into the surrounding plantings from ground-level sources, creating intimate amber pools that contrast with the cool blue dusk overhead. A brick staircase is partially visible on the far left edge. The camera is positioned at a low standing or slightly below-standing height, approximately 4–5 feet, aimed level with a slight upward pitch of roughly 5–10 degrees toward the house. The lens reads as a moderate wide-angle, approximately 24–28mm, capturing the full width of the pathway, flanking garden beds, and the complete house facade in a one-point perspective composition with the curved path drawing the eye from the lower foreground center toward the lit entry. The full facade and garden approach are visible in frame.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "plaster",
+      "stone_wall",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

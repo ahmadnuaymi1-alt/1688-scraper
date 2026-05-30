@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-7bef65f6e2f9a071",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-street-light-landscape-high-post-waterproof-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-street-light-classic-modern-house-entrance-garden.jpg?v=1774078559",
+  "scraped_date": "2026-05-21T12:04:50.322Z",
+  "source_title": "Outdoor Street Light Landscape High-Post Waterproof Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Street Lighting",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7bef65f6e2f9a071159f516d87d8eff189d2a847",
+  "description": "A traditional suburban residential front yard photographed in daylight at standing eye-level with a normal lens, capturing a centered view of a modest American ranch-style home facade. The house is clad in warm red brick with white vinyl siding accents and a dark asphalt shingle roof. A white painted front door with a small covered portico supported by classical white columns is set at left-center, with house number 43 visible. A large multi-pane picture window with white frames sits to the right of the door. A round island planting bed in the center of the green lawn holds a colorful seasonal garden — yellow marigolds, pink roses, purple salvia spires, and ornamental grass — creating a lush, densely planted focal point. At the center of this planting bed stands a tall dark iron post-mounted glowing fixture with two lantern heads on decorative side arms, its warm amber glow visible against the daylit scene. Beyond the planting bed, the green lawn extends to the house foundation. The sky above is overcast-bright with diffuse white light. The mood is cheerful, suburban, and conventionally residential. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "mustard"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.429Z"
+}

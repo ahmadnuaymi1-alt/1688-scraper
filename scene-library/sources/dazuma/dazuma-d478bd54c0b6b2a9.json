@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-d478bd54c0b6b2a9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mount-solar-lights-outdoor-motion-sensor-led-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wall-mount-solar-lights-outdoor-modern-rectangular-house-entrance.jpg?v=1774836413",
+  "scraped_date": "2026-05-21T12:04:06.143Z",
+  "source_title": "Wall Mount Solar Lights Outdoor Motion Sensor LED Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d478bd54c0b6b2a900d90ee6f62f498743fbfec9",
+  "description": "A clean modern farmhouse exterior entry porch photographed at standing eye-level with a normal lens, using an off-center thirds composition that places the front door on the left and a large potted tree on the right. The house facade is classic white board-and-batten siding — wide vertical boards with narrow cover battens creating a crisp textured vertical rhythm across the clean white painted surface. The wide porch overhang soffit above is white painted tongue-and-groove horizontal boarding, casting a clean shadow line across the entry zone. The front door is a single flat-panel door in matte charcoal grey-black with a slim vertical sidelite glass panel and modern hardware. The door glass reflects the warm amber-peach color of a dusk or sunset sky outside the frame. On the white board-and-batten wall to the right of the door, a sculptural dark bronze or dark bronze-grey flush angled wall form emits a warm amber downward wash and an upward wash onto the white siding, creating a soft warm glow halo on the painted surface. In the foreground right, a substantial round concrete or grey stone planter pot in a pale warm grey holds a beautifully trained small multi-trunk olive tree with silvery-green foliage. Beyond the porch to the right, matte black outdoor wire dining chairs are partially visible on an open patio. The overall palette is crisp white, charcoal, warm bronze, and silvery sage green. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.862Z"
+}

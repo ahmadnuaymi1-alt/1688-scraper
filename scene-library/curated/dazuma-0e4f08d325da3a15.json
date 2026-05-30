@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-0e4f08d325da3a15",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-0e4f08d325da3a15.jpg",
+  "source_url": "https://dazuma.us/products/wall-mounted-outdoor-light-minimalist-brass-garden-light",
+  "description": "A close vignette of an exterior wall surface at dusk, focused tightly on the texture of a light grey textured stucco or rough-rendered wall in the right two-thirds of the frame. The stucco has a fine aggregate texture with irregular surface relief, and its cool grey tone takes on a warm amber tint where illuminated. To the left of frame in the background, a white-painted classical residential building is softly out of focus — multi-story with black wrought iron balcony railings, large multi-pane windows in black frames, a neatly trimmed boxwood or privet hedge at street level, and a white stone post cap at the lower left corner. Green deciduous trees fill the gap between the foreground wall and the background building, their leaves rendered in a soft, slightly de-focused green. The sky is a pale grey-blue of late afternoon or early dusk. A warm amber glow emanates from a rectangular wall-mounted source installed flush against the grey stucco, its frosted glass core glowing warmly against the cool exterior wall surface, casting a soft warm pool above and below on the wall. Camera is at standing eye-level, approximately 5–6 feet, shooting a close off-center vignette composition that fills the right portion of the frame with the textured wall. The lens is a moderate normal to telephoto focal length, producing shallow depth of field that keeps the wall surface sharp and gently blurs the background building. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

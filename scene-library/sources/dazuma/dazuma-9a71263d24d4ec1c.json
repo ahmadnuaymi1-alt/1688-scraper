@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-9a71263d24d4ec1c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/french-creative-diy-bubble-table-lamps-with-flexible-stems-adjustable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_f628e27a-9dfc-41ce-9364-3e418fbc86e1.jpg?v=1758871113",
+  "scraped_date": "2026-05-21T15:52:49.611Z",
+  "source_title": "Bubble Table Lamps Creative DIY with Flexible Stems Adjustable Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9a71263d24d4ec1ce402f73af4f2445df0295117",
+  "description": "A clean, minimal vignette centered on a white surface covered with a thick, fluffy white faux-fur throw. The surface — likely a low coffee table or ottoman — hosts a scattered pair of open magazines with colorful editorial imagery at the far left edge. To the far right, a matte black accent stool is partially visible. The background wall is bright white smooth plaster with a tall fluted or ribbed column detail running vertically along the left third, casting strong diagonal shadow lines from natural side light entering from the upper left. The overall scene is extremely bright and airy, flooded with cool morning daylight that creates crisp parallel shadow bands across the white wall. The floor appears black and white striped. The mood is playful and fresh, with a sculptural, gallery-like quality enhanced by the textural contrast of fluffy fur against the architectural ribbed wall detail. A warm accent glow radiates around the fixture at table level, warming the fur throw surface beneath it. Camera is at a standing eye-level, roughly 5–6 feet high, with a normal-to-wide lens, looking slightly downward in a centered composition that fills the frame with the tabletop surface and the wall behind it. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.542Z"
+}

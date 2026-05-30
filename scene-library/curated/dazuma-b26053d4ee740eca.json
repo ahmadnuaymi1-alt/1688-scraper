@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-b26053d4ee740eca",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b26053d4ee740eca.jpg",
+  "source_url": "https://dazuma.us/products/modern-gold-table-lamp-christmas-snowfall-car-ornament-lamp",
+  "description": "A festive living room tableau photographed at a low-to-seated eye-level with a normal lens, with the composition focused on a medium wood dining or console table in the foreground. Three decorative miniature vintage-truck figurines in dark bronze-brown with red berry and small tree accents are arranged in a row on the tabletop. Each figurine contains an illuminated interior snow-globe scene glowing with warm amber light. A white gauzy runner or fabric drapes casually across the near edge of the table, and two small pine cones are scattered nearby. In the softly blurred background, string lights create warm golden bokeh circles against an out-of-focus interior space. Partial Christmas tree branches in green with red and gold ornaments are visible at the right edge. A warm-toned living room with what appears to be a fireplace mantel and garland at the far left, all rendered soft and atmospheric in the shallow depth of field. The overall mood is playful, festive, and warmly domestic — a holiday-decorated home interior. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

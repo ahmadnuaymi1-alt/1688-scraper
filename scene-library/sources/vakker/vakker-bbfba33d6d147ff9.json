@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-bbfba33d6d147ff9",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/sliced-travertine-globe-pendant-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Sliced_Travertine_Globe_Pendant_Lamp41.png?v=1779331794",
+  "scraped_date": "2026-05-21T12:08:24.542Z",
+  "source_title": "Sliced Travertine Globe Pendant Lamp",
+  "source_product_type": "pendant Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "bbfba33d6d147ff939101b96495a634744fc86bd",
+  "description": "A warm, minimalist California-style kitchen photographed at standing eye-level with a normal lens in a three-quarter corner composition centered on a live-edge timber kitchen island. The island is a thick slab of naturally edged warm honey-toned wood with visible grain and character. On the surface sits an open hardback book, a terracotta bowl, a loose white linen cloth, a small cluster of ripe oranges, and a short ceramic vase holding a branching olive or bay sprig. Round wooden bar stools with warm natural finish line the near edge of the island. Behind the island, tall flat-front cabinetry in warm blonde oak with simple brass hardware rises to the ceiling. Open wooden shelving to the left holds ceramic vessels, a wooden cutting board, a mortar and pestle, and everyday stoneware. A large picture window at right admits bright, warm natural light from a softly overcast garden, illuminating the plaster wall in diffuse creamy white. Two warm glowing orbs of amber light hang above the island from thin dark cords, casting gentle pools of warmth across the wood surface and the objects below. The palette is all warm natural oak, oatmeal plaster, and terracotta with forest green botanical accents. The mood is serene and casual. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.203Z"
+}

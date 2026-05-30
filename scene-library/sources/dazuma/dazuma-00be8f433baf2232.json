@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-00be8f433baf2232",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gold-bedside-table-lamp-european-crystal-luxury-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/luxury-gold-bedside-table-lamp-cascading-crystal-tassels-wood-nightstand.jpg?v=1777101968",
+  "scraped_date": "2026-05-21T15:52:22.437Z",
+  "source_title": "Gold Bedside Table Lamp European Crystal Luxury Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "00be8f433baf223227a5f7e53b41b74f54b84654",
+  "description": "A bedroom nightstand vignette photographed at seated eye level with a normal lens, framing a three-quarter corner view that reveals the right side of a tall upholstered linen headboard in warm beige and the surface of a rounded light-oak bedside table. The wall behind is clad in applied wainscoting panels painted in a soft warm cream, giving a refined but understated architectural quality. On the nightstand surface sit three styled accessories: a glass cylinder vase holding a loose spray of eucalyptus stems, a small white ceramic lidded jar with embossed surface texture, and a stack of two books in pale neutral tones. A warm, diffused glow emanates from the surface level of the table, illuminating the accessories and casting a soft pool across the tabletop and the surrounding floor. The light has a golden, intimate quality consistent with late evening. The upholstered headboard panel at the right edge shows fine woven texture in warm greige. The overall palette is tightly warm neutral — creams, blond wood, soft beige — with the eucalyptus providing a quiet sage-green accent. The scene is low-density, calm, and quietly elegant, with a transitional-contemporary aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.956Z"
+}

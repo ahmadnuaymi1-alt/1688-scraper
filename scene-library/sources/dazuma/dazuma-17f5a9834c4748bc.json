@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-17f5a9834c4748bc",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-wall-sconce-american-triangular-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-led-wall-sconce-modern-triangular-warm-entrance.jpg?v=1774836648",
+  "scraped_date": "2026-05-21T12:04:01.681Z",
+  "source_title": "Outdoor LED Wall Sconce American Triangular Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "17f5a9834c4748bc70526e25e3647c08b3bfaee9",
+  "description": "A contemporary residential front entry photographed at dusk in a wide three-quarter view from the left side at standing eye-level, using a normal lens. The composition captures both flanking walls of the entry and the full height of the two-story facade. The left half of the home is clad in rugged stacked dark grey slate or natural fieldstone — a deeply textural, irregular-coursed surface that reads almost black-charcoal in the low light. The right half transitions to smooth large-format light sand-beige stucco panels with crisp shadow-line reveals, creating a bold material contrast typical of contemporary architecture. A set of double entry doors in warm dark walnut wood with long vertical metal pull bars is centered between the two wall materials, marking the architectural seam. On each flanking wall, a triangular matte black wall-mounted fixture directs a tight fan of warm golden light downward onto the respective wall surfaces — a bright wash pools down the textured stone on the left, and an equally warm pool fans out onto the smooth stucco panel on the right. The resulting light patterns are distinctly different in character due to the contrasting surface textures. A large multi-pane window above the entry on the second floor emits a warm amber interior glow, suggesting a lit room above. The entry landing is pale large-format travertine or marble-look tile pavers extending into the garden path. Foundation plantings of clipped dark green hedges and ornamental shrubs line the base of the facade. Dense hillside vegetation fades into deep night blue in the background. The mood is dramatic and architecturally deliberate. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.041Z"
+}

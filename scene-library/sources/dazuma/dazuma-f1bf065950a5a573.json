@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-f1bf065950a5a573",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorator-floor-lamps-wedding-prop-iron-olive-fruit-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/gold-decorator-floor-lamps-balcony-deck-night-calm-lake.jpg?v=1777088440",
+  "scraped_date": "2026-05-21T12:04:26.572Z",
+  "source_title": "6 PCS Decorator Floor Lamps Wedding Prop Iron Olive Fruit Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f1bf065950a5a573042519df49add932d106ae36",
+  "description": "An outdoor covered lounge area at night, photographed at seated eye-level in a three-quarter off-center composition. The space opens directly to a calm waterfront — a dark lake or ocean bay at night reflects city or shoreline lights on the far shore, and deep blue mountains silhouette on the horizon under a dark navy sky. The setting is a residential or resort terrace. A large low-profile sofa in warm cream or sand beige upholstery with clean tight lines sits as the main seating piece, dressed with two throw pillows — one in a plaid grid pattern in sandy and grey tones, one plain. In the lower left foreground, a large round pouf ottoman in natural woven rattan or seagrass sits on a low-pile flat-weave rug in warm sand tone. The floor appears to be large-format stone or tile in dark grey. The overall palette is warm sand, cream, natural rattan, deep blue-black water, and warm gold. Warm glowing amber light radiates from multiple branching upward-facing petal or leaf-shaped sources in the foreground at floor level, casting a gentle upward wash of gold across the sofa back cushions and into the air, with a matching glow visible farther back in the middle ground near the sofa end. The atmosphere is romantic and quietly dramatic at night on the water. Camera is at seated height, three-quarter view favoring the left foreground, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.969Z"
+}

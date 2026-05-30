@@ -1,8 +1,14 @@
 /**
  * Hero Image Creator — Mode A (local DB) + Mode B (live Shopify).
  *
+ * Pipeline: drives the official Higgsfield CLI (`higgsfield generate create
+ * nano_banana_2 …`) with the variant's source image + a positioning template
+ * as two `media_input` references. Output is saved to Supabase and attached
+ * as `ProductImage` rows with `imageType="hero-flat"` (the convention shared
+ * with `_hf-cli-bulk-heroes.ts`).
+ *
  * Usage:
- *   npx tsx scripts/_hero-image-creator.ts <productIdOrUrl> [--connection <id>]
+ *   npx tsx scripts/_hero-image-creator.ts <productIdOrUrl> [--connection <id>] [--concurrency N]
  *
  * Auto-loads .env.local at startup so no special flag is needed.
  *
@@ -11,9 +17,12 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { Buffer } from "node:buffer";
 import { PrismaClient } from "@prisma/client";
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { createClient } from "@supabase/supabase-js";
+import { HERO_PROMPT } from "../src/lib/hero/prompt";
+import { higgsfieldUpload, higgsfieldGenerate, makeLimit } from "./_higgsfield-cli";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 0) Lightweight .env.local loader — runs at module load.
@@ -50,45 +59,16 @@ function getPrisma(): PrismaClient {
 // ─────────────────────────────────────────────────────────────────────────────
 // Constants
 // ─────────────────────────────────────────────────────────────────────────────
-const KIE_ENDPOINT = "https://api.kie.ai/api/v1/jobs/createTask";
-const KIE_POLL_ENDPOINT = "https://api.kie.ai/api/v1/jobs/recordInfo";
-const KIE_MODEL = "seedream/5-lite-image-to-image";
-const KIE_POLL_INTERVAL_MS = 5_000;
-const KIE_TIMEOUT_MS = 5 * 60 * 1000;
-const COST_PER_HERO_USD = 0.02;
+const COST_PER_HERO_USD = 0.02; // Higgsfield Ultra-plan amortized estimate
 const BUCKET = process.env.SUPABASE_STORAGE_BUCKET || "product-images";
-
-const HERO_PROMPT = `Generate a luxury studio product hero shot of the product from the reference image.
-
-BACKGROUND:
-- Neutral light backdrop (model output will be replaced in post — focus on producing a clean fixture cutout). Do not render a ceiling plane, wall, floor, paper-curve seamless, or any environmental surface other than a clean neutral backdrop.
-
-CAMERA / ANGLE — SIMPLE FRONT VIEW (Pottery Barn catalog style, identical across every variant):
-- Camera position: straight-on front view. Eye-level. Camera lens perpendicular to the product's main face.
-- ZERO tilt. ZERO 3/4 angle. ZERO perspective foreshortening. ZERO looking-up or looking-down.
-- The product reads as a flat, head-on portrait: no top surface visible (for freestanding products), no underside visible (for ceiling fixtures). Just the main face square-on to the camera.
-- This is the same angle for every variant in a product AND every variant across products — total consistency.
-- Square 1:1 frame.
-
-FRAMING:
-- Fixture's geometric center placed at the exact horizontal AND vertical center of the frame.
-- Fixture's silhouette occupies ~60-70% of the frame's shorter dimension.
-
-LIGHT STATE (if the product is a light fixture):
-- Fixture shown lit with a subtle warm internal glow only.
-- Light must be contained within the shade, diffuser, or LED ring — no spill, halo, or warm color cast onto the surrounding background.
-- The backdrop must remain neutral; warmth lives inside the fixture, not on the wall behind it.
-
-SHADOW:
-- For freestanding products: soft subtle contact shadow directly beneath the base only, no longer than ~10% of frame height, soft-edged.
-- For ceiling fixtures: no shadow needed.
-
-PRODUCT FIDELITY:
-- Preserve the EXACT product design, finish, color, proportions, and construction from the reference image. Every visible component in the reference must appear in the output.
-- For table lamps, floor lamps, bedside lamps, or any other free-standing lamp: do NOT show a power cable, charging cable, or USB cord anywhere in the frame. If the reference shows a cable, render the lamp as if it is cordless or the cable is fully tucked away.
-
-OUTPUT:
-- One single photograph, edge-to-edge, no text, no watermarks, no UI overlays.`;
+const POSITIONING_TEMPLATE = path.join(
+  os.tmpdir(),
+  "scene",
+  "v25-refs",
+  "positioning-template.png",
+);
+const REF_CACHE_DIR = path.join(os.tmpdir(), "hero-cli", "refs");
+const DEFAULT_CONCURRENCY = 6;
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Argument parsing + mode detection
@@ -96,21 +76,27 @@ OUTPUT:
 interface Args {
   input: string;
   connectionId: string | null;
+  concurrency: number;
 }
 
 function parseArgs(): Args {
   const args = process.argv.slice(2);
   if (args.length === 0) {
     console.error(
-      "Usage: npx tsx scripts/_hero-image-creator.ts <productIdOrUrl> [--connection <id>]",
+      "Usage: npx tsx scripts/_hero-image-creator.ts <productIdOrUrl> [--connection <id>] [--concurrency N]",
     );
     process.exit(1);
   }
   let input = "";
   let connectionId: string | null = null;
+  let concurrency = DEFAULT_CONCURRENCY;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--connection" && i + 1 < args.length) {
       connectionId = args[i + 1];
+      i++;
+    } else if (args[i] === "--concurrency" && i + 1 < args.length) {
+      const n = parseInt(args[i + 1], 10);
+      if (Number.isFinite(n) && n > 0) concurrency = n;
       i++;
     } else if (!input) {
       input = args[i];
@@ -120,7 +106,7 @@ function parseArgs(): Args {
     console.error("Missing <input> argument.");
     process.exit(1);
   }
-  return { input, connectionId };
+  return { input, connectionId, concurrency };
 }
 
 type Mode =
@@ -173,108 +159,40 @@ function detectMode(input: string): Mode {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// kie.ai client
+// Higgsfield CLI hero runner
 // ─────────────────────────────────────────────────────────────────────────────
-interface KieCreateResp {
-  code?: number;
-  msg?: string;
-  data?: { taskId?: string };
+async function downloadTo(url: string, dest: string): Promise<void> {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`download ${r.status} ${url}`);
+  const buf = Buffer.from(await r.arrayBuffer());
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, buf);
 }
 
-interface KiePollResp {
-  code?: number;
-  msg?: string;
-  data?: {
-    taskId?: string;
-    state?: string; // "waiting" | "queuing" | "generating" | "success" | "fail"
-    failCode?: string;
-    failMsg?: string;
-    resultJson?: string; // JSON-stringified { resultUrls: string[] }
-  };
-}
+const HERO_PROMPT_ONE_LINE = HERO_PROMPT.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
 
-async function kieCreateTask(sourceUrl: string): Promise<string> {
-  const token = process.env.KIE_API_KEY;
-  if (!token) throw new Error("KIE_API_KEY not set in env");
-  const res = await fetch(KIE_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`,
-    },
-    body: JSON.stringify({
-      model: KIE_MODEL,
-      input: {
-        prompt: HERO_PROMPT,
-        image_urls: [sourceUrl],
-        aspect_ratio: "1:1",
-        quality: "basic",
-        nsfw_checker: false,
-      },
-    }),
+/**
+ * Download the source ref → upload it + positioning template to Higgsfield →
+ * fire `generate create nano_banana_2 --wait` → download the result PNG.
+ * Returns the raw image bytes (caller handles Supabase upload + DB attach).
+ */
+async function higgsfieldRunHero(
+  sourceUrl: string,
+  refKey: string,
+  templateUploadId: string,
+): Promise<Buffer> {
+  // 1. Cache the reference image on disk (CLI uploads from local file).
+  const refLocal = path.join(REF_CACHE_DIR, `${refKey}.png`);
+  if (!fs.existsSync(refLocal)) await downloadTo(sourceUrl, refLocal);
+  // 2. Upload the ref. Positioning template upload is shared across the whole
+  //    run — passed in by the caller.
+  const refUploadId = await higgsfieldUpload(refLocal);
+  // 3. Fire generation.
+  const { imageBuffer } = await higgsfieldGenerate({
+    prompt: HERO_PROMPT_ONE_LINE,
+    inputUploadIds: [refUploadId, templateUploadId],
   });
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`kie createTask HTTP ${res.status}: ${body.slice(0, 300)}`);
-  }
-  const json = (await res.json()) as KieCreateResp;
-  if (!json.data?.taskId) {
-    throw new Error(`kie createTask returned no taskId: ${JSON.stringify(json).slice(0, 300)}`);
-  }
-  return json.data.taskId;
-}
-
-async function kiePoll(taskId: string): Promise<Buffer> {
-  const token = process.env.KIE_API_KEY!;
-  const start = Date.now();
-  while (Date.now() - start < KIE_TIMEOUT_MS) {
-    const res = await fetch(`${KIE_POLL_ENDPOINT}?taskId=${encodeURIComponent(taskId)}`, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-    if (!res.ok) {
-      await new Promise((r) => setTimeout(r, KIE_POLL_INTERVAL_MS));
-      continue;
-    }
-    const json = (await res.json()) as KiePollResp;
-    const state = json.data?.state;
-    if (state === "success") {
-      const resultJsonRaw = json.data?.resultJson;
-      if (!resultJsonRaw) throw new Error("kie poll: success but no resultJson");
-      let urls: string[];
-      try {
-        const parsed = JSON.parse(resultJsonRaw) as { resultUrls?: string[] };
-        urls = parsed.resultUrls ?? [];
-      } catch {
-        throw new Error(`kie poll: cannot parse resultJson "${String(resultJsonRaw).slice(0, 200)}"`);
-      }
-      if (urls.length === 0) throw new Error("kie poll: resultUrls empty");
-      const imgRes = await fetch(urls[0]);
-      if (!imgRes.ok) throw new Error(`kie poll: download HTTP ${imgRes.status}`);
-      return Buffer.from(await imgRes.arrayBuffer());
-    }
-    if (state === "fail") {
-      const reason = json.data?.failMsg || json.data?.failCode || "unknown";
-      throw new Error(`kie task failed: ${reason}`);
-    }
-    await new Promise((r) => setTimeout(r, KIE_POLL_INTERVAL_MS));
-  }
-  throw new Error(`kie poll: timeout after ${KIE_TIMEOUT_MS / 1000}s`);
-}
-
-async function kieRunHero(sourceUrl: string): Promise<Buffer> {
-  // One automatic retry on 5xx, otherwise surface.
-  try {
-    const taskId = await kieCreateTask(sourceUrl);
-    return await kiePoll(taskId);
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    if (/HTTP 5\d\d/.test(msg)) {
-      await new Promise((r) => setTimeout(r, 30_000));
-      const taskId = await kieCreateTask(sourceUrl);
-      return await kiePoll(taskId);
-    }
-    throw err;
-  }
+  return imageBuffer;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -307,7 +225,13 @@ function publicSupabaseUrlFromPath(storagePath: string): string {
 // ─────────────────────────────────────────────────────────────────────────────
 // Mode A — Local-DB product
 // ─────────────────────────────────────────────────────────────────────────────
-async function runModeA(productId: string): Promise<void> {
+async function runModeA(productId: string, concurrency: number): Promise<void> {
+  if (!fs.existsSync(POSITIONING_TEMPLATE)) {
+    console.error(`Positioning template missing at ${POSITIONING_TEMPLATE}. Aborting.`);
+    process.exit(1);
+  }
+  fs.mkdirSync(REF_CACHE_DIR, { recursive: true });
+
   const product = await getPrisma().product.findUnique({
     where: { id: productId },
     include: {
@@ -324,9 +248,74 @@ async function runModeA(productId: string): Promise<void> {
   console.log(`Product: ${product.title.slice(0, 80)}`);
   console.log(`Variants (visible): ${product.variants.length}`);
 
+  // ── Variantless branch ───────────────────────────────────────────────
+  // If the user has explicitly removed all variants (or scrape returned 0),
+  // there's no variant→image grouping to do. Generate ONE hero from the
+  // lowest-position non-hero image in the gallery (the "primary"), attach as
+  // a product-level ProductImage (variantId: null).
+  if (product.variants.length === 0) {
+    const sourceImg = product.images
+      .filter((img) => img.imageType !== "hero" && img.imageType !== "hero-flat")
+      .sort((a, b) => a.position - b.position)[0];
+    if (!sourceImg) {
+      console.error(
+        `Variantless product has no gallery image to use as the hero source. Add an image first.`,
+      );
+      return;
+    }
+    const existingHero = product.images.find(
+      (img) =>
+        (img.imageType === "hero" || img.imageType === "hero-flat") && !img.variantId,
+    );
+    if (existingHero) {
+      console.log(`  Product-level hero already exists — skipping (idempotent).`);
+      return;
+    }
+    const sourceUrl = sourceImg.storagePath
+      ? publicSupabaseUrlFromPath(sourceImg.storagePath)
+      : sourceImg.sourceUrl;
+    const maxPosRow = await getPrisma().productImage.aggregate({
+      where: { productId },
+      _max: { position: true },
+    });
+    const nextPos = (maxPosRow._max.position ?? 0) + 1;
+    console.log(`  Uploading positioning template to Higgsfield...`);
+    const templateUploadId = await higgsfieldUpload(POSITIONING_TEMPLATE);
+    const t0 = Date.now();
+    try {
+      const refKey = `${productId}__variantless`;
+      const buf = await higgsfieldRunHero(sourceUrl, refKey, templateUploadId);
+      const storagePath = `heroes/${productId}/variantless.png`;
+      const publicUrl = await uploadToSupabase(buf, storagePath);
+      await getPrisma().productImage.create({
+        data: {
+          productId,
+          variantId: null,
+          sourceUrl: publicUrl,
+          storagePath,
+          fileName: `variantless.png`,
+          position: nextPos,
+          downloadStatus: "downloaded",
+          imageType: "hero-flat",
+        },
+      });
+      const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
+      console.log(`  variantless → OK (${elapsed}s)  Cost: ~$${COST_PER_HERO_USD.toFixed(2)}`);
+      console.log(`Review: /review/${productId}`);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error(`  variantless → FAIL — ${msg}`);
+    }
+    return;
+  }
+
   // Filter out hero images in JS — Prisma's `{ NOT: { imageType: 'hero' } }`
-  // is NULL-unsafe and would exclude rows where imageType IS NULL.
-  const sourceImages = product.images.filter((img) => img.imageType !== "hero");
+  // is NULL-unsafe and would exclude rows where imageType IS NULL. Exclude
+  // BOTH "hero" (legacy Kie pipeline output) AND "hero-flat" (CLI output of
+  // this script) so a second run doesn't pick a previous hero as the source.
+  const sourceImages = product.images.filter(
+    (img) => img.imageType !== "hero" && img.imageType !== "hero-flat",
+  );
   const imagesByVariant = new Map<string, (typeof sourceImages)[number]>();
   const imagesById = new Map<string, (typeof sourceImages)[number]>();
   for (const img of sourceImages) {
@@ -381,10 +370,14 @@ async function runModeA(productId: string): Promise<void> {
   console.log(`Unique source images: ${groups.size} (vs ${product.variants.length} visible variants)`);
 
   // Idempotency: skip groups where ANY sister variant already has a hero.
-  // Re-runs only target the still-missing groups.
+  // Re-runs only target the still-missing groups. Count BOTH "hero" (legacy)
+  // AND "hero-flat" (what this CLI script writes).
   const variantsWithHero = new Set(
     product.images
-      .filter((img) => img.imageType === "hero" && img.variantId)
+      .filter(
+        (img) =>
+          (img.imageType === "hero" || img.imageType === "hero-flat") && img.variantId,
+      )
       .map((img) => img.variantId as string),
   );
 
@@ -419,7 +412,19 @@ async function runModeA(productId: string): Promise<void> {
     nextPosition += group.variants.length;
   }
 
-  console.log(`Running ${toRun.length} group(s) in parallel...`);
+  if (toRun.length === 0) {
+    console.log(`Nothing to generate — all visible variants already have heroes.`);
+    return;
+  }
+
+  // Upload the positioning template ONCE per run — reused across every group.
+  console.log(`Uploading positioning template to Higgsfield...`);
+  const tplStart = Date.now();
+  const templateUploadId = await higgsfieldUpload(POSITIONING_TEMPLATE);
+  console.log(`  templateUploadId=${templateUploadId} (${Math.round((Date.now() - tplStart) / 1000)}s)`);
+
+  console.log(`Running ${toRun.length} group(s) with concurrency=${concurrency}...`);
+  const limit = makeLimit(concurrency);
 
   async function processGroup(item: (typeof toRun)[number]): Promise<{ ok: boolean; attached: number; label: string }> {
     const { group, idx, positionBase } = item;
@@ -427,8 +432,9 @@ async function runModeA(productId: string): Promise<void> {
     const colorLabel = repVariant.option1 || repVariant.title.slice(0, 40);
     const variantStart = Date.now();
     try {
-      const buf = await kieRunHero(group.sourceUrl);
       const groupKey = group.sourceKey.replace(/[^A-Za-z0-9_-]/g, "_").slice(0, 80);
+      const refKey = `${productId}__${groupKey}`;
+      const buf = await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId);
       const storagePath = `heroes/${productId}/${groupKey}.png`;
       const publicUrl = await uploadToSupabase(buf, storagePath);
 
@@ -443,7 +449,7 @@ async function runModeA(productId: string): Promise<void> {
             fileName: `${groupKey}.png`,
             position: positionBase + i,
             downloadStatus: "downloaded",
-            imageType: "hero",
+            imageType: "hero-flat",
           },
         });
         await getPrisma().variant.update({
@@ -462,7 +468,7 @@ async function runModeA(productId: string): Promise<void> {
     }
   }
 
-  const settled = await Promise.allSettled(toRun.map(processGroup));
+  const settled = await Promise.allSettled(toRun.map((item) => limit(() => processGroup(item))));
   for (const r of settled) {
     if (r.status === "fulfilled") {
       if (r.value.ok) {
@@ -536,7 +542,14 @@ async function runModeB(
   productGidOrHandle: string,
   storeDomainHint: string | undefined,
   connectionId: string | null,
+  concurrency: number,
 ): Promise<void> {
+  if (!fs.existsSync(POSITIONING_TEMPLATE)) {
+    console.error(`Positioning template missing at ${POSITIONING_TEMPLATE}. Aborting.`);
+    process.exit(1);
+  }
+  fs.mkdirSync(REF_CACHE_DIR, { recursive: true });
+
   const where = connectionId ? { id: connectionId } : { isDefault: true };
   const connection = await getPrisma().shopifyConnection.findFirst({ where });
   if (!connection) {
@@ -628,32 +641,48 @@ async function runModeB(
     console.log(`  [skip] ${v.title.slice(0, 60)} — SKIP (no image)`);
   }
 
-  let groupIdx = 0;
-  for (const group of groups.values()) {
-    groupIdx++;
-    const repVariant = group.variants[0];
-    const groupKey = (repVariant.image?.id || repVariant.id).split("/").pop() || `g${groupIdx}`;
-    const variantStart = Date.now();
-    process.stdout.write(
-      `  (${groupIdx}/${groups.size}) ${repVariant.title.slice(0, 50)} → ${group.variants.length} variant(s) ... `,
-    );
-    try {
-      const buf = await kieRunHero(group.sourceUrl);
-      const storagePath = `heroes/shopify/${shopifyProductId}/${groupKey}.png`;
-      const publicUrl = await uploadToSupabase(buf, storagePath);
-      const elapsed = ((Date.now() - variantStart) / 1000).toFixed(1);
-      console.log(`OK (${elapsed}s, ${group.variants.length} variant(s) share this hero)`);
-      for (const sister of group.variants) {
-        results.push({ variant: sister.title, url: publicUrl });
-        variantsAttachedCount++;
-      }
-      kieOkCount++;
-    } catch (err) {
-      const msg = err instanceof Error ? err.message : String(err);
-      console.log(`FAIL — ${msg.slice(0, 120)}`);
-      failCount++;
-    }
-  }
+  // One-time positioning-template upload reused across all groups.
+  console.log(`Uploading positioning template to Higgsfield...`);
+  const templateUploadId = await higgsfieldUpload(POSITIONING_TEMPLATE);
+
+  const groupEntries = Array.from(groups.values()).map((group, i) => ({
+    group,
+    idx: i + 1,
+    groupKey: (group.variants[0].image?.id || group.variants[0].id).split("/").pop() || `g${i + 1}`,
+  }));
+  console.log(`Running ${groupEntries.length} group(s) with concurrency=${concurrency}...`);
+  const limit = makeLimit(concurrency);
+
+  await Promise.all(
+    groupEntries.map((entry) =>
+      limit(async () => {
+        const { group, idx, groupKey } = entry;
+        const repVariant = group.variants[0];
+        const variantStart = Date.now();
+        try {
+          const refKey = `shopify__${shopifyProductId}__${groupKey}`;
+          const buf = await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId);
+          const storagePath = `heroes/shopify/${shopifyProductId}/${groupKey}.png`;
+          const publicUrl = await uploadToSupabase(buf, storagePath);
+          const elapsed = ((Date.now() - variantStart) / 1000).toFixed(1);
+          console.log(
+            `  (${idx}/${groupEntries.length}) ${repVariant.title.slice(0, 50)} → OK (${elapsed}s, ${group.variants.length} variant(s) share this hero)`,
+          );
+          for (const sister of group.variants) {
+            results.push({ variant: sister.title, url: publicUrl });
+            variantsAttachedCount++;
+          }
+          kieOkCount++;
+        } catch (err) {
+          const msg = err instanceof Error ? err.message : String(err);
+          console.log(
+            `  (${idx}/${groupEntries.length}) ${repVariant.title.slice(0, 50)} → FAIL — ${msg.slice(0, 120)}`,
+          );
+          failCount++;
+        }
+      }),
+    ),
+  );
 
   const totalElapsed = ((Date.now() - t0) / 1000).toFixed(1);
   const cost = (kieOkCount * COST_PER_HERO_USD).toFixed(2);
@@ -677,14 +706,14 @@ async function runModeB(
 // Entry point
 // ─────────────────────────────────────────────────────────────────────────────
 async function main() {
-  const { input, connectionId } = parseArgs();
+  const { input, connectionId, concurrency } = parseArgs();
   const mode = detectMode(input);
 
   try {
     if (mode.kind === "local") {
-      await runModeA(mode.productId);
+      await runModeA(mode.productId, concurrency);
     } else {
-      await runModeB(mode.productGid, mode.storeDomain, connectionId);
+      await runModeB(mode.productGid, mode.storeDomain, connectionId, concurrency);
     }
   } finally {
     await getPrisma().$disconnect();

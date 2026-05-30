@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-e63c515522439385",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-ceiling-spotlights-ultra-thin-adjustable-angle-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-hallway-ceiling-spotlights.jpg?v=1775905020",
+  "scraped_date": "2026-05-21T12:03:36.782Z",
+  "source_title": "2 PCS Ceiling Spotlights Ultra-Thin Adjustable Angle LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e63c5155224393859721f6c027dd76fa93a9cc82",
+  "description": "A refined contemporary foyer photographed at standing eye-level with a normal lens and a centered symmetrical composition, framing the entry console alcove as the focal point. The ceiling and all wall surfaces are clad in dark espresso-stained oak wood veneer panels, creating an enveloping warm-dark atmosphere. Thin vertical reveals in the paneling glow with warm amber linear light that traces the edges of recessed column-like joinery elements, casting a soft honeyed wash up and down the dark wood surfaces. A floating console of thick Calacatta marble — white with dramatic gold and grey veining — is cantilevered from the paneled back wall, its face bearing the same marble slab. A rounded sage-green ceramic vase holding a generous arrangement of white flowering branches (delicate blossom-style stems) sits centered on the console surface. Beneath the console, a small rectangular grey tweed upholstered bench or ottoman sits on a light cream-beige large-format stone tile floor. To the right, a full-height dark-stained oak door with a matte black lever handle leads deeper into the space. Floor-to-ceiling built-in cabinetry fills the right wall in matching dark oak, with a single dark pulls. To the far left, the edge of a tall white-painted wardrobe unit provides contrast. The palette is dark espresso oak, cream marble, sage green, and warm amber glow. The mood is quiet, sculptural, and luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.925Z"
+}

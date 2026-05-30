@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-f92a539906438acb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/copper-outdoor-wall-sconce-european-style-outdoor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stylish-copper-outdoor-wall-sconce-black-door-luxury-home-exterior-lighting.jpg?v=1773886272",
+  "scraped_date": "2026-05-21T12:19:34.676Z",
+  "source_title": "Copper Outdoor Wall Sconce European Style Outdoor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f92a539906438acb59098685ba932e6c0d2829a8",
+  "description": "A grand formal residential entry facade photographed at dusk from a standing eye-level position with a normal lens in a centered symmetrical composition. The home exterior is smooth white painted stucco or render with a deep arched entry portico featuring a prominent classically-detailed arch with keystone and pilaster columns on both sides. The dark charcoal roof with slate-style shingles and white-painted trim creates crisp contrast at the roofline. At the center of the arch hangs a traditional paneled double door painted matte black with a semi-circular fanlight window above featuring radiating black-framed panes, and two sidelights with narrow glass panels on each side. The door hardware is polished brass lever sets. A brick herringbone-patterned front walkway leads directly from the foreground to the entry steps, framed by symmetrically clipped low boxwood hedgerows in formal parterres along both sides of the path. Pairs of cast iron or dark painted metal urn planters flank the front steps, overflowing with vivid red geranium flowers. Two conical clipped evergreen topiary trees frame the door flanks. Red flowering annuals are also planted in the beds along each side of the path. A mature deciduous tree with green foliage is visible at the upper left. Warm amber light from two vertical lantern-style fixtures flanking the arch illuminates the white stucco surround with a golden wash. The sky above shows a cool dusk blue-grey gradient. The mood is formal, grand, and welcoming. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.003Z"
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-8f328f9e3211c41c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/open-box-elegant-rattan-shade-led-outdoor-floor-lamp-pendant-light-with-stake-and-open-top-design",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-rattan-shade-led-outdoor-floor-lamp-pendant-light-with-stake-and-open-top-design-344056.jpg?v=1750054364",
+  "scraped_date": "2026-05-21T15:52:11.824Z",
+  "source_title": "[Open-Box] Elegant Rattan Shade LED Outdoor Floor Lamp Pendant Light with Stake and Open-Top Design",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1020,
+  "height": 1020,
+  "content_sha1": "8f328f9e3211c41cae9b39db03069c123cd08ce4",
+  "description": "A contemporary luxury garden or outdoor landscape photographed at standing eye-level with a normal-to-wide lens, composed as a wide establishing shot looking across a landscaped garden at dusk. The sky is a dramatic gradient of burnt orange and deep cobalt blue at the horizon, with dark silhouetted tree canopies framing the upper portion. The mid-ground features a reflecting pool or shallow water feature filled with dark river stones, its still surface catching the warm sky color. A long horizontal limestone or pale travertine garden wall with clean rectangular coursing separates the ground plane from the water feature area, and to the right, matching pale stone steps rise beside a rendered stone wall face. A narrow strip of trimmed green lawn is visible in the foreground at the base of the composition. The setting has the refined quality of a high-end residential garden or boutique hotel grounds. The warm glow from the floor-level element on the right side washes down across the pale stone steps and the grass border. The overall palette is deep navy, warm amber, pale stone, and dark charcoal. The mood is dramatic and serene — a golden-hour landscape shot. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cobalt",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "ceiling",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.506Z"
+}

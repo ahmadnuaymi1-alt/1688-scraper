@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-773174858316d2bb",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-773174858316d2bb.jpg",
+  "source_url": "https://dazuma.us/products/pillar-light-design-outdoor-modern-villa-gate-post-light",
+  "description": "A twilight exterior of a contemporary two-story residence viewed head-on from the driveway. The house features a flat roofline with deep overhangs, a matte grey and charcoal stucco facade, and large black-framed floor-to-ceiling windows on both levels. A glass-railed upper balcony stretches across the second floor. Interior warm amber light glows from within, visible through the full-width glazed openings. A wide concrete driveway leads to a pair of matte black horizontal-slat double entry gates set between two white stucco columns with flat caps. Tall columnar cypress-style evergreen trees flank both sides of the gates. Low clipped boxwood hedges line the perimeter. A black mailbox and a security intercom panel are mounted to the gate pillars. The sky is a dramatic overcast blue-grey, creating a dusk mood. Warm directional light washes down each gate column from above, highlighting the textured stucco surface. The mood is sleek, modern, and architecturally assertive. Camera at standing eye-level, centered symmetrical wide establishing composition showing the full facade and gate frontage, wide to normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

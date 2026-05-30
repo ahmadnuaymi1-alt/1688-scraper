@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-d7c17b70ab91981d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/ceiling-linear-lights-modern-minimalist-metal-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_7_aad3ae46-5224-40e5-a089-0f49fcbfb610.jpg?v=1779070504",
+  "scraped_date": "2026-05-21T12:02:23.749Z",
+  "source_title": "Ceiling Linear Lights Modern Minimalist Metal LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d7c17b70ab91981da79532692fb73fe02bd725c4",
+  "description": "A modern office interior photographed from a standing eye-level vantage in a one-point perspective centered on the far end of a long oval racetrack conference table in pale light oak with a smooth rounded-cylinder pedestal base. The table accommodates eight to ten chairs in light warm gray fabric with matte black four-star bases on casters. At the table's near end, a tablet device in a stand faces the room. Along the left wall, a low sideboard cabinet in light oak stores AV equipment. A large flat-panel monitor on the left wall serves as a presentation screen. The right wall is an entirely glazed partition of floor-to-ceiling glass panels with thin aluminum mullions, separating the conference room from an adjacent interior garden planting wall dense with tropical green plants — dracaena, pothos, and bird-of-paradise — creating a living biophilic backdrop visible in the full right half of the frame. The back wall is an off-white plaster. The floor is a dense charcoal-gray commercial carpet. Cove light runs along the ceiling perimeter creating a warm ambient glow. The ceiling itself is a white drop-tile grid with recessed lighting providing overall even illumination. A single warm-toned linear strip of light runs centered above the table along the long axis. The palette is cool neutral — gray, white, glass — warmed by the light oak table and living green plant wall. Camera is at standing eye-level, strict one-point perspective looking toward the back wall with the table centered. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.874Z"
+}

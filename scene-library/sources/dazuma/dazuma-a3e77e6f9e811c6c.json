@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-a3e77e6f9e811c6c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-wall-lantern-european-style-vintage-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3_3250e8ba-9942-4a27-8028-aa9dad99c7f2.jpg?v=1774175030",
+  "scraped_date": "2026-05-21T12:04:46.817Z",
+  "source_title": "Outdoor Lighting Wall Lantern European-Style Vintage Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a3e77e6f9e811c6c54575b71d92dd70b4d7b5466",
+  "description": "An exterior residential entry facade photographed at standing eye-level with a centered symmetrical composition focused on a dramatic arched doorway. The building facade is whitewashed painted brick with a rough texture and visible mortar joints, the arch voussoirs rendered in exposed warm terracotta-red brick contrasting against the painted white field. The doorway itself is a tall half-round arched opening fitted with a solid black vertical-slat door of modern character. Flanking the arch on both sides of the facade, large steel-framed multi-pane casement windows in matte black metal finish add contemporary weight to the otherwise traditional building expression. Natural tree canopy shadows are cast softly across the upper brick wall, and dappled sunlight creates a gentle play of light and shade across the textured white brick surface. A warm amber glow pools from each wall-mounted position flanking the arched entry, illuminating the brick surface around each mount point and the decorative metalwork, suggesting active evening illumination. The color palette is chalky white, warm terracotta brick, matte black steel, and aged antique brass. The mood is formal, dignified, and traditional-meets-contemporary. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.613Z"
+}

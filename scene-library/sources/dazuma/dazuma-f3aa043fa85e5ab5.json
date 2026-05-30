@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-f3aa043fa85e5ab5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mountable-reading-light-multi-angle-adjustable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_22323974-0d68-4fa9-946f-b94d548aaac6.jpg?v=1778838388",
+  "scraped_date": "2026-05-21T12:02:32.223Z",
+  "source_title": "Wall Mountable Reading Light Multi-angle Adjustable Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f3aa043fa85e5ab5e2ef933c6e8bfcc770095503",
+  "description": "A refined contemporary hotel-style bedroom vignette photographed at standing eye-level, framing the right side of the bed and the bedside wall. The wall is a two-zone composition: the upper half is upholstered in a textured linen or woven fabric in warm putty-sand tone, divided into large rectangular upholstered panels with subtle grid seams. The lower portion of the wall is paneled in medium walnut wood planking running horizontally, creating a warm band of natural wood grain texture. A narrow horizontal slot at the transition between the fabric and wood panels glows with a continuous warm amber indirect light, tracing a clean luminous line across the full width of the wall. A floating wall-mounted nightstand in light oak with a single flush drawer hangs on the wood panel section, holding two stacked softcover books. Above the nightstand, a white square reading light is mounted flush to the wall, directing a focused spot of warm amber light downward onto the nightstand surface. Power outlets are mounted adjacent. To the right, the cream white leather or leatherette upholstered headboard with a square-tufted button pattern rises firmly. The bed is dressed in cream linen with a warm grey throw draped casually across the foot. Full-length linen curtains in warm sand tone hang on the far left, softly filtering light. The floor is wide-plank warm oak. The palette is cream, warm putty-sand, medium walnut, warm amber, soft grey. Camera is at standing height, off-center three-quarter view showing the bedside zone, normal lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.978Z"
+}

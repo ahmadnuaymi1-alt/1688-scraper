@@ -1,0 +1,40 @@
+{
+  "image_id": "vakker-0b67324a794cf8c8",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/cap-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Cap_Alabaster_Table_Lamp32.png?v=1778462886",
+  "scraped_date": "2026-05-21T15:53:05.479Z",
+  "source_title": "Cap Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "0b67324a794cf8c85efc805bfdd03b9591185583",
+  "description": "A minimalist living room end table vignette photographed in a square format with soft warm natural light. A small square side table in warm medium walnut finish stands at center on four straight legs, its surface hosting a stack of two books, a small decorative coin tray, and a tall slim sculptural form. The wall behind is a soft textured sage green in a matte plaster or concrete finish. A large linen or boucle lounge chair or sofa arm is barely visible at the right edge, suggesting an armchair nearby. On the left side, a large tropical fiddle-leaf fig or similar broad-leaf tropical plant in a large white ceramic planter rises tall, its dark green oval leaves extending upward to the upper quarter of the frame. A soft warm glow emanates from the surface of the side table, illuminating the book covers and casting a gentle amber halo on the surrounding floor area and lower wall. Dark wood flooring with a warm reddish-brown tone is visible at the edges. A small succulent or decorative pebble bowl sits on the table alongside the books. Camera at standing eye-level, normal lens, three-quarter corner composition showing both the table and the plant and partial chair, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.033Z"
+}

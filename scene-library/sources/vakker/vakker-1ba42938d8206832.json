@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-1ba42938d8206832",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/square-alabaster-staircase-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Square_Alabaster_Staircase_Chandelier__8.jpg?v=1779024726",
+  "scraped_date": "2026-05-21T12:08:46.649Z",
+  "source_title": "Square Alabaster Staircase Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 750,
+  "height": 1000,
+  "content_sha1": "1ba42938d8206832070f7821358a4b64fc9a9bdd",
+  "description": "A serene residential corner photographed at standing eye-level, framing the junction of two pale grey walls where they meet near a window. The camera is positioned at approximately five to six feet, shooting level with a slight upward pitch of roughly ten degrees, using a normal to slightly telephoto lens — roughly 50mm in character — with an off-center composition that places the corner slightly left of frame center. The visible architecture is clean and minimal: smooth plaster walls in a soft cool grey, a ceiling that recedes upward and out of frame, and the upper portion of a window at the left edge dressed in sheer white linen curtains that diffuse soft natural daylight into the space. The light entering from the window is gentle and diffused, suggesting overcast or filtered afternoon light that washes the left wall in a pale, even glow. A warm, luminous amber radiance emanates from a centrally suspended position in the mid-frame, casting a honeyed pool of light that warms the surrounding grey plaster with a soft golden hue, the glow reading as organic and slightly veined in texture as it projects outward. In the lower right corner, a large-leafed tropical plant — likely a monstera or similar broadleaf species — introduces a note of forest green, its dark glossy leaves catching a trace of the ambient warmth. At the far right edge, partially cropped, a decorative antique brass wall ornament with baroque detailing is just visible, adding a single warm metallic accent to the otherwise restrained palette. The overall atmosphere is quiet and contemplative — minimal object density, cool neutral architecture softened by one concentrated warm light source, and natural botanicals grounding the composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:00.336Z"
+}

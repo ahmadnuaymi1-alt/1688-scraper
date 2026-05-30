@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-e63610e199ec2e37",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e63610e199ec2e37.jpg",
+  "source_url": "https://dazuma.us/products/nightlight-table-lamp-christmas-decorative-music-box-light",
+  "description": "A kitchen counter vignette photographed at standing eye-level with a normal lens, framing a corner section of a dark moody kitchen where matte black-painted cabinetry with brushed silver round knobs meets white subway tile backsplash and a white marble countertop with soft grey veining. The window in the center background looks out onto a snowy winter landscape of bare birch trees, the daylight flat and grey-white. Dark upper cabinets frame the window, adorned with a holiday garland of fresh pine, red berries, and gold ornament balls. On the left section of the counter, a polished brass stockpot with lid sits near fresh pine branch sprigs and red berries. To the right of the centerpiece a matte black utensil crock holds wooden spoons and silicone spatulas, and gold-lidded cylindrical canisters sit further along. The countertop centerpiece is a large Christmas-tree-shaped decorative globe with a gold star finial, housing a snowman scene with glitter swirl inside. A warm internal glow from the piece radiates softly onto the marble surface around it. The mood is festive, cozy, and high-contrast — a holiday kitchen still life in black, gold, and white. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-94adb1b2db3d44f6",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-94adb1b2db3d44f6.png",
+  "source_url": "https://vakkerlight.com/products/cone-travertine-arc-sconce",
+  "description": "A quiet, organic bedroom vignette photographed at seated eye-level with a normal lens, composing a close three-quarter view of the bedside area against a textured plaster wall. The wall is heavily textured in rough, troweled lime plaster in a warm sandy-greige tone that catches sidelighting beautifully, emphasizing its hand-crafted imperfections. A tall casement window at the left edge admits a shaft of cool natural daylight that falls across the wall and floor in a distinct band of light. The bed is dressed with tightly layered natural linen bedding in warm taupe and greige tones — fitted sheet, flat sheet, and a heavier woven coverlet all in the same earthy linen family. A rustic natural wood bedside table — simple planked construction — holds a small grouping of objects: a loose arrangement of dried pampas grass stems in a small organic ceramic vase, a stacked pair of books, and a stoneware mug. A directed warm beam of amber light falls from a wall-mounted arm fixture in dark bronze or matte black with a small conical ceramic shade in a textured sandy white, illuminating the bedside table surface and casting a warm cone downward. The floor is not visible, but the base of the bed and nightstand suggest a stone or wooden floor. The overall mood is serene and monastic — deeply quiet and texture-focused. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

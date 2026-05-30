@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-c43d263daf49831f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c43d263daf49831f.jpg",
+  "source_url": "https://dazuma.us/products/reading-light-for-bed-wall-mounted-modern-rotatable-lamp",
+  "description": "A Mediterranean-inspired restaurant dining alcove photographed at standing eye-level with a normal lens, capturing a three-quarter view of the dining table set within an arched plaster niche. The architecture features deeply curved barrel-vault arches in rough white plaster, creating an intimate grotto-like space. A warm light oak dining table with turned legs is surrounded by four upholstered dining chairs in a cream-on-cream geometric woven fabric with natural wood frames. The table is formally set with wine glasses, dark charcoal linen napkins, white ceramic plates, and polished silver flatware. A shallow white ceramic serving piece sits at center. The back wall within the arch is lined with hand-painted geometric encaustic tiles in a blue-white-buff triangular pattern — each square divided into four triangles with alternating cobalt and cream. Two natural oak open shelves span the tile back wall, displaying a raw clay amphora vase, a small white ceramic cup, and a model wooden sailboat. Below the shelves, a walnut sideboard or credenza forms a base for the display. The terracotta floor tile is in a classic small square Spanish format. On the left plaster wall, a circular warm-glowing ring form emits a soft halo of warm amber light. The mood is quiet and romantic with a warm Mediterranean character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cobalt",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "arched_doorway",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

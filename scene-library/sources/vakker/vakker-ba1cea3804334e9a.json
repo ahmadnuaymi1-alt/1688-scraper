@@ -1,0 +1,43 @@
+{
+  "image_id": "vakker-ba1cea3804334e9a",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-mini-orb-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Alabaster_Mini_Orb_Wall_Lamp600.png?v=1773912581",
+  "scraped_date": "2026-05-21T12:08:36.635Z",
+  "source_title": "Alabaster Mini Orb Wall Lamp",
+  "source_product_type": "Sconce",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "ba1cea3804334e9a7136439ebcd607c39e6c3f47",
+  "description": "A warm, rustic bathroom vanity scene photographed at standing eye-level with a normal lens, framing a three-quarter corner view that shows both the wide double vanity and the window to the right. The vanity is a long, open-shelf piece in aged, weathered oak with a thick white marble or stone slab countertop. Two gold-framed rectangular mirrors hang above the counter in matching alignment. The vanity's lower section features open shelving holding neatly folded white towels and woven wicker baskets. On the countertop, amber glass apothecary bottles, a small potted green plant, and a few grooming accessories add a casual, lived-in styling touch. The walls are finished in a soft warm plaster, and the floor is covered with a warm-toned patterned area rug layered over what appears to be wide-plank wood or tile. A window to the right streams natural daylight across the scene, casting a gentle warm fill that softens the room's overall tonality. Warm glowing light emanates from disc-shaped sources beside each mirror, casting soft pools on the wall and countertop surface. The mood is calm and earthy, with a California farmhouse sensibility reinforced by the natural wood, stone, woven textures, and organic greenery. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.200Z"
+}

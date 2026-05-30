@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-f61c98044e04e8e8",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-f61c98044e04e8e8.jpg",
+  "source_url": "https://vakkerlight.com/products/travertine-column-globe-wall-sconce",
+  "description": "A contemporary bedroom corner vignette photographed at standing eye-level with a normal lens, framing an off-center composition centered on the nightstand zone and the wall above it. The wall is smooth plaster in a very pale warm white, almost pure. A warm glowing orb mounted on a travertine stone vertical backplate on the wall casts a soft diffuse radiance that illuminates the plaster surface around it with a gentle, cloud-like glow. Below and to the right, a solid walnut nightstand with a single drawer holds a minimal arrangement: a white ceramic mug resting on a stack of two books, and a small white ceramic pot with a bright green succulent plant. The rounded upholstered headboard of the bed in a warm sand-beige linen is partially visible at the right edge of frame, along with a white linen pillow. At the far left, a floor-length curtain panel in warm mid-brown woven fabric falls along the wall's left edge. The palette is warm neutral with a soft sage-green botanical accent. The mood is serene and quietly modern. Object density on the nightstand is low — only three items. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "image_id": "vakker-61854d7588536404",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/aterion-alabaster-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Aterion_Alabaster_Floor_Lamp90.png?v=1778092509",
+  "scraped_date": "2026-05-21T15:53:22.752Z",
+  "source_title": "Aterion Alabaster Floor Lamp",
+  "source_product_type": "Floor lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "61854d7588536404f64f0011b272777fa420f672",
+  "description": "A serene, softly lit bedroom photographed at standing eye-level with a normal lens, capturing a wide three-quarter view of the room's primary sleeping zone and adjacent sitting corner. The walls are a warm white plaster with a subtle textured finish. Natural daylight filters through a tall, narrow white-trimmed window at upper left, casting gentle bars of light across the plaster wall. The bed is dressed in layers of linen bedding — duvet and pillowcases in oatmeal, cream, and warm grey — arranged with a relaxed, lived-in ease. A compact open-shelf nightstand in light oak sits bedside, styled with a small ceramic vase holding a single green plant sprig and a simple mug. Above the bed, a framed botanical illustration in muted tones hangs on the plaster wall. Across from the bed in the left foreground, a small upholstered armchair in cream fabric has a loose knit throw draped over its arm. A large natural jute area rug covers the hardwood floor. A warm, low-level amber glow emanates from the nightstand area, softly illuminating the surrounding wall and bedding at that height. The palette is warm neutral throughout — cream, oatmeal, sand, and pale oak — with no strong accent colors. Density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "sconce",
+      "chandelier",
+      "flush_mount",
+      "pendant"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.111Z"
+}

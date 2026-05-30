@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-a439d645c88c9d2f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-italian-floor-lamp-elegant-minimalist-gray-creative-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/minimalist-silver-italian-floor-lamp-contemporary-sofa.jpg?v=1760000278",
+  "scraped_date": "2026-05-21T15:52:31.784Z",
+  "source_title": "Italian Floor Lamp Elegant Minimalist Gray Creative Design light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a439d645c88c9d2fc32e0678cff79bed853e7b6e",
+  "description": "A contemporary European-modern living room corner photographed at standing eye-level. The wall is a rough textured concrete or plaster in cool light gray, providing a neutral architectural backdrop. At left, a large tropical plant — likely a dracaena or indoor palm — rises from a dark round ceramic floor pot, its long arching green leaves extending into the upper left corner. Beside it, a matte black lacquered low sideboard or credenza sits against the wall, its surface hosting a white sculptural figurine of a slender standing human form. To the right of the sideboard, a large low-profile contemporary sofa in light warm gray fabric occupies the right third of the frame, loaded with two large charcoal-gray cushions and one black cushion. A warm vertical glow traces along the floor beside the sofa, its light diffusing horizontally outward from floor to about standing height against the gray wall. The floor is a smooth light gray concrete or large-format tile. The mood is quiet and gallery-like with a Bauhaus-inspired spare quality. Camera is at standing eye-level, roughly 5–6 feet high, with a normal lens, in a centered to off-center thirds wide establishing composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.624Z"
+}

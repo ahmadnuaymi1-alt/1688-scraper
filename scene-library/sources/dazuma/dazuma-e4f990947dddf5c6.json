@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-e4f990947dddf5c6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-patio-floor-lamps-led-vintage-landscape-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-patio-floor-lamps-modern-space-mountain-view-ambiance.jpg?v=1766225919",
+  "scraped_date": "2026-05-21T15:51:57.068Z",
+  "source_title": "Outdoor Patio Floor Lamps LED Vintage Landscape Minimalist Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e4f990947dddf5c6d3f9635d4b1fac1208ecfa97",
+  "description": "An outdoor terrace scene photographed at standing eye-level with a wide lens, showing a wide establishing view of a modernist patio space set against a dramatic backdrop of raw red sandstone cliff face. The architectural structure to the right is raw exposed concrete — a cantilevered ceiling slab and a cylindrical column — with floor-to-ceiling sheer linen drapery hanging in the interior opening, glowing amber from the warm lit interior behind. The terrace floor is large-format pale grey limestone pavers. A woven outdoor lounge chair with a deep curved seat in natural undyed textured fabric sits at the right, accompanied by a small round white side table on tapered legs and a matching cushioned footstool in front. The deep orange-red cliff face fills the left half of the background, dramatically lit by warm evening sun. In the foreground, a sculptural matte black floor-standing piece with a geometric lattice tripod base stands tall, with a ring-form glowing element at the top casting a focused circle of warm white light on the terrace surface below it. The overall mood is dramatic, minimal, and architecturally bold — an outdoor living vignette that references high-design resort aesthetics. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.920Z"
+}

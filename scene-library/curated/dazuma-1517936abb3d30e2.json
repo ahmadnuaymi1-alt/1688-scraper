@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-1517936abb3d30e2",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-1517936abb3d30e2.jpg",
+  "source_url": "https://dazuma.us/products/wall-mounted-led-lights-modern-minimalist-reading-lamp",
+  "description": "A moody commercial-style bar seating alcove photographed at standing eye-level with a normal lens in a centered symmetrical composition. The full-width counter shelf runs horizontally across the middle of the frame, acting as a strong visual anchor. The back wall is entirely clad in matte black penny-round hexagonal mosaic tile, creating a deep textural field that absorbs light and gives the space its dramatic character. The floor continues the same black hexagonal tile, unifying the surfaces and amplifying the enclosed, cave-like atmosphere. Against this dark tiled backdrop, two small focused pools of warm brass-toned light illuminate the wall at eye-level above the counter, one each at roughly equal spacing, contributing directional accent illumination without spilling widely — tight, directional warm spots with a narrow cone pointing downward. The counter surface is solid warm walnut or oak with a satin finish, glowing richly against the surrounding matte black. Four industrial café-style bar stools with matte black powder-coated metal frames, bentwood rung footrests, and deep forest-green padded leather seat cushions are arranged in a neat row along the counter's street-facing side. To the left, a large floor-to-ceiling storefront window frames a bright urban streetscape — trees, parked cars, and commercial facades visible outside in full daylight, creating a sharp contrast between the moody dark interior and the bright city exterior. The mood is dramatic, editorial, and distinctly metropolitan. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "table"
+  }
+}

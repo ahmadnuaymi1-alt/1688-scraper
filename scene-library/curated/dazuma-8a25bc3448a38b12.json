@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-8a25bc3448a38b12",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-8a25bc3448a38b12.jpg",
+  "source_url": "https://dazuma.us/products/midcentury-modern-chandeliers-molecular-ceiling-light",
+  "description": "A warm, inviting farmhouse-transitional primary bedroom with a vaulted ceiling and beautiful architectural detail. The ceiling is vaulted with painted white shiplap paneling covering the sloping surfaces, interrupted by several white-painted structural beam headers and a ridge beam that emphasize the room's generous height. The walls are a warm off-white or pale greige. Built-in white-painted bookshelves flank a recessed niche on the right background wall, styled with a curated mix of ceramic vessels, stacked books, small vases, and decorative objects in cream, tan, and sage tones. A tall deep forest green velvet tufted headboard commands the right center of the frame, anchoring the bed that is dressed in crisp linen-white bedding layered with warm gray knit throw and botanical-print throw pillows in cream and sage. At the foot of the bed, a tufted bench in cream fabric adds additional seating. On the left side of the room, an upholstered cream armchair with rolled arms sits beside a slim black metal side table with a lower shelf. A window with natural woven Roman shade in burlap or linen tones and floor-length linen drapes admits soft filtered natural light. Light warm wood or stone flooring is visible at the edges. The palette is warm neutral throughout — cream, off-white, warm linen — with the deep forest green headboard as the dramatic anchor accent. The mood is warm, lived-in, and elegantly casual. Camera is at standing eye-level, approximately 5-6 feet, shooting level with a normal lens in a three-quarter view that captures both the window-and-chair vignette at left and the headboard at right with the built-in shelves in the background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "shiplap"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-9f8ad56005c15704",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9f8ad56005c15704.jpg",
+  "source_url": "https://dazuma.us/products/square-wall-sconce-light-artificial-cloud-stone-waterproof-lamp",
+  "description": "A contemporary luxury residential front entry photographed at standing eye level with a normal lens in a three-quarter composition that captures the entry door and the flanking column wall simultaneously. The camera is positioned at approximately five feet, level, framed slightly off-center to include both the door on the left and the entry wall column on the right as the primary subjects.\n\nThe front door is a large-scale pivot or hinged slab door in rich dark-toned horizontal-grain walnut or mahogany veneer, featuring minimal fine woodgrain in warm reddish-brown tones. A tall vertical matte bar pull handle in a dark finish is mounted on the door face. The door frame is matte-black metal — a contemporary surround framing the wood panel. Floor-to-ceiling black-framed glass sidelights flank both sides of the door, revealing leafy garden trees and filtered daylight beyond.\n\nThe entry column to the right of the door is clad in a textured, aggregate-finish concrete or terrazzo-like stone panel in pale cream and grey, with scattered mineral aggregate inclusions giving it a speckled, refined rough texture. This column surface is the dominant architectural element at the center-right of the frame.\n\nOrnamental grasses in pale gold-green tones grow at the base of the column, with a few blades reaching into frame. In the extreme upper-right corner, soft-focused green tree foliage frames the scene naturally. The porch ceiling overhang overhead appears to be natural warm walnut-toned timber planking matching the door.\n\nWarm amber late-afternoon light rakes across the entry horizontally, casting a directional glow across the textured concrete column face and the wood door surface, creating rich material texture and long soft shadows. The atmosphere is refined, modern-craftsman, and residential.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-74526cf8d069f65e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-74526cf8d069f65e.jpg",
+  "source_url": "https://dazuma.us/products/linear-wall-sconces-and-spotlight-for-tv-background",
+  "description": "A tight bedside vignette in a sophisticated hotel-style bedroom. The headboard wall is split vertically — the left portion features a large-format upholstered panel headboard in a soft grey-beige linen fabric with subtle seam detailing creating a grid of wide rectangular panels, while the right portion is clad in a rich dark walnut veneer with a fine straight grain. The walnut panel section functions as the integrated nightstand wall. A single-drawer bedside table in matching dark walnut with a simple brushed metal pull sits flush against the walnut wall panel below. On the nightstand surface, a black desk-style telephone and a small black device sit cleanly. Above the nightstand, a matte black rectangular electrical outlet-and-USB panel is recessed flush into the walnut veneer. A warm amber glow emanates upward and downward from a brass wall-mounted reading source, casting a focused warm spot on the walnut panel and a downward pool of warm light on the nightstand surface below. The bed is dressed in crisp white hotel-quality sateen duvet and multiple white pillow layers. The atmosphere is quiet, luxurious, and minimal — a modern hotel vernacular. Camera is at seated to standing eye-level, tight vignette composition capturing the right half of the headboard, the nightstand, and the wall panel zone above it. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

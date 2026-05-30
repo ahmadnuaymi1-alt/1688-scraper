@@ -1,0 +1,121 @@
+{
+  "productId": "cmpbgq8v200yxw2ocsrdqdftc",
+  "productTitle": "Washi Paper Square Manual Control E27 Socket Table Lamp",
+  "authoredBy": "in-chat scene design — Noguchi Akari-style washi paper lanterns; slots 1-6 cycle through the first 6 variants by position (1A white, 1A cream, 1AD/B with sumi marks, 1A yellow, 1A red with white moons, 1A gray); locked warm white 2700K per the warm amber glow through paper",
+  "authoredAt": "2026-05-23T12:45:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "japandi-low-reading-corner-white",
+      "mode": "minimalist",
+      "prompt": "A serene Japandi reading corner of a primary bedroom, shot on a 35mm lens at low seated eye-level so the white egg-shape washi paper lantern on its slim black-wire tripod stand anchors the centre of a 1:1 frame on a low oak side table. Late afternoon: cool diffuse light through a tall shoji-screened window at frame-right; the only second light source is that screen-filtered daylight. Tight styling — a single linen-bound book of Japanese poetry open face-down on the floor beside, a low cream-linen-upholstered Pierre Jeanneret-style chair just visible at frame-edge, a small stoneware tea bowl on the side table, and a slim dried susuki grass stem in a tall raku bottle. Walls are warm white limewash plaster; pale-oak plank floor visible. The lamp matches the reference image exactly — softly ribbed white rice-paper egg-shaped shade on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of warm white plaster, pale oak, cream linen, soft black wire, dried susuki beige. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "Japandi reading corner",
+      "designStyle": "serene Japandi minimalist",
+      "wallColour": "warm white limewash plaster",
+      "cameraAngle": "35mm low seated eye-level",
+      "timeOfDay": "late afternoon",
+      "accents": [
+        "low oak side table",
+        "linen-bound poetry book face-down",
+        "Pierre Jeanneret-style cream-linen chair",
+        "stoneware tea bowl",
+        "dried susuki grass in raku bottle"
+      ]
+    },
+    {
+      "slug": "tatami-floor-cushion-tea-cream",
+      "mode": "homey",
+      "prompt": "A traditional tatami floor cushion corner of a small modern washitsu, shot on a 35mm lens at low floor-cushion level so the cream washi paper lantern on its slim black-wire tripod stand anchors the right-third of a 1:1 frame beside a low cypress-wood tea table. Early evening dusk: soft cool ambient light filters through a half-open shoji panel at frame-left as the only second light source. Style the tea table with a small black-glazed iron tetsubin kettle on a folded indigo cotton cloth, two small black raku tea bowls and matching white-clay tea whisk, a folded indigo cushion at frame-foreground, and a small ikebana arrangement of a single bare cherry branch in a low celadon vessel just behind the lamp. Walls are warm cream washi-paper-effect plaster; tatami floor visible. The lamp matches the reference image exactly — softly ribbed cream rice-paper egg-shaped shade on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of cream washi, tatami straw, indigo, black iron, cherry-bark brown. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "tatami tea corner",
+      "designStyle": "modern washitsu wabi-sabi",
+      "wallColour": "warm cream washi-effect plaster",
+      "cameraAngle": "35mm low floor-cushion level",
+      "timeOfDay": "early evening dusk",
+      "accents": [
+        "cypress-wood low tea table",
+        "black-glazed iron tetsubin kettle",
+        "black raku tea bowls and white-clay whisk",
+        "indigo cotton cushion and cloth",
+        "bare cherry branch in celadon ikebana vessel"
+      ]
+    },
+    {
+      "slug": "art-gallery-tokonoma-sumi",
+      "mode": "minimalist",
+      "prompt": "A contemporary gallery-style tokonoma alcove in a modern Tokyo apartment, shot on a 35mm lens at standing eye-level dead-centre so the white-with-sumi-calligraphy egg-shape washi paper lantern on its slim black-wire tripod stand sits centred in a 1:1 frame inside a recessed pale-plaster wall niche. Night: the only second light source is a single recessed picture-spotlight from above frame-edge throwing a soft directional wash onto a leaning small hand-scroll painting behind the lamp. Tight styling — just the niche itself, the lamp centred, a single dark-brushed ikebana branch of pine in a slim hand-thrown stoneware vessel beside the lamp, and a small placard-card on a tiny easel at the niche edge. Walls are pale grey-white plaster with a subtle horizontal grain; the floor a polished black-stained ash plank. The lamp matches the reference image exactly — softly ribbed white rice-paper egg-shaped shade with bold black sumi-ink calligraphy and dot marks across its upper hemisphere on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of pale grey-white plaster, black sumi ink, pine green, raw stoneware, polished black ash. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "gallery tokonoma alcove",
+      "designStyle": "contemporary Japanese art gallery",
+      "wallColour": "pale grey-white plaster",
+      "cameraAngle": "35mm standing eye-level dead-centre",
+      "timeOfDay": "night",
+      "accents": [
+        "recessed plaster wall niche",
+        "leaning hand-scroll painting",
+        "pine ikebana branch in stoneware vessel",
+        "small placard card on tiny easel",
+        "recessed picture spotlight"
+      ]
+    },
+    {
+      "slug": "teahouse-moss-garden-yellow",
+      "mode": "homey",
+      "prompt": "A small teahouse engawa (covered veranda) overlooking a moss garden, shot on a 35mm lens at low seated kneeling level so the warm yellow washi paper lantern on its slim black-wire tripod stand anchors the left-third of a 1:1 frame on weathered cypress plank decking. Mid-morning: cool soft light filters from a low rectangular viewing-window cut in a clay-plaster wall at frame-right revealing a square of raked white stone and emerald moss outside; the only second light source is that garden window. Style the engawa with a folded indigo and madder-stripe cotton zabuton cushion at frame-foreground, a small black-iron tea kettle on a folded raw-linen cloth, a single weathered ceramic bowl holding three yuzu fruits, and a small ikebana of bittersweet branch in a slim earthen vessel. Walls are warm clay-plaster with exposed timber posts. The lamp matches the reference image exactly — softly ribbed warm yellow rice-paper egg-shaped shade on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of warm clay, weathered cypress, moss green, golden yellow, indigo. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "teahouse engawa veranda",
+      "designStyle": "traditional teahouse with moss garden",
+      "wallColour": "warm clay-plaster with timber posts",
+      "cameraAngle": "35mm low kneeling level",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "weathered cypress plank decking",
+        "indigo-madder striped zabuton cushion",
+        "black-iron tea kettle on linen",
+        "weathered ceramic bowl of yuzu",
+        "bittersweet ikebana in earthen vessel",
+        "moss-garden viewing window"
+      ]
+    },
+    {
+      "slug": "concrete-loft-living-red",
+      "mode": "minimalist",
+      "prompt": "A minimalist contemporary artist's loft living corner, shot on a 35mm lens at standing eye-level three-quarter so the red-with-white-oval-patches egg-shape washi paper lantern on its slim black-wire tripod stand anchors the right-third of a 1:1 frame on a slim oxidised-steel side table. Late evening: deep dusk through tall industrial steel-framed windows behind a slate-grey loose-weave linen low sofa at frame-left; the only second light source is the faint blue evening sky through the windows. Style minimally — a single large unstretched canvas with sparse charcoal brushwork leaning against the back wall, a stack of three oversized art-monograph books on the polished concrete floor, a slim raw-clay floor vessel holding a single bare branch of plum blossom, and a folded charcoal-wool throw on the sofa arm. Walls and floor are smooth polished concrete; the red lamp is the single saturated colour accent in the entire frame. The lamp matches the reference image exactly — softly ribbed red rice-paper egg-shaped shade with three large white oval moon-shaped paper patches across its lower hemisphere on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of polished concrete, slate, charcoal, oxidised steel, with the single red accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "artist's loft living corner",
+      "designStyle": "minimalist contemporary loft",
+      "wallColour": "polished concrete",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "late evening dusk",
+      "accents": [
+        "oxidised-steel side table",
+        "slate-grey linen low sofa",
+        "leaning unstretched canvas with charcoal brushwork",
+        "stack of oversized art monographs on concrete",
+        "bare plum blossom branch in raw-clay floor vessel",
+        "folded charcoal-wool throw"
+      ]
+    },
+    {
+      "slug": "stone-study-architect-gray",
+      "mode": "minimalist",
+      "prompt": "An architect's stone-walled study reading shelf, shot on a 50mm lens at standing eye-level so the soft-gray washi paper lantern on its slim black-wire tripod stand sits anchored centre of a 1:1 frame on a thick honed-travertine floating shelf. Late evening: the only second light source is a slim slate-banker's reading lamp glowing softly across the room on a deep walnut desk in the blurred background. Tight styling — a leaning stack of three large leather-bound architectural monographs (Tadao Ando, Peter Zumthor, Louis Kahn), a small hand-thrown raw-clay incense burner with a thin curl of smoke, a single dried susuki grass plume in a slim graphite-grey stoneware bottle, and an antique brass surveyor's compass laid flat at the shelf edge. Walls are rough-honed natural limestone with visible saw marks. The lamp matches the reference image exactly — softly ribbed soft-gray rice-paper egg-shaped shade on a slim black-wire three-leg tripod base — switched ON, warm white 2700K (matches the warm amber glow visible through the paper in the variant reference). Palette of honed limestone, travertine, soft gray washi, deep walnut, dried susuki beige. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "architect's stone-walled study",
+      "designStyle": "monastic architect's study",
+      "wallColour": "rough-honed natural limestone",
+      "cameraAngle": "50mm standing eye-level",
+      "timeOfDay": "late evening",
+      "accents": [
+        "honed travertine floating shelf",
+        "leather-bound architectural monographs",
+        "raw-clay incense burner with smoke",
+        "dried susuki in graphite-grey stoneware",
+        "antique brass surveyor's compass",
+        "distant banker's reading lamp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-ce0d95bc5f88cbb5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/6-pcs-decorator-floor-lamps-wedding-prop-iron-olive-fruit-lights",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/gold-decorator-floor-lamps-garden-wedding-aisle-pink-flowers.jpg?v=1777088448",
+  "scraped_date": "2026-05-21T12:04:26.573Z",
+  "source_title": "6 PCS Decorator Floor Lamps Wedding Prop Iron Olive Fruit Lights",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ce0d95bc5f88cbb514a2099394fd8852282e7ea1",
+  "description": "An outdoor garden ceremony aisle photographed at standing eye-level with a normal lens, using a one-point perspective composition looking straight down the center of a formal walkway lined with decorative elements. The aisle runner is a dark burgundy crushed stone gravel path that recedes symmetrically toward a modern building facade and mature deciduous trees in a soft blue evening sky. On both sides of the aisle, tall slim white rectangular pedestal boxes draped with sheer white fabric panels serve as archway posts, framing the entry with clean minimalist geometry. Flanking the pedestals are tall slender floor installations with brass-gold stems branching into white teardrop bud forms, glowing with a soft warm inner light at their tips, as though lit from within. These serve as ceremonial aisle markers, their warm glow softly illuminating the path. Arranged at the base of each pedestal and along the ground on either side are abundant loose floral arrangements — white hydrangeas, cream garden roses, trailing green ivy and fern fronds, and blush pink roses spilling from large off-white ceramic urn-form vessels on the outermost pedestals. The overall palette is white, ivory, soft blush, and pale gold against a cool blue-green evening sky and manicured bright green lawn. The mood is formal, romantic, and ceremonial. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.841Z"
+}

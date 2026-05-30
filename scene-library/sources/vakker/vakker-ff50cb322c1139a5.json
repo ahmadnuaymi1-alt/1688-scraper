@@ -1,0 +1,45 @@
+{
+  "image_id": "vakker-ff50cb322c1139a5",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/tiered-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Tiered-Alabaster-Cluster-Chandelier-_1.jpg?v=1779260147",
+  "scraped_date": "2026-05-21T12:08:31.755Z",
+  "source_title": "Tiered Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1500,
+  "height": 2000,
+  "content_sha1": "ff50cb322c1139a56bbc590429408d7426280516",
+  "description": "A grand traditional foyer with a sweeping curved staircase photographed at standing eye-level with a normal lens, capturing a wide centered symmetrical view of the two-story volume. The camera is positioned at the base of the staircase looking up slightly, encompassing the full height from the entry floor to the ceiling above. The architecture is classically American traditional: white painted wainscoting panels run along the lower staircase walls, white-painted turned balusters support a dark walnut curved handrail that sweeps in a fluid arc from the upper landing down to the entry level. The walls above the wainscoting are covered in a soft embossed damask wallpaper in a warm ivory-cream tone. Crown moulding, door casings, and arched passageways add layers of applied moulding detail throughout. A large picture window with white trim at mid-height on the left wall admits bright natural daylight, illuminating a gilt-framed landscape oil painting hanging to its left. A second smaller landscape painting hangs on the right side. At center below the descending cluster of warm glowing elements, a small round table holds a generous fresh floral arrangement — white blooms with loose greenery — and a small bronze sculpture beside it. The hallway passage at the far right reveals more rooms and a warm amber glow from within. The floor is wide-plank hardwood in a warm walnut tone, with a small area rug partially visible. The palette is warm neutral — cream wall, walnut wood, warm amber light, soft white florals. The mood is formal and welcoming. Object density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "wainscoting",
+      "applied_moulding",
+      "arched_doorway",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.267Z"
+}

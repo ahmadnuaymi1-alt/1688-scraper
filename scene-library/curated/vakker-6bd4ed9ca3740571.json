@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-6bd4ed9ca3740571",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-6bd4ed9ca3740571.png",
+  "source_url": "https://vakkerlight.com/products/baluster-table-lamp",
+  "description": "A warm, traditional living room side table vignette photographed at seated eye-level with a normal lens, framing a three-quarter view of the room's corner seating zone. The walls are a pale warm cream-white with a soft plaster finish, and natural daylight enters gently from a tall window at left, dressed with sheer cream curtain panels. A traditional-style side table in warm dark cherry-walnut with a single drawer and tapered legs occupies the center of the composition, styled with a small green potted plant, a ceramic mug, and a single book. Above the side table, five small framed botanical prints — pressed fern and leaf specimens with warm ochre-toned mat and dark wood frames — are arranged in a loose gallery cluster on the wall. The cream sofa at right edge of frame has a chunky-knit grey-green throw draped loosely over its arm. A large natural jute rug grounds the floor. The palette is warm neutral with traditional accents — cream walls, cherry-walnut wood, sage green plant, and ochre botanical art. Warm amber light from the table area creates a gentle glow across the tabletop and surrounding lower wall, adding depth and intimacy to the scene. Styling density on the table is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

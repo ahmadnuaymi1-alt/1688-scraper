@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-6ebfb145367a9b04",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6ebfb145367a9b04.jpg",
+  "source_url": "https://dazuma.us/products/coloured-glass-chandelier-modern-creative-vintage-ceiling-light",
+  "description": "A grand European-style kitchen-dining room defined by dark espresso walnut cabinetry with raised-panel millwork that climbs floor to ceiling on the back and left walls. White Calacatta marble slabs tile the backsplash and countertop surfaces, providing a luminous contrast against the deep wood. A large kitchen island with a thick marble waterfall top anchors the right side of the room. The floors are richly grained walnut laid in a chevron herringbone pattern. A dark walnut rectangular dining table seats six in matching dark walnut chairs with padded greige linen seats, all set with formal white plates, wine glasses, and slender brass candlestick holders. To the right, a tall arched doorway with dark walnut molding trim leads through to a billowing sheer curtain and bright window beyond. A glass vase holding spare white branches stands on the island countertop. The white smooth plaster ceiling is accented with delicate crown molding. Stainless steel appliances are integrated into the cabinetry, while a brass faucet gleams at the sink area. Warm light pools gently over the dining table from the ceiling zone above. The mood is formal and Parisian-influenced, rich with dark wood and marble opulence. Camera is at standing eye-level, slight three-quarter view capturing the kitchen back wall, island, dining table, and the arched doorway at the right edge. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "arched_doorway",
+      "herringbone_floor",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

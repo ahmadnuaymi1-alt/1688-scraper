@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-9948f16ff6e68967",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-pillar-light-outdoor-modern-waterproof-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-pillar-light-outdoor-entrance-columns.jpg?v=1778566932",
+  "scraped_date": "2026-05-21T12:02:53.284Z",
+  "source_title": "Solar Pillar Light Outdoor Modern Waterproof Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9948f16ff6e68967c33b0fa04016f8d63350c8c9",
+  "description": "A twilight contemporary residential entry gate photographed at standing eye-level with a centered symmetrical composition, showing a three-pillar gate configuration with two gate openings separated by a central pillar. The pillars and perimeter walls are constructed from stacked rectangular concrete blocks in smooth cool grey tones, giving a modern minimalist aesthetic. A large rectangular concrete planter box sits in the foreground right, planted with a small-leafed shrub in deep green. The gate panels are horizontal louvered metal in matte dark grey-charcoal, with warm amber light visible through the slats from the interior courtyard beyond. Four matching square-section post cap fixtures top each visible pillar, each emitting a warm amber glow that casts broad downward halos across the pillar caps and faces. The warm amber light is particularly striking in the deep blue twilight — four warm glowing caps create a rhythmic sequence of light across the entry composition. The house structure in the background is a flat-roofed contemporary form in warm white stucco at left and dark charcoal grey render at center-right, with no visible windows in this framing. The paving surface is large-format dark grey slate tiles. The sky is a deep blue-grey dusk. The overall palette is cool concrete grey, dark gate metal, warm amber glow, and the deep blue of twilight sky. The mood is architecturally crisp and quietly dramatic — a sophisticated residential gate composition at dusk. Camera is at standing height, level, using a wide-to-normal lens in a centered symmetrical composition that frames all four gate pillars with equal visual weight. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.540Z"
+}

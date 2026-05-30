@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-1441e8a749a7ba06",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-1441e8a749a7ba06.jpg",
+  "source_url": "https://dazuma.us/products/contemporary-outdoor-led-wall-lights-cylindrical-waterproof-light",
+  "description": "A contemporary residential exterior photographed at dusk, showcasing the facade of a mid-century modern single-story home. The architecture is defined by clean horizontal lines — a flat overhanging roof with a warm teak or cedar wood soffit underside, stacked natural white stone or rough-textured limestone cladding on the wall face, and a dark charcoal horizontal-slatted garage door recessed between the stone flanking walls. The driveway and forecourt are paved in large-format light grey concrete or limestone pavers. Two large dark bronze cylindrical tube-form wall-mounted elements flank the garage door symmetrically on each side of the stone face, each glowing with a bright white diffused light that washes the stone surface in a strong upward and downward column, highlighting the stone texture dramatically. Deep brown-toned ceramic planters hold low compact shrubbery on each side of the garage door at ground level. Through the open covered carport or side patio on the left, a warm amber glow from the interior space is visible, along with a partial view of a framed artwork and a wooden console table. The deep blue dusk sky forms a clean horizontal band above the roofline. The exterior trees and garden beyond are dark silhouettes. The atmosphere is architectural, sophisticated, and cool. Camera at standing eye-level, slightly elevated angle, wide normal lens, three-quarter view showing the garage facade with driveway apron in the foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

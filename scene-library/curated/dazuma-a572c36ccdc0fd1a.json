@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-a572c36ccdc0fd1a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a572c36ccdc0fd1a.jpg",
+  "source_url": "https://dazuma.us/products/retro-style-table-lamps-elegant-mushroom-atmosphere-lamp",
+  "description": "A sitting room or reading nook vignette photographed at seated eye-level with a normal lens, framing a close three-quarter view of a side cabinet with objects on its surface. The background wall is entirely clad in richly grained vertical wood slats in a warm amber-mahogany tone, the grain lines running floor-to-ceiling and creating a deep, textured warmth that envelops the entire scene. A compact mid-century side cabinet in the same warm mahogany finish sits on tubular chrome legs; its top surface has a two-tier shelf arrangement supported by a chrome rail. On the upper shelf, a soft diffused warm glow emanates from the object placed there, casting a gentle amber radiance down onto the stacked books below and spreading across the cabinet surface. The books below include a Giorgio Morandi-branded tome and a title reading \"Real Estate Graphics.\" To the left, the leg and seat edge of a wicker-backed lounge chair upholstered in rust-orange ribbed fabric is partially visible. A small patterned ceramic mug with graphic black grid motif sits on the upper shelf. The floor is a pale blonde wood. The mood is warm, scholarly, and retro-mid-century. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

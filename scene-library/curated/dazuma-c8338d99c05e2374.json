@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-c8338d99c05e2374",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c8338d99c05e2374.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-led-wall-sconce-american-triangular-waterproof-light",
+  "description": "A stark exterior wall vignette photographed at standing eye-level with a normal lens in an off-center thirds composition. The frame is dominated by a coarse sand-finish stucco exterior wall in light warm greige, with a highly textured granular surface that catches and reveals warm amber light with dramatic effect. At the left edge of the frame, a slim black-framed steel casement window with a cool blue-twilight sky reflection is partially visible, grounding the setting as a residential evening exterior. A warm amber pool of light spreads downward from the fixture position in a wide, soft fan shape, illuminating the stucco surface below and casting subtle granular texture shadows across the wall face. The warm glow creates a striking tonal contrast against the cool grey sky tone visible through the window. The scene has a pure, almost abstract quality — it is essentially a study in warm light on rough plaster texture, reduced to minimal compositional elements. The palette is very limited: pale greige stucco, deep charcoal window frame, and a single concentrated warm amber illumination. The atmosphere is architectural and dramatic, emphasizing the play of light against rough material at dusk. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

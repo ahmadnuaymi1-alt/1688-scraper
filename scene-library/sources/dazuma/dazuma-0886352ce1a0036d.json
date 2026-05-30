@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-0886352ce1a0036d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-led-ceiling-recessed-spotlights-grille-led-linear-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/cozy-living-room-led-ceiling-recessed-spotlights.jpg?v=1775904981",
+  "scraped_date": "2026-05-21T12:03:38.155Z",
+  "source_title": "2 PCS LED Ceiling Recessed Spotlights Grille LED Linear Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0886352ce1a0036d87d03b88a8a437ae7b6cead7",
+  "description": "A serene, minimalist living room bathed in a seamless warm beige and cream palette. The walls are smooth plaster in a pale warm white, and a continuous indirect warm glow runs along a cove detail at the ceiling perimeter, washing the upper wall with amber light and creating a soft halo effect without any visible fixture shapes. Floor-to-ceiling velvet draperies in a medium warm sand tone flank a centered rectangular window, through which a green meadow and trees are softly visible in daylight. The ceiling is flat and plain cream. A deep, low-profile sectional sofa in plush warm ivory fabric occupies the center of the room, styled with two square throw cushions in tones matching the upholstery. In front of the sofa sits a low rectangular coffee table in warm medium walnut with a simple drawer face and block legs — the only piece of furniture with a distinct wood tone. The floor is covered in a large area rug in pale stone grey weave, set against a concrete or light stone floor at the edges. The room has no art, no shelves, and no decorative objects aside from the cushions and the one coffee table surface. The mood is hushed, almost meditative — a careful exercise in tonal restraint. Camera is at standing eye-level, approximately 5–6 feet, shooting a centered symmetrical wide view of the sofa wall. The lens is wide angle, encompassing the full sofa, both drape panels, the window, and the ceiling cove detail. Pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.973Z"
+}

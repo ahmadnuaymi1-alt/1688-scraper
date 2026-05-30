@@ -1,0 +1,29 @@
+{
+  "scene_id": "vakker-04ebbc8bdd1f6c1e",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-04ebbc8bdd1f6c1e.png",
+  "source_url": "https://vakkerlight.com/products/alabaster-layered-table-lamp",
+  "description": "A minimalist living room sitting area photographed in a square format with warm morning or afternoon light. A live-edge solid wood coffee table in light honey oak sits low to the ground at center, its irregular organic edge visible on one side, supporting a tall white ceramic vase with a small dried eucalyptus or branching botanical arrangement. A stack of two or three coffee table books lies beside the vase. To the left, a natural linen or oat-colored armchair with a slightly elevated wingback profile carries a loosely draped grey knit throw. Large sheer linen curtain panels in warm ivory filter soft golden light from a right-side window, billowing gently and glowing. A neutral jute rug anchors the floor beneath. On the coffee table surface, a soft warm glow emanates from a sculptural white layered-shell or ribbed dome form, casting warm light across the table surface and the surrounding floor. The wall behind is smooth off-white plaster. Camera at standing eye-level, normal-to-wide lens, three-quarter view showing both the coffee table and the chair, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

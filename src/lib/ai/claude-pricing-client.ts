@@ -231,25 +231,51 @@ export async function suggestPricingStrategy(
   // We use the SDK directly here (not claudeText) because we need to pass the
   // `tools` parameter for web_search — the shared `claudeText()` helper doesn't
   // expose tools.
+  // Retry 429 (rate_limit_error) with exponential backoff + jitter. Batches
+  // of 5+ scrapes that all hit AI pricing concurrently can blow the org rate
+  // cap; without a retry, every loser drops its pricing pass and the user
+  // has to backfill manually. Other errors fail fast.
   const client = getClaudeClient();
-  let res: Anthropic.Message;
-  try {
-    res = await client.messages.create({
-      model: PRICING_MODEL,
-      max_tokens: 4096,
-      temperature: 0.1,
-      tools: [
-        {
-          type: "web_search_20250305",
-          name: "web_search",
-          max_uses: 3,
-        },
-      ],
-      messages: [{ role: "user", content: prompt }],
-    });
-  } catch (err) {
+  const MAX_RETRIES = 5;
+  const BASE_DELAY_MS = 4000;
+  let res: Anthropic.Message | null = null;
+  let lastErr: unknown = null;
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      res = await client.messages.create({
+        model: PRICING_MODEL,
+        max_tokens: 4096,
+        temperature: 0.1,
+        tools: [
+          {
+            type: "web_search_20250305",
+            name: "web_search",
+            max_uses: 3,
+          },
+        ],
+        messages: [{ role: "user", content: prompt }],
+      });
+      break;
+    } catch (err) {
+      lastErr = err;
+      const isRateLimit =
+        err instanceof Anthropic.APIError &&
+        (err.status === 429 || /rate_limit/i.test(err.message ?? ""));
+      if (!isRateLimit || attempt === MAX_RETRIES) {
+        throw new Error(
+          `suggestPricingStrategy: Anthropic call failed — ${err instanceof Error ? err.message : err}`,
+        );
+      }
+      const wait = BASE_DELAY_MS * 2 ** attempt + Math.floor(Math.random() * 1000);
+      console.warn(
+        `[pricing] 429 from Anthropic on attempt ${attempt + 1}/${MAX_RETRIES + 1} — backing off ${wait}ms`,
+      );
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
+  if (!res) {
     throw new Error(
-      `suggestPricingStrategy: Anthropic call failed — ${err instanceof Error ? err.message : err}`,
+      `suggestPricingStrategy: exhausted retries — ${lastErr instanceof Error ? lastErr.message : lastErr}`,
     );
   }
 

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-d47e74c260f55801",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/unique-rechargeable-table-lamp-contemporary-portable-cordless-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/white-rechargeable-table-lamps-wide-shade-coffee-table.jpg?v=1760000307",
+  "scraped_date": "2026-05-21T15:52:43.642Z",
+  "source_title": "Rechargeable Table Lamps Unique Contemporary Portable Cordless Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d47e74c260f558018df781dc05e68ed603c262f5",
+  "description": "A relaxed living room reading nook scene arranged around a light natural oak dining or side table. The wall behind is a warm caramel-tan plaster — a deep warm ochre-brown that fills the background with rich ambient warmth. On the table surface, a white ceramic espresso cup on saucer sits to the left, and an open hardcover book lies to the right, face pages visible. A leafy green plant branch extends from the upper left corner. Behind the table to the right, a neutral cream upholstered armchair with light wood arms and legs is partially visible against a sheer white curtain panel. On the upper left wall, a black-framed photograph is partially visible. The mood is comfortable, domestic, and warm — a midday reading moment bathed in warm natural and artificial light. A gentle warm glow at tabletop height radiates outward, pooling on the table surface and warming the wall behind at table level. Camera at seated to standing eye-level, centered off-center vignette composition focused on the table with the chair as secondary context, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.863Z"
+}

@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-48ce9403fb596b74",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mount-solar-lights-outdoor-motion-sensor-led-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wall-mount-solar-lights-outdoor-sleek-patio-seating-area.jpg?v=1774836413",
+  "scraped_date": "2026-05-21T12:04:06.144Z",
+  "source_title": "Wall Mount Solar Lights Outdoor Motion Sensor LED Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "48ce9403fb596b74df91f7a88f031a4bd9f5c950",
+  "description": "A covered back porch or rear terrace of a classic American home at dusk, featuring a transitional craftsman-coastal architecture. The house exterior is painted white brick with a dark grey cedar shake panel accent column flanking the porch opening. A wide black-framed French door with multiple glass lites opens from the interior to the porch. The porch ceiling is white-painted tongue-and-groove, supported by simple square white columns. On the porch, two wicker lounge chairs with thick cream cushions face each other across a low rectangular black metal coffee table; both chairs are accented with blue-and-white floral chinoiserie-style throw pillows. A blue-grey printed area rug anchors the seating arrangement. On the coffee table a wooden tray holds small potted succulents and a white ceramic decorative object. Ornamental shrubs trim the porch perimeter. Warm amber light radiates downward and outward against the white brick wall from a wall-mounted source positioned between the French door and the porch column, casting a warm cone of light on the brick surface below. The overall mood is inviting, fresh, and classically American. Camera is at standing eye-level, three-quarter composition that takes in both the seating area and the house facade in a single wide-establishing frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt",
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.243Z"
+}

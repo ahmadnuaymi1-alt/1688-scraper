@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-a5d118bbeb19d150",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/exterior-copper-wall-sconces-waterproof-courtyard-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_c734c81c-8bc4-4a5c-889f-8ca26595d0e2.jpg?v=1773886625",
+  "scraped_date": "2026-05-21T12:04:59.936Z",
+  "source_title": "Exterior Copper Wall Sconces Waterproof Courtyard Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a5d118bbeb19d150868a9a5898c0d0d0e119c2e9",
+  "description": "A close exterior wall vignette of a traditional European cottage entrance, photographed at standing eye-level with the camera slightly off-center, framing the wall beside a timber front door. The exterior wall is whitewashed rough-textured fieldstone or lime-painted brick with highly irregular mortar joints and a rustic, aged quality. A solid wood frame-and-panel door in a warm medium-brown stain with small pane glazing is visible at the left edge of the frame. The right side of the facade is dramatically draped with cascading ivy vines in lush deep green, their leaves spilling across the upper wall and right corner in a dense natural curtain. A leaded or multi-pane casement window is partially visible beneath the ivy at far right. The warm amber glow cast from the wall-mounted position pools downward and outward onto the rough white brick surface, highlighting the stone texture and casting shadows in the mortar lines, and creating a warm honeyed wash that spreads across the wall and illuminates the lower ivy foliage. The color palette is chalky white, warm amber, warm wood brown, and dense dark green. The mood is romantic, traditional, and deeply English-country or French-provincial. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.642Z"
+}

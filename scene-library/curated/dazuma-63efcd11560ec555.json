@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-63efcd11560ec555",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-63efcd11560ec555.jpg",
+  "source_url": "https://dazuma.us/products/crystal-lamp-floor-minimalist-modern-metal-aluminum-lamp",
+  "description": "A contemporary bedroom corner photographed at standing eye-level with a normal lens, capturing a three-quarter view of the bedside area. The entire back wall is clad floor-to-ceiling in vertical tongue-and-groove light oak wood paneling with a tight, even grain — a warm, enveloping architectural statement. A floating dark walnut bedside shelf is wall-mounted at arm height, holding a small woven or rope decorative object and a slim book or notebook. A dark rectangular electrical outlet plate is visible on the paneled wall above the shelf. To the right, the rounded upholstered headboard in cream-white boucle rises prominently, partially cropped by the frame. The bed has a velvet or suede caramel bolster cushion and sandy linen bedding. Warm amber light pools downward from a floor-standing height source at the left of the shelf, illuminating the wood wall texture and casting rich warmth across the shelf surface. The floor appears to be a light stone or wide-plank pale oak. The palette is an immersive all-wood honey-tan and caramel with cream upholstery accents — a refined Scandinavian-modern hotel aesthetic. The mood is quiet, warm, and deeply restful. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

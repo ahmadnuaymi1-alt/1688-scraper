@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-0184039aa5fe855f",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-light-outdoor-led-waterproof-porch-metal-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_4_e8e6e27d-bf93-43a4-8272-cfca85c65494.jpg?v=1774175376",
+  "scraped_date": "2026-05-21T12:04:41.830Z",
+  "source_title": "Wall Light Outdoor LED Waterproof Porch Metal Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0184039aa5fe855fc4a5a24dd16e706d2f7920dd",
+  "description": "A modern residential exterior entrance photographed at dusk, showing a symmetrical façade centered on a pair of full-glass double doors framed in matte black. The building exterior is finished in a smooth, lightly textured stucco rendered in a cool off-white to pale grey tone, which catches warm ambient wash from low sources flanking either side of the doorway. The double doors are floor-to-ceiling glass panels set within a clean black aluminum frame, fitted with a single long cylindrical bar handle in brushed nickel or satin chrome running vertically down the right panel. Through the glass, the interior glows in a deep amber-gold warmth, suggesting richly lit rooms beyond — visible are stone-toned flooring, a softly lit interior vestibule, and the silhouette of trees reflected in the glazing. The pathway to the door consists of large-format pale stone pavers laid in a grid pattern, transitioning to a grass lawn at the edges. Lush tropical landscaping frames both sides of the entry: to the left foreground, large monstera deliciosa leaves catch warm spill light across their broad lobed surfaces; to the right, dense clusters of palm fronds and low tropical shrubs create a layered green border. A neighboring structure with a dark grey asphalt shingle roofline and warm interior window glow is partially visible in the upper right. The sky reads as a deep blue-grey dusk with residual warmth near the horizon. The overall mood is upscale, serene, and residential — evoking a warm Florida or Southern California evening. Warm pools of light wash downward onto the stucco wall surface on both the left and right flanks of the doorway, emanating from low, directional sources mounted at upper-wall height on each side, creating soft scalloped illumination patterns against the textured plaster without any harsh shadows. Camera is positioned at approximately standing eye-level, roughly five to six feet high, shooting level with a slight wide-angle lens that captures the full width of the entry composition symmetrically. The composition is centered and symmetrical, with the double doors anchoring the exact middle of the frame, flanking wall surfaces receiving equal visual weight on both sides, and the foreground planting providing informal asymmetric balance. The full entry scene is visible from pathway to roofline. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "french_door"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:27:52.001Z"
+}

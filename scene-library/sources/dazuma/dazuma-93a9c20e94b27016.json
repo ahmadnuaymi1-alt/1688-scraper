@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-93a9c20e94b27016",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-wall-lantern-european-style-vintage-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/1_1162c0bd-6fe7-41be-9150-10699669f734.jpg?v=1774175030",
+  "scraped_date": "2026-05-21T12:04:46.815Z",
+  "source_title": "Outdoor Lighting Wall Lantern European-Style Vintage Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "93a9c20e94b270166f93dc382d37a0c628c879af",
+  "description": "A grand residential estate exterior corridor photographed at standing eye-level using a one-point perspective down a formal stone perimeter wall. The wall is constructed of cut limestone blocks in cream and warm ivory tones, capped with smooth stone pillar posts at regular intervals. Elaborate ornate wrought iron gates and fence panels in matte black with antique gold detailing interrupt the stone wall at mid-frame, creating a dramatic focal entry point. Warm amber glows wash across the stone wall faces at each pillar interval, creating a rhythmic sequence of warm pools of light receding into the distance. The wall is lined on its exterior side with a disciplined low boxwood hedge in deep forest green, underplanted with hostas and shade-tolerant groundcovers in varying green tones. A herringbone-patterned brick walkway runs along the base of the wall in warm terracotta tones. Dense mature deciduous trees form a dark green canopy overhead and in the deep background, their forms softened in the dusk light. The sky above is a deep blue-grey twilight tone. The mood is formal, grand, and romantically lit — a stately estate at evening. Camera is at standing height, angled slightly looking down the wall corridor with a normal-to-wide lens, capturing the full receding perspective with the closest wall panel and gate sharp in the foreground and subsequent panels diminishing in size and light intensity toward the far background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.524Z"
+}

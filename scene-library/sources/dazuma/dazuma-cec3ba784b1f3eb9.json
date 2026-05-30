@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-cec3ba784b1f3eb9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mounted-outdoor-light-minimalist-brass-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_0f5f337e-5991-441f-bab7-ac464a670023.jpg?v=1774175079",
+  "scraped_date": "2026-05-21T12:04:46.040Z",
+  "source_title": "Wall Mounted Outdoor Light Minimalist Brass Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cec3ba784b1f3eb93a4edd42fd8c78d80c2787ab",
+  "description": "A contemporary exterior architectural vignette photographed at standing eye-level with a normal-to-telephoto lens, tightly framing a three-quarter corner view of a concrete or fluted stone exterior wall column. The wall surface has a heavily textured vertical fluted or bush-hammered finish in deep cool charcoal grey, its rough texture providing a dramatic backdrop that absorbs and scatters light. Mounted at roughly eye-level on the fluted stone face is a matte black rectangular cage-frame outdoor wall form, its open geometric frame surrounding a rectangular frosted opal glass diffuser panel that glows intensely warm amber-cream from within. The warm glow spills softly onto the textured grey stone surface immediately around the fixture, creating a warm halo on the rough material. To the right, a large-format sliding or fixed glass wall with slim dark aluminum framing reveals the warmly lit interior — a sleek modern dining space with a white table and modern chairs, warm amber recessed ceiling lights, and glimpses of indoor tropical foliage. In the foreground left, broad tropical leaves intrude at the frame edge. The atmosphere is sophisticated evening exterior, balancing warm interior glow against cool exterior architecture. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "french_door"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.843Z"
+}

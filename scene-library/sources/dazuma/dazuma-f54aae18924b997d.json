@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-f54aae18924b997d",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stained-glass-flush-mount-light-modern-led-creative-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stained-glass-flush-mount-light-modern-living-room.jpg?v=1777107627",
+  "scraped_date": "2026-05-21T12:03:20.506Z",
+  "source_title": "Stained Glass Flush Mount Light Modern LED Creative Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "f54aae18924b997d49765dfce3d743199071f393",
+  "description": "A casual, colorful living room bathed in diffuse afternoon light. The walls are a warm off-white plaster and the ceiling is plain white. The back wall features a standard-sized double-hung window dressed in long sheer ivory linen curtains that soften and diffuse the natural light from outside. Two framed abstract artworks in thin natural oak frames hang on the left wall — one showing warm terracotta and sand abstract shapes, the other a more muted composition — their earth-toned palette echoing the room's warmth. A large sectional sofa in a rich terracotta-burnt orange velvet dominates the foreground, generously proportioned with chaise extension to the right. The sofa is dressed with an eclectic mix of throw pillows — sage green velvet, moss green, ivory, and a muted mauve — layered casually. A low rectangular coffee table in light natural oak sits in front with a ceramic mug and a small stack of books on top. To the right, a tall fiddle-leaf fig in a simple pot adds a graphic vertical burst of glossy dark green foliage near the window. The ceiling fixture emits a playful, multicolored warm glow in hues of teal, green, amber, and pink-rose, casting dappled color onto the white ceiling. Camera is at standing eye-level, normal lens, a wide establishing composition showing the full width of the seating area and back wall. The mood is casual and playful. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.987Z"
+}

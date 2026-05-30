@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-50ee37fa8aa52e5e",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/conch-bloom-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Conch_Bloom_Lamp___13.jpg?v=1777864415",
+  "scraped_date": "2026-05-21T15:53:36.116Z",
+  "source_title": "Conch Bloom Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1440,
+  "height": 1920,
+  "content_sha1": "50ee37fa8aa52e5edcca635a16ef7a1a89f23bc4",
+  "description": "A stark, gallery-minimal interior photographed at standing eye-level with a normal lens, framed as a wide centered composition showing a large expanse of smooth white wall with a narrow architectural recess or doorway on the right. The walls are clean, smooth, matte white — entirely unadorned. The floor is light natural blond wood with a fine, even grain. In the right portion of the frame, a narrow architectural niche or threshold is visible with a horizontal slatted blind filtering soft cool daylight into the recess. Seated casually within this threshold or on a low step is a figure dressed in flowing white linen, dark long hair falling forward, seated in quiet contemplation — the only human element and the sole textural counterpoint to the hard architecture. At the center-left of the composition, a white plinth of clean cubic construction provides a display pedestal at waist height. On its surface sits a large organic sculptural form in translucent alabaster-like resin — a nautilus shell or biomorphic spiral shape — which glows from within, casting a warm amber-cream halo of light that spreads gently down onto the white plinth surface and the light wood floor immediately around the base. The glow is intimate, contained, and deeply warm against the cool white architecture. The palette is entirely monochromatic white and natural blond wood, with only the warm amber glow providing color. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.101Z"
+}

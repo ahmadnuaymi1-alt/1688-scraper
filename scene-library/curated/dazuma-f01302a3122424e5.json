@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-f01302a3122424e5",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f01302a3122424e5.jpg",
+  "source_url": "https://dazuma.us/products/stylish-uv-led-outdoor-solar-lantern-creative-design-mosquito-lamp",
+  "description": "A warm living room side table vignette photographed at seated eye-level with a normal lens, framing a low natural birch or light beech surface against a backdrop of floor-length cream linen curtains that fill the right two-thirds of the background. The wall visible to the left is a warm terracotta-adjacent blush — a soft dusty peach. A large Monstera deliciosa in a clear glass ribbed vase stands at the left side, its deep green split leaves arching outward with vigour. The surface is a simple wooden plank shelf or side table in light natural wood. On the surface, three objects cluster together: a white unscented pillar candle on a cream textile coaster to the left, and the central glowing piece resting at right-of-center, a dark matte black portable lantern form with a clear faceted mesh glass body and black wire carrying handle, glowing warm amber-gold from within. The warm glow from the lantern piece pools across the birch surface and spills warmly against the adjacent linen curtain. The mood is calm, Scandinavian-inflected, and naturally grounded — an earthy evening vignette with natural plant life, linen, and candlelight warmth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

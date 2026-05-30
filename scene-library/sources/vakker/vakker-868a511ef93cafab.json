@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-868a511ef93cafab",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/solar-spiral-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17785524982700.png?v=1778555947",
+  "scraped_date": "2026-05-21T12:20:13.631Z",
+  "source_title": "Solar Spiral Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "868a511ef93cafab08136378627e6cfad32f1ca7",
+  "description": "A warm, earthy living room vignette photographed at standing eye-level with a normal lens, composing a centered-symmetrical view of a walnut sideboard against a smooth warm plaster wall in deep sand-amber tones. Two matching sunburst-patterned circular wall-mounted elements flank the space above the sideboard, each casting dramatic radiating golden warmth onto the plaster wall and creating petal-shaped shadow patterns. The sideboard is a low, flat-front mid-century-influenced credenza in medium walnut with simple bar-pull hardware. Its surface is richly styled: dried pampas grass and feathery botanicals in terracotta and sienna vases cluster at the left; a row of terracotta-toned hardcover books stands upright flanked by a small round clock and a cylindrical candle; a small ceramic vessel with dried stems sits at center. A small occasional armchair in light cream upholstery with dark walnut legs sits to the right of the sideboard, draped with a burnt-orange woven throw. A large potted olive tree in a terracotta planter anchors the far right, its slender silver-green branches extending upward. To the left, a simple low wooden stool or plant stand is partially visible. The floor is warm medium-toned wood planks covered by a large flat-woven jute rug in golden-tan. The overall mood is deeply warm and curated — California bohemian with strong artisan and organic-material emphasis. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.139Z"
+}

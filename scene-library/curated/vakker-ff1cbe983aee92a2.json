@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-ff1cbe983aee92a2",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-ff1cbe983aee92a2.png",
+  "source_url": "https://vakkerlight.com/products/bell-glass-table-lamp",
+  "description": "A cozy traditional bedroom corner photographed at seated eye-level with a normal lens, framing an off-center composition of the nightstand and headboard zone. The walls are covered in a subtle floral or small-pattern wallpaper in a muted dusty taupe and cream, lending the space a quiet English-country character. Two multi-pane windows in painted wood trim are visible — one directly behind the nightstand and one at the left background, both admitting soft diffuse daylight that warms the scene from the right. A warm amber glow emanates from a fluted or petaled dome form on the nightstand surface, casting warm pooled light onto the honey-toned wood below and illuminating the space with a honeyed evening warmth. The nightstand is a solid craftsman-style piece in a warm light oak or pine with a flat top surface, holding a ceramic mug, a small stack of two or three books, and a small potted green herb or plant. A framed print hangs partially visible on the left wall. The bed beside it is dressed in natural washed linen pillows and a linen-cotton blanket with fringe, in tones of soft gray and oat. The palette is warm neutral with dusty taupe wallpaper and honey-pine wood tones. The mood is casual and lived-in, with a gentle English-cottage domesticity. Object density is low to mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

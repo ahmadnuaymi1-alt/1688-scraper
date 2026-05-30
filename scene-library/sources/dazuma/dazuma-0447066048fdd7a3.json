@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-0447066048fdd7a3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stylish-luxury-minimalist-fringe-table-lamp-creative-design-usb-charging-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-white-fringe-table-lamp-coffee-table-living-room.jpg?v=1768964715",
+  "scraped_date": "2026-05-21T15:52:37.749Z",
+  "source_title": "Fringe Table Lamp Minimalist Creative Design USB Charging Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "0447066048fdd7a3fa8c601a732a89d7ad29fc7e",
+  "description": "A casual living room scene photographed at standing eye level looking slightly down, with a normal lens, framing a wide establishing view of a coffee table in the foreground and the sofa and media area behind. The coffee table is light birch or maple with tapered legs, its surface holding an open magazine at the left, a small rectangular walnut-finished portable speaker in the center-left, and the primary light source at center-right. The wall behind is a smooth warm greige; in the upper right corner two abstract artworks in natural wood frames hang salon-style. A large charcoal gray fabric sofa sits behind, partially visible, with rounded arm profile. On the far left a flat-screen television rests on a low walnut media unit. The room has a relaxed, lived-in evening quality — a warm pool of light from the coffee table surface illuminates the magazine and speaker, with a soft ambient glow spreading across the tabletop. The depth of the room shows the furniture receding into dimmer evening ambiance. The palette is warm neutral throughout: light maple, warm gray walls, charcoal sofa, with cognac brown from the speaker. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.966Z"
+}

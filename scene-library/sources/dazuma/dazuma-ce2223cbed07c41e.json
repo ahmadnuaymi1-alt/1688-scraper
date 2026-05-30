@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-ce2223cbed07c41e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mounted-outdoor-light-minimalist-brass-garden-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_747554ce-aa27-41fc-a4b0-740a27d8bbb2.jpg?v=1774175077",
+  "scraped_date": "2026-05-21T12:04:46.042Z",
+  "source_title": "Wall Mounted Outdoor Light Minimalist Brass Garden Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ce2223cbed07c41e6932a9125b8857c9e99af5eb",
+  "description": "A contemporary residential exterior entrance photographed at standing eye-level with a normal lens, capturing a three-quarter corner view of the front entry facade at dusk. The house features a dramatic mix of materials: a prominent stacked ledge-stone column in pale silver-grey and ivory tones rises from the entry porch, contrasting with matte flat black wall cladding panels on the flanking sections. The roofline overhang is finished in warm honey-toned tongue-and-groove wood planking, providing an organic warmth against the dark exterior. The entry door is a dark matte black panel door with a tall full-height sidelite in black-framed glass with a stainless bar pull, set into a vertical slat black surround. To the right, large black-framed floor-to-ceiling windows reflect the deep orange and pink sunset sky. The porch floor is a smooth large-format light grey concrete or limestone slab. At the base of the stone column sits a dark matte square planter holding a neatly clipped globe boxwood topiary, and a matching conical-form evergreen topiary stands at the left foreground. A wall-mounted matte black fixture with a cage-like open frame and frosted white glass panel emits a warm amber glow from its face, illuminating the stone column surface around it with soft warm wash. The interior through the glazed door glows warm amber-orange. The sky is a dramatic deep peach and purple twilight. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.842Z"
+}

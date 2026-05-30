@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-220c3c5f231be124",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-220c3c5f231be124.jpg",
+  "source_url": "https://dazuma.us/products/house-pillar-lights-modern-creative-outdoor-pillar-light",
+  "description": "A residential driveway gate entrance photographed at dusk from a standing eye-level, normal lens, off-center thirds composition. The foreground feature is a substantial gate pier built from rough-cut stacked natural stone with a square profile, supporting a wide flat-cap top. The driveway surface is smooth light concrete. Attached to the pier, a matte black vertical-slat driveway gate extends to the right, its evenly spaced vertical steel batons creating a rhythmic linear pattern. The rear grounds are lush with tropical landscaping — a large bird-of-paradise plant dominates the upper left with broad glossy leaves, palm fronds extend from the upper right, and dense subtropical shrubs and grasses fill the mid-ground. Behind the gate, a contemporary single-story home with dark corrugated metal cladding and large black steel-framed glass window panels is softly visible in the background, its interior emitting a warm amber glow through the glazing. The sky above the roofline is a warm peach-orange sunset transitioning to dusky blue-grey. Warm ambient light pools broadly on the stone pier cap and diffuses softly into the surrounding foliage, casting a gentle glow onto the gate and the driveway surface below. Camera is at standing eye-level, slightly below the pier cap, off-center composition placing the pier in the left third. The mood is dramatic and serene, evoking a tropical modernist estate. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

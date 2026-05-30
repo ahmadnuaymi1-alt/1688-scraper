@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-2dfdf3dfc4ce96b1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-gold-pendant-light-modular-led-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_e8c3d2de-10cc-432c-8a06-dbb3e2aaae04.jpg?v=1778838815",
+  "scraped_date": "2026-05-21T12:02:25.045Z",
+  "source_title": "Linear Gold Pendant Light Modular LED Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Linear Suspension",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "2dfdf3dfc4ce96b1ba41469c15825c3d279bed84",
+  "description": "A contemporary boardroom or executive conference room photographed at standing eye-level with a slightly elevated, wide establishing composition, the camera looking diagonally across the room toward a large glass partition wall. The ceiling is exposed raw concrete — dark grey, rough, industrial — with concrete beams visible. The floor is a pale grey terrazzo or polished concrete. The conference table is an oval form with a light grey terrazzo or stone top, supported on a single large cylindrical matte black pedestal base. Eight cognac tan leather executive swivel chairs on chrome base frames surround the table. The table surface holds notebooks, papers, a small dark cup, and a pencil holder. The left wall features horizontal aluminum slatted venetian blinds on an aluminum-framed window. The far wall is a full-height glass partition wall looking into a garden or planting zone beyond, where warm amber accent illumination washes dense tropical plantings. A large mirror or reflective panel on the right wall reflects the table and the planting scene. A small indoor plant in a dark pot sits on the windowsill. The ceiling element is a rectangular LED tube frame in matte black, suspended in two stacked offset rectangular frames that emit clean crisp white cool illumination — bright horizontal lines against the dark concrete ceiling. The palette is charcoal grey concrete, cognac orange leather, light terrazzo, matte black, polished chrome, and warm amber accents in the garden beyond. The mood is dramatic, corporate, and sophisticated. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.133Z"
+}

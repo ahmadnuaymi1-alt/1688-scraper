@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-b98bfe0fcf86dd0a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b98bfe0fcf86dd0a.jpg",
+  "source_url": "https://dazuma.us/products/minimalist-modern-ring-table-lamp-creative-touch-charging-design-light",
+  "description": "A living room or entry console vignette photographed at standing eye-level with a normal lens, using a slightly off-center composition focused on a round dark marble table — black-veined marble with swirling gray and white veining, set on a gold metal base visible at the lower edge. The surface is large, polished, and reflective. On the table two art books are stacked horizontally — a white cover book on top with dark lettering, and a dark-cover book beneath. On top of the books sits a white porcelain tea cup on a white saucer decorated with a delicate gray floral print. The background wall is plain flat white. The room's ambient light is bright, cool, and even — clean studio-style illumination with no warmth. The warm white glow from the crystal ring-form object on the surface adds a focused warm illumination down onto the marble, creating a soft halo on the reflective surface below. The mood is formal and quietly editorial — refined interior styling with an emphasis on materiality and contrast. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "monochromatic",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

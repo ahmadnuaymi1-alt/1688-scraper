@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-a886b8331e38b4fe",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/linear-suspension-light-modern-minimalist-led-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_ffdaba71-bd45-47cb-8b8a-e9c0ddfa3d94.jpg?v=1779070544",
+  "scraped_date": "2026-05-21T12:02:22.874Z",
+  "source_title": "Linear Suspension Light Modern Minimalist LED Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Linear Suspension",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a886b8331e38b4fe427d5136fb9bb28d04479eac",
+  "description": "A bright contemporary open-plan office photographed at standing eye-level with a wide establishing three-quarter composition looking diagonally across the workspace. The room is flooded with natural daylight from a continuous run of large casement windows along the far wall, fitted with white semi-sheer roller blinds partially drawn. The ceiling is smooth white plaster. Rows of workstation benches with light honey-oak laminate tops and black powder-coated steel frame legs fill the space; each station is equipped with a black desktop computer monitor. Grey fabric acoustic desk screens of medium height separate adjacent workstations. Black mesh ergonomic task chairs on casters are positioned at each desk. Dark ribbed planter modules in matte black are positioned between workstation clusters, housing lush bright-green indoor tropical foliage plants that add living organic color. A black-framed rolling filing cabinet unit is visible under one desk. The floor is a fine-textured light beige commercial carpet tile. Crisp daylight from the windows fills the room with an even cool-to-neutral ambient illumination. The palette is white ceiling, light oak, matte black frames, and bright green plant accents. Mood is fresh, productive, and modern. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.655Z"
+}

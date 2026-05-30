@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-9c978ae1b3bf56d0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9c978ae1b3bf56d0.jpg",
+  "source_url": "https://dazuma.us/products/modern-perforated-waterproof-landscape-light",
+  "description": "An outdoor residential garden at dusk or early evening, photographed at low camera height — roughly knee-level — looking along a gravel garden path bordered by a raised stone or concrete paver edging. The composition is a three-quarter angled view slightly down the length of the path with the camera pitching gently forward, framing the path receding toward a large modern residential building in the background.\n\nThe path surface is grey-brown fine gravel flanked by a concrete border on the left side, leading back toward lush green lawn and landscaping. Warm amber pools of light spill across the gravel surface from two sources along the path, creating a rich orange-gold glow that saturates the stone and gravel textures. The surrounding lawn glows a vivid emerald green under deep blue dusk sky, with mature trees showing their autumn warm foliage in rust and orange tones in the background.\n\nIn the right midground, a decorative white deer or reindeer garden sculpture sparkles with what appears to be twinkling light or reflective sequin-like material, catching the ambient warm light. In the background, a contemporary multi-story building with warm amber-lit windows stands behind the tree line, its dark grey and brown cladding visible. The scene has a festive residential twilight character — private garden, domestic scale, polished hardscape.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "pendant"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

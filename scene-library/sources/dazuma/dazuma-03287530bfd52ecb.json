@@ -1,0 +1,47 @@
+{
+  "image_id": "dazuma-03287530bfd52ecb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-glass-light-pendant-minimalist-art-led-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-vintage-glass-light-pendant-kitchen.jpg?v=1776391361",
+  "scraped_date": "2026-05-21T12:03:42.549Z",
+  "source_title": "Vintage Glass Light Pendant Minimalist Art LED Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "03287530bfd52ecb82b976d2404470929b448306",
+  "description": "A spacious, open-plan kitchen photographed at standing eye-level, roughly five to six feet high, with a wide-angle lens capturing a three-quarter corner view of the room. The camera is positioned at the near corner of a large central island, angled diagonally so that both the kitchen workspace wall and the living area archway beyond are simultaneously visible within the frame. The pitch is level with a very slight downward tilt, allowing the full depth of the room to read from the island foreground through to the stone fireplace in the background.\n\nThe ceiling is white plaster punctuated by a series of prominent dark-stained, rough-hewn exposed wood beams running perpendicular to the viewer, their deep espresso tones providing strong linear rhythm against the bright overhead plane. Warm ambient illumination falls softly across the ceiling and upper cabinet faces without harsh shadows, and a gentle diffuse glow pools across the marble island surface from above.\n\nThe kitchen cabinetry throughout is painted a clean warm white, shaker-panel profile, with brushed brass bar-pull hardware throughout. A substantial custom range hood in matching painted white anchors the back wall above a professional-grade stainless steel gas range. A white subway tile backsplash in a classic brick pattern runs the full length of the cooking wall, grout lines in a soft grey. Double stainless steel wall ovens are built into the cabinetry tower to the right of the hood. All perimeter countertops are white quartz or marble with light grey veining.\n\nThe central island is a commanding rectangular form with a thick slab of white Calacatta-style marble on top, veined in soft grey and gold. The island base is clad in warm medium-toned walnut wood panels, creating a two-tone effect against the white upper cabinetry. A brushed brass bar-pull hardware detail accents the island cabinetry. A stainless undermount sink sits in the island with a brushed nickel gooseneck faucet. On the near end of the island a large weathered grey ceramic pot vase holds a generous arrangement of olive branches with silvery-green foliage. On the far end of the island a wooden cutting board holds several round artisan bread rolls. Two tall upholstered bar stools in deep charcoal-black velvet with brass footrail accents line the seating side of the island. A low upholstered bench in natural linen with a folded woven throw sits in the foreground at the island's near end.\n\nTo the left of the range, a woven rattan basket sits on the countertop. The light oak hardwood floor runs throughout the kitchen and into the adjacent living space, its warm honey tones tying the zones together.\n\nThrough a graceful round-topped archway in the background right, the adjoining living room is visible. A natural stacked-stone surround fireplace with a carved white limestone mantel is lit with a warm amber fire glow. Small terracotta and green glazed plant pots sit on the mantel. A multi-pane black-framed window beyond admits cool natural daylight, suggesting mid-morning or early afternoon. A white upholstered armchair is partially visible. The stone arch surround itself is raw stacked fieldstone, adding textural contrast to the smooth plaster walls.\n\nThe overall palette is warm neutral — creamy white, warm walnut, weathered grey, soft brass — with the deep brown beams and charcoal stools providing grounding contrast. The mood is serene and editorial, a refined transitional farmhouse sensibility.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "mixed",
+    "architectural_features": [
+      "exposed_beams",
+      "arched_doorway",
+      "stone_wall",
+      "fireplace",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:29:14.962Z"
+}

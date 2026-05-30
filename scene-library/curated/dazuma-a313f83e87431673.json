@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-a313f83e87431673",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a313f83e87431673.jpg",
+  "source_url": "https://dazuma.us/products/4-pcs-led-step-lighting-honeycomb-anti-glare-recessed-light",
+  "description": "A nighttime exterior shot of a single-story craftsman-style cottage home photographed from a low-to-standing eye-level, centered symmetrically and looking straight down the entry walkway toward the front door. The house facade is white-painted horizontal lap siding with a dark charcoal-grey pitched roof and a small arched dormer window above the front gable. The entry portico is flanked by white painted columns and features a pair of classic panel double doors in a warm wood stain tone. Two clipped boxwood globe topiary shrubs sit in dark round planters at either side of the entry steps. Large multi-pane windows flank the front facade on both sides, their interiors glowing with a rich honeyed warm light that spills out and illuminates the exterior lawn and foundation plantings. The walkway is a straight concrete path lined with low ornamental grass and a snowy landscape with bare dark garden beds. A golden-leafed autumn tree rises to the left, and snow-dusted mountain peaks fill the background under a deep indigo night sky scattered with stars. Warm amber accent light pools along the pathway leading to the door, creating a welcoming illuminated corridor. The overall mood is welcoming, serene, and gently dramatic — warm domestic glow against a cool dark winter night. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window",
+      "french_door"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scene_id": "dazuma-4e898bee2716f594",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-4e898bee2716f594.jpg",
+  "source_url": "https://dazuma.us/products/flush-mount-stained-glass-light-fixtures-artistic-ceiling-light",
+  "description": "A grand Parisian-style living room photographed at standing eye-level with a normal lens in a centered symmetrical composition anchored by the fireplace. The room features full-height applied moulding paneling on all walls — arched niches, raised rectangular panels, and a deep dentil-profile cornice that runs around the entire perimeter — all painted in the same crisp off-white. A tall arched niche in the back left corner holds a white ceramic vase with sparse dried winter branches. The fireplace surround and fascia is dramatic black nero marquina marble with bold white veining, creating a strong focal point against the white walls. Above the fireplace, a large canvas artwork in cream and pale taupe with gestural abstract marks hangs in a thin natural wood frame. Tall French doors with multi-pane glazing and brass hardware flood the right side of the room with diffuse daylight. The seating group is entirely in warm cream and ivory — two curved linen sofas flank the arrangement, and two low rounded armchairs in ribbed cream fabric face the fireplace across a round white marble pedestal dining table. A small round marble side table and a small matte black circular side table flank the sofas at either end. The herringbone parquet hardwood floor in warm honey tones grounds the composition. The palette is a study in warm white monochrome with accents of black marble, honey wood, and brass. The mood is formal, quiet, and distinctly Parisian. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "arched_doorway",
+      "french_door",
+      "multi_pane_window",
+      "fireplace",
+      "herringbone_floor",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

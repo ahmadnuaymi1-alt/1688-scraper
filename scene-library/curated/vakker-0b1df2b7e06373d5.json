@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-0b1df2b7e06373d5",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-0b1df2b7e06373d5.png",
+  "source_url": "https://vakkerlight.com/products/halo-muse-sculptural-table-lamp",
+  "description": "A traditional or transitional home office or study corner photographed in a square format, with warm painterly mood. A dark charcoal or smoke-grey painted wall provides the moody backdrop. A rich walnut-finish wooden console or writing desk with two drawers stands along the wall at center, its brass-inlaid drawer pulls glinting warmly. On the desk surface, a black sculptural figurative bust sits prominently on a round plinth, accompanied by two stacked books and a small dried botanical vase. A large artwork print in a gold or warm wood frame hangs above the console — the print appears to be a classical figurative drawing, a draped figure in cool tones. At the right edge of the frame, an emerald green velvet barrel chair faces mostly away from camera, with a cream-colored throw blanket folded over its arm. A warm pool of light falls onto the desk surface and the wall behind from a tall floor-standing form just to the right of the console. Camera at standing eye-level, normal lens, three-quarter view of the desk and chair corner, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

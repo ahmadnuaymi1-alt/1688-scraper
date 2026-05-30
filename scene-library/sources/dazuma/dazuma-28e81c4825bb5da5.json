@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-28e81c4825bb5da5",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-gate-pillar-lights-modern-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-gate-pillar-lights-driveway-fence-lighting.jpg?v=1778566572",
+  "scraped_date": "2026-05-21T12:02:57.546Z",
+  "source_title": "Solar Gate Pillar Lights Modern Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "28e81c4825bb5da53e74c3d423d24e236a0442f1",
+  "description": "An outdoor terrace or deck railing scene photographed at standing to slightly elevated eye-level with an off-center thirds composition, the camera level and focused on the closest fence post in sharp foreground detail while the second recedes softly into the background blur. The fence and post system is a contemporary horizontal-slat design in a smooth grey powder-coated aluminum, with square hollow section posts and evenly spaced horizontal slat rails. Two square post-cap positions sit atop adjacent fence posts, each glowing warmly from an internal amber light source that illuminates the textured ribbed or seeded glass panel inserts visible inside the cap housing. The warm amber glow from the post-cap elements spills softly downward onto the grey aluminum post tops. The sky behind is a spectacular gradient sunset — deep cobalt blue at the top, blending through lavender to a warm amber and deep orange-red band at the horizon where silhouetted dark tree canopies frame the scene left and right. The overall mood is dramatic, serene, and residential contemporary. The color palette is cool grey metal, warm amber glow, deep indigo-to-orange sunset sky, and dark silhouetted foliage. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac",
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.107Z"
+}

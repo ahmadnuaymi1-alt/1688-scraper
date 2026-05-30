@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-5c9adfaec08007d7",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-5c9adfaec08007d7.jpg",
+  "source_url": "https://dazuma.us/products/glass-ceiling-lights-modern-copper-flush-mount-lights",
+  "description": "A bright, airy primary bedroom in a serene coastal-neutral palette. The walls are painted a soft sage-grey or pale seafoam — a quiet, cool-warm neutral that reads almost white in the abundant daylight. Crown molding with a simple profile runs at the ceiling perimeter, and the ceiling itself is bright white. Two double-hung windows flanking the center dresser wall are fitted with white plantation shutters at the lower sash and ivory linen pinch-pleat drapery panels that hang from slim antique brass curtain rods with ball finials — the panels frame each window softly and allow bright daylight to flood in around them. The back wall features a three-drawer light oak dresser with simple ring pulls in the center position, topped with a ceramic white vase with greenery stems, a small round succulent in a terracotta-toned pot, a small clear glass vase, a stack of books, and a natural wood-framed abstract art print above it. At the far right, a tall fiddle-leaf fig or similar broad-leafed houseplant in a white pot stands in the corner. The bed in the foreground is made with an all-white linen duvet and layered grey and dusty blue throw blanket, and the upholstered headboard is a soft creamy white. At the foot of the bed, a low woven rattan bench adds natural texture. A cream upholstered accent chair with mid-century-style tapered legs and a knit throw draped over it sits at the right wall. The floor is warm natural hardwood in a honey-blonde tone. A soft warm glow radiates from the ceiling center position, adding a gentle layer of warmth above the daylit room. Camera is at standing eye-level, centered symmetrically on the dresser wall, using a wide lens that captures the full room width — bed foreground, dresser center, chair right, windows, and ceiling. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

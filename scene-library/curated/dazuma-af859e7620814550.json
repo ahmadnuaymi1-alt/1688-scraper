@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-af859e7620814550",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-af859e7620814550.jpg",
+  "source_url": "https://dazuma.us/products/solid-wood-table-lamps-american-retro-full-spectrum-lamp",
+  "description": "An indoor-outdoor transitional space photographed at standing eye-level with a normal-to-wide lens, framing an off-center composition where a white cube pedestal sits in the mid-ground just inside a large floor-to-ceiling glass wall. Through the glass panels, a minimalist Japanese-influenced courtyard garden is visible — crushed stone ground cover, dark volcanic rock clusters, mature green shrubbery, and a single architectural tree. The interior space itself shows polished gray flooring and a dark matte tray table at the far left edge of the frame. To the right, the partial curve of a boucle rounded armchair in mid-gray provides a soft textural counterpoint. The atmosphere is cool, dusky, and contemplative — the exterior daylight is deep blue-gray suggesting overcast late afternoon. A warm amber glow pools outward from the surface of the white pedestal, illuminating it and warming the immediate zone against the cool ambient blue filtering from outside. The interior wall at right is painted light gray. The overall mood is architectural, gallery-quiet, and internationally modern — sparse density with no decorative clutter. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "french_door",
+      "picture_window"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

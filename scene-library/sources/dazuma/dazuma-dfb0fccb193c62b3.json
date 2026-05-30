@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-dfb0fccb193c62b3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stainless-steel-outdoor-pillar-lights-minimalist-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stainless-steel-outdoor-pillar-lights-pool-contemporary.jpg?v=1773717447",
+  "scraped_date": "2026-05-21T12:19:42.235Z",
+  "source_title": "Stainless Steel Outdoor Pillar Lights Minimalist Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "dfb0fccb193c62b33b55483d105653e87fa528e1",
+  "description": "A sleek contemporary residential exterior at night, centered on an infinity-edge or rectangular swimming pool with still blue water reflecting the warm glow from the pool surround. The pool coping and surrounding terrace are broad slabs of light-toned concrete or limestone pavers. A manicured grass lawn runs along the left edge of the terrace. Three low-profile pathway or terrace objects recede in perspective from the foreground to the middle distance along the pool edge, each emitting a warm amber downward glow that pools on the pale concrete paving beneath them — creating a rhythmic succession of warm golden halos along the pool edge. In the background, a flat-roofed modern single-story residence with white or light stone cladding features floor-to-ceiling black-framed glass walls across the full width — the interior is warmly illuminated in amber tones, showing a living room with a cream sofa, a dining arrangement, and a table beyond. Trees and dark garden landscape press in from both sides. The overall mood is serene and luxurious — cool blue water, dark sky, warm amber light on pale stone. Camera is at low eye-level, wide to normal lens, one-point perspective looking from the foreground corner of the pool toward the house along the pool edge. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "french_door"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.903Z"
+}

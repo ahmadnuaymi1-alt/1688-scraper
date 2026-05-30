@@ -1,0 +1,37 @@
+{
+  "scene_id": "dazuma-232057a013681b49",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-232057a013681b49.jpg",
+  "source_url": "https://dazuma.us/products/ostrich-feather-table-lamp-creative-nordic-night-light",
+  "description": "A cozy bedroom under a pitched attic roofline photographed at standing eye-level with a normal lens, offering a centered frontal view of the bed and bedside setup. The room has a warm butter-cream wall color and a sloped white-painted ceiling with a prominent diagonal rafter in the upper right corner. White crown moulding runs along the flat ceiling portion. A bed with a tall upholstered headboard in warm oat linen occupies the center of frame, dressed in layered white bedding with a loose grey-beige throw, and a collection of embroidered and textured accent pillows in ivory, taupe, and grid-stripe blue-grey. A reproduction landscape oil painting in a dark mahogany frame hangs to the left above the bed — a pastoral sky scene with billowing clouds. A small bedside nightstand in light painted grey with fluted front drawer panels sits beside the bed, holding a small covered ceramic lidded jar and a woven basket on its lower shelf. Sheer ivory linen drapes hang from a brass rod over a multi-pane white casement window, admitting soft diffused daylight. A large fiddle-leaf fig in a weathered terracotta pot stands in the right corner. The floor is wide-plank warm oak. A worn Persian-style area rug in cream and dusty taupe covers the floor at the foot of the bed. A warm, soft amber glow from the nightstand surface illuminates the area around the window, casting a gentle bloom on the adjacent wall and drapes. Camera is at standing eye-level, centered symmetrical composition. The mood is lived-in and serene, a softly styled cottage bedroom. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "pendant",
+      "chandelier",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

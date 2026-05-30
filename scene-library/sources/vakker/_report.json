@@ -1,0 +1,11 @@
+{
+  "brand": "vakker",
+  "target": 300,
+  "accepted": 300,
+  "products_scanned": 67,
+  "images_checked": 379,
+  "drop_reasons": {
+    "white-bg-studio": 40
+  },
+  "finished_date": "2026-05-21T15:53:50.753Z"
+}

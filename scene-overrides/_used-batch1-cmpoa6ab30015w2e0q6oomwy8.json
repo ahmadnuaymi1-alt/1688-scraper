@@ -1,0 +1,82 @@
+{
+  "productId": "cmpoa6ab30015w2e0q6oomwy8",
+  "productTitle": "Mommy Diaper Backpack (cartoon-print Oxford, 20L, 5 variants)",
+  "authoredBy": "in-chat scene design — BATCH 1 of 2: 3 USE-CASE (homey) + 3 PRODUCT-FOCUS (minimalist) scenes per user's spec, baby/mom catalog vocabulary, no people, eye-level intimate not architectural-wide",
+  "authoredAt": "2026-05-27T00:00:00.000Z",
+  "classification": "indoor",
+  "category": "diaper-bag",
+  "scenes": [
+    {
+      "slug": "coffee-shop-stroller",
+      "mode": "homey",
+      "prompt": "A bright neighborhood coffee shop window seat at mid-morning, shot on a 35mm lens at seated eye-level slight three-quarter so the diaper backpack sits upright on a small round marble café table in the front-left of a 1:1 frame. Natural light from a tall window at frame-left, soft and diffused. Style with a half-finished oat-milk latte in a tan stoneware cup with a smear of foam on the lip, a pacifier with a wooden clip resting on a folded muslin cloth napkin, a small chunky board book dog-eared at the corner, and the front wheel plus push-bar of a modern matte-black stroller just intruding into the back-right edge of the frame (mostly out of focus). Walls behind are a pale eucalyptus-green half-tile above warm white paint. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket, magnetic top closure — sitting upright facing the camera. Palette of cream, oat, eucalyptus, blush brown, soft brass. Sharp focus on the bag, soft natural depth-of-field on the surroundings, no people, photographic and lived-in, no cinematic moodiness, no alcohol.",
+      "variantSlot": 2,
+      "room": "neighborhood coffee shop window seat",
+      "designStyle": "modern-mom morning café",
+      "wallColour": "pale eucalyptus tile above warm white",
+      "cameraAngle": "35mm seated eye-level three-quarter",
+      "timeOfDay": "mid-morning",
+      "accents": ["round marble café table", "oat-milk latte in stoneware cup", "pacifier on muslin napkin", "board book", "matte-black stroller wheel + push-bar peeking in"]
+    },
+    {
+      "slug": "park-bench-blanket-peek",
+      "mode": "homey",
+      "prompt": "A small wooden-slat park bench under tree dappling on a late-spring weekday, shot on a 50mm lens at seated bench-height eye-level so the diaper backpack sits open in the front-centre of a 1:1 frame on the bench seat. Late-morning sunshine breaks through overhead leaves in soft dappled patches. The bag is unzipped at the top with a soft pastel-stripe muslin baby blanket peeking out, and beside it on the bench rests a small board book of farm animals, a half-empty glass baby bottle with a silicone teat, and a small canvas drawstring pouch with a wooden teething ring poking out. The bench is weathered cedar painted slate-grey long ago and gently softened by weather. Mossy grass and a low boxwood hedge fall away in the soft-focus background. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — open at the top so the print is fully readable. Palette of dappled spring green, weathered cedar slate, pastel muslin stripe, glass-clear bottle, soft grass. Sharp focus on the bag and bench, soft natural depth-of-field on the trees behind, no people, photographic and warm.",
+      "variantSlot": 1,
+      "room": "neighborhood park bench",
+      "designStyle": "lived-in afternoon park",
+      "wallColour": "(outdoor) mossy grass + boxwood backdrop",
+      "cameraAngle": "50mm seated bench-height eye-level",
+      "timeOfDay": "late morning dappled",
+      "accents": ["weathered slate-grey cedar bench", "pastel-stripe muslin blanket peeking out", "farm-animals board book", "half-empty glass baby bottle", "canvas pouch with wooden teething ring"]
+    },
+    {
+      "slug": "nursery-changing-table",
+      "mode": "homey",
+      "prompt": "A soft pastel nursery changing-table corner at gentle late afternoon, shot on a 35mm lens at standing-adult eye-level so the diaper backpack sits in the front-right of a 1:1 frame, set down upright on a pale-oak nursery shelf beside the changing pad. Late-afternoon natural light falls through a sheer cream linen curtain at frame-left. Style with a folded organic-cotton changing pad cover in dusty rose, a small woven basket holding rolled muslin cloths, a tower of three folded newborn diapers, a glass bottle of fragrance-free baby wash, a tiny pink rabbit plush stuffie leaning against the wall, and a small framed botanical print on the shiplap wall above. Walls are a soft pink-tinged cream paint over horizontal white shiplap. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket — sitting upright facing the camera. Palette of dusty rose, cream, pale oak, muted sage, soft cotton white. Sharp focus on the bag and changing area, no people, photographic and gentle, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "pastel nursery changing area",
+      "designStyle": "soft pastel nursery",
+      "wallColour": "soft pink-cream over white shiplap",
+      "cameraAngle": "35mm standing-adult eye-level",
+      "timeOfDay": "late afternoon",
+      "accents": ["pale-oak nursery shelf", "dusty-rose changing pad cover", "basket of rolled muslin cloths", "tower of folded newborn diapers", "glass baby-wash bottle", "pink rabbit plush", "framed botanical print"]
+    },
+    {
+      "slug": "tabletop-organized-interior",
+      "mode": "minimalist",
+      "prompt": "A clean editorial product-catalog tabletop on a butcher-block wood surface, shot on a 50mm lens at three-quarter overhead 30-degree angle so the diaper backpack lies open in the front-centre of a 1:1 frame, its main compartment unzipped and tilted slightly toward the camera to reveal a fully organized interior. Soft natural overhead light, no hard shadows. Inside the bag arranged neatly: two glass baby bottles upright in dedicated side pockets, three folded muslin cloths in a stack, a small canvas pouch with travel-size baby wash and lotion peeking out, a folded changing pad rolled and tucked along the back wall, and a pacifier with a wood clip resting on top. Beside the open bag on the wood surface: one folded cloth diaper, a small wooden teething ring, and a tiny pair of knit newborn booties. Background: a deeply out-of-focus warm-cream plaster wall. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image clearly visible across the open lid panel, dual shoulder straps laid flat to the sides, top loop handle visible, all interior pockets and compartments readable. Palette of warm cream, butcher-block wood, sage, muslin white. Sharp focus on the bag interior and contents, photographic catalog clarity, no people, no cinematic moodiness, no alcohol.",
+      "variantSlot": 4,
+      "room": "editorial catalog tabletop",
+      "designStyle": "clean product-catalog flat-lay-adjacent",
+      "wallColour": "warm-cream plaster (deeply out of focus)",
+      "cameraAngle": "50mm three-quarter overhead 30°",
+      "timeOfDay": "soft natural studio midday",
+      "accents": ["butcher-block wood surface", "two glass baby bottles in side pockets", "stack of muslin cloths", "canvas wash pouch", "rolled changing pad", "wooden teething ring", "tiny knit booties"]
+    },
+    {
+      "slug": "stroller-handle-hung",
+      "mode": "minimalist",
+      "prompt": "A modern-mom morning-walk product moment with the diaper backpack hung from the push-bar of a sleek modern stroller, shot on a 50mm lens at standing-adult chest-level so the bag hangs in the front-right of a 1:1 frame from the curved black push-bar. Bright, soft midmorning natural light. The bag hangs by its top loop handle clipped to the stroller bar, the main bag body facing the camera so the print is fully visible, dual shoulder straps falling naturally to the sides. A woman's hand and forearm (no face) in a cream cable-knit cardigan rests on the stroller bar just behind the bag, soft and out of focus. Just visible at the lower edge of the frame: the corner of a pastel muslin blanket draped over the stroller seat. The stroller is matte-black fabric with cream piping, modern silhouette. Background: a soft-focus tree-lined neighborhood sidewalk in warm spring light. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket. Palette of cream, matte black, muted sage, warm sidewalk light. Sharp focus on the bag, soft natural depth-of-field on hand and sidewalk, photographic and effortless, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "neighborhood sidewalk (stroller)",
+      "designStyle": "modern-millennial-mom on-the-go",
+      "wallColour": "(outdoor) sidewalk + trees in soft focus",
+      "cameraAngle": "50mm standing chest-level",
+      "timeOfDay": "midmorning",
+      "accents": ["matte-black modern stroller with cream piping", "cream cable-knit cardigan sleeve + hand (no face)", "pastel muslin blanket on stroller seat", "tree-lined sidewalk in soft focus"]
+    },
+    {
+      "slug": "linen-three-quarter-detail",
+      "mode": "minimalist",
+      "prompt": "A clean editorial product-catalog shot of the diaper backpack on softly rumpled raw linen, shot on a 50mm lens at slightly-low three-quarter angle so the bag sits centered in a 1:1 frame, fully zipped and upright with both straps extended back. Soft, even natural studio light from a tall window at camera-left, faint shadow falling to the right of the bag. The bag is presented in pristine, unused condition with all hardware visible: dual shoulder straps, top loop handle, front zip pocket, side mesh bottle pocket, magnetic top closure flap. To the left of the bag rests a small folded swaddle in warm-cream cotton. To the right, a small brass nameplate on a slim wooden block reads '20L'. Background: warm putty-cream limewash wall, deeply out of focus. The bag matches the reference exactly — the Oxford print and colour shown in the variant reference image, dual shoulder straps, front zip pocket, side mesh bottle pocket, top loop handle. Palette of warm-cream linen, putty wall, soft brass. Sharp focus on the bag, photographic catalog clarity, no people, no cinematic moodiness, no alcohol.",
+      "variantSlot": 6,
+      "room": "editorial catalog linen-backdrop studio",
+      "designStyle": "clean product-catalog three-quarter",
+      "wallColour": "warm putty-cream limewash (out of focus)",
+      "cameraAngle": "50mm slightly-low three-quarter",
+      "timeOfDay": "soft natural studio midday",
+      "accents": ["rumpled raw-linen surface", "folded warm-cream swaddle", "brass '20L' nameplate on wooden block"]
+    }
+  ]
+}

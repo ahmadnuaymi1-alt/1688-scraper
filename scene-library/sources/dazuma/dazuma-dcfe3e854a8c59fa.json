@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-dcfe3e854a8c59fa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/rectangular-wall-sconce-full-copper-cloud-stone-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_d4a55f64-d53e-4b27-b1c0-7cc8e71af940.jpg?v=1773886476",
+  "scraped_date": "2026-05-21T12:19:32.845Z",
+  "source_title": "Rectangular Wall Sconce Full Copper Cloud Stone Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "dcfe3e854a8c59faa94877bafc963666342d3821",
+  "description": "A refined, contemporary bedroom with a strongly textured feature wall covered in fine herringbone-patterned wallcovering in cool gray tones — the chevron texture gives the surface architectural depth without applied molding. The wall is framed by a vertical white plaster column on the right, providing clean contrast. The bed features a richly chocolate brown leather upholstered headboard, low and wide, paired with cool gray linen bedding layered with multiple pillows in soft gray tones. At bedside, a generous floating nightstand or low bench with a white marble or Calacatta marble top — bold gray and white veining prominent — is integrated just above the dark hardwood floor. On the marble surface sit two stacked hardcover books and a small dark ceramic vessel holding a tiny succulent or sculptural arrangement. The floor is a dark espresso-stained hardwood plank. A soft amber warm glow illuminates the textured wallcovering from a source mid-wall above the nightstand, creating a localized warm pool of light that contrasts beautifully with the cool gray chevron texture behind it. The dominant color palette is cool neutral gray and dark brown, with the white marble accent providing brightness. Camera is at seated eye-level, normal lens, three-quarter view of the bed corner angled toward the headboard wall and nightstand, looking level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.894Z"
+}

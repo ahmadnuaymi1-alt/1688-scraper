@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-c7055394f63e248d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c7055394f63e248d.jpg",
+  "source_url": "https://dazuma.us/products/exterior-pillar-light-waterproof-fence-gate-post-light",
+  "description": "A residential pool deck photographed at standing eye-level with a normal lens in an off-center thirds composition, looking diagonally across the fence line toward a backyard pool. Two cream travertine stone columns anchor a dark-stained cedar horizontal-slat fence that separates the pool area from a garden beyond. Amber light glows warmly from the post caps, washing the rough travertine column faces in pools of warm honey-gold that reveal the stone's natural texture and fossils. On the left, lush tropical foliage — broad-leafed plants in deep green — soft-focuses in the foreground, framing the composition. To the right, a sparkling blue swimming pool reflects the evening sky. Beyond the fence, a grove of tall tropical trees provides a dark green canopy against the twilight sky. The far column recedes in the background, smaller and slightly out of focus, reinforcing the diagonal depth of the scene. The warm amber glow from the post fixtures contrasts vividly with the cool blue of the pool water, creating a jewel-like color tension. The wood fence rails are dark reddish-brown cedar. The atmosphere is tropical, resort-like, and relaxed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

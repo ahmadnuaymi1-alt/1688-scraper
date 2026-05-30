@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-7611b387a85a0749",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-piece-study-lighting-set-led-semi-flush-mount-wood-desk-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/minimalist-linear-wood-led-desk-lamp-with-usb-port-and-dimmable-light-bar-7621830_eac1e05d-f7bb-4e16-b880-77b0af14be56.jpg?v=1764316902",
+  "scraped_date": "2026-05-21T15:52:00.264Z",
+  "source_title": "2-Piece Study Lighting Set: LED Semi-Flush Mount & Wood Desk Lamp",
+  "source_product_type": "Lighting > Lamps Kit",
+  "width": 1000,
+  "height": 1000,
+  "content_sha1": "7611b387a85a0749812cc3d283bd08ce5a6f215e",
+  "description": "A hotel-style bedroom corner photographed at standing eye-level with a normal lens, capturing a three-quarter view of the bedside area. The nightstand is a dark espresso or near-black lacquered wood with minimal hardware, its surface bearing a single object. Behind the nightstand, a vertical wood-paneled wall feature in fine-grained light pine or ash provides a warm architectural accent panel, framed on both sides by painted cream panels. A cluster of grey toggle light switches is mounted on the wood panel face. To the left, the padded fabric headboard in cool medium grey rises behind white linen pillowcases. The bed linens are white cotton. The warm glow emanating from the nightstand surface casts amber light upward onto the wood panel, accentuating the fine grain. A warm wash of amber light spreads along the wall behind. The palette combines dark espresso, warm blonde wood, grey upholstery, and white linen — a refined contemporary hotel aesthetic with warm material layering. The mood is quiet and polished. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "ceiling",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.401Z"
+}

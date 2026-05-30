@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-f599604299134893",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f599604299134893.jpg",
+  "source_url": "https://dazuma.us/products/gold-lantern-chandelier-american-vintage-iron-ceiling-light",
+  "description": "A warm and charming farmhouse-adjacent mudroom or foyer passage with a relaxed, welcoming atmosphere. The ceiling is white shiplap planks with two rustic hand-hewn reclaimed wood beams crossing it in an L-arrangement, their pale blonde grain and rough sawn texture adding organic warmth. The walls are smooth and painted in warm greige. Crown moulding runs the perimeter. To the left, a row of multi-pane windows with white frames floods the space with bright natural daylight. On the right, a white paneled interior door with a simple knob provides passage. The far wall holds a low simple pine or walnut bench with hairpin-style angled legs, on which a folded grey knitted blanket rests. A small potted fiddle-leaf fig in a terracotta pot sits on the floor beside the bench. On the wall behind the bench hangs a large abstract textile artwork with a repeated grid of fine marks in natural tan and ecru, framed in a simple light wood frame. The space is uncomplicated and quietly layered. Warm flickering candlelight glows within the ceiling zone, casting soft warm illumination across the shiplap. Camera at standing eye-level, centered symmetrical composition showing the bench wall and ceiling in equal balance, normal lens, slightly looking upward. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "mudroom",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "shiplap",
+      "exposed_beams",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

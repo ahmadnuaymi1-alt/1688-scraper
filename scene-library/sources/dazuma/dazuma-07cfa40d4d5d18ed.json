@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-07cfa40d4d5d18ed",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/decorative-street-light-vintage-outdoor-waterproof-high-post-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/decorative-street-light-vintage-warm-garden.jpg?v=1774078398",
+  "scraped_date": "2026-05-21T12:04:53.503Z",
+  "source_title": "Decorative Street Light Vintage Outdoor Waterproof High Post Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Street Lighting",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "07cfa40d4d5d18ed2e2077218ba259a023d02837",
+  "description": "An exterior residential scene photographed at dusk, capturing the sweeping circular paver driveway of a grand Colonial-style home. The architecture is a two-story white clapboard structure with a dark slate roof, a symmetrical columned entry portico supported by four classical columns painted white, and deep forest-green painted shutters flanking each multi-pane window. Warm amber light spills from the interior through the windows and the open-feeling entry, casting a welcoming glow onto the stone steps and the portico's white columns. The driveway surface is laid in a classic herringbone-pattern cobblestone paver in a warm grey-beige tone, curving in a generous arc from the left foreground toward the house entry at the right. A low concrete circular plinth island anchors the left foreground, surrounded by a neat bed of dark mulch and low rounded boxwood hedges. To the far left stands a large, mature tree with hanging moss-like draping foliage, its bark catching warm ambient light from below. Dense mature deciduous and evergreen trees form a deep backdrop behind the house, their canopy fading into the blue-grey dusk sky. Warm pools of golden light illuminate the paver driveway surface at intervals, washing softly across the herringbone stones without hard shadows, creating a layered rhythm of illumination that draws the eye from the foreground toward the home's entry. A gentle warm glow emanates from low sources near the ground level at the plinth island, warming the base of the landscape bed. The overall palette is warm neutrals — cream, grey-beige stone, dark charcoal roofline — accented by the deep forest green of the shutters and the rich amber warmth of interior and exterior light against the cool blue dusk sky. The mood is formal yet welcoming, quietly cinematic. Camera is positioned at approximately standing eye-level, roughly 5–6 feet, with a moderate wide-to-normal lens character capturing a three-quarter diagonal view of the driveway curving away toward the house. The camera pitches very slightly downward to include the foreground paver surface and plinth base, while keeping the house façade and upper tree canopy fully in frame. The composition places the driveway arc as the leading line from lower-left to upper-right, with the house occupying the right half of the frame and the tree and plinth island anchoring the left. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "amber"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor",
+      "multi_pane_window",
+      "french_door"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:38:34.535Z"
+}

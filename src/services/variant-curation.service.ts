@@ -197,7 +197,18 @@ A "packed" axis is one whose values cram multiple semantic dimensions into a sin
 - "USB, Warm Light, On/Off" → packs Power Source + Light Color + Control Method
 - "Round 40cm white 48W tri-color" → packs Shape + Size + Light Color + Wattage
 - "EU Plug 220V Bluetooth" → packs Region + Voltage + Control Method
+- "Round (8")" → packs Shape + Size
+- "Black walnut large" → packs Material + Size
 Before applying the core test, mentally SPLIT each packed value into its constituent sub-dimensions and treat each sub-dimension as its own axis. Then apply the kill/keep rules to each sub-dimension separately. The output's finalAxes should reflect the cleaned, decomposed structure — NEVER repeat a packed axis verbatim.
+
+SPLIT-BY-DEFAULT RULE (very important):
+Shopify allows up to 3 option axes per product. Whenever a surviving packed axis contains 2+ customer-facing sub-dimensions that EACH pass the core test (e.g. Shape + Size, Material + Size, Color + Finish, Pattern + Size), and splitting them keeps the total axis count at ≤ 3, you MUST split them into separate finalAxes. Do NOT leave shape and size fused as "Shape & Size" / "Style & Size" / etc. just because the supplier sent them packed.
+- Examples of splits you MUST do (assuming axis budget allows):
+  - "Shape & Size" with values like "Round (8")", "Square (9")" → finalAxes ["Shape", "Size"], values ["Round", "Square"] × ["8\"", "9\""]
+  - "Material & Size" with values like "Walnut Large", "Oak Small" → finalAxes ["Material", "Size"]
+  - "Color & Finish" with values like "Brass Brushed", "Brass Polished" → finalAxes ["Color", "Finish"]
+- Only keep a packed-axis name when splitting would push the axis count above 3 AND every sub-dimension passes the core test (rare — usually one sub-dimension can be killed off instead).
+- After splitting, emit each surviving variant's option1/2/3 with the clean, separated values — never re-pack them with delimiters like "/", "·", or parentheses.
 
 THE CORE TEST
 Keep a variant (sub-)axis only if both are true:
@@ -244,7 +255,8 @@ If the input has fewer than ~5 variants total, return mostly as-is — only cut 
 
 VALUE FORMATTING (apply when emitting final option values):
 - Title Case names ("Linen Gray", "Warm White"). Acronyms stay uppercase (LED, USB-C, IP65). Units stay canonical ("30 cm", "5 W", "2,000 mAh"). Lowercase ", tri-color" suffix is allowed.
-- Shape + size: "Round (40 cm)", "Square (50 × 50 cm)", "Rectangle (90 × 60 cm)" — shape outside parens, dimensions inside. Always keep cm; a downstream post-processor converts to inches.
+- Shape and size are ALWAYS separate axes when both pass the core test (see SPLIT-BY-DEFAULT RULE). Shape values are bare ("Round", "Square", "Rectangle"). Size values carry their units inside the same axis ("40 cm", "50 × 50 cm", "90 × 60 cm"). Always keep cm; a downstream post-processor converts to inches.
+- Only fall back to packed "Shape (Size)" format (e.g. "Round (40 cm)") when splitting them would push the axis count above 3 — i.e. only when 3 other axes already survive.
 
 OUTPUT — strict JSON, no commentary, no markdown fences. Return one object with these keys:
 {

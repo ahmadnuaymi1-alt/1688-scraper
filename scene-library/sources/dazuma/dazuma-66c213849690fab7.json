@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-66c213849690fab7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/4-pcs-sensor-wall-lights-outdoor-modern-black-solar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-sensor-wall-lights-outdoor-house-exterior.jpg?v=1775700612",
+  "scraped_date": "2026-05-21T12:03:52.386Z",
+  "source_title": "4 PCS Sensor Wall Lights Outdoor Modern Black Solar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Motion Sensor Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "66c213849690fab7ba73c1ced8206d688824e6d4",
+  "description": "A rooftop terrace or balcony of a contemporary flat-roofed home at dusk. The building facade is smooth exterior plaster in a pale warm greige, and the terrace floor is laid with large-format pale grey stone tiles over which a natural jute area rug is placed. A modular outdoor sofa in light grey weather-resistant fabric sits against the wall with a single deep brown throw pillow. At the right side of the terrace, a large rough-textured ceramic garden vessel in a worn white-cream finish stands directly on the tile floor. A small round solid wood side table in natural walnut tone sits to the left in front of the sofa, holding two small ceramic bowls and a tiny teal ceramic vessel. A slim glass railing on the terrace perimeter reveals a residential rooftop and tree line in the middle distance under the blue-grey dusk sky. Through the wide black-framed sliding glass door, an interior living space is visible — a glimpse of a bookshelf lit with warm amber interior light and a sofa, with sheer white curtains drawn loosely to one side. Two diverging beams of warm golden light fan downward across the facade from a single position on the wall to the right of the door opening, grazing the smooth plaster surface and illuminating the terrace immediately below. Camera is at standing eye-level, three-quarter view of the terrace corner, with the house facade occupying the right half of the frame and the seating area the left. Mood is quiet and serene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "plaster"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.349Z"
+}

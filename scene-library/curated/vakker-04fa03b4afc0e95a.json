@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-04fa03b4afc0e95a",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-04fa03b4afc0e95a.png",
+  "source_url": "https://vakkerlight.com/products/adjustable-travertine-dome-vanity-light",
+  "description": "A bathroom vanity vignette photographed at seated eye-level, approximately three to four feet above the floor, using a normal to slight telephoto lens character. The composition is centered and symmetrical, with the circular wood-framed mirror as the dominant architectural focal point anchoring the upper two-thirds of the frame. The camera is level, pitched neither up nor down, capturing a tight vignette of a single vanity wall rather than a full room.\n\nThe wall behind the mirror is clad in large-format travertine or limestone-style stone tiles in warm sandy beige and taupe tones, with visible natural veining and porous texture that reads as ancient and tactile. The tiles are laid in a uniform grid pattern and fill the entire visible wall surface, contributing a raw, geological quality to the space.\n\nThe mirror itself has a substantial circular wooden frame in a warm medium-toned wood — likely mango or teak — with visible grain and a slightly rough, organic character consistent with a natural edge or lightly distressed finish. The mirror is generous in diameter, commanding the wall and reflecting a soft, warm interior glimpse of the room beyond.\n\nThe vanity cabinet below is a freestanding-style piece in reclaimed or heavily grained walnut-tone wood with raised panel door fronts and a single central drawer, all fitted with antique brass pulls and knobs. The countertop surface appears to be a warm wood or stone tone continuous with the cabinet. The faucet set is a widespread configuration in burnished antique brass with lever handles, lending a traditional but refined character.\n\nOn the left side of the countertop, three linen towels are folded and stacked neatly — in a warm oatmeal and greige palette — contributing softness and domesticity. On the right side, a styled cluster of bathroom accessories occupies the surface: a small woven basket organizer in natural fiber, a cylindrical clear glass jar filled with cotton swabs, a small ceramic or stone soap dish holding a bar of soap, a pump-top lotion bottle in matte packaging, and a terracotta or concrete planter holding a lush green fern with delicate fronds arching outward. A warm golden glow washes downward across the top of the mirror frame and diffuses softly across the upper wall surface, creating a warm halo effect that separates the mirror from the stone wall and adds depth. Additional gentle illumination touches the countertop surface from above.\n\nThe overall atmosphere is serene and organic — a spa-adjacent warmth achieved through layered natural materials: stone, wood, brass, linen, and living greenery. The color palette is entirely earth-toned with no cool or saturated accents. A wooden door or cabinet edge is faintly visible at the far left of the frame, reinforcing the warm wood language of the space.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

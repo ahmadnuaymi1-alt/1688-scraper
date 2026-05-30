@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-5ad805f6bfde7dd2",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-5ad805f6bfde7dd2.jpg",
+  "source_url": "https://dazuma.us/products/colored-glass-table-lamp-french-style-multi-light-lamp",
+  "description": "A compact dining nook rendered in soft warm neutrals with a quietly playful sensibility. The architecture is understated — smooth plaster walls in a pale greige-beige tone meet at a right-angle corner, with no applied molding or trim. A tall, diffused natural light source at the left edge of the frame casts a broad, even wash of daylight across the wall, softening shadows throughout the space. In the foreground sits a round dining table with a light natural oak top and slender tapered legs, accompanied by three terracotta-red velvet side chairs with curved, low backs and subtle barrel silhouettes. Behind the table, a low marble-topped console — white Carrara marble with fine grey veining on a pale frame — holds a small stack of hardcover books in muted beige and grey tones. The overall color palette is warm and restrained: pale greige walls, light oak wood, dusty terracotta upholstery, and white marble, with vivid magenta, green, and white glass globes providing sharp accents of saturated color that pop against the neutral ground. The floor is not visible. Camera is at standing eye-level, shooting in a three-quarter view into the corner of the room, capturing both walls and the full depth of the console behind the round table. A normal to slightly telephoto lens keeps the perspective relaxed without distortion. The composition is off-center, weighted to the left, with generous negative space on the right wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

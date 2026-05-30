@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-924ace3ac4e6ef5f",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-924ace3ac4e6ef5f.jpg",
+  "source_url": "https://dazuma.us/products/bollard-solar-lights-outdoor-mosquito-killer-waterproof-light",
+  "description": "A residential garden path scene photographed at deep dusk or early night. The path is composed of wide rectangular pale gray or limestone-colored concrete paving stones, with dark grout gaps, running from the bottom-left of the frame toward the background. On either side of the path, a lush green maintained lawn is edged with low ornamental plantings — compact flowering shrubs, and on the right, tall feathery ornamental grasses with seed heads catching the ambient light. The foreground prominently features a tall black square post-mounted bollard or pillar fixture standing on the right side of the path, emitting a very warm amber glow through clear or textured glass panels framed in intricate black metalwork with Gothic arch-shaped pane dividers, creating a warm sparkle effect. The amber light casts a pool onto the surrounding lawn and path edge. A second similar fixture glows farther back along the path, smaller in the perspective recession. To the right, a contemporary building facade in warm beige or sand-tone stacked stone is visible with a horizontal warm amber accent strip of cove or soffit lighting running along its upper edge. Dark mature trees are silhouetted against the deep dusk blue-gray sky in the background left. The mood is formal and residential. The camera is at seated to standing height, approximately 4–5 feet, with a normal lens. The composition is a three-quarter off-center view along the garden path, with the near bollard positioned in the left-center of the frame and the path leading the eye into depth. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

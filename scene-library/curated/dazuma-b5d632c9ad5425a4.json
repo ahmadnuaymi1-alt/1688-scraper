@@ -1,0 +1,37 @@
+{
+  "scene_id": "dazuma-b5d632c9ad5425a4",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b5d632c9ad5425a4.jpg",
+  "source_url": "https://dazuma.us/products/candles-chandelier-american-retro-style-metal-ceiling-light",
+  "description": "A grand farmhouse living room with a soaring cathedral ceiling clad in wide reclaimed wood planks in a weathered grey-brown tone, supported by heavy exposed timber cross beams. The walls are smooth warm plaster in a creamy off-white. On both sides of the room, black-framed multi-pane casement windows fitted with white woven roman shades let in bright daytime light. On the far right, a full-height black steel-framed glass door or window provides additional light. An arched doorway is partially visible at the far left. The fireplace wall at center is flanked by the two windows, with a white-plastered chimneybreast and simple surround. A flatscreen television is mounted above the mantel. A large U-shaped sofa in white or cream linen fabric with multiple cushions occupies the center of the room. Two matching upholstered armchairs in cream flanking a round drum coffee table in pale natural oak complete the seating arrangement. The coffee table is styled with a large white ceramic vase of white lily blooms, a round low bowl in putty, and several art books. Behind the sofa, a long low media console in light oak with panel doors and open cubby shelving holds books, bowls, and small ceramic vessels. A flat natural wool rug in ivory grounds the whole arrangement. The atmosphere is warm and airy — architectural grandeur softened by natural linen and warm wood. Camera is at standing eye-level, shooting with a wide lens from the far end of the room in a centered symmetrical composition that captures the full vaulted ceiling, fireplace, and seating group. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "exposed_beams",
+      "arched_doorway",
+      "fireplace",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,28 +1,29 @@
 /**
  * Lifestyle Image Creator — Mode A (local DB) only.
  *
- * v2: drives Higgsfield's web UI via Playwright (mirrors the hero-image-creator
- * flow). Replaces the v1 kie.ai / Nano Banana Pro API path entirely.
+ * v3: drives the official Higgsfield CLI (`higgsfield generate create
+ * nano_banana_2 …`) for each scene. Replaces the v2 Playwright path entirely.
+ * Scene prompt design, variant rotation, idempotency-by-hero-pool, and DB
+ * attach are unchanged from v2.
  *
  * Per invocation:
- *   1. Resolve product + visible variants + the hero pool (one hero per unique
- *      reference variant — distinct storagePaths).
- *   2. Gate: bail if zero heroes — "Run /hero-image-creator first".
- *   3. Pick 6 reference variants by cycling through the hero pool.
- *   4. Ask Claude to design 6 unique Dazuma-aesthetic scene prompts, one per
+ *   1. Resolve product + visible variants + the hero pool (one entry per
+ *      unique reference image — distinct storagePaths).
+ *   2. Pick 6 reference variants by cycling through the hero pool.
+ *   3. Ask Claude to design 6 unique Dazuma-aesthetic scene prompts, one per
  *      slot, each tied to the variant chosen for that slot.
- *   5. Download each picked variant's hero file to a temp dir.
- *   6. Drive Higgsfield in PARALLEL — each tab gets one scene prompt + that
- *      slot's variant hero as the single reference image.
- *   7. Upload each output PNG to Supabase under `lifestyle/{productId}/<slug>.png`
+ *   4. Download each picked variant's hero file to a temp dir.
+ *   5. Fire 6 Higgsfield CLI generations in parallel (concurrency-capped) —
+ *      each gets one scene prompt + that slot's variant hero as the single
+ *      reference image (no positioning template — that's a hero-shot thing).
+ *   6. Upload each output PNG to Supabase under `lifestyle/{productId}/<slug>.png`
  *      and create a `ProductImage` row with `imageType="lifestyle"`,
- *      `variantId: null`, `sourceReferenceUrl` pointing back at the variant
- *      hero used as the reference (for audit).
+ *      `variantId: null`.
  *
  * Usage:
  *   npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl>
  *   npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> --multi-unit 3
- *   npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> --headed --keep-open
+ *   npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> --concurrency 3
  *
  * Auto-loads .env.local. See .claude/skills/lifestyle-image-creator/SKILL.md.
  */
@@ -30,10 +31,19 @@
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import { spawn } from "node:child_process";
 import { PrismaClient } from "@prisma/client";
 import { createClient } from "@supabase/supabase-js";
-import { runHiggsfieldBatch } from "./_higgsfield-lifestyle";
-import { designLifestyleScenes } from "../src/services/lifestyle-scene-designer.service";
+import { runHiggsfieldCliBatch } from "./_higgsfield-cli";
+import {
+  designLifestyleScenes,
+  classifyCategory,
+  typeLeaf,
+} from "../src/services/lifestyle-scene-designer.service";
+import {
+  decideUnitCounts,
+  type LifestyleUnitMode,
+} from "../src/services/lifestyle-unit-mix.service";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Env loader
@@ -77,18 +87,21 @@ interface Args {
   /** --multi-unit-mix: vary the unit count (2-4) across the 6 scenes. */
   multiUnitMix: boolean;
   dryRun: boolean;
-  headed: boolean;
-  keepOpen: boolean;
-  sequential: boolean;
-  queued: boolean;
+  /** Parallel CLI invocations. Default 6 (all 6 scenes at once). Set to 1
+   *  for fully sequential. */
+  concurrency: number;
   only: number | null;
+  /** Skip the standard 1-closeup-after-lifestyles step. Default is to
+   *  ALWAYS generate one close-up after lifestyles complete (the standard
+   *  rule). Use `--no-closeup` to opt out (e.g. retry-only flows). */
+  noCloseup: boolean;
 }
 
 function parseArgs(): Args {
   const args = process.argv.slice(2);
   if (args.length === 0) {
     console.error(
-      "Usage: npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> [--multi-unit N] [--multi-unit-mix] [--dry-run] [--headed] [--keep-open] [--sequential] [--queued] [--only=N]",
+      "Usage: npx tsx scripts/_lifestyle-image-creator.ts <productIdOrUrl> [--multi-unit N] [--multi-unit-mix] [--dry-run] [--concurrency N] [--only=N]",
     );
     process.exit(1);
   }
@@ -96,11 +109,9 @@ function parseArgs(): Args {
   let multiUnit: number | null = null;
   let multiUnitMix = false;
   let dryRun = false;
-  let headed = false;
-  let keepOpen = false;
-  let sequential = false;
-  let queued = false;
+  let concurrency = 6;
   let only: number | null = null;
+  let noCloseup = false;
   for (let i = 0; i < args.length; i++) {
     const a = args[i];
     if (a === "--multi-unit-mix") {
@@ -114,11 +125,15 @@ function parseArgs(): Args {
         multiUnit = 3;
       }
     } else if (a === "--dry-run") dryRun = true;
-    else if (a === "--headed") headed = true;
-    else if (a === "--keep-open") keepOpen = true;
-    else if (a === "--sequential") sequential = true;
-    else if (a === "--queued") queued = true;
-    else if (a.startsWith("--only=")) {
+    else if (a === "--no-closeup") noCloseup = true;
+    else if (a === "--concurrency") {
+      const next = args[i + 1];
+      const n = parseInt(next ?? "", 10);
+      if (Number.isFinite(n) && n > 0) {
+        concurrency = n;
+        i++;
+      }
+    } else if (a.startsWith("--only=")) {
       const n = parseInt(a.slice("--only=".length), 10);
       if (Number.isFinite(n) && n > 0) only = n;
     } else if (!input) input = a;
@@ -127,7 +142,7 @@ function parseArgs(): Args {
     console.error("Missing <input> argument.");
     process.exit(1);
   }
-  return { input, multiUnit, multiUnitMix, dryRun, headed, keepOpen, sequential, queued, only };
+  return { input, multiUnit, multiUnitMix, dryRun, concurrency, only, noCloseup };
 }
 
 function detectProductId(input: string): string {
@@ -188,8 +203,7 @@ async function downloadToFile(url: string, destPath: string): Promise<void> {
 // Main
 // ─────────────────────────────────────────────────────────────────────────────
 async function main() {
-  const { input, multiUnit, multiUnitMix, dryRun, headed, keepOpen, sequential, queued, only } =
-    parseArgs();
+  const { input, multiUnit, multiUnitMix, dryRun, concurrency, only, noCloseup } = parseArgs();
   const productId = detectProductId(input);
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -230,7 +244,7 @@ async function main() {
   // created it. The rest of main() uses `prisma` directly.
   const prisma = getPrisma();
 
-  console.log(`Lifestyle Image Creator (Higgsfield) — ${product.title.slice(0, 60)}`);
+  console.log(`Lifestyle Image Creator (Higgsfield CLI) — ${product.title.slice(0, 60)}`);
   console.log(
     `Mode: ${multiUnitMix ? "multi-unit (varied 2-4 per image)" : multiUnit ? `multi-unit (${multiUnit} per image)` : "single-unit"}${
       dryRun ? " — DRY RUN (no Higgsfield calls)" : ""
@@ -281,23 +295,55 @@ async function main() {
       `  ref ← variant pos ${v.position} | ProductImage ${img.id} | type=${img.imageType ?? "null"} | ${img.fileName ?? img.storagePath ?? img.sourceUrl}`,
     );
   }
+  // Variantless fallback: if the product has zero variants (user clicked
+  // "Remove all variants" or scrape returned 0), the loop above yielded
+  // nothing. Use a generated product-level hero if one exists, else the
+  // lowest-position scraped image. Same single reference cycles into all
+  // 6 slots, matching the single-variant behavior.
+  if (heroPool.length === 0 && product.variants.length === 0) {
+    const variantlessHero = product.images.find(
+      (img) =>
+        (img.imageType === "hero" || img.imageType === "hero-flat") && !img.variantId,
+    );
+    const primary = [...product.images]
+      .filter((img) => img.imageType !== "hero" && img.imageType !== "hero-flat")
+      .sort((a, b) => a.position - b.position)[0];
+    const img = variantlessHero ?? primary;
+    if (img) {
+      heroPool.push({
+        variantId: "",
+        variantPosition: 0,
+        variantTitle: product.title,
+        storagePath: img.storagePath || "",
+        sourceUrl: img.storagePath
+          ? publicSupabaseUrlFromPath(img.storagePath)
+          : img.sourceUrl,
+      });
+      console.log(
+        `  ref ← variantless product | ProductImage ${img.id} | type=${img.imageType ?? "null"} | ${img.fileName ?? img.storagePath ?? img.sourceUrl}`,
+      );
+    }
+  }
+
   if (heroPool.length === 0) {
     console.error(
-      "No reference image found for any visible variant on this product.",
+      "No reference image found — add a gallery image to the product first.",
     );
     process.exit(1);
   }
-  console.log(
-    `Unique reference pool: ${heroPool.length} variant reference(s) — will cycle to ${COUNT} slots.`,
-  );
 
-  // ── Pick the 6 references (cycling through the pool).
-  // Size-anchor / second-reference behavior was removed — only the variant hero
-  // is attached per scene. A prior lifestyle as size-anchor confused the image
-  // model when variants had different form factors (e.g. a tall floor-lamp
-  // variant rendering at table-lamp scale because the anchor was a table-lamp).
+  // ── Slot assignment. When the hero pool already contains ≥6 unique references,
+  //    use the first 6 directly (one variant per slot — no repeats) so the
+  //    gallery showcases the full range. Otherwise cycle the pool as before.
+  const useUniquePerSlot = heroPool.length >= COUNT;
+  console.log(
+    `Unique reference pool: ${heroPool.length} variant reference(s) — ` +
+      (useUniquePerSlot
+        ? `using first ${COUNT} as one-per-slot (no cycling).`
+        : `cycling to ${COUNT} slots.`),
+  );
   const slots = Array.from({ length: COUNT }).map((_, i) => {
-    const ref = heroPool[i % heroPool.length];
+    const ref = useUniquePerSlot ? heroPool[i] : heroPool[i % heroPool.length];
     return {
       slotIndex: i,
       variantPosition: ref.variantPosition,
@@ -306,14 +352,37 @@ async function main() {
     };
   });
 
+  // ── Per-slot unit counts. CLI overrides (--multi-unit / --multi-unit-mix)
+  //    win first; otherwise the product's stored `lifestyleUnitMode` ("auto"
+  //    by default, or "single" / "multi" if the user has set it on the review
+  //    page) feeds the unit-mix policy.
+  const category = classifyCategory(`${product.title} ${typeLeaf(product.productType)}`);
+  const userOverridesUnitCount = multiUnit !== null || multiUnitMix;
+  const productMode = (product.lifestyleUnitMode ?? "auto") as LifestyleUnitMode;
+  const unitCounts: (number | undefined)[] = userOverridesUnitCount
+    ? Array(COUNT).fill(undefined)
+    : Array(COUNT).fill(1);
+  if (!userOverridesUnitCount) {
+    console.log(
+      `  Category=${category}  mode=${productMode}  per-slot unit counts: [${unitCounts.join(", ")}]`,
+    );
+  }
+  const refsForDesigner = slots.map((s, i) => ({
+    slotIndex: s.slotIndex,
+    variantPosition: s.variantPosition,
+    variantTitle: s.variantTitle,
+    unitCount: unitCounts[i],
+  }));
+
   // ── Ask Claude to design 6 unique scene prompts.
   console.log(`Asking Claude to design ${COUNT} unique Dazuma-aesthetic scenes...`);
   const designed = await designLifestyleScenes({
+    productId,
     productTitle: product.title,
     productType: product.productType ?? null,
     unitCount: multiUnit ?? (multiUnitMix ? 3 : 1),
     unitCountVaried: multiUnitMix,
-    references: slots,
+    references: refsForDesigner,
     hasSizeReference: false,
   });
   const scenes = designed.scenes;
@@ -370,26 +439,20 @@ async function main() {
     console.log(`(--only=${only}) limiting to first ${limitedPrompts.length} of ${promptItems.length}`);
   }
 
-  // ── Drive Higgsfield. Each prompt sends ONE reference image (the variant
-  //    hero). No positioning template — that's a hero-shot thing. Sequential
-  //    mode (one tab at a time) is the workaround for Higgsfield's anti-bot
-  //    "Verification Required" wall that triggers on 6 parallel Generate
-  //    bursts; parallel is faster when the account isn't flagged.
+  // ── Drive Higgsfield CLI. Each prompt sends ONE reference image (the
+  //    variant hero). No positioning template — that's a hero-shot thing.
+  //    Concurrency=6 fires all scenes simultaneously; drop it lower to throttle.
   console.log(
-    `\nFiring ${limitedPrompts.length} Higgsfield jobs ${sequential ? "sequentially" : "in parallel"}...`,
+    `\nFiring ${limitedPrompts.length} Higgsfield CLI jobs (concurrency=${concurrency})...`,
   );
-  const { ok, fail } = await runHiggsfieldBatch({
-    referenceImage: limitedPrompts[0].referenceImages[0],
+  const { ok, fail } = await runHiggsfieldCliBatch({
     prompts: limitedPrompts.map((p) => ({
       slug: p.slug,
       text: p.text,
       referenceImage: p.referenceImages,
     })),
     outDir: OUT_DIR,
-    forceHeaded: headed,
-    keepOpen,
-    parallel: !sequential,
-    queued,
+    concurrency,
   });
   const wallTime = ((Date.now() - t0) / 1000).toFixed(1);
   console.log(
@@ -443,6 +506,41 @@ async function main() {
     `Attached ${attached}/${limitedPrompts.length} lifestyles. Total wall time: ${totalElapsed}s.`,
   );
   console.log(`Review URL: http://localhost:3000/review/${productId}`);
+
+  // Standard rule: every lifestyle run also produces 1 close-up. We spawn
+  // _hf-cli-bulk-closeups.ts (--count 1) here so the existing close-up
+  // pipeline owns its own retry / idempotency logic — keeping this script
+  // single-responsibility. `--no-closeup` opts out for retry-only flows.
+  if (!noCloseup && attached > 0) {
+    console.log(`\n--- closeup step (standard 1-closeup-per-lifestyle-run rule) ---`);
+    const cuStart = Date.now();
+    const cuCode = await new Promise<number>((resolve) => {
+      const proc = spawn(
+        "npx",
+        [
+          "tsx",
+          "scripts/_hf-cli-bulk-closeups.ts",
+          "--products",
+          productId,
+          "--count",
+          "1",
+        ],
+        { stdio: "inherit", shell: true },
+      );
+      proc.on("close", (code) => resolve(code ?? -1));
+      proc.on("error", (err) => {
+        console.error(`closeup spawn err: ${err.message}`);
+        resolve(-1);
+      });
+    });
+    const cuSec = ((Date.now() - cuStart) / 1000).toFixed(1);
+    console.log(`closeup step done in ${cuSec}s (exit ${cuCode})`);
+  } else if (noCloseup) {
+    console.log(`Skipping closeup step (--no-closeup).`);
+  } else {
+    console.log(`Skipping closeup step (no lifestyles attached).`);
+  }
+
   console.log(`\n========== RUN_COMPLETE ==========`);
 
   await prisma.$disconnect();

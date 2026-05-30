@@ -63,15 +63,25 @@ export async function POST(
     categories = [parsed.category as RuleCategory];
   }
 
+  // BLOCKING: was fire-and-forget (returned 202 + `void reapplyRules(...)`),
+  // but Next.js dev mode kills detached promises on HMR, so the rule never
+  // ran to completion AND the client had no way to know when to refresh the
+  // UI. Now we await — the client gets a real success/failure response and
+  // can refresh once the DB is actually up-to-date.
   try {
     await reapplyRules(id, categories);
-    return NextResponse.json({
-      ok: true,
-      categories: categories ?? "all",
-    });
   } catch (err) {
-    const message = err instanceof Error ? err.message : "Reapply rules error";
     console.error(`[api/products/${id}/reapply-rules] error:`, err);
-    return NextResponse.json({ error: message }, { status: 500 });
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Re-apply failed" },
+      { status: 500 },
+    );
   }
+  return NextResponse.json({
+    status: "done",
+    categories: categories ?? "all",
+  });
 }
+
+// LLM-driven rules can be slow; bump the prod (Vercel) cap.
+export const maxDuration = 300;

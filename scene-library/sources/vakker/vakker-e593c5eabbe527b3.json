@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-e593c5eabbe527b3",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/square-alabaster-staircase-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Square_Alabaster_Staircase_Chandelier__6.jpg?v=1779024726",
+  "scraped_date": "2026-05-21T12:08:46.647Z",
+  "source_title": "Square Alabaster Staircase Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 800,
+  "height": 800,
+  "content_sha1": "e593c5eabbe527b3c87bb984662b8be160d1deb8",
+  "description": "A refined dining area photographed at standing eye-level with a normal lens, framing a wide establishing view of the dining surface and the wall behind it. The composition is centered and symmetrical, with three descending warm glowing forms hanging evenly spaced across the upper third of the frame. A long rectangular dining table in pale veined marble sits on a brass base, its cool stone surface glowing softly under the warm emanations above. Atop the table, a small crystal candleholder in silver, a geometric brass wire triangular sculpture, a clear glass globe vessel, and a white ceramic plate occupy the surface with spare, considered placement. At the far right edge, a domed brass accent piece and the rounded corner of a cobalt blue upholstered dining chair introduce color contrast. A second cobalt blue chair back is partially visible, tying the seating into the composition. The wall behind is smooth plaster in a light cool gray, entirely unadorned, allowing the warm amber radiance descending from above to take visual focus. The floor is not visible. The overall palette is cool neutral with warm amber glow and cobalt blue accents. The mood is quiet and formal, leaning into a Parisian-minimalist register. The scene carries low object density — only four or five curated pieces on the tabletop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.240Z"
+}

@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-017ee712214dc4d9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-outdoor-sconces-european-style-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_08565f7f-b79d-44b5-a9b7-c01845672edd.jpg?v=1773886751",
+  "scraped_date": "2026-05-21T12:04:57.396Z",
+  "source_title": "Solar Outdoor Sconces European-Style Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "017ee712214dc4d98ce104719cb016bb5af03b4b",
+  "description": "An exterior residential entry porch photographed at standing eye-level with a normal-to-slightly-telephoto lens, framed in a centered symmetrical composition. The camera faces the entry straight-on, level pitch, capturing the full width of the porch alcove from threshold to back wall — both flanking side walls visible, the ceiling cropped just above frame, and the stone-paved floor anchoring the bottom third.\n\nThe architecture is clean Mediterranean-influenced stucco construction, rendered in a warm greige-white plaster — smooth, matte, and pristine. The dominant feature of the frame is a pair of French double-entry doors painted in a soft warm greige-taupe, with six-over-two lite configurations: six tall glass panes in the upper two-thirds and a single raised-panel wood panel below. The door hardware is matte black — lever-style handles and a deadbolt — sitting flush and refined against the painted surface. The door surround is a simple flat casing in the same greige-taupe as the doors, creating a monolithic, architectural quality. Through the glass panes, a glimpsed courtyard scene is visible: dense mature oak canopy catching afternoon light, clipped boxwood hedging along a garden wall, and the warm reflection of a sun-drenched exterior beyond.\n\nTo the left of the doors, the plaster wall is punctuated by a vertical copper downspout pipe with a warm oxidized patina — raw, utilitarian, and quietly beautiful against the pale stucco. A small white rectangular device (likely a doorbell or sensor) is mounted low on the same wall.\n\nAt the base of the left wall, a large antique-finish concrete urn planter with looped side handles sits directly on the stone floor. It is filled with a loosely mounded Mediterranean herb shrub — likely thyme or rosemary — with fine-textured grey-green foliage spilling informally over the vessel's rim. In the lower-left foreground corner, the tight rounded forms of clipped boxwood balls are partially visible, adding a formal counterpoint to the loose planting.\n\nThe floor is laid in large-format natural stone pavers — likely travertine or limestone — in a warm buff and cream palette, with irregular veining and hand-cut edges giving them an aged, European character. The grout joints are wide and sandy in tone.\n\nThe light in the scene is mid-afternoon directional sun, casting deep, dappled shadow patterns across the stucco wall from the tree canopy beyond the door — a shifting lattice of leaf shadow that animates the flat plaster surface. A warm, concentrated glow emanates from the wall-mounted position to the left of the doors, pooling softly against the plaster and casting a gentle warmth downward onto the top of the planter and the stone floor below. The overall mood is serene, sun-warmed, and quietly elegant — a European country house filtered through a refined California lens.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "french_door",
+      "multi_pane_window",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:27:49.589Z"
+}

@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-d695e324696ebabd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/light-pole-bollard-modern-outdoor-garden-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_82759929-16ff-453d-a265-9296b34d049a.jpg?v=1774175053",
+  "scraped_date": "2026-05-21T12:04:46.441Z",
+  "source_title": "Light Pole Bollard Modern Outdoor Garden Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Bollard Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d695e324696ebabdf11cde2a4d831bcbc82646d9",
+  "description": "A dramatic contemporary residential entryway exterior photographed at golden dusk. The home's facade is composed of large-scale rough-cut natural fieldstone in cool gray and charcoal tones, giving a rugged, high-end organic texture. A substantial pivot front door in rich stained walnut or dark espresso wood is framed by matte black metal surrounds and fitted with a long vertical pull bar in matching dark metal. To the right of the door, a sidelight window is set into the stone with a black metal frame; its frosted glass captures the warm amber glow of the late-day sky, suggesting tree silhouettes beyond. An overhanging roof canopy of horizontal tongue-and-groove wood planking in deep honey oak extends above the entry zone, adding warmth against the cool stone. The ground-level porch floor is large-format slate or charcoal tile laid in a running bond pattern. A large square planter box in matte black holds a dramatic tropical Colocasia (elephant ear) plant with massive deep-green leaves that almost touch the stone wall. Warm amber light radiates from the wall to the left of the door, casting a rich diagonal glow onto the stone surface. Camera is at standing eye-level, straight-on composition centered on the door, showing the stone wall, overhanging wood canopy, planter, and sidelight window simultaneously. The palette is earth tones — stone gray, walnut, slate — with deep green from the tropical plant. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.870Z"
+}

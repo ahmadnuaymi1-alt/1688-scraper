@@ -1,0 +1,117 @@
+{
+  "productId": "cmph9mh6q0107w20go0aba8rp",
+  "productTitle": "轻奢琥珀玻璃层叠吸顶灯 实木纹顶座  LED灯北欧风卧室阳台走廊灯",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-23T08:25:51.747Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "enclosed-balcony-minimal",
+      "mode": "minimalist",
+      "prompt": "A small enclosed sun-balcony off a primary bedroom, framed 1:1, shot on a 35mm at low standing height looking up toward the corner where wall meets ceiling so the flush mount sits in the upper-third of the frame. Late-morning side light comes through a steel-framed casement window stage left, raking across a charcoal limewash plaster wall with mottled tonal depth. A pale-oak floor below, a low linen-upholstered reading chair angled toward the window, a raw-clay floor pot holding a small kumquat tree just inside the frame, and a folded mohair throw on the chair arm. The fixture matches the reference image exactly — small drum of clear cylindrical glass over a black metal canopy with the ribbed clear inner diffuser, switched ON with a soft warm 2700–3000K glow halo spreading across the ceiling. Palette: charcoal, oat linen, warm oak, soft kumquat-orange, glass clear. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "enclosed sun-balcony off bedroom",
+      "designStyle": "Italian minimalist",
+      "wallColour": "charcoal limewash plaster",
+      "cameraAngle": "35mm low standing looking up to ceiling corner",
+      "timeOfDay": "late morning",
+      "accents": [
+        "linen reading chair",
+        "raw-clay pot with kumquat tree",
+        "folded mohair throw",
+        "steel-framed casement window"
+      ]
+    },
+    {
+      "slug": "attic-guest-bedroom-homey",
+      "mode": "homey",
+      "prompt": "A cosy attic guest bedroom tucked under a sloped natural-pine plank ceiling, framed 1:1, shot on a 50mm at standing height in a three-quarter orientation so the flush mount sits where the slope meets the flat ceiling above an iron-frame bed. Evening, with a warm secondary glow from a small ceramic bedside lamp on a walnut nightstand. Ivory plaster walls, the bed dressed in a softly rumpled ticking-stripe quilt over linen sheets, a woven seagrass basket of folded blankets at the foot, a stoneware jug of dried wheat on the nightstand, and a small leaning framed botanical print propped against the wall. The fixture matches the reference image exactly — amber-tinted glass drum cinched with a slim band around its midline over a walnut wood-grain canopy with ribbed clear inner diffuser, switched ON with a soft warm 2700–3000K glow that pools across the pine planks. Palette: ivory, honey pine, walnut, soft amber, wheat-tan. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "attic guest bedroom",
+      "designStyle": "warm rustic cottage",
+      "wallColour": "ivory plaster with natural pine sloped ceiling",
+      "cameraAngle": "50mm standing three-quarter",
+      "timeOfDay": "evening",
+      "accents": [
+        "iron-frame bed",
+        "ticking-stripe quilt",
+        "woven seagrass basket",
+        "stoneware jug of dried wheat",
+        "leaning botanical print"
+      ]
+    },
+    {
+      "slug": "powder-room-navy-minimal",
+      "mode": "minimalist",
+      "prompt": "A jewel-box powder room, framed 1:1, shot on a 50mm straight-on at chest height looking toward a small antique-brass-framed round mirror over a floating stone vanity. Evening, the room's only other light a slim brass picture light grazing a small abstract panel beside the mirror. The lower two-thirds of the wall is inky navy beadboard wainscot capped by a slim oak rail; above it, a warm taupe plaster picks up the fixture's halo. A honed travertine basin sits on the vanity with a slim brass arc faucet, a marquetry inlaid box at one corner, a single white tulip in a clear bud vase, and a hand-folded linen guest towel draped over the rail. The fixture matches the reference image exactly — clear cylindrical glass drum with ribbed clear inner column over a brushed nickel canopy, switched ON with a soft warm 2700–3000K glow reflecting off the polished basin and mirror. Palette: inky navy, warm taupe, travertine cream, brushed nickel, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "powder room",
+      "designStyle": "contemporary jewel-box Parisian",
+      "wallColour": "inky navy beadboard with warm taupe plaster above",
+      "cameraAngle": "50mm straight-on at chest height",
+      "timeOfDay": "evening",
+      "accents": [
+        "travertine vessel basin",
+        "brass arc faucet",
+        "marquetry inlaid box",
+        "white tulip in bud vase",
+        "linen guest towel"
+      ]
+    },
+    {
+      "slug": "mudroom-olive-homey",
+      "mode": "homey",
+      "prompt": "A tucked-in mudroom / boot room off a side entry, framed 1:1, shot on a 35mm at standing height in a three-quarter orientation looking into the corner where a bench meets a row of oak peg hooks; the flush mount sits centred in the ceiling above. Late afternoon, with cool daylight raking in from an unseen side window and pooling on the floor. Mossy olive board-and-batten covers the lower two-thirds of the wall, warm cream plaster above; a pale-oak bench beneath the pegs with a linen cushion, a softly worn linen barn-jacket hanging on a peg, a chunky terracotta pot of a flowering geranium on the floor, a small ceramic catch-all dish of brass keys on the bench, and a jute runner underfoot. The fixture matches the reference image exactly — clear cylindrical glass drum with ribbed clear inner diffuser over a black metal canopy, switched ON with a soft warm 2700–3000K glow washing the olive panelling. Palette: mossy olive, warm cream, oak honey, geranium coral, jute tan. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "mudroom / boot room",
+      "designStyle": "English country",
+      "wallColour": "mossy olive board-and-batten with cream plaster above",
+      "cameraAngle": "35mm three-quarter standing into corner",
+      "timeOfDay": "late afternoon",
+      "accents": [
+        "pale-oak peg bench",
+        "linen barn jacket on peg",
+        "terracotta pot of flowering geranium",
+        "ceramic catch-all dish with brass keys",
+        "jute runner"
+      ]
+    },
+    {
+      "slug": "coffee-bar-nook-homey",
+      "mode": "homey",
+      "prompt": "A compact apartment coffee bar nook tucked into the end of a galley kitchen, framed 1:1, shot on a 35mm at counter height in a three-quarter orientation; the flush mount glows in the upper-third of the frame above a narrow walnut counter. Golden-hour light spills from a side window into a dusty rose-clay plaster wall, warming the whole vignette; the room's secondary glow is a small under-shelf LED strip beneath a walnut floating shelf. On the counter: a brass stovetop moka pot, two stacked cream stoneware mugs, a clear glass jar of fresh rosemary, a short stack of cloth-bound recipe books, and a small ceramic pitcher holding a single magnolia stem. The fixture matches the reference image exactly — amber-tinted glass drum with the slim mid-band over a walnut wood-grain canopy and ribbed clear inner diffuser, switched ON with a soft warm 2700–3000K glow that lifts the rose plaster. Palette: dusty rose-clay, walnut, cream, soft amber, brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "apartment coffee bar nook",
+      "designStyle": "warm transitional",
+      "wallColour": "dusty rose-clay plaster",
+      "cameraAngle": "35mm counter-height three-quarter",
+      "timeOfDay": "golden hour",
+      "accents": [
+        "brass moka pot",
+        "stacked cream stoneware mugs",
+        "jar of fresh rosemary",
+        "cloth-bound recipe books",
+        "magnolia stem in small pitcher"
+      ]
+    },
+    {
+      "slug": "spa-bathroom-dove-minimal",
+      "mode": "minimalist",
+      "prompt": "A small spa bathroom, framed 1:1, shot on a 50mm from low across a travertine vanity slab looking up toward the ceiling so the flush mount sits in the upper-third and its halo plays on the wall above the vanity. Early morning, with cool daylight from an unseen frosted side window providing the secondary glow. The wall is pale dove-gray limewash with mottled depth, the vanity a single honed travertine slab on a slim oak base. Styled with: two rolled raw-linen towels, a hand-thrown stoneware soap dish, a small footed brass tray holding a smooth river stone, a smoke-glass tumbler with a single bare cherry branch, and a folded waffle face cloth at the edge. The fixture matches the reference image exactly — clear cylindrical glass drum with double horizontal banding and ribbed clear inner column over a polished brushed-nickel canopy, switched ON with a soft warm 2700–3000K glow contrasting the cool daylight. Palette: dove-gray, travertine cream, oak, brushed nickel, soft amber filament. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "compact spa bathroom",
+      "designStyle": "quiet luxury minimalist",
+      "wallColour": "pale dove-gray limewash",
+      "cameraAngle": "50mm low across vanity looking up",
+      "timeOfDay": "early morning",
+      "accents": [
+        "honed travertine vanity slab",
+        "rolled raw-linen towels",
+        "stoneware soap dish",
+        "footed brass tray with river stone",
+        "smoke-glass tumbler with bare cherry branch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-c6bb32a669d4e992",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c6bb32a669d4e992.jpg",
+  "source_url": "https://dazuma.us/products/vintage-style-copper-finish-floor-lamp-adjustable-arch-fabric-shade-light",
+  "description": "A traditional living room with warm taupe-brown walls and rich dark hardwood flooring. The seating arrangement centers on a floral-printed fabric sofa with carved dark walnut wooden frame, matching an armchair partially visible at left. A rectangular carved walnut coffee table sits on a floral-patterned area rug with cream and terracotta tones. On the coffee table, a vase of sunflowers, a wine bottle, and a few stacked books create a casual, lived-in still life. To the left background, a dark wood coat stand holds a draped floral scarf. Patterned curtains in deep plum and brown hang at the window to the right, allowing soft natural light to filter in. The room reads as a traditional, slightly ornate Chinese residential interior — dark carved wood furniture, decorative textiles, and warm golden-brown color throughout. A warm, ambient glow emanates at standing height along the left side of the room, washing softly onto the adjacent wall and floor without touching the ceiling. Camera is at standing eye-level, three-quarter corner view capturing both the left wall and the back wall, with a normal to slightly wide lens. The full room corner is visible, grounding the composition with generous floor space and furniture scale. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

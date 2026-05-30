@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-6f5d4d6d4b63d5f7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-sconce-wall-light-outdoor-waterproof-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_8e3992fe-2463-4ab8-ae5f-eee8a11392ec.jpg?v=1773886600",
+  "scraped_date": "2026-05-21T12:05:00.467Z",
+  "source_title": "Vintage Sconce Wall Light Outdoor Waterproof Minimalist Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6f5d4d6d4b63d5f7befda6e0653996b7188585d3",
+  "description": "An elegant exterior front entry of a white board-and-batten farmhouse photographed at blue dusk hour. A grand black wrought-iron arched double door with multi-pane glass and decorative scrollwork detail dominates the center of the white facade. Black-painted board-and-batten vertical siding clads the gable, and black shuttered casement windows frame the second floor. A flagstone path in irregular large-format natural stone leads from the foreground toward the entry, lined on both sides with abundant cottage-garden plantings — lavender, purple salvia, and soft green foliage spill freely onto the stone edges. Two large terracotta pots flank the door, overflowing with lush green plants. A pair of black metal outdoor chairs with seat cushions sit on the left side of the porch. Warm amber light glows softly from behind the glass doors and from warm golden pools on the facade face flanking the arch entrance, illuminating the stone path and planting beds in a welcoming dusk warmth. The dark grey-blue sky transitions to night at the upper edge of the frame. The mood is romantic, cottage-garden-meets-refined-farmhouse. Camera is at standing eye-level, centered and level, capturing the full facade front elevation from a moderate distance with the garden path in the foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "shiplap"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.376Z"
+}

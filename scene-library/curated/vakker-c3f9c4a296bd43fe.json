@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-c3f9c4a296bd43fe",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-c3f9c4a296bd43fe.png",
+  "source_url": "https://vakkerlight.com/products/alabaster-bell-wall-sconce",
+  "description": "A bright, airy bathroom vignette photographed at seated eye-level with a normal lens, framing a close three-quarter view of a vanity corner. The walls are finished in warm smooth plaster in a creamy ivory tone, and natural daylight streams through a window to the left, casting bright fills across the space and creating a luminous, almost overexposed warmth. The vanity basin is a pedestal or built-in style with a rounded, semi-circular white ceramic bowl, paired with a brushed gold or unlacquered brass deck-mount faucet. Mounted above and flanking a tall rectangular mirror with a simple gold frame, a soft warm glow emanates from a wall position to the left, adding a vertical strip of warmth beside the mirror. The vanity counter holds a small collection of apothecary-style accessories: a white ceramic soap dispenser, small glass bottles and jars, a loofah sponge in natural tan, and a small potted green herb plant. Neatly folded white towels sit in open shelving below the basin, and a woven basket holds additional linens. The palette is exclusively ivory, white, warm gold, and soft sage green, creating an extremely serene and spa-like California minimalist atmosphere. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

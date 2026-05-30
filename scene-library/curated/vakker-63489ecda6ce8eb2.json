@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-63489ecda6ce8eb2",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-63489ecda6ce8eb2.png",
+  "source_url": "https://vakkerlight.com/products/caldera-travertine-table-lamp",
+  "description": "A warm, scholarly home study or library corner photographed at seated eye-level with a normal lens, framing a three-quarter vignette of a wooden desk surface and the surrounding ambient environment. The walls are a muted warm taupe-plaster, textured and slightly worn in an artisanal way. A solid rustic farmhouse-style desk in aged light wood occupies the center of the frame, its surface styled with an open journal and pen, a small ceramic mug, a low stone dish holding smooth pebbles, and a stack of aged hardcover books. A small terracotta-potted trailing plant sits at the right edge. On the back wall above the desk, a cluster of six small framed botanical illustrations in natural wooden frames is arranged in an informal gallery. A leather-backed wooden chair with a loose grey knit throw draped over the backrest sits partially visible at left. The overall palette is warm earth tones — taupe, sand, aged wood, and cream — with no bright accent colors. Warm, amber-toned light fills the scene, casting soft shadows across the desk surface and warming the plaster wall behind. Styling density on the desk is mid. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

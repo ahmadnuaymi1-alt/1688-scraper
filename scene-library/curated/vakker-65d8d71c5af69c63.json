@@ -1,0 +1,35 @@
+{
+  "scene_id": "vakker-65d8d71c5af69c63",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-65d8d71c5af69c63.png",
+  "source_url": "https://vakkerlight.com/products/rustic-antler-lodge-chandelier",
+  "description": "A rustic mountain cabin dining room photographed at standing eye-level with a normal lens in a three-quarter corner composition. The camera looks diagonally across the dining table toward the fireplace wall in the far corner. A rectangular dining table in rough-hewn knotty pine or reclaimed wood seats six, with cushioned leather dining chairs on the sides and a tufted leather bench at the near end. The table is set casually with ceramic plates, glasses, a burlap or plaid table runner, small candle holders, and a cluster of dried wheat stems and branches in a short vase. The room is fully paneled in tongue-and-groove pine boards — walls and ceiling alike — giving an all-wood cabin enclosure. Heavy exposed timber ceiling beams span the room, their grain dark and knotty. On the far wall, a stone fireplace in rough-stacked field stone rises from floor to mantle, its hearth deep and wide. The mantle shelf holds dried botanicals and antler decorations. Birch or pine trees are visible through the windows at left, indicating a wooded forest setting with natural light filtering through. The floor is covered with a large natural jute or sisal area rug. The warm overall glow of the amber-toned room is enhanced by light catching the wood grain and stone textures from an overhead source. The mood is rustic, secluded, and warmly celebratory. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "exposed_beams",
+      "stone_wall",
+      "fireplace"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

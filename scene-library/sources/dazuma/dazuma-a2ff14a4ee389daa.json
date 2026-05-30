@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-a2ff14a4ee389daa",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gold-wall-sconce-lighting-modern-minimalist-marble-brass-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-gold-wall-sconce-lighting-modern-reading-corner.jpg?v=1778038881",
+  "scraped_date": "2026-05-21T12:03:24.994Z",
+  "source_title": "Gold Wall Sconce Lighting Modern Minimalist Marble Brass Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Uplight Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a2ff14a4ee389daa602612f4ae57ca186a6cb6d4",
+  "description": "A refined sitting room corner photographed at seated eye-level with a three-quarter view of the corner, capturing a wall vignette with built-in shelving to the right. The walls are a warm pale plaster in creamy off-white, dressed with applied panel moulding in a classic profile that frames the wall section behind the seating area. The floor is herringbone-laid warm honey-toned parquet hardwood. A rounded bouclé armchair in cream-ivory with small turned wooden feet sits in the foreground, a forest-green velvet bolster cushion resting across its arm. To the left, a pedestal side table with an antiqued gold trumpet-form base supports a white marble round top, on which rests a smoky-glass globe vase with trailing green foliage branches. A tall multi-pane sash window to the far left admits soft cool daylight that catches the wall moulding and skims across the floor. To the right, open white-painted built-in shelving holds an edited arrangement of books spine-out, a tall white ribbed ceramic vase, a rounded cream ceramic, and a few small decorative objects. A warm amber pool of light emanates from the wall-mounted position behind the side table, casting a gentle glow that warms the cream wall plaster and the marble tabletop. The palette is warm off-white, honey parquet, aged brass, and forest green. Mood is quiet, scholarly, and elegant. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "herringbone_floor",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.605Z"
+}

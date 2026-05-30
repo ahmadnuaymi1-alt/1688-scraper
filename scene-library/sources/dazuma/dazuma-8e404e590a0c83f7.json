@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-8e404e590a0c83f7",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/up-and-down-moon-brass-italian-luxury-creative-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/double-globe-wall-light-slatted-wood-wall-bedside.jpg?v=1777447735",
+  "scraped_date": "2026-05-21T12:03:25.582Z",
+  "source_title": "Up and Down Moon Brass Italian Luxury Creative Wall Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Up & Down Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8e404e590a0c83f79db37905c067be94d939c202",
+  "description": "A richly textured bedroom corner vignette dominated by a full wall of narrow vertical wood slat paneling in a warm dark walnut or smoked oak tone. The slats are closely spaced and run floor to ceiling, creating a strong vertical rhythm and deep shadow play across the surface. Two warm amber orbs of soft glowing light are visible at mid-wall height above the nightstand, each casting a honeyed, marble-veined warm illumination outward and upward against the dark wood slats. The glow creates a warm pool that warms the surrounding wood tones beautifully. Beside the wall, a floor-length sheer ivory or cream linen curtain hangs on the far right of the frame, gathered loosely and admitting diffuse soft daylight at the edge. The bed in the lower-left corner features a tall curved upholstered headboard in a warm caramel or light tobacco bouclé-textured fabric. The bedding is white and cream linen with a loose camel-toned throw and two stacked throw pillows in gray and cream tones. A sculptural side table of layered or ribbed natural rattan or woven wood sits beside the bed; on its surface rest two stacked hardcover books. The overall palette is extremely warm: dark walnut, honey, cream, and caramel tones throughout with no cool colors visible. The camera is positioned at standing eye-level, roughly 5–6 feet, with a normal to slightly telephoto lens. The composition is an off-center thirds vignette, with the wood-paneled wall filling most of the frame and the bed corner anchoring the lower-left. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.502Z"
+}

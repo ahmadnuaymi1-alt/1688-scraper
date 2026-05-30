@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-997b56004142e50c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/round-pillar-lights-outdoor-waterproof-courtyard-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/3_eb57621d-a7dd-455a-82b4-8dc155370d71.jpg?v=1774175154",
+  "scraped_date": "2026-05-21T12:04:44.833Z",
+  "source_title": "Round Pillar Lights Outdoor Waterproof Courtyard Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "997b56004142e50caa5dae6f283f080e07284fbd",
+  "description": "A contemporary residential entry gate photographed at standing eye-level, showing two smooth concrete pillar posts flanking a matte black vertical-bar metal gate. The pillars are cast smooth concrete in cool light grey, each capped with a wide flat concrete cap. Each cap has a warm amber glow spreading softly downward across the pillar face and onto the stone paving below. The gate is composed of closely spaced matte black vertical metal bars, slightly ajar, with matching matte black horizontal railing fence panels extending to either side. Through and beyond the gate, a manicured green lawn stretches back toward a contemporary residential house — a flat-roofed modern structure in white stucco with large black-framed glass panels and a warmly lit interior visible through the glass. The ambient light is a deep blue-grey dusk, giving maximum contrast against the warm amber pillar glow and the warm interior lights of the house beyond. The foreground paving is large-format concrete or stone tile. The overall palette is cool grey concrete, matte black metalwork, warm amber glow, emerald lawn, and deep twilight sky. The mood is clean, secure, and warmly welcoming — a modern residential gate at evening. Camera is at standing height, looking level, using a normal-to-wide lens in a three-quarter view slightly favoring the right pillar in the foreground. The two pillars occupy the left and right center of the frame with the gate between them, and the house glowing warmly in the soft background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.541Z"
+}

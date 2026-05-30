@@ -1,0 +1,119 @@
+{
+  "productId": "cmph9lrjg00uzw20g20efzh0c",
+  "productTitle": "无主灯照明长条明装线性灯简约过道阳台卧室餐厅背景墙客厅吸顶灯",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-23T08:32:17.591Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "charcoal-corridor-depth",
+      "mode": "minimalist",
+      "prompt": "A long modern apartment corridor seen straight down its depth axis, 1:1 framing, 35mm lens at standing eye level, looking toward a divided-light steel door at the far end where soft late-evening dusk-blue filters through sheer linen panels as the secondary light source. The matte-black linear strip is surface-mounted to the ceiling, running parallel to the corridor down its center, its warm bar of light pulling the eye into the distance. A low pale-oak console hugs the right wall with a stoneware key tray and a single bare cherry branch in a charcoal floor vessel; a jute runner grounds the wide-plank oak floor. The matte charcoal limewash accent wall on the left absorbs the warm wash; the opposite wall is warm cream plaster. Product lock: matches the reference image exactly — slim rectangular matte-black aluminum housing with a continuous acrylic diffuser face, switched ON, soft warm 2700-3000K. Palette: charcoal, warm cream, pale oak, brushed black, single ember-warm glow. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "long apartment corridor",
+      "designStyle": "modern minimalist",
+      "wallColour": "charcoal limewash accent wall opposite warm cream",
+      "cameraAngle": "35mm standing eye-level down-corridor depth axis",
+      "timeOfDay": "late evening dusk",
+      "accents": [
+        "pale-oak console",
+        "stoneware key tray",
+        "bare cherry branch in charcoal floor vessel",
+        "jute runner",
+        "sheer linen door panels"
+      ]
+    },
+    {
+      "slug": "home-yoga-studio-oak-ceiling",
+      "mode": "minimalist",
+      "prompt": "A serene home yoga studio in a converted bedroom, 1:1 square framing, 24mm lens held low at floor-mat height tilted up toward the ceiling so the linear strip cuts diagonally across the upper third of the frame. Soft morning daylight rakes in from a tall casement window at frame-left as the secondary source. The matte-black linear bar is surface-mounted to a pale-oak plank ceiling, its warm glow grazing the wood grain. Below: a folded charcoal cork mat, a round raw-clay incense holder with a wisp of smoke, and a low travertine plinth holding a single weathered river stone. The far wall is warm putty troweled plaster, breathing softly. Product lock: matches the reference image exactly — slim rectangular matte-black housing with continuous acrylic diffuser strip running its full length, switched ON, soft warm 2700-3000K. Palette: putty plaster, pale oak, matte black, raw clay, ember warmth. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "home yoga studio",
+      "designStyle": "wabi-sabi contemporary minimalist",
+      "wallColour": "warm putty troweled plaster with pale-oak plank ceiling",
+      "cameraAngle": "24mm low floor-mat height looking up to ceiling",
+      "timeOfDay": "morning",
+      "accents": [
+        "folded charcoal cork mat",
+        "raw-clay incense holder",
+        "travertine plinth",
+        "weathered river stone",
+        "tall casement window"
+      ]
+    },
+    {
+      "slug": "walk-in-closet-reeded-oak",
+      "mode": "homey",
+      "prompt": "An elegant walk-in dressing closet shot at standing three-quarter angle, 1:1 framing, 35mm lens elevated slightly to take in the ceiling line, looking diagonally across reeded white-oak wardrobe fronts that span the back wall. The matte-black linear strip is surface-mounted to the smooth cream plaster ceiling, running parallel to the wardrobe run and grazing the fluted oak with raking warm light; a small marble-topped island sits beneath, the secondary glow coming from a low brass picture light over a leaning framed sketch at frame-right. A neatly folded cashmere sweater, a pair of tortoiseshell sunglasses on a porcelain trinket dish, and a small footed brass tray with gold cufflinks rest on the island; a single white tulip leans from a slim bud vase. Product lock: matches the reference image exactly — slim matte-black rectangular bar with a continuous acrylic diffuser face, switched ON, soft warm 2700-3000K. Palette: warm cream, white oak, matte black, brushed gold, blush tulip. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "walk-in dressing closet",
+      "designStyle": "quiet luxury contemporary",
+      "wallColour": "warm cream plaster with reeded white-oak wardrobe wall",
+      "cameraAngle": "35mm elevated three-quarter standing",
+      "timeOfDay": "night",
+      "accents": [
+        "folded cashmere sweater",
+        "tortoiseshell sunglasses on porcelain dish",
+        "footed brass tray with cufflinks",
+        "white tulip bud vase",
+        "leaning framed sketch under brass picture light"
+      ]
+    },
+    {
+      "slug": "japandi-balcony-sunroom",
+      "mode": "homey",
+      "prompt": "A narrow enclosed balcony sunroom off a primary bedroom, 1:1 framing, 50mm lens at low seated height looking up the length of the space toward floor-to-ceiling steel-framed windows where deep blue-hour sky glows beyond as the secondary source. The matte-black linear strip is surface-mounted to the smooth ceiling, running the length of the balcony parallel to the windows; its warm bar of light pools onto a sage-green limewash side wall. A low pale-oak reading bench sits along the wall with a folded waffle-weave throw, a stoneware mug of green tea cooling beside an open hardback face-down, and a terracotta pot of trailing pothos on the floor beside it. Product lock: matches the reference image exactly — slim rectangular matte-black aluminum bar with continuous acrylic diffuser, switched ON, soft warm 2700-3000K. Palette: sage limewash, pale oak, blue-hour navy beyond glass, matte black, soft amber bar. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "enclosed balcony sunroom",
+      "designStyle": "Japandi",
+      "wallColour": "sage-green limewash",
+      "cameraAngle": "50mm low seated looking up the length toward windows",
+      "timeOfDay": "deep blue hour",
+      "accents": [
+        "pale-oak reading bench",
+        "waffle-weave throw",
+        "stoneware mug of tea",
+        "open hardback face-down",
+        "trailing pothos in terracotta pot"
+      ]
+    },
+    {
+      "slug": "scandi-dining-walnut-slat",
+      "mode": "homey",
+      "prompt": "A Scandinavian modern dining nook seen from a wide eye-level standing position, 1:1 framing, 35mm lens, the matte-black linear strip surface-mounted to the smooth cream-plaster ceiling and running parallel above the long edge of a pale-oak slab dining table. A walnut-slat accent wall fills the background, glowing warm under the bar; soft late-evening daylight leaks in from a tall window at frame-right as the secondary source. Three sculpted bouclé dining chairs gather around the table; centered on it: a low cream stoneware compote of green pears, a stack of two cloth-bound cookbooks, and a small ceramic carafe with a single magnolia stem. A flat-weave wool rug warms the wide-plank oak floor. Product lock: matches the reference image exactly — slim rectangular matte-black housing with continuous warm acrylic diffuser face, switched ON, soft warm 2700-3000K. Palette: cream plaster, walnut slat, pale oak, ivory bouclé, matte black, pear green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "dining nook",
+      "designStyle": "Scandinavian modern",
+      "wallColour": "cream plaster with walnut-slat accent wall",
+      "cameraAngle": "35mm wide eye-level standing",
+      "timeOfDay": "late evening",
+      "accents": [
+        "pale-oak slab table",
+        "bouclé dining chairs",
+        "cream stoneware compote of pears",
+        "stack of cloth-bound cookbooks",
+        "ceramic carafe with magnolia stem"
+      ]
+    },
+    {
+      "slug": "terracotta-home-office",
+      "mode": "minimalist",
+      "prompt": "A focused home office shot at 50mm from a seated desk-height position looking up and forward, 1:1 framing, the matte-black linear strip surface-mounted to a smooth cream ceiling directly above and parallel to the line of a floating white-oak desk pushed against a warm terracotta limewash wall. The bar washes the textured terracotta plaster with raking warm light; a small brass desk lamp provides a second pool of glow over the work surface. On the desk: a leather-bound sketchbook open to a blank page with a graphite pencil laid across it, a single stoneware mug, a footed brass dish holding a small carved soapstone object, and a slim glass bud vase with one dried wheat stem. A folded raw-linen runner softens the desk edge. Product lock: matches the reference image exactly — slim rectangular matte-black aluminum housing with continuous acrylic diffuser, switched ON, soft warm 2700-3000K. Palette: terracotta limewash, white oak, matte black, brushed brass, parchment cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "home office",
+      "designStyle": "warm contemporary",
+      "wallColour": "terracotta limewash",
+      "cameraAngle": "50mm seated desk-height looking up and forward",
+      "timeOfDay": "night",
+      "accents": [
+        "white-oak floating desk",
+        "leather-bound sketchbook with graphite pencil",
+        "stoneware mug",
+        "footed brass dish with carved soapstone object",
+        "glass bud vase with dried wheat",
+        "small brass desk lamp"
+      ]
+    }
+  ]
+}

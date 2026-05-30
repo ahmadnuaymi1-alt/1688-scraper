@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-8c0446df5db847f9",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-fixtures-wall-mount-waterproof-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_6e5c6fb0-1446-41b7-b6cd-581b40b7eea1.jpg?v=1774175336",
+  "scraped_date": "2026-05-21T12:04:42.290Z",
+  "source_title": "Outdoor Lighting Fixtures Wall Mount Waterproof Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "8c0446df5db847f9100f0af4a203ff4af10ff6e6",
+  "description": "An exterior facade vignette photographed in autumn at dusk or early evening, capturing the corner junction between a rough white stucco wall on the left and a rugged natural stone masonry wall on the right. The stucco surface has a coarse, hand-applied texture with an aged, slightly uneven finish. The stone wall is composed of large irregular fieldstones in charcoal, gray, and taupe tones, laid in a tight natural pattern. A tall, narrow multi-pane casement window with a dark charcoal or black steel frame is set into the stone wall on the right side of the frame. Through the glass, the warm soft glow of interior iron grillework or decorative metalwork is faintly visible. A warm amber glow emanates from a wall-mounted position on the smooth stucco surface, casting a diffuse golden light outward onto the plaster and creating a soft halo against the white wall. The upper-right corner of the frame is dramatically occupied by a cascade of autumn maple branches heavy with vibrant orange-red and golden-yellow leaves, which overhang the roofline of the stone section. The background is deep and dark, suggesting twilight or true dusk. The camera is positioned at roughly standing eye-level, 5–6 feet high, with a normal lens. The composition is an off-center thirds arrangement, with the stucco wall and warm glow occupying the left two-thirds of the frame and the stone corner and window anchoring the right. The camera is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.494Z"
+}

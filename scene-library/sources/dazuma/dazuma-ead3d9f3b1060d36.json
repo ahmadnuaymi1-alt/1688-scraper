@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-ead3d9f3b1060d36",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/large-pillar-lights-modern-waterproof-outdoor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/large-pillar-lights-brick-pillars-white-fence.jpg?v=1773717595",
+  "scraped_date": "2026-05-21T12:19:39.816Z",
+  "source_title": "Large Pillar Lights Modern Waterproof Outdoor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ead3d9f3b1060d36b58726212aa1731993e802fe",
+  "description": "A classic American suburban driveway gate entrance photographed at standing eye-level with a normal lens and a centered symmetrical composition, capturing both brick gate posts and the white picket fence on a grey overcast or light rain day. Two red-brick square gate pillars topped with cast stone or light grey granite cap blocks rise symmetrically on either side of the driveway entrance. White vinyl or painted wood picket fencing extends in both directions from the posts, its pointed vertical pickets forming a continuous domestic boundary. Trimmed dark green boxwood hedges run at the base of each post and along the fence line, with a small golden-yellow ornamental shrub centered between the posts. The driveway surface is wet polished grey asphalt, reflecting faint light. In the background, a white clapboard New England-style two-story home with grey asphalt shingles is softly visible behind a tree canopy of autumn-tinted deciduous trees. Each post cap hosts an exterior fixture emitting a warm amber-gold glow — an upward and downward trapezoid wash of warm light fans out from each cap against the grey cool overcast ambient, creating a welcoming contrast between the cold exterior light and the warm amber emanation. The palette is warm red brick, grey stone cap, white fence, deep green hedges, yellow foliage, and amber light against an overcast grey sky. The mood is formal, welcoming, and traditionally American. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "mustard"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.942Z"
+}

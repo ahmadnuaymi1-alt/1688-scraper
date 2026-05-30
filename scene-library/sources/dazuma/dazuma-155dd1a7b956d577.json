@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-155dd1a7b956d577",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-pendant-lighting-modern-waterproof-landscape-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-pendant-lighting-modern-sleek-indoor-outdoor-living.jpg?v=1774595258",
+  "scraped_date": "2026-05-21T12:04:29.460Z",
+  "source_title": "Outdoor Pendant Lighting Modern Waterproof Landscape Ceiling Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "155dd1a7b956d5772144c06283f10371f4997b79",
+  "description": "A covered outdoor living porch or screened pavilion photographed at standing eye-level with a wide lens, in a centered symmetrical wide establishing composition. The camera looks level straight toward the rear glass wall, showing the full width of this transitional indoor-outdoor living space. The ceiling is white-painted tongue-and-groove planking, clean and flat. The floor is pale bleached wood decking laid in long horizontal planks, lending an airy lightness to the space. The rear wall is an expansive grid of multi-pane black-framed floor-to-ceiling windows and French doors that frame a lush green backyard lawn and dense mature deciduous trees beyond, viewed at dusk with the natural light fading to a deep forest green atmosphere outside. To the right, a thick load-bearing column of rough-cut stacked natural fieldstone — grey with warm tan undertones — anchors the corner of the structure, adding rustic material weight against the otherwise refined contemporary palette. The main seating arrangement is a large low-profile L-shaped outdoor sectional with a white powder-coated metal base and thick light grey upholstered cushions, dressed with a mix of charcoal grey and cream throw pillows. In front of the sectional sits a low rectangular coffee table in bleached light oak with a clean, simple slab-leg design. A small potted succulent in a pale grey ceramic pot rests on the coffee table. Two warm glowing orbs hang from the ceiling emitting a soft warm light that falls gently onto the seating area below. To the far left through the glazed door, a glimpse of a dining area with a dark-toned table is visible. The mood is serene and quietly sophisticated. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.034Z"
+}

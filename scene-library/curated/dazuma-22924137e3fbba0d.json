@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-22924137e3fbba0d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-22924137e3fbba0d.jpg",
+  "source_url": "https://dazuma.us/products/vintage-metal-fabric-shade-table-lamp",
+  "description": "A moody, intimate bedroom nightstand vignette photographed in low warm evening light. The wall behind is smooth warm greige plaster, lit from below with a dramatic fan-shaped golden glow that radiates upward and outward in a warm amber halo, the source of the illumination being a sculptural base form of upswept botanical gold-leafed metal petals or flame-like cast forms mounted on a small square black marble plinth, supporting a wide cylindrical drum-shaped shade in a satin off-white or pale silvery taupe fabric. The warm light from within the shade diffuses softly downward through the fabric, pooling gently onto the wood surface of the nightstand below. The nightstand is a compact two-drawer cabinet in dark mahogany-toned solid wood with simple recessed drawer pulls and a warm brown-red grain. The bed is partially visible on the left — a deeply cushioned headboard in dark charcoal or espresso brown leather with vertical channel stitching, dressed with grey linen pillows with a fine woven texture and soft creased natural linen bedding in warm grey-taupe tones. The overall mood is rich, romantic, and quietly opulent — a hotel-suite-quality bedroom in a dark, masculine palette warmed by amber gold accents. Camera at seated eye-level, telephoto lens, tight off-center vignette composition isolating the nightstand, the headboard, and the warm wall wash above. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "pendant"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

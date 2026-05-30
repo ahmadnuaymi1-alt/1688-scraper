@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-00d2807050538900",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-00d2807050538900.png",
+  "source_url": "https://vakkerlight.com/products/bell-travertine-arc-sconce",
+  "description": "A warm, organic living space vignette with an earthy California-meets-rustic aesthetic. The focal point is a chunky solid-wood console table with a deeply grained raw-edge style plank top and slab legs in a dark walnut-brown finish, positioned against a textured plaster wall in warm greige with subtle organic mottling. On the console surface sits a tall dried pampas grass arrangement in a round ceramic vase, a small sculptural figurine, a stack of warm brown and cognac-toned books, and an additional smaller vessel. A warm amber glow washes gently down the plaster wall from a source mounted at upper left, casting a soft crescent of illumination that highlights the wall's texture. To the right of the console, a tall potted olive tree in a matte stone-colored planter rises toward the ceiling. Beyond it, a linen roller or tab-top curtain filters natural light through a tall multi-pane window. A low upholstered accent chair in oatmeal linen with a slightly curved back sits just at the right edge of the frame. The floor is covered in a natural fiber jute rug with a coarse, open weave. The palette is entirely earth-toned — warm beige, cognac, dusty tan, and natural green from the olive foliage. Camera at standing eye-level, off-center thirds composition with the console left of center and the tree and chair occupying the right third, normal lens, level pitch, three-quarter room vignette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

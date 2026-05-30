@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-611050f214739b2b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-silver-ceiling-spotlights-cob-full-spectrum-eye-caring-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stylish-kitchen-silver-ceiling-spotlights_6bf18342-cf64-44ef-aef0-5aa195f7c555.jpg?v=1776405782",
+  "scraped_date": "2026-05-21T12:03:33.453Z",
+  "source_title": "2 PCS Silver Ceiling Spotlights Cob Full Spectrum Eye-Caring Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "611050f214739b2ba709bbef505edda62b4d2e1e",
+  "description": "A precisely minimal modern kitchen in a monochromatic cool grey and white palette. The layout is a galley-with-island configuration viewed from a three-quarter standing perspective. The central island is a long rectangular slab of honed travertine or stone composite — a veined light grey with a matte surface — its waterfall edge descending on the near side, with a seamlessly integrated sink and brushed brass gooseneck faucet along the rear edge. Two low-profile counter-height bar chairs in charcoal grey upholstered fabric with slim matte-black powder-coated sled legs sit at the island's near face. The perimeter cabinetry is handle-free matte white with soft-close slabs in the lower run and warm grey matte-lacquer slab door panels in the upper tall cabinets — one section incorporates open shelving cubbies with internal depth for display. The entire back-splash and hood-surround zone is clad in large-format honed limestone or travertine slabs matching the island top, with a similar grey speckled terrazzo or stone character extending to the ceiling. A substantial integrated ventilation hood in the same stone material acts as a monolithic sculptural element on the back wall. The floor is large-format matte white or pale grey porcelain tile. A single ceramic textured grey vase on the countertop holds a cluster of bare willow or cherry blossom branches. A steel-framed glass partition door is partially visible at the left edge. At the left, a tall floor-to-ceiling steel and reeded-glass partition adds a graphite industrial element. Four warm-directional spots cast focused pools of clean white light downward onto the countertops from above. Camera is at standing eye-level, shooting a wide three-quarter view of the kitchen with the island in the foreground and the run of cabinetry behind. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.325Z"
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "vakker-54f49ddfa5328675",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/sunlit-meadow-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Sunlit_Meadow_Table_Lamp98.png?v=1778836867",
+  "scraped_date": "2026-05-21T12:08:51.340Z",
+  "source_title": "Sunlit Meadow Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "54f49ddfa5328675095b1ad5b0432f97c77e344d",
+  "description": "A well-loved English country sitting room photographed at seated eye-level with a normal lens, in a three-quarter corner composition that encompasses the central gathering area. The camera is low, roughly three to four feet high, looking level across the room. In the foreground, a rustic oak coffee table or side table holds a ceramic mug with a curl of steam, a small stack of worn hardback books, and a potted plant with small green leaves in a terracotta pot. The warm amber glow from a low source spreads across the table surface and onto the adjacent chair arm. To the left, a worn tan leather club chair is draped with a gray herringbone wool throw. Beyond it, a centuries-old rough-cut stone fireplace fills the back left of the room, its mantle and surround in irregular pale stone. On the mantle and in an alcove beside the fireplace, an assortment of ceramic jugs, crocks, and storage vessels in cream and brown are loosely arranged. A tall multi-pane sash window with linen curtains allows soft afternoon light to pour in from the right, glowing warmly through the fabric. The floor appears to be stone flags or worn oak boards. The room feels genuinely inhabited and time-worn, layered with objects that have been collected rather than styled. The mood is deeply lived-in, warm, and unhurried. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "fireplace",
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.104Z"
+}

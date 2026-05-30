@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-ffaf52dd2dac4bda",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ffaf52dd2dac4bda.jpg",
+  "source_url": "https://dazuma.us/products/pillar-lamp-light-outdoor-waterproof-courtyard-fence-light",
+  "description": "An exterior residential gate and driveway entrance photographed at deep twilight, with a modern luxury home glowing warmly in the background. The sky is a deep slate blue suggesting full dusk. The foreground centers on a rough-textured concrete pillar supporting a matte black metal fence panel with vertical slat pickets running to the right. The concrete pillar cap has a subtle rough stone surface in warm grey. In the background, a two-story contemporary house with extensive floor-to-ceiling black-framed glazing glows with warm amber light from within, revealing glimpses of a lounge chair on the terrace, a manicured lawn, garden rock features, and ornamental plantings. The building has a clean white stucco and glass facade with a flat roofline. Landscape accent lights in the garden create warm ground-level glows among the boulders and lawn. A warm amber-orange light radiates from within the fixture atop the pillar cap, casting a downward pool and slight upward wash onto the underside of the cap — the amber glass or crystal texture of the sides catches and refracts the internal glow. Camera is at standing eye-level, positioned slightly below the fixture cap height, shooting with a normal-to-slightly-telephoto lens in an off-center thirds composition with the pillar and fixture in the left third and the house vista opening across the right. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  }
+}

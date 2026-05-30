@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-03b26a0c9cff3355",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-03b26a0c9cff3355.png",
+  "source_url": "https://vakkerlight.com/products/gilded-cocoon-wall-lamp",
+  "description": "A serene bathroom vanity vignette photographed at standing eye-level, framed as a centered symmetrical composition against a textured plaster wall in warm off-white. The camera sits at approximately five feet, level pitch, capturing a tight vignette of the vanity wall — both the wall surface and countertop are fully visible, with a sliver of a multi-pane window visible at the right edge letting in soft natural daylight. The lens reads as a normal to slight telephoto character, compressing the depth slightly and keeping the wall surface flat and clean.\n\nThe vanity cabinet is a floating walnut unit with a rich, medium-brown wood grain and a simple horizontal drawer pull-free face, giving it a clean mid-century modern sensibility. The countertop is a honed marble or quartzite slab in creamy white with soft warm veining in gold and blush tones, with a modest square undermount sink centered in the composition. The brass widespread faucet set has a softly arched spout and lever handles in a brushed satin brass finish that reads as warm antique gold.\n\nThe plaster wall behind the vanity has a hand-applied Venetian or lime-wash texture in warm linen white — subtle tonal variation catches the raking natural light from the right-side window and creates gentle organic shadowing across the surface. The round frameless mirror is large in diameter — approximately 30 to 36 inches — and sits flush against the wall above the sink, its edge beveled cleanly with no visible frame hardware.\n\nOn the countertop, styling objects are minimal and deliberate: to the left, a small dark walnut tray holds a natural sea sponge and a small pile of bath salts; to the right of the faucet, two ceramic soap dispensers in matte white stand together, accompanied by a small terracotta pot holding a delicate maidenhair fern with fine green fronds, and a neatly folded stack of linen hand towels in warm greige. All objects are low-density and carefully spaced.\n\nNatural light enters from the right through the window, casting soft warm pools of illumination across the plaster wall and grazing the marble surface in diagonal bands. A warm, diffuse ambient glow warms both sides of the mirror from low wall positions, creating soft fill light on the plaster and gentle brightening of the reflective mirror surface without hard shadows. The overall atmosphere is calm, spa-like, and quietly luxurious — early to mid morning light, serene and unhurried.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bathroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "forest_green"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

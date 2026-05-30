@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-9003f7d93c2f17c2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-led-ceiling-recessed-spotlights-grille-led-linear-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/bright-meeting-room-led-ceiling-recessed-spotlights.jpg?v=1775904981",
+  "scraped_date": "2026-05-21T12:03:38.157Z",
+  "source_title": "2 PCS LED Ceiling Recessed Spotlights Grille LED Linear Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9003f7d93c2f17c24fcae0fab846d3cb1215eaaf",
+  "description": "An open-plan corporate office space photographed in a mix of natural and artificial light at what appears to be daytime. The ceiling is flat white with several recessed multi-spot rectangular trim modules arranged in a grid pattern across the ceiling plane, each unit containing a row of five or six directional LED spots with black trim rings. The spaces between these units receive a clean cool-white wash of light. Along the back wall, three tall rectangular windows with simple aluminum frames admit bright, overcast daylight; they are flanked and partially obscured by floor-to-ceiling sand or camel-toned blackout or thermal drapery panels, gathered in loose folds. Below the windows, a warm cove detail runs along the upper wall junction, emitting a gentle warm uplight that grades into the ceiling soffit. The floor is a dark charcoal commercial carpet with a fine loop texture. Rows of white-laminate L-shaped workstation clusters with clear acrylic privacy dividers extend into the background, separated by black metal desk pedestals and filing cabinets. Multiple black mesh ergonomic task chairs are tucked around the desks. On the nearest desk surface, a glass of water and a wire mesh organizer holding files are visible. The overall palette is high-contrast monochromatic: white ceilings, white desks, black chairs, charcoal floor, with warm sand curtains providing the only soft warm note. The camera is at standing eye-level, roughly 5–6 feet, with a wide lens. The composition is a wide establishing three-quarter view looking diagonally across the desk rows toward the window wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.511Z"
+}

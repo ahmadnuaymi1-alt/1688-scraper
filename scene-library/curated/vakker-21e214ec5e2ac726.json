@@ -1,0 +1,35 @@
+{
+  "scene_id": "vakker-21e214ec5e2ac726",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-21e214ec5e2ac726.png",
+  "source_url": "https://vakkerlight.com/products/sunlit-meadow-table-lamp",
+  "description": "A cozy bedroom corner captured at seated eye-level, approximately 3–4 feet off the floor, with a normal-to-telephoto lens character that compresses depth and draws the nightstand vignette into close, intimate focus. The composition is a tight three-quarter vignette centered on the nightstand surface and the near corner of the bed, with the headboard wall receding softly into the background. The camera pitches very slightly downward, looking across the surface of the nightstand at a gentle angle.\n\nThe room is dressed in a warm neutral palette of oat, linen, wheat, and aged caramel. The bed dominates the right two-thirds of the frame, dressed in loose, stonewashed linen bedding in a soft greige tone, layered with an oversized chunky-knit throw in warm taupe draped casually across the lower right corner. Three oversized pillows in varying linen tones — the largest flat against the upholstered headboard, two more stacked in front — give the bed a generously lived-in, unhurried quality. The headboard is low-profile and upholstered in a smooth, slightly textured fabric in warm greige, resting against a wall finished in a subtle woven or grass-cloth wallcovering in pale sand.\n\nAbove the headboard, three framed botanical prints hang in a horizontal row, each in a simple warm-wood frame. The prints depict detailed fern and leaf specimens on cream backgrounds, rendered in muted greens and ochre — scholarly in tone but softened by the organic subject matter.\n\nThe nightstand is a chunky, rustic solid-wood piece in a distressed, aged-oak finish with visible grain and weathered character. Its surface holds a small stack of hardcover books with worn spines in amber and cognac tones, and a simple ceramic mug in matte warm white rests atop the books, suggesting a recent cup of tea or coffee. A small terracotta pot containing a lush, trailing fern sits to the left on the nightstand, its vivid green fronds providing the room's only saturated color note.\n\nA soft, warm pool of golden ambient light washes across the nightstand surface and the near side of the bed, emanating from a low position on the nightstand — the effect creating a honeyed, glowing warmth that illuminates the ceramic mug and book spines from below and to the side, casting gentle shadows upward onto the botanical prints and casting the fern leaves into soft relief. This warm glow fills the lower right of the frame and fades gently into the neutral tones of the bedding.\n\nNatural light enters from a multi-pane window at the far left of the frame, diffused and soft — suggesting an overcast morning or gentle midday — washing the fern and the window wall in cool, clean daylight that contrasts pleasantly against the warm ambient glow from the right. The window trim is crisp white painted wood.\n\nThe overall mood is quietly serene and deeply domestic — unhurried, bookish, and gently botanical. The aesthetic reads as devol_country softened with a Scandinavian linen sensibility: natural materials, handmade ceramics, and faded organic pattern.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

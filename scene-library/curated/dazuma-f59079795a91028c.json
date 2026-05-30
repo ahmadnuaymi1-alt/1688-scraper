@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-f59079795a91028c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f59079795a91028c.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-wall-modern-waterproof-led-metal-light",
+  "description": "A residential side or back entry door photographed at dusk from a standing eye-level position with a normal lens, framed in a centered composition focused on the door and the adjacent wall. The house exterior is white-painted brick in a running bond pattern with visible mortar joints — the surface clean and slightly luminous. Crisp white painted window trim and a simple entablature-style door surround frame the opening. The door itself is a warm taupe-painted wood shaker-style door with a six-pane glass upper section and two recessed panels below, fitted with a nickel lever handle and deadbolt hardware. To the right of the door, centered on the brick wall between the door and the window beyond, a horizontal oval-profile wall fixture in matte black emits a broad warm amber wash of light across the brick surface below and above it. Low ornamental boxwood shrubs are visible at the base of the wall on the far left. The window on the far right has taupe painted wood trim matching the door. The sky in the door's glass panes reflects a dim blue dusk twilight with tree silhouettes visible. The mood is calm, clean, and suburban-residential. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

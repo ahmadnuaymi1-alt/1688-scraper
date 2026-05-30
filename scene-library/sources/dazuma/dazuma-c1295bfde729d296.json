@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-c1295bfde729d296",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-pillar-lighting-modern-waterproof-garden-gate-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-pillar-lighting-stone-entrance-column.jpg?v=1778566879",
+  "scraped_date": "2026-05-21T12:02:53.776Z",
+  "source_title": "Solar Pillar Lighting Modern Waterproof Garden Gate Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c1295bfde729d296ba0e8b22e5dd888220e52e17",
+  "description": "An outdoor estate entry scene photographed at seated to standing eye-level with a normal lens at dusk, capturing a vignette centered on a rounded stone column pier. The column is constructed from rough-cut natural limestone or fieldstone in gray and buff tones, cylindrical in form. Behind it, a low white stucco perimeter wall meets a matte black vertical-slat metal gate and fence panel. A contemporary flat-roofed modernist home in crisp white stucco is visible in the background, featuring cantilevered horizontal roof planes and large dark-framed windows. An overhanging oak tree branch with dark foliage reaches into the upper right of the frame. The sky is a dramatic purple-pink gradient at dusk, transitioning from deep violet at the top to warm coral-pink at the horizon — a rich, moody twilight backdrop. The column's stone cap glows with a warm amber illumination, casting a soft halo on the stone surface below. The warmth of the light creates a striking contrast against the cool lavender sky. The mood is dramatic and serene, with the clean architectural lines of the modern home framed beautifully by the organic texture of the stone column. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.762Z"
+}

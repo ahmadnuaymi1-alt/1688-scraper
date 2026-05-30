@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-c0c7a30673504241",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-mounted-bedside-reading-light-minimalist-rotatable-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_4881b6d1-86cf-49ac-892a-a07b9b4e7be4.jpg?v=1778838193",
+  "scraped_date": "2026-05-21T12:02:35.497Z",
+  "source_title": "Wall Mounted Bedside Reading Light Minimalist Rotatable Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Spotlight",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c0c7a306735042413618bcb6076fba4649a1b0c6",
+  "description": "A contemporary bedroom corner photographed at standing eye-level with a normal lens, framing a three-quarter view of the headboard wall and bedside zone. The walls are finished in a smooth flat cool greige, providing a clean minimal backdrop. A low-profile upholstered bed with a large padded headboard in medium gray bouclé-textured fabric occupies the right of the frame, dressed in charcoal gray linen bedding. A sleek matte black round pedestal accent table serves as a nightstand, holding two stacked paperback books. A cognac tan leather accent armchair with a houndstooth-upholstered seat cushion sits at the left edge of the frame, suggesting a reading nook. A concentrated warm spotlight pools downward onto the nightstand area from a wall-mounted source, and a soft diffuse sphere of warm white light glows beside it on the wall surface, illuminating the wall with a gentle ambient orb. The overall mood is casual and slightly moody, with a cool neutral palette punctuated by cognac brown leather and charcoal gray textiles. The scene has a clean Scandinavian-modern sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.760Z"
+}

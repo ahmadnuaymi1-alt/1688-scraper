@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-eeb2bcefdf4b6e5c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-eeb2bcefdf4b6e5c.png",
+  "source_url": "https://vakkerlight.com/products/ribbed-travertine-arc-sconce",
+  "description": "A bedroom corner vignette photographed at seated eye-level with a normal lens, framing an off-center composition focused on the nightstand zone and the wall above it. The walls are smooth warm plaster in a pale sand-cream tone that glows softly under the warmth in the scene. A low dark walnut nightstand holds a curated arrangement: a small squat candle in a ceramic holder, a slender rectangular box, a stack of three books with a soft-cover paperback on top, and a slender dried pampas arrangement in a cylindrical raw clay vase whose feathery plumes fan outward to the right. A warm amber glow emanates from a wall-mounted position just above and to the left of the nightstand, casting a gentle pool of light that warms the plaster wall behind and spills onto the nightstand surface. The left side of the frame shows the corner of a bed — pale linen pillowcase and a chunky knit throw blanket in a natural oat color draped across the mattress. The floor is not visible. Soft indirect daylight from an adjacent unseen window brightens the right edge of the scene. The palette is entirely warm neutral: cream plaster, oat linen, straw-tone dried grasses, dark walnut wood. The mood is serene and gently romantic. Object density is low to mid on the nightstand. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-c0e83cd371d078b2",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c0e83cd371d078b2.jpg",
+  "source_url": "https://dazuma.us/products/crystal-lamp-floor-minimalist-modern-metal-aluminum-lamp",
+  "description": "A bedroom photographed at standing eye-level with a normal lens, using an off-center thirds composition focused on the corner between the wall and the bedside. The wall surface is upholstered or fabric-wrapped in a warm oatmeal linen-texture — slightly textured, neutral, and warm. Beside it on the left, a tall narrow decorative wooden screen or shoji-inspired panel in warm walnut features a grid of rectangular open frames. On the right, a framed artwork showing a dramatic black-and-white photographic or painterly landscape image hangs on the walnut-toned panel, in a thin gold frame. The bed frame at lower right is solid walnut with a flat horizontal headboard panel, and white bedding sits below. A slender floor-level feature with two glass-crystal orbs in a polished gold-champagne finish emits a subtle warm glow at its lower section. The overall mood is formal and luxurious — a high-end hotel room or refined residential bedroom with East-Asian architectural influence. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "floor_lamp",
+      "sconce",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

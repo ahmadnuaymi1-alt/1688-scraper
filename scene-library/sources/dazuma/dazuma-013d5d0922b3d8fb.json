@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-013d5d0922b3d8fb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-style-wall-sconces-american-outdoor-waterproof-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_4_b89167c8-97d7-4e5c-b35e-ecc6ea3c283a.jpg?v=1773886653",
+  "scraped_date": "2026-05-21T12:04:59.377Z",
+  "source_title": "Vintage Style Wall Sconces American Outdoor Waterproof Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "013d5d0922b3d8fb0dfc2479ca3004865ed4a530",
+  "description": "An exterior view of a charming cottage-style home rendered in whitewashed painted brick, photographed at standing eye-level with a normal-to-slightly-telephoto lens in a centered symmetrical composition. The frame captures the full facade of a single-story garage wing attached to a two-story main house body, with both structures sharing a steeply pitched dark slate or aged cedar shake roof. The garage door is the compositional anchor — a double carriage-style door painted in soft sage green with vertical board detailing, black iron lever hardware, and a row of divided-light transom windows across the top panel casting a warm amber glow of reflected interior light through the glass. The white painted brick exterior is heavily textured with visible mortar joints, giving it a rustic, aged quality. A mature climbing vine, likely Virginia creeper or ivy, wraps organically up the left corner of the garage wing, softening the architecture with loose cascading foliage. To the right of the garage door, a generous cluster of hydrangeas blooms in blush pink and cream white tones, mounded heavily against the base of the wall and spilling toward the stone or concrete paver driveway. The main house portion visible at right features a multi-pane casement window with gray painted board-and-batten exterior shutters, echoing the sage-and-gray palette of the garage door. A red brick chimney rises from the upper roofline above. Mature deciduous trees frame the upper background in full summer-green canopy. A warm, diffuse golden glow emanates from the wall-mounted position between the garage door and the window — a soft pool of amber light washing down the white brick face, suggesting early evening or dusk with the ambient sky still holding a soft gray-blue overcast tone. The mood is quietly romantic and deeply pastoral, evoking an English countryside estate or a well-preserved French Norman farmhouse. The camera is level, at approximately standing eye-level of five to six feet, shooting straight-on in a centered symmetrical composition that bisects the garage door with the vertical midline of the frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage",
+      "dusty_blue"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "multi_pane_window",
+      "shiplap"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:27:34.684Z"
+}

@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-ca2957f262091992",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/flush-mount-stained-glass-light-fixtures-artistic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stained-glass-flush-mount-bedroom-light.jpg?v=1777107579",
+  "scraped_date": "2026-05-21T12:03:12.271Z",
+  "source_title": "Flush Mount Stained Glass Light Fixtures Artistic Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > LED Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ca2957f2620919922868566750a5053b1e199f0f",
+  "description": "A serene bedroom rendered in warm taupe and earth tones, with smooth plaster-finished walls in a muted olive-khaki hue. The bed is dressed in natural linen and dusty blue textiles — layered pillows in beige, oatmeal, and powder blue topped with a rumpled chambray throw. The bed frame is upholstered in burnt sienna velvet with clean modern lines and low wooden legs. Flanking the bed are two walnut-finished nightstands with fluted vertical detailing, each holding a small ceramic vessel, a stack of books, and a soft glow pooling from a nearby warm source. On the left wall, a tall multi-pane window dressed with flowing steel-blue linen drapes allows diffused daylight to wash across the room. The floor is covered in a woven jute area rug in natural undyed tones. The ceiling is smooth and low, painted a warm white, with even ambient illumination filling the room softly. The overall palette is warm neutral with dusty blue accents — restful and editorial without being spare. Camera at standing eye-level, centered symmetrical composition framing the full width of the bed wall with both nightstands equally visible, lens at a normal focal length, slightly looking up toward the ceiling. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.818Z"
+}

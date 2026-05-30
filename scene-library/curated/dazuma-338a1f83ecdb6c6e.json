@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-338a1f83ecdb6c6e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-338a1f83ecdb6c6e.jpg",
+  "source_url": "https://dazuma.us/products/nordic-novelty-table-lamps-iron-base-and-rotomolded-mushroom-shade-lamp",
+  "description": "A warm holiday table vignette photographed at seated eye-level with a normal lens in a tight vignette composition. The surface is a rich, warm-toned dark walnut wood table, its grain and warmth prominent. On the table, a kraft paper gift box tied with a silver metallic ribbon bow sits to the left, its brown paper textured and seasonal. Fresh pine sprigs with small gold ornament balls cascade from the lower left corner, providing lush green and gold holiday accents. To the right of center, a small green hardcover book sits flat with a natural pine cone resting on top. A soft warm cream-white glow emanates from the table surface at that level, washing the walnut wood with a warm intimate pool and casting a soft halo at the base height of the central surface element. The background is dramatically blurred to a deep forest green with scattered soft bokeh circles of warm gold from string lights wrapped in lush tropical or holiday foliage. The palette is deep forest green, warm walnut brown, gold, silver, kraft tan, and glowing cream-white. The mood is romantic and festive — an intimate holiday gathering moment. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

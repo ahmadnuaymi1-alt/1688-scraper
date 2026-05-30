@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-fdbf16679c22a7fe",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-fdbf16679c22a7fe.png",
+  "source_url": "https://vakkerlight.com/products/sunrise-dome-table-lamp",
+  "description": "A warm casual bedroom vignette photographed at seated eye-level with a normal lens, framing an off-center composition of the nightstand area and bed edge. The walls are smooth rough-troweled plaster in a sandy warm beige tone, glowing softly in the diffuse light. Soft natural light filters through a sheer white curtain from a window visible at the right edge of frame, illuminating the room with a gentle ambient wash. A thick amber-orange dome form rests on a dark brown ceramic vessel base on the nightstand, radiating a warm glowing pool of light that warms the plaster wall behind it and spills forward onto the nightstand surface. On the rustic reclaimed-wood nightstand beside it: a ceramic mug in a muted gray glaze and a small stack of books. A potted fern in a terracotta pot sits to the left of the nightstand on the floor, its fronds arching outward and catching the warm light. The bed to the right is dressed in natural linen bedding in shades of oatmeal and warm caramel, with a muted tan throw pillow. The palette is warm neutral with strong mustard-amber and terracotta color accents. The mood is casual and lived-in with a vintage-organic character. Object density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "lived_in",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard",
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

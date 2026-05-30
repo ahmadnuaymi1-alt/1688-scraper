@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-f477960c8cd9466a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-f477960c8cd9466a.jpg",
+  "source_url": "https://dazuma.us/products/white-plaster-chandelier-french-vintage-style-ceiling-light",
+  "description": "A sun-drenched great room or sunroom with a soaring cathedral ceiling clad entirely in white shiplap planks running horizontally — the peaked gable creates a dramatic triangular apex high above. Exposed painted white structural beams follow the pitch of the roofline, adding architectural definition. Along the bottom of the scene, three sets of French doors with black steel multi-pane frames open the room to a garden patio beyond, where mature trees, manicured hedges, and a white exterior building are visible in bright afternoon light. Crisp white pleated linen drapery panels hang from a matte black curtain rod on each side, framing the glass doors without obscuring them. The entire palette is clean white-on-white, with only the black steel door frames and rod providing graphic contrast. The room is filled with an abundance of bright diffused natural light. A warm glow emanates downward from a centered ceiling position, adding a layer of intimate illumination within the bright airy space. Camera at standing eye-level, centered symmetrical composition framing the peaked ceiling and the three-door bank beneath, lens at normal character, slightly looking upward at roughly 10 degrees. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sunroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "vaulted_ceiling",
+      "shiplap",
+      "exposed_beams",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

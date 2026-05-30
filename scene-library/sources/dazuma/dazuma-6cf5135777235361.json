@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-6cf5135777235361",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/portable-solar-lanterns-outdoor-waterproof-led-floor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-solar-lanterns-contemporary-outdoor-living-space.jpg?v=1774078740",
+  "scraped_date": "2026-05-21T12:04:47.399Z",
+  "source_title": "Portable Solar Lanterns Outdoor Waterproof LED Floor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Lanterns > Portable Lanterns",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "6cf5135777235361c54eabb396af88771ac137f2",
+  "description": "An outdoor terrace seating area photographed at standing eye-level with a normal lens at dusk, capturing a wide establishing view of a contemporary patio setting. A low-profile modular sofa upholstered in cream performance fabric forms an L-shape, its cushions topped with throw pillows in cognac, rust, and grey plaid — a warm, layered arrangement. The sofa is positioned on a large flat-weave natural jute-toned outdoor rug, and a substantial square coffee table in dark teak with a thick block base sits at its center, its warm wood surface catching the last amber glow of the evening light. Two warm-glowing portable light sources with curved matte dark metal handles and frosted diffuser bodies sit on the floor beside the sofa and on the coffee table respectively, casting pools of intimate amber light across the rug and cushions. A dense clipped hedge of dark boxwood runs the full width of the background, and beyond it mature olive trees spread their branches against a pale dusk sky still holding warm golden light near the horizon. The deck itself is composed of wide grey composite or teak planks laid in a linear pattern. The overall mood is relaxed, residential, and warmly inviting — a curated outdoor living moment at the close of day. The camera is at a standing eye-level, with a slight downward pitch showing the full furniture arrangement in a wide establishing view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.369Z"
+}

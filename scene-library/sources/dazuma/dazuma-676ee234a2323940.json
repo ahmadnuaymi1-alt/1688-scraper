@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-676ee234a2323940",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/rectangular-wall-sconce-full-copper-cloud-stone-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_621252a9-d501-4d61-bc84-3e908142dc55.jpg?v=1773886489",
+  "scraped_date": "2026-05-21T12:19:32.846Z",
+  "source_title": "Rectangular Wall Sconce Full Copper Cloud Stone Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "676ee234a232394015410593b03938ea18b6a156",
+  "description": "A moody, sophisticated living room anchored by a full-wall acoustic slat panel in dark espresso-stained oak. The vertical wood slats run floor-to-ceiling in a dense, uniform rhythm, creating a rich textured backdrop that absorbs light and adds architectural depth. In front of this wall sits a sculptural cloud sofa with a distinctively rounded, bubbly silhouette — upholstered in plush cream bouclé fabric with organic inflated segments forming the back and arms. The sofa is styled with two loose scatter cushions in a warm greige linen and a draping grey wool throw with fringe detail. To the left at the very edge of frame, a partial view of a low glass-topped coffee table with a stone or concrete base is visible, along with a small stack of hardcover books resting on the glass. A cream-toned low-pile area rug with a faded vintage-style ground sits under the seating arrangement. The floor beneath the rug appears to be a warm light oak plank. A soft warm amber glow radiates from a single position on the slat wall to the upper right, its light caught and partially absorbed by the dark wood slats, creating dramatic contrast — the warm pool of light against the near-black wood background. Camera is at seated-to-standing eye-level, off-center thirds composition with the sofa occupying the lower two-thirds of the frame and the dark wall filling the background, the glowing position in the upper right quadrant. Mood is moody and dramatic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.354Z"
+}

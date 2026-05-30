@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-60820339b8345af2",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/large-white-pendant-light-creative-nordic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_094b6448-1984-4d6a-92f8-81fb89bf2d29.jpg?v=1774595765",
+  "scraped_date": "2026-05-21T12:04:13.076Z",
+  "source_title": "Large White Pendant Light Creative Nordic Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "60820339b8345af28b5b82647e87ed6916dfba55",
+  "description": "A sweeping open-plan dining and living space with a warm European country-modern sensibility. The ceiling is coffered with painted white recessed panels divided by exposed natural oak or white oak beams running in a grid pattern — the beams are square in profile with a clean sawn finish, adding warmth and structure without heaviness. Large floor-to-ceiling steel-framed French doors with slim matte-charcoal mullions occupy the entire left wall, flooding the room with bright cool diffuse daylight from a mountainous landscape view outside. Floor-length cream linen drapery panels hang behind the doors, softening the transition to the outdoors. The dining table is a long, substantial slab of natural rough-sawn solid wood with visible end grain, knots, and live-edge character — its surface is pale honey-blonde aged oak with a raw or oil finish. Around the table, simple ladder-back or slat-back wood dining chairs in a medium walnut tone create an unpretentious, artisanal seating arrangement. On the table: a large textured cream ceramic jug or vase with a tall branch of eucalyptus or olive foliage, a small natural wood stone or pebble beside it, and a shallow dark wooden bowl holding several round dried decorative balls. The far wall beyond the dining space is a deep room revealing a living area: a pale plaster or limewash fireplace surround with a matte-finish firebox, a white sofa, and additional greenery. The overall palette is warm cream, aged oak, natural materials, and abundant greenery — quiet, serene, and organic. Camera is at standing eye-level, shooting a wide establishing view of the dining table from one end, capturing the full room depth toward the living area. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "coffered_ceiling",
+      "exposed_beams",
+      "french_door",
+      "fireplace"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.321Z"
+}

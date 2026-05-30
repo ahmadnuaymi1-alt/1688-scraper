@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-9be91c889bb04995",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/bell-jar-alabaster-cluster-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/17792426377667.png?v=1779299051",
+  "scraped_date": "2026-05-21T12:08:39.736Z",
+  "source_title": "Bell Jar Alabaster Cluster Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "9be91c889bb04995cddc5c799cfbe6b6bf5be6a7",
+  "description": "A grand two-story foyer with an open staircase and soaring ceiling height. The walls are finished in a warm creamy off-white with subtle undertones, and the staircase features dark-stained wood treads paired with a sleek black metal balustrade railing that continues along the upper landing gallery. Natural light pours in through a multi-pane window on the left side of the stairwell, illuminating the airy double-height volume. A tall fiddle-leaf fig tree in a large planter anchors the left corner of the lower floor, adding a strong vertical organic element. Along the right wall at the base of the stairs, a low dark-wood console table displays a curated arrangement of stacked books, a white ceramic vase, and a woven natural fiber basket. The floor appears to be light oak or blonde hardwood. Warm amber glows drop from multiple positions suspended at varying heights throughout the double-height void, cascading in a cluster arrangement from the upper ceiling down alongside the staircase flight, their warm golden light warming the creamy walls and casting overlapping pools of illumination. The atmosphere is welcoming, elevated, and gracious — a formal entry that balances architectural scale with approachable warmth. Camera at approximately standing eye-level at the base of the stair, using a moderately wide lens with a one-point perspective looking diagonally into the stairwell void. The frame takes in the full double-height ceiling, stair flight, upper landing railing, and the entry console, giving a strong sense of vertical scale. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.166Z"
+}

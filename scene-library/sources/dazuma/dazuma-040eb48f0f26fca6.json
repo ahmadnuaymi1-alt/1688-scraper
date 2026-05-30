@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-040eb48f0f26fca6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/black-wrought-iron-chandelier-minimalist-style-luxury-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/black-wrought-iron-chandelier-dining-room.jpg?v=1777107930",
+  "scraped_date": "2026-05-21T12:03:07.922Z",
+  "source_title": "Black Wrought Iron Chandelier Minimalist Style Luxury Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "040eb48f0f26fca6b6455ca458dd1580416e77e9",
+  "description": "A bright, airy dining room rendered in a clean transitional aesthetic. The walls are clad in crisp white applied moulding panels with a subtle grid pattern, and the ceiling carries a thin crown moulding detail. The floor is light natural-toned wide-plank hardwood, partially covered by a soft muted vintage-style area rug in pale ivory and greyed tones. A large rectangular dining table in dark espresso-stained wood with a slab-style pedestal base anchors the space. Around it sit six low-profile dining chairs upholstered in plush oatmeal-toned fabric with clean rounded silhouettes. The table centerpiece is a composed arrangement: a cluster of white ceramic vases of varying heights and shapes — squat round forms, a tall cylinder — holding loosely arranged eucalyptus stems and small leafy green branches. A potted olive tree or similar tall indoor tree in the back right corner adds organic height and softness, its silvery-green foliage arching gently toward the ceiling. Natural daylight washes in from the right side, casting soft shadows across the paneled walls and warming the floor. Warm ambient illumination glows down from overhead, pooling across the tabletop surface and lifting the centerpiece arrangement with gentle downward light. The atmosphere is serene, minimal, and composed. Camera at standing eye-level, centered symmetrical composition facing directly into the dining room, slightly wide lens capturing the full table, all chairs, and both side walls meeting in the background. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "coffered_ceiling"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T16:16:17.964Z",
+  "described_via": "claude-code-agent"
+}

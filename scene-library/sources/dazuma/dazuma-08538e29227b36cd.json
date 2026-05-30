@@ -1,0 +1,46 @@
+{
+  "image_id": "dazuma-08538e29227b36cd",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/up-and-down-moon-brass-italian-luxury-creative-wall-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pair-globe-wall-lights-arched-mirror-wood-console.jpg?v=1777447735",
+  "scraped_date": "2026-05-21T12:03:25.584Z",
+  "source_title": "Up and Down Moon Brass Italian Luxury Creative Wall Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Up & Down Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "08538e29227b36cd9d0e647503557785317c018d",
+  "description": "A formal foyer or entry hall vignette photographed with precise bilateral symmetry. The space is defined by paneled wall moldings painted in a soft warm greige — tall wainscoting panels below a chair rail, with larger raised panels above continuing to the ceiling. The floor is laid in a classic herringbone pattern in a light honey-toned hardwood, adding geometric warmth at ground level. The wall surfaces carry a quiet, plaster-smooth finish that reads almost chalky in the ambient daylight.\n\nCentered against the back wall is a sculptural dark walnut console table with a dramatically rounded tabletop edge and an architectural base composed of two thick, curved upright legs connected at the floor — a keyhole or arch-like negative space carved between them gives the piece a totemic, almost primitive modernist quality. Atop the console, a white stoneware pitcher-style vase with a single handle holds a loose arrangement of olive or eucalyptus branches, their silvery-green foliage cascading leftward. To the right of the vase, a small stack of two or three white-covered hardcover books sits neatly on the console surface.\n\nAbove the console hangs a large arched mirror with a slender brass frame — the arch form echoing the arched multi-pane window visible in its reflection. The mirror reflects an exterior arched window beyond, its black steel frame dividing the glass into a grid of panes, with soft daylight and blurred exterior greenery visible through it. This reflection creates a layered spatial depth — interior, mirror, and exterior window all aligned on the same axis.\n\nA warm, diffused glow emanates symmetrically from either side of the mirror at mid-wall height — soft pools of amber warmth wash the paneled wall flanking the mirror, contributing to a layered, intimate illumination that complements the cool natural light filtering in through the reflected window.\n\nThe mood is formal yet approachable — a blend of classical European architectural bones with sculptural mid-century furniture and restrained contemporary styling. The palette is tightly controlled: warm greige walls, creamy white trim and moldings, deep walnut brown in the furniture, soft brass accents, and the muted sage of the botanicals. The atmosphere suggests early daytime with interior warmth layered over the natural light.\n\nCamera at standing eye-level, centered symmetrical composition aimed directly at the console wall. Lens character is normal to slight telephoto — the spatial compression is modest and the framing tight around the console vignette with little peripheral room visible. Camera pitch is level. The visible frame captures the full console, mirror, flanking wall panels, and a portion of the herringbone floor — a composed vignette of a single wall.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "paneled_walls",
+      "wainscoting",
+      "herringbone_floor",
+      "multi_pane_window",
+      "arched_doorway"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:38:56.210Z"
+}

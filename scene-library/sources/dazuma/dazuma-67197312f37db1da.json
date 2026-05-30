@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-67197312f37db1da",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/creative-design-vase-table-lamp-with-mosquito-repellent-function-artistic-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/portable-silver-vase-table-lamp-outdoor-marble-centerpiece.jpg?v=1768964639",
+  "scraped_date": "2026-05-21T15:52:40.400Z",
+  "source_title": "Vase Table Lamp with Mosquito Repellent Function Artistic Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > LED Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "67197312f37db1daa83bf124b719e6ba33888cf8",
+  "description": "An outdoor dining terrace photographed at seated eye-level with a normal lens, capturing a wide rectangular outdoor dining table with a white marble top featuring grey veining. The marble surface glows with a warm reflected light at table level, illuminating a delicate branching arrangement of yellow flowering branches placed at the table's center — bare woody stems with tiny clusters of golden blossoms that catch the light against the dark night sky. Four dark woven rattan or all-weather wicker chairs surround the table, their deep brown tones grounding the composition. The background shows a lush tropical garden at night with well-lit landscaping: dense foliage in deep greens lit from below by garden spotlights, low stucco or plaster garden walls in white, and a deep indigo-black night sky. The warm table-level glow creates a pool of soft amber light on the marble surface and reflects upward to the undersides of the flower branches. The mood is romantic and dramatic — an elegant outdoor evening dining setting. The palette is marble white and grey-veining, dark espresso wicker, deep garden greens, and inky black night sky, with the golden yellow floral branches as the sole warm accent. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "mustard",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "outdoor"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.351Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-45cf47c8df1f6195",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pendant-light-white-japanese-silk-fabric-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_6cf7285a-f739-4889-812d-352fc8e3d77c.jpg?v=1774595812",
+  "scraped_date": "2026-05-21T12:04:12.106Z",
+  "source_title": "Pendant Light White Japanese Silk Fabric Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "45cf47c8df1f6195aea391fd4b04b6712f4fb7c0",
+  "description": "A bright, airy dining room photographed from a standing eye-level with a slightly wide lens, offering a wide establishing view of the full space. The walls are painted bright white and adorned with classic applied panel moulding — a simple raised-panel wainscot pattern that runs from baseboard to the upper wall, all painted the same crisp white as the walls and ceiling. On the right wall, two large multi-pane windows with black painted frames look out onto a green lawn in soft overcast daylight, flooding the room with cool natural light. A staircase with white painted risers and balusters and a dark wood railing rises in the left background, passing through a low arched opening into an adjacent hallway. The dining table is a large raw or limed solid wood farm-style table with a heavy trestle base in a warm bleached oak tone, surrounded by eight upholstered dining chairs in a cream linen fabric with matte-black legs. The table surface holds a simple centerpiece: a round squat natural stoneware vase with an arrangement of dried cream baby's breath, accompanied by a taller narrow ceramic vessel and a small white candle. The floor is wide-plank light honey-toned hardwood with natural variation. The overall palette is soft and layered in warm whites, natural linens, and bleached wood with black metal accents. Diffused window light provides the dominant illumination, casting a gentle natural brightness throughout. Camera is at standing eye-level, using a wide lens, in a centered-to-off-center wide establishing composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "wainscoting",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.224Z"
+}

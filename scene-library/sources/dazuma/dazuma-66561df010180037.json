@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-66561df010180037",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-pillar-lantern-lights-modern-waterproof-fence-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/2_baea1e14-6b57-446a-a93b-cf26fb681819.jpg?v=1774175490",
+  "scraped_date": "2026-05-21T12:04:40.966Z",
+  "source_title": "Outdoor Pillar Lantern Lights Modern Waterproof Fence Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "66561df0101800378d2c05e380498fb9b2b88048",
+  "description": "A contemporary outdoor terrace or deck at dusk, shot against a calm lakeside backdrop with a dense tree line reflected in still water under a deep blue twilight sky. The terrace features a smooth large-format porcelain tile floor in a warm stone tone. Two substantial rectangular concrete pillars serve as posts for a horizontal railing system with slim dark bronze vertical metal balusters. A thin horizontal band of warm amber light runs along the base of the railing between the concrete pillars, grazing the tile surface and casting a subtle golden glow along the ground plane. Tree branches with fresh spring leaves reach into the upper corner of the frame, silhouetted against the blue sky. The scene is quiet, architectural, and spare — no furniture or decorative objects are present; the concrete, metal railing, and open water view define the entire composition. Camera is at a low-to-seated eye-level, normal lens, centered symmetrical composition looking directly at the two concrete pillars and the railing, with the lake horizon centered in the mid-background. The image evokes a high-end residential waterfront property at evening twilight. Warm amber illumination radiates from the top surfaces of each pillar, falling downward and outward. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.344Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-2e318675f19688f4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-lighting-hanging-wedding-decorative-waterproof-pendant-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-lighting-hanging-crystal-warm-lakeside-event.jpg?v=1774595410",
+  "scraped_date": "2026-05-21T12:04:21.132Z",
+  "source_title": "Outdoor Lighting Hanging Wedding Decorative Waterproof Pendant Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "2e318675f19688f4ec316e96faf8cb8e1bdcff06",
+  "description": "An outdoor lakeside wedding dinner setting on what appears to be a private garden terrace on the shores of an Italian lake — a dramatic panorama of still turquoise water, a small hillside village with terracotta rooftops and bell towers, and dark mountain silhouettes fading into blue evening sky fills the background. The terrace features a long formally set dining table dressed in white linen with white china, crystal glassware, and gold-toned candelabras holding multiple tapered white candles in full flame, their warm light flickering and casting intimate golden pools across the table surface. A lush low floral runner of white roses, garden roses, and baby's breath with trailing greenery centers the table. Silver chiavari chairs line both sides. Two large arched metal armatures covered in trailing ivy and climbing vines form a pair of organic garden arches over the table, from which jewel-like crystal-draped tiered arm arrangements hang on chain drops, each blazing with warm candlelight-toned light and scattering prismatic facets of gold and amber across the scene. Clipped topiary hedges and ornamental garden plantings edge the terrace. The whole scene glows with romantic twilight warmth — the lake behind reflects the last blue of dusk. Camera at standing eye-level, slightly off-center composition looking down along the table with the lake panorama as backdrop, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.134Z"
+}

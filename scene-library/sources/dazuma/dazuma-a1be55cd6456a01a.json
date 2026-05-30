@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-a1be55cd6456a01a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/stained-glass-chandeliers-modern-creative-led-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/stained-glass-chandelier-living-room-multicolor-globes.jpg?v=1777107653",
+  "scraped_date": "2026-05-21T12:03:19.791Z",
+  "source_title": "Stained Glass Chandeliers Modern Creative LED Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a1be55cd6456a01ae422b83b3beb209a9d8cbc5c",
+  "description": "A bright, airy dining room photographed at standing eye level with a wide lens in a centered composition looking toward the rear wall, framing the full dining table and the built-in shelving and fireplace wall behind it. The camera is level at approximately five to six feet, giving a wide establishing view of the room.\n\nThe room has a thoroughly light and neutral palette — warm white or cream walls, a flat white ceiling with simple crown moulding at the perimeter, and wide-plank light natural oak flooring. Tall natural wood door or window surround framing is visible at the upper-left, with pale natural timber trim. \n\nA built-in recessed shelving unit painted white flanks the right half of the rear wall, with three open shelf levels displaying ceramic vessels, books, and small decorative objects in cream and natural tones. To the right of the shelves, a marble or stone-faced fireplace with a simple clean white surround is partially visible.\n\nA long rectangular dining table in light natural oak runs through the center foreground, with six rounded-back upholstered dining chairs in a warm cream-sand fabric arranged around it. A dark cobalt blue textured ceramic vase with a dried botanical arrangement of pale seed-head stems sits as a centerpiece on the table.\n\nThe ceiling is white and flat, lit by even ambient diffuse daylight filling the space softly from off-frame windows. The floor-level and wall surfaces read in warm cream and pale wood tones throughout, a cohesive, tranquil interior.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "fireplace",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.599Z"
+}

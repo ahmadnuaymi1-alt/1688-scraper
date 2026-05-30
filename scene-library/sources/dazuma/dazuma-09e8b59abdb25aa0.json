@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-09e8b59abdb25aa0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-led-outdoor-wall-lights-waterproof-mushroom-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-led-outdoor-wall-lights-glass-door-contemporary.jpg?v=1773717736",
+  "scraped_date": "2026-05-21T12:19:37.487Z",
+  "source_title": "Modern LED Outdoor Wall Lights Waterproof Mushroom Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "09e8b59abdb25aa020cfa28b9a9669ac5c03bafd",
+  "description": "The front entry facade of a contemporary transitional residential home photographed straight-on in even daylight. The exterior walls are clad in painted white brick with a clean, fine-jointed texture. The entry surround and pilasters are finished in smooth grey stone or cast stone, providing a formal contrast to the more casual brick field. The main entry features a pair of tall double French doors with multi-pane glass panels set in matte black frames, providing a classic grid pattern. Flanking the entry door surround are two slender columnar evergreen shrubs — Italian cypress or similar — trimmed neatly to matching heights. At the base of each flanking pilaster, low-growing ornamental plantings and purple flowering shrubs fill the entry beds. The driveway or entry court is paved in light grey interlocking pavers in a running bond pattern. The upper facade features two sets of multi-pane double-hung windows in matte black aluminum frames, and the roofline includes a dark grey architectural shingle. A warm circular glow falls on the grey stone pilasters on each side of the entry door from a pair of symmetrically positioned wall-mounted sources, reading as warm amber discs against the daylit facade. The mood is formal, polished, and transitional — bridging traditional and modern sensibilities. Camera is at standing eye-level, shooting a centered symmetrical view of the full entry facade. The lens is a normal to moderate telephoto, keeping the building flat and well-composed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:17.981Z"
+}

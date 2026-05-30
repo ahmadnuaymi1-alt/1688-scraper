@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-9d164c531b315c60",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-sconce-lights-waterproof-landscape-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_045dd0eb-393e-40c9-b4bb-b05fd5b7b23c.jpg?v=1774595331",
+  "scraped_date": "2026-05-21T12:04:24.952Z",
+  "source_title": "Outdoor LED Sconce Lights Waterproof Landscape Decorative Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9d164c531b315c60ba941fab3decb079fc0f110b",
+  "description": "A contemporary residential front entry photographed at standing eye level in a centered, slightly off-axis composition that frames both the front door and the adjacent exterior wall. The camera is at a level pitch, roughly five feet in height, with a normal lens capturing the full entry zone from door to adjacent planting corner.\n\nThe exterior walls are smooth white or very pale cream stucco — a clean, matte finish with no texture variation. The entry ceiling overhead is natural light oak with visible grain running horizontally, creating a warm contrast against the cool white walls. The floor surface is large-format smooth light grey concrete or limestone pavers, with a natural woven jute doormat placed in front of the door.\n\nThe front door is a broad single-panel door finished in natural pale light oak with vertical shiplap-style tongue-and-groove boarding, framed by a matte-black perimeter door frame. A tall vertical matte-black handle bar and a matte-black digital smart lock are mounted on the door face. A full-height narrow sidelight glass panel to the right of the door looks through to trees and a green lawn beyond, admitting natural daylight.\n\nTo the right of the door on the white exterior wall, a soft warm glow emanates from a single wall-mounted position, spreading a diffuse wash of warm white light across the plaster surface. Below this wall position, a matte-black square metal planter box on hairpin legs holds a conical dwarf spruce or arborvitae topiary and small white flowering ground cover. At upper right, a branch with white blossoms from an off-frame flowering tree dips into the composition. Low dusty sage-green foliage shrubs grow at ground level to the right.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.554Z"
+}

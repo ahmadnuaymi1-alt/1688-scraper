@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-cae1197238708c0a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/european-retro-outdoor-waterproof-metal-column-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/2_0c6d9021-e8c5-4bfc-9071-e624625aaf9b.jpg?v=1774175767",
+  "scraped_date": "2026-05-21T12:04:34.495Z",
+  "source_title": "European Retro Outdoor Waterproof Metal Column Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "cae1197238708c0a7ed17753582d7408b1b797ba",
+  "description": "A dramatic residential boundary wall photographed at low eye-level with a normal lens in a one-point perspective composition looking along the length of the garden wall. The camera is positioned low and close to the first column, emphasizing the powerful recession of the repeating stone pillars into the distance. A row of four squared granite or cut-stone piers with flat top caps lines the left side of the frame, diminishing in size as they recede along a clean concrete paver walkway bordered by dark decomposed granite gravel on the right. Each pier cap supports a period-style oil-rubbed dark bronze lantern that glows warmly from within, the warm amber light visible through diamond-lattice glass panels and escaping in a warm glow at the base of each fixture. The dark metal fence above the wall continues the structured linear grid of the composition. In the background, a contemporary dark corrugated metal barn or outbuilding wall faces the garden in dark charcoal. The evening sky beyond shows a vivid twilight gradient of deep mauve-lavender and navy blue with scattered clouds backlit by sunset. Trailing willow or birch branches droop from the upper right, their spring-green leaves adding a delicate organic note against the deep sky. The palette is cool stone grey, warm amber, charcoal metal, and vivid violet sky. The atmosphere is stately, estate-like, and quietly imposing. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.823Z"
+}

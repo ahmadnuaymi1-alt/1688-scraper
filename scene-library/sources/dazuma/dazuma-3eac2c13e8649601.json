@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-3eac2c13e8649601",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/american-country-style-vintage-wrought-iron-floor-lamps-fabric-shade-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_c9457f32-dc86-439b-82ea-0ba9e1ebc4b2.jpg?v=1758852690",
+  "scraped_date": "2026-05-21T15:52:51.862Z",
+  "source_title": "Vintage Wrought Iron Floor Lamps Country Style Fabric Shade Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3eac2c13e86496019b6b58e7c1a410555532199c",
+  "description": "A living room corner vignette photographed at standing eye-level with a normal lens, framing a three-quarter view of the seating and side table area. The walls are a smooth light warm greige, bare except for a large-format abstract black-and-white artwork in the upper left corner — a loose collage of bold geometric marks in black, white, and grey. A deep chocolate-brown leather sofa fills the left foreground, its cushions thick and squared. In front of it, a round dark wood tray table with a metal frame holds two sculptural decorative objects: a striped black-and-white ceramic figure in an abstract curled form, and a small black lacquered sphere. Standing to the right of the sofa, a tall slender floor element rises from a round base with mixed matte black and brushed brass tones; a warm glow radiates outward from mid-height and fans gently up the wall behind it. A partial view of a slim orange leather side chair is visible at the far right edge. The floor is a low-pile cream or light beige area rug over what appears to be a concrete-toned surface. The mood is moody and editorial, with the dark leather and sculptural art creating a dramatic masculine atmosphere. Color palette is earth tones with matte black and brass. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "mixed",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.190Z"
+}

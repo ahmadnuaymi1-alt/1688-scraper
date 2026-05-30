@@ -1,0 +1,38 @@
+{
+  "image_id": "vakker-9f5e9037d55eaca2",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/solavera-alabaster-mosaic-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Solavera_Alabaster_Mosaic_Floor_Lamp04.png?v=1778092509",
+  "scraped_date": "2026-05-21T15:53:18.531Z",
+  "source_title": "Solavera Alabaster Mosaic Floor Lamp",
+  "source_product_type": "Floor lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "9f5e9037d55eaca29a7168b1a342f049ec167978",
+  "description": "A living room corner photographed at standing eye-level with a normal lens, framing a three-quarter corner view showing the full height from floor to ceiling. The walls are smooth warm cream with no architectural features. The floor is a natural jute area rug. A plush cream or oatmeal linen sofa with a low back and throw blanket in soft grey-cream sits at left, with throw pillows in the same neutral palette. To its far right, a rustic bench or side table in rough reclaimed wood holds a small potted plant and a ceramic mug. A potted olive tree in a white planter adds height in the right background. Between the sofa area and the bench, a tall slender floor element with a mosaic-textured cream shade on a dark tapered wood base stands on a dark round base; a diffuse amber glow radiates from it at mid-height, warming the surrounding cream wall and the sofa's side. Sheer cream curtains diffuse soft natural window light from the right. Color palette is monochromatic warm neutral — cream, oat, and natural tones throughout. The mood is serene and effortlessly casual. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.170Z"
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-9c4a97bbac1a5d3c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-hanging-ceiling-light-fixtures-american-style-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-hanging-ceiling-light-fixtures-vintage-white-porch-entrance.jpg?v=1774078504",
+  "scraped_date": "2026-05-21T12:04:51.585Z",
+  "source_title": "Outdoor Hanging Ceiling Light Fixtures American Style Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Ceiling Lights > Outdoor Hanging Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9c4a97bbac1a5d3ceb10b8a0f56b323bfeb9f1a1",
+  "description": "A covered front porch of a traditional American home photographed from a seated-to-standing eye level, positioned along the left side of the porch and angled in a one-point perspective looking straight down the length of the covered walkway toward the front entry doors. The camera is at roughly standing height, pitched slightly downward, framing the full passage from the near ornamental urns to the double doors at the rear.\n\nThe porch floor is laid in irregular flagstone pavers in cool blue-grey and taupe tones, giving a rustic yet refined character. Two large carved white stone or cast concrete ornamental urns sit prominently in the foreground, each overflowing with lush, deep-green Boston ferns. The urn surfaces are intricately relief-carved with acanthus leaf and floral motifs.\n\nThe house exterior combines white horizontal clapboard siding with natural buff-and-tan cut fieldstone accents at the column bases and around the front door surround. Tall, classically proportioned square columns in painted white with a paneled profile flank the right side of the porch and support the covered ceiling overhead. The ceiling itself is white painted tongue-and-groove shiplap running lengthwise, adding architectural texture.\n\nAt the far end, a pair of white French-style double doors with divided-light panes and a transom window above anchor the entry. Black-framed multi-pane windows line the left wall. Soft, overcast daylight washes the scene evenly, with no dramatic shadows — a cool, diffuse natural light that renders all surfaces cleanly. Beyond the porch columns, a manicured green lawn and shrub plantings extend into a bright exterior.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "french_door",
+      "multi_pane_window",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "pendant",
+      "chandelier",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.550Z"
+}

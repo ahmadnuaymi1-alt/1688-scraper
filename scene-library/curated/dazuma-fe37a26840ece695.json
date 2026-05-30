@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-fe37a26840ece695",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-fe37a26840ece695.jpg",
+  "source_url": "https://dazuma.us/products/copper-wall-sconce-modern-minimalist-led-corridors-light",
+  "description": "A contemporary foyer or entryway vignette photographed at standing eye-level, centered symmetrically on the console wall. The dominant surface is a full-height wall treatment of warm medium-toned wood veneer panels in straight horizontal grain, creating a rich, enveloping backdrop. The floor is large-format light grey stone tile. A sculptural dark espresso-stained console table with organic teardrop-shaped legs and a softly rounded oval top holds a minimal arrangement: a double-gourd white ceramic vase with dried twig branches, and a small matte black bud vase with a delicate plant. Leaning against the wood wall to the right of the console is a tall, amorphous oval frameless mirror with a slim black edge, reflecting a glimpse of a green leafy plant and soft interior beyond. A warm horizontal glow runs along the top edge of the mirror from a hidden LED strip, casting a warm linear wash across the wood panels above. The left portion of the wall shows a focused warm light radiating outward and downward from a wall-mounted position, illuminating the console surface and creating a textured shadow pattern on the wood grain. Camera is at standing eye-level, dead-center with a normal lens in a centered symmetrical composition, level pitch, capturing the full console vignette from floor to upper wall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

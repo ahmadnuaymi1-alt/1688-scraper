@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-7889d482841fadc4",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7889d482841fadc4.jpg",
+  "source_url": "https://dazuma.us/products/french-floral-retro-green-table-lamp-artistic-globe-decorative-light",
+  "description": "A close-up desk or shelf vignette photographed at standing eye-level with a normal lens, showing a glass-topped or chrome-frame side table surface with several styled objects. At the left side of the frame, a small forest-green branded box with white text sits beside a small cactus in a plain white round ceramic pot. Below the table surface, the edge of a magazine or softcover book is partially visible. The frame of a metal chair back in chrome or brushed steel is visible at the lower right, introducing a cool industrial material note. The background wall is flat smooth plaster in a pale cool grey-white. Warm white light glows from multiple points at table level, illuminating the wall above with a diffused warm wash. The palette is sage-green and matte white against pale grey — a fresh, youthful artisan-shelf aesthetic. The warm light at table level contrasts with the cool neutral background. The mood is playful and casually styled, with a decorative-plant and brand-object aesthetic popular in Gen-Z home styling. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

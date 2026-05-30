@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-b1fff42364c742b9",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b1fff42364c742b9.jpg",
+  "source_url": "https://dazuma.us/products/creative-design-vase-table-lamp-with-mosquito-repellent-function-artistic-light",
+  "description": "A moody restaurant dining room photographed at standing eye-level with a normal lens, using a centered symmetrical composition looking directly at a two-top table set for dinner. The backdrop is a full wall of exposed red brick in a rich terracotta tone, its rough texture deepened by the dim ambient conditions. Built into the brick is a wide arched niche — a semi-circular arch in brick housing a long horizontal shelf displaying a row of wine and spirit bottles lined up side by side, backlit from within by a warm amber strip that glows along the arch's underside, casting a warm luminous crescent. The dining table is dark-stained wood in a square format, set with two white plates with napkins and cutlery, two clear drinking glasses, and a central arrangement of dried red berry branches in a white ceramic vase. Surrounding the table are four wooden bistro chairs with forest-green leather seat cushions. The overall light level is low and intimate — warm amber tones from the niche contrast with the cool brick and dark wood. A small warm glow emanates from the base of the central table piece. The mood is dramatic, romantic, and closely associated with candlelit European bistro dining. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "none",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "pendant",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

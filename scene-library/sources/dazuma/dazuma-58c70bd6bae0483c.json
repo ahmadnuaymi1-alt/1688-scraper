@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-58c70bd6bae0483c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-garden-path-lights-copper-waterproof-led-landscape-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/outdoor-garden-path-lights-modern-landscaped-garden-dusk.jpg?v=1774078644",
+  "scraped_date": "2026-05-21T12:04:48.692Z",
+  "source_title": "Outdoor Garden Path Lights Copper Waterproof LED Landscape Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "58c70bd6bae0483c2a7d57b53e2ba6f73182262a",
+  "description": "A moody nighttime garden vignette centered on a landscaped planting bed beside a pale stone or travertine paved terrace. The paving is large-format irregular or sawn stone in a warm cream tone. The garden bed behind is densely planted with a mix of ornamental shrubs: on the left, a dark burgundy-leafed shrub with delicate small foliage; in the center-back, a mid-green rounded form; and on the right, a silvery-gray textured lavender cotton or artemisia plant. All the plantings are illuminated in warm amber from a ground-level source, glowing vividly against the very dark near-black night sky background. The overall lighting creates a theatrical, intimate garden atmosphere with strong foreground illumination fading to deep darkness above. The palette is warm amber light, burgundy-red foliage, deep green, silvery sage, and pale cream stone. Camera at a low angle, approximately 2 to 3 feet off the ground, centered on the garden composition in a vignette frame at normal to slightly telephoto focal length, with the stone paving in the immediate foreground. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.302Z"
+}

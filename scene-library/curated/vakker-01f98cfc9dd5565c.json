@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-01f98cfc9dd5565c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-01f98cfc9dd5565c.png",
+  "source_url": "https://vakkerlight.com/products/boule-table-lamp",
+  "description": "A living room reading nook corner photographed in a warm square format with soft afternoon light. A small square side table in medium warm walnut or teak tone stands at center-left on four tapered wooden legs, its surface holding a stack of three books, a small gold accent dish, and a dried botanical arrangement in a white ceramic bud vase. Warm light radiates from the surface area and casts an intricate dappled pattern of shadows across the adjacent plaster wall and the window casement — the shadows form a delicate lattice or woven grid pattern from the diffusion through the object above. The wall behind is smooth off-white plaster. A simple white painted baseboard lines the base of the wall, and light honey-tone parquet herringbone floor planks are visible at the bottom of the frame. To the right, a sage green velvet or linen armchair faces partially toward camera, a folded grey knit throw draped over its arm. The corner window at the upper left allows soft warm afternoon light to pour in, partially obscured by sheer curtains just outside the frame. A natural jute or sisal rug covers the floor area. Camera at seated eye-level, normal lens, three-quarter corner composition angled to show both the side table and the armchair, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "plaster",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

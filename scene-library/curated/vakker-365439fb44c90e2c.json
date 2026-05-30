@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-365439fb44c90e2c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-365439fb44c90e2c.png",
+  "source_url": "https://vakkerlight.com/products/axis-alabaster-table-lamp",
+  "description": "A clean, contemporary bedroom vignette photographed at seated eye-level with a telephoto-to-normal lens, tightly framed as a close vignette centered on the nightstand. The wall is painted smooth warm white. A tall window to the right is partially visible, letting in cool-bright natural daylight. The dark walnut nightstand is a two-drawer or single-drawer rectangular form with a clean modern profile, and its surface holds a compact collection of objects: a ceramic mug in warm grey, a small potted succulent in a simple white ceramic pot, a pair of reading glasses resting on a slim book, and a second small stack of reading material. Partially visible at the left edge of the frame, the bed's upholstered headboard in warm sand linen is shown with a chunky cream knit throw draped over the side. A warm, contained glow diffuses from the table surface and wraps the nearby wall and nightstand surface in honeyed warmth at table height, the light gentle but clear, illuminating the ceramic and greenery on the surface below without spreading above the midpoint of the wall. The palette is tonal and residential: dark walnut wood, warm white walls, sandy linen, muted grey ceramics, and clean white accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "flush_mount",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

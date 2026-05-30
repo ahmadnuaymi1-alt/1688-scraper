@@ -1,0 +1,46 @@
+{
+  "image_id": "dazuma-255dccf2dc725e21",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-sconces-outdoor-modern-minimalist-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_d31a7dba-c817-4bd2-a691-6e8954de888a.jpg?v=1774175124",
+  "scraped_date": "2026-05-21T12:04:45.273Z",
+  "source_title": "Wall Sconces Outdoor Modern Minimalist Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "255dccf2dc725e212a44b26fa0af665dfd60cabd",
+  "description": "A covered back porch and outdoor living space photographed at standing eye-level with a normal lens, wide establishing composition. The home's exterior siding is white shiplap boards, and a large black-framed multi-pane French door set fills the center background wall. The porch ceiling is constructed of dark-stained or naturally weathered timber boards, and a massive rough-hewn log column with visible knot and grain texture anchors the left foreground — a bold rustic structural element. The porch floor is large-format pale limestone or travertine pavers. A generously proportioned outdoor sectional sofa with a chunky reclaimed-wood frame sits center, with thick white cushions and an assortment of accent pillows in grey linen, stripe, and geometric print. A matching reclaimed-wood rectangular coffee table holds a small potted green plant in a woven basket. A small matching ottoman stands to the right. Beneath the seating group, a large area rug in a cream ground with a dark geometric tribal or Navajo-inspired border pattern grounds the outdoor room. A large potted fiddle-leaf fig in a dark round planter occupies the left background. The garden beyond the porch perimeter shows a green lawn and wooden fence. Two warm amber wall-glow sources flank the French door symmetrically on the white shiplap wall, casting soft halo pools on the siding above the seating. Camera is at standing eye-level, wide establishing composition. The mood is casual and lived-in, an inviting outdoor room. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "shiplap",
+      "exposed_beams",
+      "french_door",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "sconce",
+      "outdoor",
+      "flush_mount",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.093Z"
+}

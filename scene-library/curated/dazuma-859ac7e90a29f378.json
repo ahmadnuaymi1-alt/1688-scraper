@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-859ac7e90a29f378",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-859ac7e90a29f378.jpg",
+  "source_url": "https://dazuma.us/products/wall-light-with-reading-light-rotatable-multi-function-lamp",
+  "description": "A contemporary hotel corridor entry vignette photographed at standing eye-level with a normal lens, capturing a flat frontal view of a room door and the flanking wall. The scene is a tight architectural vignette: the left two-thirds of the frame is occupied by a smooth-grained pale blonde oak wood wall panel in full-height format, warm in tone with a fine linear grain. Mounted to this panel at mid-height is a matte black oval-shaped wall-mounted element with a backlit amber halo glowing around its perimeter, washing the surrounding wood panel with a warm amber gradient that fades down toward the floor. A downward-pointing spot integrated into the oval form casts a tight focused cone of warm white light illuminating the white three-dimensional room number numerals — 1012 — mounted to the panel below. A small square black light switch is mounted directly below the numerals. The right third of the frame is a tall, deeply dark matte black recessed door frame leading to an interior room, its deep blackness contrasting sharply with the warm wood panel. The floor at the base is pale light oak plank. The atmosphere is precise, sophisticated, and hotel-modern — reduced to its most essential elements. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

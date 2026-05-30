@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-3cbf94a2ced53581",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3cbf94a2ced53581.jpg",
+  "source_url": "https://dazuma.us/products/japanese-style-rice-paper-table-lamps-minimalist-wabi-sabi-design-light",
+  "description": "A mid-century modern interior composition photographed at standing eye-level with a normal lens in a three-quarter corner view, showing a sideboard or low credenza surface, a partial wall with art, and a door opening. The credenza is cream or pale grey lacquer with dark wood-edged top surface and a clean horizontal profile. On the credenza, a polished chrome sculptural organic form — possibly a furniture or decorative object inspired by animal or abstract shape — sits in the center. A black-and-cream ceramic penguin figure with yellow-and-black detailing stands to the right as a playful decorative element. To the far left, a red-banded cut-crystal drinking glass in clear and red glass sits on the surface edge. On the wall above, two black-framed photographs hang side by side — industrial architectural black-and-white prints with mat borders. In the left background, a pair of forest-green painted solid wood doors with raised moulding panels are visible through a partial opening; a small red decorative object is visible on a shelf above the door frame. At far right edge, the back of a mesh office chair in black is partially visible. The walls are smooth, warm off-white. The palette is off-white, forest green, polished silver, black, red, and cream. The mood is scholarly and playful with a confident mid-century editorial sensibility. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

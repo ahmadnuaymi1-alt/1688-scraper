@@ -27,6 +27,14 @@ async function main() {
   if (!productId) { console.error("Usage: <productId>"); process.exit(1); }
   const prisma = new PrismaClient();
   try {
+    const product = await prisma.product.findUnique({
+      where: { id: productId },
+      select: { title: true, optionNames: true },
+    });
+    if (product) {
+      console.log(`Product: ${product.title.slice(0, 80)}`);
+      console.log(`optionNames: ${product.optionNames ?? "(none)"}`);
+    }
     const variants = await prisma.variant.findMany({
       where: { productId },
       orderBy: { position: "asc" },
@@ -39,7 +47,9 @@ async function main() {
         select: { id: true, imageType: true, fileName: true, sourceUrl: true },
       });
       const ownNames = ownImages.map(i => `${i.imageType ?? "null"}:${(i.fileName ?? "").slice(0, 30)}`).join(", ");
-      console.log(`  #${v.position} ${v.isHidden ? "[HIDDEN]" : ""} "${(v.title || "").slice(0, 30)}" feat=${v.featuredImage?.fileName?.slice(0, 30) ?? "-"} (${v.featuredImage?.imageType ?? "-"}) own=[${ownNames}]`);
+      const opts = [v.option1, v.option2, v.option3].filter(Boolean).join(" / ");
+      const supOpts = [v.supplierLabel1, v.supplierLabel2, v.supplierLabel3].filter(Boolean).join(" / ");
+      console.log(`  #${v.position} ${v.isHidden ? "[HIDDEN]" : ""} id=${v.id} opts=[${opts}] sup=[${supOpts}] title="${(v.title || "").slice(0, 40)}" feat=${v.featuredImage?.fileName?.slice(0, 30) ?? "-"} own=[${ownNames}]`);
     }
   } finally {
     await prisma.$disconnect();

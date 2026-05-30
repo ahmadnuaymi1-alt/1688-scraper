@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-bdde1c41f93edad3",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/tapered-travertine-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Tapered_Travertine_Wall_Sconce__3.jpg?v=1779212166",
+  "scraped_date": "2026-05-21T12:08:38.866Z",
+  "source_title": "Tapered Travertine Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 790,
+  "height": 998,
+  "content_sha1": "bdde1c41f93edad3a4869039ca5dcff64cfd645b",
+  "description": "A serene, Japandi-influenced bedroom vignette photographed at standing eye-level with a normal to slightly telephoto lens, framing a three-quarter corner view of the bedside area. The bed in the left foreground features crisp white linen bedding with multiple white pillows including a cylindrical bolster, layered with relaxed ease. A wall-height paneled wood wainscoting in warm medium-dark walnut or oak frames the lower half of the walls and wraps around a cylindrical column to the right edge of the frame. Above the wainscoting, the upper wall transitions to smooth matte white plaster. On the right side, a small round pedestal side table in matte charcoal black holds a ceramic shallow bowl in off-white, a small glass tumbler, and a small arrangement of dried dark berries on stems, adding a naturalistic note. A matte black power outlet panel is integrated into the wainscoting just above the table. A warm amber pool of downward-directed light falls from a wall position above the side table, casting a cone of warmth onto the plaster below and illuminating the small table surface and accessories. On the far right edge, narrow vertical fluted wood paneling or reeded columns extend floor to ceiling, adding a second textural layer. The overall palette is white, walnut brown, matte black, and dried berry-dark — quiet and precise. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "wainscoting",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.205Z"
+}

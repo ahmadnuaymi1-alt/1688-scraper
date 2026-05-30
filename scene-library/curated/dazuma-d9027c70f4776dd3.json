@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-d9027c70f4776dd3",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d9027c70f4776dd3.jpg",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-house-outdoor-waterproof-post-light",
+  "description": "A traditional Asian-inspired residential or garden courtyard entry stair vignette photographed at dusk, close and low. The scene is centered on a square masonry pillar or newel post in smooth pale limestone or sandstone, its surface aged with a subtle warmth. The pillar sits at the base of a broad staircase with wide, shallow treads in matching pale stone paving, descending from left to right. Behind the pillar, dense low plantings of dark-green leafed shrubs — possibly camellia or rhododendron — grow against the base of a larger building wall in textured stone or granite in a warm taupe. A warm amber glow radiates from a decorative fixture atop the pillar, casting rich golden light onto the surrounding stone surface, the stair edge, and the dark foliage behind. The deep dusk sky is dark blue-gray with no visible sun. The overall palette is earth tones — pale sandstone, dark charcoal-brown stone — with warm amber glow and deep forest green accent from the plantings. Camera is at a low angle of roughly 2 feet, level, in a three-quarter vignette composition tightly framed on the pillar and stair, with the building behind providing context. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

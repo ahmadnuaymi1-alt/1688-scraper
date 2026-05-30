@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-ec1375005f92e249",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ec1375005f92e249.jpg",
+  "source_url": "https://dazuma.us/products/contemporary-linear-chandeliers-luxury-rgb-ceiling-light",
+  "description": "A dramatic contemporary cocktail bar or nightlife venue photographed at standing eye-level with a wide lens and a three-quarter corner view, showing the full bar counter, back bar shelves, and the industrial warehouse space behind. The setting is an industrial-modern loft: raw exposed ductwork in metallic silver runs across the dark ceiling, and large steel-framed industrial grid windows along the left wall reveal a dark exterior cityscape. The ceiling and upper walls are deep navy-cobalt blue. The bar counter itself features a translucent ribbed glass or acrylic base panel that is backlit with a dynamic gradient of LED color — transitioning from vivid magenta/pink at the left end to teal-green at the right — casting dramatic colorful reflections onto the polished concrete floor. The bar top appears to be white or light grey stone or polished laminate. A continuous row of six dark grey upholstered modern barstool chairs with slender matte-black hairpin legs lines the bar front. Behind the bar, open chrome wire shelving holds a displayed back bar arrangement of spirit bottles, wine glasses, glassware stacks, and small green potted plants. A commercial espresso machine and grinder occupy the far right end. A large mature tropical palm in a dark pot occupies the far left corner. Vibrant purple and teal glow saturates the floor and lower zones. The palette is deep navy blue, metallic silver, magenta, teal-green, dark grey charcoal, and chrome. The mood is playful, dramatic, and nightlife-charged. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "jewel_tones",
+    "color_accent": [
+      "cobalt",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [
+      "picture_window"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

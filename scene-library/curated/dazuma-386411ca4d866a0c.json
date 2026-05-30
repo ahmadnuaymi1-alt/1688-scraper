@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-386411ca4d866a0c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-386411ca4d866a0c.jpg",
+  "source_url": "https://dazuma.us/products/french-vintage-walnut-colored-acrylic-table-lamp-artistic-atmosphere-light",
+  "description": "A moody sitting room vignette photographed at seated eye-level with a normal lens in a vignette composition centered tightly on a small scallop-edged round accent table. The table is dark mahogany or cherry wood with a carved, shaped edge apron and turned pedestal leg visible in the foreground — an antique or traditional form. On the table surface, two coffee table books are stacked: the lower one labeled 'Impressionist Art' and the upper one the 'Loewe' fashion monograph in white. A warm amber-gold glow radiates from just above the book stack, washing across the white book covers and pooling warmth on the dark wood table surface at that level, while the surrounding room remains dim. In the background, dark wood architectural paneling is dimly visible in the low ambient light. To the right, the blurred edge of an upholstered chair or cushion in a monochrome graphic-patterned textile is visible. At the lower left edge, a red blurred element hints at another rich textile. The mood is dramatic and scholarly — intimate, after-dark, with old-world European salon character. The palette is dark mahogany brown, warm gold, white, and deep shadow tones. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "oxblood"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

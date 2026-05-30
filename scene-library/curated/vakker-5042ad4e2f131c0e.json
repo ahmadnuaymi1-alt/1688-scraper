@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-5042ad4e2f131c0e",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-5042ad4e2f131c0e.png",
+  "source_url": "https://vakkerlight.com/products/dome-wooden-table-lamp",
+  "description": "A softly lit bedroom vignette photographed at seated eye-level, approximately three to four feet high, with a normal lens and an off-center thirds composition that places the nightstand slightly left of center. The camera looks level across the room. In the foreground, a honey-toned wood nightstand holds a small stack of books, a petite dried-flower arrangement in a slender ceramic bud vase, a small clock, and a framed photograph. The warm amber glow from a low source suffuses the nightstand surface and the nearby wall. The bed extends to the left, its white-linen and gray textured throw coverlet in soft, natural folds, with cream-colored throw pillows stacked at the headboard. The wall behind the bed is painted in a pale warm white with a subtle vertical stripe texture — possibly wallpaper — catching the afternoon light from a multi-pane window at the left edge. Sheer linen curtains filter soft daylight into the room, adding a diffused, glowing warmth. The room has a gentle, uncluttered quality with dried grasses visible on the window ledge. The material palette is warm honey wood, cream linen, aged metals, and dried botanical accents. The mood is quiet, soft, and deeply domestic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

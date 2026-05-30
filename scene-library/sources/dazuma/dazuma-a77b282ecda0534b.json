@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-a77b282ecda0534b",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-led-outdoor-wall-lights-waterproof-mushroom-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-led-outdoor-wall-lights-black-door-potted-plants.jpg?v=1773717735",
+  "scraped_date": "2026-05-21T12:19:37.486Z",
+  "source_title": "Modern LED Outdoor Wall Lights Waterproof Mushroom Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "a77b282ecda0534bb2a3d3257abd7f2c698aa990",
+  "description": "A contemporary residential front entry portico photographed at standing eye-level with a perfectly centered symmetrical composition looking straight at the front door. The house facade is smooth sand-toned stucco plaster. A wide flat canopy or shed-roof overhang in dark walnut-stained wood planking spans the entry, supported by two black powder-coated steel angle brackets at either side; the underside of the canopy is a warm dark wood grain. A matte black panel door with six raised panels, a polished brass ring knocker at center, and a brass long-bar entry handle and lockset is set within a simple black-painted door casing. On either side of the door, large square dark concrete planter boxes hold clipped globe boxwood topiary trees with rounded ball crowns, and trailing ground cover at the base. A small black woven welcome mat lies at the threshold. Large-format pale cream porcelain or stone floor tile paves the entry landing. Olive tree branches reach in from both upper sides of the frame. Warm amber down-light spills from the row of ceiling-mounted fixtures across the walnut canopy soffit, casting even warm pools onto the door face and entry landing. The palette is warm sand stucco, dark walnut wood, matte black, and polished brass accents. Mood is formal, modern-traditional, and welcoming. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.650Z"
+}

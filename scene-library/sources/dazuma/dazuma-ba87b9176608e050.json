@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-ba87b9176608e050",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/decor-floor-lamp-vintage-minimalist-artistic-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/decor-floor-lamp-sofa-lighting.jpg?v=1777107879",
+  "scraped_date": "2026-05-21T12:03:09.361Z",
+  "source_title": "Decor Floor Lamp Vintage Minimalist Artistic Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Floor Lamps > Decorative Floor Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ba87b9176608e050a0e07591d524907bd6aa7d7a",
+  "description": "A warm living room vignette photographed at standing eye-level with a normal lens, framing the back of a sofa, a sideboard, and their relationship to the wall in a three-quarter corner composition. The walls are smooth warm sand-beige plaster with a slight texture and no applied moulding. The floor is wide-plank light oak parquet in a herringbone pattern. A solid dark walnut sofa with a low padded back and natural linen upholstery fills the foreground; a grey herringbone-woven throw is casually draped over its right arm. Behind the sofa, a dark walnut sideboard with flat-panel cabinet doors and a smooth top surface supports a matte black upright table form — a sculptural vertical rod with three smoked glass orb diffusers at staggered heights, plus a glowing circular halo ring element at center-height — that emits a warm amber glow in all directions, washing the pale plaster wall behind it with a soft amber halo. Beside this vertical glowing form, a large-scale floral bouquet in a terracotta ceramic vase overflows with white ranunculus, pink garden roses, dusty miller, and eucalyptus stems. A sheer white linen curtain panel filters the daylight entering from the right-side window. The floor in the foreground right shows a fragment of an upholstered ottoman in dark grey. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta",
+      "dusty_blue"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.738Z"
+}

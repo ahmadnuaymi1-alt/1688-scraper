@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-3203369d9e11de36",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/contemporary-wall-sconce-lighting-simple-background-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_d4627087-6294-4a81-8ff5-8ddc436200b5.jpg?v=1773886518",
+  "scraped_date": "2026-05-21T12:19:31.260Z",
+  "source_title": "Contemporary Wall Sconce Lighting Simple Background Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Linear Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "3203369d9e11de360f67be8cca27fd54f15a2886",
+  "description": "A minimalist living room centered on a dramatic fireplace wall photographed from standing eye-level in a centered symmetrical composition. The back wall is rough white textured plaster with a raw, slightly uneven surface finish. A large square slab of white Carrara marble with bold grey veining is mounted flush against the plaster as a statement art piece or surround. Below it, a linear fireplace with an active flame is framed by a thick rectangular surround of dark black-and-white veined marble in a honed finish. The fireplace mantle shelf holds two sculptural abstract wooden forms on the left side and a tall clear glass vase filled with dried pampas grass plumes alongside a small terracotta vessel on the right. A tall walnut open-shelf bookcase is partially visible at the far left, holding ceramic vessels, a wooden abstract sculpture, and small clay bowls. Warm amber light washes from the flanking wall positions, casting vertical columns of glow across the plaster surface. On the far right, the edge of a full-height window reveals bright daylight entering the space. The primary seating is a deep white bouclé or linen modular sectional with white scatter cushions and a white faux-fur throw pillow. A travertine or limestone low coffee table holds a large turned wooden bowl and a smaller matte black ceramic bowl. The floor is light bleached oak plank. The mood is serene, editorial, and dramatically minimalist. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "fireplace"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.147Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-cc531a49373d24b0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-cc531a49373d24b0.jpg",
+  "source_url": "https://dazuma.us/products/cylinder-wall-sconce-modern-solid-copper-cloud-stone-lamp",
+  "description": "A refined hotel-style bedroom vignette captured at standing eye-level with a normal-to-telephoto lens, framing an off-center composition that places the bed headboard on the left third and a nightstand on the right. The wall behind the bed features tall floor-to-ceiling upholstered panels in a creamy warm beige leather or faux-leather finish, tufted in a grid pattern with subtle button detail, conveying understated luxury. Beside the headboard, the wall transitions to a finely textured herringbone-pattern wallcovering in a soft greige tone, its tight woven surface adding tactile depth without visual noise. The bedding is impeccably dressed in crisp white hotel-weight linen with dark navy piping at the pillow edges; a single deep chocolate-brown velvet accent pillow is placed in the foreground against the white bedding. The nightstand is a dramatic dark marble slab in near-black veining over grey-white ground, with white marble sides creating a graphic two-tone block form. On the nightstand surface sit a slim white hardcover book beneath a small dark bronze-toned spherical diffuser vessel with reed sticks, and a soft pool of warm light warms the surface. The overall color palette is warm greige, ivory, and dark chocolate, with a quiet opulence. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "paneled_walls",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

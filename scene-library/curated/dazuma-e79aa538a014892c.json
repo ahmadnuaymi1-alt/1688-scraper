@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-e79aa538a014892c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e79aa538a014892c.jpg",
+  "source_url": "https://dazuma.us/products/ins-style-cordless-mushroom-table-lamp-creative-design-portable-atmosphere-lamp",
+  "description": "A living room vignette photographed at standing eye-level with a normal lens, framing a corner with a white side table against a warm blush-beige plaster wall. The composition shows the table surface in the right half of the frame, with the arm and cushions of a beige-upholstered sofa soft-focused on the left edge — a rich tan-orange suede accent pillow is visible. The rectangular white side table holds a cluster of three styling objects alongside the central glowing piece: a small gold figurative sculpture with outstretched arms, a white ceramic cup and saucer with a fresh espresso, and the illuminated decorative object at center. On the wall to the upper right, a large black-framed black-and-white urban photography print depicting a city skyline anchors the composition. Warm light from the table-height piece glows softly onto the white table surface and reflects a golden hue onto the cream wall behind. The mood is curated, urbanite, and quietly glamorous — an evening vignette with coffee, art, and warm ambient glow. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

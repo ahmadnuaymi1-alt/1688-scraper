@@ -184,21 +184,42 @@ export async function openaiJSON<T = unknown>(opts: OpenAIJSONOpts<T>): Promise<
     );
   }
 
-  // If schema is provided and parsed is wrapped as { data: [...] } but the
-  // schema wants the inner value, try unwrapping. We try the parsed value
-  // first; if validation fails and parsed has a `data` key, retry on that.
+  // If schema is provided and parsed is wrapped (the model added a top-level
+  // object key because OpenAI JSON mode forbids top-level arrays), try
+  // unwrapping. Tries — in order — the canonical "data" key, then any single
+  // wrapper key whose value is an array. The latter catches `{ images: [...] }`
+  // / `{ items: [...] }` / `{ result: [...] }` etc. that the model picks
+  // when the user prompt names the entity (e.g. "rename N images").
   if (opts.schema) {
     const result = opts.schema.safeParse(parsed);
     if (result.success) return result.data;
-    if (
-      parsed &&
-      typeof parsed === "object" &&
-      "data" in (parsed as Record<string, unknown>)
-    ) {
-      return opts.schema.parse((parsed as Record<string, unknown>).data);
+    if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+      const obj = parsed as Record<string, unknown>;
+      const keys = Object.keys(obj);
+      const candidates: unknown[] = [];
+      if ("data" in obj) candidates.push(obj.data);
+      // Single-key object whose value is an array → almost always a wrapper.
+      if (keys.length === 1 && Array.isArray(obj[keys[0]])) {
+        candidates.push(obj[keys[0]]);
+      }
+      // Multi-key object → try every key whose value is an array.
+      for (const k of keys) {
+        if (k === "data") continue;
+        if (Array.isArray(obj[k])) candidates.push(obj[k]);
+      }
+      for (const c of candidates) {
+        const r = opts.schema.safeParse(c);
+        if (r.success) return r.data;
+      }
     }
-    // Re-throw original error from the first parse attempt
-    throw result.error;
+    // No candidate matched. Include a snippet of the raw model output in the
+    // error so callers see WHY (e.g., wrong shape under the wrapper key) and
+    // can adjust the prompt or schema.
+    const preview = JSON.stringify(parsed).slice(0, 500);
+    throw new Error(
+      `openaiJSON: schema validation failed. Raw (first 500): ${preview}`,
+      { cause: result.error },
+    );
   }
 
   // No schema — return as-is. Caller is responsible for unwrapping `data`.

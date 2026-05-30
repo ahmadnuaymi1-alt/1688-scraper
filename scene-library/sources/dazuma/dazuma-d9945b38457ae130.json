@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-d9945b38457ae130",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/up-down-lighting-wall-lights-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/up-down-lighting-wall-lights-sleek-gold-modern-house-exterior.jpg?v=1774836791",
+  "scraped_date": "2026-05-21T12:03:59.510Z",
+  "source_title": "Up down Lighting Wall Lights Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Up & Down Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d9945b38457ae13042cf62904f73e4cad137f575",
+  "description": "A contemporary residential terrace or covered deck photographed at dusk from a standing, three-quarter angle. The exterior wall is smooth white or off-white stucco rendered flat, making a clean canvas. A large multi-panel black-framed sliding or folding glass door system with three panels opens at the center, revealing a warmly lit living room interior through the glass — visible inside are a teak frame sofa with cushions in natural linen, a low wood coffee table, and warm amber interior ambient light. The exterior deck floor is wide-plank hardwood in warm brown teak or ipe. A warm amber glow washes upward and downward from mounted fixtures on the exterior wall on either side of the door, each casting a bold bidirectional fan-spread illumination onto the white stucco surface, one fan going up toward the flat eave overhang and the other spreading downward in a complementary cone. Climbing plants with small leaves trail along the left wall edge near the corner. The sky is a soft dusk blue-gray. The palette is warm neutral with the amber glow playing the dominant role in defining mood — white stucco, warm wood, amber light. Camera is at standing eye-level from a three-quarter angle showing the left wall, center door, and right edge in frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.883Z"
+}

@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-e9112aac11368609",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/open-box-square-waterproof-led-solar-modern-outdoor-fence-post-lights-pillar-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/products/outdoor-waterproof-led-column-lamp-landscape-decorative-lighting-for-villa-courtyard-gatepost-166900.jpg?v=1753769390",
+  "scraped_date": "2026-05-21T12:19:53.026Z",
+  "source_title": "[Open-Box]Square Waterproof LED Solar Modern Outdoor Fence Post Lights Pillar Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1020,
+  "height": 1020,
+  "content_sha1": "e9112aac113686098e3e5733cd047dba41a23c02",
+  "description": "A modern residential landscape pathway photographed at low camera height — approximately two feet off the ground — with a normal lens and a one-point perspective composition looking along the line of a path edge at dusk or nighttime. The scene captures a perfectly manicured flat lawn of dense green grass running alongside a straight concrete or light stone pathway. A row of five or six low cubic ground-mounted elements is set at regular intervals directly in the grass along the pathway edge, each resting on the lawn surface. Each cube emits a warm amber horizontal band of light from a glowing perimeter slot around its midsection, casting a vivid golden-yellow wash outward across the immediately surrounding grass blades — illuminating the turf with intense warmth against the cool dark surroundings. The pathway surface is smooth pale grey concrete. In the background, out-of-focus glazed windows of a modern building with dark metal framing are visible, suggesting an upscale residential or commercial landscape setting. The deep blue-black sky and surrounding dark grass amplify the contrast with the glowing amber light pools. The palette is near-black night sky, deep forest green grass, warm amber-gold light, and cool grey stone path. The mood is dramatic, serene, and formally composed. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.936Z"
+}

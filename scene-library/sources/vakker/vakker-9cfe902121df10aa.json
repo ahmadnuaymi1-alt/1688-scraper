@@ -1,0 +1,45 @@
+{
+  "image_id": "vakker-9cfe902121df10aa",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/alabaster-cube-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Alabaster_Cube_Table_Lamp21.png?v=1778462947",
+  "scraped_date": "2026-05-21T15:53:04.761Z",
+  "source_title": "Alabaster Cube Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "9cfe902121df10aa4713298179c8ad8df1f144e3",
+  "description": "A moody bedroom corner photographed at seated eye-level with a normal lens, three-quarter corner view showing the window wall and the bedside area. The walls are painted a deep warm charcoal-taupe, creating a cocooning, intimate atmosphere. A double-hung wood-framed window on the left allows cool diffused natural light to filter through sheer linen curtains, casting a soft, even daylight glow across the side of the room. Below the window, a low walnut nightstand with open lower shelf holds a gently glowing warm light source at surface level, illuminating an open hardcover book, a ceramic mug, a small framed photograph, and a folded linen cloth — the warm amber pool from the surface-level source spreads softly across the tabletop and the nearby wall. Above and to the right, a terracotta pot planted with trailing greenery hangs from a macramé hanger in the upper corner, adding life and warmth. The bed occupies the right portion of the frame, dressed in deep forest green velvet bedding with layered linen and knit throw pillows in ivory, sage, and mustard. A natural jute rug extends across the hardwood floor. The overall atmosphere is scholarly and romantic — a perfect reading nook with rich color contrast between the dark walls and the warm bedding. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.167Z"
+}

@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-e84bb7c46148756b",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e84bb7c46148756b.jpg",
+  "source_url": "https://dazuma.us/products/wall-mount-spot-lights-recessed-rotatable-bedside-reading-lamp",
+  "description": "A boutique hotel corridor photographed at standing eye-level with a normal lens using a one-point perspective composition that looks down a long hallway receding from left to right. In the immediate foreground at left, a full-height room entry door faces the camera — clad in dark espresso-stained horizontal-grain wood veneer with a matte black electronic keycard lock and lever handle. The corridor wall is finished in warm sand-toned venetian plaster or troweled plaster with a subtly textured surface. The floor is large-format dark grey polished marble or stone tile that catches reflections from the overhead and wall-mounted sources. A tall dark baseboard in matte charcoal runs the base of the wall. A small brushed metal room number plate reading \"107\" is mounted at mid height on the plaster wall. Warm directional amber spots wash downward from matte black wall-mounted reading lights positioned beside each door number along the corridor — pools of amber glow illuminate the plaster wall and floor in a rhythmic repeat as the passage recedes into the dark background. The atmosphere is deeply moody and cinematic, with the warm amber spots punctuating the dark glowing depth. The palette is warm sand plaster, espresso dark wood, dark grey stone, and amber. The mood is dramatic, luxurious, and nocturnal-hotel in character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "table"
+  }
+}

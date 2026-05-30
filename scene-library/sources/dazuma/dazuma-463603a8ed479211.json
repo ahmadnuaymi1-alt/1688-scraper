@@ -1,0 +1,44 @@
+{
+  "image_id": "dazuma-463603a8ed479211",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-crystal-wall-light-creative-luxury-hardware-led-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/pair-modern-crystal-wall-lights-sophisticated-living-room.jpg?v=1777447251",
+  "scraped_date": "2026-05-21T12:03:27.272Z",
+  "source_title": "Modern Crystal Wall Light Creative Luxury Hardware LED Lamp",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "463603a8ed4792111e7fe3ce8c0dfb12adb60750",
+  "description": "An elegant formal living room photographed at standing eye-level with a centered symmetrical composition that perfectly frames the sofa grouping and the window behind it. The walls are painted soft warm white and ornamented with classical applied moulding in a symmetrical panel pattern, running from baseboard to cornice. A large single casement window behind the sofa is dressed with floor-length sheers in a soft ivory layered under full-length pinch-pleat drapes in a warm camel-taupe velvet, framing the tree-filled view outside. The sofa is a substantial Chesterfield-style piece upholstered in cognac-brown velvet with deep button tufting and brass nailhead trim running along the arms and front skirt; it is flanked by two narrow rectangular side tables in a matte-black lacquer with fine brass legs. On the right side table, a round dark ceramic vase holds a branch arrangement of white flowering blossoms and small leaves. A large round coffee table with a smoked glass top on a sculptural polished gold base anchors the seating area. Two matching barrel-back armchairs in a pale mushroom-taupe velvet with brass nailhead trim are positioned in the foreground on either side of the coffee table. A muted vintage-style area rug in soft greys and creams grounds the conversation grouping. On the left and right walls flanking the sofa, warm amber light glows from symmetrically placed positions at mid-wall height, their illumination spilling as soft halos and casting a warm ambient glow across the plaster panel moulding. The palette is warm and monochromatic — cognac, taupe, ivory, and gold. Camera is standing eye-level, centered symmetrical, normal lens. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "formal",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.231Z"
+}

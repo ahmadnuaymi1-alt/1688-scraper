@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-75bca088b24dd4e3",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/minimalist-modern-ring-table-lamp-creative-touch-charging-design-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-ring-table-lamp-soft-illumination-reading-window.jpg?v=1768964758",
+  "scraped_date": "2026-05-21T15:52:36.111Z",
+  "source_title": "Ring Table Lamp Minimalist Modern Creative Touch Charging Design Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "75bca088b24dd4e3d84405059fdc66001a4a23e5",
+  "description": "A bedroom or sitting room windowsill vignette photographed at seated eye-level with a normal lens, showing a wide painted white window ledge at night. A six-pane casement window with white painted frame fills the background; through the glass, the night sky appears deep blue-black with a faint moon or light source visible at upper left. On the windowsill, three objects are arranged in a loose row: at the left, a tall slender celadon or pale dusty-blue ceramic vase holds a spray of delicate white cherry blossom branches. In the center, an open hardcover book lies flat with pages spread, its creamy pages catching warm light. On the right, a warm glow radiates from the windowsill surface, illuminating the book pages, the vase, and the wall behind — casting a soft amber wash across the cream-white plaster wall. The warm light also reflects on the window glass, intensifying the contrast with the dark night beyond. The palette is cream-white, pale celadon blue, and warm amber against an indigo night — quiet, romantic, and intimate. The mood is serene and nocturnal with a delicate feminine quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.399Z"
+}

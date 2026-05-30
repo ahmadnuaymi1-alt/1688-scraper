@@ -1,0 +1,52 @@
+{
+  "productId": "cmpign2lw00inw2f0hzpma85o",
+  "productTitle": "American Long-Arm Eye-Care Clamp Desk Lamp (Luxo-style architect lamp)",
+  "authoredBy": "in-chat scene design — classic articulated swing-arm Luxo-style clamp desk lamp with dome shade; 8 colour variants cycled 1-6 across slots; neutral white 4000K per the clean task-light bulb typical of architect/draftsman lamps",
+  "authoredAt": "2026-05-23T15:00:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "architect-drafting-desk",
+      "mode": "minimalist",
+      "prompt": "An architect's drafting-table corner, shot on a 35mm lens at standing eye-level slight three-quarter so the articulated swing-arm clamp desk lamp anchors the back-right of a 1:1 frame clamped to the edge of a large angled drafting board. Early morning: cool diffuse north-facing light through a tall steel-framed window at frame-left; the only second light source is that window. Style with a half-drawn architectural floor plan in graphite on tracing paper, a triangular set-square and adjustable scale rule, a brass-ferruled drafting pencil resting in the plan, a small jar of bulldog clips, and a folded raw-linen rag. Walls are warm cream limewash with a single leaning Le Corbusier monograph. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the desk — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of warm cream, graphite, raw linen, brass, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1, "room": "architect drafting table", "designStyle": "monastic architect's studio", "wallColour": "warm cream limewash", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "early morning",
+      "accents": ["large angled drafting board", "floor plan in graphite on tracing paper", "set-square and scale rule", "drafting pencil", "jar of bulldog clips", "Le Corbusier monograph"]
+    },
+    {
+      "slug": "sewing-studio-corner",
+      "mode": "homey",
+      "prompt": "A sewing studio corner in a small repurposed pantry, shot on a 35mm lens slightly elevated three-quarter so the articulated swing-arm clamp desk lamp anchors the back-left of a 1:1 frame clamped to the edge of a scrubbed-pine sewing table. Mid-morning: warm window light from a sash window at frame-right. Style with a vintage Singer sewing machine in profile, a folded stack of three calico fabric remnants tied with twine, a wooden spool of cream cotton thread on end, a small enamel pin cushion shaped like a tomato, a porcelain saucer of buttons, and a folded measuring tape. Walls are warm cream limewash above pale-blue painted beadboard. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the table — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of warm cream, pale blue beadboard, pine, calico, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2, "room": "pantry sewing studio", "designStyle": "warm cottagecore craft studio", "wallColour": "warm cream above pale-blue beadboard", "cameraAngle": "35mm slightly elevated three-quarter", "timeOfDay": "mid-morning",
+      "accents": ["scrubbed-pine sewing table", "vintage Singer machine", "calico fabric remnants with twine", "wooden spool of cream thread", "tomato pin cushion", "buttons in porcelain saucer"]
+    },
+    {
+      "slug": "jewellers-workbench",
+      "mode": "minimalist",
+      "prompt": "A jeweller's workbench corner of a tiny studio atelier, shot on a 50mm lens at seated bench-height so the articulated swing-arm clamp desk lamp anchors the back-right of a 1:1 frame clamped to the lip of a leather-topped jeweller's bench. Quiet midday: cool diffuse light from a north-facing window at frame-left; the only second light source is that window. Tight styling — three intentional objects — a small velvet display block holding a single delicate gold-and-pearl ring, a leather-strap jeweller's loupe folded open on the bench, and a small footed brass dish with a half-shaped silver wire. Walls are a soft mossy sage limewash. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the bench — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of mossy sage, leather bench-top, brass, pearl ivory, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3, "room": "jeweller's workbench", "designStyle": "quiet craft atelier", "wallColour": "mossy-sage limewash", "cameraAngle": "50mm seated bench-height", "timeOfDay": "midday",
+      "accents": ["leather-topped jeweller's bench", "velvet block with gold-pearl ring", "leather-strap loupe", "footed brass dish with silver wire", "north window"]
+    },
+    {
+      "slug": "music-studio-mixing-desk",
+      "mode": "homey",
+      "prompt": "A small home music-studio mixing-desk corner, shot on a 35mm lens at standing eye-level slight three-quarter so the articulated swing-arm clamp desk lamp anchors the back-left of a 1:1 frame clamped to the edge of a slim walnut mixing desk. Late evening: the only second light source is a small fairy-light string draped on a bookshelf in the deep background. Style with a leather-bound notebook of handwritten sheet music open with a graphite pencil resting across it, a small footed stoneware mug of tea, a brass metronome at slow tempo, a vintage MD-cassette case stack of jazz albums, and a felt-tipped pen resting on a folded raw-linen rag. Walls are deep teal-green velvet acoustic panels. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the desk — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of deep teal velvet, walnut desk, brass, raw linen, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4, "room": "home music-studio mixing desk", "designStyle": "moody home studio", "wallColour": "deep teal-green velvet acoustic panels", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "late evening",
+      "accents": ["walnut mixing desk", "notebook of sheet music with pencil", "stoneware mug of tea", "brass metronome", "stack of jazz album cases", "raw-linen rag with pen"]
+    },
+    {
+      "slug": "office-writing-corner",
+      "mode": "minimalist",
+      "prompt": "A small home office writing desk in a converted closet nook, shot on a 35mm lens at seated desk-height so the articulated swing-arm clamp desk lamp anchors the back-centre of a 1:1 frame clamped to the edge of a deep walnut writing desk. Early morning: cool quiet light through a single steel-framed casement window at frame-right; the only second light source is the window. Tight styling — a leather-bound writing journal open to a clean page with a tortoiseshell fountain pen resting across it, a small ceramic dish with two brass paper clips and a half-burned beeswax stub, and a single dried teasel head in a slim stoneware bottle. Walls are warm cream limewash. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the desk — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of warm cream, walnut, tortoiseshell, brass, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5, "room": "home office writing desk", "designStyle": "quiet mid-century writer", "wallColour": "warm cream limewash", "cameraAngle": "35mm seated desk-height", "timeOfDay": "early morning",
+      "accents": ["deep walnut writing desk", "leather journal with tortoiseshell pen", "ceramic dish with brass clips and beeswax", "dried teasel in stoneware bottle"]
+    },
+    {
+      "slug": "craft-table-painting",
+      "mode": "homey",
+      "prompt": "A working corner of a small artist's painting studio, shot on a 35mm lens at standing eye-level slight three-quarter so the articulated swing-arm clamp desk lamp anchors the upper-right of a 1:1 frame clamped to the lip of a paint-spattered oak craft table. Midday: cool flat north-facing skylight from above is the only second light source. Style with a small linen-stretched canvas mid-paint propped against the wall, a stoneware jar of worn paintbrushes handles-up, a wooden palette with smears of cobalt, ochre and ivory, a folded paint-rag, a tin tray with three small ceramic dishes of mixed pigment, and a stoneware mug of black coffee. Walls are deep dusty-aubergine limewash with two more leaning unfinished canvases at frame-edges. The lamp matches the reference image exactly — articulated metal swing-arm with two spring-balanced segments in the body colour shown in the reference, dome-shaped painted-metal shade, integrated edge clamp on the table — switched ON, neutral white 4000K (matches the clean white task-light bulb shown inside the variant reference). Palette of dusty aubergine, ochre, ivory, slate, oak, body-colour accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6, "room": "artist's painting studio", "designStyle": "bohemian working studio", "wallColour": "dusty-aubergine limewash", "cameraAngle": "35mm standing eye-level three-quarter", "timeOfDay": "midday",
+      "accents": ["paint-spattered oak craft table", "linen canvas mid-paint", "stoneware jar of paintbrushes", "wooden palette with smears", "tin tray with pigment dishes", "stoneware mug of coffee"]
+    }
+  ]
+}

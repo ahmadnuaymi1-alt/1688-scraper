@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-b97069ee86c4eeb6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b97069ee86c4eeb6.jpg",
+  "source_url": "https://dazuma.us/products/reading-led-eye-protecting-usb-table-lamps-creative-design-light",
+  "description": "A home office desk vignette photographed at slightly elevated standing eye-level, looking down at a gentle angle, with a normal lens framing the surface in a centered composition. The desk is a warm medium-toned wood — light oak or birch — its surface clean and uncluttered. An open laptop in silver aluminum sits at the left edge, its screen off. In the center foreground, a soft warm glow emanates from a compact decorative object at surface level, illuminating a small pool of amber light onto the desk surface around it. To the right, a small cylindrical cactus in a braided yellow rope planter adds a cheerful note of saturated color. A computer mouse in light grey sits just in front. The background wall is a smooth flat warm butterscotch-tan with no art or architectural features. The mood is bright, clean, and approachable — a minimal productive workspace with a playful botanical accent. Color palette is warm neutral with a saturated mustard yellow accent. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "mustard"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "elevated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

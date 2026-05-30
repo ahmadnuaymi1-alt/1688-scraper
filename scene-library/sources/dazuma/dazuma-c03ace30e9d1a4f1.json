@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-c03ace30e9d1a4f1",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-lights-for-gate-modern-minimalist-outdoor-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_115c0d0e-daaf-4d45-8a31-4647826ece8c.jpg?v=1773717270",
+  "scraped_date": "2026-05-21T12:19:45.257Z",
+  "source_title": "Pillar Lights for Gate Modern Minimalist Outdoor Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "c03ace30e9d1a4f1fbb7974b4299f6f53083147f",
+  "description": "An outdoor front entry scene photographed at standing eye-level with a normal lens at dusk, capturing a vignette view centered on a low stacked limestone column pier. The column is constructed from rough-cut cream and buff limestone block with a flat cap stone, standing in the foreground of a landscaped front yard. Behind it, a white classical portico with round columns and a flat entablature frames the front entry of a traditional home. Stone steps lead up to the porch, flanked by clipped boxwood spheres and slender olive trees with silver-green foliage. A matte black lounge chair is partially visible on the porch, suggesting a relaxed outdoor living area. A warm cedar-plank fence runs along the right boundary. The deep blue twilight sky creates a dramatic backdrop, with the home's interior glow visible through the open porch. Manicured ornamental grass and ground cover planting frames the base of the column. A warm amber glow emanates from the top of the column cap, casting a soft halo of light on the limestone below and warming the immediate foreground pavers. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.757Z"
+}

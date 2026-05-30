@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-4b32e6b25644e4ce",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/perla-smoke-glass-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Perla_Smoke_Glass_Table_Lamp92.png?v=1778183766",
+  "scraped_date": "2026-05-21T15:53:16.208Z",
+  "source_title": "Perla Smoke Glass Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "4b32e6b25644e4ce8dd36695362b821bdd18ee7f",
+  "description": "A warm, intimate living room photographed at low-to-seated eye-level with a telephoto lens, framed as a close vignette looking across the coffee table toward the sofa. The walls are painted in a deep warm olive-brown, creating a cocooning, moody atmosphere. A tall window on the right is dressed with floor-length linen curtains in warm honey-gold, allowing diffuse afternoon light to filter softly into the space. In the background, a generous three-seat sofa in warm caramel-tan textured fabric is dressed with a mix of cushions in sandy tones and a textured weave pillow. A round pedestal coffee table in warm veined stone or marble-like surface occupies the foreground, and on its surface rests a small abstract brass or gold sculptural object alongside the warm glowing form. A tall ceramic vase in warm terracotta-rust tone filled with dried autumn foliage — deep amber and copper leaves — stands on the right beside the curtains, adding a seasonal warmth. A warm, sphere-like glow radiates from the glass-domed form sitting on the table surface, spreading a soft, focused amber warmth across the nearby stone tabletop and down toward the textured jute rug underfoot, all at table level. The palette is deeply warm and autumnal: olive-brown, warm gold, caramel, copper, amber, and deep honey. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "moody",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.094Z"
+}

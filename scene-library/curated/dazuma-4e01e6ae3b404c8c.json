@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-4e01e6ae3b404c8c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-4e01e6ae3b404c8c.jpg",
+  "source_url": "https://dazuma.us/products/modern-perforated-waterproof-landscape-light",
+  "description": "An outdoor garden vignette photographed at low camera height near ground level, with a normal lens in an off-center thirds composition that places the subject slightly right of center. The scene is shot in soft diffuse daylight with a slightly warm quality suggesting late afternoon. The surface is a light grey concrete or limestone paver, weathered at the joint lines with small grass tufts emerging from the cracks. To the left and slightly behind, a lush rose bush in full bloom displays both deep crimson red roses and soft blush pink roses in various stages of bloom, their dark green foliage rich and layered. In the right background, a white painted lattice or picket fence is softly out of focus, adding a garden enclosure quality. The overall color palette is warm and romantic: terracotta brown, dusty pink, deep red, warm grey stone, and deep green. The mood is romantic and quietly English-garden in character — a moment of soft summer abundance. A warm inner glow emanates from within the cylindrical object in the scene, casting a soft diffuse warmth through the surrounding environment. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

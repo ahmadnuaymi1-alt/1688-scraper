@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-12b57a14c8f6bba1",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-12b57a14c8f6bba1.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-black-floor-lamps-roman-column-vintage-landscape-light",
+  "description": "A tranquil English garden terrace captured at golden hour with soft sunset light washing over the scene from the right horizon. The terrace floor is large-format natural limestone or travertine pavers in a warm cream and tan tone. Two oversized low-profile poufy lounge chairs in light grey linen fabric face each other across a small rustic stone coffee table with a chunky rectilinear pedestal base. Between the chairs, a tall candlestick-style floor piece in dark bronze-toned metal holds a glowing frosted globe that emits a warm diffused light, pooling gently on the stone pavers below. The background garden features a lush border of billowing white hydrangea shrubs and tall lavender in purple bloom, creating a soft cottage garden texture. A dark charcoal-painted wood garden shed with a pitched roof sits in the left background. Dense mature trees form a dark green canopy above, with the warm peach-gold of the setting sun glowing through the foliage on the right side. A stone urn planter sits at the terrace edge on the right. The corner of a large market umbrella in natural canvas is visible at the upper left. The whole scene is suffused with a warm golden amber glow from the setting sun, with shadows stretching long and soft across the pavers. Camera at standing eye-level, wide establishing shot, slightly off-center composition showing the full seating vignette against the garden backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage",
+      "ochre"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "outdoor",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

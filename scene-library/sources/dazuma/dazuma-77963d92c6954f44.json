@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-77963d92c6954f44",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/solar-led-pillar-lights-modern-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/solar-led-pillar-lights-seaside-wall-lighting.jpg?v=1778566646",
+  "scraped_date": "2026-05-21T12:02:56.826Z",
+  "source_title": "Solar LED Pillar Lights Modern Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "77963d92c6954f44cd08831248b2c19ab807471a",
+  "description": "A serene tropical terrace at dusk, with a smooth poured concrete parapet wall occupying the lower two-thirds of the frame. The flat top surface of the parapet serves as a display ledge at roughly waist height. Beyond the wall, the open ocean stretches to the horizon under a breathtaking blue-violet dusk sky with soft cloud gradients and the last pink light at the horizon. Silhouettes of tall coconut palms frame both sides of the composition, their fronds brushing the upper corners. A travertine or limestone tile floor is visible in the extreme foreground. Two warm glowing forms rest on the parapet surface, each casting a soft warm bloom of light downward onto the concrete and upward through their sculptural form, creating intimate pooled warmth against the cool indigo sky. The mood is utterly tranquil, romantic, and luxurious — a resort evening ambiance. Camera at standing eye-level, centered symmetrical composition with the two glowing forms placed symmetrically on the parapet, normal lens, level pitch, with the ocean and sky as backdrop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.408Z"
+}

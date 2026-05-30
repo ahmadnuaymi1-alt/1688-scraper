@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-29f46d5893df042a",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/exterior-spotlights-water-ripple-outdoor-projection-mood-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-wall-sconce-outdoor-exterior-spotlights-blue-concrete-wall.jpg?v=1775700753",
+  "scraped_date": "2026-05-21T12:03:50.049Z",
+  "source_title": "Exterior Spotlights Water Ripple Outdoor Projection Mood Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Spotlights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "29f46d5893df042a61095709e5b52674d0ac4593",
+  "description": "A modernist concrete exterior photographed at dusk from standing eye-level in a three-quarter corner composition, capturing the junction of two thick board-formed concrete walls that meet at a right angle. The sky above is a deep indigo-blue twilight gradient, still luminous near the horizon. The concrete surfaces are raw and textured, showing the faint horizontal impressions of the formwork boards in grey-tan tones. On the right-hand wall, a dramatic wash of vivid cobalt-blue light fans outward from low on the paving in a rippling, caustic pattern — resembling underwater light reflections or dappled wave motion — spreading across nearly the entire wall face up to the roofline. This electric blue illumination creates a striking contrast against the cool grey concrete and the darkening sky. At the base of this wall, close to the paving, a compact dark source object sits on the ground, producing this upward wash of color; describe only the effect: a concentrated beam of saturated azure radiance expanding into soft, lace-like ripples across the concrete. To the left, where the walls meet and recede into the background, a warmly lit interior window glows with amber light, hinting at an inhabited interior beyond. A strip of grass runs along the base of the left wall, with the concrete paving extending in the foreground. The mood is dramatic and architectural, defined by the tension between the warm interior glow and the cool electric exterior wash. Camera is at standing eye-level, level pitch, three-quarter corner view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cobalt"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.116Z"
+}

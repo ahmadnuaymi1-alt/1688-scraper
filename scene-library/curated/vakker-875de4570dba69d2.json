@@ -1,0 +1,32 @@
+{
+  "scene_id": "vakker-875de4570dba69d2",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-875de4570dba69d2.png",
+  "source_url": "https://vakkerlight.com/products/colonna-onyx-table-lamp",
+  "description": "A calm, warm-neutral living room side table vignette photographed at seated eye-level with a normal lens, framing a three-quarter view of the corner zone between a console and a sofa. The walls are a soft warm plaster in taupe-cream, textured subtly. A tall sheer curtain panel in off-white diffuses natural daylight from a window behind it at center-right, creating a soft glowing backlight. A rustic solid-wood console or side table in aged light oak with visible grain sits in the left-center zone, styled with a stack of two art books, a small woven rattan coaster, and a ceramic vase holding a single dried botanical stem with small round seed pods. A large leafy tropical plant — likely a fiddle-leaf or bird of paradise — stands in the right background corner, partially visible behind the sofa. The sofa visible at right is upholstered in warm taupe-linen fabric. A large-format abstract artwork in charcoal and cream with gestural marks hangs above the console on the plaster wall. The palette is warm neutral — cream, taupe, pale oak, and soft sand — with no strong accent colors. Warm ambient light from the side table surface glows softly, casting gentle amber tones across the books and the wooden console top. Styling density is low. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "chandelier",
+      "pendant"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

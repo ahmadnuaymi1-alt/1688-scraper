@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-01ff8da953a3b2b4",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-landscape-path-lighting-outdoor-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_38f0216a-3fcd-48ab-a972-e8b82a3ab654.jpg?v=1774595460",
+  "scraped_date": "2026-05-21T12:04:19.106Z",
+  "source_title": "LED Landscape Path Lighting Outdoor Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "01ff8da953a3b2b4aa9721847adae45a1f34eebb",
+  "description": "An exterior garden pathway photographed at dusk, captured at a low-to-seated camera height of approximately 3–4 feet, with a normal-to-slightly-telephoto lens compressing the depth of the scene. The composition follows a strong one-point perspective, with the stone-and-timber pathway receding diagonally from the lower right toward the upper center of the frame, drawing the eye deep into the garden. The camera pitches very slightly downward, level enough to preserve the verticality of the slender black bollard posts while anchoring the foreground planting beds.\n\nThe pathway itself is composed of alternating rectangular stone pavers and narrow timber deck boards laid perpendicular to the path direction, creating a rhythmic, contemporary pattern in warm taupe and honey tones. The paver surface catches warm amber pools of low-angled illumination, the light washing across the stone texture and revealing its natural grain.\n\nFlanking the left side of the path is a lush perennial border planting in full late-summer abundance. Orange and gold daisy-form flowers — consistent with echinacea or rudbeckia varieties — cluster in the foreground, their petals lit warmly from below, glowing against the darker foliage behind. Behind them rise soft violet and mauve flowering stems, along with upright ornamental grasses catching the light at their tips. Broad-leafed hostas nestle at the base, their deep green surfaces absorbing shadow. The planting bed is mulched in dark brown bark, grounding the composition.\n\nThe background is defined by a tall horizontal-slatted wooden fence in warm medium-toned cedar or pine, its vertical boards spaced with narrow gaps that allow the deep blue of the twilight sky to register behind. The sky is a desaturated dusk blue-grey, indicating the scene is set at the civil twilight hour — fully dark enough for artificial lighting to read as the dominant source, but with enough residual sky luminance to silhouette the fence line cleanly.\n\nWarm amber light pools across the planting bed and path surface from low, ground-adjacent sources — a soft, directional wash radiating outward and downward, illuminating the orange flower clusters from beneath and casting gentle shadows upward through the grass blades. Further along the path, identical warm glows repeat at regular intervals, each one illuminating a small section of the border and path in the same amber register, the effect diminishing naturally with distance into a soft bokeh haze.\n\nThe overall mood is serene and romantic — a private garden at the golden edge of night, quietly tended and beautifully planted, with a sense of intimate enclosure from the fence, and a cool-warm contrast between the dusk sky and the amber ground-level illumination.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:28:29.346Z"
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-05ca5e57eabea59d",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-05ca5e57eabea59d.jpg",
+  "source_url": "https://dazuma.us/products/6-pcs-inground-well-light-anti-glare-recessed-step-light",
+  "description": "A nighttime outdoor garden scene photographed at low camera height — approximately 2 to 3 feet off the ground — with a slightly elevated pitch looking down at a shallow angle across a manicured grass lawn. The lens character is a normal-to-telephoto range, compressing the depth of the scene and stacking three circular ground-level elements in a receding diagonal line from the lower-left foreground toward the upper-right background. The composition follows a loose one-point perspective along the grass strip, with the stone paver pathway visible along the right edge of the frame serving as a strong orthogonal line reinforcing depth.\n\nThe lawn is dense, short-cut, and a deep cool green, its blades catching warm amber illumination from low sources embedded flush with the ground. Each installation sits directly in the turf, its stainless steel disc flush and level with the soil, casting a soft crescent of warm golden-amber light that spills laterally across the surrounding grass blades, illuminating the texture of individual blades in rich relief. The light quality is warm — approximately 2700K — with an intimate, glowing amber character that contrasts dramatically against the cool dark-green of the unlit lawn and the deep blue-grey of the night sky just visible at the upper left.\n\nThe right edge of the frame reveals a stone paver pathway — broad, flat, slightly grey-beige concrete slabs set in a linear run — which anchors the composition and implies a residential garden or estate walkway. Low dark shrubbery is visible in the far background upper-left corner, softly out of focus, contributing a sense of enclosed private garden space. The overall atmosphere is serene and intimate, with strong contrast between deep shadow and concentrated warm pools of light creating a dramatic nocturnal mood.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "ochre",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "low",
+    "lens_character": "telephoto",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

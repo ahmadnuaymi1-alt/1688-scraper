@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-9c732e15fe72f622",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9c732e15fe72f622.jpg",
+  "source_url": "https://dazuma.us/products/2-pcs-surface-mount-can-lights-glare-free-vintage-style-light",
+  "description": "A sleek, executive home office rendered in deep, moody tones — photographed at standing eye level from a centered, symmetrical vantage point facing directly toward the rear wall. The camera is level, slightly elevated above seated height, framing the full room width in a wide establishing composition with mild one-point perspective pulling toward the back wall.\n\nThe floor is wide-plank light oak with a smooth, natural finish, providing a strong contrast against the dark wall surfaces. A large executive L-shaped desk in light oak veneer with matte-black angular structural legs dominates the foreground. A cognac-tan leather executive chair with casters sits behind the desk, which holds an open laptop, an open book, a small ceramic coffee cup, and a compact potted succulent. A pedestal storage cabinet in matching oak sits integrated at the desk's left return.\n\nThe rear wall, ceiling, and flanking wall panels are all clad in the same dark espresso-toned wood grain veneer — a continuous cocoon of material that makes the space feel intimate and directional. Built-in open shelving units recessed into the back wall glow with warm amber backlighting from within, illuminating stacked books, a framed architectural print, a small white ceramic vase, a sculptural vessel, and a trailing green plant. Three concentrated warm downward pools of light fall from the ceiling across the back wall and desk surface, creating dramatic spotlight cones in the otherwise dim space. A panel of grey veined marble or stone tile frames the right-side door.\n\nThe mood is dramatic and scholarly — a high-achieving private office with editorial control. All finishes are matte and tactile, textures reading as grain, leather, and stone.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "ceiling"
+  }
+}

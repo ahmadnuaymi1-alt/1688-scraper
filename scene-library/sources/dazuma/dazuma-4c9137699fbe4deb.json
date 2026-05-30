@@ -1,0 +1,39 @@
+{
+  "image_id": "dazuma-4c9137699fbe4deb",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/2-pcs-indoor-spotlight-lamp-modern-white-full-spectrum-led-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/indoor-spotlight-lamp-living-room.jpg?v=1775904741",
+  "scraped_date": "2026-05-21T12:03:45.901Z",
+  "source_title": "2 PCS Indoor Spotlight Lamp Modern White Full-Spectrum LED Light",
+  "source_product_type": "Lighting > Ceiling Lights > Directional Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "4c9137699fbe4deb9c14aeb81b40fd714a970fa1",
+  "description": "A long narrow hallway in a luxury minimalist residence photographed at standing eye-level with a normal lens in a one-point perspective composition looking down the corridor's length. The right wall is entirely clad in floor-to-ceiling warm-toned wood veneer panels with a refined horizontal grain, including a full-height flush door with a minimal matte black lever handle, creating a seamless millwork wall. The left wall and ceiling are smooth matte warm greige plaster. The floor is large-format light warm beige or limestone tile, laid in a clean grid. At the far end of the corridor a partial opening reveals a living room with a cream bouclé modular sofa. A cove detail runs along the ceiling at the far end of the corridor, emitting a gentle warm amber glow that illuminates the corridor ceiling and back wall. Multiple circular pools of warm light are cast on the floor at regular intervals, each one slightly diminishing in size as they recede toward the vanishing point, creating a rhythmic, measured quality to the passage. The palette is entirely warm neutrals: honey wood, warm stone tile, greige plaster, and cream. No art, no decorative objects — the architecture is the composition. The mood is serene, quiet, and refined — deeply minimalist yet warm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.259Z"
+}

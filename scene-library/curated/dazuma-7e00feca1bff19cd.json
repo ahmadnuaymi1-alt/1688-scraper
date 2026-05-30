@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-7e00feca1bff19cd",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7e00feca1bff19cd.jpg",
+  "source_url": "https://dazuma.us/products/stained-glass-wall-lights-minimalist-modern-luxury-creative-light",
+  "description": "A contemporary bedroom vignette photographed at seated eye-level, approximately three to four feet off the floor, using a normal lens and a tight off-center thirds composition that focuses on the left side of the bed and the adjoining nightstand. The headboard wall is upholstered in a wide-panel tufted fabric in light greige-taupe, its shallow buttoned grid adding subtle texture. Bedding is layered in silvery dove-grey linen: two large square sleeping pillows, two king-sized pillowcases in the same grey, a cylindrical bolster pillow with a gathered fabric end cap, and a loosely folded duvet in slightly lighter grey. To the left of the bed, a narrow vertical panel of pale ash wood with a fine straight grain runs floor to ceiling, dividing the greige wall paneling from the headboard. This ash strip carries a row of warm amber illumination along its inner edge — a thin glowing line of light that washes the panel in gold from floor to ceiling and illuminates the nightstand below. Wall switch plates in dark smoked glass are recessed into this panel. A floating walnut nightstand projects from the wall at the base of the panel, its dark warm-brown top surface hosting a small round dark lacquered tray holding a single handmade speckled ceramic mug. The overall palette is greige, dove grey, warm walnut, pale ash, and antique brass, lit in deep warm amber. The mood is serene and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

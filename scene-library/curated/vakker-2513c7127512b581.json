@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-2513c7127512b581",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-2513c7127512b581.png",
+  "source_url": "https://vakkerlight.com/products/bloom-wooden-table-lamp",
+  "description": "A cozy living room vignette built around a rustic solid-wood media console or sideboard. The piece has a heavily grained, raw-edge-style top surface in weathered honey-brown oak, with two lower open shelf bays visible below holding a row of casually arranged books. On the console top, a woven rattan tray sits in the foreground holding a lit pillar candle on a small wooden disc and a round wooden coaster stack. Behind the tray, a tall dried botanical arrangement in a matte ceramic vase in warm sand tone is paired with a stack of cognac-toned books. A framed botanical print leans casually against the wall to the left. A warm amber glow emanates from the upper right corner of the vignette, pooling softly across the console surface and casting a cozy golden hue over the arrangement. To the right, a sheer linen curtain filters soft diffused daylight through a window. The wall behind is a smooth warm off-white. A natural fiber area rug with a textured weave anchors the lower right of the frame. The entire palette is warm — honey, amber, oat, dusty tan, and the muted sage-green of dried eucalyptus. Camera at seated eye-level, vignette composition tightly framed on the console surface and its immediate surroundings, normal to slightly telephoto lens, level pitch, close surface vignette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

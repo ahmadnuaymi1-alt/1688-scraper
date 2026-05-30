@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-043fe44e0c23b512",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-sconce-lights-waterproof-landscape-decorative-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_e7f97148-3886-46e9-abf0-bfaa5b5f7777.jpg?v=1774595334",
+  "scraped_date": "2026-05-21T12:04:24.964Z",
+  "source_title": "Outdoor LED Sconce Lights Waterproof Landscape Decorative Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "043fe44e0c23b512e7bd452b6f55aa648732ab4b",
+  "description": "An outdoor patio dining space set against the rear elevation of a cream-colored stucco home. The architecture is clean and traditional, featuring a hipped roofline clad in dark charcoal slate shingles, white-painted fascia and gutters, and a centrally placed multi-pane French window with a white painted surround and divided-light glazing. The window is flanked symmetrically on each side by large, heavily textured cream-colored ceramic or composite urn planters, each containing a mature olive tree with slender, silver-green foliage and gnarled pale trunks. Below the window, a low planting bed hosts a neat row of compact rounded boxwood or similar topiary shrubs. Flanking the window above the urns, warm amber glows wash gently down the stucco wall from a low, close-to-wall source on each side, casting soft circular pools of warm light against the cream plaster without any harsh shadows. The patio floor is laid in large-format travertine or limestone pavers in a honed, variegated ivory and buff finish. Centered in the space is a substantial square stone dining table — its top appearing to be rough-edged natural travertine or limestone slab in ivory and cream tones with a live-edge or hand-chiseled perimeter — resting on a base wrapped in natural fringe or raffia material. On the table sits a low, wide vintage-patina stone or terracotta tray planted with moss or low succulents in deep green tones, acting as a centerpiece. Eight dark espresso-brown all-weather wicker swivel armchairs surround the table, each fitted with thick cream or off-white cushions on both the seat and the back. The chair frames are woven in a tight, deeply toned brown rattan pattern over dark bronze or oil-rubbed metal swivel bases. The overall mood is warm, serene, and refined — Mediterranean in character with a California coastal restraint. The atmosphere reads as early evening or overcast soft daylight, the scene feeling composed for intimate al fresco dining. Lush green trees and garden foliage are visible beyond the roofline and to the right edge of the frame. Camera is positioned at approximately seated to standing eye level, roughly four to five feet high, at a centered symmetrical composition facing directly into the wall of the house, with a slight downward pitch of perhaps five to ten degrees looking across the table surface. The lens reads as a normal to mild telephoto, approximately 50mm equivalent, compressing the depth between the table and the house wall slightly and keeping both the foreground chairs and the full architectural elevation in frame. The full outdoor dining vignette is visible, anchored by the centered window and flanked symmetrically by the urns and trees. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [
+      "french_door",
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:37:34.126Z"
+}

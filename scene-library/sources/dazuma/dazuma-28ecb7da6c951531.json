@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-28ecb7da6c951531",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/vintage-sconce-wall-light-outdoor-waterproof-minimalist-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_806a0583-a513-419a-b8f2-43968e89e9be.jpg?v=1773886600",
+  "scraped_date": "2026-05-21T12:05:00.465Z",
+  "source_title": "Vintage Sconce Wall Light Outdoor Waterproof Minimalist Lamp",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "28ecb7da6c951531078b9c9fab83f9fe735a8179",
+  "description": "A Mediterranean outdoor terrace photographed at standing eye-level with an off-center thirds composition, the camera level and capturing a seating arrangement against a whitewashed stone facade. The architecture is rustic Mediterranean: thick rough-hewn stone walls are whitewashed in a chalky white plaster, and a tall arched doorway or window with matte black metal grid glazing bars in an elegant arched fan pattern provides the focal backdrop. The exterior floor appears to be a worn pale stone or terracotta tile. The seating group consists of a wicker rattan sofa with deep cream cushions, a matching rattan armchair at left, and a weathered driftwood grey rectangular coffee table holding a wooden serving tray with a glass decanter, a lit pillar candle, and an open book. A large weathered oak barrel planter in the left background holds a mature gnarled olive tree with silver-grey foliage. The lush garden trees are visible above the stone parapet and through the arched glazing. The palette is chalky white stone, aged natural rattan, weathered driftwood grey, cream textiles, warm amber candlelight, and soft sage green olive foliage. Warm amber light glows from a single wall-mounted position to the right of the arched door, casting a gentle amber wash downward on the stone wall. The mood is romantic, relaxed, and distinctly Mediterranean. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "antique_brass",
+    "architectural_features": [
+      "arched_doorway",
+      "stone_wall",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.109Z"
+}

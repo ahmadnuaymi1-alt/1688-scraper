@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-e21485d68960a9e0",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e21485d68960a9e0.jpg",
+  "source_url": "https://dazuma.us/products/french-country-style-flower-floor-lamps-green-artistic-unique-iron-lamp",
+  "description": "A close-up vignette shot at seated eye-level with a normal-to-telephoto lens, framing a corner where horizontal white wood-slat shutters meet a warm greige plaster wall. The composition captures the upper two-thirds of a sculptural floor-standing piece, with the bottom of the frame showing two decorative pillows resting on the floor — one cream bouclé knot pillow and one ivory bubble-grid textured cushion. The background is flooded with diffused natural light filtering softly through the closed shutters, casting even horizontal shadow lines across the frame. The wall surface to the right is smooth warm greige, unadorned. A soft warm glow radiates at table height from each bloom of the botanical sculpture, illuminating the white petaled forms from within and creating small halos of warm light at that mid-height. The mood is airy, spring-garden fresh, and softly feminine with a botanical romanticism. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

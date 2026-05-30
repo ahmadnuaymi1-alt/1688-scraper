@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-b4f383855131b097",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b4f383855131b097.jpg",
+  "source_url": "https://dazuma.us/products/solar-lights-for-pillar-tops-modern-waterproof-gate-light",
+  "description": "An outdoor residential railing and fence scene photographed at night. The foreground features a carved stone balustrade railing with turned balusters and a flat square-capped newel post in pale limestone or concrete, its surface texture detailed and slightly rough. A second identical newel post is visible to the left in the background. Beyond the railing, the scene recedes into a soft-focus night garden: dense dark evergreen shrubs fill the left midground, while the warm amber glow of an illuminated home interior is visible through a window in the far right background, with a residential roof silhouetted against the deep indigo-blue night sky. Overhanging tree branches and leaves drop into the upper left corner of the frame. The foreground post top glows with warm amber light, casting a soft pool downward across the stone cap surface and illuminating the front face of the post. The night garden beyond is deep, moody, and dark — all blues and blacks punctuated only by the warm square of interior light in the distance. Camera is at standing eye-level, shooting with a normal to slightly telephoto lens at a mild off-center composition focused tightly on the foreground post cap. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

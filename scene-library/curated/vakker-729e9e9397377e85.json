@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-729e9e9397377e85",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-729e9e9397377e85.jpg",
+  "source_url": "https://vakkerlight.com/products/conch-bloom-lamp",
+  "description": "A living room corner photographed at standing eye-level with a normal lens, framing a wide three-quarter corner view of a reading area. The walls are a smooth warm sandy beige, bare except for a grouping of framed botanical and nature prints at the upper left in a gallery-wall arrangement. The floor is pale blonde oak hardwood, partially covered by a jute or sisal area rug in natural oat tones. In the center-left, a plush cream-upholstered lounge armchair with wooden legs sits facing the room, a sage-green potted olive tree in a round ceramic planter standing tall to the right near the corner. A small round walnut side table to the left of the chair holds a white ceramic mug and a couple of stacked books. A warm amber glow fans outward from a tall floor-standing element between the chair and the tree, the illumination spreading horizontally at mid-height and reaching the wall surface and the chair side in a diffuse golden pool. The window at left admits natural daylight through sheer cream curtains. The mood is casual and lived-in, with natural materials throughout. Color palette is warm neutral with sage and cream. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "sage"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

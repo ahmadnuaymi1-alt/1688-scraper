@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-1c244dd23253f77e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/multi-pendant-light-fixture-colored-glass-artistic-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multi-pendant-light-fixture-staircase.jpg?v=1777107533",
+  "scraped_date": "2026-05-21T12:03:13.633Z",
+  "source_title": "Multi Pendant Light Fixture Colored Glass Artistic Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Multi-Light Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "1c244dd23253f77e2cf6b1a1f65bd1c4bfc99359",
+  "description": "A breathtaking double-height foyer or stairwell interior centered on a sweeping sculptural spiral staircase. The staircase curves in a generous helix from the lower floor, its inner wall a smooth continuous arc of warm off-white plaster that flows upward to the upper level, creating a dynamic organic form. The outer stair wall is clad in light natural oak panels in a clean grid of rectangles, providing warm textural contrast to the plaster curve. The stair treads are wrapped in a cream or oatmeal boucle carpet runner, with a slim light ash wood handrail on the outer edge arching gracefully alongside the curve. At the base of the stair, the foyer floor is visible as polished or honed marble or concrete. A round pedestal side table with a light grey veined marble top sits in the foreground center, holding a weathered aged stone or concrete rounded vase planted with a spare arrangement of bare winter branches and small moss. From the ceiling high above, a long vertical stem descends through the stairwell void, branching into multiple curving brass arms that each terminate in a rounded teardrop-shaped glass globe — the majority frosted white, with a few in jewel-toned purple and a single green, glowing with warm light from within. The warm glow of these glass elements spills downward in pools of soft amber light, cascading down the height of the stairwell and washing the curved plaster wall in soft luminance. Camera at standing eye-level, centered composition facing directly into the stairwell, normal lens, full double-height frame visible. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "plum",
+      "forest_green"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster",
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.058Z"
+}

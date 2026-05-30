@@ -1,0 +1,29 @@
+{
+  "scene_id": "dazuma-ca38afb5c7fc62b8",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ca38afb5c7fc62b8.jpg",
+  "source_url": "https://dazuma.us/products/vintage-ambient-light-floor-lamp-with-pull-chain-switch-fabric-shade-light",
+  "description": "A living room corner vignette photographed at standing eye-level with a close, telephoto-style compression, framing the upper portion of a floor-standing element in a three-quarter corner view. To the left, a vertical panel of wood with rounded circular cutouts in dark walnut tones serves as an architectural room divider or decorative panel. To the right, sheer ivory curtain panels diffuse soft natural daylight from a window, creating a bright, even wash on the right wall. A warm amber glow emanates from the multi-tiered shade structure that occupies the center-upper frame, the illumination spilling downward to wash the pale plaster wall behind in a soft terracotta warmth. The upright black metal pole rises from below the frame. The color palette is warm neutral with terracotta and dark walnut accents. The mood is quiet and mid-century modern, the architectural panel adding graphic interest. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

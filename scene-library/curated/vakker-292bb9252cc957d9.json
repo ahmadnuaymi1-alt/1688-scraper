@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-292bb9252cc957d9",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-292bb9252cc957d9.png",
+  "source_url": "https://vakkerlight.com/products/geometric-stone-table-lamp",
+  "description": "A serene sitting room vignette centered on a rustic reclaimed-wood console table pushed against a textured plaster wall. The wall surface has a hand-applied, slightly uneven finish in a warm off-white, catching a soft pool of diffused warm light that washes gently upward and across the plaster, creating a subtle amber glow in the upper-left corner of the frame. The console table is constructed from heavily distressed, wide-plank reclaimed wood with visible grain, knots, and weathered grey-brown tones — raw and unfinished in character. Atop the table sits a small stack of two softcover books in muted grey and tan tones, their spines understated and typographic. Beside the books, a rounded, organic stoneware vase in a soft grey-celadon glaze holds a full arrangement of dried pampas grass plumes in warm wheat and biscuit tones, their feathery heads arching naturally to the left. A warm, amber-inflected glow emanates from a low source on the table surface, casting gentle illumination onto the plaster wall and console objects without harsh shadows. To the right of the frame, the room opens into a sitting area furnished with a generously scaled armchair upholstered in a light greige linen fabric, its cushions soft and relaxed. A chunky-knit fringe throw blanket in warm oat drapes casually over the chair's arm. Beyond the chair, a large multi-pane window dressed with sheer ivory linen curtains on a simple rod admits bright, diffused natural daylight suggesting mid-morning. Greenery from outdoor plantings is faintly visible through the glass. The floor is light-toned wide-plank hardwood, warm honey in color. The overall palette is entirely warm neutral — ivory, oat, wheat, stone, and reclaimed wood — with no saturating color. The atmosphere is calm, grounded, and quietly editorial. Camera is positioned at approximately seated to low-standing eye level, roughly 4 feet high, with a normal-to-slight-telephoto lens compressing the depth between the console and the sitting area behind. The composition is a three-quarter vignette favoring the left two-thirds of the frame, with the console table as the primary surface and the sitting room glimpsed in soft focus behind. Camera pitch is level with a very slight downward tilt toward the tabletop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

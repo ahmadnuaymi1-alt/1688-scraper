@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-588bb65073248599",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-588bb65073248599.png",
+  "source_url": "https://vakkerlight.com/products/bell-travertine-arc-sconce",
+  "description": "A warm, tactile bedroom or sitting area vignette photographed at seated eye-level with a normal lens, in an off-center thirds composition that focuses on the side table and wall above it. The camera sits roughly three to four feet high, looking level. In the foreground, a raw-wood side table with a thick natural slab top holds a small ceramic mug, a stack of worn books, a small potted fern in a white ceramic pot, and a second small pot with earth-toned planter. A loosely folded linen or cotton throw in warm sand-gray is draped over the table edge. The wall behind is finished in deeply textured hand-troweled plaster or limewash in a warm taupe-sand tone, its surface catching raking light from the right and casting beautiful shadow variations across the wall. Soft warm light descends from an upper source, bathing the objects on the table in a gentle amber glow. A matte black arched arm extends from a wooden wall-mount element — a circular wooden disk — with a warm amber sphere accent hanging from it, forming a decorative wall-mounted arrangement. At the right edge, the wooden headboard of a bed is partially visible. Sheer linen curtains filter soft diffused light in from an unseen window at right. The overall palette is warm sand, natural linen, raw wood, and terracotta-adjacent tones. The mood is earthy, grounded, and quietly sophisticated. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "rust"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

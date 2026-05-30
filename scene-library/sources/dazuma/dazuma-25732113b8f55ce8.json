@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-25732113b8f55ce8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-minimalist-crystal-flush-mount",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-crystal-flush-mount-ceiling-lights-sleek-circular-living-room-large-windows.jpg?v=1769996360",
+  "scraped_date": "2026-05-21T12:19:57.400Z",
+  "source_title": "Modern Minimalist Crystal Flush Mount",
+  "source_product_type": "Lighting > Ceiling Lights > Flush Mount Lights > Crystal Flush Mounts",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "25732113b8f55ce8eb687516f2baeae98dac4eff",
+  "description": "A spare modern interior hallway or room space photographed from a slightly elevated angle looking down at a slight pitch, with a wide lens capturing the corner of a white ceiling and light grey wall. The ceiling is smooth white, meeting a light warm grey plaster wall at a clean shadow-gap junction. Below, a large wide black-framed horizontal sliding window or interior screen panel with horizontal white aluminium venetian blinds at a half-open slat angle fills the lower center of the composition, closed to diffuse light. The window frame is matte black with a wide profile. At the right edge of frame, dark painted or dark wood shelving is partially visible, with white dishware stacked on one shelf. The room is very spare and clean with minimal decoration. Camera is elevated and tilted slightly downward, wide lens, centered symmetrical composition framing the window symmetrically below the ceiling mount position. The mood is quiet and clean — a disciplined modern interior. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "flush_mount",
+      "pendant"
+    ],
+    "camera_height": "elevated",
+    "lens_character": "wide",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.094Z"
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-b2c1bb8c21da5099",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-path-light-minimalist-landscape-lawn-lighting",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-path-light-curved-garden-pathway-warm-ambient-glow.jpg?v=1773716474",
+  "scraped_date": "2026-05-21T12:19:46.749Z",
+  "source_title": "Modern Path Light Minimalist Landscape Lawn Lighting",
+  "source_product_type": "Lighting > Outdoor Lighting > Landscape Lighting > Path Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b2c1bb8c21da5099a636d491095e591b5deb722f",
+  "description": "A contemporary residential garden pathway photographed at dusk or early night, with a moody blue-grey overcast sky above silhouetted treeline in the distance. The scene features a smooth curved concrete or light stone-paved walkway that sweeps from the foreground toward the left in a gentle arc. Flanking the walkway on the garden side is a planting bed of dark river gravel mulch hosting ornamental grasses in silvery-green, small conifer shrubs, and a slender multi-stem tree. A tall dark metal perimeter fence with vertical pickets is visible in the background, separating the property garden from the tree-filled landscape beyond. On the right edge of the frame, the clean white smooth stucco corner of a contemporary building is partially visible. The ground-level planting palette is restrained — grey gravel, silver-green grasses, deep green conifers — all sitting in the cool blue twilight. Warm amber glow emanates from three bollard-height post-mounted sources planted along the garden edge of the walkway, casting small warm pools downward onto the concrete and illuminating the gravel bed below each post. Camera is at standing eye-level, shooting with a normal lens at a slightly angled composition that follows the curve of the walkway into the distance, with the pathway filling the lower left and the garden planting bed in the center. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "moody",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.708Z"
+}

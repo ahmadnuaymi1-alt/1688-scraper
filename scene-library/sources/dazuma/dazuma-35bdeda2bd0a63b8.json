@@ -1,0 +1,42 @@
+{
+  "image_id": "dazuma-35bdeda2bd0a63b8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/wall-pillar-lights-modern-outdoor-waterproof-gate-post-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/wall-pillar-lights-stone-pillars-modern-house-gate.jpg?v=1773717788",
+  "scraped_date": "2026-05-21T12:19:36.094Z",
+  "source_title": "Wall Pillar Lights Modern Outdoor Waterproof Gate Post Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "35bdeda2bd0a63b875b976f78692e3b04db17d75",
+  "description": "A residential driveway gate entrance photographed from standing eye-level in a centered symmetrical composition at dusk, capturing the full gate and flanking pillar wall. The gate itself is a wide sliding or double gate constructed of vertical aluminium or steel slats in a light warm grey finish, framed by a solid perimeter rail. A smaller pedestrian gate opens beside it. The gate is mounted between two stout square pillars rendered in smooth light grey stucco with a granite or cast stone cap topping each column. An additional horizontal slatted wooden fence panel in warm honey wood tone extends from the left pillar. Warm amber light radiates from low cubic forms seated atop the two main gate pillars, casting a concentrated golden glow across the column caps and spilling downward onto the stucco pillar faces. White flowering shrubs — possibly white roses or gardenias — are visible at the right base of the gate. The driveway is paved in dark charcoal interlocking brick pavers. Beyond the gate, the main house is visible — a two-story tan stucco home with grey asphalt shingle hip roof and illuminated windows glowing warm amber. Mature autumn-toned deciduous trees with orange-gold foliage frame the scene against a deep blue-purple dusk sky. The mood is secure, welcoming, and formally composed at twilight. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "ochre",
+      "cognac"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "nickel",
+    "architectural_features": [
+      "stone_wall",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "competing",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.161Z"
+}

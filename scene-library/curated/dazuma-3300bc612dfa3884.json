@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-3300bc612dfa3884",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-3300bc612dfa3884.jpg",
+  "source_url": "https://dazuma.us/products/wall-lighting-outdoor-american-style-waterproof-brass-light",
+  "description": "A contemporary residential exterior wall vignette photographed from standing eye-level in an off-center thirds composition, tightly framing a section of cladded exterior wall with minimal surrounding context. The wall surface is large-format grey porcelain or concrete tile panels with a fine stone-like texture, laid in a grid with narrow grout lines, in a cool mid-grey tone. The horizontal tile joints are clearly visible. A warm amber glow emanates from a wall-mounted position, illuminating the textured grey surface with a soft golden cast. Lower-left and right foreground show the soft blurred foliage of tropical garden plants — broad-leaf green plants and grass-like blades — with a slightly soft focus that keeps attention on the wall surface. The upper-left corner reveals a bright daytime sky with light cloud cover and a few blurred tree branches. The scene's mood is clean, modern, and quietly confident — a residential contemporary exterior with minimal ornamentation. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

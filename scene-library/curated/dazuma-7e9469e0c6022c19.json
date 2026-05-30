@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-7e9469e0c6022c19",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-7e9469e0c6022c19.jpg",
+  "source_url": "https://dazuma.us/products/sculptural-glass-base-table-lamp-with-a-classic-linen-shade-light",
+  "description": "A refined sitting room corner vignette photographed at standing eye-level with a normal lens, composed as an off-center thirds shot showing the corner of a room where two walls meet. The background wall is finished in a warm champagne-cream plaster with a subtle sheen, and a large ornate botanical medallion motif — a raised or appliquéd flourish in white with a slightly reflective surface — is mounted on the left wall panel. The right side of the frame shows heavy ivory linen floor-to-ceiling drapes hanging from near the crown, their fabric catching a soft side-light that creates gentle vertical shadow folds. A marble-topped console table with slim brass-finished metal legs occupies the lower half of the frame; the marble is white with soft grey and gold veining. On the table surface sits an open hardcover book splayed spine-up, its ivory pages visible. A warm glow radiates from the table surface level, warming the marble top and casting gentle illumination up across the wall plaster and the medallion motif. The overall palette is warm ivory, champagne, soft gold, and translucent cognac tones. The mood is formal yet romantic — a European salon aesthetic. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "sitting_room",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

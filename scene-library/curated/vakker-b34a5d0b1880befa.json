@@ -1,0 +1,31 @@
+{
+  "scene_id": "vakker-b34a5d0b1880befa",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-b34a5d0b1880befa.png",
+  "source_url": "https://vakkerlight.com/products/alabaster-bell-wall-sconce",
+  "description": "A warmly elegant hallway or stair landing with a Mediterranean or New Traditional character. The walls are smooth warm cream plaster, and a staircase with dark walnut-toned wood treads rises along the right side, its balustrade featuring a brass or warm gold handrail. At the base of the stair, a small walnut side table or console holds a curated arrangement of three white candles of varying heights, a small ceramic vessel with dried botanicals, and a flat book. The floor at the landing is a tiled mosaic pattern in warm terracotta and cream tones, visible on the left side of the frame. Down the hallway in the background, a large ornate gold-framed mirror hangs on the wall reflecting the warm interior of a room beyond, and a simple framed artwork in a thin frame hangs beside it. A brass handrail detail on the stair continues into the background. Two elongated column forms mounted side by side on the cream wall emit a broad bright wash of warm white light, illuminating a wide vertical band of the plaster wall with high intensity and creating a focal point that warms the entire hallway. The overall palette is warm and rich: cream plaster, dark walnut, antique brass, terracotta tile, and warm golden glow. Camera at approximately standing eye-level using a normal lens, with a one-point perspective composition looking down the hallway passage, the stair on the right and the receding corridor ahead. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "terracotta"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

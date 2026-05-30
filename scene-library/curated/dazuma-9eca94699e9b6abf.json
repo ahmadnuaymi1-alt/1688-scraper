@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-9eca94699e9b6abf",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-9eca94699e9b6abf.jpg",
+  "source_url": "https://dazuma.us/products/statement-table-lamps-creative-pipe-modern-rotating-lamp",
+  "description": "A close-up vignette of an antique carved walnut mantelpiece or console, its dentil-molded apron richly detailed with hand-carved ornamental banding. The surface of the console is aged dark wood, slightly worn and patinated. Leaning against the wall behind the console is a large framed artwork — a natural oak timber frame containing a mixed-media collage composed of torn paper, photographic fragments, gestural line drawings, and gold-toned abstract shapes. A warm, concentrated glow illuminates the right-hand portion of the artwork from surface level, creating a bright halo against the off-white canvas and casting the wall in soft warmth to the right. The background wall is a pale warm greige plaster. The overall mood is quiet and gallery-like, juxtaposing the antique classicism of the carved wood console with the contemporary mixed-media art. Camera is at standing eye-level, roughly 5–6 feet high, with a normal-to-telephoto lens, in a tight three-quarter vignette composition that shows the mantel surface, the wall corner, and the lower portion of the framed artwork. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

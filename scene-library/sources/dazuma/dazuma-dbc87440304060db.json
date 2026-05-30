@@ -1,0 +1,43 @@
+{
+  "image_id": "dazuma-dbc87440304060db",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/multi-light-wall-sconce-nordic-decorative-glass-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/multi-light-wall-sconce-lounge-area.jpg?v=1777256674",
+  "scraped_date": "2026-05-21T12:03:05.152Z",
+  "source_title": "Multi Light Wall Sconce Nordic Decorative Glass Light",
+  "source_product_type": "Lighting > Wall Lights > Wall Sconces > Diffused Light Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "dbc87440304060db8e6a65c37822269b87ea903f",
+  "description": "A serene Parisian-inflected living room bathed in soft, even daylight filtering through floor-length sheer linen curtains on the right wall. The walls are finished in warm off-white plaster with applied classical moulding panels — raised rectangular frames running from wainscot height to near the crown — lending the room an understated Haussmann-era refinement. A framed abstract artwork in a light oak wood frame hangs flush against the left panel; the piece features organic shapes in blush, sand, and putty tones. The sofa is a low, curved bouclé form in creamy ivory with softly sculpted arms, dressed with a heathered gray textural cushion and a rich cognac velvet lumbar pillow. In front of the sofa sits a low travertine or stone-topped coffee table with dark metal legs, holding a small stack of art books and a simple white ceramic pitcher vessel with a few budding branches extending upward. The floor appears to be a light-toned stone or large-format tile. The overall color palette is warm neutral — ivory, cream, warm stone, and blush — punctuated by the cognac accent of the pillow and muted sage green from the branches. Light wraps evenly across the wall panels and sofa, with a soft warm glow emanating from the wall area that deepens toward the curtain edge. Camera is at standing eye-level, normal lens, three-quarter view of the living room corner showing the left feature wall, sofa, and coffee table with the right curtain wall visible. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "chandelier",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.891Z"
+}

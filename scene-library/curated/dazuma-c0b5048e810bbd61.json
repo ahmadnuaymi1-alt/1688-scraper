@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-c0b5048e810bbd61",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-c0b5048e810bbd61.jpg",
+  "source_url": "https://dazuma.us/products/square-flush-mount-ceiling-light-outdoor-waterproof-courtyard-light",
+  "description": "A covered outdoor terrace photographed at standing eye-level with a wide lens at dusk, capturing a wide establishing view of an open-plan balcony living space. The covered porch ceiling is a smooth flat surface in warm off-white plaster, and a warm amber glow bathes the ceiling and sofa from above. A cream outdoor sectional sofa with a teak-style frame and low profile occupies the center of the terrace, dressed with rust-orange, gray, and navy blue throw pillows. A square natural wood coffee table holds two ceramic mugs. Large-format floor-to-ceiling sliding glass doors with black frames open to a warmly lit interior space visible beyond, where a tall fiddle-leaf fig plant stands near the back wall. The exterior building facade is smooth light gray stucco with a round column at the right edge. A glass-railed balcony overlooks a sunset sky in pink and soft blue tones, with tree canopies silhouetted against the horizon. The interior beyond the glass doors glows warmly, with warm amber cove lighting visible along the ceiling edge. The mood is casual and serene, blending the warmth of indoor living with the open air of an evening terrace. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "dusty_blue"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "french_door"
+    ],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "flush_mount",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "dazuma-7aa22f35459d04da",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/oval-chandelier-modern-metal-led-office-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_ec643035-8de1-464b-8b9f-37a315efeabb.jpg?v=1778838758",
+  "scraped_date": "2026-05-21T12:02:26.578Z",
+  "source_title": "Oval Chandelier Modern Metal LED Office Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7aa22f35459d04da18c9d5938ae972f4d3efeca7",
+  "description": "A minimal contemporary home office photographed at standing eye-level with a normal lens, capturing a centered symmetrical view of a large executive desk set directly against a full-height wall of pale grey-blonde wood veneer panels. The desk is a substantial low-profile piece with a pale laminate top and flanking dark charcoal grey pedestals, creating a monolithic horizontal form. A high-back black leather executive chair sits behind the desk at center. On the desk surface: a black leather pen and accessory cup holder, a small sculptural figurine, an open book, and a white Apple desktop monitor on the right side. To the left of the desk, a tall floor-to-ceiling black metal shelving unit with open compartments holds a sparse arrangement of books, binders, and small objects. Long floor-to-ceiling drapes in warm beige-cream hang along the right wall, softening the space and admitting a glow of diffuse natural light. The floor is pale grey-washed wide-plank oak. The white plaster ceiling is minimal and high, and an oval ring of glowing warm white light hangs suspended above the desk on thin black cables, casting a clean ambient pool of illumination across the work surface. The overall aesthetic is composed, minimalist, and quietly corporate. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.423Z"
+}

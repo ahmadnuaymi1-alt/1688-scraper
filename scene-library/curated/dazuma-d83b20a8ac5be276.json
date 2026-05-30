@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-d83b20a8ac5be276",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d83b20a8ac5be276.jpg",
+  "source_url": "https://dazuma.us/products/vintage-metal-fabric-shade-table-lamp",
+  "description": "A warm, refined home office or private study photographed at standing eye-level in a three-quarter corner composition. The room features a writing desk in light maple or natural oak with a white stone or composite top surface, supported by solid walnut legs and apron. The desk is large and clean — an open hardcover book and a laptop computer or notebook sit on the surface. Behind the desk, a low run of floor-to-ceiling cabinetry in deep charcoal-painted wood with integrated handles lines the back wall. A potted fiddle-leaf fig or large tropical plant in a stone planter sits atop the cabinet at center. To the left, a multi-pane window with a black frame and sheer white curtain panel admits soft, even daylight from outside, where a blurred garden is visible. The back wall behind the cabinetry is covered in a bold diamond-grid geometric wood veneer panel in pale honey-blond tone, creating a high-impact textural backdrop for the room. The floor is wide-plank light oak. A warm-toned area rug in a subtle allover pattern grounds the desk zone. An upholstered dining-style side chair in cream boucle with walnut legs sits to the right of the desk. A warm pool of amber light radiates from the left side of the desk surface, cast by a brass-and-ivory fixture placed at the desk corner. The palette is warm neutral — honey wood, cream, oatmeal — accented by deep charcoal cabinetry. Camera shows the full desk and surrounding room in a three-quarter view. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  }
+}

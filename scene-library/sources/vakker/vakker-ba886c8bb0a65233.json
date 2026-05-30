@@ -1,0 +1,36 @@
+{
+  "image_id": "vakker-ba886c8bb0a65233",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/petal-alabaster-dome-staircase-chandelier",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/PetalAlabasterDomeStaircaseChandelier_10.jpg?v=1779024726",
+  "scraped_date": "2026-05-21T12:08:46.095Z",
+  "source_title": "Petal Alabaster Dome Staircase Chandelier",
+  "source_product_type": "Chandelier",
+  "width": 1200,
+  "height": 1200,
+  "content_sha1": "ba886c8bb0a65233a8de02c199da02e444ee2bb9",
+  "description": "A minimal editorial vignette shot at seated eye-level with a normal lens, slightly looking up toward the ceiling, framing a close composition centered on a small round glass-top side table and the hanging fixture above it. The background is a ribbed or fluted white wall panel with a subtle horizontal relief texture that catches faint ambient light, creating gentle tonal variation across its surface. The side table features a circular glass top with a slender chrome or brushed-nickel wire frame, giving it a light and almost graphic quality. On the table sits a low textured ceramic vase in off-white with a rough plaster-like surface, holding a small arrangement of magnolia-like blossoms and dried branch stems in cream and dusty mauve tones. A magazine or coffee table book rests beside the vase, adding a casual editorial note. Warm amber light glows downward in a focused pool from above, illuminating the vase and table surface and casting soft shadows on the wall behind. The overall palette is extremely restrained: white, cream, pale blush, and a whisper of gold hardware, creating a serene, gallery-like atmosphere. The scene is low-density and spare, with the styled surface and background texture doing the entire compositional work. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "chrome",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "pendant"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.201Z"
+}

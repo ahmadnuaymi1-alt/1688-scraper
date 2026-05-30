@@ -1,0 +1,128 @@
+{
+  "productId": "cmph9ko5500i4w20g7au8rzhx",
+  "productTitle": "新中式过道灯吸顶灯现代简约胡桃木玻璃玄关阳台走廊厨卫实木灯具",
+  "authoredBy": "lifestyle-scene-design.ts",
+  "authoredAt": "2026-05-23T08:53:36.631Z",
+  "classification": "indoor",
+  "category": "flush-mount",
+  "scenes": [
+    {
+      "slug": "mediterranean-entry-vestibule-walnut",
+      "mode": "minimalist",
+      "prompt": "A compact arched entry vestibule shot on a 35mm lens at standing eye-level, tilted slightly up so the small flush-mount sits centred in the upper third of a square 1:1 frame. Late golden-hour daylight rakes in from an unseen side window, throwing a soft warm wash across cinnabar-clay limewash plaster and a honed travertine threshold tile. A slim pale-oak console hugs the left wall holding a raw-clay vessel with a single quince branch, a small footed brass dish for keys, and a stack of two cloth-bound monographs; a leaning soapstone carving rests on the floor below. The petal-shaped clear-glass shade scatters a radiant rosette of warm halo-rays across the ceiling. The fixture matches the reference image exactly — solid walnut disc canopy, brushed-brass socket cup, fluted floral crystal glass shade with scalloped petal rim — switched ON, soft warm 2700-3000K glow. Palette: cinnabar clay, walnut brown, warm brass, travertine cream, soft shadow. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "entry vestibule",
+      "designStyle": "modern Mediterranean",
+      "wallColour": "cinnabar-clay limewash plaster",
+      "cameraAngle": "35mm standing eye-level tilted up",
+      "timeOfDay": "late golden hour",
+      "accents": [
+        "pale-oak console",
+        "raw-clay vessel with quince branch",
+        "footed brass key dish",
+        "stack of cloth-bound monographs",
+        "leaning soapstone carving"
+      ]
+    },
+    {
+      "slug": "art-deco-powder-room-brass",
+      "mode": "minimalist",
+      "prompt": "A petite jewel-box powder room captured on a 50mm lens at chest height, straight-on into a back corner, framed 1:1 with the brass-capped flush-mount in the upper centre throwing its starburst of warm petal-rays across a smooth white plaster ceiling. The walls are wrapped in deep emerald-green grasscloth-textured wallpaper that drinks the light and lets the fixture visibly glow. A scalloped Carrara-marble pedestal basin sits below with a slender brushed-brass arc tap; a marquetry inlaid box, a small porcelain trinket dish, and a single white tulip in a clear bud vase line the narrow shelf. An oval brass-framed mirror leans, reflecting the petal-glass halo. The fixture matches the reference image exactly — round brushed-brass canopy disc, knurled brass socket collar, scalloped fluted crystal floral shade — switched ON, soft warm 2700-3000K glow. Palette: deep emerald, antique brass, Carrara cream, soft ivory, low shadow. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "powder room",
+      "designStyle": "Art Deco jewel-box",
+      "wallColour": "deep emerald-green grasscloth",
+      "cameraAngle": "50mm chest-height straight-on into corner",
+      "timeOfDay": "evening",
+      "accents": [
+        "Carrara pedestal basin",
+        "brushed-brass arc tap",
+        "marquetry inlaid box",
+        "porcelain trinket dish",
+        "single white tulip in bud vase",
+        "oval brass-framed mirror"
+      ]
+    },
+    {
+      "slug": "butlers-pantry-coffee-nook-walnut",
+      "mode": "homey",
+      "prompt": "A narrow galley butler's pantry shot on a 24mm lens from a low counter-height vantage, looking up along the depth axis so the small walnut-and-glass flush-mount sits centred above the run of cabinetry in a 1:1 frame. Early-morning daylight filters through a slim casement at the far end, lifting a warm honey-mustard limewash plaster wall above figured-walnut slab cabinetry with knurled brass cup pulls. On the honed-marble counter: a stoneware moka pot resting on a slate trivet, three stacked cream stoneware espresso cups on a folded raw-linen napkin, a brass-rimmed canister of loose tea, a glass jar of dried rosemary sprigs, and a small carved-wood bird figurine. A trailing pothos spills from a clay pot on an upper open shelf. The petal-glass shade scatters delicate warm light across the wood ceiling beam. Matches the reference image exactly — walnut disc canopy, brass socket cup, fluted floral crystal shade — switched ON, soft warm 2700-3000K glow. Palette: honey-mustard, walnut, antique brass, marble cream, leaf green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "butler's pantry coffee nook",
+      "designStyle": "neo-Chinese transitional",
+      "wallColour": "honey-mustard limewash plaster",
+      "cameraAngle": "24mm low counter-height down depth axis",
+      "timeOfDay": "early morning",
+      "accents": [
+        "walnut slab cabinetry with brass cup pulls",
+        "stoneware moka pot on slate trivet",
+        "stacked espresso cups on linen napkin",
+        "brass-rimmed loose-tea canister",
+        "jar of dried rosemary",
+        "carved wooden bird figurine",
+        "trailing pothos in clay pot"
+      ]
+    },
+    {
+      "slug": "parisian-walk-in-wardrobe-alcove-brass",
+      "mode": "homey",
+      "prompt": "A small walk-in wardrobe alcove on a 50mm lens at slight three-quarter standing eye-level, framed 1:1 with the brass flush-mount centred above a built-in dressing nook. Late-afternoon daylight slips through a sheer linen drape on the right, brushing soft lilac-mauve plaster walls articulated with classical applied-panel mouldings. A pale-oak slab dressing bench holds a blush velvet cushion, a folded cashmere kimono robe, a marquetry inlaid jewellery box left ajar with pearl earrings spilling, a porcelain saucer with a vintage signet ring, and a stem of sweet pea in a slim bud vase. A leaning oval bevelled mirror catches the petal-glass starburst overhead. A pale wool runner softens parquet-de-Versailles floor. The fixture matches the reference image exactly — round brushed-brass canopy disc, knurled socket collar, scalloped fluted crystal floral shade — switched ON, soft warm 2700-3000K glow. Palette: lilac-mauve, antique brass, blush velvet, oak honey, oyster cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "walk-in wardrobe alcove",
+      "designStyle": "Parisian feminine transitional",
+      "wallColour": "soft lilac-mauve plaster with applied mouldings",
+      "cameraAngle": "50mm three-quarter standing eye-level",
+      "timeOfDay": "late afternoon",
+      "accents": [
+        "pale-oak dressing bench",
+        "blush velvet cushion",
+        "cashmere kimono robe",
+        "marquetry jewellery box with pearl earrings",
+        "porcelain saucer with signet ring",
+        "sweet pea bud vase",
+        "leaning oval bevelled mirror",
+        "wool runner on parquet de Versailles"
+      ]
+    },
+    {
+      "slug": "japanese-chinese-stair-landing-walnut",
+      "mode": "minimalist",
+      "prompt": "A compact mid-stair landing shot on a 35mm lens at standing eye-level looking up the next flight, framed 1:1 with the walnut-capped flush-mount in the upper centre throwing its warm petal-starburst across a smooth ivory plaster ceiling. The feature wall is wrapped in deep ink-blue washi-paper-textured covering, deep enough that the glow visibly halos. A narrow black-stained-oak step-tansu chest sits on the landing holding a celadon ceramic tea bowl, a small carved soapstone object, and a single bare cherry branch in a charcoal stoneware floor vessel beside it. A jute runner climbs the treads. Through a black-framed shoji-style divided pane at the half-landing, a glimpse of dusk garden silhouette. Matches the reference image exactly — solid walnut disc canopy, brushed brass socket cup, scalloped fluted crystal floral shade — switched ON, soft warm 2700-3000K glow. Palette: ink blue, walnut, antique brass, ivory plaster, jute. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "stair landing",
+      "designStyle": "Japanese-Chinese fusion",
+      "wallColour": "deep ink-blue washi-paper feature wall",
+      "cameraAngle": "35mm standing eye-level up the stairs",
+      "timeOfDay": "dusk",
+      "accents": [
+        "black-stained-oak step-tansu chest",
+        "celadon tea bowl",
+        "carved soapstone object",
+        "bare cherry branch in charcoal stoneware floor vessel",
+        "jute stair runner",
+        "shoji-style divided pane"
+      ]
+    },
+    {
+      "slug": "new-england-breakfast-banquette-brass",
+      "mode": "homey",
+      "prompt": "A snug corner breakfast banquette nook shot on a 50mm lens at seated-bench height, framed 1:1 with the brass flush-mount centred just above a built-in alcove. Mid-morning daylight pours through a divided-light casement on the right, glancing across dusty-navy board-and-batten wainscoting topped by warm cream plaster above the chair rail. The L-shaped pale-oak banquette wears a flax-linen seat pad and three mixed cushions in cream bouclé, ticking stripe, and waffle weave. On the round walnut pedestal table: a cream stoneware compote of green pears and figs, a small jug of fresh ranunculus, two folded gingham napkins, an open hardback face-down with reading glasses, and a porcelain mug of tea on a saucer. A jute rug grounds the floor. The petal-glass shade halos the navy wall in warm light. Matches the reference image exactly — round brushed-brass canopy disc, knurled brass socket collar, scalloped fluted crystal floral shade — switched ON, soft warm 2700-3000K glow. Palette: dusty navy, warm cream, antique brass, oak honey, dusty-pink ranunculus accent. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "breakfast banquette nook",
+      "designStyle": "New England coastal cottage",
+      "wallColour": "dusty-navy board-and-batten with warm cream plaster above",
+      "cameraAngle": "50mm seated-bench-height into corner",
+      "timeOfDay": "mid-morning",
+      "accents": [
+        "pale-oak L-banquette with mixed cushions",
+        "walnut pedestal table",
+        "cream stoneware compote of pears and figs",
+        "jug of ranunculus",
+        "gingham napkins",
+        "open hardback with reading glasses",
+        "porcelain mug of tea",
+        "jute rug"
+      ]
+    }
+  ]
+}

@@ -5,6 +5,8 @@ import {
   type DefaultInventory,
 } from "@/types/scrape-options";
 import { gramsToLbs, convertPkgDimsStringToInches } from "@/lib/units";
+import { buildUniqueSku } from "@/lib/sku";
+import { exchangeForAccessToken } from "@/lib/shopify/token-exchange";
 import type { UploadRecord, Product, Variant, ProductImage } from "@prisma/client";
 
 /** Shopify Admin GraphQL API version */
@@ -218,15 +220,23 @@ function pickInventoryQuantity(inv: DefaultInventory): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-/** Generate a deterministic SKU when generateSku is enabled and variant has none. */
+/**
+ * Generate a deterministic SKU when generateSku is enabled and variant has none.
+ *
+ * Delegates to the shared variant-aware generator so upload-time SKUs match
+ * the format the scraper assigns at create time (`LED-PINK`, `WOVEN-CEIL`,
+ * `LED-BLAC-TMAL`, …). Index is used as the position fallback for variants
+ * whose own `position` is missing — practically always set, but we accept
+ * either form.
+ */
 function autoGenerateSku(product: Product, variant: Variant, index: number): string {
-  const base = (product.handle || product.id || "PROD")
-    .toUpperCase()
-    .replace(/[^A-Z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, 24);
-  const suffix = String(index + 1).padStart(3, "0");
-  return `${base}-${suffix}`;
+  return buildUniqueSku(
+    product.handle,
+    product.title,
+    [variant.option1, variant.option2, variant.option3],
+    variant.position ?? index,
+    variant.id,
+  );
 }
 
 /** Parse the JSON-encoded optionNames array from Product.optionNames. */
@@ -278,7 +288,49 @@ interface BuiltInput {
   optionNames: string[];
 }
 
-function buildProductSetInput({ product, variants, images, options }: BuildInputArgs): BuiltInput {
+function buildProductSetInput({
+  product,
+  variants: dbVariants,
+  images,
+  options,
+}: BuildInputArgs): BuiltInput {
+  // Shopify requires ≥ 1 variant per product. Our DB allows zero (the user
+  // hit "Remove all variants" or the scrape returned no variants), so
+  // synthesize a single Default-Title variant at upload time. The existing
+  // `isSingleVariantNoOptions` branch below picks it up as a Title-only
+  // single-SKU product — exactly what Shopify expects for a no-options product.
+  // Price defaults to "0.00" — variantless products carry no price in our DB;
+  // the user can set it in Shopify post-upload.
+  const variants: Variant[] =
+    dbVariants.length > 0
+      ? dbVariants
+      : [
+          {
+            id: "synthetic-default",
+            productId: product.id,
+            title: "Default Title",
+            option1: "Default Title",
+            option2: null,
+            option3: null,
+            price: "0.00",
+            compareAtPrice: null,
+            supplierCost: null,
+            sku: null,
+            barcode: null,
+            weight: null,
+            weightUnit: null,
+            packagingDimensions: null,
+            position: 0,
+            sourceVariantId: null,
+            isHidden: false,
+            supplierLabel1: null,
+            supplierLabel2: null,
+            supplierLabel3: null,
+            featuredImageId: null,
+            createdAt: new Date(),
+          } satisfies Variant,
+        ];
+
   // Build a quick lookup from image id → image so we can resolve each
   // variant's featuredImageId to a sourceUrl that matches one of the files
   // we're about to send to Shopify.
@@ -385,7 +437,14 @@ function buildProductSetInput({ product, variants, images, options }: BuildInput
         const valueArr = [v.option1, v.option2, v.option3];
         variantObj.optionValues = optionNames.map((name, i) => ({
           optionName: name,
-          name: valueArr[i] || "Default",
+          // Single-variant-no-options products declare productOptions.Title
+          // with value "Default Title". The variant's option1 is usually null
+          // in that case, so we must align the variant's optionValue with the
+          // declared option value or Shopify rejects with OPTION_VALUE_DOES_NOT_EXIST.
+          name:
+            isSingleVariantNoOptions && i === 0
+              ? "Default Title"
+              : valueArr[i] || "Default",
         }));
       }
 
@@ -464,18 +523,60 @@ function buildProductSetInput({ product, variants, images, options }: BuildInput
   }
 
   // Files (images): pass downloaded images. Skip non-downloaded.
-  const usableImages = images.filter((img) => img.downloadStatus === "downloaded");
+  // Dedup by sourceUrl — multiple ProductImage rows can point at the same
+  // Supabase file (e.g. when the hero script gets re-run and produces a
+  // deterministic storagePath). First-seen wins so position order is preserved.
+  const seenSources = new Set<string>();
+  const usableImages = images
+    .filter((img) => img.downloadStatus === "downloaded")
+    .sort((a, b) => a.position - b.position)
+    .filter((img) => {
+      const key = img.sourceUrl;
+      if (!key || seenSources.has(key)) return false;
+      seenSources.add(key);
+      return true;
+    });
   if (usableImages.length > 0) {
-    input.files = usableImages
-      .sort((a, b) => a.position - b.position)
-      .map((img) => ({
+    input.files = usableImages.map((img) => {
+      const file: { originalSource: string; alt: string; contentType: string; filename?: string } = {
         originalSource: img.sourceUrl,
         alt: img.altText || "",
         contentType: "IMAGE",
-      }));
+      };
+      const fn = shopifyFilename(img.fileName, img.sourceUrl);
+      if (fn) file.filename = fn;
+      return file;
+    });
   }
 
   return { input, optionNames };
+}
+
+/**
+ * Turn the rule-generated `ProductImage.fileName` into a Shopify-safe
+ * filename: ensure it carries an extension (Shopify requires the extension
+ * match the underlying file), strip spaces and special chars, and return
+ * undefined when the local fileName is missing so Shopify falls back to the
+ * URL basename.
+ */
+function shopifyFilename(localFileName: string | null, sourceUrl: string): string | undefined {
+  const raw = (localFileName ?? "").trim();
+  if (!raw) return undefined;
+  const hasExt = /\.[A-Za-z0-9]{1,5}$/.test(raw);
+  let base = raw;
+  let ext = "";
+  if (hasExt) {
+    const dot = raw.lastIndexOf(".");
+    base = raw.slice(0, dot);
+    ext = raw.slice(dot + 1);
+  } else {
+    const m = sourceUrl.match(/\.([A-Za-z0-9]{1,5})(?:\?|$)/);
+    ext = m ? m[1] : "png";
+  }
+  // Shopify rejects spaces / most special chars. Collapse to kebab-friendly.
+  base = base.replace(/[^A-Za-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "");
+  if (!base) return undefined;
+  return `${base}.${ext}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -623,7 +724,9 @@ export async function uploadProductToShopify(
     ...(options || {}),
   };
 
-  // Pre-flight: confirm product + connection exist
+  // Pre-flight: confirm product + connection exist. We load BOTH visible and
+  // hidden variants here so we can compute the hidden-variant id set for the
+  // image filter below — but only the visible ones are sent to Shopify.
   const product = await prisma.product.findUnique({
     where: { id: productId },
     include: {
@@ -635,11 +738,61 @@ export async function uploadProductToShopify(
     throw new Error(`Product ${productId} not found`);
   }
 
+  // CRITICAL: filter out hidden variants from the upload payload, and drop any
+  // image whose variantId points at a hidden variant. Without this, Shopify
+  // receives every soft-hidden SKU (curation noise) AND every hidden-variant
+  // swatch/hero image gets promoted to a product-level gallery image.
+  const hiddenVariantIds = new Set(
+    product.variants.filter((v) => v.isHidden).map((v) => v.id),
+  );
+  const visibleVariants = product.variants.filter((v) => !v.isHidden);
+  const visibleImages = product.images.filter(
+    (img) => !img.variantId || !hiddenVariantIds.has(img.variantId),
+  );
+
   const connection = await prisma.shopifyConnection.findUnique({
     where: { id: connectionId },
   });
   if (!connection) {
     throw new Error(`ShopifyConnection ${connectionId} not found`);
+  }
+
+  // Auto-refresh the access token if we have credentials for the OAuth
+  // client_credentials grant. We probe with a tiny `{ shop { id } }` query;
+  // on 401 we mint a fresh token, persist it, and update the in-memory
+  // `connection.accessToken` so every subsequent helper call uses it. This
+  // is the whole point of persisting clientId + clientSecret — the user
+  // pastes them once and the uploader keeps the token alive forever without
+  // any manual intervention. `shpca_*` tokens expire every 24h so a pasted-
+  // token-only connection will eventually 401 and require a manual paste.
+  if (connection.clientId && connection.clientSecret) {
+    try {
+      await shopifyRequest<{ shop?: { id?: string } }>(
+        connection.storeDomain,
+        connection.accessToken,
+        "query { shop { id } }",
+      );
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (/Shopify HTTP 401/.test(msg)) {
+        console.warn(
+          `[uploader] 401 probing Shopify for connection ${connection.id} — refreshing token via client_credentials`,
+        );
+        const fresh = await exchangeForAccessToken(
+          connection.storeDomain,
+          connection.clientId,
+          connection.clientSecret,
+        );
+        await prisma.shopifyConnection.update({
+          where: { id: connection.id },
+          data: { accessToken: fresh },
+        });
+        connection.accessToken = fresh;
+      } else {
+        // Non-401 probe failure (network, wrong domain) — let the real
+        // upload attempt below surface the same error with full context.
+      }
+    }
   }
 
   // Create the upload record at start, status = pending
@@ -654,12 +807,12 @@ export async function uploadProductToShopify(
   try {
     const { input } = buildProductSetInput({
       product,
-      variants: product.variants,
-      images: product.images,
+      variants: visibleVariants,
+      images: visibleImages,
       options: resolvedOptions,
     });
 
-    const createResp = await shopifyRequest<ProductSetData>(
+    let createResp = await shopifyRequest<ProductSetData>(
       connection.storeDomain,
       connection.accessToken,
       PRODUCT_SET_MUTATION,
@@ -670,7 +823,42 @@ export async function uploadProductToShopify(
       throw new Error(`productSet GraphQL errors: ${formatGraphQLErrors(createResp.errors)}`);
     }
 
-    const userErrors = createResp.data?.productSet?.userErrors;
+    let userErrors = createResp.data?.productSet?.userErrors;
+
+    // HANDLE_NOT_UNIQUE retry: scraped handles are often short generic slugs
+    // ("led", "usb-led", "ins") because slugify strips Chinese title chars
+    // and the remaining ASCII fragment is brief. Three products can end up
+    // with handle="led" — first wins on Shopify, others collide. Append a
+    // deterministic per-product suffix and try once more.
+    const isHandleCollision = userErrors?.some(
+      (e) =>
+        e.code === "HANDLE_NOT_UNIQUE" ||
+        /handle.*already in use/i.test(e.message ?? ""),
+    );
+    if (isHandleCollision) {
+      const suffix = product.id.slice(-8);
+      const baseHandle =
+        (typeof input.handle === "string" && input.handle) ||
+        product.handle ||
+        "product";
+      input.handle = `${baseHandle}-${suffix}`;
+      console.warn(
+        `[uploader] handle collision on "${baseHandle}" — retrying as "${input.handle}"`,
+      );
+      createResp = await shopifyRequest<ProductSetData>(
+        connection.storeDomain,
+        connection.accessToken,
+        PRODUCT_SET_MUTATION,
+        { input, synchronous: true },
+      );
+      if (createResp.errors && createResp.errors.length > 0) {
+        throw new Error(
+          `productSet GraphQL errors (handle retry): ${formatGraphQLErrors(createResp.errors)}`,
+        );
+      }
+      userErrors = createResp.data?.productSet?.userErrors;
+    }
+
     if (userErrors && userErrors.length > 0) {
       throw new Error(`productSet userErrors: ${formatUserErrors(userErrors)}`);
     }

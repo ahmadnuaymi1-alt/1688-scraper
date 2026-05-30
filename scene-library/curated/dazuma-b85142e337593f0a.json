@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-b85142e337593f0a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b85142e337593f0a.jpg",
+  "source_url": "https://dazuma.us/products/coloured-glass-chandelier-modern-creative-vintage-ceiling-light",
+  "description": "A serene, minimally styled corner of a room — likely a living area or bedroom — photographed in a vignette composition that captures a ceiling corner and the gentle fall of floor-length sheer curtains. The walls are smooth plaster in warm greige-cream, and a white-painted crown moulding marks the wall-to-ceiling transition with a thin classical profile. The ceiling is flat white plaster. Sheer ivory linen curtain panels hang floor to ceiling in the background, diffusing soft daylight into an even, milky glow that fills the entire frame background with luminous warmth. The wall to the right is also smooth greige plaster matching the main wall. The scene is extremely sparse — only the curtain textile, plaster surfaces, and ceiling corner are visible, providing a clean, uncluttered canvas. The overall mood is hushed, serene, and almost meditative. Camera is positioned at approximately standing eye level angled slightly upward toward the ceiling corner in a vignette composition that captures the upper portion of the room — ceiling, crown moulding, the junction of two walls, and the upper sweep of the curtain. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "plaster"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "chandelier",
+      "pendant"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

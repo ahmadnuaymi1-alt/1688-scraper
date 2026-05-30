@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-d07c5f7456d384db",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-d07c5f7456d384db.jpg",
+  "source_url": "https://dazuma.us/products/modern-minimalist-outdoor-waterproof-linear-wall-light",
+  "description": "A contemporary residential exterior entry patio photographed at standing eye-level with a normal lens, using a centered symmetrical composition focused on a pair of tall black-framed full-glass double entry doors. The facade is smooth cream or warm white plaster with a horizontal scoring pattern, a clean flat-roof overhang casting the entry in shadow. Flanking the double-door entry symmetrically on both sides are slim vertical matte black rectangular wall forms with frosted white side panels emitting a warm bright glow that illuminates the surrounding plaster wall surface with a soft amber wash. Between the doors, reflections of mature green trees and a soft peach-pink sunset sky are visible in the glass. A low concrete or stone planter along the base of the right wall contains neatly trimmed boxwood hedging in bright green. To the right, a tall dark matte vertical slat fence panel creates a privacy screen. A thin warm amber strip of light runs along the base of the left planter wall, glowing at ground level. In the left foreground, a natural woven rattan lounge chair with a cushion in pale warm grey sits casually on the large-format pale stone patio. The patio is paved in oversized light warm grey stone tiles. The sky in the background above the roofline shows a pale dusk-pink tone. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "french_door"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "wall"
+  }
+}

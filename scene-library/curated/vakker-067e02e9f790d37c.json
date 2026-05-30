@@ -1,0 +1,34 @@
+{
+  "scene_id": "vakker-067e02e9f790d37c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-067e02e9f790d37c.png",
+  "source_url": "https://vakkerlight.com/products/hourglass-travertine-pendant-lamp",
+  "description": "A compact dining nook occupying a corner of a room, where two textured plaster walls meet at a right angle. The walls are finished in a hand-applied Venetian plaster or tadelakt technique, rendered in warm sand and raw umber tones with visible trowel marks and subtle variation — no two sections of the wall read the same color. The ceiling is low and plain, painted a tone that reads nearly identical to the walls, reinforcing the cave-like intimacy of the space. Natural light enters from a tall multi-pane window set into the right wall, dressed with floor-length sheer linen curtains in pale ecru with a slightly heavier linen border at the hem. The light through the window is warm and directional, suggesting late morning or early afternoon sun, casting a soft, luminous glow across the right side of the table and the adjacent bench seating. A soft pool of warm downward light washes the center of the table from above, illuminating the table setting and the fruit bowl with a contained, focused warmth that contrasts gently with the broader natural light from the window.\n\nThe dining table is a substantial round pedestal table in heavily weathered reclaimed wood, with a deeply grained, wire-brushed surface in a honey-to-amber tone. The single thick turned pedestal is sturdy and unadorned. The table is set for four with handmade ceramic plates in an off-white matte glaze, layered over larger, flatter earthenware charger plates in warm tan. Linen napkins in undyed oatmeal tones are loosely folded beneath each setting. Two woven leather strap chairs flank the near side of the table — their frames are raw pale wood and their seats and backs are formed entirely from flat strips of cognac-colored leather woven in a grid pattern, a mid-century reference executed in natural materials.\n\nA built-in banquette wraps the corner behind the table, its seat cushions covered in the same oatmeal linen as the napkins. A sheepskin throw — cream and slightly textured — is draped casually over the left bench cushion. Two large square linen throw pillows rest against the walls at each end of the banquette. At the center of the table, a low ceramic vase in a matte bronze-brown glaze holds a spare arrangement of olive branches — thin, slightly arching stems with small narrow leaves in muted grey-green. Beside the vase, a shallow wide bowl in the same off-white ceramic as the plates holds three or four ripe navel oranges, their vivid burnt orange color providing the one saturated accent in an otherwise all-neutral palette. A natural fiber jute rug is partially visible beneath the table and chairs.\n\nCamera is positioned at approximately seated eye-level, roughly three to four feet off the ground, aimed slightly upward toward the table center. The lens reads as a normal-to-slightly-wide focal length, approximately 35–40mm equivalent, capturing a three-quarter corner view that shows both plaster walls, the window, the full table, the chairs in the foreground, and the banquette seating behind. The composition is nearly centered and symmetrical on the table's vertical axis, with the window occupying the upper right quadrant and the left plaster wall filling the left half of the frame as a large negative space. The frame includes the full ceiling plane above the table.\n\nA lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

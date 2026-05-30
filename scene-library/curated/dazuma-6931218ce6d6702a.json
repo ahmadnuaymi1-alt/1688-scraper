@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-6931218ce6d6702a",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6931218ce6d6702a.jpg",
+  "source_url": "https://dazuma.us/products/3-light-linear-pendant-light-italian-creative-vertical-ceiling-light",
+  "description": "A bright, airy kitchen interior photographed at standing eye-level with a wide-to-normal lens, capturing a three-quarter corner view that encompasses the kitchen island in the foreground, the full-height cabinetry wall in the middle ground, and a large multi-pane sash window on the right wall flooding the space with natural daylight. The kitchen island countertop is finished in thick white-veined marble with a waterfall edge, and it is dressed with a tall stone-textured ceramic vase holding a delicate arrangement of white cherry blossom branches, a low sculptural white bowl, and two small amber tumblers. The back wall features full-height cabinetry in warm blonde oak with integrated recessed pulls, flanked by a dramatic floor-to-ceiling marble slab backsplash with bold grey and gold veining. A floating open shelf at mid-height holds a single dark ceramic bowl. The window is a classic multi-pane double-hung design painted white, admitting bright diffuse daylight that washes across the countertops and lightens the otherwise warm palette. The ceiling is white plaster with simple crown moulding, and the overall color palette is warm ivory, natural oak, and cool white marble with gold undertones. Two warm glowing orbs hang at different heights from ceiling-mounted brass rods, contributing soft ambient pools of light to the space. The mood is calm, editorial, and quietly luxurious. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "multi_pane_window",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

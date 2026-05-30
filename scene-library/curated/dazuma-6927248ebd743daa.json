@@ -1,0 +1,27 @@
+{
+  "scene_id": "dazuma-6927248ebd743daa",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6927248ebd743daa.jpg",
+  "source_url": "https://dazuma.us/products/pillar-light-design-outdoor-waterproof-courtyard-light",
+  "description": "An exterior residential entrance photographed at dusk, capturing the transition between deep blue twilight and the warm amber glow emanating from within the home. A substantial raw concrete gate pillar anchors the foreground, its poured surface texture catching a warm amber wash pooling down from its cap and spreading across the pale limestone pavers below. A vertical slatted black metal fence panel extends to the right of the pillar, its thin steel bars casting a rhythmic shadow pattern on the pavement. The pathway is finished in large-format light grey limestone slabs edged with a ground-level bed of white pebble gravel, which reflects the warm glow softly upward. Beyond the fence, lush plantings frame the scene — dense evergreen shrubs on the left, a sculptural round stone planter nestled in the pebble bed, and manicured dark-leafed ornamental trees flanking the home. The house facade is contemporary and rectilinear, clad in pale stucco with floor-to-ceiling glazing that reveals a warmly lit dining area inside, where a round table, chairs, and a large potted plant create a composed interior vignette. The overall mood is serene and sophisticated — a quiet residential dusk, deeply residential yet deliberately minimal. Camera is at low standing height, slightly below the top of the pillar, positioned at a three-quarter angle showing the approach path, the fence, and the illuminated house behind. The lens reads as a normal focal length capturing a mid-depth establishing frame. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-e49a375ed6ffca79",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/coloured-glass-table-lamps-french-style-three-head-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/coloured-glass-table-lamp-bedroom-ambient.jpg?v=1777107522",
+  "scraped_date": "2026-05-21T12:03:23.352Z",
+  "source_title": "Coloured Glass Table Lamps French Style Three-Head Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "e49a375ed6ffca79291cc0f85b492134d15fee27",
+  "description": "A quiet, warm bedroom corner vignette focused tightly on a nightstand and adjacent bedside area. The headboard wall behind is covered in a soft linen or textured woven fabric in warm greige — a neutral panel-upholstered backdrop. A floor-length linen sheer curtain hangs at the right edge, diffusing soft daylight from a window behind and contributing to a hazy, warm ambient glow. The nightstand itself is a compact, clean-lined solid walnut or dark brown wood piece with a single deep drawer and simple tapered legs — the wood grain is visible and warm. On top of the nightstand, a bold and playful multi-arm tree-branch brass table arrangement holds three textured art-glass globe shades in vivid contrasting colors: one deep ruby red at upper left, one amber or ochre yellow at lower center, and one forest green at right — the crinkled textured glass surface catching the warm light in a mottled, jewel-like glow. The bed at left shows warm white and natural linen bedding — a crumpled cotton duvet and a taupe linen pillow. The overall palette is quiet warm neutral — walnut, greige, cream, linen — dramatically punctuated by the three jewel-tone glass globes in red, yellow, and green. Camera is at seated eye-level, telephoto lens, off-center vignette composition tight on the nightstand surface and bed edge, looking level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "table"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.919Z"
+}

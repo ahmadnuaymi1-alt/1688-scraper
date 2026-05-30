@@ -1,0 +1,30 @@
+{
+  "scene_id": "vakker-551519cb834cc932",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-551519cb834cc932.png",
+  "source_url": "https://vakkerlight.com/products/onion-rattan-floor-lamp",
+  "description": "A sunlit boho-casual living corner photographed at seated eye-level with a normal-to-wide lens, capturing a three-quarter view of a room corner. The walls are painted a warm sand-beige tone, and sunlight streams in from a white-trimmed window at the left edge of the frame, casting long diagonal shadows across a woven natural-fiber area rug. A linen-upholstered armchair in oatmeal sits at center right, draped with a loose fringe throw blanket in warm taupe. Beside it, a small round side table in solid walnut or teak holds a simple ceramic mug. A leafy fiddle-leaf fig in a woven basket planter anchors the left foreground. On the upper right wall, a large macramé wall hanging in natural cream cord adds handcrafted texture. The overall palette is warm neutral — cream, sand, camel, and natural wood — with no strong color accents. Styling density is low, with objects spread unhurriedly. Warm afternoon light washes across the floor and lower wall from the window side, pooling gently on the rug and casting the corner in a soft honeyed glow. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

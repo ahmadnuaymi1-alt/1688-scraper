@@ -1,0 +1,31 @@
+{
+  "scene_id": "dazuma-ec16562f2dc6f0fe",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-ec16562f2dc6f0fe.jpg",
+  "source_url": "https://dazuma.us/products/statement-table-lamps-creative-pipe-modern-rotating-lamp",
+  "description": "A close-up vignette photographed at seated eye-level with a telephoto lens, tightly framing a corner where a cream-painted desktop meets a white-painted vertical tongue-and-groove shiplap wall panel. Horizontal slatted blinds in cream are visible through the window at the left, casting soft parallel shadow lines that fade into an evenly lit pale background. The desk surface is a solid matte cream or off-white — completely clear except for the single object positioned near the corner. A warm focused pool of golden light emanates downward and spreads in a soft arc across the cream desktop surface, thrown by the object sitting just off-center. The object is a compact glossy tomato-red sculptural piece with a bent tubular body and a pivoting head aimed downward, and a thin black power cord trailing to the left. The contrast of the vivid red form against the pale cream and white environment is graphic and retro in feeling. The mood is spare, playful, and design-forward — a minimalist desk vignette with a bold color pop. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "playful",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "rust"
+    ],
+    "primary_wood": "painted_white",
+    "primary_metal": "none",
+    "architectural_features": [
+      "shiplap"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "telephoto",
+    "composition": "vignette",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

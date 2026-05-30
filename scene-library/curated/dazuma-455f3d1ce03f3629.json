@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-455f3d1ce03f3629",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-455f3d1ce03f3629.jpg",
+  "source_url": "https://dazuma.us/products/copper-wall-sconce-modern-minimalist-led-corridors-light",
+  "description": "A foyer or hallway corner vignette featuring a dark console and vertical slat accent wall. The walls are a cool mid-tone grey plaster, smooth and even. On the right wall, a vertical panel of dark charcoal-stained slat wood cladding creates a dramatic accent backdrop behind the console. The console table itself is painted or lacquered in near-black with a slat-textured front panel, featuring two shallow drawers flush to the surface; it appears wall-mounted or otherwise floating. On the console surface, a round dark ceramic vase holds an elegant arrangement of bare white orchid stems with soft cream blossoms, accompanied by a small closed book and a narrow rectangular tray holding glasses or sunglasses. Below the console, a plump round ottoman in a heathered grey-silver textured upholstery sits on a slender matte-black metal frame. The floor is composed of large-format light grey and white marbled stone tiles combined with a lighter wood-look plank section visible in the lower right, suggesting a transitional zone. To the left, a tall full-height white door with a simple matte-black lever handle is partially visible, framing the scene. A warm glow emanates from the wall position to the right of the console panel, casting soft warm light across the grey plaster. The palette is anchored in cool-neutral grey tones with the dark wood and black metal providing strong contrast. Camera is at standing eye-level, level pitch, with a normal lens showing a three-quarter corner view encompassing the console, the accent wall, and the door edge. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "foyer",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_dark",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

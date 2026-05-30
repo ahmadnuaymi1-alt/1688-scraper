@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-9b707e88652462c6",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/gold-wall-light-fixtures-brass-natural-marble-luxury-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/elegant-gold-wall-light-fixture-warm-living-room_c9c580aa-5efc-4cf6-af2e-7fc0e2ddc8ef.jpg?v=1777448882",
+  "scraped_date": "2026-05-21T12:03:27.936Z",
+  "source_title": "Gold Wall Light Fixtures Brass Natural Marble Luxury Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Linear Wall Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "9b707e88652462c68c8fe0b06cd5a08c3ac738a3",
+  "description": "A warmly styled contemporary living room corner photographed at standing eye-level with an off-center composition facing the sofa back wall. The wall is painted in a warm deep taupe-greige, a rich earthy tone that reads almost as a dusty terracotta in the warm ambient light. A large abstract artwork in a thin antique brass frame hangs on the left half of the wall — the artwork itself is a muted grid composition in pale blush, peach, and sand tones, adding subtle pattern without competing with the room's warmth. A warm amber glow emanates from the wall-mounted position at center-right, spreading a soft warm wash across the taupe wall surface in both directions and illuminating the artwork from across the room. A curved cognac-rust velvet sofa fills the lower foreground — its deep warm terracotta-orange velvet upholstery is lush and deeply saturated. Two throw pillows sit on the sofa: a lumbar pillow in muted warm greige linen. In front of the sofa, a round brass tray-top coffee table holds a dark ribbed ceramic bud vase with a branching arrangement of yellow-flowering forsythia and green leafy stems. Floor boards are visible in warm light oak. To the right of the sofa back, a small dark walnut two-drawer side cabinet sits against the wall. Full-length sheer white curtains and rich chocolate brown velvet drape curtains frame a window on the right, admitting soft diffused light. A tall branching olive or berry plant is visible at the far right, its green and red-berry stems adding organic life. The mood is deeply warm, romantic, and richly textured — an autumn-evening sitting room palette. Camera is at standing height, looking level, using a normal lens in an off-center composition with the sofa and coffee table in the lower foreground and the wall and art filling the upper two-thirds. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "mustard"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "sconce",
+      "floor_lamp",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.546Z"
+}

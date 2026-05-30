@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-a8a63694428504b6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-a8a63694428504b6.jpg",
+  "source_url": "https://dazuma.us/products/round-wall-light-natural-marble-nordic-luxury-light",
+  "description": "An elegant hallway or sitting room console vignette photographed at standing eye-level with a three-quarter off-center composition, capturing a wall section dressed with applied classical panel moulding and a low credenza below. The walls are painted in a warm greige-putty tone with smooth plaster finish, and classical rectangular panel moulding in a classic profile frames each wall bay, giving the room a Parisian or Georgian architectural character. A low sideboard or credenza in rich dark walnut with a cane rattan door panel insert visible at the lower edge provides the surface. On the credenza top, two thick leather-bound hardcover books are stacked flat, and beside them a tall rough-textured stone or concrete-aggregate vase in cream-buff holds a lush arrangement of white calla lily flowers with prominent curved spathe petals and deep green stems, overflowing with elegant drama. The floor is implied as dark hardwood or stone below the lower frame edge. The wall-mounted position emits a warm glowing orb of light that permeates through a translucent disc surface, diffusing an even warm amber-gold wash across the panel moulding and plaster wall around it, creating a soft circular halo on the architecture. The palette is warm grey-putty plaster, dark walnut, cream, and ivory white blooms. Mood is quiet, refined, and romantically Parisian. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "hallway",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "pierre_parisian",
+    "product_category_fit": [
+      "sconce",
+      "table_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "telephoto",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

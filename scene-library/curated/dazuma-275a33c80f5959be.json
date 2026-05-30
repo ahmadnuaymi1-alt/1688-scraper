@@ -1,0 +1,32 @@
+{
+  "scene_id": "dazuma-275a33c80f5959be",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-275a33c80f5959be.jpg",
+  "source_url": "https://dazuma.us/products/gold-bedside-table-lamp-european-crystal-luxury-lamp",
+  "description": "A bedroom nightstand vignette photographed at seated eye-level with a normal lens, composed off-center with the nightstand surface in the left two-thirds of the frame and the edge of an upholstered headboard visible at the right. The background wall is clad in deep chocolate-brown vertical fluted or ribbed panels, creating a rich, linear texture that absorbs light and anchors the scene in a moody, formal quality. The nightstand is a compact dark-toned piece with a polished black marble base element visible beneath the surface fixture. On the nightstand a small stack of magazines or books lies at the far left, alongside a gold-toned wall outlet detail. The headboard at right is a warm taupe-grey heavily textured linen or fabric upholstery, tufted or padded. A soft warm golden glow radiates outward from the table surface, illuminating the dark wood-paneled wall immediately behind with a warm wash and casting a gentle pool of light across the nightstand surface at that low level. The overall palette is deep brown, charcoal, warm gold, and taupe — a rich, romantic, low-key bedroom atmosphere. The mood is romantic and dramatic with a formal hotel-like quality. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "romantic",
+    "density": "low",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "painted_dark",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "paneled_walls"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

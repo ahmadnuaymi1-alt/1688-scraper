@@ -1,0 +1,35 @@
+{
+  "scene_id": "dazuma-49ae650f1c992d15",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-49ae650f1c992d15.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-hanging-ceiling-light-fixtures-american-style-light",
+  "description": "A classic American Colonial-style home exterior photographed at standing eye-level with a normal lens in a centered symmetrical composition that places the front entry portico squarely in the middle of the frame. The architecture is clad in crisp white horizontal lap siding with bold forest green painted shutters flanking every window. A grand entry portico features a sweeping round arch supported by square white pilasters, with a warm cedar or mahogany-toned tongue-and-groove ceiling lining the interior of the arch. The front door is white with sidelights and a transom window above, allowing soft light to filter through sheer curtains inside. Broad brick steps in a warm red-brown herringbone pattern lead up from a herringbone brick pathway to the entry landing. Wrought iron railings with simple scroll details flank both sides of the staircase in matte black. Flanking the entry, a pair of neatly trimmed upright arborvitae evergreen trees anchor the composition, while ornamental grasses and low shrubs fill the foreground beds. The color palette is crisp and traditional: white, deep forest green, warm brick red, and touches of black metal. Diffuse overcast daylight illuminates the scene evenly, eliminating harsh shadows and giving the facade a clean, formal quality. A soft warm glow filters through the transom window from within, suggesting an interior presence. The mood is formal, welcoming, and classically restrained — quintessential New England in character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "formal",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "forest_green",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "arched_doorway",
+      "multi_pane_window",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "pendant",
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

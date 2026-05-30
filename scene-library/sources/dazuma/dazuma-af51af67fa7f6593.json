@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-af51af67fa7f6593",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/portable-table-lamps-mid-century-style-usb-charger-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-outdoor-wall-lighting-portable-table-lamp-nightstand-bedroom-curtains.jpg?v=1765522507",
+  "scraped_date": "2026-05-21T15:51:57.500Z",
+  "source_title": "Portable Table Lamps Mid-Century Style USB Charger Lamp",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "af51af67fa7f659379d1bcf808f259055587f1cb",
+  "description": "A relaxed, casual living room floor vignette photographed at very low eye-level, roughly 1–2 feet high, with a normal lens looking nearly level along the floor. The setting suggests a floor seating or reading nook. Full-length gauzy linen curtains in natural undyed ecru hang floor-to-ceiling, pooling slightly on the floor and diffusing soft natural daylight behind them. The floor is light blonde natural oak hardwood planks. A casual stack of five or six hardcover art and design books in various spine colors — white, mustard, burgundy, gray — is piled on the floor beside the curtain, with an additional open coffee-table book in neutral tones resting to the right. At lower left, a large dusty mauve/rose linen floor cushion or oversized pillow is partially visible. A deep navy blue flat woven area rug extends across the foreground floor. The warm glow from a source resting on the book stack pools softly on the stack surface and the curtain and wall behind, creating a gentle warm halo in an otherwise soft and airy scene. Camera is at low eye-level looking level, in an off-center composition. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "dusty_blue",
+      "terracotta"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "allied_minimalist",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "low",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.684Z"
+}

@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-7b947d4cd0596920",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/led-modern-chandelier-irregular-industrial-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/led-modern-chandelier-linear-office-lighting-minimalist-design.jpg?v=1770459072",
+  "scraped_date": "2026-05-21T12:19:48.522Z",
+  "source_title": "LED Modern Chandelier Irregular Industrial Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Modern Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "7b947d4cd0596920f3a38c80d71378557ded6d5c",
+  "description": "A dynamic contemporary open-plan office interior featuring a dramatic ceiling installation. The ceiling plane is matte black with exposed services and is fitted with a large sculptural array of organic circular void forms in gloss black that reveal glowing white light panels between them, creating a striking biomorphic pattern of illumination across the entire ceiling. The foreground is an informal collaboration lounge zone: a curved modular grey-white upholstered sofa in a crescent arc faces two low round coffee tables — one matte black, one white — set on a bold geometric modular carpet in rust, charcoal, beige, and grey tones. Two round oversized cognac-brown velvet lounge chairs are positioned to the left of the sofa grouping. A large leafy tropical plant in a white pot stands to the right beside a structural concrete column. Through glass curtain wall windows at the rear, an open-plan workstation area with white benching desks and black task chairs is visible, with an urban treetop and sky view beyond. The overall atmosphere is energetic, creative, and boldly branded. Bright even light floods down from the sculptural ceiling, complemented by natural light from the full-height windows. Camera at standing eye-level, off-center thirds wide establishing composition angling toward the lounge area, wide lens, level pitch. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "playful",
+    "density": "mid",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "terracotta",
+      "cognac"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "ambiguous",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.427Z"
+}

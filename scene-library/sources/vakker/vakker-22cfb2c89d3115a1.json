@@ -1,0 +1,39 @@
+{
+  "image_id": "vakker-22cfb2c89d3115a1",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/petralis-alabaster-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Petralis_Alabaster_Table_Lamp75.png?v=1778092508",
+  "scraped_date": "2026-05-21T15:53:20.164Z",
+  "source_title": "Petralis Alabaster Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "22cfb2c89d3115a124d470923028288001171533",
+  "description": "A minimalist living room corner photographed at seated-to-standing eye-level with a normal lens, showing a three-quarter view of two walls. The walls are finished in a warm greige plaster tone with subtle texture. A tall window to the right is dressed with floor-length sheer linen curtains that diffuse soft natural daylight, casting a gentle haze across the scene. The floor is covered by a low-pile sisal or natural jute area rug. A boxy, low-profile armchair in warm oatmeal boucle sits at the left edge of the frame, draped with a loosely folded chunky knit throw. Beside it sits a solid light oak side table with clean slab-like construction and a simple rectangular form. On its surface rests a stack of two hardcover books, a small pampas grass arrangement in a slim ceramic vessel, a matte ceramic mug, and a small round decorative object. A large-format framed art print in black and white — depicting an abstract organic curving form — hangs on the wall directly behind the table. A focused directed glow from the desk-height source falls precisely onto the table surface, highlighting the books and objects with a warm pool of light at table level, without extending upward. The overall palette is earth tones in sandy beige, warm plaster, natural linen, and light honey oak, punctuated by matte black accents. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.047Z"
+}

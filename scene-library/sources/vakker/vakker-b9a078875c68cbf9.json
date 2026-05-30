@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-b9a078875c68cbf9",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/colonnade-stone-table-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Colonnade_Travertine_Table_Lamp19.png?v=1777530849",
+  "scraped_date": "2026-05-21T15:53:43.836Z",
+  "source_title": "Colonnade Travertine Table Lamp",
+  "source_product_type": "Table lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "b9a078875c68cbf945d473749a57f1b7da187f4a",
+  "description": "A living room corner photographed at standing eye-level with a normal lens, framing a three-quarter corner view of the seating area and media console. The walls are a smooth warm cream plaster in a soft sand tone. On the left wall, a large abstract painting in warm sandy brown and cream tones hangs at mid-height. The floor is a flat-weave jute rug over pale oak planks. A rustic reclaimed-wood media console or low shelf with open and enclosed storage sits at left; it holds stacked books, a decorative object, and a tall round vase with branching dried botanicals. A plush cream boucle or textured linen lounge armchair with wide arms is just visible at the far left edge. In the center-left, a tall floor-standing element on a dark base stands upright; a diffuse warm golden glow emanates from its upper portion at standing height, spreading softly onto the cream wall and the surface below. A small potted leafy plant and a large potted olive tree in a neutral planter add living greenery at the right side. A small wooden stool or bench in natural oak sits in the mid-right. The mood is warm, casually curated, and inviting. Color palette is warm neutral throughout. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "floor_lamp",
+      "chandelier",
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.198Z"
+}

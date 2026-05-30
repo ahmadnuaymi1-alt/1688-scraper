@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-e8a0e50d18127ab1",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-e8a0e50d18127ab1.jpg",
+  "source_url": "https://dazuma.us/products/contemporary-wall-sconce-lighting-simple-background-lamp",
+  "description": "A contemporary Asian-influenced master bedroom photographed at standing eye-level with a normal lens in a three-quarter corner view, showing the headboard wall and left side of the room in one frame. The entire back wall behind the bed is clad in rich dark espresso walnut wood veneer panels with thin vertical reveals, creating a deeply textured, enveloping backdrop. A low dark-walnut media console with clean horizontal lines sits in front of the paneled wall to the left of the bed. At the far left, a dark walnut open-shelf bookcase holds a curated arrangement: a small white ceramic vase, a stack of books, a dried botanical arrangement in a natural vessel, and a small framed artwork. The herringbone patterned wood floor in dark walnut adds graphic texture at the lower edges. A grey geometric area rug with angular line patterns grounds the bed zone. The bed itself features a tall channeled headboard upholstered in soft mid-grey fabric with vertical fluted stitching, dressed with crisp white bedding, a white duvet, and white and charcoal-grey pillows. At the foot of the bed, a square ottoman or bench covered in a white grid-tile-patterned fabric or mosaic introduces an unexpected graphic element. Warm amber light glows softly on the paneled wall surface above the headboard, spreading a gentle pool of warmth against the dark wood grain. The palette is dark espresso walnut, warm grey, crisp white, and soft amber. The mood is dramatic and quiet, with a restrained Sino-contemporary character. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "paneled_walls",
+      "herringbone_floor"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce",
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  }
+}

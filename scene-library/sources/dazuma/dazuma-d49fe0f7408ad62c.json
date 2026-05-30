@@ -1,0 +1,40 @@
+{
+  "image_id": "dazuma-d49fe0f7408ad62c",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/white-pendant-lighting-japanese-vintage-creative-silk-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_3_3da0cbd2-fd6e-4bb7-b448-25683dc045f2.jpg?v=1774595787",
+  "scraped_date": "2026-05-21T12:04:12.589Z",
+  "source_title": "White Pendant Lighting Japanese Vintage Creative Silk Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Pendant Lighting > Medium & Large Pendants",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "d49fe0f7408ad62c39b05d82eed0fc241f2aff1b",
+  "description": "A sun-drenched breakfast nook sits at the corner of a California-casual dining room finished in smooth warm plaster walls in an off-white greige tone. A large black-framed multi-pane picture window dominates the back wall, framing lush tropical greenery — broad banana leaves and tall palms — in vivid green beyond the glass. Soft, diffused daylight pours in from the window and a secondary window partially visible to the left with a linen roman shade, flooding the room with even natural warmth. A round pedestal dining table in whitewashed light oak sits centered beneath the ceiling, its circular form echoed by a cream upholstered built-in corner banquette with a single linen square throw pillow tucked into the left. On the table, a rough-textured terracotta-toned ceramic urn vase holds a loose arrangement of white wildflower daisies and airy stems. The floor and lower walls are crisp, the ceiling is white plaster. To the right, a partial glimpse of warm walnut cabinetry suggests an adjacent kitchen space. The overall palette is warm neutral — bleached wood, linen, off-white plaster — accented by the vivid green of the garden beyond. The camera is positioned at standing eye-level in a centered, slightly wide composition framing the full nook corner including both walls, the window, and the table below, looking slightly downward into the scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "dining_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "light_oak",
+    "primary_metal": "none",
+    "architectural_features": [
+      "multi_pane_window",
+      "plaster"
+    ],
+    "aesthetic_flavor": "amber_california",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.864Z"
+}

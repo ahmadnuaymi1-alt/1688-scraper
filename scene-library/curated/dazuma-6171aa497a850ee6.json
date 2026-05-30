@@ -1,0 +1,30 @@
+{
+  "scene_id": "dazuma-6171aa497a850ee6",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-6171aa497a850ee6.jpg",
+  "source_url": "https://dazuma.us/products/light-up-wooden-christmas-houses-snow-scene-decorative-lamp",
+  "description": "A tabletop holiday vignette photographed at near eye-level with a normal lens, showing a decorative winter scene displayed on a surface dusted with artificial snow or white fiberfill to simulate a snowy ground. The central decorative object is a textured resin or papier-mâché miniature cottage with a steeply pitched roof, arched doorway, and multiple small windows — the structure dusted with white flocking to simulate snowfall. Pine cone and greenery sprigs cluster at the roof peak and beside the front entry. A small pine cone rests on the snow surface in the foreground. At the right edge of the frame, a small ceramic Santa figurine sits on a white bench, dressed in traditional red. The left side of the frame shows snow-flocked evergreen branches in soft focus. Behind the cottage, warm out-of-focus bokeh circles of golden light suggest a Christmas tree strung with lights in the far background. The surface emanates warm amber light through the cottage windows, and the overall scene glows with golden warmth against the pale snowy setting. The mood is festive, warm, and nostalgic. The background wall is pale warm grey plaster. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "other",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "rust",
+      "forest_green"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "centered_symmetrical",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

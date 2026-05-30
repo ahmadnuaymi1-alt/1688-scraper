@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-d1779f8e77bd2a8c",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-d1779f8e77bd2a8c.png",
+  "source_url": "https://vakkerlight.com/products/alabaster-cube-table-lamp",
+  "description": "A home office or sitting room corner photographed at standing eye-level with a normal lens, showing a three-quarter view of the space. A solid walnut writing desk with tapered legs and a single drawer occupies the foreground, its surface holding a glowing cube-form object, a book open face-down, and a small dark ceramic vase. Above the desk, a floating shelf displays a curated row of sculptural wooden figures and framed black-and-white artwork. The wall behind is finished in warm mid-tone gray plaster with a slightly rough texture. A dark green velvet sofa is partially visible on the right, with a casually draped throw. A large leafy fiddle-leaf or tropical plant in the far right reaches upward against a tall window, admitting soft diffuse daylight. The floor is covered in a richly patterned Persian-style rug in deep burgundy and ochre. A warm amber glow emanates at desk level, pooling light across the wooden surface and warming the base of the wall. The color palette is dark and earthy — charcoal, walnut brown, forest green, ivory, warm gray plaster. The mood is scholarly and moody. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "home_office",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "forest_green",
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "scene_id": "dazuma-59bde9078f8a2201",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-59bde9078f8a2201.jpg",
+  "source_url": "https://dazuma.us/products/brass-pendant-lighting-nordic-industrial-small-ceiling-light",
+  "description": "A bright, classically composed transitional kitchen with a warm layered character. The cabinetry is painted a soft warm white-cream in Shaker inset profile, with some upper glass-fronted doors displaying stacked white ribbed dishware inside. The backsplash is thick book-matched white marble with soft gold veining, and the perimeter countertop matches. A large multi-pane double-hung window on the left wall floods the space with natural daylight. The herringbone-patterned hardwood floor in a warm honey-oak tone adds rich geometry underfoot. The kitchen island is clad in warm medium walnut wood paneling with a white marble top, seating three cushioned barstools with a barrel-back form in warm taupe fabric and natural wood legs. The island holds a round plate of mixed fresh fruit, a round cream ceramic vase with autumnal orange berry branches, and a small framed artwork leaned against the backsplash. Beside the sink, a small brass faucet and a bowl add styling. On the left near the window, a large fiddle-leaf fig in a white pot provides a lush vertical green element. A traditional Persian-style area rug in warm red, orange, and blue is positioned under and around the island. Brass cabinet hardware and a brass faucet carry the warm metal accent throughout. Warm golden glow washes down over the island in two overlapping pools from overhead. Camera is at standing eye-level, three-quarter view from slightly right of center, capturing the island, window wall, and full cabinetry. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "kitchen",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "ochre",
+      "rust"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "herringbone_floor",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "pendant",
+      "chandelier"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  }
+}

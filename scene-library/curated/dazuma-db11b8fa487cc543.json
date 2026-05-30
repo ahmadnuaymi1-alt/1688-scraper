@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-db11b8fa487cc543",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-db11b8fa487cc543.jpg",
+  "source_url": "https://dazuma.us/products/swing-arm-desk-lamps-italian-style-metal-long-mechanical-lamp",
+  "description": "A casual contemporary living room corner with a modern round two-tier end table. The table has a dark walnut laminate top surface and lower shelf, supported by matte black metal legs. On the tabletop, a small potted green plant in a round white ceramic pot provides a natural accent. The lower shelf holds a generous stack of assorted magazines. To the right, a cream textured bouclé sofa with a dark charcoal gray velvet throw pillow is partially visible, confirming a living room context. The background wall is smooth light gray concrete or polished plaster, extending through a corner where two walls meet. The dark wood floor peeks at the base. The mood is casual, modern, and practical — an everyday living space with minimal styling and industrial-influenced furniture. A focused warm directional glow at tabletop height illuminates the surface from above, casting a warm pool onto the dark wood table top and the plant below. Camera at standing eye-level, off-center right composition, normal lens, three-quarter corner view showing both walls and the full table with sofa arm. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "casual",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "nickel",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "image_id": "dazuma-33601d15073982f8",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/modern-brass-chandelier-minimalist-candle-ceiling-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/modern-brass-chandelier-bedroom-lighting.jpg?v=1778566182",
+  "scraped_date": "2026-05-21T12:02:46.737Z",
+  "source_title": "Modern Brass Chandelier Minimalist Candle Ceiling Light",
+  "source_product_type": "Lighting > Ceiling Lights > Chandeliers > Candle Chandeliers",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "33601d15073982f8cfec1afce119b79885335bc7",
+  "description": "A primary bedroom photographed from standing eye-level in a wide establishing slightly off-center composition capturing the bed, window, and surrounding architecture. The walls are painted in crisp bright white with classical applied rectangular moulding panels creating a Parisian or transitional aesthetic. A tall crown moulding borders the ceiling. A large black steel multi-pane casement window with divided lights floods the room with abundant natural daylight. Cream floor-length drape panels bracket the window. A large primary bed with a wide winged upholstered headboard in linen or cream fabric is dressed in white bedding layered with a caramel brown velvet throw, a striped red and cream bolster pillow, and warm brown scatter cushions. On either side sit light natural oak nightstands with flush drawers. At the foot of the bed, a low bench upholstered in rich tobacco caramel velvet with a sculptural rounded roll arm detail in a curved modern form acts as a striking warm color accent. To the left, a large-scale abstract painting in pale cream tones with charcoal and ochre geometric forms hangs within the moulding panels. The floor is light bleached oak plank with a cream area rug visible at the foot of the bed. The ambient light is bright, airy, and even with no dramatic shadow. The mood is refined, serene, and transitionally elegant. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "oxblood"
+    ],
+    "primary_wood": "light_oak",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "applied_moulding",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "mcgee_color",
+    "product_category_fit": [
+      "chandelier",
+      "pendant",
+      "table_lamp",
+      "sconce"
+    ],
+    "camera_height": "standing",
+    "lens_character": "wide",
+    "composition": "wide_establishing",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "ceiling"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.152Z"
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-34030bce56e7c2ca",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-34030bce56e7c2ca.jpg",
+  "source_url": "https://dazuma.us/products/led-light-bollard-outdoor-waterproof-landscape-decorative-light",
+  "description": "An outdoor terrace lounge area photographed at golden hour from standing eye-level in an off-center thirds composition, capturing the seating area with a sweeping rural landscape behind. The decking is wide-plank weathered grey natural wood boards. A low-profile modular outdoor sofa with a thin matte black powder-coated steel frame and cream oatmeal-upholstered cushions runs along the right side of the frame. The cushions hold a striped red and burgundy rectangular pillow and a floral embroidered cushion in dusty rose and cream. An open magazine lies flat on the end of the sofa. To the left of the sofa, multiple terracotta clay garden pots of varying heights are clustered together holding lavender and trailing herbs with silvery-grey foliage. Soft warm amber light radiates from a floor-standing form positioned beside the plant cluster, casting a gentle pool of golden glow across the deck surface. A solid roof structure with exposed dark walnut timber beams and decking is partially visible at the top of the frame, creating a covered pergola-style edge. Beyond the terrace railing, tall wild grasses sway in a naturalistic meadow garden, backed by mature dark evergreen cypress trees. Further in the distance, a terracotta-tiled farmhouse roofline is visible, and the sky glows in warm pinks and golds of sunset. The mood is deeply romantic, pastoral, and warmly golden. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "romantic",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "terracotta",
+      "oxblood"
+    ],
+    "primary_wood": "mixed",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "exposed_beams"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor",
+      "floor_lamp"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

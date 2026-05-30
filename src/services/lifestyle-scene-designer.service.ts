@@ -1,431 +1,541 @@
 /**
- * Lifestyle Scene Designer.
+ * Lifestyle Scene Designer — library-matching version.
  *
- * Given a product (title, type) and a list of variant reference rows (one per
- * output slot), asks Claude to design 6 unique lifestyle scene prompts in the
- * Dazuma aesthetic. Each prompt:
+ * Phase 4 of the scene-library refactor. Instead of asking an LLM to invent
+ * six lifestyle scenes per run, this matches the product to six real,
+ * pre-described scenes drawn from the curated scene library
+ * (`scene-library/curated/`). There is NO LLM call and NO per-run API cost.
  *
- *   - Is self-contained (no shared master prompt — each prompt is full)
- *   - Picks a distinct room/scene context from Dazuma's room palette
- *   - Targets a specific reference variant by position
- *   - Respects the Dazuma exclusion list (no humans/pets/wallpaper/etc)
+ * Two prompt sources:
+ *   • Claude-authored override — if `scene-overrides/<productId>.json` exists,
+ *     its six hand-designed prompts are used verbatim (see `loadOverride`).
+ *   • Curated-library match — the fallback used whenever no override is present
+ *     or the override file is malformed.
  *
- * V1 keeps the system prompt inlined here so the entire scene-design step is
- * a single constant + a single function. Future iterations can swap the
- * system prompt out without touching the consumer (the lifestyle script).
+ * The exported `SceneDesignerInput` / `SceneDesignerResult` shapes and the
+ * `designLifestyleScenes()` signature are stable; `SceneDesignerInput.productId`
+ * was added (optional) so the override file can be located.
+ *
+ * How a scene is matched to a product:
+ *   1. Classify the product (per variant) into a lighting category from its
+ *      title text — keyword-based, no LLM.
+ *   2. Filter the library to scenes whose `product_category_fit` includes that
+ *      category (a hard requirement).
+ *   3. Greedily pick six scenes that are maximally varied — distinct room
+ *      types, compositions and aesthetic flavors, a low/mid density mix — with
+ *      soft nudges away from finish/aesthetic clashes.
  */
-import { z } from "zod";
-import { claudeJSON } from "@/lib/ai/claude-client";
+import { readdirSync, readFileSync, existsSync } from "node:fs";
+import path from "node:path";
 
-const MODEL = "claude-sonnet-4-6";
+// ── Public contract (unchanged — keep in lockstep with the consumer) ────
 
-const SceneSchema = z.object({
-  slug: z.string(),
-  mode: z.enum(["minimalist", "homey"]),
-  prompt: z.string(),
-  variantPosition: z.number().int().nonnegative(),
-});
-
-const CategorySchema = z.enum([
-  "table-lamp",
-  "floor-lamp",
-  "wall-sconce",
-  "chandelier",
-  "pendant",
-  "flush-mount",
-  "outdoor",
-]);
-
-const ResponseSchema = z.object({
-  category: CategorySchema,
-  scenes: z.array(SceneSchema),
-});
-
-export type LightingCategory = z.infer<typeof CategorySchema>;
+export type LightingCategory =
+  | "table-lamp"
+  | "floor-lamp"
+  | "wall-sconce"
+  | "chandelier"
+  | "pendant"
+  | "flush-mount"
+  | "outdoor";
 
 export interface DesignedScene {
   slug: string;
-  /** "minimalist" = gallery-presented, tight framing, low density. "homey" = lived-in,
-   *  layered, mid-density, accent-from-product-echo. A 6-batch is 3 minimalist + 3 homey. */
+  /** Back-compat field; the consumer does not read it. Derived from scene
+   *  density: low → "minimalist", mid → "homey". */
   mode: "minimalist" | "homey";
   prompt: string;
   variantPosition: number;
 }
 
 export interface SceneDesignerInput {
+  /** When set, a Claude-authored override at `scene-overrides/<productId>.json`
+   *  is used instead of the curated-library match. Falls back to the library
+   *  when the file is absent or malformed. */
+  productId?: string;
   productTitle: string;
   productType: string | null;
-  /** Unit count for the staging — 1 for single-unit, N for multi-unit (same variant repeated N times). */
+  /** Unit count for the staging — 1 for single-unit, N for multi-unit. */
   unitCount: number;
-  /** If true, VARY the unit count (2-4) across the 6 scenes instead of a fixed unitCount. */
+  /** If true, vary the unit count (2-4) across the scenes. */
   unitCountVaried?: boolean;
-  /** One row per output slot. Length is typically 6. Each row identifies
-   *  which variant should be the reference for that scene. */
+  /** One row per output slot (typically 6). */
   references: Array<{
-    /** Position used by the wrapper to match the prompt back to a reference image. */
     slotIndex: number;
-    /** Variant.position (DB-stable identifier for that variant). */
     variantPosition: number;
-    /** Human-readable label for the variant — used in the prompt to help
-     *  Claude pick a fitting scene. */
     variantTitle: string;
+    /** Per-slot override of `input.unitCount`. When set, this slot uses the
+     *  slot value instead of the top-level uniform value. Lets the caller
+     *  mix single-unit + multi-unit scenes within one batch. */
+    unitCount?: number;
   }>;
-  /** Deprecated — size-anchor support was removed because it confused the
-   *  image model when variants had different form factors. Always pass false.
-   *  Kept on the type for back-compat with the script's call site. */
+  /** Deprecated; retained for the script's call site. */
   hasSizeReference: boolean;
 }
-
-/**
- * The lifestyle scene bible. Distilled from a 51-product Dazuma audit + an
- * 8-brand comparative audit (Visual Comfort, Studio McGee, Amber Interiors,
- * Schoolhouse Electric, Pierre Yovanovitch, deVOL, Pottery Barn, Allied
- * Maker / Cedar & Moss) — see /multi-brand-aesthetic-guide.md.
- *
- * The model reasons through four steps internally before designing scenes:
- *   1. Classify the product into a lighting category (placement-determining)
- *   2. Write a short aesthetic profile (era, materials, mood, cultural ref)
- *   3. Mark each secondary brand influence COMPATIBLE or INCOMPATIBLE
- *   4. Design 6 scenes, each using ONE compatible influence, each with a
- *      distinct camera angle from the angle vocabulary
- *
- * Dazuma stays the baseline aesthetic. The other influences pull the look
- * in different directions ONLY when they're compatible with the product's
- * profile. The model never flattens influences into mush — each scene
- * commits to one pole.
- */
-const LIFESTYLE_SCENE_SYSTEM_PROMPT = `You are the in-house lifestyle scene art director for a luxury lighting catalog whose baseline aesthetic is Dazuma (warm cream walls + brass + light oak, vaulted/coffered ceilings, vacant-but-styled rooms photographed in slightly-warm daylight, 2700K fixture glow as the only artificial light, zero human/pet/kid trace). You write text-to-image prompts for Higgsfield's Nano Banana Pro, one per output slot.
-
-Before designing scenes, REASON INTERNALLY through these four steps. Do not include the reasoning in the JSON output — only the final scenes.
-
-═══════════════════════════════════════════════════
-STEP 1 — CLASSIFY THE PRODUCT (lighting category) — PER VARIANT
-═══════════════════════════════════════════════════
-
-A single product listing can contain MULTIPLE form factors as variants (e.g. variant 1 is a table-lamp version, variant 2 is a tall floor-lamp version of the "same" design). The product-level title alone is NOT enough. You MUST classify EACH slot's variant SEPARATELY using BOTH the product title AND that slot's variantTitle.
-
-The variantTitle is provided per slot in the user prompt's "Reference assignments" section. Title hints to check IN BOTH the product title AND the variantTitle:
-
-- "table-lamp"   — sits on a SURFACE. Title hints: 台灯, "table lamp", "bedside lamp", "desk lamp", "accent lamp". Surface ~24-30" off floor.
-- "floor-lamp"   — stands on the FLOOR next to a sofa / chair / bed corner. Title hints: 落地灯, "floor lamp", "standing lamp", "torchiere".
-- "wall-sconce"  — mounted on a WALL beside bed / mirror / accent furniture. Title hints: 壁灯, "wall sconce", "wall light", "vanity light".
-- "chandelier"   — large ceiling fixture HUNG FROM CEILING, multi-arm. Title hints: 吊灯 + multi-arm, "chandelier".
-- "pendant"      — single hanging fixture from ceiling. Title hints: 吊灯 + single, "pendant".
-- "flush-mount"  — FLUSH AGAINST CEILING, no drop. Title hints: 吸顶灯, "flush mount", "semi-flush", "ceiling light".
-- "outdoor"      — exterior wall lantern, path light, garden lamp. Title hints: 户外, "outdoor", "wall lantern", "path light".
-
-APPROPRIATE ROOMS per category (do NOT place a fixture in an inappropriate room):
-- table-lamp:   nightstand, living-room side table, console, desk, library credenza, sideboard, dresser. NOT bathroom, NOT kitchen counter, NOT floor.
-- floor-lamp:   beside sofa, beside upholstered chair, bedroom corner, beside console, sunlit window corner, reading nook. NOT bathroom, NOT dining table, NOT kitchen.
-- wall-sconce:  bedside, beside accent furniture, beside bathroom mirror, hallway pair, beside fireplace. NOT freestanding.
-- chandelier:   over dining table, vaulted living room, large foyer, over bedroom seating area. NOT small bathrooms, NOT kitchens.
-- pendant:      over kitchen island, over dining table, over breakfast nook, over bedroom nightstand (single). NOT bathrooms (unless vanity-specific).
-- flush-mount:  bedroom ceiling, hallway, kitchen, bathroom, laundry, mudroom, small home office.
-- outdoor:      front entry walkway, driveway, pool deck, garden path, exterior wall. NEVER indoor.
-
-═══════════════════════════════════════════════════
-STEP 2 — WRITE THE PRODUCT'S AESTHETIC PROFILE
-═══════════════════════════════════════════════════
-
-Reason through (do NOT output these — internal only):
-- Style era: modern / mid-century / transitional / traditional / vintage / industrial / Japandi / coastal / postmodern / cottagecore / Memphis / Art Deco
-- Material vocabulary: paper / brass / glass / wood / iron / ceramic / linen / marble / rattan
-- Color temperature: warm / cool / neutral
-- Saturation level inherent to the product: pastel / neutral / muted / saturated
-- Formality: casual / casual-elegant / formal / opulent
-- Mood: quiet / serene / playful / dramatic / scholarly / romantic / industrial
-- Scale: accent / mid / statement
-- Cultural reference: Japanese / Scandinavian / English-country / French / American-transitional / Mediterranean / postmodern-Italian / mid-century-American
-
-═══════════════════════════════════════════════════
-STEP 3 — DETERMINE COMPATIBLE BRAND INFLUENCES
-═══════════════════════════════════════════════════
-
-Mark each of the 9 secondary influences as COMPATIBLE or INCOMPATIBLE with the product's profile from Step 2. NEVER use an INCOMPATIBLE influence — it produces visually wrong scenes (e.g. a serene Japanese paper lantern in a charcoal-walnut McGee library; a whimsical postmodern lamp in a Cedar&Moss minimalist gallery).
-
-THE BRAND ARCHETYPE MENU:
-
-(A) "dazuma-vaulted" — BASELINE. Cream walls, light-oak plank, white-shiplap vault OR coffered ceiling, unlacquered brass, one olive tree in concrete planter, single cobalt vase of olive branches, single abstract Hodgkin-toned painting, mid-morning warm daylight, eye-level. ALWAYS COMPATIBLE — use this for ~1-2 of the 6 scenes.
-
-(B) "visual-comfort-moody" — Editorial saturated wall. Deep mossy-olive / ink-navy panelled wall, walnut floor, real lit fireplace OR caramel velvet, faded antique Persian, one antique landscape oil. COMPATIBLE with: transitional, traditional, formal-elegant, mid-mood products. INCOMPATIBLE with: airy minimalist, serene-Japanese, postmodern-whimsical.
-
-(C) "mcgee-moody-library" — Charcoal walls + dark-walnut coffered ceiling + applied panel moulding + faded oushak. Oxblood leather, forest green accent. COMPATIBLE with: traditional, masculine, scholarly, mid-century-American. INCOMPATIBLE with: Japanese, Scandinavian, airy-minimalist, coastal.
-
-(D) "amber-warm-cali" — Warm-white limewashed plaster with visible hand texture, raw white-oak, tarnished unlacquered brass, Calacatta Viola marble, zellige tile, faded Berber rug, handmade ceramic vessel with dried wheat. COMPATIBLE with: organic, earthen, Mediterranean, Japandi, casual-elegant. INCOMPATIBLE with: formal opulent, postmodern-graphic, jewel-tone.
-
-(E) "schoolhouse-craft" — Small 1930s-period home. Bright eggshell white walls with one chromatic feature wall (petrol-teal / sage / dusty-rose). Honey-oak plank floor, black-iron-frame furniture, plaster ceiling medallion, navy-and-cream patchwork quilt, single primary accent (tomato red / ochre yellow / Yale blue). COMPATIBLE with: mid-century, craft, casual-domestic, Americana, vintage. INCOMPATIBLE with: Japanese, French-formal, opulent-luxury.
-
-(F) "pierre-saturated-plaster" — Full pigmented plaster walls AND ceiling continuous (no crown shadow). Terracotta-rust / dusty-rose / clay-ochre / slate-blue. Terracotta herringbone tile floor. Single American-walnut bench, single landscape oil or abstract (NEVER a portrait of a person). Dead-symmetrical, minimum styling. COMPATIBLE with: sculptural, mid-century, postmodern, formal-quiet. SELECTIVE — pick muted earth-pigments (clay, ochre, dusty rose) for serene products; saturated pigments (terracotta, oxblood) for bolder products.
-
-(G) "devol-english-country" — Cream hand-painted shaker cabinetry, brass cup pulls, exposed cream-painted A-frame truss OR vaulted timber ceiling, terracotta herringbone OR reclaimed pine plank floor, copper accents, antique faded Persian runner, collected stoneware on open shelving, dusty-pink OR sage-green accents. COMPATIBLE with: cottagecore, traditional, English-country, casual-elegant, kitchens specifically. INCOMPATIBLE with: minimalist, Japanese, postmodern-graphic.
-
-(H) "cedar-moss-gallery" — Bone-white plaster wall + raw white-oak plank floor + single framed landscape photograph OR abstract in thin oak frame + minimum styling. Cool-leaning PNW daylight contrasted with warm 2700K fixture glow. COMPATIBLE with: minimalist, Japanese, Scandinavian, mid-century, sculptural. INCOMPATIBLE with: maximalist, ornate, English-country, postmodern-whimsical.
-
-(I) "pottery-barn-lived-in" — Warm cream plaster walls, reclaimed-walnut wide-plank floor, simple white crown moulding, cream linen runner, single terracotta-glazed bowl with fruit, folded cream wool throw, faded Persian rug, single landscape oil in slim walnut frame. Lived-in cues (open book face-down, folded throw, etc.). COMPATIBLE with: casual-domestic, traditional, family-warm, transitional. INCOMPATIBLE with: minimalist, Japanese, formal-opulent. USE SPARINGLY — leans suburban.
-
-(J) "japandi-scandi-minimalist" — White shoji screen OR pale lime-washed wood, raw-cypress beam, tatami matting OR pale Scandi-oak plank, low raw-oak side table, single celadon ceramic bowl, single dried sakaki / dried grass in iron vessel, soft overcast daylight. COMPATIBLE with: Japanese, Scandinavian, mid-century, minimalist, serene, sculptural. INCOMPATIBLE with: ornate, English-country, postmodern-whimsical, opulent, maximalist.
-
-═══════════════════════════════════════════════════
-STEP 4 — DESIGN 6 SCENES
-═══════════════════════════════════════════════════
-
-DISCIPLINE: pick 6 DIFFERENT compatible influences from the menu (one per scene). Never use the same influence twice. Never pull from an INCOMPATIBLE influence. Each scene COMMITS to one pole — never average two influences into mush.
-
-EACH SCENE MUST VARY across ALL of these axes simultaneously:
-- Room type (drawn from the category's appropriate-rooms list)
-- Architectural treatment (wall + ceiling + floor combo)
-- Accent color (only ONE per scene; never repeat across the 6)
-- Styling props (no two scenes use the same prop combo)
-- Camera angle (REQUIRED — see camera-angle vocabulary below)
-
-CAMERA-ANGLE VOCABULARY — every one of the 6 scenes MUST use a visibly different camera angle. Pick 6 of these 9, deliberately spread so the batch ranges across LOW, eye-level, and HIGH viewpoints. The #1 failure to avoid: do NOT pick 6 lookalike near-eye-level angles — the angles must change noticeably from scene to scene.
-1. "dead-front eye-level" — camera squared to product's face, lens-axis at product's vertical center
-2. "slightly-low three-quarter front-left" — camera ~10° below product center, rotated ~30° to product's left
-3. "slightly-low three-quarter front-right" — camera ~10° below product center, rotated ~30° to product's right
-4. "slightly-high looking-down" — camera ~15° above product top, tilted down toward the surface
-5. "pure-profile side-on (left)" — camera 90° to product's face from the left
-6. "pure-profile side-on (right)" — camera 90° to product's face from the right
-7. "hero-low worm's-eye three-quarter" — camera ~25° below product base, rotated ~20°, lens tipped up
-8. "high three-quarter over-the-shoulder" — camera ~20° above product top, rotated ~45°, tilted down
-9. "steep high-angle looking-down" — camera ~45° above product top, tilted down toward surface
-
-═══════════════════════════════════════════════════
-STEP 5 — MODE SPLIT: 3 MINIMALIST + 3 HOMEY
-═══════════════════════════════════════════════════
-
-EVERY 6-scene batch is split 50/50:
-- Scenes at slot indices 0, 1, 2 → mode="minimalist" (gallery-presented hero, tight framing, low density)
-- Scenes at slot indices 3, 4, 5 → mode="homey" (lived-in, layered, decorated, product integrated into a full room)
-
-This split is non-negotiable. Don't drift all-minimalist or all-homey. The two modes have DIFFERENT rules for framing, density, accent color, patterns, textiles, art, and architecture — DO NOT mix them within one scene.
-
-═══════════════════════════════════════════════════
-MINIMALIST MODE RULES (scenes 1-3, slot indices 0-2)
-═══════════════════════════════════════════════════
-
-INFLUENCE: pick from the BRAND ARCHETYPE MENU above (Step 3 compatible list — dazuma-vaulted, visual-comfort-moody, mcgee-moody-library, amber-warm-cali, schoolhouse-craft, pierre-saturated-plaster, devol-english-country, cedar-moss-gallery, pottery-barn-lived-in, japandi-scandi-minimalist). Each scene uses ONE compatible brand archetype. Across the 3 minimalist scenes use 3 DIFFERENT brand archetypes.
-
-FRAMING: product fills 25-35% of the frame. 35-50mm lens (50mm default; 85mm for compressed depth; 35mm for hero-low/over-the-shoulder angles). Tight, hero-presented.
-
-STYLING DENSITY: LOW — 1-3 objects per surface, never more. Curated 3-object vignettes.
-
-ACCENT COLOR: ONE deliberate accent per scene drawn from the archetype's palette OR from the product itself.
-
-PATTERN: max 1 pattern element per scene (one rug OR one pillow OR one curtain — never two patterns).
-
-TEXTILES: tidy and undisturbed. Folded throws. Made bed with smooth coverlet. Cushions plumped. NO mussed bedding, NO thrown throws, NO mismatched cushions, NO books face-down — those are HOMEY-mode-only.
-
-ALLOWED ART: landscape oil, abstract, botanical print, ink sketch, charcoal drawing, black-and-white landscape photograph. NEVER portraits of people, NEVER family photographs.
-
-═══════════════════════════════════════════════════
-HOMEY MODE RULES (scenes 4-6, slot indices 3-5)
-═══════════════════════════════════════════════════
-
-The room reads as "someone lives here and loves it" — not vacant, not gallery, not catalog-perfect. Multiple textile layers, collected objects over time, real plants, a throw thrown not folded, books slightly out of order. Mid-density. The product is INTEGRATED into the room, NOT presented as a single hero against negative space.
-
-INFLUENCE: pick from the HOMEY ARCHETYPE MENU below. Each scene uses ONE homey archetype. Across the 3 homey scenes use 3 DIFFERENT homey archetypes.
-
-FRAMING: product fills 15-25% of the frame — WIDER than minimalist. The room context is the subject as much as the product. 35mm lens default. Pull back to show 2-3 other furniture pieces AND at least one wall treatment.
-
-STYLING DENSITY: MID — 3-5 objects on every visible horizontal surface (consoles, mantels, coffee tables, open shelves). Kitchen counters: 2-4 working-tool objects. Never 1-2 (gallery) or 7+ (cluttered).
-
-THE PRODUCT-COLOR-ECHO RULE (most important homey rule):
-- Identify the product's TWO strongest colors — typically the metal finish (brass / matte black / nickel / bronze / iron) AND the dominant textile or shade color (cream linen / paper / glass tone / ceramic glaze color).
-- The room MUST contain BOTH of these colors echoed in at least one OTHER element each.
-- Example: brass + cream-linen lamp → brass picture-frame OR brass cup-pulls AND cream-linen curtains OR cream-linen pillows elsewhere.
-- Example: matte black iron + scalloped natural linen → matte-black iron drawer pulls AND natural linen draped throw elsewhere.
-- This single rule is what most cleanly separates a homey scene from a gallery scene.
-
-PATTERN RECIPE — required: ONE large-scale pattern (rug OR wallpaper, never both at full strength) + ONE medium-scale pattern (pillow or curtain) + ONE small-scale pattern (lampshade trim, piped edge, checked accent). All three tied by ONE shared color.
-
-WOOD-TONE MIXING — required: at least 2 distinct wood tones per scene (one lighter, one darker). Homey rooms are NEVER monochrome wood. Combos: cerused white oak floor + dark walnut antique; honey-oak floor + black-stained Windsor; painted cabinetry + reclaimed-beam ceiling + light-oak island.
-
-TEXTILE LAYERING — required: every primary seating piece carries upholstery + ≥2 distinct pillows in DIFFERENT patterns/textures + a thrown (NOT folded) throw. Beds: ≥3 pillows stacked + coverlet folded back to show sheets OR quilt rumpled at the foot.
-
-LIVING PLANT MATTER — required: at least one of:
-- Branch arrangement (foraged-style: olive, eucalyptus, magnolia, hydrangea, curly willow) in a chunky earthenware/ceramic vessel.
-- Potted plant (fig, citrus, herbs) in a basket or terracotta pot.
-- Fresh-cut flowers in a chinoiserie OR hand-thrown vase — gathered-looking, NEVER florist-tight.
-
-"JUST-HERE" CUE — required: ≥1 of these visibly placed:
-- Open hardback book face-down on a sofa arm.
-- Stack of 3-5 coffee-table books with one slightly askew.
-- Half-burned candle in a glass holder.
-- Woven basket on the floor with one folded throw inside.
-- Folded reading glasses on a tray (reading glasses are HOMEY-ALLOWED — no other electronics).
-- Wooden cutting board leaning against backsplash.
-- Copper or brass kettle on the stove.
-- Linen dish towel draped over the oven handle.
-- Rumpled bedding (coverlet pulled back, sheets visible).
-- Wool throw draped with visible folds-of-use.
-
-COLLECTED-LOOK ARTWORK — required: ≥1 small framed work — still life, landscape, animal portrait, hand-thrown ceramic plate hung as art, or a vintage botanical print. NEVER human portraits, NEVER family photographs. Gallery walls of 3-7 small mixed works are bonus-homey.
-
-ARCHITECTURAL HOMEY-CUE — required: ≥1 of:
-- Built-in bookshelves with books slightly out of order, mixed with ceramics and small framed art.
-- Layered window treatments (linen curtain over woven roman shade; cafe curtains; pinch-pleat over a roman).
-- Painted-and-papered walls (wainscoting painted, upper wall papered).
-- Wainscoting / beadboard / dado rails.
-- Exposed reclaimed beams with patina.
-- Vertical shiplap painted in soft color (sage, blush, butter, ice-blue — NOT bright Magnolia-white).
-- Brick floor in kitchen, terracotta hex tile, checkerboard stone.
-- Cottage moulding around doorways and windows (chunky casing, not flat trim).
-- Curved or arched doorway with rounded plaster returns.
-
-HOMEY-MODE-ALLOWED (forbidden in minimalist mode):
-- Mussed / rumpled bedding (coverlet pulled back, sheets visible).
-- Throws thrown not folded.
-- Books face-down or stacked askew.
-- Mismatched cushions.
-- Layered rugs (rug-on-rug — vintage Persian over jute).
-- Multi-pattern stacking (per the recipe above).
-- Wear and patina on wood and metal.
-- Items visibly "in use" (a half-burned candle, a worn book spine).
-- Folded reading glasses on a tray.
-- Wallpaper as a wall treatment.
-- Saturated wall colors (sage, dusty blue, blush, butter yellow, petrol on cabinetry).
-
-═══════════════════════════════════════════════════
-HOMEY ARCHETYPE MENU (pick ONE per homey scene; use 3 DIFFERENT archetypes across the 3 homey scenes)
-═══════════════════════════════════════════════════
-
-(α) "caillier-pnw-painted-cabinetry" — Sage or petrol-blue shaker cabinetry + unlacquered brass + soapstone counter + brick OR terracotta hex floor + single Persian or dhurrie runner + branches in chunky earthenware. Warm-white walls with depth. COMPATIBLE with: traditional, transitional, cottage, English, Pacific-Northwest, kitchen-heavy products.
-
-(β) "amber-warm-california-lived-in" — Cerused white oak + black steel windows + lime-washed cream walls with visible hand texture + faded Turkish/Persian rug + chunky earthenware with foraged branches + ONE vintage walnut antique + rust/ochre accent. COMPATIBLE with: organic, earthen, Mediterranean, Japandi-warm, transitional, casual-elegant.
-
-(γ) "heuman-british-joyful-eclectic" — Painted-color wall (pale ice-blue, butter yellow, sage, soft pink) + fringed pleated lampshade + hand-painted ceramic plate hung as art + pattern-on-pattern (paisley + ikat + stripe tied by one shared color) + ONE wildly saturated upholstered piece (emerald, crimson, marigold) + brass + antique rosewood patina. COMPATIBLE with: postmodern, playful, eclectic, English-eclectic, mid-century, whimsical.
-
-(δ) "stoffer-michigan-family-warm-kitchen" — Deep slate-blue or hunter-green painted island + honed Carrara or Calacatta marble + brass faucet and pulls + reclaimed wood ceiling beams + open shelves with collected ceramics + vintage Persian runner on warm light-oak floor + branches and lemons. COMPATIBLE with: traditional, transitional, family-warm — kitchens SPECIFICALLY (use for kitchen products only).
-
-(ε) "bartholomew-southern-collected-traditional" — Wallpaper (ikat, chinoiserie, or chintz) + skirted upholstery with bullion fringe + blue-and-white chinoiserie vase with white hydrangeas + layered linen curtain over woven roman shade + dark mahogany or walnut antique + tortoise-shell or tiger-print accent + honey-oak floors. COMPATIBLE with: traditional, formal, Southern, Hamptons, opulent, classic-decorated.
-
-(ζ) "sikes-blue-and-white-classic" — China-blue Gracie-style wallpaper OR Wedgwood-blue painted walls + crisp white woodwork + ticking-stripe or buffalo-check upholstery + blue-and-white chinoiserie ceramic + generous gathered bouquet of white hydrangeas + polished nickel OR antique brass. COMPATIBLE with: classic, formal, blue-and-white preppy, Hamptons, Hollywood-Hills.
-
-(η) "eyeswoon-curated-artisan" — Limewashed plaster walls + Calacatta marble + matte black or deep navy cabinetry + sculptural curly-willow branches in a hand-thrown matte black vessel + 3-object styled shelves + a single hand-thrown ceramic plate hung as art. COMPATIBLE with: contemporary, sculptural, postmodern, mid-century, Japandi-warm. (Homey-leaning-editorial — for elevated/contemporary products.)
-
-═══════════════════════════════════════════════════
-UNIVERSAL HARD RULES — apply to BOTH modes
-═══════════════════════════════════════════════════
-
-- NO humans, faces, hands, silhouettes, body parts — ever, not even out-of-focus.
-- NO pets (dogs, cats, birds), no kids, no toys, no cribs, no bunk beds.
-- NO portraits of people, no figurative oil portraits of human faces, no family photographs, no people in framed art. Animal portraits (a horse, a dog in oil) are OK in HOMEY mode only. Permitted art across both modes: landscape oil, abstract, botanical print, ink sketch, charcoal drawing, black-and-white landscape photograph, still life, hand-thrown ceramic plate as art.
-- NO alcohol — no wine glasses, whisky glasses, cocktails, beer bottles, decanters, bar carts.
-- NO active casual electronics — no phones, laptops, tablets, remotes, charging cables, headphones, TVs, smart speakers. (Folded reading glasses are HOMEY-mode-allowed only.)
-- NO food in preparation — no chopped vegetables, no flour on the counter, no boiling pots, no plated meals (whole fruit in a bowl is OK; lemons or pears on a board are OK; bread loaves are OK).
-- NO Chinese characters or East Asian script anywhere in the frame.
-- NO outdated 2010s tropes — no chevron flooring, no all-gray-everything, no edison-bulb-cage pendants, no live-laugh-love signs.
-- NO bold supergraphic murals.
-- NO religious iconography, NO brand logos.
-- The hero fixture is the only artificial light source in frame (no recessed cans visible).
-
-LIGHTING:
-- Mid-morning warm daylight (~40%) OR golden-hour late-afternoon (~30%) OR soft overcast daylight (~20%) OR evening with lights on (~10%, mostly outdoor or moody bedroom).
-- The fixture glows warm 2700-3000K in EVERY shot.
-- Window light = soft diffused. No blown-out highlights. NO cool/fluorescent/daylight-white light anywhere.
-
-PRODUCT FIDELITY (the #1 rule):
-- The reference image(s) show the EXACT product that MUST appear in the output.
-- Replicate every visual detail: shape, proportions, color, materials, finish, hardware, surface texture.
-- Do NOT invent a different product. Do NOT change the silhouette. Output must be visually identical to the reference.
-
-REAL-WORLD SIZE — infer from the per-slot category (a table lamp ~12-20" tall on a 24-30" surface; a floor lamp ~50-65" tall standing on the floor; a chandelier ~24-36" wide hanging from the ceiling; a pendant ~12-20" wide; a sconce ~10-15" wide; a flush mount ~14-22" wide). ONLY ONE reference is attached (the variant's hero). NEVER mention a second / size-anchor / lifestyle reference in the prompt text.
-
-═══════════════════════════════════════════════════
-PROMPT STRUCTURE — each scene's prompt text is two parts
-═══════════════════════════════════════════════════
-
-(1) A bracketed tag-block on the first line summarizing the scene:
-[mode: minimalist OR homey | room: X | architecture: Y | accent: Z | styling: W | camera: ANGLE | influence: ARCHETYPE]
-
-(2) A descriptive paragraph:
-- MINIMALIST: 150-200 words. Names placement (category-correct, e.g. "sitting on a light-oak nightstand"), architectural treatment, single accent color, styling props (1-3 max), the camera angle described EXPLICITLY and concretely as one of the FIRST sentences — name the camera's height relative to the product, its tilt, and its rotation so the angle is unmistakable to the image model (e.g. "Shot from a steep high angle, camera roughly 45° above the fixture looking straight down"), time of day + light direction, fixture on at 2700K.
-- HOMEY: 180-230 words. Names placement, archetypal treatment, the product-color-echo rule (which colors of the product are echoed where), pattern recipe (1 large + 1 medium + 1 small, tied color), wood-tone mix, textile layers, plant matter, "just-here" cue, artwork, architectural homey-cue, the camera angle described EXPLICITLY and concretely as one of the FIRST sentences — name the camera's height relative to the product, its tilt, and its rotation so the angle is unmistakable to the image model (e.g. "Shot from a steep high angle, camera roughly 45° above the fixture looking straight down"), time of day + light direction, fixture on at 2700K.
-
-═══════════════════════════════════════════════════
-OUTPUT FORMAT — return JSON ONLY (no markdown fences, no preamble)
-═══════════════════════════════════════════════════
-
-{
-  "category": "<one of: table-lamp | floor-lamp | wall-sconce | chandelier | pendant | flush-mount | outdoor>",
-  "scenes": [
-    {
-      "slug": "<5-15 char kebab-case label>",
-      "mode": "<minimalist | homey>",
-      "prompt": "<the two-part prompt: bracketed tag-block on the first line, then the descriptive paragraph. Must obey ALL rules for the chosen mode.>",
-      "variantPosition": <integer — must match the variantPosition from the requested reference row>
-    }
-  ]
-}
-
-Return EXACTLY 6 scenes IN THIS ORDER:
-- Scenes at array index 0, 1, 2 → mode="minimalist" (3 different brand archetypes from the minimalist menu, 3 different cameras, 3 different rooms)
-- Scenes at array index 3, 4, 5 → mode="homey" (3 different homey archetypes, 3 different cameras, 3 different rooms)
-- All 6 cameras come from the 9-angle vocabulary; never repeat an angle, and no two scenes may use lookalike angles — the 6 MUST be a deliberate spread across low / eye-level / high viewpoints so the angle visibly changes scene to scene.
-- All 6 rooms come from the category's appropriate-rooms list; never repeat a room.
-- Each scene's variantPosition matches the slot's variantPosition from the user prompt — the script rotates variants across slots so don't override that ordering.`;
 
 export interface SceneDesignerResult {
   category: LightingCategory;
   scenes: DesignedScene[];
 }
 
+// ── Curated scene library ──────────────────────────────────────────────
+
+interface CuratedScene {
+  scene_id: string;
+  source_brand: string;
+  description: string;
+  tags: {
+    room_type: string;
+    density: "low" | "mid";
+    color_accent: string[];
+    primary_metal: string;
+    architectural_features: string[];
+    aesthetic_flavor: string;
+    product_category_fit: string[];
+    composition: string;
+    source_hero_position?: string;
+    hero_prominence?: string;
+    [k: string]: unknown;
+  };
+}
+
+const LIBRARY_DIR = path.resolve(process.cwd(), "scene-library", "curated");
+const OVERRIDE_DIR = path.resolve(process.cwd(), "scene-overrides");
+let _library: CuratedScene[] | null = null;
+
+function loadLibrary(): CuratedScene[] {
+  if (_library) return _library;
+  if (!existsSync(LIBRARY_DIR)) {
+    throw new Error(
+      `Scene library not found at ${LIBRARY_DIR} — run scene-library/phase3-curate.ts first.`,
+    );
+  }
+  const scenes: CuratedScene[] = [];
+  for (const f of readdirSync(LIBRARY_DIR)) {
+    if (!f.endsWith(".json") || f.startsWith("_")) continue;
+    try {
+      const doc = JSON.parse(readFileSync(path.join(LIBRARY_DIR, f), "utf8"));
+      if (doc && typeof doc.description === "string" && doc.tags?.product_category_fit) {
+        scenes.push(doc as CuratedScene);
+      }
+    } catch {
+      /* skip an unreadable curated file */
+    }
+  }
+  if (scenes.length === 0) throw new Error(`Scene library at ${LIBRARY_DIR} is empty.`);
+  _library = scenes;
+  return scenes;
+}
+
+// ── Product classification (keyword-based, no LLM) ─────────────────────
+
+/** designer category → the library's `product_category_fit` token. */
+const LIB_CATEGORY: Record<LightingCategory, string> = {
+  "table-lamp": "table_lamp",
+  "floor-lamp": "floor_lamp",
+  "wall-sconce": "sconce",
+  chandelier: "chandelier",
+  pendant: "pendant",
+  "flush-mount": "flush_mount",
+  outdoor: "outdoor",
+};
+
 /**
- * Generate 6 unique lifestyle scene prompts for a product. Claude first
- * classifies the product into one of the 7 lighting categories, then
- * designs 6 scenes whose placement matches that category (table lamps go
- * on surfaces, floor lamps on the floor, sconces on walls, etc).
+ * Required `source_hero_position` per product category — a HARD match filter.
+ * A scene's framing and lighting are built around where its source hero lived,
+ * so a product must inherit that exact position. `outdoor` is omitted: an
+ * outdoor fixture's mount position is genuinely variable (wall / post / eave).
+ */
+const HERO_POSITION: Partial<Record<LightingCategory, string>> = {
+  chandelier: "ceiling",
+  pendant: "ceiling",
+  "flush-mount": "ceiling",
+  "wall-sconce": "wall",
+  "table-lamp": "table",
+  "floor-lamp": "floor",
+};
+
+/** Last segment of a "A > B > C" category path — the most specific token.
+ *  Exported alongside `classifyCategory` for caller reuse. */
+export function typeLeaf(productType: string | null): string {
+  if (!productType) return "";
+  const parts = productType.split(/[>›/|]/).map((s) => s.trim()).filter(Boolean);
+  return parts.length ? parts[parts.length - 1] : productType;
+}
+
+/**
+ * Classify a fixture into one of the seven lighting categories from its
+ * title text (English + common Chinese supplier terms), checked in priority
+ * order so the more specific signal wins.
+ *
+ * Exported so callers (the lifestyle scripts) can derive the same category
+ * the scene designer uses, without duplicating the keyword table.
+ */
+export function classifyCategory(text: string): LightingCategory {
+  const t = text.toLowerCase();
+  const has = (...kw: string[]) => kw.some((k) => t.includes(k));
+
+  // Step / path / stair lights — small recessed or wall-flush fixtures that
+  // sit at ankle/shin height alongside a stair tread, garden path, deck
+  // edge, or hotel corridor floor. They share the outdoor scene pool because
+  // the curated library's outdoor scenes already cover the visual context
+  // (stair runs, paths, garden edges, deck-mounted accents) better than any
+  // indoor scene would. Chinese tokens cover the most common supplier
+  // titles; English covers Western-curated catalog text.
+  if (has(
+    "地脚灯", "楼梯灯", "台阶灯", "踏步灯", "墙脚灯", "嵌入式地脚",
+    "step light", "stair light", "stair-light", "tread light", "footlight",
+    "foot light", "floor accent light", "ground recessed",
+  ))
+    return "outdoor";
+  if (has("户外", "outdoor", "exterior", "garden light", "path light", "landscape light", "bollard", "wall lantern", "post light", "porch", "庭院灯", "花园灯", "阳台灯"))
+    return "outdoor";
+  if (has("壁灯", "sconce", "wall lamp", "wall light", "vanity light", "wall-mounted"))
+    return "wall-sconce";
+  if (has("落地灯", "floor lamp", "floor-lamp", "standing lamp", "torchiere"))
+    return "floor-lamp";
+  if (has("chandelier")) return "chandelier";
+  if (has("吸顶", "flush mount", "flush-mount", "semi-flush")) return "flush-mount";
+  if (has("吊灯", "pendant", "hanging light", "hanging lamp", "suspension")) return "pendant";
+  if (has("台灯", "table lamp", "desk lamp", "bedside", "accent lamp")) return "table-lamp";
+  if (t.includes("lamp") && !t.includes("ceiling")) return "table-lamp";
+  return "pendant";
+}
+
+/** Coarse metal finish of the product, from its title. */
+function detectFinish(title: string): string | null {
+  const t = title.toLowerCase();
+  if (/\b(brass|gold|golden)\b/.test(t)) return "brass";
+  if (/\bmatte[- ]?black\b/.test(t) || /\bblack\b/.test(t)) return "matte_black";
+  if (/\bchrome\b/.test(t)) return "chrome";
+  if (/\bnickel\b/.test(t)) return "nickel";
+  return null;
+}
+
+/** True when a scene's dominant metal would clearly clash with the product. */
+function metalClash(finish: string, sceneMetal: string): boolean {
+  if (sceneMetal === "mixed" || sceneMetal === "none" || !sceneMetal) return false;
+  const warmScene = sceneMetal === "brass" || sceneMetal === "antique_brass";
+  const coolScene = sceneMetal === "chrome" || sceneMetal === "nickel";
+  if (finish === "brass" && coolScene) return true;
+  if ((finish === "chrome" || finish === "nickel") && warmScene) return true;
+  if (finish === "matte_black" && warmScene) return true;
+  return false;
+}
+
+/** Coarse product vibe used for soft aesthetic-flavor nudging. */
+function productVibe(title: string): "minimalist" | "ornate" | null {
+  const t = title.toLowerCase();
+  if (/\b(minimalist|minimal|nordic|scandi|japandi)\b/.test(t)) return "minimalist";
+  if (/\b(crystal|luxury|luxurious|ornate|baroque|vintage|classic)\b/.test(t)) return "ornate";
+  return null;
+}
+const VIBE_AVOID: Record<string, Set<string>> = {
+  minimalist: new Set([
+    "schoolhouse_moody", "mcgee_color", "pierre_parisian", "devol_country",
+    "visual_comfort_editorial",
+  ]),
+  ornate: new Set(["allied_minimalist", "modern_japandi", "apparatus_gallery"]),
+};
+
+// ── Matching ───────────────────────────────────────────────────────────
+
+/**
+ * Closing directive appended to EVERY scene prompt. The curated description
+ * stages the room but says nothing about how prominently to render the
+ * product — which let the image model hide the fixture behind furniture and
+ * invent competing decorative lamps. This is the last text the model reads,
+ * so it carries recency weight.
+ */
+const PRODUCT_FOCUS_DIRECTIVE = `
+
+PRODUCT FOCUS — CRITICAL: The lighting fixture shown in the reference image is the one product this photograph exists to sell. It must be the unmistakable main focus of the whole scene.
+- PROMINENCE: Render it large, well-lit, and centrally placed — it occupies a significant share of the frame and is the first thing the eye lands on. The room is only its setting. Never render it small, distant, or as a minor background detail.
+- FULL VISIBILITY: Show the product complete and entirely unobstructed — its whole form, top to bottom, in clear view. Nothing may stand in front of it or overlap it; it must never be hidden, blocked, cropped, or tucked behind a sofa, desk, chair, drapery, or any other furniture or object. Keep the space around it clear.
+- NO OTHER LIGHTING: No lamp, sconce, pendant, chandelier, lit candle, or glowing decorative light fixture may appear anywhere in the frame other than the reference product itself. Any warm glow, pool of light, or ambient illumination mentioned above is atmospheric light only — do not add a second physical light source to produce it.
+- LIGHT COLOR FIDELITY: The fixture's emitted light must match the color temperature shown in the reference product image. If the reference shows a warm yellow/amber glow, render warm. If the reference shows a cool/neutral white, render cool/neutral. Do not invent a different bulb color than what the reference depicts.`;
+
+/**
+ * Ceiling-mount fixtures (flush-mount / pendant / chandelier) tend to read
+ * "copy-pasted" across a 6-scene batch because the camera defaults to the
+ * same standing eye-level for every shot. One short, optional nudge — only
+ * appended for ceiling categories — encouraging the rendering to settle on
+ * the camera height the scene description implies, rather than forcing
+ * everything to the same default.
+ */
+const CEILING_ANGLE_HINT = `
+- CAMERA HEIGHT: Use the camera height the scene description implies (close, mid-room, doorway, etc.) — do not anchor every shot at the same standing eye-level. Vary subtly across the batch.`;
+
+/** Append the unit-count instruction (multi-unit only) and the product-focus
+ *  directive to the curated scene description.
+ *
+ *  When `slotUnitCount` is provided it overrides the input's uniform setting —
+ *  this is how a single batch can mix single-unit + multi-unit scenes. The
+ *  top-level `unitCountVaried` is ignored in that case (per-slot is more
+ *  specific). */
+function buildPrompt(
+  description: string,
+  input: SceneDesignerInput,
+  slotUnitCount?: number,
+  isCeilingMount?: boolean,
+): string {
+  let body = description;
+  if (typeof slotUnitCount === "number") {
+    if (slotUnitCount > 1) {
+      body = `${description} Show ${slotUnitCount} identical units of the fixture, arranged naturally within the scene.`;
+    }
+    // slotUnitCount === 1 → no unit-count clause (single-unit).
+  } else if (input.unitCountVaried) {
+    body = `${description} Show a small matching cluster of identical units of the fixture — between two and four — arranged naturally within the scene.`;
+  } else if (input.unitCount > 1) {
+    body = `${description} Show ${input.unitCount} identical units of the fixture, arranged naturally within the scene.`;
+  }
+  const tail = isCeilingMount
+    ? `${PRODUCT_FOCUS_DIRECTIVE}${CEILING_ANGLE_HINT}`
+    : PRODUCT_FOCUS_DIRECTIVE;
+  return `${body}${tail}`;
+}
+
+/**
+ * Greedily pick one scene per reference slot, maximising variety across the
+ * batch (distinct room types, compositions and flavors; a low/mid density
+ * mix) while honouring each slot's lighting category.
+ */
+function pickScenes(input: SceneDesignerInput, library: CuratedScene[]): DesignedScene[] {
+  const leaf = typeLeaf(input.productType);
+  const finish = detectFinish(input.productTitle);
+  const vibe = productVibe(input.productTitle);
+  const vibeAvoid = vibe ? VIBE_AVOID[vibe] : null;
+  // Minimalist products skew toward low-density scenes.
+  const targetMid = vibe === "minimalist" ? 2 : 3;
+
+  const used = {
+    ids: new Set<string>(),
+    rooms: new Set<string>(),
+    comps: new Set<string>(),
+    flavors: new Set<string>(),
+    accents: new Set<string>(),
+    arch: new Set<string>(),
+  };
+  let midCount = 0;
+  let lowCount = 0;
+  let mediumUsed = 0; // hero_prominence === "medium" scenes picked so far
+
+  const out: DesignedScene[] = [];
+  for (const slot of input.references) {
+    const category = classifyCategory(`${slot.variantTitle} ${input.productTitle} ${leaf}`);
+    const libCat = LIB_CATEGORY[category];
+    const wantOutdoor = category === "outdoor";
+    const requiredHeroPos = HERO_POSITION[category];
+
+    // Hard rules, never relaxed: (a) source_hero_position must match the
+    // product's mount position; (b) an outdoor fixture only gets outdoor
+    // scenes and an indoor fixture never gets an outdoor scene; (c) never a
+    // low-prominence scene, and at most one medium-prominence scene per batch
+    // (so >= 5 of 6 are high-prominence).
+    const heroOk = (s: CuratedScene) =>
+      !requiredHeroPos || s.tags.source_hero_position === requiredHeroPos;
+    const promOk = (s: CuratedScene) =>
+      s.tags.hero_prominence !== "low" &&
+      (mediumUsed < 1 || s.tags.hero_prominence !== "medium");
+    let pool = library.filter(
+      (s) =>
+        !used.ids.has(s.scene_id) &&
+        heroOk(s) &&
+        promOk(s) &&
+        s.tags.product_category_fit.includes(libCat) &&
+        (s.tags.room_type === "outdoor") === wantOutdoor,
+    );
+    if (pool.length === 0) {
+      // Relax category-fit and room only — hero-position and prominence hold.
+      pool = library.filter(
+        (s) => !used.ids.has(s.scene_id) && heroOk(s) && promOk(s),
+      );
+    }
+
+    const wantMid = midCount < targetMid;
+    const wantLow = lowCount < 6 - targetMid;
+
+    let best: CuratedScene | null = null;
+    let bestScore = -Infinity;
+    for (const s of pool) {
+      let score = 0;
+      if (!used.rooms.has(s.tags.room_type)) score += 100;
+      if (!used.comps.has(s.tags.composition)) score += 40;
+      if (!used.flavors.has(s.tags.aesthetic_flavor)) score += 30;
+      if (s.tags.density === "mid" && wantMid) score += 25;
+      if (s.tags.density === "low" && wantLow) score += 25;
+      for (const a of s.tags.color_accent ?? []) if (used.accents.has(a)) score -= 6;
+      for (const a of s.tags.architectural_features ?? []) if (used.arch.has(a)) score -= 3;
+      if (finish && metalClash(finish, s.tags.primary_metal)) score -= 20;
+      if (vibeAvoid && vibeAvoid.has(s.tags.aesthetic_flavor)) score -= 15;
+      score += Math.random() * 5; // jitter — run-to-run variety
+      if (score > bestScore) {
+        bestScore = score;
+        best = s;
+      }
+    }
+    const chosen = best!;
+
+    used.ids.add(chosen.scene_id);
+    used.rooms.add(chosen.tags.room_type);
+    used.comps.add(chosen.tags.composition);
+    used.flavors.add(chosen.tags.aesthetic_flavor);
+    for (const a of chosen.tags.color_accent ?? []) used.accents.add(a);
+    for (const a of chosen.tags.architectural_features ?? []) used.arch.add(a);
+    if (chosen.tags.density === "mid") midCount++;
+    else lowCount++;
+    if (chosen.tags.hero_prominence === "medium") mediumUsed++;
+
+    out.push({
+      slug: `${chosen.tags.room_type}-${chosen.scene_id.slice(-6)}`,
+      mode: chosen.tags.density === "mid" ? "homey" : "minimalist",
+      prompt: buildPrompt(
+        chosen.description,
+        input,
+        slot.unitCount,
+        requiredHeroPos === "ceiling",
+      ),
+      variantPosition: slot.variantPosition,
+    });
+  }
+  return out;
+}
+
+// ── Claude-authored override ───────────────────────────────────────────
+
+/** True when `v` is one of the seven lighting categories. */
+function isLightingCategory(v: unknown): v is LightingCategory {
+  return (
+    typeof v === "string" &&
+    Object.prototype.hasOwnProperty.call(LIB_CATEGORY, v)
+  );
+}
+
+/**
+ * Append only the unit-count instruction (multi-unit staging). Unlike
+ * `buildPrompt()` this never appends `PRODUCT_FOCUS_DIRECTIVE`: Claude-authored
+ * override prompts already carry their own product-lock and prominence
+ * language, and the directive's "no other lighting" clause conflicts with the
+ * deliberate layered second light source those prompts use.
+ */
+function applyUnitCount(
+  prompt: string,
+  input: SceneDesignerInput,
+  slotUnitCount?: number,
+): string {
+  if (typeof slotUnitCount === "number") {
+    if (slotUnitCount > 1) {
+      return `${prompt} Show ${slotUnitCount} identical units of the fixture, arranged naturally within the scene.`;
+    }
+    return prompt; // explicit single-unit
+  }
+  if (input.unitCountVaried) {
+    return `${prompt} Show a small matching cluster of identical units of the fixture — between two and four — arranged naturally within the scene.`;
+  }
+  if (input.unitCount > 1) {
+    return `${prompt} Show ${input.unitCount} identical units of the fixture, arranged naturally within the scene.`;
+  }
+  return prompt;
+}
+
+interface OverrideScene {
+  slug?: string;
+  mode?: "minimalist" | "homey";
+  prompt?: string;
+  /** 1-based slot index (1..6); maps to a `references[]` entry. */
+  variantSlot?: number;
+}
+
+/**
+ * If a Claude-authored override exists for this product, load and return it.
+ * The override file `scene-overrides/<productId>.json` supplies hand-designed
+ * scene prompts that replace the curated-library match.
+ *
+ * Returns null — so the caller falls back to the library — when there is no
+ * `productId`, no file, or the file is malformed. Never throws.
+ */
+function loadOverride(input: SceneDesignerInput): SceneDesignerResult | null {
+  if (!input.productId) return null;
+  const file = path.join(OVERRIDE_DIR, `${input.productId}.json`);
+  if (!existsSync(file)) return null;
+
+  let doc: { category?: unknown; scenes?: unknown };
+  try {
+    doc = JSON.parse(readFileSync(file, "utf8"));
+  } catch (e) {
+    console.warn(
+      `  scene-designer: override file unreadable — falling back to library (${file}): ${
+        e instanceof Error ? e.message : String(e)
+      }`,
+    );
+    return null;
+  }
+
+  const rawScenes: OverrideScene[] = Array.isArray(doc.scenes)
+    ? (doc.scenes as OverrideScene[])
+    : [];
+  const valid = rawScenes.filter(
+    (s) => !!s && typeof s.prompt === "string" && s.prompt.trim().length > 0,
+  );
+  if (valid.length === 0) {
+    console.warn(
+      `  scene-designer: override file has no usable scenes — falling back to library (${file}).`,
+    );
+    return null;
+  }
+
+  const refs = input.references;
+  const scenes: DesignedScene[] = refs.map((_, i) => {
+    const padded = i >= valid.length;
+    const src = valid[Math.min(i, valid.length - 1)];
+    // variantSlot is 1-based; a missing/out-of-range value maps positionally.
+    const slotIdx =
+      typeof src.variantSlot === "number" &&
+      src.variantSlot >= 1 &&
+      src.variantSlot <= refs.length
+        ? src.variantSlot - 1
+        : i;
+    const baseSlug =
+      src.slug && src.slug.trim() ? src.slug.trim() : `override-${i + 1}`;
+    const slotRef = refs[slotIdx] ?? refs[i];
+    return {
+      slug: padded ? `${baseSlug}-pad${i}` : baseSlug,
+      mode: src.mode === "homey" ? "homey" : "minimalist",
+      prompt: applyUnitCount(src.prompt!.trim(), input, slotRef?.unitCount),
+      variantPosition: slotRef.variantPosition,
+    };
+  });
+
+  const category: LightingCategory = isLightingCategory(doc.category)
+    ? doc.category
+    : classifyCategory(`${input.productTitle} ${typeLeaf(input.productType)}`);
+
+  return { category, scenes };
+}
+
+/**
+ * Design six lifestyle scenes for a product. When a Claude-authored override
+ * exists (`scene-overrides/<productId>.json`) its prompts are used verbatim;
+ * otherwise the product is classified from its title and matched to six
+ * varied, category-appropriate curated scenes from `scene-library/curated/`
+ * (keyword-based, no LLM call).
  */
 export async function designLifestyleScenes(
   input: SceneDesignerInput,
 ): Promise<SceneDesignerResult> {
-  const unitCountClause = input.unitCountVaried
-    ? `VARY the unit count across the 6 scenes — spread it so roughly two scenes show 2 identical units, two show 3, and two show 4. Every unit in a single frame is the SAME variant from that scene's reference image (never mix variants). Each scene's prompt MUST explicitly state how many units it shows and how they are arranged (e.g. a flanking pair, a row of three, a run of four).`
-    : input.unitCount > 1
-      ? `Show ${input.unitCount} identical units of the SAME variant from the reference image — never mix variants in one frame.`
-      : `Show ONE unit of the product, exactly matching the reference image.`;
-
-  const referenceLines = input.references
-    .map(
-      (r) =>
-        `  slot=${r.slotIndex} variantPosition=${r.variantPosition} title="${r.variantTitle}"`,
-    )
-    .join("\n");
-
-  const userPrompt = `Product: ${input.productTitle}
-Type: ${input.productType ?? "(infer from title)"}
-Unit count per frame: ${input.unitCountVaried ? "VARIED 2-4" : input.unitCount} (${unitCountClause})
-
-ONE reference image will be attached to each scene — the variant's standalone hero (a clean studio shot of the exact product silhouette). NEVER mention a second / size-anchor / lifestyle reference in any prompt text.
-
-Run the internal reasoning from the system prompt. Important: a single product can contain MULTIPLE form factors as variants (e.g. variant 1 is a short table-lamp version, variant 2 is a tall floor-lamp version). Classify EACH SLOT'S category INDEPENDENTLY using the slot's variantTitle below — do NOT lock all 6 scenes to a single category based on the product title alone.
-  Step 1 — classify each slot's lighting category from its variantTitle + the product title (台灯=table lamp, 落地灯=floor lamp, 壁灯=wall sconce, 吸顶灯=flush mount, 吊灯=pendant if single-arm / chandelier if multi-arm, 户外=outdoor; English: "table lamp"/"bedside"/"desk"=table-lamp, "floor lamp"/"standing"/"tall"/"torchiere"=floor-lamp). Use the slot's per-variant category for THAT scene's placement; a table-lamp variant sits on a surface, a floor-lamp variant stands on the floor — even within the same batch.
-  Step 2 — write the product's aesthetic profile internally.
-  Step 3 — mark each of the 9 brand influences COMPATIBLE or INCOMPATIBLE for THIS product.
-  Step 4 — design 6 scenes drawing on 6 DIFFERENT compatible influences, each with a DIFFERENT camera angle from the angle vocabulary, each in a DIFFERENT appropriate room. Never pull from an incompatible influence. Each scene's prompt is the bracketed tag-block + a 150-200 word descriptive paragraph.
-
-Reference assignments (one scene per slot — each scene's variantPosition MUST match the slotIndex's variantPosition below):
-${referenceLines}
-
-Return JSON only. No reasoning in the output — only the final scenes.`;
-
-  const parsed = await claudeJSON({
-    model: MODEL,
-    system: LIFESTYLE_SCENE_SYSTEM_PROMPT,
-    user: userPrompt,
-    maxTokens: 8192,
-    temperature: 0.7,
-    schema: ResponseSchema,
-  });
-
-  // Defensive: pad or truncate to exactly the number of references the
-  // caller asked for. If Claude returns fewer, repeat the last; if more,
-  // drop the surplus.
-  const want = input.references.length;
-  const scenes = parsed.scenes.slice(0, want);
-  while (scenes.length < want && scenes.length > 0) {
-    const last = scenes[scenes.length - 1];
-    scenes.push({ ...last, slug: `${last.slug}-pad${scenes.length}` });
+  const override = loadOverride(input);
+  if (override) {
+    console.log(
+      `  scene-designer: using Claude override scene-overrides/${input.productId}.json (${override.scenes.length} scene(s)).`,
+    );
+    return override;
   }
-  return { category: parsed.category, scenes };
+
+  const library = loadLibrary();
+  const scenes = pickScenes(input, library);
+  const category = classifyCategory(
+    `${input.productTitle} ${typeLeaf(input.productType)}`,
+  );
+  return { category, scenes };
 }

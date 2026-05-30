@@ -1,0 +1,28 @@
+{
+  "scene_id": "dazuma-b93987278517f57c",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-b93987278517f57c.jpg",
+  "source_url": "https://dazuma.us/products/modern-white-table-lamp-creative-ambient-night-light",
+  "description": "A minimal gallery-style interior photographed at seated eye-level with a normal lens, using an off-center thirds composition focused on a low matte-black cube pedestal. The pedestal is a clean, flat-topped lacquered black box, and on its surface sits the glowing sculptural light object — a translucent milky-white form in a house or prism shape, emitting a warm amber-gold glow that warms the pedestal surface and radiates softly outward. In the background, a large rounded sphere-form ottoman or floor cushion in mid-gray textured boucle occupies the center of the blurred background, and a light blue-gray wall suggests a cool gallery environment with diffused natural light from a window at the upper left. A black power cord trails from the base of the object along the pedestal edge. The mood is quietly artistic, gallery-cool — a designer object on a plinth with minimal surrounding context. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [],
+    "aesthetic_flavor": "apparatus_gallery",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

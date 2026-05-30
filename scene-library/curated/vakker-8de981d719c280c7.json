@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-8de981d719c280c7",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-8de981d719c280c7.png",
+  "source_url": "https://vakkerlight.com/products/colonna-onyx-table-lamp",
+  "description": "A warm, scholarly living room corner vignette photographed at seated eye-level with a normal lens, framing a tight three-quarter composition of a wooden side table against a plaster wall with a cluster of framed art above. The walls are a textured warm taupe-plaster in a deep, saturated sand tone. Soft diffused natural daylight enters from a tall window just to the right of the table, partially dressed with a sheer or light curtain. A compact wooden side table in warm walnut or medium oak sits against the wall, styled with a stoneware mug in warm amber-brown glaze, a small brass dish, and a row of upright vintage hardcover books with aged cloth spines in ochre, cream, and warm brown. On the wall above, four small framed botanical and landscape illustrations in simple light wooden frames are clustered informally, their cream paper and subdued imagery adding quiet visual interest. A partial view of a leather armchair in warm cognac or tan with a grey-cream knit throw draped over it is visible at left edge. The overall palette is warm earth tones — taupe plaster, walnut wood, aged leather, and parchment. Warm amber light from the table surface and surrounding wall glows richly, creating soft golden shadows among the books and adding intimate depth to the scene. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "scholarly",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "cognac",
+      "ochre"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "table_lamp",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

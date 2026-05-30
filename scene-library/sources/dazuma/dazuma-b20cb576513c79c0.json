@@ -1,0 +1,36 @@
+{
+  "image_id": "dazuma-b20cb576513c79c0",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/pillar-post-lights-outdoor-waterproof-courtyard-square-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_2_09c60f16-5a90-4753-900d-4ad5e41a0e43.jpg?v=1774175822",
+  "scraped_date": "2026-05-21T12:04:33.953Z",
+  "source_title": "Pillar Post Lights Outdoor Waterproof Courtyard Square Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Post Lights > Pillar Lights",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "b20cb576513c79c0fb67a14196f3846407a454b8",
+  "description": "A contemporary residential exterior photographed at twilight, showing the front approach and entry of a modern two-story home. The home facade is smooth white stucco with dark charcoal metal hip roof sections and large black-framed floor-to-ceiling glass windows. Warm amber light glows from within the interior on both floors, making the house feel inviting and lived-in against the deep blue evening sky. The entry is accessed by a wide stone step landing flanked by potted clipped topiaries and broad-leafed plants, with a wood and glass panel front door. Two square white stucco gate pillars flank a stone-paved pathway that divides a manicured bright-green lawn. The pathway stone is large format grey pavers set flush in the grass. Low rounded boxwood hedging borders the lawn edges and flanks the pillars. A pear or multi-stem ornamental tree sits to the left in the lawn. Warm amber glow emanates from cap-mounted sources atop each pillar, casting warm downward pools and a horizontal band of light that illuminates the pillar faces and the pathway below. Camera is at standing eye-level, shooting with a normal to slightly wide lens in a centered one-point perspective looking straight down the pathway toward the front door. The framing is symmetrical, with both pillars equidistant on either side and the front door as the vanishing-point focal anchor. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "none",
+    "primary_metal": "none",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "one_point_perspective",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "subordinate",
+    "source_hero_position": "floor"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.704Z"
+}

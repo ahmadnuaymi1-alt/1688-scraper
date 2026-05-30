@@ -1,0 +1,33 @@
+{
+  "scene_id": "dazuma-0e6c6bbf2938159e",
+  "source_brand": "dazuma",
+  "source_image": "scene-library/sources/dazuma/dazuma-0e6c6bbf2938159e.jpg",
+  "source_url": "https://dazuma.us/products/outdoor-landscape-path-lighting-american-minimalist-lawn-light",
+  "description": "A traditional American suburban residential front yard photographed at early dusk, with a transitional moment of warm artificial light activating against a still-bright pale grey-blue sky. The foreground is dominated by a low curved garden wall built from stacked cream-colored limestone or sandy-toned natural stone blocks with a smooth limestone coping cap, forming a gentle arc around a circular front garden bed. The garden bed inside the curved wall is planted with purple and pink flowering perennials — alyssum, lavender or verbena — filling the bed with dense color. At the center of the curved bed, a white painted classical stone bird bath or fountain with a two-tier basin holds a potted arrangement of bright red geraniums. The driveway or entry court is paved in grey interlocking concrete or brick pavers. In the right background, a traditional two-story red brick house with grey fiber cement siding on the upper gable section and dark grey dimensional shingles is softly out of focus. A covered side porch with white columns and black wrought iron garden furniture — round table and chairs with decorative motifs — is partially visible to the right. Warm light from the residential interior glows through the French door and windows of the porch. A warm amber glow emanates from a traditionally styled post-cap lantern mounted atop the foreground stone pillar, its flame-like light source visible through the seeded glass panels. Camera is at standing eye-level, approximately 5–6 feet, shooting an off-center thirds view focusing on the stone pillar post and the garden bed beyond. Lens is a normal focal length. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "lived_in",
+    "density": "mid",
+    "color_palette_dominant": "earth_tones",
+    "color_accent": [
+      "rust",
+      "plum"
+    ],
+    "primary_wood": "none",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "french_door"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "outdoor"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "floor"
+  }
+}

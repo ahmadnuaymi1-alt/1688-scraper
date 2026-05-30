@@ -1,0 +1,82 @@
+{
+  "productId": "cmpbblo2t00kdw2ocl1o5022w",
+  "productTitle": "Plastic Adjustable Tri-Color Temperature E27 Desk Lamp with Pen Holder",
+  "authoredBy": "in-chat scene design — retro plastic gooseneck desk lamp with WHITE ribbed gooseneck (distinct from cmpi9wjfd's black gooseneck) and built-in pen-holder base; 3 colourways (pink/blue/green) cycled 1,2,3,1,2,3 across 6 slots; cool white 4500K per the bright white LED bulb visible inside",
+  "authoredAt": "2026-05-23T13:30:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "kids-homework-desk-window",
+      "mode": "homey",
+      "prompt": "A child's bedroom homework desk corner, shot on a 35mm lens at seated-child eye-level slight three-quarter so the glossy plastic gooseneck desk lamp anchors the back-right of a 1:1 frame on a small white-painted writing desk. Late afternoon: warm window light rakes in from a sash window at frame-left with sheer cotton curtains pulled halfway. Style with a tilted open spiral notebook half-filled with handwriting and an HB pencil resting in the spine, a stack of three well-loved hardback storybooks topped with a small carved wooden owl figurine, a striped enamel mug of milk on a folded gingham coaster, a small terracotta pot of trailing pothos at frame-right, and a kids' watercolour set on the desk corner. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of butter yellow, body-colour accent, cream, pale oak, fresh green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1,
+      "room": "child's bedroom homework desk",
+      "designStyle": "cheerful child's bedroom",
+      "wallColour": "butter-yellow paint",
+      "cameraAngle": "35mm seated child eye-level three-quarter",
+      "timeOfDay": "late afternoon",
+      "accents": ["white-painted writing desk", "open spiral notebook with HB pencil", "storybooks with wooden owl figurine", "enamel mug of milk", "terracotta pot of trailing pothos", "kids' watercolour set"]
+    },
+    {
+      "slug": "vanity-makeup-table",
+      "mode": "homey",
+      "prompt": "A small makeup vanity corner of a guest bedroom, shot on a 50mm lens at seated vanity-stool eye-level so the glossy plastic gooseneck desk lamp anchors the back-left of a 1:1 frame on a slim white-painted dressing table. Mid-morning: cool soft window light through a sash window with sheer white linen curtains at frame-right. Style with a small mirrored tray holding a hand-blown perfume bottle and a brass-handled hairbrush, a porcelain dish with a small bar of milled soap and a pair of pearl earrings, a folded ivory cotton washcloth, a small jar of cotton swabs, and a single fresh garden rose in a clear bud vase. Walls are a soft blush-rose limewash with a leaning small oval gilt mirror. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of blush rose, body-colour accent, ivory, soft gold, garden rose pink. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2,
+      "room": "makeup vanity corner",
+      "designStyle": "soft romantic vanity",
+      "wallColour": "blush-rose limewash",
+      "cameraAngle": "50mm seated vanity-stool",
+      "timeOfDay": "mid-morning",
+      "accents": ["white-painted dressing table", "mirrored tray with perfume and hairbrush", "porcelain dish with soap and earrings", "ivory cotton washcloth", "garden rose in bud vase"]
+    },
+    {
+      "slug": "craft-room-table-corner",
+      "mode": "homey",
+      "prompt": "A small craft-table corner of a hobby room, shot on a 35mm lens slightly elevated three-quarter so the glossy plastic gooseneck desk lamp anchors the back-left of a 1:1 frame on a vintage scrubbed-pine craft table. Golden hour: warm raking light through a low sash window at frame-right. Style with a small ceramic mason jar densely packed with worn coloured pencils and felt-tip markers handles-up, a folded cotton patchwork remnant, a stack of three cloth-bound sketchbooks, a small enamel mug of tea, and a wooden spool of cream cotton thread standing on end. Walls are a soft blush-clay limewash with a leaning small framed botanical print. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of blush clay, body-colour accent, cream, pale pine, soft thread cream. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3,
+      "room": "hobby-room craft-table",
+      "designStyle": "warm cottagecore craft corner",
+      "wallColour": "blush-clay limewash",
+      "cameraAngle": "35mm slightly elevated three-quarter",
+      "timeOfDay": "golden hour",
+      "accents": ["scrubbed-pine craft table", "mason jar of coloured pencils and markers", "patchwork cotton remnant", "cloth-bound sketchbooks", "wooden spool of cream thread"]
+    },
+    {
+      "slug": "teen-study-corner-shelf",
+      "mode": "minimalist",
+      "prompt": "A teenager's small study corner in a converted alcove, shot on a 50mm lens at seated desk-height so the glossy plastic gooseneck desk lamp sits centred in the upper-right of a 1:1 frame on a slim ash-veneer floating desk. Late evening: walls dark beyond the desk; the only second light source is a small linen-shade floor lamp throwing a soft pool of warmth from the far corner. Tight styling — a stack of three hardback textbooks neatly stacked, a folded grid-paper notebook with a green silk bookmark and a sharpened pencil resting across it, a slim stoneware mug of green tea on a cork coaster, and a single dried wheat stem in a slim clear bud vase. Walls are a warm off-white with a single small leaning framed ink sketch at floor-edge. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of warm off-white, body-colour accent, ash, oat linen, green tea. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4,
+      "room": "teen study corner",
+      "designStyle": "pared-back student study",
+      "wallColour": "warm off-white",
+      "cameraAngle": "50mm seated desk-height",
+      "timeOfDay": "late evening",
+      "accents": ["ash-veneer floating desk", "stack of hardback textbooks", "grid-paper notebook with silk bookmark", "stoneware mug of green tea", "dried wheat stem in clear bud vase"]
+    },
+    {
+      "slug": "kitchen-message-counter",
+      "mode": "minimalist",
+      "prompt": "A small message-counter corner of an apartment kitchen beside a chalkboard, shot on a 35mm lens at standing eye-level slight three-quarter so the glossy plastic gooseneck desk lamp anchors the right-third of a 1:1 frame on a butcher-block kitchen island corner. Mid-morning: cool soft window light from a steel-framed casement at frame-left. Style with a small slate chalkboard leaning against the wall with a handwritten grocery list in white chalk, a small terracotta pot of fresh basil, a folded waffle-weave tea towel, a stoneware mug holding three sharpened pencils and a roll of washi tape, and a small ceramic dish of clementines. Walls are warm cream limewash above a half-tiled wall in handmade square white tiles. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of warm cream, white tile, body-colour accent, butcher block, fresh basil green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5,
+      "room": "kitchen message counter",
+      "designStyle": "warm utilitarian kitchen corner",
+      "wallColour": "warm cream limewash with white-tile half-wall",
+      "cameraAngle": "35mm standing eye-level three-quarter",
+      "timeOfDay": "mid-morning",
+      "accents": ["butcher-block island corner", "slate chalkboard with handwritten list", "potted fresh basil", "waffle-weave tea towel", "stoneware mug with pencils and washi tape", "ceramic dish of clementines"]
+    },
+    {
+      "slug": "bedroom-bedside-fun",
+      "mode": "homey",
+      "prompt": "A teen girl's bedside-nightstand corner, shot on a 50mm lens at seated bedside eye-level slight three-quarter so the glossy plastic gooseneck desk lamp anchors the back-centre of a 1:1 frame on a slim white-painted nightstand. Late evening: the only second light source is a string of small fairy lights draped along the headboard at frame-right. Style with a stack of two YA paperback novels with a sequinned bookmark, a small porcelain dish holding a friendship-bracelet stack, a stoneware mug of cocoa with whipped cream, a small woven basket holding a folded knitted blanket, and a single dried-pink-rose stem in a clear glass bud vase. Walls are a soft lilac paint with a leaning small framed concert poster. The lamp matches the reference image exactly — glossy painted plastic bell-shape shade in the body colour shown in the reference, white ribbed plastic flexible gooseneck arm, glossy painted plastic round base with built-in front pen-holder slot and small rocker switch — switched ON, cool white 4500K (matches the bright white LED bulb clearly visible inside the variant reference). Palette of soft lilac, body-colour accent, sequin gold, soft pink rose, ivory. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6,
+      "room": "teen girl's bedside nightstand",
+      "designStyle": "playful teen bedroom",
+      "wallColour": "soft lilac paint",
+      "cameraAngle": "50mm seated bedside three-quarter",
+      "timeOfDay": "late evening",
+      "accents": ["white-painted nightstand", "YA paperbacks with sequinned bookmark", "porcelain dish with friendship bracelets", "stoneware mug of cocoa with whipped cream", "knitted blanket basket", "dried pink rose stem"]
+    }
+  ]
+}

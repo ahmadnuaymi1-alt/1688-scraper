@@ -1,0 +1,33 @@
+{
+  "scene_id": "vakker-bf22fee00bf0a9d4",
+  "source_brand": "vakker",
+  "source_image": "scene-library/sources/vakker/vakker-bf22fee00bf0a9d4.png",
+  "source_url": "https://vakkerlight.com/products/colonnade-stone-table-lamp",
+  "description": "A sitting room or living room corner photographed at seated eye-level with a normal lens, framing a three-quarter corner view with a low sideboard and adjacent armchair. The walls are smooth warm sand-beige plaster with soft texture. An abstract artwork in brown-grey-charcoal minimal shapes hangs on the wall to the right. The sideboard is a dark walnut console with a flat top surface and clean horizontal lines. On its surface, a round ceramic vase in warm neutral sand tone holds branching dried botanicals; flanking it, a stack of coffee table books and a small round ceramic dish with a walnut trinket. A diffuse warm golden glow pools across the sideboard surface from the object at center. To the right, a low cream boucle lounge armchair with a wide curved back holds a loose camel-colored knit throw draped over the arm. The floor is pale oak hardwood with a natural jute rug. Soft warm light from a nearby window to the left grazes the wall. The mood is quiet, refined, and warm. Color palette is warm neutral throughout — sand, cream, and walnut tones. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "quiet",
+    "density": "mid",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [
+      "plaster"
+    ],
+    "aesthetic_flavor": "visual_comfort_editorial",
+    "product_category_fit": [
+      "table_lamp",
+      "sconce",
+      "floor_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  }
+}

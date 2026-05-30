@@ -1,0 +1,52 @@
+{
+  "productId": "cmpigpwjt00tqw2f03hurxnmi",
+  "productTitle": "Walnut Wood Conical Pleated Linen Shade Vintage Bedroom Bedside Lamp",
+  "authoredBy": "in-chat scene design — walnut-wood conical body base with pleated/fluted natural linen shade; 5 variants cycled 1-5 then slot 6 repeats variant 1; warm white 2700-3000K per the warm glow through the linen pleats",
+  "authoredAt": "2026-05-23T15:00:00.000Z",
+  "classification": "indoor",
+  "category": "table-lamp",
+  "scenes": [
+    {
+      "slug": "japandi-bedside-corner",
+      "mode": "minimalist",
+      "prompt": "A serene Japandi bedroom bedside corner, shot on a 50mm lens at seated bedside eye-level so the walnut-conical pleated-linen-shade lamp anchors the back-centre of a 1:1 frame on a slim oak floating nightstand. Late evening: the only second light source is a slim brass picture light glowing low over a leaning small ink-wash landscape on the back wall. Tight styling — a single linen-bound book of Japanese poetry open face-down with a green silk bookmark, a small stoneware tea bowl, and a slim dried susuki grass stem in a tall raku bottle. Walls are warm white limewash plaster; pale-oak plank floor visible. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of warm white plaster, pale oak, walnut, natural linen, raku grey, dried susuki beige. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 1, "room": "Japandi bedside corner", "designStyle": "serene Japandi minimalist", "wallColour": "warm white limewash plaster", "cameraAngle": "50mm seated bedside", "timeOfDay": "late evening",
+      "accents": ["slim oak floating nightstand", "linen-bound poetry book", "stoneware tea bowl", "dried susuki grass in raku bottle", "leaning ink-wash landscape"]
+    },
+    {
+      "slug": "midcentury-den-side",
+      "mode": "homey",
+      "prompt": "A small mid-century-modern den side-table corner beside a tan-leather Eames-style lounge chair, shot on a 35mm lens at seated eye-level slight three-quarter so the walnut-conical pleated-linen-shade lamp anchors the back-right of a 1:1 frame on a small walnut starburst-leg side table. Late afternoon: warm window light from a wall of vertical timber-slat windows at frame-left. Style with a leather-bound mid-century design monograph open face-down, a small footed stoneware mug of black coffee, a stack of three vintage National Geographic magazines tied with twine, a small terracotta pot of trailing ivy, and a folded tan-wool throw on the chair arm at frame-edge. Walls are warm tan limewash with a leaning small framed mid-century abstract print. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of warm tan, walnut, tan leather, natural linen, ivy green. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 2, "room": "mid-century den side table", "designStyle": "warm mid-century den", "wallColour": "warm tan limewash", "cameraAngle": "35mm seated eye-level three-quarter", "timeOfDay": "late afternoon",
+      "accents": ["walnut starburst-leg side table", "leather design monograph", "stoneware coffee mug", "stack of vintage magazines with twine", "potted trailing ivy"]
+    },
+    {
+      "slug": "study-nook-bookshelf",
+      "mode": "minimalist",
+      "prompt": "A small study nook with built-in walnut bookshelves, shot on a 35mm lens at standing eye-level so the walnut-conical pleated-linen-shade lamp anchors the back-left of a 1:1 frame on a thick walnut floating shelf at desk-height. Mid-morning: cool soft light through a single steel-framed casement window at frame-right; the only second light source is the window. Tight styling — a leaning stack of three leather-bound architectural monographs, a small hand-thrown raw-clay incense burner with a thin curl of smoke, a single dried wheat stem in a slim graphite-grey stoneware bottle, and an antique brass surveyor's compass laid flat. Walls beyond are warm cream limewash with leather-bound book spines lining shelves around. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of warm cream, walnut, natural linen, dried wheat beige, brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 3, "room": "study nook bookshelf", "designStyle": "scholarly architect's study", "wallColour": "warm cream limewash", "cameraAngle": "35mm standing eye-level", "timeOfDay": "mid-morning",
+      "accents": ["walnut floating shelf", "leather architectural monographs", "raw-clay incense burner with smoke", "dried wheat in graphite stoneware", "antique brass compass"]
+    },
+    {
+      "slug": "modern-bedroom-bedside",
+      "mode": "homey",
+      "prompt": "A modern primary bedroom bedside nightstand, shot on a 35mm lens at seated bedside eye-level slight three-quarter so the walnut-conical pleated-linen-shade lamp anchors the back-centre of a 1:1 frame on a slim warm-walnut nightstand. Late evening: the only second light source is a slim warm wall sconce above the headboard at frame-right. Style with a linen-bound novel face-down with a leather bookmark, a hammered brass tray holding folded reading glasses, a small ceramic carafe and tumbler of water, a folded mohair throw at the foot of the bed visible at frame-edge, and a single dried bittersweet sprig in a slim stoneware bottle. Walls are warm putty-pink limewash; layered oat-linen bedding visible. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of putty pink, walnut, oat linen, natural linen, soft brass. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 4, "room": "modern bedroom bedside", "designStyle": "warm modern hospitality", "wallColour": "warm putty-pink limewash", "cameraAngle": "35mm seated bedside three-quarter", "timeOfDay": "late evening",
+      "accents": ["slim walnut nightstand", "linen novel with bookmark", "hammered brass tray with glasses", "ceramic carafe and tumbler", "dried bittersweet bud bottle"]
+    },
+    {
+      "slug": "sunroom-side-table",
+      "mode": "minimalist",
+      "prompt": "A bright sunroom side table beside a high-back oat-linen wingback, shot on a 35mm lens at seated eye-level so the walnut-conical pleated-linen-shade lamp anchors the back-centre of a 1:1 frame on a small slim travertine pedestal side table. Mid-morning: cool soft light through tall steel-framed casement windows behind the chair at frame-right. Tight styling — a single linen-cloth-bound hardback open face-down with a leather bookmark, a footed stoneware mug of black tea, an oat-cashmere throw draped over the chair arm, and a small potted fiddle-leaf fig at the floor edge. Walls are soft eucalyptus-sage limewash; pale-oak plank floor visible. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of eucalyptus sage, travertine, walnut, natural linen, oat. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 5, "room": "sunroom side table", "designStyle": "serene Japandi sunroom", "wallColour": "eucalyptus-sage limewash", "cameraAngle": "35mm seated eye-level", "timeOfDay": "mid-morning",
+      "accents": ["travertine pedestal side table", "linen hardback face-down", "stoneware mug of black tea", "oat-cashmere throw", "potted fiddle-leaf fig"]
+    },
+    {
+      "slug": "hotel-room-console",
+      "mode": "homey",
+      "prompt": "A boutique hotel guest-room console-table corner, shot on a 50mm lens at standing eye-level so the walnut-conical pleated-linen-shade lamp anchors the back-left of a 1:1 frame on a slim oak floating console. Late evening: the only second light source is a sliver of warm hallway light coming through a partially-open door at frame-right. Tight styling — a stoneware tray holding a folded raw-linen runner and brass room key on a leather tab, a small leather-bound guest folio with a tortoiseshell pen, a small hand-thrown bud vase with a single bare cherry branch, and a folded oat-linen napkin. Walls are warm terracotta-clay limewash with a leaning small framed botanical etching. The lamp matches the reference image exactly — walnut-wood conical tapered body in the wood finish shown in the reference, with a pleated/fluted natural-linen shade on top — switched ON, warm white 2700-3000K (matches the warm glow visible through the pleated linen in the variant reference). Palette of terracotta clay, oak, walnut, natural linen, oat. Sharp focus, natural and photographic, no people, no cinematic moodiness.",
+      "variantSlot": 6, "room": "hotel room console corner", "designStyle": "warm hospitality boutique", "wallColour": "terracotta-clay limewash", "cameraAngle": "50mm standing eye-level", "timeOfDay": "late evening",
+      "accents": ["slim oak floating console", "stoneware tray with linen runner and brass key", "leather guest folio with tortoiseshell pen", "bud vase with bare cherry branch", "leaning botanical etching"]
+    }
+  ]
+}

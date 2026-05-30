@@ -1,0 +1,41 @@
+{
+  "image_id": "dazuma-ae3f130fc37bed76",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/outdoor-led-sconces-faux-marble-landscape-waterproof-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/X_1_80c89155-779b-4f2a-b95b-026236eb25a9.jpg?v=1774595433",
+  "scraped_date": "2026-05-21T12:04:20.516Z",
+  "source_title": "Outdoor LED Sconces Faux Marble Landscape Waterproof Light",
+  "source_product_type": "Lighting > Outdoor Lighting > Outdoor Wall Lighting > Outdoor Wall Sconces",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "ae3f130fc37bed760c576dbf37d26263cc1d0e11",
+  "description": "An exterior dusk vignette of a residential building facade, photographed at standing eye-level with a normal lens around 35-50mm, in an off-center thirds composition that places the brick pillar and garage door corner as the primary architectural subject. The scene is captured at dusk or evening — the sky is dark beyond the top of the frame and ambient outdoor light is low. The structure is white-painted brick, coursed in a standard running bond pattern, with white-painted wood trim detailing at the roofline including a classical cornice with dentil or ogee profile. The garage door is white-painted paneled wood with a carriage-house aesthetic — two hinged sections each with a small multi-pane glass window cluster at the top and a black matte iron ring pull handle below. The brick pilaster or wall section between the door and the edge of the facade is the focal point of the image, its white brick surface catching a warm amber glow from a mounted light source. The warm light pools down the face of the brick in an upward-and-downward wash, highlighting the mortar lines and the slightly rough texture of the painted masonry. Roofline crown moulding detail casts a crisp shadow. The mood is classic American residential, quietly elegant at nightfall. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "outdoor",
+    "mood": "quiet",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [],
+    "primary_wood": "painted_white",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "stone_wall",
+      "applied_moulding"
+    ],
+    "aesthetic_flavor": "schoolhouse_moody",
+    "product_category_fit": [
+      "outdoor",
+      "sconce",
+      "flush_mount"
+    ],
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "off_center_thirds",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.679Z"
+}

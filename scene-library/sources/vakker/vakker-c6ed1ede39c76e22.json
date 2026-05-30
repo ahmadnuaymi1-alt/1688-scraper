@@ -1,0 +1,41 @@
+{
+  "image_id": "vakker-c6ed1ede39c76e22",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/pillar-alabaster-floor-lamp",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Pillar_Alabaster_Floor_Lamp75.png?v=1778031591",
+  "scraped_date": "2026-05-21T15:53:26.268Z",
+  "source_title": "Pillar Alabaster Floor Lamp",
+  "source_product_type": "Floor Lamp",
+  "width": 1024,
+  "height": 1024,
+  "content_sha1": "c6ed1ede39c76e2290ace04aedb47a93598c931d",
+  "description": "A serene, softly lit bedroom photographed at seated eye-level with a normal lens, the camera positioned in a three-quarter view of the room's left corner, taking in one plastered side wall with a tall multi-pane window, the foot and near side of the bed, and the floor zone between window and bed. The walls are smooth troweled plaster in a warm greige-sand tone, sun-faded and slightly uneven in the way of old European interiors. Through the sheer curtains at the window, soft diffused daylight enters from the left, brushing across the plaster surface and laying long gentle shadows on the floorboards below. The floors are wide-plank aged wood in a dark walnut tone. Beside the bed, a low antique-style nightstand in painted dark finish holds a small terracotta pot with a green fern and a woven-top basket on the lower shelf. A tall, cylindrical floor-standing form occupies the space between the nightstand and the window, its warm inner glow washing softly outward and touching the plaster wall at approximately mid-height and down toward the floor, the warm illumination not reaching the ceiling. The bed itself is dressed in layers of crinkled linen — undyed natural linen pillowcases, a loose linen duvet in warm sand, and a chunky woven throw folded at the foot. A woven macrame or textile wall hanging in undyed natural fibers hangs above the headboard on the rear wall. A round wicker storage basket sits on the floor in the near-right corner. The palette is entirely warm neutral with no strong color accents. The mood is deeply restful and artisanal. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [],
+    "primary_wood": "walnut",
+    "primary_metal": "none",
+    "architectural_features": [
+      "plaster",
+      "multi_pane_window"
+    ],
+    "aesthetic_flavor": "devol_country",
+    "product_category_fit": [
+      "floor_lamp",
+      "table_lamp",
+      "sconce"
+    ],
+    "source_hero_position": "floor",
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:19.214Z"
+}

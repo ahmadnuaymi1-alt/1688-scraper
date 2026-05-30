@@ -1,0 +1,38 @@
+{
+  "image_id": "dazuma-42158007d74bb78e",
+  "source_brand": "dazuma",
+  "source_url": "https://dazuma.us/products/italian-minimalist-glass-shade-table-lamp-decorative-ambience-light",
+  "image_url": "https://cdn.shopify.com/s/files/1/0556/5382/6742/files/contemporary-black-glass-shade-table-lamp-bedside-lighting.jpg?v=1760000390",
+  "scraped_date": "2026-05-21T15:52:41.482Z",
+  "source_title": "Glass Shade Table Lamp Italian Minimalist Decorative Ambience Light",
+  "source_product_type": "Lighting > Table & Floor Lamps > Table Lamps > Designer Table Lamps",
+  "width": 1080,
+  "height": 1080,
+  "content_sha1": "42158007d74bb78e684e37f9130b06cc6f394cea",
+  "description": "A dramatic bedroom scene built around deep charcoal-painted walls that absorb light and create a moody, cocoon-like atmosphere. On the right, a tall upholstered headboard in rich cognac-brown velvet anchors the composition, paired with crisp white hotel-style bedding and stacked white Euro pillows. Beside the bed sits a small round side table with a dark walnut or stone top and a slender brass-framed base with clear acrylic legs, giving it a refined yet transparent quality. A soft warm glow at table height warms the immediate surface and the surrounding charcoal wall. The scene is spare and precisely styled — no objects other than the side table and the bed are visible. The palette is dominated by dark neutral tones punctuated by cognac and a warm amber glow from surface level. Camera is at standing eye-level, approximately 5 feet, using a normal lens. Composition is a three-quarter corner view showing the left wall, the side table, and the edge of the bed on the right. Camera pitch is level. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "bedroom",
+    "mood": "dramatic",
+    "density": "low",
+    "color_palette_dominant": "cool_neutral",
+    "color_accent": [
+      "cognac"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "brass",
+    "architectural_features": [],
+    "aesthetic_flavor": "dazuma_clean",
+    "product_category_fit": [
+      "table_lamp"
+    ],
+    "source_hero_position": "table",
+    "camera_height": "standing",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_via": "claude-code-agent",
+  "described_date": "2026-05-21T16:16:18.203Z"
+}

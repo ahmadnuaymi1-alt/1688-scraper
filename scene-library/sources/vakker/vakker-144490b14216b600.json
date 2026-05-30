@@ -1,0 +1,42 @@
+{
+  "image_id": "vakker-144490b14216b600",
+  "source_brand": "vakker",
+  "source_url": "https://vakkerlight.com/products/travertine-cone-wall-sconce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0355/1320/4874/files/Travertine_Cone_Wall_Sconce__12.jpg?v=1778828429",
+  "scraped_date": "2026-05-21T12:08:48.689Z",
+  "source_title": "Travertine Cone Wall Sconce",
+  "source_product_type": "Wall Lamp",
+  "width": 1440,
+  "height": 1440,
+  "content_sha1": "144490b14216b600c70f8ff77ac594622f4bdf08",
+  "description": "A serene residential corner vignette where two white-painted walls meet at a right angle, creating a clean architectural pocket. The wall surfaces are smooth plaster, painted in a soft warm white that transitions seamlessly into the ceiling above. A subtle cove or recessed ceiling detail is partially visible in the upper right of the frame, suggesting a layered ceiling treatment. To the right of the corner, a vertical slat wall panel — narrow, evenly spaced, painted white — adds quiet textural rhythm and dimensional depth to the composition. Below and in the foreground, a solid walnut bench or low sofa frame is visible, with richly grained wood showing warm reddish-brown tones and tight linear grain. A deep charcoal or near-black upholstered cushion sits against the wooden back, its matte fabric absorbing light softly. At the far left edge of the frame, the corner of what appears to be a marble-surfaced element — likely a fireplace surround or built-in — is barely visible at low height, showing veined dark and white stone. A warm, concentrated pool of amber-toned light washes downward across the wall surface in the corner, casting a soft scalloped glow that graduates from golden warmth at center to gentle shadow at its edges, illuminating the textured wall below it and creating a moody focal point in the otherwise cool-white architectural envelope. The atmosphere is calm, restrained, and gallery-like — modern Japandi sensibility with warm material accents anchoring an otherwise minimal palette. A lighting fixture matching the product reference image is installed naturally within this scene at the appropriate location for the product category. Render the fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details.",
+  "tags": {
+    "room_type": "living_room",
+    "mood": "serene",
+    "density": "low",
+    "color_palette_dominant": "warm_neutral",
+    "color_accent": [
+      "cognac",
+      "charcoal"
+    ],
+    "primary_wood": "walnut",
+    "primary_metal": "matte_black",
+    "architectural_features": [
+      "plaster",
+      "paneled_walls",
+      "wainscoting"
+    ],
+    "aesthetic_flavor": "modern_japandi",
+    "product_category_fit": [
+      "sconce"
+    ],
+    "camera_height": "seated",
+    "lens_character": "normal",
+    "composition": "three_quarter_corner",
+    "hero_position_clarity": "clear",
+    "secondary_fixtures_status": "none",
+    "source_hero_position": "wall"
+  },
+  "vision_model": "claude-sonnet-4-6",
+  "described_date": "2026-05-21T12:29:00.879Z"
+}
