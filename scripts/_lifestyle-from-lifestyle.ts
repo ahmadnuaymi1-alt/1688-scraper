@@ -132,7 +132,7 @@ async function generateOneLifestyle(
       "--prompt", prompt.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim(),
       "--input_images", inputImagesJson,
       "--aspect_ratio", "1:1",
-      "--resolution", "2k",
+      "--resolution", "1k",
       "--wait",
     ];
     const r = await runHiggsfield(args);

@@ -108,6 +108,11 @@ interface VariantTableProps {
   images?: VariantImageItem[];
   selectedVariantId?: string | null;
   onVariantClick?: (variantId: string) => void;
+  /** Per-product landed cost in USD (supplier wholesale + weight-bracket shipping).
+   * Computed once at the parent from `Product.rawPayload` and passed in. Same value
+   * shown on every variant row since landed cost is per-product, not per-variant.
+   * Null when rawPayload is missing or unparseable → column shows "—". */
+  landedCostUSD?: number | null;
 }
 
 type SortDir = "none" | "asc" | "desc";
@@ -214,6 +219,7 @@ export function VariantTable({
   images = [],
   selectedVariantId,
   onVariantClick,
+  landedCostUSD,
 }: VariantTableProps) {
   // Sort indicator is DERIVED from the variants array (which arrives from the
   // server in current DB position order). We seed state from the derivation
@@ -1271,9 +1277,10 @@ export function VariantTable({
                 </span>
               </TableHead>
               <TableHead className="text-right">Compare At</TableHead>
+              <TableHead className="text-right">Landed Cost</TableHead>
               {hasSku && <TableHead>SKU</TableHead>}
               {hasBarcode && <TableHead>Barcode</TableHead>}
-              {hasWeight && <TableHead>Pkg Weight</TableHead>}
+              {hasWeight && <TableHead>Weight</TableHead>}
               {hasPkgDimensions && <TableHead>Pkg Dims</TableHead>}
               {hasImages && <TableHead className="text-right">Images</TableHead>}
               {productId && <TableHead className="w-10 text-right" />}
@@ -1403,6 +1410,11 @@ export function VariantTable({
                       mono: true,
                       className: "text-muted-foreground",
                     })}
+                  </TableCell>
+                  <TableCell className="text-muted-foreground text-right font-mono text-xs">
+                    {landedCostUSD != null
+                      ? `$${landedCostUSD.toFixed(2)}`
+                      : "—"}
                   </TableCell>
                   {hasSku && (
                     <TableCell onClick={(e) => e.stopPropagation()}>

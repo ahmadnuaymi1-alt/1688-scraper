@@ -25,49 +25,13 @@ import os from "node:os";
 import { spawn } from "node:child_process";
 import { PrismaClient } from "@prisma/client";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import sharp from "sharp";
-import { HERO_PROMPT } from "../src/lib/hero/prompt";
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Perceptual dedup — dHash (difference hash)
-//
-// Suppliers on 1688 often re-save the SAME product photograph with a
-// different text label baked in (orange title chip, bottom-right cell, etc.)
-// for each option-axis combination. The exact storagePath dedup the pool
-// builder uses can't see through the text-overlay difference and treats them
-// as N distinct supplier photos, then generates N heroes. This module
-// fingerprints each unique source image with a 64-bit dHash (resize to 9x8
-// grayscale, compare adjacent pixels) and merges images whose Hamming
-// distance is below `DHASH_MERGE_THRESHOLD`. Images that differ only in a
-// small text chip differ by 2-6 bits; images of genuinely different products
-// differ by 25+ bits — so the threshold is generous (8 bits) without risk of
-// merging real distinct products.
-// ─────────────────────────────────────────────────────────────────────────────
-const DHASH_MERGE_THRESHOLD = 8;
-
-async function computeDhash(buf: Buffer): Promise<string> {
-  const { data } = await sharp(buf)
-    .resize(9, 8, { fit: "fill" })
-    .grayscale()
-    .raw()
-    .toBuffer({ resolveWithObject: true });
-  let bits = "";
-  for (let y = 0; y < 8; y++) {
-    for (let x = 0; x < 8; x++) {
-      const left = data[y * 9 + x];
-      const right = data[y * 9 + x + 1];
-      bits += left > right ? "1" : "0";
-    }
-  }
-  return bits;
-}
-
-function hammingDistance(a: string, b: string): number {
-  if (a.length !== b.length) return Math.max(a.length, b.length);
-  let d = 0;
-  for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) d++;
-  return d;
-}
+import {
+  buildHeroPrompt,
+  verifyAndMaybeRegenerate,
+  printFailedVerifications,
+  type FailedVerification,
+} from "../src/lib/hero/verify";
+import { isGeminiConfigured } from "../src/lib/ai/gemini-client";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Env loader
@@ -240,6 +204,7 @@ function makeLimit(concurrency: number) {
 interface HeroGroup {
   productId: string;
   productTitle: string;
+  productType: string | null; // drives the lighting-vs-general hero prompt branch
   sourceKey: string;       // dedup key — storagePath || sourceUrl
   sourceUrl: string;       // the URL we download for the variant ref
   groupKey: string;        // sanitized for Supabase path
@@ -285,16 +250,31 @@ async function buildHeroGroupsForProduct(productId: string): Promise<{
     if (img) imagesByVariant.set(v.id, img);
   }
 
-  // Idempotency: variants that already have a hero. Count BOTH "hero" (from
-  // the legacy Kie pipeline) AND "hero-flat" (what this script writes).
-  const variantsWithHero = new Set(
+  // Idempotency: variants that already have a hero. Two link paths exist —
+  //   (a) ProductImage.variantId points at the variant (legacy direct link)
+  //   (b) Variant.featuredImageId points at a hero ProductImage (what the
+  //       dedup-collapse step rewrites to, since collapsed heroes are
+  //       product-level with variantId=null and only reachable via the
+  //       Variant.featuredImageId backref).
+  // Without path (b) a re-run after dedup would treat all variants as
+  // un-served and regenerate every hero, then create duplicate ProductImage
+  // rows that share storagePath with the existing heroes.
+  const heroImageIds = new Set(
     product.images
-      .filter(
-        (img) =>
-          (img.imageType === "hero" || img.imageType === "hero-flat") && img.variantId,
-      )
-      .map((img) => img.variantId as string),
+      .filter((img) => img.imageType === "hero" || img.imageType === "hero-flat")
+      .map((img) => img.id),
   );
+  const variantsWithHero = new Set<string>();
+  for (const img of product.images) {
+    if ((img.imageType === "hero" || img.imageType === "hero-flat") && img.variantId) {
+      variantsWithHero.add(img.variantId);
+    }
+  }
+  for (const v of product.variants) {
+    if (v.featuredImageId && heroImageIds.has(v.featuredImageId)) {
+      variantsWithHero.add(v.id);
+    }
+  }
 
   // Group visible variants by unique source image (exact storagePath dedup).
   const groupMap = new Map<string, HeroGroup>();
@@ -315,6 +295,7 @@ async function buildHeroGroupsForProduct(productId: string): Promise<{
       groupMap.set(sourceKey, {
         productId,
         productTitle: product.title,
+        productType: product.productType,
         sourceKey,
         sourceUrl,
         groupKey,
@@ -324,59 +305,12 @@ async function buildHeroGroupsForProduct(productId: string): Promise<{
     }
   }
 
-  // Perceptual dedup pass — merge groups whose source images are visually
-  // identical (Hamming distance < DHASH_MERGE_THRESHOLD). This catches the
-  // 1688-supplier pattern of re-saving the same product photo with a
-  // different baked-in text label for each option-axis combination.
-  const groupsList = Array.from(groupMap.values());
-  if (groupsList.length > 1) {
-    const hashes = await Promise.all(
-      groupsList.map(async (g) => {
-        try {
-          const r = await fetch(g.sourceUrl);
-          if (!r.ok) return null;
-          const buf = Buffer.from(await r.arrayBuffer());
-          return await computeDhash(buf);
-        } catch {
-          return null;
-        }
-      }),
-    );
-    // Union-find style merge: walk groups in order, merge each into the
-    // first earlier group whose hash is within the threshold.
-    const mergedInto = new Array<number>(groupsList.length).fill(-1);
-    for (let i = 1; i < groupsList.length; i++) {
-      const hi = hashes[i];
-      if (!hi) continue;
-      for (let j = 0; j < i; j++) {
-        if (mergedInto[j] !== -1) continue;
-        const hj = hashes[j];
-        if (!hj) continue;
-        if (hammingDistance(hi, hj) < DHASH_MERGE_THRESHOLD) {
-          mergedInto[i] = j;
-          // Move variants from i into j; keep j's sourceKey/sourceUrl/groupKey.
-          groupsList[j].variants.push(...groupsList[i].variants);
-          break;
-        }
-      }
-    }
-    // Rebuild groupMap from the not-merged-away groups.
-    groupMap.clear();
-    let mergedCount = 0;
-    for (let i = 0; i < groupsList.length; i++) {
-      if (mergedInto[i] !== -1) {
-        mergedCount++;
-        continue;
-      }
-      const g = groupsList[i];
-      groupMap.set(g.sourceKey, g);
-    }
-    if (mergedCount > 0) {
-      console.log(
-        `  [${productId}] dHash dedup merged ${mergedCount} duplicate source-image group(s) — ${groupMap.size} unique product appearance(s) remain`,
-      );
-    }
-  }
+  // dHash perceptual dedup REMOVED — the rule is "1 hero per unique variant
+  // featured-image storagePath". Two distinct storagePaths = two distinct
+  // bytes-in-Supabase images = two distinct variant assets the user wants
+  // distinct heroes for. The dHash 8-bit Hamming threshold was merging
+  // genuinely-different variant photos (same product, different mount type
+  // or height) at 2-6 bits apart, costing the user 1 hero per merged pair.
 
   // Apply idempotency + assign position bases (reserve N positions per group).
   const maxPosRow = await prisma.productImage.aggregate({
@@ -417,16 +351,44 @@ async function downloadTo(url: string, dest: string): Promise<void> {
 async function runOneGroup(
   group: HeroGroup,
   templateUploadId: string,
-  promptOneLine: string,
+  failedSink: FailedVerification[],
 ): Promise<{ ok: boolean; genSec: number; attached: number; error?: string }> {
   const tStart = Date.now();
   try {
+    // 0. storagePath-level idempotency guard (belt-and-suspenders over the
+    //    per-variant skip in buildGroups). A hero's storagePath is fully
+    //    determined by (productId, groupKey), so if a row already exists for it
+    //    we must NOT generate/create a second one — just (re)point this group's
+    //    variants at the existing row. This is exactly the "multiple hero images
+    //    for one source" duplication we want to prevent.
+    const predictedStoragePath = `heroes/${group.productId}/${group.groupKey}.png`;
+    const prisma0 = getPrisma();
+    const existingHero = await prisma0.productImage.findFirst({
+      where: { productId: group.productId, storagePath: predictedStoragePath },
+      select: { id: true },
+    });
+    if (existingHero) {
+      await prisma0.variant.updateMany({
+        where: { id: { in: group.variants.map((v) => v.id) } },
+        data: { featuredImageId: existingHero.id },
+      });
+      return { ok: true, genSec: 0, attached: group.variants.length };
+    }
+
     // 1. Download variant ref locally (filename derived from groupKey).
     const refLocal = path.join(REF_CACHE_DIR, `${group.productId}__${group.groupKey}.png`);
     if (!fs.existsSync(refLocal)) await downloadTo(group.sourceUrl, refLocal);
-    // 2. Upload ref to Higgsfield.
+    // 2. Upload ref to Higgsfield (once; reused across any verify-retry).
     const refUploadId = await higgsfieldUpload(refLocal);
-    // 3. Fire generation.
+    // 3. Effective prompt: env override > hero-overrides/<id>.json > lighting
+    //    HERO_PROMPT or general HERO_PROMPT_GENERAL (by title/type).
+    const promptOneLine = buildHeroPrompt(group.productId, {
+      title: group.productTitle,
+      productType: group.productType ?? undefined,
+    })
+      .replace(/\r?\n/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
     const inputImagesJson = JSON.stringify([
       { id: refUploadId, type: "media_input" },
       { id: templateUploadId, type: "media_input" },
@@ -436,18 +398,40 @@ async function runOneGroup(
       "--prompt", promptOneLine,
       "--input_images", inputImagesJson,
       "--aspect_ratio", "1:1",
-      "--resolution", "2k",
+      "--resolution", "1k",
       "--wait",
     ];
-    const r = await runHiggsfield(args);
-    if (r.code !== 0) throw new Error(`generate exit ${r.code}: ${r.out.slice(-300)}`);
-    const resultUrl = extractResultUrl(r.out);
-    if (!resultUrl) throw new Error(`no result URL in CLI output: ${r.out.slice(-300)}`);
+    // One Higgsfield generation → hero PNG bytes (called once, then once per
+    // verify-retry on a clear source mismatch). The uploaded ref is reused.
+    const generate = async (): Promise<Buffer> => {
+      const r = await runHiggsfield(args);
+      if (r.code !== 0) throw new Error(`generate exit ${r.code}: ${r.out.slice(-300)}`);
+      const resultUrl = extractResultUrl(r.out);
+      if (!resultUrl) throw new Error(`no result URL in CLI output: ${r.out.slice(-300)}`);
+      const outRes = await fetch(resultUrl);
+      if (!outRes.ok) throw new Error(`download result ${outRes.status} ${resultUrl}`);
+      return Buffer.from(await outRes.arrayBuffer());
+    };
 
-    // 4. Download output PNG.
-    const outRes = await fetch(resultUrl);
-    if (!outRes.ok) throw new Error(`download result ${outRes.status} ${resultUrl}`);
-    const outBuf = Buffer.from(await outRes.arrayBuffer());
+    // 4. Generate + verify the hero matches its source ref; redo on clear mismatch.
+    const outcome = await verifyAndMaybeRegenerate({
+      productId: group.productId,
+      productTitle: group.productTitle,
+      variantLabel: group.variants[0]?.title ?? "",
+      sourceImage: refLocal,
+      generate,
+    });
+    const outBuf = outcome.buffer;
+    if (!outcome.passed && outcome.finalResult) {
+      failedSink.push({
+        productId: group.productId,
+        productTitle: group.productTitle,
+        variantLabel: group.variants[0]?.title ?? "",
+        attempts: outcome.attempts,
+        result: outcome.finalResult,
+        reviewUrl: `http://localhost:3000/review/${group.productId}`,
+      });
+    }
 
     // 5. Upload to Supabase at the convention path.
     const storagePath = `heroes/${group.productId}/${group.groupKey}.png`;
@@ -586,24 +570,25 @@ async function main() {
   const templateUploadId = await higgsfieldUpload(POSITIONING_TEMPLATE);
   console.log(`  template uploadId=${templateUploadId} (${Math.round((Date.now() - tplStart) / 1000)}s)\n`);
 
-  // 4. Collapse HERO_PROMPT for CLI quoting (newlines break cmd.exe). For
-  //    one-off prompt experiments (e.g. lights-OFF heroes for a single
-  //    product), set HERO_PROMPT_OVERRIDE in the environment — the override
-  //    is used verbatim and the canonical HERO_PROMPT is left untouched.
-  const rawPrompt = process.env.HERO_PROMPT_OVERRIDE || HERO_PROMPT;
+  // 4. The hero prompt is now built per-product inside runOneGroup via
+  //    buildHeroPrompt (env HERO_PROMPT_OVERRIDE > hero-overrides/<id>.json >
+  //    HERO_PROMPT), so per-product correction notes take effect on re-run.
   if (process.env.HERO_PROMPT_OVERRIDE) {
-    console.log(`[prompt] using HERO_PROMPT_OVERRIDE (${rawPrompt.length} chars)`);
+    console.log(`[prompt] HERO_PROMPT_OVERRIDE is set — applies to ALL products this run.`);
   }
-  const promptOneLine = rawPrompt.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
+  if (!isGeminiConfigured()) {
+    console.log(`[verify] GEMINI_API_KEY not set — hero source-match check is OFF this run.`);
+  }
 
   // 5. Fan out generations with concurrency cap.
   console.log(`Firing ${allGroups.length} generation(s) at concurrency=${args.concurrency}...`);
+  const failedVerification: FailedVerification[] = [];
   const limit = makeLimit(args.concurrency);
   const t0 = Date.now();
   const results = await Promise.all(
     allGroups.map((g, idx) =>
       limit(async () => {
-        const r = await runOneGroup(g, templateUploadId, promptOneLine);
+        const r = await runOneGroup(g, templateUploadId, failedVerification);
         const tag = r.ok ? "OK" : "FAIL";
         const titleHead = g.productTitle.slice(0, 40);
         const varHead = g.variants[0].title.slice(0, 30);
@@ -658,6 +643,9 @@ async function main() {
     console.log(`  http://localhost:3000/review/${p.id}`);
   }
   console.log(`====================================`);
+
+  // 7. Hero-vs-source verification flags (products needing per-product notes).
+  printFailedVerifications(failedVerification);
 
   await prisma.$disconnect();
 }

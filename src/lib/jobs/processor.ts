@@ -16,7 +16,11 @@ import {
   dequeueRulesJob,
   recoverStuckJobs,
   failScrapeJob,
+  rescheduleScrapeJob,
+  addJobLog,
+  MAX_AUTO_RETRIES,
 } from "./queue";
+import { isTransientScrapeError } from "@/lib/scraper/bright-data-client";
 
 type ScrapeHandler = (jobId: string, sourceUrl: string) => Promise<void>;
 type RulesHandler = (jobId: string) => Promise<void>;
@@ -68,6 +72,26 @@ export async function processNextJob(): Promise<ProcessResult> {
         const message = err instanceof Error ? err.message : String(err);
         console.error(`[processor] Scrape job ${job.id} handler error:`, err);
         try {
+          // Classify the error: transient (BD flake, gateway 5xx, network
+          // timeout) → reschedule for retry. Permanent (URL validation,
+          // parse error, BD 400/403/404) → mark failed immediately.
+          if (isTransientScrapeError(err)) {
+            const rescheduled = await rescheduleScrapeJob(job.id);
+            if (rescheduled) {
+              await addJobLog(
+                job.id,
+                "warn",
+                `Phase 1: transient failure — retrying in 10 min: ${message}`,
+              );
+              processed = true;
+              continue;
+            }
+            await addJobLog(
+              job.id,
+              "warn",
+              `Phase 1: transient failure exhausted ${MAX_AUTO_RETRIES} auto-retries — marking failed`,
+            );
+          }
           await failScrapeJob(job.id, message);
         } catch (failErr) {
           console.error(`[processor] failScrapeJob also threw for ${job.id}:`, failErr);

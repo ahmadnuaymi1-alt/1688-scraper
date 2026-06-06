@@ -39,6 +39,15 @@ export type LightingCategory =
   | "flush-mount"
   | "outdoor";
 
+/** The four legitimate arrangement strategies, derived from the user's
+ *  approved exemplars. Every multi-unit scene must declare one; an undeclared
+ *  scene (or one missing an architectural anchor) is forced to "single". */
+export type ArrangementStrategy =
+  | "symmetric-flanking"   // count=2, bilateral anchor (door/arch/gate/fireplace/mirror)
+  | "linear-sequence"      // count=3, long unbroken plane (deck wall, path wall, fence run)
+  | "paired-marker"        // count=2, non-door bilateral anchor (window/stair landing/feature panel)
+  | "single";              // count=1, the safe default — no qualifying anchor present
+
 export interface DesignedScene {
   slug: string;
   /** Back-compat field; the consumer does not read it. Derived from scene
@@ -46,6 +55,9 @@ export interface DesignedScene {
   mode: "minimalist" | "homey";
   prompt: string;
   variantPosition: number;
+  /** Present when the scene declared (or was coerced into) an arrangement
+   *  strategy. Surfaced for debug logs; downstream consumers may ignore it. */
+  arrangementStrategy?: ArrangementStrategy;
 }
 
 export interface SceneDesignerInput {
@@ -202,6 +214,49 @@ export function classifyCategory(text: string): LightingCategory {
   return "pendant";
 }
 
+/**
+ * True iff the text names a LIGHTING product. `classifyCategory` can't answer
+ * this (it returns "pendant" for everything non-lighting), so this is the
+ * reliable branch test used to pick the lighting vs. general hero/lifestyle
+ * path. Curated for HIGH PRECISION — a non-lighting product wrongly tagged as
+ * lighting gets bulb-mirroring prompt language, which is worse than the reverse.
+ * So it deliberately avoids ambiguous bare words ("light" → lightweight,
+ * "pendant" → necklace pendant, "clamp" → lamp) and requires unambiguous
+ * lighting terms or "<mount> light/lamp" phrases. The Chinese 灯 radical appears
+ * in essentially every CN lighting title and is decisive on its own.
+ */
+export function isLightingProduct(text: string): boolean {
+  const t = ` ${text.toLowerCase().replace(/[_/>|]+/g, " ")} `;
+  if (t.includes("灯")) return true;
+  if (/\b(sconces?|chandeliers?|torchieres?|luminaires?|downlights?|spotlights?|lighting)\b/.test(t)) return true;
+  if (/\blamps?\b/.test(t)) return true; // \b avoids "clamp"
+  if (/\bbulbs?\b/.test(t)) return true;
+  // "<mount> light(s)" — avoids bare "light" and the jewellery sense of "pendant".
+  if (/\b(ceiling|wall|floor|table|desk|pendant|hanging|vanity|night|string|led|step|stair|path|garden|porch|landscape|accent|reading|bedside)[- ]light(s|ing)?\b/.test(t)) return true;
+  if (/\b(pendant|hanging|floor|table|desk|wall|reading|bedside)[- ]lamps?\b/.test(t)) return true;
+  if (/\bflush[- ]?mount/.test(t)) return true;
+  if (/\bwall lantern/.test(t)) return true;
+  return false;
+}
+
+/**
+ * Watch category test — wristwatches / chronographs / divers / dress watches.
+ * Mirrors isLightingProduct's shape (word-boundary regex over a normalised
+ * lowercase title). Used by buildHeroPrompt() to route to HERO_PROMPT_WATCH
+ * and (via the lifestyle skill recipe) signal the scene-overrides path.
+ *
+ * Conservative — only matches when the title clearly says it's a watch.
+ * Defaults to "not a watch" when there's no signal.
+ */
+export function isWatchProduct(text: string): boolean {
+  const t = ` ${text.toLowerCase().replace(/[_/>|]+/g, " ")} `;
+  // CN: 手表 (wristwatch) / 腕表 (wristwatch) — decisive. Bare 表 is too
+  // generic (it also means "table" / "form") so we don't match it alone.
+  if (t.includes("手表") || t.includes("腕表")) return true;
+  if (/\b(watches?|wristwatch(es)?|chronographs?|timepieces?)\b/.test(t)) return true;
+  return false;
+}
+
 /** Coarse metal finish of the product, from its title. */
 function detectFinish(title: string): string | null {
   const t = title.toLowerCase();
@@ -266,6 +321,38 @@ PRODUCT FOCUS — CRITICAL: The lighting fixture shown in the reference image is
 const CEILING_ANGLE_HINT = `
 - CAMERA HEIGHT: Use the camera height the scene description implies (close, mid-room, doorway, etc.) — do not anchor every shot at the same standing eye-level. Vary subtly across the batch.`;
 
+/**
+ * Verbatim positive + negative exemplars from the user's actual feedback on a
+ * multi-unit batch. Appended to every multi-unit scene prompt as the last text
+ * the image model reads — so the user's rubric carries recency weight against
+ * the image model's tendency to "plop" extra fixtures. Single-unit scenes do
+ * not need this; PRODUCT_FOCUS_DIRECTIVE already handles them.
+ *
+ * Hard rules embedded in the prose (do not soften without user sign-off):
+ *   • count=1 is the SAFE DEFAULT — emit it whenever no bilateral or linear anchor exists.
+ *   • count=4+ is BANNED.
+ *   • "3-on-one-side, 1-on-the-other" is BANNED.
+ *   • Every fixture must have a stated JOB (mark entry / light path / accent feature / anchor corner).
+ */
+export const ARRANGEMENT_EXEMPLAR_BANK = `
+ARRANGEMENT EXEMPLAR BANK — these are the only arrangement patterns approved for this batch; match one positive exemplar exactly. If the scene fits none, render a single fixture.
+
+POSITIVE EXEMPLARS (emulate these):
+1. SYMMETRIC FLANK — Two identical sconces flanking an arched glass front door, one on each side, equidistant from the centerline, mirror-image, mounted at exactly the same height. The door is a bilateral architectural centerline; each fixture has the job of marking the entry. unitCount=2.
+2. LINEAR SEQUENCE — Three sconces in an evenly-spaced row along a covered brick patio wall, all at the same mounting height, repeating along an unbroken plane. The long wall is a continuous linear anchor; the repetition reads as purposeful zonal lighting. unitCount=3.
+3. LINEAR SEQUENCE (PATH-MARKING) — Three caged lanterns evenly spaced along a stucco garden wall at dusk, marching alongside a pathway. A path is a directional anchor; each fixture has the job of lighting the path. unitCount=3.
+4. PAIRED MARKER — Two sconces flanking a stair landing window, mirror-image, equidistant from the window centerline, same mounting height. The window is a bilateral non-door anchor; the pair frames it as a feature. unitCount=2.
+5. SINGLE (THE SAFE DEFAULT) — One sconce centered above a powder-room vanity mirror. No linear plane and no bilateral pair-anchor is present; a single fixture is the correct lighting-designer call. Better one beautiful unit than a forced multi. unitCount=1.
+
+NEGATIVE EXEMPLARS (these were just generated and REJECTED — never repeat):
+N1. Three sconces on a fence-and-gate-column where only a flanking pair on each side of the gate, or a single fixture on the center column, would make sense. Failure: feels "plopped"; the third fixture has no job.
+N2. Three sconces crammed between a window and a door on a brick wall in an asymmetric arrangement (one isolated, two paired). Failure: visually broken; no centerline and no linear anchor.
+N3. Three sconces split across three unrelated surfaces — one on a corner pillar, one on a far wall, one on a near wall. Failure: no coherent reason; three independent placements masquerading as a set.
+N4. ANY 3-on-one-side and 1-on-the-other arrangement. HARD BAN — count mismatched across a centerline always fails.
+N5. ANY count=4 or higher, OR any random clustering with no architectural anchor (long uninterrupted plane, bilateral centerline, or repeated structural element). HARD BAN.
+
+LIGHTING-DESIGNER VOICE: every fixture in the frame must have a stated job — mark an entry, light a path, accent a feature, anchor a corner. Never include a fixture "to fill space."`;
+
 /** Append the unit-count instruction (multi-unit only) and the product-focus
  *  directive to the curated scene description.
  *
@@ -279,20 +366,21 @@ function buildPrompt(
   slotUnitCount?: number,
   isCeilingMount?: boolean,
 ): string {
-  let body = description;
-  if (typeof slotUnitCount === "number") {
-    if (slotUnitCount > 1) {
-      body = `${description} Show ${slotUnitCount} identical units of the fixture, arranged naturally within the scene.`;
-    }
-    // slotUnitCount === 1 → no unit-count clause (single-unit).
-  } else if (input.unitCountVaried) {
-    body = `${description} Show a small matching cluster of identical units of the fixture — between two and four — arranged naturally within the scene.`;
-  } else if (input.unitCount > 1) {
-    body = `${description} Show ${input.unitCount} identical units of the fixture, arranged naturally within the scene.`;
-  }
+  // Library scenes have no per-scene strategy declared, so resolve the
+  // arrangement from the slot/uniform inputs — same discipline as the
+  // override path. `unitCountVaried` here collapses to SINGLE (no anchor →
+  // safe default per the user's rubric).
+  const { strategy, unitCount } = resolveArrangement(
+    undefined,
+    input,
+    slotUnitCount,
+  );
+  const clause = arrangementClause(strategy, undefined, unitCount);
+  const body = clause ? `${description}${clause}` : description;
+  const bankTail = unitCount > 1 ? `\n${ARRANGEMENT_EXEMPLAR_BANK}` : "";
   const tail = isCeilingMount
-    ? `${PRODUCT_FOCUS_DIRECTIVE}${CEILING_ANGLE_HINT}`
-    : PRODUCT_FOCUS_DIRECTIVE;
+    ? `${PRODUCT_FOCUS_DIRECTIVE}${CEILING_ANGLE_HINT}${bankTail}`
+    : `${PRODUCT_FOCUS_DIRECTIVE}${bankTail}`;
   return `${body}${tail}`;
 }
 
@@ -413,30 +501,132 @@ function isLightingCategory(v: unknown): v is LightingCategory {
 }
 
 /**
- * Append only the unit-count instruction (multi-unit staging). Unlike
- * `buildPrompt()` this never appends `PRODUCT_FOCUS_DIRECTIVE`: Claude-authored
+ * Map an arrangement strategy + anchor + unit count to concrete spatial
+ * language the image model can act on. Returns the clause appended to the
+ * scene prompt (empty string for `single`, which adds nothing).
+ */
+function arrangementClause(
+  strategy: ArrangementStrategy,
+  anchor: string | undefined,
+  unitCount: number,
+): string {
+  const a = anchor && anchor.trim() ? anchor.trim() : null;
+  switch (strategy) {
+    case "symmetric-flanking": {
+      const anchorPhrase = a ?? "the bilateral architectural centerline";
+      return ` Show exactly 2 identical units of the fixture mirror-flanking ${anchorPhrase}: one on each side, equidistant from the centerline, mounted at exactly the same height, true mirror-image of each other. Heights match exactly. Distances from the centerline match exactly. No third unit anywhere in the frame.`;
+    }
+    case "paired-marker": {
+      const anchorPhrase = a ?? "the bilateral feature";
+      return ` Show exactly 2 identical units of the fixture marking ${anchorPhrase}: one on each side, equidistant from the centerline, mounted at the same height, mirror-image of each other — a deliberate paired marker, not a random pair. No third unit anywhere in the frame.`;
+    }
+    case "linear-sequence": {
+      const anchorPhrase = a ?? "the long uninterrupted architectural plane";
+      const n = unitCount >= 2 ? Math.min(unitCount, 3) : 3;
+      return ` Show exactly ${n} identical units of the fixture in a linear sequence along ${anchorPhrase}: evenly spaced at equal intervals, all mounted at exactly the same height — a purposeful repeating element that marks the run as zonal lighting, not a random scatter. No clustering, no asymmetric grouping.`;
+    }
+    case "single":
+    default:
+      return "";
+  }
+}
+
+/**
+ * Resolve the per-scene strategy + unit count from override metadata. When
+ * the author declared a strategy, use it; otherwise fall back to the legacy
+ * slot/uniform unit-count behavior — but `unitCountVaried` is REINTERPRETED
+ * as SINGLE (not a 2-4 cluster), because the user's rubric forbids forced
+ * multi-unit without a declared architectural anchor.
+ *
+ * Safety clamps:
+ *   • Any unitCount >= 4 is rewritten to 1 (HARD BAN per user rubric).
+ *   • A non-single strategy with no anchor falls through to single.
+ */
+function resolveArrangement(
+  scene: OverrideScene | undefined,
+  input: SceneDesignerInput,
+  slotUnitCount: number | undefined,
+): { strategy: ArrangementStrategy; anchor?: string; unitCount: number } {
+  if (scene?.strategy) {
+    const s = scene.strategy;
+    if (s === "single") return { strategy: "single", unitCount: 1 };
+    if (!scene.anchor || !scene.anchor.trim()) {
+      console.warn(
+        `  scene-designer: scene declared strategy=${s} but no anchor — coercing to single-unit.`,
+      );
+      return { strategy: "single", unitCount: 1 };
+    }
+    let declared =
+      typeof scene.unitCount === "number" && scene.unitCount > 0
+        ? scene.unitCount
+        : s === "linear-sequence"
+          ? 3
+          : 2;
+    if (declared >= 4) {
+      console.warn(
+        `  scene-designer: scene declared unitCount=${declared} which violates the count=4+ HARD BAN — coercing to single-unit.`,
+      );
+      return { strategy: "single", unitCount: 1 };
+    }
+    return { strategy: s, anchor: scene.anchor, unitCount: declared };
+  }
+  if (typeof slotUnitCount === "number") {
+    if (slotUnitCount >= 4) {
+      console.warn(
+        `  scene-designer: slot requested unitCount=${slotUnitCount} which violates the count=4+ HARD BAN — coercing to single-unit.`,
+      );
+      return { strategy: "single", unitCount: 1 };
+    }
+    return slotUnitCount > 1
+      ? {
+          strategy: slotUnitCount === 3 ? "linear-sequence" : "symmetric-flanking",
+          anchor: undefined,
+          unitCount: slotUnitCount,
+        }
+      : { strategy: "single", unitCount: 1 };
+  }
+  if (input.unitCountVaried) {
+    // Per user rubric: forced multi-unit without a declared anchor is banned.
+    // The override author is expected to declare a real strategy when
+    // multi-unit is desired.
+    return { strategy: "single", unitCount: 1 };
+  }
+  if (input.unitCount > 1) {
+    if (input.unitCount >= 4) {
+      return { strategy: "single", unitCount: 1 };
+    }
+    return {
+      strategy: input.unitCount === 3 ? "linear-sequence" : "symmetric-flanking",
+      unitCount: input.unitCount,
+    };
+  }
+  return { strategy: "single", unitCount: 1 };
+}
+
+/**
+ * Append the strategy-driven arrangement clause to a Claude-authored override
+ * prompt. Unlike `buildPrompt()` this never appends `PRODUCT_FOCUS_DIRECTIVE`:
  * override prompts already carry their own product-lock and prominence
  * language, and the directive's "no other lighting" clause conflicts with the
- * deliberate layered second light source those prompts use.
+ * deliberate layered second light source those prompts use. The exemplar bank
+ * IS appended to multi-unit prompts as recency-weighted guidance.
  */
 function applyUnitCount(
   prompt: string,
   input: SceneDesignerInput,
   slotUnitCount?: number,
-): string {
-  if (typeof slotUnitCount === "number") {
-    if (slotUnitCount > 1) {
-      return `${prompt} Show ${slotUnitCount} identical units of the fixture, arranged naturally within the scene.`;
-    }
-    return prompt; // explicit single-unit
-  }
-  if (input.unitCountVaried) {
-    return `${prompt} Show a small matching cluster of identical units of the fixture — between two and four — arranged naturally within the scene.`;
-  }
-  if (input.unitCount > 1) {
-    return `${prompt} Show ${input.unitCount} identical units of the fixture, arranged naturally within the scene.`;
-  }
-  return prompt;
+  scene?: OverrideScene,
+): { prompt: string; strategy: ArrangementStrategy } {
+  const { strategy, anchor, unitCount } = resolveArrangement(
+    scene,
+    input,
+    slotUnitCount,
+  );
+  const clause = arrangementClause(strategy, anchor, unitCount);
+  const body = clause ? `${prompt}${clause}` : prompt;
+  const out =
+    unitCount > 1 ? `${body}\n${ARRANGEMENT_EXEMPLAR_BANK}` : body;
+  return { prompt: out, strategy };
 }
 
 interface OverrideScene {
@@ -445,6 +635,20 @@ interface OverrideScene {
   prompt?: string;
   /** 1-based slot index (1..6); maps to a `references[]` entry. */
   variantSlot?: number;
+  /** The architectural element the fixture(s) attach to — "arched front
+   *  door", "long covered-porch brick wall", "pair of stone pilasters", etc.
+   *  Required for any non-single strategy; absent → coerced to SINGLE. */
+  anchor?: string;
+  /** Which of the four legitimate arrangement strategies this scene uses.
+   *  Omitting it (or setting it to "single") forces single-unit rendering. */
+  strategy?: ArrangementStrategy;
+  /** Unit count for THIS scene. Must agree with `strategy`: symmetric-flanking
+   *  and paired-marker imply 2, linear-sequence implies 3, single implies 1.
+   *  Any value >= 4 is clamped to 1 (HARD BAN per user rubric). */
+  unitCount?: number;
+  /** 1-sentence designer rationale for choosing this strategy. Surfaced in
+   *  dry-run logs for the human author; not embedded in the prompt. */
+  justification?: string;
 }
 
 /**
@@ -485,25 +689,43 @@ function loadOverride(input: SceneDesignerInput): SceneDesignerResult | null {
     return null;
   }
 
+  // The override drives the scene COUNT now (not the variant-slot count): emit
+  // exactly the override's scenes, clamped to 6–8 (general-products rule). If an
+  // override carries <6 scenes (e.g. older 3-scene lighting overrides) we pad up
+  // to 6 by cycling so we never regress below the old fixed-6 behaviour; >8 is
+  // truncated. References are cycled when scenes outnumber variant slots.
   const refs = input.references;
-  const scenes: DesignedScene[] = refs.map((_, i) => {
+  const targetCount = Math.min(Math.max(valid.length, 6), 8);
+  const scenes: DesignedScene[] = Array.from({ length: targetCount }, (_, i) => {
     const padded = i >= valid.length;
-    const src = valid[Math.min(i, valid.length - 1)];
-    // variantSlot is 1-based; a missing/out-of-range value maps positionally.
+    const src = valid[i % valid.length];
+    // variantSlot is 1-based into refs; a missing/out-of-range value cycles.
     const slotIdx =
       typeof src.variantSlot === "number" &&
       src.variantSlot >= 1 &&
       src.variantSlot <= refs.length
         ? src.variantSlot - 1
-        : i;
+        : i % refs.length;
     const baseSlug =
       src.slug && src.slug.trim() ? src.slug.trim() : `override-${i + 1}`;
-    const slotRef = refs[slotIdx] ?? refs[i];
+    const slotRef = refs[slotIdx] ?? refs[i % refs.length];
+    if (src.justification && src.strategy) {
+      console.log(
+        `  scene-designer: scene ${i + 1} strategy=${src.strategy} anchor="${src.anchor ?? "(none)"}" — ${src.justification}`,
+      );
+    }
+    const applied = applyUnitCount(
+      src.prompt!.trim(),
+      input,
+      slotRef?.unitCount,
+      src,
+    );
     return {
       slug: padded ? `${baseSlug}-pad${i}` : baseSlug,
       mode: src.mode === "homey" ? "homey" : "minimalist",
-      prompt: applyUnitCount(src.prompt!.trim(), input, slotRef?.unitCount),
+      prompt: applied.prompt,
       variantPosition: slotRef.variantPosition,
+      arrangementStrategy: applied.strategy,
     };
   });
 

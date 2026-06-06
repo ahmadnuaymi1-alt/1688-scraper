@@ -384,13 +384,24 @@ const CANONICAL_UNITS: Record<string, string> = {
  * Punctuation and numbers are untouched, so "2,000 mAh" → "2,000 mAh" and
  * "USB-C" → "USB-C" (the regex matches alpha runs, leaving the hyphen).
  */
-function toTitleCasePreservingUnits(input: string | null | undefined): string {
+/** Short connector words that stay lowercase MID-phrase (never as the first
+ *  word) — so values read like natural catalog copy: "Antique with Black
+ *  Lining", not "Antique With Black Lining". */
+const LOWERCASE_CONNECTORS = new Set([
+  "with", "and", "or", "of", "the", "a", "an", "for", "to", "in", "on", "by", "at",
+]);
+
+export function toTitleCasePreservingUnits(input: string | null | undefined): string {
   if (!input) return input ?? "";
+  let firstAlphaSeen = false;
   return input.replace(/[a-zA-Z][a-zA-Z0-9]*/g, (token) => {
+    const isFirst = !firstAlphaSeen;
+    firstAlphaSeen = true;
     if (/^[A-Z][A-Z0-9]+$/.test(token)) return token;
     if (/[a-z][A-Z]/.test(token)) return token;
     const canonical = CANONICAL_UNITS[token.toLowerCase()];
     if (canonical) return canonical;
+    if (!isFirst && LOWERCASE_CONNECTORS.has(token.toLowerCase())) return token.toLowerCase();
     return token[0].toUpperCase() + token.slice(1).toLowerCase();
   });
 }

@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { prisma } from "@/lib/db";
 import { requireUser } from "@/lib/auth";
 import { autoFillVariantImages } from "@/services/variant-image-autofill.service";
+import { rederiveVariantFeaturedImages } from "@/services/variant-image-rederive.service";
 
 export async function POST(
   _req: NextRequest,
@@ -28,12 +29,18 @@ export async function POST(
 
   try {
     const result = await autoFillVariantImages(id);
+    // autofill matches on shared option slots with a low threshold and isn't
+    // size-aware, so it can fill a variant with a wrong-size sibling's image.
+    // Follow up with the size-aware do-no-harm re-derivation, which corrects any
+    // such fill (only ever repointing to a strictly-better finish+size match).
+    const rederived = await rederiveVariantFeaturedImages(id, { apply: true });
     return NextResponse.json({
       ok: true,
       filled: result.filled,
       skippedNoMatch: result.skippedNoMatch,
       alreadyFilled: result.alreadyFilled,
       threshold: result.threshold,
+      rederived: rederived.changes.length,
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Autofill failed";

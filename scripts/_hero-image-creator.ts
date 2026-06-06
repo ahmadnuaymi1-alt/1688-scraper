@@ -21,8 +21,13 @@ import os from "node:os";
 import { Buffer } from "node:buffer";
 import { PrismaClient } from "@prisma/client";
 import { createClient } from "@supabase/supabase-js";
-import { HERO_PROMPT } from "../src/lib/hero/prompt";
 import { higgsfieldUpload, higgsfieldGenerate, makeLimit } from "./_higgsfield-cli";
+import {
+  buildHeroPrompt,
+  verifyAndMaybeRegenerate,
+  printFailedVerifications,
+  type FailedVerification,
+} from "../src/lib/hero/verify";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 0) Lightweight .env.local loader — runs at module load.
@@ -169,30 +174,36 @@ async function downloadTo(url: string, dest: string): Promise<void> {
   fs.writeFileSync(dest, buf);
 }
 
-const HERO_PROMPT_ONE_LINE = HERO_PROMPT.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
-
 /**
  * Download the source ref → upload it + positioning template to Higgsfield →
  * fire `generate create nano_banana_2 --wait` → download the result PNG.
- * Returns the raw image bytes (caller handles Supabase upload + DB attach).
+ * Returns the raw image bytes + the local ref path (caller handles Supabase
+ * upload + DB attach, and uses refLocal as the source for the match check).
+ * Prompt is per-product: env override > hero-overrides/<id>.json > HERO_PROMPT.
  */
 async function higgsfieldRunHero(
   sourceUrl: string,
   refKey: string,
   templateUploadId: string,
-): Promise<Buffer> {
+  productId: string,
+  meta?: { title?: string; productType?: string | null },
+): Promise<{ buffer: Buffer; refLocal: string }> {
   // 1. Cache the reference image on disk (CLI uploads from local file).
   const refLocal = path.join(REF_CACHE_DIR, `${refKey}.png`);
   if (!fs.existsSync(refLocal)) await downloadTo(sourceUrl, refLocal);
   // 2. Upload the ref. Positioning template upload is shared across the whole
   //    run — passed in by the caller.
   const refUploadId = await higgsfieldUpload(refLocal);
-  // 3. Fire generation.
+  // 3. Fire generation. higgsfieldGenerate collapses the prompt's newlines.
+  //    title/type drive the lighting-vs-general prompt branch in buildHeroPrompt.
   const { imageBuffer } = await higgsfieldGenerate({
-    prompt: HERO_PROMPT_ONE_LINE,
+    prompt: buildHeroPrompt(productId, {
+      title: meta?.title,
+      productType: meta?.productType ?? undefined,
+    }),
     inputUploadIds: [refUploadId, templateUploadId],
   });
-  return imageBuffer;
+  return { buffer: imageBuffer, refLocal };
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -248,6 +259,11 @@ async function runModeA(productId: string, concurrency: number): Promise<void> {
   console.log(`Product: ${product.title.slice(0, 80)}`);
   console.log(`Variants (visible): ${product.variants.length}`);
 
+  // Heroes flagged by the Gemini source-match check (need per-product notes).
+  const failedVerification: FailedVerification[] = [];
+  const productTitle = product.title; // captured non-null for the nested processGroup closure
+  const productType = product.productType; // captured for the lighting-vs-general hero branch
+
   // ── Variantless branch ───────────────────────────────────────────────
   // If the user has explicitly removed all variants (or scrape returned 0),
   // there's no variant→image grouping to do. Generate ONE hero from the
@@ -284,7 +300,26 @@ async function runModeA(productId: string, concurrency: number): Promise<void> {
     const t0 = Date.now();
     try {
       const refKey = `${productId}__variantless`;
-      const buf = await higgsfieldRunHero(sourceUrl, refKey, templateUploadId);
+      const refLocal = path.join(REF_CACHE_DIR, `${refKey}.png`);
+      const outcome = await verifyAndMaybeRegenerate({
+        productId,
+        productTitle: product.title,
+        variantLabel: "(variantless)",
+        sourceImage: refLocal,
+        generate: async () =>
+          (await higgsfieldRunHero(sourceUrl, refKey, templateUploadId, productId, { title: productTitle, productType })).buffer,
+      });
+      const buf = outcome.buffer;
+      if (!outcome.passed && outcome.finalResult) {
+        failedVerification.push({
+          productId,
+          productTitle: product.title,
+          variantLabel: "(variantless)",
+          attempts: outcome.attempts,
+          result: outcome.finalResult,
+          reviewUrl: `http://localhost:3000/review/${productId}`,
+        });
+      }
       const storagePath = `heroes/${productId}/variantless.png`;
       const publicUrl = await uploadToSupabase(buf, storagePath);
       await getPrisma().productImage.create({
@@ -306,6 +341,7 @@ async function runModeA(productId: string, concurrency: number): Promise<void> {
       const msg = err instanceof Error ? err.message : String(err);
       console.error(`  variantless → FAIL — ${msg}`);
     }
+    printFailedVerifications(failedVerification);
     return;
   }
 
@@ -434,7 +470,26 @@ async function runModeA(productId: string, concurrency: number): Promise<void> {
     try {
       const groupKey = group.sourceKey.replace(/[^A-Za-z0-9_-]/g, "_").slice(0, 80);
       const refKey = `${productId}__${groupKey}`;
-      const buf = await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId);
+      const refLocal = path.join(REF_CACHE_DIR, `${refKey}.png`);
+      const outcome = await verifyAndMaybeRegenerate({
+        productId,
+        productTitle,
+        variantLabel: colorLabel,
+        sourceImage: refLocal,
+        generate: async () =>
+          (await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId, productId, { title: productTitle, productType })).buffer,
+      });
+      const buf = outcome.buffer;
+      if (!outcome.passed && outcome.finalResult) {
+        failedVerification.push({
+          productId,
+          productTitle,
+          variantLabel: colorLabel,
+          attempts: outcome.attempts,
+          result: outcome.finalResult,
+          reviewUrl: `http://localhost:3000/review/${productId}`,
+        });
+      }
       const storagePath = `heroes/${productId}/${groupKey}.png`;
       const publicUrl = await uploadToSupabase(buf, storagePath);
 
@@ -490,6 +545,7 @@ async function runModeA(productId: string, concurrency: number): Promise<void> {
   );
   console.log(`Wall time: ${totalElapsed}s   Cost: ~$${cost}`);
   console.log(`Review: /review/${productId}`);
+  printFailedVerifications(failedVerification);
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -661,7 +717,19 @@ async function runModeB(
         const variantStart = Date.now();
         try {
           const refKey = `shopify__${shopifyProductId}__${groupKey}`;
-          const buf = await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId);
+          const refLocal = path.join(REF_CACHE_DIR, `${refKey}.png`);
+          const outcome = await verifyAndMaybeRegenerate({
+            productId: shopifyProductId ?? "",
+            productTitle: product.title,
+            variantLabel: repVariant.title,
+            sourceImage: refLocal,
+            generate: async () =>
+              (await higgsfieldRunHero(group.sourceUrl, refKey, templateUploadId, shopifyProductId ?? "", { title: product.title })).buffer,
+          });
+          if (!outcome.passed && outcome.finalResult) {
+            console.log(`  [verify] ${repVariant.title.slice(0, 40)} flagged: ${outcome.finalResult.summary.slice(0, 100)}`);
+          }
+          const buf = outcome.buffer;
           const storagePath = `heroes/shopify/${shopifyProductId}/${groupKey}.png`;
           const publicUrl = await uploadToSupabase(buf, storagePath);
           const elapsed = ((Date.now() - variantStart) / 1000).toFixed(1);

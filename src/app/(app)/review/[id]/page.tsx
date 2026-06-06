@@ -12,6 +12,7 @@ import type { GalleryImage } from "@/components/review/image-gallery";
 import type { AiPricingRationale } from "@/types/pricing-rationale";
 import { getCurrentUser } from "@/lib/auth";
 import { UploadToShopifyButton } from "@/components/review/upload-to-shopify-button";
+import { computeLandedFromRawPayload } from "@/lib/pricing/landed-cost";
 
 function parseOptionNames(raw: string | null): string[] {
   if (!raw) return [];
@@ -54,7 +55,7 @@ export default async function ReviewProductPage({ params }: PageProps) {
       include: {
         variants: { orderBy: { position: "asc" } },
         images: { orderBy: { position: "asc" } },
-        scrapeJob: { select: { options: true, sourceUrl: true } },
+        scrapeJob: { select: { options: true, sourceUrl: true, createdAt: true } },
       },
     }),
   ]);
@@ -65,17 +66,24 @@ export default async function ReviewProductPage({ params }: PageProps) {
 
   // Prev/next within the same user's products, plus connections — all three
   // queries can now run in parallel since they only depend on the product's
-  // userId / createdAt which we already have.
+  // userId / scrapeJob.createdAt which we already have.
+  //
+  // Adjacency is keyed off ScrapeJob.createdAt (when the URL was enqueued), NOT
+  // Product.createdAt (when Phase 1 finished writing the product). The imports
+  // list orders by ScrapeJob.createdAt, and a product's own createdAt drifts out
+  // of that order because scrape duration / retries / rescrapes vary — so keying
+  // nav off Product.createdAt would land on a non-adjacent product.
   const navScope = { userId: product.userId };
+  const navAnchor = product.scrapeJob?.createdAt ?? product.createdAt;
   const [newerProduct, olderProduct, connectionRows] = await Promise.all([
     prisma.product.findFirst({
-      where: { ...navScope, createdAt: { gt: product.createdAt } },
-      orderBy: { createdAt: "asc" },
+      where: { ...navScope, scrapeJob: { createdAt: { gt: navAnchor } } },
+      orderBy: { scrapeJob: { createdAt: "asc" } },
       select: { id: true },
     }),
     prisma.product.findFirst({
-      where: { ...navScope, createdAt: { lt: product.createdAt } },
-      orderBy: { createdAt: "desc" },
+      where: { ...navScope, scrapeJob: { createdAt: { lt: navAnchor } } },
+      orderBy: { scrapeJob: { createdAt: "desc" } },
       select: { id: true },
     }),
     user
@@ -126,6 +134,12 @@ export default async function ReviewProductPage({ params }: PageProps) {
     keep: (img as { keep?: boolean }).keep ?? false,
   }));
 
+  // Compute landed cost from rawPayload (bypasses the currency-corrupted
+  // Variant.supplierCost). Same value applies to every variant since landed
+  // is per-product (supplier wholesale + weight-bracket shipping). Null when
+  // rawPayload is missing or unparseable — variant table renders "—".
+  const landed = computeLandedFromRawPayload(product.rawPayload);
+
   const data: ProductEditorData = {
     id: product.id,
     title: product.title,
@@ -145,6 +159,7 @@ export default async function ReviewProductPage({ params }: PageProps) {
     variants,
     images,
     connections,
+    landedCostUSD: landed?.landedUSD ?? null,
     newerProductId: newerProduct?.id ?? null,
     olderProductId: olderProduct?.id ?? null,
   };

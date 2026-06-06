@@ -1,0 +1,38 @@
+{
+  "productId": "cmpspad7h0096w24cnrxdgycr",
+  "productTitle": "Imitation Cloud Stone Rectangular Waterproof LED Outdoor Wall Sconce",
+  "authoredBy": "in-chat patch — secondary scrub of fixture-adjacent vocabulary in scene/palette context (Cloud Stone Rectangular fidelity pass v2)",
+  "authoredAt": "2026-05-31T17:15:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "cloud-stone-pivot-door-symmetric",
+      "mode": "homey",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "a tall pivoting matte-walnut wood front door on a smooth white-plaster contemporary home",
+      "justification": "A tall pivot front door on smooth white plaster is the textbook bilateral entry anchor; the stone-faced rectangular slab sits perfectly on the flanking plaster planes at door-handle height and reads as architect-specified entry lighting.",
+      "prompt": "An exterior portrait of a contemporary architect-designed residence's front entry photographed at standing eye-level on a 50mm lens in a centered 1:1 composition, late twilight. A tall pivoting matte-walnut wood front door sits centered in a smooth white-plaster facade with crisp shadow-line reveals at the head and jambs. A single low broad concrete planter with a sculptural olive tree sits offset to the left of the door on the polished basalt landing. A pair of clipped sago palms in raw concrete cubes anchor the lower edges of the frame. A block of honed grey basalt forms the single entry step. The plaster facade extends cleanly out of frame on both sides. Inside the door, a faint warm glow from a distant interior reads through the narrow side-light. Sky overhead is the soft cobalt-to-dusty-rose gradient of late dusk. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: warm white plaster, matte walnut, honed basalt grey, cream travertine, deep olive green, cobalt twilight. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "cloud-stone-arched-chimney-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the two stone pilasters flanking a single tall arched window above a stucco fireplace chimney on an exterior wall",
+      "justification": "An arched feature window centered above a stucco chimney mass is a bilateral non-door anchor; flanking the pilasters with two stone-faced sconces frames the window as a feature wall and ties the cloud-stone slabs back to the chimney masonry vocabulary.",
+      "prompt": "An exterior vignette of a Mediterranean-modern stucco residence's tall fireplace chimney wall photographed at standing eye-level on a 35mm lens, slightly off-center thirds composition, golden hour. The wall is warm hand-troweled cream stucco with subtle hand-float texture. A single tall arched divided-light window sits centered high on the chimney mass, framed by two slim limewashed-stone pilasters that run from grade up to the window's spring line. A reclaimed terracotta urn planted with a single trailing rosemary sits at the base of the chimney to the left; a low weathered teak garden bench with a folded oatmeal linen throw sits below the window on a bed of pea-gravel. A row of clipped lavender hugs the foundation. Inside the arched window, glowing parchment-shade light from an interior fixture warm-ambers through the panes. Soft golden late-day light rakes from the right, throwing the stucco texture into gentle relief. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: cream stucco, limewashed stone, terracotta, weathered teak, dusty lavender purple, deep rosemary green. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "cloud-stone-infinity-pool-linear",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "strategy": "linear-sequence",
+      "anchor": "the long board-formed concrete retaining wall edging an infinity pool deck at dusk",
+      "unitCount": 3,
+      "justification": "A long uninterrupted board-formed retaining wall along an infinity pool deck is the canonical linear anchor; three stone-faced slabs at equal intervals at matching mounting height read as zonal architectural accent lighting, not random placement.",
+      "prompt": "A hillside modern infinity pool deck photographed at standing eye-level on a 28mm lens in a deep one-point perspective looking down the length of the deck, blue hour. The right side of the frame is a long unbroken board-formed exposed concrete retaining wall running into the distance, its horizontal form lines clearly visible, capped with a clean honed-basalt coping. The deck is large-format honed-travertine pavers, dry. To the left, the infinity edge of the pool drops away into a distant valley view, the still water reflecting the deep cobalt sky. A single low-slung teak chaise with a folded oatmeal linen throw and a small honed-basalt side table holding a stoneware tumbler sit midway down the wall. A row of slim-trunked Italian cypress in raw concrete cube planters stands behind the retaining wall, silhouetted against the dusk sky. The far end of the deck frames a glowing glass-box pavilion with warm interior light spilling across the travertine at the vanishing point. Sky above the open side is deep cobalt twilight bleeding to dusty mauve at the horizon. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: board-formed concrete grey, honed travertine cream, matte black, warm cream, deep cypress green, cobalt twilight. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

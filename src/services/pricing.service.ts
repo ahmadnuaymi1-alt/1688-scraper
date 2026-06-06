@@ -60,9 +60,25 @@ export function roundPrice(
       const rounded = Math.max(9, Math.round((n - 9) / 10) * 10 + 9);
       return rounded.toFixed(2);
     }
+    case "4or9": {
+      // Round to the nearest whole dollar ending in 4 or 9 — the two $5-apart
+      // psychological breakpoints (…, 24, 29, 34, 39, …). e.g. 296.95 → 299,
+      // 471.95 → 474, 23 → 24, 27 → 29. Floor at 4 so tiny prices snap up.
+      const rounded = Math.max(4, Math.round((n + 1) / 5) * 5 - 1);
+      return rounded.toFixed(2);
+    }
     default:
       return n.toFixed(2);
   }
+}
+
+/**
+ * Smallest whole dollar ending in 4 or 9 that is >= n. Used to snap a hard
+ * floor UP to a clean $4/$9 breakpoint — rounding to the NEAREST breakpoint
+ * could land just below the floor, so the floor clamp needs a ceil variant.
+ */
+function roundUpTo4or9(n: number): number {
+  return Math.max(4, Math.ceil((n + 1) / 5) * 5 - 1);
 }
 
 /**
@@ -106,7 +122,9 @@ function dbProductToScrapedShape(
     optionNames: [],
     variants: scrapedVariants,
     images: [],
-    rawPayload: null,
+    // Pass the rawPayload string through so suggestPricingStrategy() can
+    // compute landed cost from the original CNY-tagged supplier wholesale.
+    rawPayload: product.rawPayload,
   };
 }
 
@@ -161,9 +179,10 @@ function findTier(
  *
  * Strategy:
  *   - newAnchor = tier.price × ScrapeOptions.retailPriceMultiplier
- *   - newCompareAt = compareAtTier.price × ScrapeOptions.compareAtPriceMultiplier
- *     (omitted entirely when ScrapeOptions.omitCompareAtPrice is true OR when
- *      no compareAt tier is in the ladder)
+ *   - Final prices are ALWAYS rounded to the nearest $4/$9 breakpoint and a
+ *     compare-at price is NEVER set (any existing compareAt is cleared). This
+ *     is a user standing rule for AI-suggested prices and is enforced here
+ *     regardless of options.priceRounding / options.omitCompareAtPrice.
  *   - Variants that had a price differential from the original supplier keep
  *     their relative spread — i.e. the second variant scales by the same ratio
  *     as the first.
@@ -199,10 +218,6 @@ export async function applyPricingToVariants(
   if (!chosenTier) {
     throw new Error(`applyPricingToVariants: tier "${tier}" not found in ladder`);
   }
-  const compareAtTier = options.omitCompareAtPrice
-    ? null
-    : findTier(rationale, "compareAt");
-
   const variants = await prisma.variant.findMany({
     where: { productId },
     orderBy: { position: "asc" },
@@ -212,12 +227,12 @@ export async function applyPricingToVariants(
   const retailMul = Number.isFinite(options.retailPriceMultiplier)
     ? options.retailPriceMultiplier
     : 1;
-  const compareMul = Number.isFinite(options.compareAtPriceMultiplier)
-    ? options.compareAtPriceMultiplier
-    : 1;
 
   const newAnchor = chosenTier.price * retailMul;
-  const newCompareAt = compareAtTier ? compareAtTier.price * compareMul : null;
+  // AI-suggested pricing NEVER sets a compare-at price (user's standing rule),
+  // so compareAt is always null regardless of options — and any existing
+  // compareAtPrice on a variant is cleared by the write below.
+  const newCompareAt: number | null = null;
 
   // Per-variant pricing: when the LLM said variants differ enough to warrant
   // tiered pricing (e.g. small / medium / large), build a position → multiplier
@@ -225,6 +240,7 @@ export async function applyPricingToVariants(
   // Variants not assigned to any tier (or all variants when mode === "uniform"
   // or perVariantPricing is absent) get multiplier 1.0 — the legacy behavior.
   const pvp = rationale.perVariantPricing;
+  const isTiered = pvp?.mode === "tiered";
   const multByPosition = new Map<number, number>();
   if (pvp?.mode === "tiered" && Array.isArray(pvp.tiers)) {
     for (const tier of pvp.tiers) {
@@ -241,21 +257,34 @@ export async function applyPricingToVariants(
   const ratio = useRatio ? newAnchor / baseline : 0;
   const compareRatio = useRatio && newCompareAt !== null ? newCompareAt / baseline : 0;
 
+  // Per-variant hard 2x-landed floor. The base/launch price already clears this,
+  // but a small-size multiplier (<1) could push the smallest variant under it —
+  // so EVERY variant is clamped up to it. Null when landed cost couldn't be
+  // computed (no rawPayload), in which case no per-variant clamp is applied.
+  const floorUSD = rationale.landedCostBreakdown?.floorUSD ?? null;
+
   const updates = variants.map((v) => {
     const tierMultiplier = multByPosition.get(v.position) ?? 1;
     const oldPrice = parseFloat(v.price);
     let priceNum: number;
-    if (useRatio && Number.isFinite(oldPrice) && oldPrice > 0) {
+    if (isTiered) {
+      // Tiered: the size multiplier ALREADY encodes the size differentiation,
+      // so apply it to the anchor directly. Do NOT also scale by the supplier
+      // price spread — doing both double-counts size and the largest variant
+      // overshoots the comp band (e.g. a $379 anchor ballooning to $689).
+      priceNum = newAnchor * tierMultiplier;
+    } else if (useRatio && Number.isFinite(oldPrice) && oldPrice > 0) {
+      // Uniform: preserve the supplier's relative price spread across variants.
       priceNum = oldPrice * ratio;
     } else {
       priceNum = newAnchor;
     }
-    // Apply per-variant tier multiplier on top of the uniform-ratio scaling.
-    // Effect: variants in a "Large" tier (mult > 1) come out more expensive
-    // than variants in a "Small" tier (mult < 1), at the same step on the
-    // price ladder.
-    priceNum *= tierMultiplier;
-    const newPrice = roundPrice(priceNum, options.priceRounding);
+    // Forced to the $4/$9 breakpoint (user's standing rule), then clamped up to
+    // the hard 2x-landed floor so NO variant — not even the smallest size — can
+    // ever fall below 2x cost.
+    let finalNum = parseFloat(roundPrice(priceNum, "4or9"));
+    if (floorUSD != null && finalNum < floorUSD) finalNum = roundUpTo4or9(floorUSD);
+    const newPrice = finalNum.toFixed(2);
 
     let newCompareAtStr: string | null = null;
     if (newCompareAt !== null) {

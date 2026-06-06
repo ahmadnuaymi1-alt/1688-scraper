@@ -1,0 +1,38 @@
+{
+  "productId": "cmpsp9ppg002uw24chlb1gvmx",
+  "productTitle": "Aluminum Alloy Black & Gold 2-Bead IP65 Waterproof Wall Lamp",
+  "authoredBy": "in-chat patch — stripped inline product description; reference-image-only anchor (2-Bead IP65 fidelity pass)",
+  "authoredAt": "2026-05-31T16:30:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "2bead-brutalist-pivot-symmetric",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "the slim narrow black-pivot front door of a Brutalist modern raw-concrete residence",
+      "justification": "A tall slim pivot door on a board-formed concrete face is a strict bilateral anchor — two compact matte-black 2-bead sconces mounted at equal heights flanking it read as deliberate entry-marking, and their tight rectangular footprint is sized correctly to a narrow flanking concrete pier.",
+      "prompt": "An exterior portrait of a Brutalist modern residence's front entry photographed at standing eye-level on a 50mm lens in a centered symmetrical 1:1 composition, late blue hour. A tall narrow matte-black pivot front door sits centered between two flanking piers of board-formed exposed raw concrete, the horizontal form-tie lines clearly visible. A single floating slab of honed basalt forms the entry step. To the left, a tall slim corten-steel planter holds one architectural sansevieria; to the right, a matching planter holds a single olive sapling. A linear strip of charcoal river pebbles runs along the foundation. Inside the door, a faint warm amber interior glow reads through a slim vertical sidelight slot. Sky above is deep cobalt twilight bleeding to dusty plum at the horizon. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: board-formed concrete grey, matte black, brushed brass, corten orange, deep olive green, cobalt twilight. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "2bead-courtyard-window-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the wide low horizontal courtyard window above a long Japanese-modern wooden bench",
+      "justification": "A wide horizontal window framed by a Japanese-modern bench below is a non-door bilateral feature that wants two markers — flanking the window centerline at matching heights frames it as the courtyard's focal wall and gives each fixture a clear job.",
+      "prompt": "An exterior vignette of a Japanese-modern walled courtyard photographed at standing eye-level on a 35mm lens, slightly off-center thirds composition, soft late afternoon. The back wall is creamy hand-troweled limewash plaster faintly mottled with age. A wide low horizontal picture window with a thin black-steel frame sits centered in the wall, glowing oatmeal linen behind the glass. Beneath it, a long low Japanese-modern bench of charred shou-sugi-ban cedar runs the full width, topped with a single folded indigo-dyed linen throw and a small unglazed stoneware tea bowl at one end. Flanking the bench at floor level, two square unglazed terracotta pots hold neatly clipped boxwood. A single mature Japanese maple in the courtyard corner casts soft dappled shadow across the plaster. Ground is small honed basalt pavers in a stack-bond pattern. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: creamy limewash, charred cedar black, matte black, brushed brass, indigo, deep maple green. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "2bead-corten-pool-deck-linear",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "strategy": "linear-sequence",
+      "anchor": "the long horizontal raised-corten-steel planter wall edging a designer-hotel pool deck (3 units)",
+      "unitCount": 3,
+      "justification": "A long unbroken corten-steel planter wall along a hotel pool deck is the textbook linear plane — three compact 2-bead fixtures at equal intervals at matching mounting heights read as zonal accent-marking down the planter rather than clutter.",
+      "prompt": "A designer-hotel pool deck photographed at standing eye-level on a 28mm lens in a deep one-point perspective running down the length of the deck, blue hour. The right side of the frame is a long unbroken raised corten-steel planter wall running uninterrupted into the distance, its weathered orange patina catching the last light. Above the planter, a row of architectural feather-grass and three slim Italian cypresses spaced at equal intervals. The pool runs along the left edge of the frame, its still surface a near-black mirror reflecting the cobalt sky. The deck underfoot is large-format honed travertine in warm cream. A pair of low slatted teak loungers with cream bouclé cushions sit midway down the deck, a small round black-powder-coated side table between them holding one folded oatmeal towel. The far end of the deck frames a slim glowing pavilion of warm interior light at the vanishing point. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: corten orange, honed travertine cream, matte black, brushed brass, deep teak, cobalt twilight, near-black pool. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

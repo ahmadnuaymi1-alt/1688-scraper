@@ -1,0 +1,45 @@
+{
+  "productId": "cmpy0nxa10093w260hob2l5ra",
+  "productTitle": "Walnut Wood Rectangular Chinese Retro Lockable Jewelry Box with Velvet Interior",
+  "authoredBy": "jewelry-lifestyle workflow (research+author agents); reference-image-only anchor; 3 minimalist + 3 homey",
+  "authoredAt": "2026-06-03T00:00:00.000Z",
+  "category": "box",
+  "scenes": [
+    {
+      "slug": "minimalist-vanity-closed-gift-ready",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "prompt": "[room: dressing-room corner | surface: honed Carrara marble vanity ledge | display: closed, lid down, gift-ready | accent: single sprig of dried bay laurel | camera: dead-front eye-level | influence: Cereal magazine still-life]\nShot for a Cereal magazine still-life, a calm dead-front eye-level frame of the jewelry box resting closed on a honed Carrara marble vanity ledge. The box sits off-center to the right, filling roughly a third of the frame, with negative space breathing to the left. A single sprig of dried bay laurel lies flat near the base as the one deliberate accent, its leaves the only green note. Cool overcast north-window daylight rakes in from the left at late morning, true to life with neutral white balance and no warm filter. Real lens character: a 50mm rendering with shallow focus holding the box crisp while the marble veining softens behind. Concrete imperfections ground it — a faint dust-mote drifting in the light, one hairline water-ring ghost on the stone surface, and a barely-there smudge where a fingertip pressed the marble edge. Low density, gallery-quiet, asymmetric. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-plinth-lid-open",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "prompt": "[room: pale studio alcove | surface: raw oak plinth | display: lid open, interior shown | accent: one brass key on linen | camera: slightly-high looking-down three-quarter | influence: Toast catalogue]\nFramed like a Toast catalogue page, a slightly-high three-quarter looking-down view of the jewelry box on a raw oak plinth set against a soft chalk-pale wall. The lid stands open to reveal the interior, the box angled so the opening catches the light. It occupies just over a third of the frame, pushed to the lower-left third, leaving quiet wall above. A single small brass key rests on a folded scrap of natural linen as the one accent — warm metal against pale cloth. Diffuse overcast daylight falls from a high left window in early afternoon, neutral and true, no orange cast. A 35mm lens gives gentle micro-contrast and a believable focal plane that softens the wall. Imperfections read honestly: a faint scratch in the old oak grain, one loose linen thread curling off the cloth, a slightly uneven edge where the plinth was hand-sanded. Restrained, low-density, deliberately off-balance. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-profile-stone-tray",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "prompt": "[room: gallery side table | surface: pale grey stone tray on plaster shelf | display: closed, pure profile | accent: a single smooth river pebble | camera: pure profile | influence: Kinfolk minimalist feature]\nA Kinfolk minimalist feature: pure profile of the jewelry box seen edge-on, resting closed on a pale grey stone tray atop a plaster shelf. The box sits low-right, cropped just slightly at the right frame edge so it reads as caught mid-arrangement, filling near a third of the composition. One smooth dark river pebble sits to the left as the lone accent and the only sculptural counterweight. Golden raking side light enters from the right at late afternoon, grazing across the form to model its silhouette, yet kept neutral in balance with no teal-and-orange grade. The 50mm lens renders a shallow plane: the box crisp, the plaster wall melting to a soft wash. Honest imperfections — a single dust speck on the stone tray, a faint chalky scuff on the plaster, and one shallow chip at the tray's rim. Quiet, architectural, one accent only, asymmetric by intent. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-bedroom-dresser-tray-out",
+      "mode": "homey",
+      "variantSlot": 4,
+      "prompt": "[room: lived-in bedroom | surface: walnut dresser top with wine-linen runner | display: a tray lifted out beside the open box | accent: walnut wood + deep wine-red velvet echo | camera: low hero three-quarter | influence: Remodelista bedroom feature]\nA Remodelista bedroom feature, low hero three-quarter angle across a walnut dresser scattered with morning life. The jewelry box sits open with a lift-out tray set down beside it, filling about a quarter of the frame, the room reading softly behind. The product-color echo runs throughout: warm walnut tones repeat in a small wooden hand-mirror and a turned wood candlestick, while deep wine-red recurs in a crumpled linen runner and a clothbound book lying face-down. Mixed wood tones — pale oak drawer fronts against the darker walnut — layer with stacked linens. Fresh-cut eucalyptus leans loose in a stoneware jug, never florist-tight. A human-trace cue: that face-down book, spine cracked, mid-read. Soft east-window daylight at morning, neutral and true. A 35mm lens, mid-density with four considered objects, gentle grain. Imperfections: dust along the dresser edge, a wax drip on the candlestick, a dog-eared page corner. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-flatlay-console-jewellery",
+      "mode": "homey",
+      "variantSlot": 5,
+      "prompt": "[room: entry console nook | surface: raw oak console with sisal mat | display: top-down flat-lay, lid open with jewellery laid out | accent: walnut wood + wine-red velvet echo | camera: top-down flat-lay | influence: Net-a-Porter editorial flat-lay]\nA Net-a-Porter editorial flat-lay shot straight down onto a raw oak entry console layered with a woven sisal mat. The jewelry box lies open in the lower-right third, lid back, a few loose gold chains and a pair of earrings arranged just outside it as if mid-selection — filling roughly a quarter of the frame with the console reading wide around it. The product-color echo carries through: walnut warmth repeats in a wooden bowl of foraged acorns and a carved comb, deep wine-red recurs in a velvet ribbon and a marbled book cover. Two wood tones meet — oak console, walnut bowl — layered over the textured sisal and a folded cloth napkin (the human-trace cue, set aside). Fresh-cut rosemary sprigs lie loose at the top edge, one stem cropped off-frame. Flat overcast skylight, neutral white balance, no warm tint. A 35mm overhead view, mid-density, soft natural grain. Imperfections: a stray sisal fibre, faint dust on oak, a slightly bent earring hook. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-sideboard-detail-key",
+      "mode": "homey",
+      "variantSlot": 6,
+      "prompt": "[room: living-room sideboard with mirror behind | surface: warm marble sideboard top | display: closed with brass key resting against it, near a soft mirror | accent: walnut wood + wine-red velvet echo | camera: tight macro-ish detail | influence: T Magazine interiors detail]\nA T Magazine interiors detail, a tight macro-ish frame across a warm marble living-room sideboard with a softly-blurred mirror catching the room behind. The jewelry box sits closed, a small brass key leaned against its lower edge, the pairing filling about a quarter of the frame and set off-center to the left. The product-color echo threads the styling: walnut warmth repeats in a stacked pair of wood-spined art books and a turned bud vase, while deep wine-red recurs in a folded velvet cloth and a single dried dahlia head. Two wood tones layer — the dark vase against a lighter book spine — beside foraged seeded branches arching loose from a stoneware jar. The human-trace cue: reading glasses folded on the marble. Warm late-afternoon side light from the right, balanced and neutral, no cinematic grade. A 50mm-equivalent close view, shallow focus on the box and key, mid-density. Imperfections: a faint glass smudge on the mirror, a hairline vein-crack in the marble, a stray petal fallen loose. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    }
+  ]
+}

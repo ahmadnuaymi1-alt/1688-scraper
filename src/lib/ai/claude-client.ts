@@ -13,6 +13,20 @@
 
 import Anthropic from "@anthropic-ai/sdk";
 import type { z } from "zod";
+import { recordUsage } from "@/lib/ai/usage-tracker";
+
+/** Pull token usage off an Anthropic Message into the shared usage tracker. */
+function trackAnthropicUsage(model: string, res: Anthropic.Message): void {
+  const u = res.usage;
+  if (!u) return;
+  recordUsage("anthropic", model, {
+    input: u.input_tokens,
+    output: u.output_tokens,
+    cacheWrite: u.cache_creation_input_tokens,
+    cacheRead: u.cache_read_input_tokens,
+    webSearches: u.server_tool_use?.web_search_requests ?? 0,
+  });
+}
 
 export const DEFAULT_CLAUDE_MODEL = "claude-haiku-4-5";
 
@@ -42,7 +56,7 @@ export function isClaudeConfigured(): boolean {
  *   - HTTP 5xx (server error)
  *   - Network errors (no status)
  */
-function isRetryableError(err: unknown): boolean {
+export function isRetryableError(err: unknown): boolean {
   if (!err || typeof err !== "object") return false;
   const status = (err as { status?: number }).status;
   if (typeof status === "number") {
@@ -54,22 +68,51 @@ function isRetryableError(err: unknown): boolean {
   return true;
 }
 
-async function withRetry<T>(fn: () => Promise<T>, attempts = 3): Promise<T> {
-  let lastErr: unknown;
+/**
+ * Generalised retry helper for any Anthropic call that needs to survive
+ * burst-load 429/529/5xx. Exported so the pricing client (which calls
+ * `client.messages.create` directly because it needs the `tools:` param)
+ * can share one canonical retry loop instead of carrying its own.
+ *
+ * Defaults: 5 attempts, jittered exponential backoff starting at 4s
+ * (4s → 8s → 16s → 32s → 64s + random jitter up to +1s per gap).
+ */
+export async function withClaudeRetry<T>(
+  fn: () => Promise<T>,
+  opts?: { attempts?: number; baseDelayMs?: number; label?: string },
+): Promise<T> {
+  const attempts = opts?.attempts ?? 5;
+  const baseDelayMs = opts?.baseDelayMs ?? 4000;
+  const label = opts?.label ?? "claude";
+  let lastErr: unknown = null;
   for (let i = 0; i < attempts; i++) {
     try {
       return await fn();
     } catch (err) {
       lastErr = err;
-      if (i === attempts - 1 || !isRetryableError(err)) {
-        throw err;
-      }
-      const waitMs = 1000 * Math.pow(2, i);
-      await new Promise((r) => setTimeout(r, waitMs));
+      if (!isRetryableError(err) || i === attempts - 1) throw err;
+      const wait = baseDelayMs * 2 ** i + Math.floor(Math.random() * 1000);
+      console.warn(
+        `[${label}] retryable error attempt ${i + 1}/${attempts} — backing off ${wait}ms`,
+      );
+      await new Promise((r) => setTimeout(r, wait));
     }
   }
-  // Unreachable, but TS doesn't know that
   throw lastErr;
+}
+
+/**
+ * Internal wrapper used by claudeText / claudeVision / claudeJSON. Bumped
+ * from 3 attempts / 1s base → 5 attempts / 1.5s base so that bursty
+ * Phase 2 loads (multiple concurrent products) don't outrun retries
+ * before Anthropic's TPM/RPM window resets.
+ */
+async function withRetry<T>(fn: () => Promise<T>, attempts = 5): Promise<T> {
+  return withClaudeRetry(fn, {
+    attempts,
+    baseDelayMs: 1500,
+    label: "claude-shared",
+  });
 }
 
 type ClaudeMediaType = "image/jpeg" | "image/png" | "image/gif" | "image/webp";
@@ -108,6 +151,7 @@ export async function claudeText(opts: ClaudeTextOpts): Promise<string> {
       messages: [{ role: "user", content: opts.user }],
     }),
   );
+  trackAnthropicUsage(model, res);
 
   return res.content
     .filter((b): b is Anthropic.TextBlock => b.type === "text")
@@ -198,6 +242,7 @@ export async function claudeVision(opts: ClaudeVisionOpts): Promise<string> {
       ],
     }),
   );
+  trackAnthropicUsage(model, res);
 
   return res.content
     .filter((b): b is Anthropic.TextBlock => b.type === "text")

@@ -1,0 +1,38 @@
+{
+  "productId": "cmpspa7wm0075w24ccqg9mzbn",
+  "productTitle": "Aluminum Black Linear 2-Light LED Outdoor Wall Lamp",
+  "authoredBy": "in-chat patch — stripped inline product description; reference-image-only anchor (Linear LED fidelity pass)",
+  "authoredAt": "2026-05-31T17:00:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "linear-led-pivot-door-symmetric",
+      "mode": "homey",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "the black-mullion glass pivot front door of a Scandinavian-modern blackened-cedar-clad residence",
+      "justification": "A bilateral pivot front door framed by blackened-cedar pilasters is the canonical centerline anchor for flanking — and a slim 12-inch vertical linear bar matched to the tall narrow door reveal is exactly what a hospitality lighting designer would spec for this elevation.",
+      "prompt": "An exterior portrait of a Scandinavian-modern residence's covered entry photographed at standing eye-level on a 50mm lens in a centered 1:1 composition, late twilight. A tall black-steel-mullion frameless glass pivot front door sits centered in a facade of shou-sugi-ban blackened-cedar vertical cladding under a smooth micro-cement soffit. Two squared planters of board-formed concrete flank the door at the base of a single oversized honed-bluestone step, each holding a single architectural agave. A low strip of charcoal river-rock runs along the foundation. Inside the door, a warm amber glow from a walnut-and-brass interior reads softly through the smoked glass. Sky overhead is the soft cobalt-to-dusty-rose gradient of late dusk. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: blackened cedar, micro-cement grey, honed bluestone, matte black metal, agave sage, cobalt twilight. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "linear-led-picture-window-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the floor-to-ceiling frameless picture window of a modernist mountain cabin overlooking a forest",
+      "justification": "A tall frameless picture window is a non-door bilateral architectural feature — paired vertical linear bars flanking it act as deliberate marker bookends, scaled to mirror the window's vertical proportion rather than fight it.",
+      "prompt": "An exterior vignette of a modernist mountain cabin facade photographed at standing eye-level on a 35mm lens, slightly off-center thirds composition, golden hour into blue hour. The wall is wide-plank charred Douglas-fir siding in deep graphite, set against a backdrop of tall second-growth Pacific Northwest evergreens. A tall frameless floor-to-ceiling picture window sits centered in the frame with a slim blackened-steel reveal, looking into a moody interior of a smoked-oak reading nook with a single tan leather chair and a warm brass arc floor lamp glowing 2700K. A low corten-steel planter box runs beneath the window holding mounded fountain grass. The window is flanked by clean unbroken stretches of charred wood with no other fenestration. Soft cool blue forest ambient light fills the open air. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: graphite charred wood, deep forest green, corten orange, smoked oak, tan leather, blue-hour cobalt. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "linear-led-cedar-fence-sequence",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "strategy": "linear-sequence",
+      "anchor": "the long horizontal slatted-cedar privacy fence running along a contemporary backyard pool",
+      "unitCount": 3,
+      "justification": "A long uninterrupted slatted-cedar fence beside a rectilinear pool is the textbook linear plane — three vertical linear bars at equal intervals at the same mounting height define zonal path-marking along the pool deck and read as architectural lighting design, not clutter.",
+      "prompt": "A long contemporary backyard pool deck photographed at standing eye-level on a 28mm lens in a deep one-point perspective looking down the length of the fence, blue hour. The right side of the frame is a long unbroken horizontal-slatted western-red-cedar privacy fence running into the distance, its slat shadow lines clearly visible. The deck is large-format honed-limestone pavers in warm bone. To the left runs a long narrow rectilinear lap pool with still black water reflecting the twilight sky, its coping a single line of dark basalt. A low blackened-steel chaise with a single folded oatmeal Turkish-cotton towel sits midway down the deck. The far end frames a glass-walled pool house with warm interior light spilling across the limestone at the vanishing point. A row of clipped boxwood balls anchors the foundation of the fence. Sky above is deep cobalt twilight. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: western-red cedar, bone limestone, black basalt, deep green boxwood, matte black metal, cobalt twilight. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

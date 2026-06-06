@@ -1,0 +1,33 @@
+import fs from "node:fs";
+import path from "node:path";
+import { PrismaClient } from "@prisma/client";
+function loadEnvLocal(): void {
+  const envPath = path.resolve(process.cwd(), ".env.local");
+  if (!fs.existsSync(envPath)) return;
+  for (const line of fs.readFileSync(envPath, "utf-8").split(/\r?\n/)) {
+    const t = line.trim();
+    if (!t || t.startsWith("#")) continue;
+    const m = t.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
+    if (!m) continue;
+    let v = m[2];
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) v = v.slice(1, -1);
+    if (!process.env[m[1]]) process.env[m[1]] = v;
+  }
+}
+loadEnvLocal();
+const IDS = ["cmpwtf8ds00inw29ghs56kiq8","cmpwsr41400dtw28cxispu8c8","cmpwtdpb5005uw29gk3uft7k8","cmpwsp4ar007fw28chis8tnk8","cmpwsph9v00adw28csba3rrwy","cmpwtev6z00gbw29gpe4rxq0r","cmpwsowix005rw28cx6mwp3t3","cmpwsol0y002rw28cii3g4ja6","cmpwte53l00bhw29gm0ue8mvq"];
+(async () => {
+  const p = new PrismaClient();
+  let ok = 0;
+  for (const id of IDS) {
+    const [l, c] = await Promise.all([
+      p.productImage.count({ where: { productId: id, imageType: "lifestyle" } }),
+      p.productImage.count({ where: { productId: id, imageType: "closeup" } }),
+    ]);
+    const isOk = l >= 6 && c >= 1;
+    if (isOk) ok++;
+    console.log(`  ${isOk ? "✓" : "✗"} ${id}  L=${l}  C=${c}`);
+  }
+  console.log(`\n${ok}/${IDS.length} at 6L+1C target`);
+  await p.$disconnect();
+})();

@@ -1,0 +1,39 @@
+import fs from "node:fs";
+import path from "node:path";
+import { PrismaClient } from "@prisma/client";
+function loadEnvLocal(): void {
+  const envPath = path.resolve(process.cwd(), ".env.local");
+  if (!fs.existsSync(envPath)) return;
+  for (const line of fs.readFileSync(envPath, "utf-8").split(/\r?\n/)) {
+    const t = line.trim();
+    if (!t || t.startsWith("#")) continue;
+    const m = t.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
+    if (!m) continue;
+    let v = m[2];
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) v = v.slice(1, -1);
+    if (!process.env[m[1]]) process.env[m[1]] = v;
+  }
+}
+loadEnvLocal();
+(async () => {
+  const p = new PrismaClient();
+  const PID = "cmpzie4gt0011w2hsztxiyvqz";
+
+  const [lifeBefore, closeupBefore] = await Promise.all([
+    p.productImage.count({ where: { productId: PID, imageType: "lifestyle" } }),
+    p.productImage.count({ where: { productId: PID, imageType: "closeup" } }),
+  ]);
+  console.log(`BEFORE: lifestyle=${lifeBefore}  closeup=${closeupBefore}`);
+
+  const lifeDel = await p.productImage.deleteMany({ where: { productId: PID, imageType: "lifestyle" } });
+  const closeupDel = await p.productImage.deleteMany({ where: { productId: PID, imageType: "closeup" } });
+  console.log(`DELETED: lifestyle=${lifeDel.count}  closeup=${closeupDel.count}`);
+
+  const [lifeAfter, closeupAfter] = await Promise.all([
+    p.productImage.count({ where: { productId: PID, imageType: "lifestyle" } }),
+    p.productImage.count({ where: { productId: PID, imageType: "closeup" } }),
+  ]);
+  console.log(`AFTER: lifestyle=${lifeAfter}  closeup=${closeupAfter}`);
+
+  await p.$disconnect();
+})();

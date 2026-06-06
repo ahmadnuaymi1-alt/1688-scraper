@@ -34,6 +34,37 @@ export interface AiPerVariantPricing {
   }>;
 }
 
+/**
+ * Landed cost + margin breakdown surfaced alongside the pricing ladder. Only
+ * populated when the product had a parseable `rawPayload.price` (the scraped
+ * CNY wholesale block). Used for both the AI prompt reference AND the
+ * post-clamp audit trail so the user can see why a price moved.
+ */
+export interface LandedCostBreakdown {
+  supplierCNY: number;
+  supplierUSD: number;
+  weightG: number;
+  weightSource: "rawPayload" | "fallback-2kg";
+  shippingUSD: number;
+  landedUSD: number;
+  /** landed × 2.0 — HARD MINIMUM, never recommend below */
+  floorUSD: number;
+  /** landed × 2.5 — preferred margin baseline */
+  targetUSD: number;
+  /** landed × 3.0 — upper if comps support */
+  stretchUSD: number;
+  /** What the AI returned for launch BEFORE the floor clamp. */
+  aiSuggestedLaunch: number;
+  /** Launch price after clamping (always ≥ floorUSD). */
+  appliedLaunch: number;
+  /** Gross margin % on the applied launch: (applied - landed) / applied × 100. */
+  marginPct: number;
+  clampReason:
+    | "ai-above-floor"
+    | "floored-up"
+    | "fallback-no-landed";
+}
+
 export interface AiPricingRationale {
   recommended: PricingTier;
   ladder: PricingTier[];
@@ -44,4 +75,6 @@ export interface AiPricingRationale {
   model: string;
   /** Optional — when present, drives per-variant pricing in `applyPricingToVariants`. */
   perVariantPricing?: AiPerVariantPricing;
+  /** Optional — only present when rawPayload supplied a parseable CNY price. */
+  landedCostBreakdown?: LandedCostBreakdown;
 }

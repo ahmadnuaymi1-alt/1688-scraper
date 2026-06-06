@@ -1,0 +1,38 @@
+{
+  "productId": "cmpsp9wh7004ww24cr1n8oeki",
+  "productTitle": "Black Retro Abstract Solar Motion Sensor Wall Lamp",
+  "authoredBy": "in-chat patch — stripped inline product description; reference-image-only anchor (Solar Wall Lamp test for fidelity)",
+  "authoredAt": "2026-05-31T16:30:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "solar-retro-cabin-dutch-door-symmetric",
+      "mode": "homey",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "the back Dutch door of a weathered-cedar mountain cabin at the edge of a pine forest",
+      "justification": "A Dutch door is a strong bilateral entry anchor calling for two flanking fixtures at matching heights — and a rustic eco-conscious solar sconce is the exact lighting-designer pick for a cabin back porch.",
+      "prompt": "An exterior portrait of the back entry of a weathered-cedar mountain cabin photographed at standing eye-level on a 50mm lens in a centered 1:1 composition, early twilight. A split Dutch door painted soft sage-green sits centered in a wall of silvered vertical cedar planks, framed by a plain pine casing. A worn slate flagstone landing in front. Two galvanised metal buckets planted with overgrown rosemary and lavender stand flanking the door at equal distance from the centerline. A coiled jute doormat in front of the threshold. Tall ponderosa pines crowd the edges of the frame and drop a soft needle litter onto the slate. The cabin roofline overhead is a deep moss-stained shake. A wisp of woodstove smoke threads through the trees. Sky is a pale lavender-to-charcoal gradient of early dusk. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: silvered cedar, sage green, slate grey, galvanised silver, deep pine green, lavender twilight. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "solar-retro-farmhouse-kitchen-window-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the flanking sides of a wide horizontal kitchen window on a rustic stone-and-timber farmhouse facade",
+      "justification": "A wide kitchen window is a non-door bilateral feature that wants a paired marker — sconces flanking it at matching heights read as deliberate feature-framing, not random placement.",
+      "prompt": "An exterior vignette of a rustic country farmhouse facade photographed at standing eye-level on a 35mm lens, off-center thirds composition, golden hour. The wall is rough mortared fieldstone in warm tans and greys, broken by a heavy hand-hewn oak lintel running horizontally across the centerline. A wide six-pane horizontal kitchen window sits centered above the lintel, painted creamy off-white sash with a deep weathered timber sill. A row of terracotta herb pots — basil, thyme, sage — lines the sill. Inside the window, warm amber interior glow on a copper kettle is just visible through the wavy old glass. A low galvanised watering can rests at the base of the stone wall. A clipped boxwood in a clay urn anchors the lower right of the frame. Soft golden late-day light rakes from the left, raking the stone texture into deep relief. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: warm tan fieldstone, hand-hewn oak, creamy off-white, terracotta, copper, deep green. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "solar-retro-garden-fence-linear",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "strategy": "linear-sequence",
+      "anchor": "the long stained-cedar privacy fence running between a vegetable garden and a meadow",
+      "unitCount": 3,
+      "justification": "A long uninterrupted fence plane is the textbook linear anchor — three solar sconces at equal intervals at matching mounting heights read as deliberate path-marking along the garden edge, not clutter.",
+      "prompt": "A long stained-cedar privacy fence photographed at standing eye-level on a 28mm lens in a deep one-point perspective looking down the length of the fence, blue hour. The left side of the frame is the fence — vertical tongue-and-groove cedar boards stained a warm dark walnut, running unbroken into the distance with their grain clearly visible. To the right, a tidy raised-bed vegetable garden with rough-sawn timber edges holds tomato cages, sprawling squash vines, and a row of sunflowers nodding above the bed. Beyond the garden, a soft wildflower meadow blurs into the dusk. The path along the fence is crushed pea gravel. A galvanised tin watering can sits beside the nearest bed. A small terracotta strawberry pot anchors the midground. The far end of the fence frames a weathered wooden garden gate at the vanishing point. Sky overhead is deep cobalt twilight with a single ribbon of dusty rose at the horizon. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: warm dark-walnut cedar, deep green foliage, terracotta, galvanised silver, dusty rose, cobalt twilight. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

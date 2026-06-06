@@ -354,6 +354,11 @@ DIMENSIONS — special handling:
 - If the supplier table already has a Dimensions row, prefer that; only add OCR-extracted Dimensions when no supplier row exists OR when OCR reveals additional per-shape breakdowns the table doesn't have.
 - Do NOT emit Dimensions entries from box/packaging photos (cardboard sleeves with shipping dims) — only product/swatch dimensions.
 
+ZERO BRANDS — strip every brand/manufacturer mention (this store sells UNBRANDED):
+- Do NOT emit any spec named "Brand" / "Movement Brand" / "Manufacturer" / "Maker" / "Trademark" / "Logo" / "LED Chip Brand", or whose VALUE is a brand/manufacturer/movement name (e.g. POEDAGAR, Genven, Chenlong, MIYOTA, Citizen, Seiko, Rolex, Submariner). Drop the row entirely.
+- Do NOT put a brand/manufacturer name in any OTHER spec value either (e.g. "Movement: Japanese quartz", not "Movement: MIYOTA").
+- Strip all OEM / wholesale / private-label language from featureCallouts and marketingAngles: "OEM", "custom logo", "logo printing", "branded resale", "branding ready", "private label", "for branding/promotions". These are B2B supplier terms.
+
 ORIGIN / "MADE IN CHINA" — strip giveaways:
 - Do NOT emit any spec named "Origin" / "Country of Origin" / "Made In" / "Manufacturer Location" when the value reveals China (China, Mainland China, 中国, PRC, Guangdong, Shenzhen, Zhejiang, etc.). Drop the row entirely — don't substitute "Imported" or anything similar.
 - Same for featureCallouts: do not mention China, Chinese manufacturing, "imported from Asia", or supplier-city names. Strip them silently.
@@ -383,10 +388,16 @@ ${corpus.slice(0, 14000)}`;
         maxTokens: 8192,
         schema: StructuredCorpusSchema,
       });
+      // ZERO BRANDS: drop brand/manufacturer spec rows and OEM/branding
+      // callouts at the source, so neither the base generateDescriptionHtml(),
+      // the user's transformation rule, NOR the audit's re-enrichment (check 6)
+      // can surface a supplier brand. Mirrors the HIDE-CHINA origin drop.
+      const BRAND_SPEC_NAME = /\b(brand|manufacturer|maker|trademark|logo|oem)\b/i;
+      const BRAND_TEXT = /\b(oem|private[\s-]?label|custom logo|logo print|logo customiz|branded|branding)\b/i;
       return {
-        extractedSpecs: parsed.extractedSpecs,
-        featureCallouts: parsed.featureCallouts,
-        marketingAngles: parsed.marketingAngles,
+        extractedSpecs: parsed.extractedSpecs.filter((s) => !BRAND_SPEC_NAME.test(s.name)),
+        featureCallouts: parsed.featureCallouts.filter((c) => !BRAND_TEXT.test(c)),
+        marketingAngles: parsed.marketingAngles.filter((m) => !BRAND_TEXT.test(m)),
       };
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
@@ -482,7 +493,8 @@ Rules:
 - Return ONLY the <div>...</div> output. No markdown fences, no commentary, no preamble.
 - If a "Currently offered variants" list is provided, it OVERRIDES extractedSpecs entries that reference variant axis values. Drop or trim any spec bullet that lists options no longer offered (e.g. spec says "Color Options: Gold, Black, Silver" but live axis only has Gold and Black → write "Color Options: Gold, Black"). Don't add bullets for axes that weren't already in extractedSpecs.
 - DIMENSIONS — PER-STYLE PRESERVATION IS MANDATORY: render EVERY "Dimensions (...)" spec entry from extractedSpecs verbatim, AS ITS OWN ROW. Use the W×H×D format (e.g. "9.4"W × 9.4"H × 2.4"D" or "9.4"W × 2.4"H" for round). The parenthetical label (e.g. "Dimensions (Yunshi Small)", "Dimensions (Jingyu)", "Dimensions (2-Head)", "Minglan, Shuya Dimensions") MUST appear in the output exactly as given — DO NOT rename "Yunshi Small" to "Small", DO NOT collapse "(2-Head)" into a generic "Small", DO NOT drop the style name. Only collapse two rows into one when the values are IDENTICAL AND the parenthetical labels refer to the same axis category (e.g. two "Dimensions (Round Small)" rows with same value → one row). When labels refer to different style/model/configuration names, keep them separate. Same rule applies to any per-variant spec ("Light Source Power (Small/Medium)", "Applicable Area (14W)", "Coverage Area (2-Head)") — preserve verbatim, one row each.
-- HIDE CHINA: DROP any spec whose name is "Origin", "Country of Origin", "Made In", "Manufacturer Location", or whose value mentions China / Mainland China / 中国 / PRC / Chinese cities (Guangdong, Shenzhen, Zhejiang, Yiwu, etc.). Same for featureCallouts — do not surface anything that reveals Chinese supplier origin.`;
+- HIDE CHINA: DROP any spec whose name is "Origin", "Country of Origin", "Made In", "Manufacturer Location", or whose value mentions China / Mainland China / 中国 / PRC / Chinese cities (Guangdong, Shenzhen, Zhejiang, Yiwu, etc.). Same for featureCallouts — do not surface anything that reveals Chinese supplier origin.
+- ZERO BRANDS: this store sells UNBRANDED. NEVER output a brand / manufacturer / movement / trademark name anywhere (real brands OR supplier house brands), NEVER a "Brand" / "Movement Brand" / "Manufacturer" spec row, and NEVER OEM / "custom logo" / "branded resale" / "private label" / "branding" language. Omit it all — in the heading, paragraphs, Specifications table, and FAQ.`;
 
   try {
     const raw = await claudeText({
@@ -777,6 +789,33 @@ export interface RewriteDescriptionResult {
  * enrichment), the function bails out with an empty result rather than
  * guessing — caller should surface that to the user as "no enrichment data".
  */
+
+/**
+ * Inject a synthetic "Weight" spec into the context's extractedSpecs from
+ * `rawPayload.productWeightG`. Idempotent — does nothing if a Weight spec
+ * already exists. Renders the value verbatim in grams; the downstream rule
+ * prompt is responsible for showing the imperial conversion alongside it.
+ *
+ * Reads productWeightG (an integer in grams) from the rawPayload JSON.
+ * No-op if rawPayload is malformed or productWeightG is missing / non-numeric.
+ */
+function injectWeightSpecIfMissing(context: ProductContext, rawPayload: string): void {
+  if (!Array.isArray(context.extractedSpecs)) return;
+  const hasWeight = context.extractedSpecs.some(
+    (s) => typeof s.name === "string" && /^weight\b/i.test(s.name.trim()),
+  );
+  if (hasWeight) return;
+  let parsed: { productWeightG?: unknown } | null = null;
+  try {
+    parsed = JSON.parse(rawPayload) as { productWeightG?: unknown };
+  } catch {
+    return;
+  }
+  const g = parsed?.productWeightG;
+  if (typeof g !== "number" || !Number.isFinite(g) || g <= 0) return;
+  context.extractedSpecs.push({ name: "Weight", value: `${g} g` });
+}
+
 export async function rewriteProductDescription(
   productId: string,
 ): Promise<RewriteDescriptionResult> {
@@ -858,6 +897,12 @@ export async function rewriteProductDescription(
       hadCachedContext: true,
     };
   }
+
+  // Inject Weight from rawPayload.productWeightG when not already in specs.
+  // This is how Weight reaches the Specifications table — productWeightG lives
+  // on rawPayload, not in extractedSpecs (Check 8 doesn't capture it). The
+  // user's rule renders Weight as "<g> g / <lb> lb" when present.
+  injectWeightSpecIfMissing(context, product.rawPayload);
 
   const generated = await generateDescriptionHtml(
     product.title,

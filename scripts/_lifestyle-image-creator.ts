@@ -245,8 +245,9 @@ async function main() {
   const prisma = getPrisma();
 
   console.log(`Lifestyle Image Creator (Higgsfield CLI) — ${product.title.slice(0, 60)}`);
+  const dbMode = (product.lifestyleUnitMode ?? "auto") as LifestyleUnitMode;
   console.log(
-    `Mode: ${multiUnitMix ? "multi-unit (varied 2-4 per image)" : multiUnit ? `multi-unit (${multiUnit} per image)` : "single-unit"}${
+    `Mode: ${multiUnitMix ? "multi-unit-mix CLI" : multiUnit ? `multi-unit CLI (${multiUnit})` : `inherited from DB lifestyleUnitMode=${dbMode}`}${
       dryRun ? " — DRY RUN (no Higgsfield calls)" : ""
     }`,
   );
@@ -359,12 +360,22 @@ async function main() {
   const category = classifyCategory(`${product.title} ${typeLeaf(product.productType)}`);
   const userOverridesUnitCount = multiUnit !== null || multiUnitMix;
   const productMode = (product.lifestyleUnitMode ?? "auto") as LifestyleUnitMode;
+  // Honor Product.lifestyleUnitMode when no CLI override is set:
+  //   "multi"  → undefined per slot so the scene designer picks varied 2-4 units
+  //   "single" → 1 per slot
+  //   "auto"   → 1 per slot (preserves the no-multi-unit-by-default rule)
   const unitCounts: (number | undefined)[] = userOverridesUnitCount
     ? Array(COUNT).fill(undefined)
-    : Array(COUNT).fill(1);
+    : productMode === "multi"
+      ? Array(COUNT).fill(undefined)
+      : Array(COUNT).fill(1);
+  // Effective multi-unit-mix: CLI wins, otherwise the DB flag drives it.
+  const effectiveMultiUnitMix = userOverridesUnitCount
+    ? multiUnitMix
+    : productMode === "multi";
   if (!userOverridesUnitCount) {
     console.log(
-      `  Category=${category}  mode=${productMode}  per-slot unit counts: [${unitCounts.join(", ")}]`,
+      `  Category=${category}  mode=${productMode}  per-slot unit counts: [${unitCounts.map((c) => c ?? "auto").join(", ")}]`,
     );
   }
   const refsForDesigner = slots.map((s, i) => ({
@@ -380,8 +391,8 @@ async function main() {
     productId,
     productTitle: product.title,
     productType: product.productType ?? null,
-    unitCount: multiUnit ?? (multiUnitMix ? 3 : 1),
-    unitCountVaried: multiUnitMix,
+    unitCount: multiUnit ?? (effectiveMultiUnitMix ? 3 : 1),
+    unitCountVaried: effectiveMultiUnitMix,
     references: refsForDesigner,
     hasSizeReference: false,
   });
@@ -420,8 +431,10 @@ async function main() {
     const heroUrl =
       heroByPos.get(scene.variantPosition) ?? heroPool[i % heroPool.length].sourceUrl;
     const slug = `v1_lifestyle_${i + 1}_${safeSlug(scene.slug)}`;
-    const refPath = path.join(REF_DIR, `${slug}.jpg`);
-    console.log(`  [${i + 1}/${COUNT}] Downloading reference for slot ${slug} ← ${heroUrl}`);
+    // productId prefix prevents cross-product collisions in the shared temp
+    // dir when multiple lifestyle runs fan out in parallel.
+    const refPath = path.join(REF_DIR, `${productId}__${slug}.jpg`);
+    console.log(`  [${i + 1}/${scenes.length}] Downloading reference for slot ${slug} ← ${heroUrl}`);
     await downloadToFile(heroUrl, refPath);
     const refs = [refPath];
     promptItems.push({
@@ -458,6 +471,35 @@ async function main() {
   console.log(
     `\nGeneration done. ${ok}/${promptItems.length} succeeded, ${fail} failed. Wall time: ${wallTime}s.`,
   );
+
+  // ── Per-scene retry (closes most "5/6 attached" cases). Find which slugs
+  //    didn't land an output PNG and refire just those, once, after a short
+  //    backoff to clear transient Higgsfield content-mod hiccups. Persistent
+  //    failures (model truly refuses a frame) still drop and we attach what
+  //    we have — but a single transient is no longer a sticky 5/6.
+  const failedAfterFirst = limitedPrompts.filter(
+    (p) => !fs.existsSync(path.join(OUT_DIR, `${p.slug}.png`)),
+  );
+  if (failedAfterFirst.length > 0) {
+    console.log(
+      `\nRetrying ${failedAfterFirst.length} failed scene(s) once after 4s...`,
+    );
+    await new Promise((r) => setTimeout(r, 4000));
+    const retryT0 = Date.now();
+    const retryResult = await runHiggsfieldCliBatch({
+      prompts: failedAfterFirst.map((p) => ({
+        slug: p.slug,
+        text: p.text,
+        referenceImage: p.referenceImages,
+      })),
+      outDir: OUT_DIR,
+      concurrency,
+    });
+    const retryWall = ((Date.now() - retryT0) / 1000).toFixed(1);
+    console.log(
+      `Retry done. ${retryResult.ok}/${failedAfterFirst.length} recovered, ${retryResult.fail} still failed. Retry wall time: ${retryWall}s.`,
+    );
+  }
 
   // ── Upload + DB attach each successful output. Skip any slot whose file
   //    didn't land (Higgsfield failure).

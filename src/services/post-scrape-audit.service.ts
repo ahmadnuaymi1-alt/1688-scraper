@@ -76,6 +76,13 @@ const WAFFLE_SKU_PATTERNS: RegExp[] = [
   /^model\s*\d+[a-z]?$/i,
   /^style\s*\d+[a-z]?$/i,
   /^type\s*\d+[a-z]?$/i,
+  // "Design A", "Style B", "Model A1", "Version C", "Colour B", "Option D" —
+  // a generic-noun prefix + a LETTER-led code is an opaque supplier code with
+  // no customer meaning → vision-rename it to a descriptive name. (The digit-
+  // suffixed forms above already cover "Style 2"; this adds the letter forms.)
+  // Excludes "Type X" (would catch USB "Type C") and never matches bare bulb
+  // bases like E27/G9 (no prefix word) or sizes S/M/L.
+  /^(design|style|model|version|colou?r|spec|item|variant|option|no\.?|number)\s*[-_]?\s*[A-Za-z]\d{0,2}$/i,
   /^[A-Z]{2,4}[\-_]?\d{1,4}[A-Z]?$/,
   /^\d{3,}$/, // pure numeric supplier ID
 ];

@@ -1,0 +1,38 @@
+{
+  "productId": "cmpsp94gm001nw24cpwbzd5o0",
+  "productTitle": "Black Matte Die-Cast Aluminum Crystal COB LED Outdoor Wall Sconce",
+  "authoredBy": "in-chat patch — stripped inline product description; reference-image-only anchor (Crystal Wall Lamp fidelity pass)",
+  "authoredAt": "2026-05-31T17:00:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "crystal-arched-entry-symmetric",
+      "mode": "homey",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "the arched black-mullion glass front door of a contemporary off-white plaster residence",
+      "justification": "An arched bilateral entry is the canonical centerline anchor for a flanking pair — and a slim tall vertical sconce sized to the door's flanking pilasters is exactly the lighting-designer call here.",
+      "prompt": "An exterior portrait of a contemporary residence's covered front entry photographed at standing eye-level on a 50mm lens in a centered 1:1 composition, late twilight. A tall arched black-steel-mullion glass front door sits centered between two off-white plaster pilasters under a dark walnut-stained tongue-and-groove porch ceiling. Two tall white classical limestone urns with broad bird-of-paradise foliage stand flanking the door at the base of a creamy travertine step. Two trimmed boxwood spheres anchor the very edges of the step at lower left and lower right. The pilasters meet the entry casing with a thin classical reveal. Inside the door, a faint warm glow from a distant interior reads through the glass. Sky overhead is the soft cobalt-to-dusty-rose gradient of late dusk. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: off-white plaster, dark walnut ceiling, matte black metal, creamy travertine, deep green boxwood, cobalt twilight. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "crystal-picture-window-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the wide leaded-mullion picture window of a warm shingle-style cottage",
+      "justification": "A picture window is a non-door bilateral feature that wants a paired marker — flanking sconces frame it as a feature wall and read as deliberate, not random.",
+      "prompt": "An exterior vignette of a warm New England shingle-style cottage facade photographed at standing eye-level on a 35mm lens, off-center thirds composition, golden hour. The wall is honey-grey weathered cedar shingles, slightly silvered. A wide six-over-six divided-light picture window sits centered in the frame, painted creamy white sash with a deep wooden sill. Window box of trailing ivy and dusty-blue lobelia spills below the sill. Inside the window, glowing oatmeal linen curtains warm-amber from interior light read through the panes. A low boxwood hedge runs along the foundation. The window is flanked by simple shingled wall plane with a thin painted casing reveal at each side. Soft golden late-day light rakes from the left, throwing the shingle texture into gentle relief. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: honey-grey cedar, creamy white sash, dusty blue, matte black, oatmeal, deep green. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "crystal-covered-porch-linear",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "strategy": "linear-sequence",
+      "anchor": "the long unbroken board-formed concrete wall of a covered modernist porch",
+      "unitCount": 3,
+      "justification": "A long uninterrupted plane along a covered porch is the textbook linear-anchor — three sconces at equal intervals at the same mounting height read as zonal path-marking, not clutter.",
+      "prompt": "A long covered modernist back porch photographed at standing eye-level on a 28mm lens in a deep one-point perspective looking down the length of the porch, blue hour. The right side of the frame is a long unbroken board-formed exposed concrete wall running into the distance, its horizontal form lines clearly visible. The porch ceiling is dark stained ipe tongue-and-groove. The floor is large-format charcoal slate pavers. To the left, the porch opens to a manicured back lawn and a row of espaliered olive trees in raised corten-steel planters. A low slatted teak bench with a single folded oatmeal wool throw sits midway down the wall. The far end of the porch frames a tall steel-framed glass slider with warm interior light spilling out across the slate at the vanishing point. Sky above the open side is deep cobalt twilight. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: board-formed concrete grey, ipe walnut, charcoal slate, corten orange, deep green olive, cobalt twilight. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

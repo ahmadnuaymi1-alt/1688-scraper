@@ -1,0 +1,45 @@
+{
+  "productId": "cmpy7t24u01rvw260o15bqcgs",
+  "productTitle": "Black PU Leather Rectangular Transparent Glass Top Jewelry Box 12-Compartment",
+  "authoredBy": "jewelry-lifestyle workflow (research+author agents); reference-image-only anchor; 3 minimalist + 3 homey",
+  "authoredAt": "2026-06-03T00:00:00.000Z",
+  "category": "box",
+  "scenes": [
+    {
+      "slug": "minimalist-marble-vanity-glasstop",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "prompt": "[room: bedroom vanity corner | surface: honed Carrara marble | display: closed lid, contents visible through the top | accent: deep oxblood | camera: slightly-high looking-down 3/4 | influence: Cereal magazine]\nA quiet Cereal-magazine still life on a slab of honed Carrara marble, the jewelry box set off-center toward the lower-right third so a swath of cool stone breathes to the left. The closed lid reveals what rests inside; nothing else competes but a single small oxblood ceramic dish holding two thin rings near the frame edge, one of which is cropped. Late-morning window light rakes from the left, soft and overcast, casting a long gentle shadow with believably feathered edges. A faint smudge ghosts the glass surface, a hairline water-ring ghosts the marble behind, and one dust mote drifts in the cool beam. Neutral white balance, true colors, no warm filter. Shot on a 45mm lens at shallow depth so the far stone melts to a soft blur, fine natural grain and micro-contrast intact, not over-sharpened. The box fills roughly a third of the frame as the unmistakable hero. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-oak-shelf-lid-open",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "prompt": "[room: dressing-room shelf | surface: raw white-oak plank | display: lid fully open, compartment grid showing | accent: sage green | camera: dead-front eye-level | influence: Toast catalogue]\nA Toast-catalogue dressing-room vignette photographed dead-front at eye level, the jewelry box sitting on a raw white-oak shelf with its lid lifted fully open so the compartment grid faces the lens. Composition is deliberately asymmetric: the box pushed to the right, a single short sprig of sage eucalyptus laid flat to the left and trailing off the frame edge, nothing more. Soft overcast afternoon daylight enters from a window just out of frame on the right, even and shadow-gentle, with a faint falloff into the upper corner. The oak shows a hairline scratch and one darker knot; a stray pale linen thread rests on the shelf; the open lid carries a soft crease where it folds back. Neutral white balance, colors true to life, no teal or amber grade. A 40mm lens holds the box crisp while the shelf edge softens, natural grain and real lens micro-contrast present. The box commands about a third of the frame as clear hero. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-stone-tray-profile-detail",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "prompt": "[room: gallery plinth nook | surface: pale limestone tray | display: closed, gift-ready | accent: muted mustard | camera: pure profile | influence: Kinfolk]\nA pared-back Kinfolk still life: the jewelry box closed and gift-ready, photographed in pure profile so its silhouette reads cleanly against a soft greige plaster wall. It rests on a pale limestone tray nudged left of center, with one folded square of muted-mustard linen tucked partly beneath the near edge as the single deliberate accent, its far fold cropped by the frame. Morning side light skims from the right at a low raking angle, modeling the surfaces and throwing a short soft-edged shadow across the limestone. The stone tray bears a faint chalky water-ring ghost; the linen shows one creased fold and a loose thread; the plaster wall holds an uneven hand-troweled mottle. Neutral white balance, honest color, no cinematic cast. A 50mm lens keeps the profile sharp while the background plaster falls to gentle blur, fine grain and soft natural falloff preserved, never clinical. The box occupies roughly a third of the frame, the obvious hero. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-vanity-flatlay-black-gold",
+      "mode": "homey",
+      "variantSlot": 4,
+      "prompt": "[room: lived-in bedroom vanity | surface: walnut tabletop with linen runner | display: lid open, top-down flat-lay of compartments | accent: black-and-gold echo | camera: top-down flat-lay | influence: Remodelista]\nA Remodelista flat-lay shot straight down over a lived-in walnut vanity layered with a creased oatmeal-linen runner, a second strip of lighter oak board peeking at the frame's edge for two wood tones. The jewelry box sits open and off-center, a few loose gold chains and a black enamel cuff resting in its compartments. The room echoes the box's black-and-gold story: a small black stoneware dish of gold hairpins, a brass-rimmed hand mirror laid flat, and a half-burned beeswax candle in a dark holder, all asymmetrically clustered. A potted trailing ivy reaches in from one corner; an open paperback lies face-down nearby as a human trace. Soft late-afternoon daylight pools from the upper left, gently uneven. The runner shows wrinkles and a stray thread, the walnut a hairline scratch, the brass an uneven hand-buffed patina. Neutral white balance, true color, no warm wash. 35mm lens, shallow plane, natural grain. The box reads as hero within the wider tableau. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-console-mirror-evening",
+      "mode": "homey",
+      "variantSlot": 5,
+      "prompt": "[room: entry console under a mirror | surface: aged oak console, ceramic tray | display: closed, contents visible through top | accent: black-and-gold echo | camera: low hero 3/4 | influence: T Magazine]\nA T-Magazine entry vignette photographed from a low hero 3/4 angle, the jewelry box closed on an aged-oak console, its glass top revealing the pieces within. A foxed antique mirror leans behind, catching a soft daylight reflection. The product's black-and-gold palette repeats through the room: a black ironstone vase of foraged bare branches, a brass tray cradling gold-framed reading glasses, a dark woven runner over a paler birch shelf below for two wood tones. A half-burned candle and the folded glasses read as the just-here human trace. Diffuse early-evening daylight falls from the right, cool and even, with gentle falloff into shadow. The mirror is speckled and foxed, the oak carries a hairline scratch and a faint water ring, the brass an uneven patina, the runner one soft crease. Neutral white balance, colors honest, no teal-orange grade. 35mm lens, believable shallow focal plane, natural grain and micro-contrast. The box stays the clear focal subject amid the layered console. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-sideboard-morning-tight-macro",
+      "mode": "homey",
+      "variantSlot": 6,
+      "prompt": "[room: living-room sideboard | surface: oiled teak with stone slab inset | display: lid ajar, one piece lifted out | accent: black-and-gold echo | camera: tight macro-ish detail | influence: Net-a-Porter editorial]\nA Net-a-Porter editorial close detail across an oiled-teak sideboard with a small inset stone slab, framed tight and slightly off-center so the right edge crops a stack of two art books. The jewelry box sits with its lid ajar, a single gold pendant lifted out and resting beside it. The black-and-gold echo carries through the styling: a black matte stoneware cup of fresh-cut rosemary, a brass candlestick with a half-burned taper, and a darker rattan box tucked behind for a second wood tone against the teak. The lifted pendant and an open book face-down give the human trace. Bright soft morning daylight enters from the left, clean and even, grazing the textures. The teak shows a hairline scratch and an old water ring, the stone a faint chalky ghost, the brass an uneven buffed patina, the linen book-ribbon frayed. Neutral white balance, true-to-life color, no filter. 35mm lens, shallow plane melting the books to blur, fine natural grain. The box remains the unmistakable subject. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    }
+  ]
+}

@@ -52,7 +52,11 @@ scene-overrides/_prep/
 !CHANGELOG.log
 # Temp inspection / scratch directories used by one-off scripts
 tmp-*/
+.tmp-*/
 kie-test-output/
+
+# Volatile Claude scheduled-task lock file (re-generated each session)
+.claude/scheduled_tasks.lock
 # Debug screenshots / scratch HTML emitted by one-off scripts (Buckydrop probe etc.)
 scripts/*.png
 scripts/*.jpg

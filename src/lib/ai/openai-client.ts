@@ -13,8 +13,29 @@
 
 import OpenAI from "openai";
 import type { z } from "zod";
+import { recordUsage } from "@/lib/ai/usage-tracker";
+
+function trackOpenAIUsage(model: string, res: OpenAI.Chat.Completions.ChatCompletion): void {
+  const u = res.usage;
+  if (!u) return;
+  // OpenAI's prompt_tokens already INCLUDES any cached tokens, so we don't
+  // record cacheRead separately (would double-count). Slight overestimate on
+  // the cached portion is negligible at mini-model input rates.
+  recordUsage("openai", model, { input: u.prompt_tokens, output: u.completion_tokens });
+}
 
 export const DEFAULT_OPENAI_MODEL = "gpt-4.1-mini";
+
+/**
+ * GPT-5 family and the o-series (o1/o3/o4) changed the request shape: they
+ * require `max_completion_tokens` instead of `max_tokens`, and only accept the
+ * default `temperature` (custom values are rejected with a 400). gpt-4.x and
+ * earlier keep the legacy `max_tokens` + tunable temperature. Returns true for
+ * the newer family.
+ */
+function usesCompletionTokenParam(model: string): boolean {
+  return /^(gpt-5|o[1-9])/i.test(model);
+}
 
 let _client: OpenAI | null = null;
 
@@ -97,10 +118,15 @@ export async function openaiText(opts: OpenAITextOpts): Promise<string> {
     client.chat.completions.create({
       model,
       messages,
-      max_tokens: maxTokens,
-      ...(opts.temperature !== undefined ? { temperature: opts.temperature } : {}),
+      ...(usesCompletionTokenParam(model)
+        ? { max_completion_tokens: maxTokens }
+        : {
+            max_tokens: maxTokens,
+            ...(opts.temperature !== undefined ? { temperature: opts.temperature } : {}),
+          }),
     }),
   );
+  trackOpenAIUsage(model, res);
 
   const content = res.choices[0]?.message?.content ?? "";
   return content.trim();
@@ -167,11 +193,16 @@ export async function openaiJSON<T = unknown>(opts: OpenAIJSONOpts<T>): Promise<
     client.chat.completions.create({
       model,
       messages,
-      max_tokens: maxTokens,
       response_format: { type: "json_object" },
-      ...(opts.temperature !== undefined ? { temperature: opts.temperature } : {}),
+      ...(usesCompletionTokenParam(model)
+        ? { max_completion_tokens: maxTokens }
+        : {
+            max_tokens: maxTokens,
+            ...(opts.temperature !== undefined ? { temperature: opts.temperature } : {}),
+          }),
     }),
   );
+  trackOpenAIUsage(model, res);
 
   const raw = (res.choices[0]?.message?.content ?? "").trim();
   const cleaned = extractJsonSubstring(stripMarkdownFences(raw));

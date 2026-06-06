@@ -1,0 +1,45 @@
+{
+  "productId": "cmpxzjxge005lw260ntltwjdh",
+  "productTitle": "PU Leather Diamond Quilted Three-Layer Drawer Jewelry Box",
+  "authoredBy": "jewelry-lifestyle workflow (research+author agents); reference-image-only anchor; 3 minimalist + 3 homey",
+  "authoredAt": "2026-06-03T00:00:00.000Z",
+  "category": "box",
+  "scenes": [
+    {
+      "slug": "minimalist-vanity-closed-gift",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "prompt": "[room: bedroom vanity nook | surface: honed travertine vanity top | display: closed and gift-ready, set just left of frame center | accent: single sage-green satin ribbon coil | camera: dead-front eye-level | influence: Cereal magazine]\nShot for a Cereal magazine still-life feature, dead-front and eye-level so the jewelry box sits as a calm hero filling roughly a third of the frame, closed and gift-ready. It rests on a honed travertine vanity top whose surface shows a faint ghost of an old water ring and one barely-there hairline scratch catching light. Pushed deliberately off-center to the left, the box leaves quiet negative space at right where a single loosely coiled sage-green satin ribbon trails, the only accent and only color note in an otherwise neutral scene. Cool overcast morning daylight rakes in from a window at camera-left, soft and directional, with neutral white balance and zero color cast. A 40mm lens renders a shallow, believable focal plane: the box crisp, the travertine grain dissolving gently behind it, with fine natural grain and soft falloff. Low density, one pattern at most. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-plinth-lid-open",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "prompt": "[room: gallery alcove | surface: raw oak plinth | display: lid open showing top tray, three loose pieces inside | accent: warm cognac-brown leather card | camera: slightly-high looking-down three-quarter | influence: Toast catalogue]\nFramed like a Toast catalogue product page, a slightly-high three-quarter angle looks gently down into the open lid so the top tray reads clearly, the box filling about a third of the frame as the unambiguous hero. It stands on a pale raw-oak plinth, the wood carrying one short dark knot and a stray sanding mark near its front edge. Three loose pieces of fine jewelry rest inside the tray, restrained and uncrowded. A single warm cognac-brown leather card leans against the plinth at lower right as the lone accent color, cropped slightly by the frame for an off-balance, un-styled feel. Light is soft north-facing daylight from the upper left, overcast and even, neutral white balance with no warm filter. A 45mm lens keeps the open tray sharp while the plinth edge falls into gentle blur; natural micro-contrast and a whisper of grain keep it photographic, never clinical. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-profile-drawer-ajar",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "prompt": "[room: dressing-room shelf | surface: pale limewashed plaster ledge | display: one lower drawer slid ajar | accent: dusty-blush dried stem | camera: pure profile | influence: Kinfolk magazine]\nA pure side-profile composition in the restrained spirit of Kinfolk, the jewelry box photographed straight from the side on a pale limewashed plaster ledge, one lower drawer slid partway open to show it is functional. The box occupies roughly a third of the frame and sits off-center toward the right third, leaving calm empty plaster to the left. A single dusty-blush dried stem lies flat along the ledge as the sole accent color, one delicate pattern in an otherwise quiet field. The plaster shows a faint trowel sweep and a tiny chip at its near corner, honest and unstaged. Late-afternoon raking side light enters low from camera-right, grazing across the ledge and catching the open drawer's edge, neutral in tone with no teal or orange grade. A 50mm lens flattens the profile cleanly with shallow depth, the far plaster dissolving softly; subtle natural grain and true-to-life color throughout. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-dresser-tray-lifted",
+      "mode": "homey",
+      "variantSlot": 4,
+      "prompt": "[room: lived-in bedroom dresser | surface: warm walnut dresser top with linen runner | display: top tray lifted out and set beside the box | accent: green and warm leather-brown echo | camera: low hero three-quarter | influence: Amber Interiors lived-in]\nAn Amber-Interiors lived-in bedroom dresser, shot low from a three-quarter hero angle so the room layers in behind and the jewelry box fills under a quarter of the frame. The box sits on a warm walnut dresser top, its top tray lifted out and set just beside it to reveal the compartments. Echoing the product's two strongest colors, a folded olive-green linen runner and a leaf-trailing potted ivy bring the green note, while a tan oak stool leg and a stack of cognac-brown clothbound books carry the warm leather tone — two wood tones layered, walnut against oak. A few loose necklaces drape from the lifted tray. A half-burned beeswax candle and an open novel laid face-down nearby give the just-here human trace. Soft late-morning window daylight pours from the left, neutral and clean, no warm filter. The walnut shows ring marks and a stray linen thread; a 35mm lens holds mid-density depth with a believable focal plane and gentle grain. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-flatlay-compartments",
+      "mode": "homey",
+      "variantSlot": 5,
+      "prompt": "[room: living-room sideboard | surface: warm marble tray over oak sideboard | display: top-down flat-lay, lid open, compartments full of jewelry | accent: blush-pink and warm-brown echo | camera: top-down flat-lay | influence: EyeSwoon curated artisan]\nA top-down flat-lay in the curated-artisan spirit of EyeSwoon, looking straight down onto a warm marble tray resting over an oak living-room sideboard, the open jewelry box filling under a quarter of the frame so the layered surface reads as a whole. The compartments and tray layout sit fully visible, holding a considered scatter of rings and fine chains. Echoing the product's two dominant colors, blush-pink peony petals and a soft rose linen napkin repeat the warm accent, while a small terracotta dish and a folded tan suede pouch carry the warm leather-brown note; marble over oak gives two natural tones. Foraged eucalyptus stems trail in loose and asymmetric from the upper-left edge, cropped by the frame. A pair of reading glasses left at the corner is the human trace. Diffuse overcast skylight falls evenly from above, neutral white balance, no color cast. The marble shows a faint veining smudge and a single dust mote; 35mm flat-lay perspective, soft natural grain, mid density. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-console-drawer-open",
+      "mode": "homey",
+      "variantSlot": 6,
+      "prompt": "[room: entryway console | surface: aged oak console with stone tray | display: lid closed, lower drawer pulled fully open with pieces inside | accent: deep-green and warm-cognac echo | camera: slightly-high looking-down three-quarter | influence: Heuman British eclectic]\nA Beata-Heuman British-eclectic entryway console, photographed from a slightly-high three-quarter angle so the layered console scene fills the frame and the jewelry box reads at under a quarter of it. The box sits on an aged oak console beside a small grey stone tray, its lid closed but the lower drawer pulled fully open to show a few pieces nestled inside. Echoing the product's two strongest colors, a deep forest-green ceramic vase and a green-glazed dish bring the rich accent, while a cognac-brown leather tray and a teak bowl carry the warm material tone — oak against teak for two wood tones. Fresh-cut foraged branches lean loose and untamed from the vase, never florist-tight. A folded wool scarf draped over the console edge and a face-down hardback give the human trace. Warm-neutral golden-hour side light rakes from camera-right, true to life with no orange grade. The oak shows a hairline scratch and a faint dust film; 35mm lens, mid density, shallow believable focus and gentle grain. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    }
+  ]
+}

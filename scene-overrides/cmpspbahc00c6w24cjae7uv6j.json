@@ -1,0 +1,38 @@
+{
+  "productId": "cmpspbahc00c6w24cjae7uv6j",
+  "productTitle": "Iron Matte Black Conical Cage Motion Sensor Wall Sconce",
+  "authoredBy": "in-chat patch — secondary scrub of fixture-adjacent vocabulary in scene/palette context (Conical Cage fidelity pass v2)",
+  "authoredAt": "2026-05-31T17:15:00.000Z",
+  "classification": "outdoor",
+  "category": "outdoor",
+  "scenes": [
+    {
+      "slug": "caged-barn-carriage-garage-symmetric",
+      "mode": "homey",
+      "variantSlot": 1,
+      "strategy": "symmetric-flanking",
+      "anchor": "a wide carriage-house style two-car garage door of a board-and-batten farmhouse exterior",
+      "justification": "A wide carriage-house garage door is a textbook bilateral architectural anchor — a flanking pair of caged barn sconces at matching mounting heights marks the entry threshold the way a working farmhouse actually lights its garage bay.",
+      "prompt": "An exterior portrait of a board-and-batten farmhouse two-car garage facade photographed at standing eye-level on a 35mm lens in a centered symmetric composition, late dusk. The vertical board-and-batten siding is painted a deep slate-grey with crisp white trim. A single wide carriage-house style garage door of dark stained reclaimed oak with strap hinges and a row of small divided-light windows across the top sits centered in the frame. The driveway is broom-finished concrete meeting a low limestone curb. A pair of squat galvanized steel planters with bushy rosemary topiaries flank the garage at the base. A weathered cedar split-rail fence runs off to the right. Sky overhead is a soft slate-blue with a faint band of warm peach on the horizon. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: slate-grey siding, crisp white trim, reclaimed oak, galvanized steel, deep rosemary green, slate-blue dusk. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "caged-sliding-barn-stable-paired",
+      "mode": "homey",
+      "variantSlot": 2,
+      "strategy": "paired-marker",
+      "anchor": "the flanking sides of a sliding barn door on a converted-stable garden room",
+      "justification": "A sliding barn door on a converted-stable outbuilding is a strong non-front-door bilateral feature — a paired marker of caged industrial sconces frames the door as a deliberate threshold without competing with the hardware track.",
+      "prompt": "An exterior vignette of a converted-stable garden room photographed at standing eye-level on a 50mm lens in a slightly off-centre thirds composition, golden hour. The wall is whitewashed hand-laid fieldstone with chunky mortar joints and a heavy oak header running across the top. A wide reclaimed-pine sliding barn door with a black wrought strap-hinge X-brace runs on an exposed matte-black steel track, parked centered in the frame. Either side of the door is unbroken stone wall. A worn galvanized watering can sits on a flat stone to the left, beside a clump of lavender in bloom. A wooden trug of cut hydrangea heads rests on a slate stoop at the door's base. Espaliered pear branches climb a simple wooden lattice trellis on the far right wall. Late golden light rakes in from the left, picking out the stone texture. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: whitewashed fieldstone, reclaimed pine, matte black metalwork, lavender purple, hydrangea blue, golden hour. Sharp focus, natural and photographic, no people."
+    },
+    {
+      "slug": "caged-farmhouse-rear-walkway-linear",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "strategy": "linear-sequence",
+      "anchor": "the long covered walkway running along the rear of a country farmhouse (3 units)",
+      "unitCount": 3,
+      "justification": "A long covered rear walkway of a country farmhouse is the canonical uninterrupted plane for a linear sequence — three caged barn sconces at equal intervals at matching mounting heights read as functional path-marking, not decoration.",
+      "prompt": "A long covered rear walkway of a country farmhouse photographed at standing eye-level on a 28mm lens in a deep one-point perspective looking down the length of the porch, blue hour. The right side of the frame is a long unbroken wall of horizontal whitewashed shiplap running into the distance, broken only by the rhythm of plain white casing. The porch ceiling is dark stained tongue-and-groove cedar. The floor is wide-plank weathered grey bluestone. To the left, the walkway opens onto a fenced kitchen garden of raised cedar beds with kale and rosemary, edged by a low limestone path. A slatted teak bench with a folded indigo wool blanket sits midway down the wall. The far end of the walkway frames a screen door spilling warm interior light across the bluestone at the vanishing point. Sky above the open side is deep cobalt twilight with a low band of dusty rose. Render the wall-mounted fixture exactly per the reference image — preserve all proportions, materials, finishes, and design details. Switched ON, warm amber 2700K (matches the warm glow shown in the variant reference). Palette: whitewashed shiplap, cedar walnut, weathered bluestone, kitchen-garden green, indigo wool, cobalt twilight. Sharp focus, natural and photographic, no people."
+    }
+  ]
+}

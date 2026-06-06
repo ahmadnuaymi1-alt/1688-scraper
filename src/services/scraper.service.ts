@@ -39,7 +39,10 @@ import {
 } from "@/types/scrape-options";
 import type { ScrapedProduct } from "@/types/product";
 import { translateVariantsToEnglish } from "@/services/variant-translator.service";
-import { enrichDescription1688 } from "@/services/description-enrichment.service";
+import {
+  enrichDescription1688,
+  rewriteProductDescription,
+} from "@/services/description-enrichment.service";
 import { autoCurateVariants } from "@/services/variant-curation.service";
 import {
   recalculatePricing,
@@ -48,6 +51,8 @@ import {
 import { uploadProductToShopify } from "@/services/uploader.service";
 import { applyRulesByCategory } from "@/services/rule.service";
 import { runPostScrapeAudit } from "@/services/post-scrape-audit.service";
+import { rederiveVariantFeaturedImages } from "@/services/variant-image-rederive.service";
+import { cleanupVariantNames } from "@/services/variant-name-cleanup.service";
 import { buildSku, generateSkusForVariants } from "@/lib/sku";
 
 const URL_RE = /^https?:\/\/(detail\.)?(1688|m\.1688)\.com\//;
@@ -593,6 +598,10 @@ export async function handleRulesJob(jobId: string): Promise<void> {
   }
 
   // 3) Optional variant curation.
+  // Capture how many variants curation moved (hidden / renamed) so step 3a
+  // can decide whether the description needs to be regenerated against the
+  // now-curated live set.
+  let curationChangeCount = 0;
   if (options.autoCurateVariants && product.variants.length > 1) {
     await addJobLog(jobId, "info", "Phase 2: auto-curating variants");
     try {
@@ -705,11 +714,51 @@ export async function handleRulesJob(jobId: string): Promise<void> {
         "info",
         `Phase 2: curation done — ${summaryParts.join(" · ")}`,
       );
+      curationChangeCount =
+        curation.dropped.length + curation.renamed.length;
     } catch (err) {
       await addJobLog(
         jobId,
         "warn",
         `Phase 2: variant curation failed: ${err instanceof Error ? err.message : err}`,
+      );
+    }
+  }
+
+  // 3a) Curation-aware description refresh. Curation hides/renames variants,
+  //     but enrichment ran before that — so descriptionHtml still describes
+  //     the supplier-side variant set, and the title rule (which runs first
+  //     in the rule loop and reads descriptionHtml as context) inherits the
+  //     stale set. Regenerate descriptionHtml from cached productContext +
+  //     the now-curated live variants BEFORE the rule loop runs. Skipped
+  //     when curation is off, when nothing changed, or when no cached
+  //     productContext exists. Non-fatal — matches the curation contract.
+  if (options.autoCurateVariants && curationChangeCount > 0) {
+    await addJobLog(
+      jobId,
+      "info",
+      "Phase 2: refreshing description for curated variant set",
+    );
+    try {
+      const result = await rewriteProductDescription(product.id);
+      if (!result.hadCachedContext) {
+        await addJobLog(
+          jobId,
+          "warn",
+          "Phase 2: skipped curation-aware rewrite — no cached productContext",
+        );
+      } else {
+        await addJobLog(
+          jobId,
+          "info",
+          `Phase 2: description refreshed against ${result.liveVariantCount} live variant(s)`,
+        );
+      }
+    } catch (err) {
+      await addJobLog(
+        jobId,
+        "warn",
+        `Phase 2: curation-aware description refresh failed: ${err instanceof Error ? err.message : err}`,
       );
     }
   }
@@ -770,6 +819,56 @@ export async function handleRulesJob(jobId: string): Promise<void> {
     );
   }
 
+  // 5a-clean) Variant name-clarity cleanup — runs on EVERY scrape. Declutters
+  //     wordy / supplier-scaffolded option VALUES into short, clear,
+  //     customer-friendly labels (house style: "Antique with Black Lining").
+  //     Rename-only + do-no-harm (never drops/merges variants; discards a
+  //     rewrite that would collapse two distinct variants). Opaque codes
+  //     ("Design A", waffle SKUs) are handled by the audit's vision renamer
+  //     above; this only touches descriptive text. Runs before re-derivation so
+  //     image matching sees the final names.
+  try {
+    const nc = await cleanupVariantNames(product.id, { apply: true });
+    if (nc.changes.length > 0) {
+      await addJobLog(
+        jobId,
+        "info",
+        `Phase 2: cleaned up ${nc.changes.length} variant name(s) for clarity`,
+      );
+    } else if (nc.skippedReason && nc.skippedReason !== "already clean" && nc.skippedReason !== "single variant") {
+      await addJobLog(jobId, "info", `Phase 2: variant name cleanup — ${nc.skippedReason}`);
+    }
+  } catch (err) {
+    await addJobLog(
+      jobId,
+      "warn",
+      `Phase 2: variant name cleanup failed (non-fatal): ${err instanceof Error ? err.message : err}`,
+    );
+  }
+
+  // 5a-bis) Size-aware featured-image re-derivation. The audit (and curation)
+  //     restructure variant option axes; a variant's featured image was matched
+  //     against EARLIER axes (and only by finish), so per-size variants can be
+  //     left on the wrong-size/default swatch. Re-derive against the FINAL axes
+  //     now. Do-no-harm: only repoints a variant when it finds a strictly better
+  //     finish+size match (never nulls, never downgrades a correct match).
+  try {
+    const rd = await rederiveVariantFeaturedImages(product.id, { apply: true });
+    if (rd.changes.length > 0) {
+      await addJobLog(
+        jobId,
+        "info",
+        `Phase 2: re-derived featured image on ${rd.changes.length} variant(s) by finish+size`,
+      );
+    }
+  } catch (err) {
+    await addJobLog(
+      jobId,
+      "warn",
+      `Phase 2: featured-image re-derivation failed (non-fatal): ${err instanceof Error ? err.message : err}`,
+    );
+  }
+
   // 5b) Defense-in-depth for omitCompareAtPrice. The pricing service already
   //     honors this flag, but `Variant.compareAtPrice` can also leak in from
   //     the raw 1688 scrape (Phase 1) or from a rule/AI suggestion that
@@ -793,6 +892,45 @@ export async function handleRulesJob(jobId: string): Promise<void> {
         "warn",
         `Phase 2: compareAt sweep failed (non-fatal): ${err instanceof Error ? err.message : err}`,
       );
+    }
+  }
+
+  // 5c) Deferred suggested-pricing retry. The in-call retry inside
+  //     suggestPricingStrategy can't outrun the 50 req/min org rate cap when
+  //     description-enrichment + curation + rules + audit are all firing
+  //     Claude calls during the retry window. By here all those steps are
+  //     done, so a 75s wait clears the rate window and one more attempt
+  //     near-always succeeds. Trigger: user requested pricing AND it's
+  //     still missing from the DB. Non-fatal: matches the step-4 contract.
+  if (options.suggestedPricing) {
+    const after = await prisma.product.findUnique({
+      where: { id: product.id },
+      select: { pricingNotes: true },
+    });
+    const stillMissing = !after?.pricingNotes || after.pricingNotes.trim() === "";
+    if (stillMissing) {
+      await addJobLog(
+        jobId,
+        "info",
+        "Phase 2: pricing missing after Phase 2 — deferring retry by 75s to let Anthropic rate window clear",
+      );
+      await new Promise((r) => setTimeout(r, 75_000));
+      try {
+        const rationale = await recalculatePricing(product.id, options);
+        await applyPricingToVariants(product.id, "launch", options);
+        const launch = rationale.ladder.find((t) => t.label === "launch");
+        await addJobLog(
+          jobId,
+          "info",
+          `Phase 2: deferred pricing retry succeeded (launch=${launch?.price ?? "?"}, ${rationale.ladder.length} tier(s))`,
+        );
+      } catch (err) {
+        await addJobLog(
+          jobId,
+          "warn",
+          `Phase 2: deferred pricing retry also failed — run pricing manually for this product: ${err instanceof Error ? err.message : err}`,
+        );
+      }
     }
   }
 

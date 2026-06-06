@@ -23,10 +23,34 @@ function loadEnvLocal(): void {
 loadEnvLocal();
 
 const URLS = [
-  "https://detail.1688.com/offer/1025688663548.html",
+  "https://detail.1688.com/offer/935997255860.html",
+  "https://detail.1688.com/offer/1008724830559.html",
+  "https://detail.1688.com/offer/797964575340.html",
+  "https://detail.1688.com/offer/620374190700.html",
+  "https://detail.1688.com/offer/867819198347.html",
+  "https://detail.1688.com/offer/838088785314.html",
+  "https://detail.1688.com/offer/887151234993.html",
+  "https://detail.1688.com/offer/609075854364.html",
+  "https://detail.1688.com/offer/891975968101.html",
+  "https://detail.1688.com/offer/1050619801202.html",
+  "https://detail.1688.com/offer/996926322946.html",
+  "https://detail.1688.com/offer/657196961902.html",
+  "https://detail.1688.com/offer/1013001591969.html",
+  "https://detail.1688.com/offer/1007859812400.html",
+  "https://detail.1688.com/offer/884173459922.html",
+  "https://detail.1688.com/offer/1041633376980.html",
+  "https://detail.1688.com/offer/651736472000.html",
+  "https://detail.1688.com/offer/1036141567501.html",
+  "https://detail.1688.com/offer/898685737610.html",
+  "https://detail.1688.com/offer/858955223080.html",
+  "https://detail.1688.com/offer/1011758715713.html",
+  "https://detail.1688.com/offer/858305376215.html",
+  "https://detail.1688.com/offer/1038678335432.html",
+  "https://detail.1688.com/offer/1037364133379.html",
+  "https://detail.1688.com/offer/743259164195.html",
 ];
 
-const CONCURRENCY = 1;
+const CONCURRENCY = 4;
 
 interface ScrapeResult {
   url: string;

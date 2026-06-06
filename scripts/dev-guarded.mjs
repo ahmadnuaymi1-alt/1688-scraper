@@ -1,27 +1,46 @@
 /**
- * Guarded `next dev` launcher.
+ * Guarded `next dev` supervisor.
  *
- * Why this exists: Next.js 16 + Turbopack runs Tailwind through PostCSS
- * child processes (`.next/dev/build/postcss.js`). If that generated worker
- * script is corrupt — which happens when a dev server is hard-killed
- * mid-build (this watchdog, or Ctrl+C) — the worker crashes on startup and
- * Turbopack respawns it with no limit and no backoff: a runaway loop that
- * piles up hundreds of `node.exe` processes within seconds, exhausts the
- * Windows commit limit, and makes the WHOLE PC slow / throw "out of memory".
+ * Why this exists: Next.js 16 + Turbopack has two classes of dev-server
+ * failure on this machine that both leave the user staring at a Next.js
+ * runtime error overlay with no way back except restarting the dev server
+ * manually:
  *
- * The cycle is self-sustaining: the watchdog hard-kills the server, which
- * re-corrupts `.next`, which makes the NEXT start flood again. The real fix
- * is to wipe `.next` before every start (step 1b) so the worker is
- * regenerated clean. The watchdog (step 3) stays only as a backstop.
+ *   A) PostCSS worker flood — Turbopack runs Tailwind through PostCSS child
+ *      processes (`.next/dev/build/postcss.js`). If that generated worker
+ *      script is corrupt (which happens when a dev server is hard-killed
+ *      mid-build — including by this watchdog or by Ctrl+C), the worker
+ *      crashes on startup and Turbopack respawns it with no limit and no
+ *      backoff: a runaway loop that piles up hundreds of `node.exe` processes
+ *      and freezes the PC.
  *
- * This wrapper:
- *   1. Before starting: kills leftover orphaned postcss workers AND wipes the
- *      `.next` cache so a corrupt worker script can't trigger the flood.
- *   2. Runs `next dev`.
- *   3. Polls the postcss worker count; if it crosses WORKER_LIMIT it kills the
- *      whole dev tree + every postcss worker and exits — capping the blast
- *      radius at a harmless ~25 processes instead of 1400+.
- *   4. Cleans up all postcss workers on exit / Ctrl+C.
+ *   B) Jest-worker death mid-session — Turbopack's build pool occasionally
+ *      surfaces "Jest worker encountered N child process exceptions,
+ *      exceeding retry limit" after the dev server has been running for a
+ *      while (compiling a heavy module graph like /review/[id]). No JS
+ *      stderr; the child is killed mid-flight by the OS or a native abort.
+ *      The session is dead; previously the user had to type "npm run dev"
+ *      again.
+ *
+ * This supervisor handles both:
+ *   1. cleanState() — kill leftover orphaned postcss workers + wipe the
+ *      `.next` cache. Runs BEFORE the first start AND between every
+ *      restart so a corrupt worker script can't trigger the flood on the
+ *      next start either.
+ *   2. startDev() — spawn `next dev` (with `--max-old-space-size=4096`
+ *      merged into NODE_OPTIONS so the build graph has heap headroom),
+ *      run the postcss watchdog (WORKER_LIMIT=25), wait for the child to
+ *      exit, resolve with the exit code + whether the watchdog tripped.
+ *   3. supervise() — call cleanState() then startDev() in a loop. On a
+ *      non-clean exit, restart up to MAX_RESTARTS (=5) times within a
+ *      RESTART_WINDOW_MS (=60s) rolling window. On the 6th crash in the
+ *      window, give up so a genuinely-broken config error reaches the
+ *      user instead of looping forever.
+ *
+ * Escape hatch: `npm run dev:webpack` adds `--webpack` to argv, which is
+ * Next 16's documented way to opt out of Turbopack. In that mode we skip
+ * the postcss watchdog (no workers to count) but keep the .next wipe +
+ * supervisor loop active.
  *
  * A healthy dev session uses 1-3 postcss workers. WORKER_LIMIT is set well
  * above that, so it only ever fires on a genuine runaway.
@@ -33,7 +52,21 @@ import { rmSync } from 'node:fs';
 const require = createRequire(import.meta.url);
 const WORKER_LIMIT = 25;
 const POLL_MS = 4000;
+const MAX_RESTARTS = 5;
+const RESTART_WINDOW_MS = 60_000;
+const RESTART_BACKOFF_MS = 1500;
+const HEAP_MB = 4096;
 const isWin = process.platform === 'win32';
+
+// Forwarded args. `--webpack` is Next 16's opt-out flag; when present we
+// suppress the postcss watchdog since the postcss-worker pool isn't used.
+const forwardedArgs = process.argv.slice(2);
+const webpackMode = forwardedArgs.includes('--webpack');
+
+// Module-scoped state so signal handlers (registered ONCE below) can
+// reach the currently-running child without re-registering each restart.
+let currentChild = null;
+let shuttingDown = false;
 
 /** Return PIDs of every Turbopack postcss worker process. */
 function postcssWorkerPids() {
@@ -69,6 +102,7 @@ function killPids(pids) {
 }
 
 function killTree(pid) {
+  if (!pid) return;
   try {
     if (isWin) execFileSync('taskkill', ['/F', '/T', '/PID', String(pid)]);
     else process.kill(-pid, 'SIGKILL');
@@ -77,65 +111,149 @@ function killTree(pid) {
   }
 }
 
-// 1. Pre-start cleanup.
-//   1a. Kill orphaned postcss workers from previous sessions.
-const stale = postcssWorkerPids();
-if (stale.length) {
-  console.log(`[dev-guarded] cleaning up ${stale.length} leftover postcss worker(s)...`);
-  killPids(stale);
-}
-//   1b. Wipe the .next build cache. A hard-killed dev server (the watchdog
-//   below, or Ctrl+C mid-build) leaves .next/dev/build/postcss.js corrupt;
-//   Turbopack then crash-loops that worker on the NEXT start — the real root
-//   cause of the postcss flood. A clean cache every start breaks the cycle
-//   (measured cold-start cost here: under 1s).
-try {
-  rmSync('.next', { recursive: true, force: true });
-  console.log('[dev-guarded] cleared .next build cache');
-} catch (err) {
-  console.log(`[dev-guarded] could not clear .next (${err.code || err.message}) — continuing`);
-}
-
-// 2. Launch next dev.
-const nextBin = require.resolve('next/dist/bin/next');
-const child = spawn(process.execPath, [nextBin, 'dev', ...process.argv.slice(2)], {
-  stdio: 'inherit',
-  detached: !isWin, // own process group on POSIX so we can signal the tree
-});
-
-let tripped = false;
-
-// 3. Watchdog.
-const timer = setInterval(() => {
-  const count = postcssWorkerPids().length;
-  if (count > WORKER_LIMIT && !tripped) {
-    tripped = true;
-    console.error(
-      `\n[dev-guarded] RUNAWAY DETECTED: ${count} postcss workers (limit ${WORKER_LIMIT}).\n` +
-        `[dev-guarded] Killing the dev server before it takes down your PC.\n` +
-        `[dev-guarded] This usually means the machine is low on memory — close some\n` +
-        `[dev-guarded] apps (or reboot) and run "npm run dev" again.\n`,
-    );
-    clearInterval(timer);
-    killTree(child.pid);
-    killPids(postcssWorkerPids());
-    process.exit(1);
+/** Pre-start cleanup. Called before EVERY start (first + every restart). */
+function cleanState() {
+  // 1a. Kill orphaned postcss workers from any previous run.
+  const stale = postcssWorkerPids();
+  if (stale.length) {
+    console.log(`[dev-guarded] cleaning up ${stale.length} leftover postcss worker(s)...`);
+    killPids(stale);
   }
-}, POLL_MS);
-
-// 4. Cleanup on exit.
-function cleanup() {
-  clearInterval(timer);
-  killPids(postcssWorkerPids());
+  // 1b. Wipe the .next build cache. A hard-killed dev server (the watchdog
+  // below, or Ctrl+C mid-build) leaves .next/dev/build/postcss.js corrupt;
+  // Turbopack then crash-loops that worker on the NEXT start — the real root
+  // cause of the postcss flood. A clean cache every start breaks the cycle.
+  try {
+    rmSync('.next', { recursive: true, force: true });
+    console.log('[dev-guarded] cleared .next build cache');
+  } catch (err) {
+    console.log(`[dev-guarded] could not clear .next (${err.code || err.message}) — continuing`);
+  }
 }
-child.on('exit', (code) => {
-  cleanup();
-  process.exit(code ?? 0);
-});
+
+/**
+ * Spawn `next dev` once and wait for it to exit. Returns the exit shape
+ * the supervisor uses to decide whether to restart. Never throws — always
+ * resolves, even on spawn error.
+ */
+function startDev() {
+  return new Promise((resolve) => {
+    // Merge our heap-size flag into NODE_OPTIONS so the spawned next process
+    // (which is what actually holds the Turbopack build graph) gets the
+    // bigger heap, not just this wrapper.
+    const heapFlag = `--max-old-space-size=${HEAP_MB}`;
+    const existingNodeOptions = process.env.NODE_OPTIONS ?? '';
+    const mergedNodeOptions = existingNodeOptions.includes('--max-old-space-size')
+      ? existingNodeOptions
+      : `${existingNodeOptions} ${heapFlag}`.trim();
+
+    const nextBin = require.resolve('next/dist/bin/next');
+    const child = spawn(process.execPath, [nextBin, 'dev', ...forwardedArgs], {
+      stdio: 'inherit',
+      detached: !isWin, // own process group on POSIX so we can signal the tree
+      env: { ...process.env, NODE_OPTIONS: mergedNodeOptions },
+    });
+    currentChild = child;
+
+    let tripped = false;
+    let timer = null;
+
+    // PostCSS watchdog — only useful in Turbopack mode (webpack doesn't use
+    // the postcss child pool that floods).
+    if (!webpackMode) {
+      timer = setInterval(() => {
+        const count = postcssWorkerPids().length;
+        if (count > WORKER_LIMIT && !tripped) {
+          tripped = true;
+          console.error(
+            `\n[dev-guarded] RUNAWAY DETECTED: ${count} postcss workers (limit ${WORKER_LIMIT}).\n` +
+              `[dev-guarded] Killing the dev server before it takes down your PC.\n` +
+              `[dev-guarded] This usually means the machine is low on memory — close some\n` +
+              `[dev-guarded] apps (or reboot). The supervisor will auto-restart shortly.\n`,
+          );
+          clearInterval(timer);
+          timer = null;
+          killTree(child.pid);
+          // resolve will fire on the child's 'exit' event below
+        }
+      }, POLL_MS);
+    }
+
+    const finalize = (code, signal) => {
+      if (timer) clearInterval(timer);
+      timer = null;
+      killPids(postcssWorkerPids());
+      currentChild = null;
+      resolve({ code, signal, trippedByWatchdog: tripped });
+    };
+
+    child.on('exit', (code, signal) => finalize(code, signal));
+    child.on('error', (err) => {
+      console.error(`[dev-guarded] spawn error: ${err.message}`);
+      finalize(1, null);
+    });
+  });
+}
+
+/**
+ * Restart loop. Rolling 60s window. After MAX_RESTARTS crashes inside
+ * that window the supervisor surrenders so a genuine config error
+ * reaches the user instead of looping forever.
+ */
+async function supervise() {
+  const restarts = []; // timestamps of recent restarts
+  while (!shuttingDown) {
+    cleanState();
+    const result = await startDev();
+    if (shuttingDown) return;
+
+    // Prune timestamps outside the window.
+    const now = Date.now();
+    while (restarts.length && now - restarts[0] > RESTART_WINDOW_MS) {
+      restarts.shift();
+    }
+
+    // Clean exit AND watchdog never tripped → user asked to stop.
+    if ((result.code === 0 || result.code == null) && !result.trippedByWatchdog && result.signal == null) {
+      process.exit(0);
+    }
+
+    restarts.push(now);
+    if (restarts.length > MAX_RESTARTS) {
+      console.error(
+        `\n[dev-guarded] ${MAX_RESTARTS}+ crashes within ${RESTART_WINDOW_MS / 1000}s — ` +
+          `giving up so you can see the real error.`,
+      );
+      process.exit(result.code ?? 1);
+    }
+
+    const reason = result.trippedByWatchdog
+      ? 'watchdog runaway'
+      : `code=${result.code} signal=${result.signal ?? '—'}`;
+    console.error(
+      `\n[dev-guarded] dev server exited (${reason}) — auto-restarting ` +
+        `(attempt ${restarts.length}/${MAX_RESTARTS} in window)...\n`,
+    );
+    await new Promise((r) => setTimeout(r, RESTART_BACKOFF_MS));
+  }
+}
+
+// Signal handlers — registered ONCE at module scope, not per-start, so the
+// supervisor loop doesn't leak listeners (MaxListenersExceededWarning).
 for (const sig of ['SIGINT', 'SIGTERM']) {
   process.on(sig, () => {
-    killTree(child.pid);
-    cleanup();
+    shuttingDown = true;
+    if (currentChild?.pid) killTree(currentChild.pid);
+    killPids(postcssWorkerPids());
     process.exit(0);
   });
 }
+
+if (webpackMode) {
+  console.log('[dev-guarded] webpack mode — postcss watchdog disabled');
+}
+
+supervise().catch((err) => {
+  console.error('[dev-guarded] supervisor crashed:', err);
+  process.exit(1);
+});

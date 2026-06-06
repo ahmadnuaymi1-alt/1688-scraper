@@ -31,6 +31,15 @@ model ScrapeJob {
   errorMessage String?
   startedAt    DateTime?
   completedAt  DateTime?
+  // Number of times the processor has auto-retried this job after a
+  // transient failure (e.g. Bright Data 0-byte response). Capped at
+  // MAX_AUTO_RETRIES in queue.ts; once exceeded the job is marked failed
+  // and stays failed.
+  retryCount   Int       @default(0)
+  // When set, the queue's dequeue helper will NOT pick this row up until
+  // `scheduledAt <= now()`. Used by the auto-retry path to defer the next
+  // attempt past the BD outage window.
+  scheduledAt  DateTime?
   createdAt    DateTime  @default(now())
   updatedAt    DateTime  @updatedAt
   product      Product?
@@ -38,6 +47,7 @@ model ScrapeJob {
 
   @@index([status])
   @@index([userId])
+  @@index([status, scheduledAt])
 }
 
 model JobLog {

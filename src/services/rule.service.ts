@@ -78,6 +78,7 @@ function buildProductContextBlock(p: {
   descriptionHtml: string | null;
   optionNames: string | null;
   productContext: string | null;
+  rawPayload?: string | null;
 }): string {
   const parts: string[] = [];
   parts.push(`Title: ${p.title}`);
@@ -97,13 +98,36 @@ function buildProductContextBlock(p: {
     }
   }
 
-  // Extracted specs from Phase 2 enrichment.
+  // Extracted specs from Phase 2 enrichment. Augment with rawPayload.productWeightG
+  // as a synthetic "Weight" entry when extractedSpecs doesn't already carry one —
+  // Phase 2's spec extractor doesn't capture productWeightG, so without this the
+  // description rule renders "Weight: Not provided" despite the value being on
+  // rawPayload. Cap stays at 25 lines; Weight tagged on the end if there's room.
   if (p.productContext) {
     try {
       const ctx = JSON.parse(p.productContext) as Partial<ProductContext>;
-      if (Array.isArray(ctx.extractedSpecs) && ctx.extractedSpecs.length > 0) {
-        const specLines = ctx.extractedSpecs
-          .slice(0, 25)
+      const specs = Array.isArray(ctx.extractedSpecs) ? [...ctx.extractedSpecs] : [];
+      const hasWeight = specs.some(
+        (s) => typeof s.name === "string" && /^weight\b/i.test(s.name.trim()),
+      );
+      if (!hasWeight && p.rawPayload) {
+        try {
+          const rp = JSON.parse(p.rawPayload) as { productWeightG?: unknown };
+          const g = rp?.productWeightG;
+          if (typeof g === "number" && Number.isFinite(g) && g > 0) {
+            specs.push({ name: "Weight", value: `${g} g` });
+          }
+        } catch {
+          // ignore — rawPayload may be malformed
+        }
+      }
+      if (specs.length > 0) {
+        // Cap kept generous (60): detailed lighting products routinely carry
+        // 30-40+ spec rows, and per-size Dimensions / Weight rows often sort to
+        // the end — a low cap silently truncated them, so the description came
+        // out with no dimensions or weight despite the data being present.
+        const specLines = specs
+          .slice(0, 60)
           .map((s) => `  - ${s.name}: ${s.value}`)
           .join("\n");
         parts.push(`Specifications:\n${specLines}`);
@@ -203,6 +227,7 @@ async function applyTitleRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        rawPayload: true,
       },
     });
     if (!product) return;
@@ -268,6 +293,7 @@ async function applyDescriptionRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        rawPayload: true,
       },
     });
     if (!product) return;
@@ -300,7 +326,7 @@ CRITICAL: The description must describe ONLY the variants in the "Available vari
 REQUIRED SECTIONS — your output MUST include EVERY ONE of these, in this exact order, even if you have to be brief in places:
   1. The H2 product-type heading + three paragraphs + the "What's Included" block (per the rule's === DESCRIPTION TAB === section).
   2. <h3>Benefits</h3> with 3–5 benefit entries in the strict <p><strong>Title</strong><br>plain-text sentence</p> format.
-  3. <h3>Specifications</h3> with a <table> listing every spec.
+  3. <h3>Specifications</h3> with a <table> of clean, customer-facing specs, reconciled to the live variants per the rule above (consolidate per-size rows, drop contradictory/implausible values).
   4. <h3>FAQ</h3> with 3–4 entries in the strict <p><strong>Question?</strong><br>plain-text answer</p> format.
 
 Before responding, re-read the rule above and confirm all four sections are present in your output. The output is INVALID if any section is missing.
@@ -351,6 +377,7 @@ async function applyTagsRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        rawPayload: true,
         // Feed the real source URL so the prompt can reference it directly
         // (without it the LLM had no real URL and copied the rule's hardcoded
         // example, producing the same wrong URL on every product).
@@ -421,6 +448,7 @@ async function applySeoRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        rawPayload: true,
       },
     });
     if (!product) return;
@@ -480,6 +508,7 @@ async function applyImageRules(
         descriptionHtml: true,
         optionNames: true,
         productContext: true,
+        rawPayload: true,
       },
     });
     if (!product) return;

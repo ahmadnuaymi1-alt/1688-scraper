@@ -67,6 +67,10 @@ export interface ProductEditorData {
   variants: VariantTableItem[];
   images: GalleryImage[];
   connections?: ProductEditorConnection[];
+  /** Per-product landed cost in USD (supplier wholesale + weight-bracket shipping),
+   * computed once at the page from `Product.rawPayload`. Displayed in the variant
+   * table's Landed Cost column. Null when rawPayload is missing or unparseable. */
+  landedCostUSD?: number | null;
   /** Next product scraped after this one (newer). Null when this is the most recent. */
   newerProductId?: string | null;
   /** Previous product scraped before this one (older). Null when this is the oldest. */
@@ -352,6 +356,12 @@ export function ProductEditor({ product }: ProductEditorProps) {
       if (json.leadHeroImageId) parts.push("1 lead");
       if (json.lifestyleCount > 0) {
         parts.push(`${json.lifestyleCount} lifestyle${json.lifestyleCount === 1 ? "" : "s"}`);
+      }
+      if (json.starredCount > 0) {
+        parts.push(`${json.starredCount} starred`);
+      }
+      if (json.uploadedCount > 0) {
+        parts.push(`${json.uploadedCount} uploaded`);
       }
       if (json.trailingHeroCount > 0) {
         parts.push(`${json.trailingHeroCount} more hero${json.trailingHeroCount === 1 ? "" : "s"}`);
@@ -831,6 +841,7 @@ export function ProductEditor({ product }: ProductEditorProps) {
             images={variantImages}
             onVariantsChanged={refresh}
             onVariantsReordered={refresh}
+            landedCostUSD={product.landedCostUSD}
           />
         </CardContent>
       </Card>

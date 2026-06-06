@@ -5,9 +5,21 @@ description: Design 6 lifestyle / in-context scene prompts for a lighting produc
 
 # Lifestyle Scene Designer
 
-Design 6 lifestyle scene prompts for one lighting product, the way an interior /
+> **Analyse the product first — this skill is the LIGHTING branch.** For a
+> **non-lighting / general** product (jewellery box, decor, furniture,
+> kitchenware, watch, …) do NOT use this lighting-designer flow. Instead follow
+> the **general process** in the `lifestyle-image-creator` skill (and the
+> [general-lifestyle-process] memory): per-product obvious-only functionality
+> analysis → one-time per-category research checklist saved to a memory recipe →
+> hand-author 6–8 unique `scene-overrides/<id>.json` scenes guided by that
+> recipe. The override file format + downstream generation are identical; only
+> the design reasoning differs (lighting placement/archetypes vs. general
+> editorial product-in-context).
+
+Design lifestyle scene prompts for one lighting product, the way an interior /
 exterior designer would — by looking at the real product and reasoning about
-where it belongs, what surrounds it, and what palette suits it.
+where it belongs, what surrounds it, and what palette suits it. (Output count
+is flexible: the override path now generates the scenes you author, clamped 6–8.)
 
 The output is a `scene-overrides/<productId>.json` file. The existing
 `scripts/_lifestyle-image-creator.ts` automatically picks it up and uses these

@@ -112,29 +112,35 @@ function makeLimit(concurrency: number) {
 }
 
 // ── Prompts (2 variations per product) ─────────────────────────────────────
+// Universal — works for lighting, watches, jewellery boxes, bags, decor. Framing
+// is ultra-tight (90-95% fill) to surface material texture and applied details
+// the wider hero shot can't show. Watch closeups get an extra dial-text fidelity
+// clause; everything else stays neutral.
 const CLOSEUP_PROMPTS: Array<{ slug: string; prompt: string }> = [
   {
     slug: "front-detail",
     prompt:
-      `Macro product photograph — tight close-up. Render the product so it looks VISUALLY IDENTICAL to the reference image — every surface, finish, color, material, geometry, contour, and detail must match the reference exactly. ` +
-      `COMPOSITION — TIGHT CROP: This is a close-up macro detail shot. The product fills 80-95% of the frame in BOTH width and height. Frame the lens, diffuser, LED emitter surface, faceplate, or the most visually distinctive design element straight-on so the texture, material grain, and surface treatment are clearly readable. NO wide framing, NO negative space around the product. ` +
-      `Camera: front-on, perfectly square to the product face. Square 1:1 frame. Macro lens equivalent (100mm), f/5.6 — product razor-sharp across the frame; the backdrop softly out of focus behind it. ` +
-      `Backdrop: Infinity cove studio backdrop, flat solid pale greige (hex #ECE6DC), gel-lit. A continuous color field with no horizon, no plane transitions, no architectural geometry. Soft contact shadow only. No specular hotspots. ` +
-      `Scene lighting: Neutral 5500K daylight studio strobes — even, accurate fixture-body color rendering. The fixture's own emitters render exactly as in the reference image (off/dormant if the reference shows them off). ` +
-      `Clean-render mandate (STRICT): REMOVE every text overlay, dimension callout, dimension arrow, dimension line, measurement label (\"宽度\", \"高度\", \"mm\"), spec table, Chinese character, English character, model number, product code, supplier logo, supplier watermark, printed label. The output must contain ZERO text, ZERO numbers, ZERO callout arrows, ZERO measurement guides, ZERO supplier graphics. ` +
-      `Photorealistic, sharp focus, no props, no people. ` +
+      `Ultra-macro product close-up. Render the product so it looks VISUALLY IDENTICAL to the reference image — every surface, finish, colour, material, geometry, applied detail, printed marker, engraved character, and textile/metal/ceramic/leather grain must match the reference exactly. ` +
+      `COMPOSITION — EXTREME TIGHT CROP: This is the tightest possible macro detail shot. The product fills 90-98% of the frame in BOTH width and height; portions of the product MAY crop out at the frame edges if needed to maintain that fill. Frame the single most visually distinctive surface — for a watch: the dial face with applied hour markers, hands, brand text, and date numeral; for a lamp: the diffuser / lens / emitter surface; for a leather or fabric product: the dominant texture / stitching / weave / seam; for a jewellery box: the velvet tray or hardware detail — straight-on so the material texture, surface grain, and applied details are razor-sharp and clearly readable. NO wide framing, NO negative space around the product. ` +
+      `Camera: front-on, perfectly square to the product face. Square 1:1 frame. Macro lens equivalent (100mm), f/5.6 — product razor-sharp across the frame; the immediate backdrop softly out of focus behind it. ` +
+      `Backdrop: Infinity cove studio backdrop, flat solid pale greige (hex #ECE6DC) — though almost none of the backdrop is visible because of the extreme crop. A continuous colour field with no horizon, no plane transitions, no architectural geometry. Soft contact shadow only (and barely visible at this crop). No specular hotspots. ` +
+      `Scene lighting: Neutral 5500K daylight studio strobes — even, accurate colour rendering with a key light positioned to rake across the surface and reveal texture (brushed-metal directionality, leather pebble, fabric weave, ceramic insert grain). For lighting fixtures, the product's own emitters render exactly as in the reference image (off / dormant if the reference shows them off). ` +
+      `Dial-text fidelity (when the product is a watch): the brand name on the dial, model designation, technical text rows (e.g. "OFFICIALLY CERTIFIED CHRONOMETER"), depth rating, and date numeral MUST be rendered LEGIBLY and IDENTICALLY to the reference — NOT blurred, NOT replaced with placeholder text, NOT swapped to a different brand, NOT translated, NOT softened. The whole point of this close-up is to make that text readable. ` +
+      `Clean-render mandate (STRICT): REMOVE every reference-image text overlay, dimension callout, dimension arrow, dimension line, measurement label ("宽度", "高度", "mm"), spec table, Chinese character, supplier logo, supplier watermark, printed sticker, packaging label — except for text that is PART of the product itself (a watch dial's brand and model text, an engraved logo on the case, etc.), which MUST be preserved exactly. ` +
+      `Photorealistic, sharp focus, no props, no people, no hands, no fabric drape, no presentation pad, no watch cushion / watch roll / watch holder (when the product is a watch). ` +
       `Positioning template: Image 2 is a positioning template — place the product inside the guide rectangle but do not show the rectangle in the final output.`,
   },
   {
     slug: "angle-detail",
     prompt:
-      `Macro product photograph — tight close-up at a 3/4 angle. Render the product so it looks VISUALLY IDENTICAL to the reference image — every surface, finish, color, material, geometry, contour, and detail must match the reference exactly. ` +
-      `COMPOSITION — TIGHT 3/4 CROP: This is a close-up macro detail shot from a 3/4 angle that reveals the product's edge, depth, and side profile. The product fills 75-90% of the frame in BOTH width and height. Frame so the housing edge, bezel thickness, side ribbing, mounting plate, or other dimensional detail is clearly visible. NO wide framing, NO negative space around the product. ` +
-      `Camera: 3/4 angle (about 30-45° off-axis). Square 1:1 frame. Macro lens equivalent (100mm), f/5.6 — product razor-sharp across the frame; the backdrop softly out of focus behind it. ` +
-      `Backdrop: Infinity cove studio backdrop, flat solid pale greige (hex #ECE6DC), gel-lit. A continuous color field with no horizon, no plane transitions, no architectural geometry. Soft contact shadow only. No specular hotspots. ` +
-      `Scene lighting: Neutral 5500K daylight studio strobes — even, accurate fixture-body color rendering. The fixture's own emitters render exactly as in the reference image (off/dormant if the reference shows them off). ` +
-      `Clean-render mandate (STRICT): REMOVE every text overlay, dimension callout, dimension arrow, dimension line, measurement label (\"宽度\", \"高度\", \"mm\"), spec table, Chinese character, English character, model number, product code, supplier logo, supplier watermark, printed label. The output must contain ZERO text, ZERO numbers, ZERO callout arrows, ZERO measurement guides, ZERO supplier graphics. ` +
-      `Photorealistic, sharp focus, no props, no people. ` +
+      `Ultra-macro product close-up at a 3/4 angle. Render the product so it looks VISUALLY IDENTICAL to the reference image — every surface, finish, colour, material, geometry, applied detail, printed marker, engraved character, and grain must match the reference exactly. ` +
+      `COMPOSITION — EXTREME TIGHT 3/4 CROP: This is the tightest possible macro detail shot from a 3/4 angle that reveals the product's edge, depth, and side profile. The product fills 85-95% of the frame in BOTH width and height. Frame so the most distinctive dimensional detail is centred — for a watch: the bezel-meets-case meets-crown corner, or the bracelet's brushed-centre vs polished-side link transition; for a lighting fixture: the housing edge, bezel thickness, ribbing; for a leather or fabric product: a corner with stitching / piping / hardware; for a jewellery box: the lid corner and hardware. NO wide framing, NO negative space around the product. ` +
+      `Camera: 3/4 angle (about 30-45° off-axis). Square 1:1 frame. Macro lens equivalent (100mm), f/5.6 — product razor-sharp across the frame; the immediate backdrop softly out of focus behind it. ` +
+      `Backdrop: Infinity cove studio backdrop, flat solid pale greige (hex #ECE6DC). A continuous colour field with no horizon, no plane transitions, no architectural geometry. Soft contact shadow only (barely visible at this crop). No specular hotspots. ` +
+      `Scene lighting: Neutral 5500K daylight studio strobes — even, accurate colour rendering with a key light positioned to rake across the surface at the 3/4 angle and reveal texture (brushed-metal directionality, leather pebble, fabric weave, polished-side reflectivity). For lighting fixtures, the product's own emitters render exactly as in the reference image (off / dormant if the reference shows them off). ` +
+      `Dial-text fidelity (when the product is a watch): any visible brand name, model designation, technical text rows, and date numeral MUST be rendered LEGIBLY and IDENTICALLY to the reference — NOT blurred, NOT replaced with placeholder text, NOT swapped. ` +
+      `Clean-render mandate (STRICT): REMOVE every reference-image text overlay, dimension callout, measurement label ("宽度", "高度", "mm"), spec table, Chinese character (unless engraved onto the product itself), supplier logo, supplier watermark, printed sticker — preserve only text that is PART of the product itself. ` +
+      `Photorealistic, sharp focus, no props, no people, no hands, no fabric drape, no presentation pad, no watch cushion / watch roll / watch holder (when the product is a watch). ` +
       `Positioning template: Image 2 is a positioning template — place the product inside the guide rectangle but do not show the rectangle in the final output.`,
   },
 ];
@@ -217,7 +223,7 @@ async function generateClosesForProduct(
         "--prompt", promptOneLine,
         "--input_images", inputImagesJson,
         "--aspect_ratio", "1:1",
-        "--resolution", "2k",
+        "--resolution", "1k",
         "--wait",
       ];
       const r = await runHiggsfield(args);

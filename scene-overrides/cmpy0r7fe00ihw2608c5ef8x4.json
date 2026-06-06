@@ -1,0 +1,45 @@
+{
+  "productId": "cmpy0r7fe00ihw2608c5ef8x4",
+  "productTitle": "Beige Wood Transparent Window Multi-Compartment Jewelry Storage Box",
+  "authoredBy": "jewelry-lifestyle workflow (research+author agents); reference-image-only anchor; 3 minimalist + 3 homey",
+  "authoredAt": "2026-06-03T00:00:00.000Z",
+  "category": "box",
+  "scenes": [
+    {
+      "slug": "minimalist-vanity-front",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "prompt": "[room: bedroom vanity corner | surface: honed travertine shelf | display: closed, contents visible through lid | accent: dusty sage | camera: dead-front eye-level | influence: Kinfolk] A quiet still life shot for a Kinfolk interiors feature: the closed jewelry box sits dead-on at eye level on a honed travertine shelf, contents legible through its lid, occupying roughly a third of the frame and pushed slightly left of center so a sliver of pale plaster wall breathes on the right. A single short sprig of dusty sage eucalyptus lies flat beside it, the only accent color in an otherwise tonal scene. Light is soft mid-morning daylight from a window camera-left, raking gently across the stone to reveal a faint water-ring ghost and one stray dust mote drifting in the beam. Real lens character: a shallow plane of focus holds the box crisp while the wall falls to a gentle blur, fine natural grain, true neutral white balance with no warm filter. A hairline scratch nicks the travertine edge. Calm, low-density, gallery-clean. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-console-profile",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "prompt": "[room: entry console nook | surface: raw oak plank | display: lid open, empty interior shown | accent: terracotta | camera: pure profile | influence: Cereal Magazine] Photographed in pure profile for a Cereal Magazine essay on stillness: the jewelry box rests on a raw oak console plank, lid fully open so the empty interior reads as a clean silhouette against a soft limewashed wall. The box fills about 35 percent of the frame, set off-center to the right with negative space opening left. A single small terracotta stoneware dish — the lone accent color — sits a hand's width away, slightly cropped at the frame edge. Light is cool overcast afternoon from a tall window, even and directionless like a softbox sky, no orange or teal grade, white balance dead neutral. Concrete imperfections: a faint smudge on the glass, one short stray linen thread caught on the oak grain, and a subtle uneven patina where the plank has worn pale at its lip. Shallow depth of field keeps the open lid sharp while the wall dissolves; gentle micro-contrast, natural grain, nothing over-sharpened. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-shelf-highangle",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "prompt": "[room: wardrobe shelf | surface: pale limewash ledge | display: tray lifted, set ajar | accent: ink blue | camera: slightly-high looking-down 3/4 | influence: Toast catalogue] A restrained Toast-catalogue frame seen from a slightly high three-quarter angle looking down: the jewelry box sits on a pale limewashed wardrobe ledge with its inner tray lifted and set just ajar against the body, the only depicted action. It holds roughly a third of the frame, nudged into the lower-right third so empty ledge stretches above. One slim ink-blue ceramic tray — the single deliberate accent — rests nearby, asymmetric, with a lone loose pearl earring placed off-axis. Light is late-afternoon side daylight from the right, warm in direction but rendered with neutral white balance, no uniform filter. Imperfections grounding the shot: a hairline crack glazing the ceramic tray, a soft fingerprint smudge on the lifted lid's glass, and a faint dust film at the ledge's back corner. The focal plane holds the box and tray sharp while the wall softens; believable shallow depth of field, fine grain, gentle natural falloff. Low density, calm, hero-clear. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-dresser-flatlay",
+      "mode": "homey",
+      "variantSlot": 4,
+      "prompt": "[room: lived-in bedroom dresser | surface: layered oak top with linen runner | display: top-down flat-lay, lid open, pieces inside | accent: warm beige + soft gray | camera: top-down flat-lay | influence: Remodelista] A top-down flat-lay for a Remodelista bedroom feature, shot straight down over a lived-in oak dresser: the jewelry box sits open among a layered tablescape filling 18 to 22 percent of the wide frame, a few real pieces nestled in its compartments. The product-color echo runs throughout — its warm beige wood tone repeats in a pale oak hand mirror and a folded oatmeal-linen runner, while its soft gray reads again in a stoneware dish and a grey-veined marble coaster. Two distinct wood tones meet: honeyed oak runner-end against a darker walnut tray corner. Living matter: a few foraged olive branches, loose not florist-tight, trail in from the top edge. Human-trace cue: an open paperback lies face-down beside it. Light is soft morning daylight from a window above-left, neutral white balance, no warm cast. Imperfections: a faint dust bloom on the marble, a dog-eared page corner, one stray linen thread. Mid-density, layered, asymmetric, lived-in. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-sideboard-lowhero",
+      "mode": "homey",
+      "variantSlot": 5,
+      "prompt": "[room: living-room sideboard | surface: warm marble top, walnut base | display: closed, contents visible, key prop | accent: warm beige + soft gray | camera: low hero 3/4 | influence: T Magazine] A low three-quarter hero frame for a T Magazine living-room story, lens dropped near the sideboard surface so the closed jewelry box rises against a softly blurred room beyond, filling about a quarter of the frame off-center left. Contents read faintly through the lid. Product-color echo: its beige wood warmth returns in a light-oak picture frame and a woven jute coaster, while its soft gray repeats in a grey ceramic vase and a slate-toned book spine. Wood tones layer — pale oak frame against the deeper walnut sideboard base. Living matter: fresh-cut branches lean loose in the grey vase. Human-trace: a half-burned cream candle, wax pooled to one side, sits just behind. Light is golden raking side light from a low west window late afternoon, directional but neutral-balanced, no teal-orange grade. Imperfections: a water-ring ghost on the marble, a hairline scratch in the walnut, a soft wax drip frozen mid-run. Mid-density, warm, layered, the box clearly the focal subject. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-dressingtable-detail",
+      "mode": "homey",
+      "variantSlot": 6,
+      "prompt": "[room: dressing-table corner with soft mirror | surface: cane-front cabinet, linen scarf | display: lid open, pieces resting inside | accent: warm beige + soft gray | camera: tight macro-ish detail | influence: Net-a-Porter editorial] A tight, macro-leaning detail frame for a Net-a-Porter dressing-table editorial: the camera moves close on the jewelry box with its lid open and a couple of pieces resting inside, the box holding roughly a quarter of the wide frame while a soft, out-of-focus mirror and dressing-table corner fill the rest. Product-color echo: its beige wood tone repeats in a cane-front cabinet panel and a pale-oak comb, while its soft gray returns in a grey silk scarf draped loose and a pewter trinket dish. Wood tones mix — warm cane against a darker teak handle just in frame. Living matter: a single foraged ranunculus stem, slightly wilting, lies across the linen. Human-trace: folded reading glasses rest on a small tray edge. Light is diffuse north-window daylight, cool and even, strictly neutral white balance. Imperfections: a faint glass smudge, a soft crease in the silk, a hairline scuff on the cane. Shallow focus, fine grain, asymmetric, intimate. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    }
+  ]
+}

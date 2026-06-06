@@ -1,0 +1,45 @@
+{
+  "productId": "cmpy0pi6200e0w260o67jbw4r",
+  "productTitle": "PU Leather Compact Portable Travel Jewelry Box",
+  "authoredBy": "jewelry-lifestyle workflow (research+author agents); reference-image-only anchor; 3 minimalist + 3 homey",
+  "authoredAt": "2026-06-03T00:00:00.000Z",
+  "category": "box",
+  "scenes": [
+    {
+      "slug": "minimalist-marble-dresser-gift-ready",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "prompt": "[room: bare dressing-room corner | surface: honed Carrara marble shelf | display: closed, gift-ready, centred slightly left | accent: muted sage | camera: dead-front eye-level | influence: Cereal magazine] A still-life shot in the manner of Cereal magazine: the closed jewelry box rests on a honed white marble shelf, filling roughly a third of the frame and set deliberately off to the left so a wash of cool plaster wall breathes on the right. A single trailing sprig of fresh eucalyptus lies across the marble, its leaves a quiet muted-sage note, the only accent in an otherwise restrained scene. Light arrives from a tall window at left, soft overcast morning daylight raking low across the stone, picking out a faint ghost of an old water ring and a thin hairline vein in the marble. Neutral white balance, true colors, no warm filter. Shallow depth keeps the box crisp while the far edge of the shelf melts into gentle blur, a single dust mote suspended in the light. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-oak-plinth-lid-open-tray",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "prompt": "[room: gallery alcove | surface: raw white-oak plinth | display: lid open, interior tray visible | accent: oxblood | camera: slightly-high looking-down 3/4 | influence: Toast catalogue] Photographed for a Toast catalogue: the jewelry box sits open on a raw white-oak plinth against a calm bone-coloured backdrop, lid lifted to reveal its tray, occupying about a third of the frame and pushed toward the lower-right third so the oak grain runs out of the top-left corner. One slender oxblood-red ribbon coils loosely beside it — the lone deliberate accent and the only pattern allowed. The plinth carries a hairline scratch and a faint fingerprint smudge near its edge, honest marks of handling. A high three-quarter angle looks gently down into the open box. Diffuse north-facing afternoon daylight, like an overcast softbox, falls from the upper left; neutral white balance, colors true, no orange or teal cast. A believable shallow focal plane holds the open interior sharp while the plinth's far corner softens, fine natural grain and quiet micro-contrast throughout. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "minimalist-linen-flatlay-loose-pieces",
+      "mode": "minimalist",
+      "variantSlot": 3,
+      "prompt": "[room: studio tabletop | surface: stone-washed flax linen | display: open flat-lay, two loose pieces | accent: pale ochre | camera: top-down flat-lay | influence: Kinfolk magazine] A top-down flat-lay in the spirit of Kinfolk: the open jewelry box lies on a sheet of stone-washed flax linen, the box and its revealed interior filling roughly a third of the frame, set off-centre to the upper left with two simple loose pieces of jewellery resting just outside it. A single folded corner of pale-ochre linen is the one accent colour, its weave the only pattern in view. The flax shows soft creases, one stray pulled thread, and a faint pressed fold where the cloth was once stored. Even overcast midday daylight pours straight down from a skylight, neutral and true, no warm tint, no cinematic grade. The flat-lay tilts a touch off the grid so the composition reads hand-arranged rather than machine-perfect, one loose piece clipped by the frame edge. Shallow-ish focus keeps the box crisp with the linen's far reaches gently soft, delicate natural grain and micro-texture present. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-vanity-blush-cream-lid-open",
+      "mode": "homey",
+      "variantSlot": 4,
+      "prompt": "[room: lived-in bedroom vanity | surface: warm walnut dressing table | display: lid open, angled into the room | accent: blush rose + cream | camera: low hero 3/4 | influence: Amber Interiors] An Amber-Interiors-style bedroom corner photographed in late-afternoon side light: the jewelry box sits open on a warm walnut dressing table, filling under a quarter of the frame so the lived-in room reads around it. The space quietly echoes the box — a soft blush-rose folded linen runner and a dusty-pink stoneware dish repeat its rosy note, while a cream ceramic vase and a pale ivory candle stub echo its lighter material, two cues for each tone. A lighter raw-oak tray sits beneath, mixing wood tones against the walnut. Foraged hawthorn branches lean loose in the vase, a half-burned candle and a face-down open paperback the just-here human trace. Golden raking light from a right-side window catches a soft crease in the linen, a faint dust film on the mirror behind, a water ring ghost on the walnut. Neutral white balance, colors honest, no filter. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-entry-console-rose-ivory-closed",
+      "mode": "homey",
+      "variantSlot": 1,
+      "prompt": "[room: entryway console | surface: pale-oak entry console | display: closed, set among everyday objects | accent: rose + ivory | camera: dead-front eye-level | influence: Remodelista] A Remodelista entry-console vignette shot in soft mid-morning daylight: the closed jewelry box sits on a pale-oak console, occupying roughly a fifth of the frame, nudged right of centre so the layered tabletop reads as a real, used room. The palette answers the box — a rose-pink ceramic bowl and a faded blush-and-ivory runner repeat its warm note, while an ivory stoneware jug and a cream-bound stack of art books echo its lighter tone, two elements each. A darker chestnut catch-all dish mixes a second wood-adjacent tone beside the pale oak. A potted trailing ivy spills off the edge, fresh and untrimmed; reading glasses folded on a small tray are the human trace. Daylight from frame-left reveals a hairline crack in the bowl's glaze, a stray ivy leaf on the wood, a faint smudge on the jug. Neutral balance, true colors, no warm wash. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    },
+    {
+      "slug": "homey-sideboard-profile-blush-cream",
+      "mode": "homey",
+      "variantSlot": 2,
+      "prompt": "[room: living-room sideboard | surface: oiled oak sideboard, soft mirror behind | display: closed, pure profile | accent: blush + ecru | camera: pure profile | influence: T Magazine] A T Magazine living-room still life in overcast late-day light: the jewelry box stands closed in pure profile on an oiled-oak sideboard, filling about a quarter of the frame, placed left of centre with a soft foxed mirror behind doubling the layered scene. The room repeats the box — a blush-pink raw-silk cushion and a dusty-rose glazed dish carry its warm tone, while an ecru linen runner and a cream paper-shade lamp base echo its lighter material, two cues apiece. A reddish cherry-wood bowl sets a second wood tone against the oak. Cut ranunculus stems lean loose in a stoneware jug, a folded throw and a half-read book left face-down the just-here human trace. Diffuse window light from the left grazes a soft leather-like crease, a faint dust bloom on the mirror's silvering, a single ecru thread on the runner. Neutral white balance, colors true, no orange-teal grade, gentle grain and shallow profile focus. Render the jewelry box exactly as in the attached reference image — preserve its exact shape, proportions, colors, materials and details; do not redesign it."
+    }
+  ]
+}

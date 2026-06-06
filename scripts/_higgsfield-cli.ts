@@ -16,13 +16,14 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { spawn } from "node:child_process";
 import { Buffer } from "node:buffer";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Low-level CLI invocation
 // ─────────────────────────────────────────────────────────────────────────────
-export function runHiggsfieldCli(args: string[]): Promise<{ code: number; out: string }> {
+function spawnHiggsfield(args: string[]): Promise<{ code: number; out: string }> {
   return new Promise((resolve) => {
     // Windows Node won't spawn .cmd with shell:false (CVE-2024-27980), but
     // shell:true with an args array gets re-parsed by cmd.exe and corrupts
@@ -38,6 +39,67 @@ export function runHiggsfieldCli(args: string[]): Promise<{ code: number; out: s
     proc.on("close", (code) => resolve({ code: code ?? -1, out }));
     proc.on("error", (err) => resolve({ code: -1, out: err.message }));
   });
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Multi-account auto-switch
+//
+// The CLI stores ONE account's tokens in ~/.config/higgsfield/credentials.json.
+// We keep a second account's tokens in credentials.backup.json (captured once
+// via `higgsfield auth login` + a file copy). When the active account runs out
+// of credits mid-run, swap the backup file over the active one and retry — no
+// browser re-login needed, since the file just holds access + refresh tokens.
+// ─────────────────────────────────────────────────────────────────────────────
+const HF_CRED_DIR = path.join(os.homedir(), ".config", "higgsfield");
+const HF_ACTIVE_CRED = path.join(HF_CRED_DIR, "credentials.json");
+const HF_BACKUP_CRED = path.join(HF_CRED_DIR, "credentials.backup.json");
+const HF_MIN_CREDITS = 2; // one nano_banana_2 image costs 2 credits
+
+let _switchedToBackup = false;
+
+/** Active account's credit balance via `account status`, or null if unparseable. */
+async function higgsfieldCredits(): Promise<number | null> {
+  const r = await spawnHiggsfield(["account", "status"]);
+  const m = r.out.match(/([\d,]+(?:\.\d+)?)\s*credits/i);
+  return m ? parseFloat(m[1].replace(/,/g, "")) : null;
+}
+
+/** Copy the backup account's tokens over the active credentials file. Idempotent. */
+function switchToBackupAccount(): boolean {
+  if (_switchedToBackup) return true;
+  try {
+    if (!fs.existsSync(HF_BACKUP_CRED)) return false;
+    fs.copyFileSync(HF_BACKUP_CRED, HF_ACTIVE_CRED);
+    _switchedToBackup = true;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export function runHiggsfieldCli(args: string[]): Promise<{ code: number; out: string }> {
+  return (async () => {
+    let r = await spawnHiggsfield(args);
+    // Auto-switch: if a generation failed and the active account is genuinely
+    // out of credits, flip to the backup account (once) and retry the command.
+    // Gated on an actual balance check so unrelated failures never switch.
+    const isGenerate = args[0] === "generate" && args[1] === "create";
+    if (r.code !== 0 && isGenerate && fs.existsSync(HF_BACKUP_CRED)) {
+      if (!_switchedToBackup) {
+        const credits = await higgsfieldCredits();
+        if (credits !== null && credits < HF_MIN_CREDITS && switchToBackupAccount()) {
+          console.log(
+            `[higgsfield] active account out of credits (${credits}) — switched to backup account.`,
+          );
+        }
+      }
+      // Whoever triggered the switch, every failed generate retries once on backup.
+      if (_switchedToBackup) {
+        r = await spawnHiggsfield(args);
+      }
+    }
+    return r;
+  })();
 }
 
 function extractJson<T>(raw: string): T {
@@ -92,7 +154,7 @@ export interface GenerateOpts {
   inputUploadIds: string[];
   /** Defaults to "1:1". */
   aspectRatio?: string;
-  /** Defaults to "2k". */
+  /** Defaults to "1k". */
   resolution?: string;
   /** Defaults to "nano_banana_2" (Nano Banana Pro). */
   model?: string;
@@ -111,7 +173,7 @@ export async function higgsfieldGenerate(
     "--prompt", promptOneLine,
     "--input_images", inputImagesJson,
     "--aspect_ratio", opts.aspectRatio ?? "1:1",
-    "--resolution", opts.resolution ?? "2k",
+    "--resolution", opts.resolution ?? "1k",
     "--wait",
   ];
   const r = await runHiggsfieldCli(args);
