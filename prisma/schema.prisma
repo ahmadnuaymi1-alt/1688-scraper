@@ -1,0 +1,232 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id           String      @id @default(cuid())
+  email        String      @unique
+  passwordHash String
+  createdAt    DateTime    @default(now())
+  scrapeJobs   ScrapeJob[]
+  products     Product[]
+  rules        TransformationRule[]
+  templates    RuleTemplate[]
+  connections  ShopifyConnection[]
+  presets      ScrapeOptionPreset[]
+}
+
+model ScrapeJob {
+  id           String    @id @default(cuid())
+  userId       String?
+  user         User?     @relation(fields: [userId], references: [id])
+  sourceUrl    String
+  status       String    @default("queued")
+  options      String?
+  errorMessage String?
+  startedAt    DateTime?
+  completedAt  DateTime?
+  // Number of times the processor has auto-retried this job after a
+  // transient failure (e.g. Bright Data 0-byte response). Capped at
+  // MAX_AUTO_RETRIES in queue.ts; once exceeded the job is marked failed
+  // and stays failed.
+  retryCount   Int       @default(0)
+  // When set, the queue's dequeue helper will NOT pick this row up until
+  // `scheduledAt <= now()`. Used by the auto-retry path to defer the next
+  // attempt past the BD outage window.
+  scheduledAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  product      Product?
+  logs         JobLog[]
+
+  @@index([status])
+  @@index([userId])
+  @@index([status, scheduledAt])
+}
+
+model JobLog {
+  id          String    @id @default(cuid())
+  scrapeJobId String
+  scrapeJob   ScrapeJob @relation(fields: [scrapeJobId], references: [id], onDelete: Cascade)
+  level       String
+  message     String    @db.Text
+  createdAt   DateTime  @default(now())
+
+  @@index([scrapeJobId])
+}
+
+model Product {
+  id               String         @id @default(cuid())
+  userId           String?
+  user             User?          @relation(fields: [userId], references: [id])
+  scrapeJobId      String?        @unique
+  scrapeJob        ScrapeJob?     @relation(fields: [scrapeJobId], references: [id])
+  title            String
+  handle           String
+  vendor           String?
+  productType      String?
+  tags             String?
+  descriptionHtml  String?        @db.Text
+  metaDescription  String?
+  optionNames      String?
+  pricingNotes     String?        @db.Text
+  productContext   String?        @db.Text
+  minOrderQuantity Int?
+  /// "auto" (category-based mix, default), "single" (force all single-unit), "multi" (force 4-5 multi-unit mix). Drives lifestyle-image generation.
+  lifestyleUnitMode String?       @default("auto")
+  rawPayload       String         @db.Text
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  variants         Variant[]
+  images           ProductImage[]
+  uploads          UploadRecord[]
+
+  @@index([userId])
+}
+
+model Variant {
+  id                  String   @id @default(cuid())
+  productId           String
+  product             Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  title               String
+  option1             String?
+  option2             String?
+  option3             String?
+  price               String
+  compareAtPrice      String?
+  supplierCost        String?
+  sku                 String?
+  barcode             String?
+  weight              Float?
+  weightUnit          String?
+  packagingDimensions String?
+  position            Int
+  sourceVariantId     String?
+  isHidden            Boolean  @default(false)
+  supplierLabel1      String?
+  supplierLabel2      String?
+  supplierLabel3      String?
+  featuredImageId     String?
+  featuredImage       ProductImage? @relation("VariantFeaturedImage", fields: [featuredImageId], references: [id], onDelete: SetNull)
+  createdAt           DateTime @default(now())
+
+  @@index([productId])
+  @@index([featuredImageId])
+}
+
+model ProductImage {
+  id             String   @id @default(cuid())
+  productId      String
+  product        Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  variantId      String?
+  sourceUrl      String   @db.Text
+  storagePath    String?
+  fileName       String?
+  altText        String?
+  position       Int
+  width          Int?
+  height         Int?
+  downloadStatus String   @default("pending")
+  imageType      String?  // "source" (default, supplier gallery / swatches) | "hero" (Seedream-generated)
+  // User flag: when true, "Delete originals" bulk action keeps this image even
+  // if it would otherwise match the originally-scraped filter. Set per-image
+  // via the gallery star toggle.
+  keep           Boolean  @default(false)
+  // Cache of post-scrape-audit Check 8 vision OCR result. ocrPromptVersion
+  // tracks which prompt version produced the cached text — bump the version
+  // constant in audit code to invalidate. ocrDimsText="" with version set
+  // means Claude saw NO_DIMS; both null = never attempted.
+  ocrDimsText      String?  @db.Text
+  ocrPromptVersion String?
+  createdAt      DateTime @default(now())
+
+  variantsFeatured Variant[] @relation("VariantFeaturedImage")
+
+  @@index([productId])
+  @@index([variantId])
+  @@index([productId, imageType])
+}
+
+model RuleTemplate {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  name      String
+  category  String
+  config    String   @db.Text
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([name, category, userId])
+}
+
+model TransformationRule {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  name      String
+  category  String
+  enabled   Boolean  @default(true)
+  config    String   @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId, category])
+}
+
+model ShopifyConnection {
+  id           String         @id @default(cuid())
+  userId       String?
+  user         User?          @relation(fields: [userId], references: [id])
+  label        String
+  storeDomain  String
+  accessToken  String         @db.Text
+  // Custom App credentials — when present, the uploader can mint a fresh
+  // accessToken via Shopify's OAuth client_credentials grant on 401. Stored
+  // plaintext for now; ENCRYPTION_KEY is in env for a future encryption pass.
+  clientId     String?        @db.Text
+  clientSecret String?        @db.Text
+  isDefault    Boolean        @default(false)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  uploads      UploadRecord[]
+
+  @@index([userId])
+}
+
+model ScrapeOptionPreset {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  options   String   @db.Text
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, name])
+  @@index([userId])
+}
+
+model UploadRecord {
+  id                String            @id @default(cuid())
+  productId         String
+  product           Product           @relation(fields: [productId], references: [id], onDelete: Cascade)
+  connectionId     String
+  connection       ShopifyConnection @relation(fields: [connectionId], references: [id])
+  shopifyProductId String?
+  shopifyHandle    String?
+  status           String            @default("pending")
+  errorMessage     String?           @db.Text
+  createdAt        DateTime          @default(now())
+  completedAt      DateTime?
+
+  @@index([productId])
+}

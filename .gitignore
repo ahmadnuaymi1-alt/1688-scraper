@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# lifestyle scene-prep artifacts (disposable; downloaded gallery images)
+scene-overrides/_prep/
+
+# personal Claude Code project settings (per-user allow rules etc.)
+.claude/settings.local.json
+
+# Run-time log files emitted by ad-hoc scripts at repo root
+*.log
+!CHANGELOG.log
+# Temp inspection / scratch directories used by one-off scripts
+tmp-*/
+.tmp-*/
+kie-test-output/
+
+# Volatile Claude scheduled-task lock file (re-generated each session)
+.claude/scheduled_tasks.lock
+# Debug screenshots / scratch HTML emitted by one-off scripts (Buckydrop probe etc.)
+scripts/*.png
+scripts/*.jpg
+scripts/*.jpeg
+scripts/*.html
