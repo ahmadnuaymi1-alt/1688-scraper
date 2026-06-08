@@ -1,0 +1,80 @@
+{
+  "productId": "cmq48l750000jw25kdq7dicq4",
+  "productTitle": "Walnut Rectangular Vintage Lockable Velvet Lined Jewelry Storage Box with Mirror",
+  "authoredBy": "agent-mode (Claude) from memory/lifestyle-cat-jewellery-box.md",
+  "authoredAt": "2026-06-07T20:40:00Z",
+  "classification": "general",
+  "category": "jewellery-box",
+  "scenes": [
+    {
+      "slug": "walnut-carved-clover-secretary-desk-open-morning",
+      "mode": "homey",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "antique drop-front secretary desk",
+      "prompt": "A warm heirloom vignette photographed three-quarter on a 50mm lens at standing eye-level, soft late-morning daylight raking from an unseen window at frame-left across the dropped writing leaf of an antique mahogany secretary desk set against a warm putty plaster wall. The jewelry box sits left-of-centre on a softly wrinkled flax-linen square, shown EXACTLY as the reference image: rich walnut body, the hinged lid lifted fully open to show its carved openwork four-leaf-clover fretwork panel, the velvet-divided top tray below holding a few neatly sorted pieces, and three pull drawers with small gold-tone knobs beneath. Style a few pieces in as the reference shows: pearls coiled in one tray cell, a pair of gold studs, a thin chain across the divider. The lowest drawer is pulled an inch open revealing sorted rings in velvet. Medium-density desk styling: a cloth-bound ledger, a brass desk clock, a fountain pen, and a stoneware cup of dried eucalyptus. One drawer sits a hair out of square and a faint dust mote drifts in the light for realism. Palette: walnut brown, champagne brass, pearl ivory, sage, oat linen. Sharp focus, photorealistic editorial styling, no people, no hands, no text, no alcohol.",
+      "justification": "Hero scene — carved four-leaf-clover lid open + tray styled + drawer ajar exactly as the reference; antique secretary-desk environment (none of the 3 jewellery-box siblings used a secretary desk)."
+    },
+    {
+      "slug": "walnut-mirror-foot-of-bed-blanket-chest-closed-gift",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "heirloom blanket chest, foot of bed",
+      "prompt": "A serene still life framed 1:1 on a 35mm lens at low chest-top eye-level, soft warm afternoon light glancing across the lid of a woven-cane and oak blanket chest at the foot of an out-of-focus four-poster bed, a folded camel wool throw draped at the chest's far edge. The jewelry box stands centred and fully CLOSED, presented clean and gift-ready, shown EXACTLY as the reference image: solid walnut body with the plain flat mirror-lid top shut flush, three drawers, gold-tone brass knobs and a hinged brass swing handle on the visible side. Tight 30% framing keeps the box the hero with restrained styling: a single stem of dried wheat in a slim brass bud vase, a folded raw-linen ribbon-tied square, and one small stacked pair of leather-bound books beside it. Low prop density, gallery-presented, with a faint natural fingerprint smudge near the brass handle for honest realism. Warm directional light pools on the walnut grain. Palette: walnut, aged brass, parchment cream, camel, straw. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/gift state on the plain-mirror-lid walnut variant; foot-of-bed blanket-chest environment (new, differs from all siblings)."
+    },
+    {
+      "slug": "walnut-necklace-hook-panel-wingback-reading-nook-open",
+      "mode": "homey",
+      "variantSlot": 3,
+      "variantPosition": 3,
+      "strategy": "single",
+      "anchor": "reading-nook side table by wingback chair",
+      "prompt": "A warm reading-nook vignette captured three-quarter on a 35mm lens at standing eye-level, late-afternoon golden light skimming a small round walnut side table beside a deep-green velvet wingback chair, a greige limewashed wall and a leaning stack of books softly out of focus behind. The jewelry box sits right-of-centre, shown EXACTLY as the reference image: walnut body with the hinged lid swung fully UP to reveal the beige-velvet inner necklace-hook panel hung with a row of fine gold chains and a pendant, the brass lock clasp at the lid's front edge, and a hinged brass swing handle on the side. The velvet-divided top tray holds a few sorted pieces and the lowest drawer is cracked an inch open showing rings inside. Medium-density styling: a small brass tray with a folded watch, a cloth-bound monograph, a tortoiseshell reading-glasses case, and a quince branch in a porcelain bud vase. A leaning gilt mirror returns a sliver of the room. One hung chain sits very slightly crooked for lived-in honesty. Palette: honey walnut, forest velvet, champagne brass, cream, quince blush. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Lid-up showing the beige-velvet necklace-hook panel + lock + handle (the variant's signature features); reading-nook side-table environment (new)."
+    },
+    {
+      "slug": "white-carved-clover-mirror-dressing-room-island-evening",
+      "mode": "homey",
+      "variantSlot": 6,
+      "variantPosition": 6,
+      "strategy": "single",
+      "anchor": "walk-in dressing-room island",
+      "prompt": "A relaxed walk-in-dressing-room scene framed three-quarter on a 50mm lens at standing eye-level, soft warm early-evening light from an unseen sconce at frame-right pooling across the honed-oak top of a freestanding closet island, rows of softly out-of-focus hanging garments and open shelving behind. The jewelry box sits left-of-centre, shown EXACTLY as the reference image: WHITE-painted wood body with the hinged lid lifted to reveal its carved openwork four-leaf-clover fretwork over a mirror panel, the white velvet-divided top tray below, and a tall stack of slim drawers with small gold-tone knobs. Style a few pieces in: a coiled gold bracelet in one tray cell, pearl studs, a thin ring on the divider. The top drawer is slid half-open revealing sorted earrings in velvet. Medium-density layered styling that echoes the brass hardware: a folded grey cashmere wrap, a brass-rimmed catchall of cufflinks, a ceramic vessel of dried grasses, and a stacked pair of fashion monographs. The lid sits a hair askew and the drawer is a touch uneven for realism. Palette: warm white, walnut-shelf brown, champagne brass, dove grey, ochre. Sharp focus, photorealistic editorial, no people, no hands, no text, no alcohol.",
+      "justification": "White wood + carved-clover mirror lid open + drawer-open state on the 6-tier white variant; dressing-room-island environment (new, differs from siblings' vanity/bench/console)."
+    },
+    {
+      "slug": "walnut-black-velvet-panel-conservatory-rattan-topdown",
+      "mode": "minimalist",
+      "variantSlot": 8,
+      "variantPosition": 8,
+      "strategy": "single",
+      "anchor": "sunroom / conservatory rattan table top-down",
+      "prompt": "A crisp top-down flat-lay on a 50mm lens looking straight down onto a pale woven-rattan sunroom table top, bright diffused daylight from large conservatory windows casting soft leaf-dappled shadows. The jewelry box is shown EXACTLY as the reference image: dark walnut six-tier body — captured from directly above with its hinged lid laid fully open beside the body so the black-velvet inner necklace-hook panel and the sectioned velvet top tray both read clearly. Each compartment of the tray holds a few neatly sorted pieces as such a box would: stud earrings paired in rows, a coiled gold bracelet, two rings seated in the ring rolls, a slim chain laid in the longer channel. Around the box at low density: a folded sage washcloth, a small ceramic saucer with one gold ring, a sprig of dried lavender laid flat, and a single trailing pothos vine at the frame edge. The lid sits a few millimetres askew and the black velvet shows light natural crushing for realism. Palette: dark walnut, black velvet, woven straw, brass, dusty sage. Sharp focus, photorealistic catalog flat-lay, no people, no hands, no text, no alcohol.",
+      "justification": "Top-down flat-lay showing compartment grid + black-velvet hook panel (state the variant shows); conservatory/sunroom rattan environment (new top-down setting)."
+    },
+    {
+      "slug": "pine-lock-hook-glass-vitrine-curio-shelf-closed",
+      "mode": "minimalist",
+      "variantSlot": 12,
+      "variantPosition": 12,
+      "strategy": "single",
+      "anchor": "glass display vitrine / curio cabinet shelf",
+      "prompt": "A quiet display-cabinet still life framed 1:1 on a 35mm lens at shelf eye-level, soft warm picture-light glancing across one glass shelf of a brass-framed display vitrine, the faint reflection of the glass and a blurred row of curios behind. The jewelry box sits centred and CLOSED, presented clean and collectible, shown EXACTLY as the reference image: light honey-toned PINE body with a plain flat lid shut flush, the brass lock clasp at the front edge, a hinged brass swing handle on the side, and the stacked pull drawers with small gold-tone knobs. Tight 30% framing keeps the box the hero with restrained styling: a single dried billy-button stem in a slim brass bud vase, a folded raw-linen square, and one small leather-bound pocket book. Low prop density, gallery-presented, with a faint natural fingerprint smudge near the brass lock for honest realism. Warm directional light pools on the pale pine grain. Palette: honey pine, aged brass, parchment cream, soft straw, glass. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/collectible state on the pale-pine lock-hook variant (mid size); glass-vitrine curio-cabinet environment (new, sixth distinct setting)."
+    },
+    {
+      "slug": "macro-carved-clover-lid-brass-lock-velvet-tray-closeup",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "carved lid + brass lock + velvet tray macro",
+      "prompt": "A tight macro close-up on a 100mm macro-equivalent lens, shallow depth of field, focused on the corner where the carved openwork four-leaf-clover fretwork lid meets the brass lock clasp and the velvet-divided top tray of the jewelry box shown EXACTLY as the reference image: walnut fretwork with its pierced clover-and-vine cut-outs, the polished gold-tone brass lock plate, the soft beige velvet tray nap below, and the fine straight walnut grain. The frame fills with these details plus a small cluster in the nearest tray cell — a fine gold chain coiled neatly, pearl studs pressed into the nap, and a single signet ring — so the buyer can read the carving depth, brass lock finish, velvet texture, and wood grain. Soft directional daylight rakes across the carving to reveal its relief and a thin specular highlight on the brass lock. Background falls to a creamy bokeh. Natural realism: one velvet fibre catches the light slightly raised, a faint micro-scratch on the brass lock. Palette: warm walnut, aged gold brass, beige velvet, pearl, soft cream bokeh. Sharp macro focus on the carving and hardware, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Mandatory close-up — carved clover fretwork + brass lock + velvet tray macro (this product's signature details) per cornucopia."
+    }
+  ]
+}

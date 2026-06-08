@@ -1,0 +1,40 @@
+{
+  "productId": "cmq40onbk000jw2h0i209ubey",
+  "productTitle": "Quartz Analog Men's Wristwatch",
+  "authoredBy": "_speedtest one-off 2026-06-07; watches cornucopia v3; vibe=studious-collector; mix=[watchmaker_brass_tray, saddle_leather_desk_mat, travertine_catch_dish, linen_notebook, mariner_chart, travel_valet] (NO alcohol)",
+  "authoredAt": "2026-06-07T16:36:00.000Z",
+  "classification": "general",
+  "category": "watches",
+  "scenes": [
+    {
+      "slug": "watch-watchmaker-brass-parts-tray",
+      "variantPosition": 1,
+      "prompt": "Editorial product still-life for a luxury watch catalogue. A men's analog quartz wristwatch lies naturally on a compartmented brass watchmaker's tray lined with worn olive baize; a few tiny brass gears, a soft polishing cloth and a steel caseback tool rest in neighbouring wells. Aged oak workbench beneath, a brass loupe softly out of focus behind. Camera is a slightly-high three-quarter macro so the dial, hands, indices and date window read crisply; the leather strap curves down and back, never free-standing. Warm 2900K morning light rakes from a window at left, modelling the polished case and brushed lugs. Quiet-luxury horology mood, lived-in and real. Photorealistic, full-frame sensor grain, shallow depth of field, no people, no hands, no text, no signage, no price tag, no plastic stand."
+    },
+    {
+      "slug": "watch-saddle-leather-desk-mat-fountain-pen",
+      "variantPosition": 1,
+      "prompt": "Editorial still-life for a luxury watch. A men's analog wristwatch rests on a tan saddle-leather desk mat at the corner of a walnut writing desk, beside a capped black fountain pen and a folded ecru linen pocket square. Pure-profile easing to slight three-quarter macro; dial legible, strap relaxed in a natural curve. Late-afternoon 2800K light from a sash window throws long soft shadows. Restrained gentleman's-study palette of cognac, ink-black and brass. Photoreal editorial, fine grain, shallow depth of field, no people, no hands, no text, no signage, no price tag, no plastic stand."
+    },
+    {
+      "slug": "watch-travertine-catch-dish-walnut-nightstand",
+      "variantPosition": 1,
+      "prompt": "Editorial still-life for a luxury watch. The wristwatch sits in a honed travertine catch-dish on a walnut nightstand, a stack of two cloth-bound books and a small brass alarm clock just behind, softly blurred. Slightly-high three-quarter macro, dial and indices crisp, strap naturally curved. Warm 2700K bedside lamplight pools across the stone; a dusk-blue window glows beyond. Calm, lived-in bedroom-corner mood. Photorealistic, fine sensor grain, shallow depth of field, no people, no hands, no text, no signage, no price tag, no plastic stand."
+    },
+    {
+      "slug": "watch-open-linen-hardcover-notebook",
+      "variantPosition": 1,
+      "prompt": "Editorial still-life for a luxury watch. The wristwatch lies across the open gutter of a linen-bound hardcover notebook, a fanned ribbon bookmark and a single brass paperclip nearby on a limewashed oak table. Overhead-leaning three-quarter macro; dial, subdials and date window crisp, strap naturally splayed. Soft diffuse 3000K north light, faint foxing and paper texture. Studious-collector mood. Photorealistic, fine grain, shallow depth of field, no people, no hands, no text, no signage, no price tag, no plastic stand."
+    },
+    {
+      "slug": "watch-mariner-nautical-chart-brass-dividers",
+      "variantPosition": 1,
+      "prompt": "Editorial still-life for a luxury watch. The wristwatch rests on a softly creased vintage nautical chart, a pair of brass navigation dividers and a small brass sextant detail beside it on a teak table. Low three-quarter macro emphasising the case profile and crown, strap curved naturally. Warm 2900K cabin light with faint sea-glare from a porthole. Mariner-luxury still-life mood. Photorealistic, fine sensor grain, shallow depth of field, no people, no hands, no text, no signage, no alcohol, no price tag, no plastic stand."
+    },
+    {
+      "slug": "watch-travel-leather-valet-tray-hotel-dresser",
+      "variantPosition": 1,
+      "prompt": "Editorial still-life for a luxury watch. The wristwatch sits in a stitched cognac-leather valet tray on a dark hotel-dresser ledge, a folded silk pocket square and a single pair of brass cufflinks alongside, a warm lamp and blurred drapery behind. Eye-level slightly-three-quarter macro, dial legible, strap relaxed. Evening 2700K lamplight, soft bokeh, just-arrived travel-luxury mood. Photorealistic, fine grain, shallow depth of field, no people, no hands, no text, no signage, no price tag, no plastic stand."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "productId": "cmq48cyg3000jw2g46nf689gj",
+  "productTitle": "Solid Walnut Striped Four-Drawer Hard Wood Jewelry Box",
+  "authoredBy": "agent-mode (Claude) from memory/lifestyle-cat-jewellery-box.md",
+  "authoredAt": "2026-06-07T20:35:00Z",
+  "classification": "general",
+  "category": "jewellery-box",
+  "scenes": [
+    {
+      "slug": "walnut-writing-desk-tray-top-styled",
+      "mode": "homey",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "study writing desk",
+      "prompt": "A warm home-study writing-desk vignette photographed three-quarter on a 50mm lens at standing eye-level, late-morning daylight raking from an unseen window at frame-left across a rich walnut desk against a warm putty plaster wall. The jewelry box sits left-of-centre on a softly wrinkled flax-linen runner, shown EXACTLY as the reference image: solid walnut body, four drawers with polished brass acorn knobs, and the open recessed top tray holding the slim gold antler-branch jewelry tree. A few pieces are styled into the scene exactly as the reference shows: a strand of pearls coiled in the tray, a pair of pearl studs, a thin gold hoop hung on one antler branch. The lowest drawer is pulled partway open revealing sorted rings nested in velvet. Medium-density desk styling: a cloth-bound notebook, a brass desk clock, a fountain pen, and a stoneware cup of dried eucalyptus. A leaning thin-brass mirror returns a sliver of the room. One drawer sits a hair out of square and a faint dust mote drifts in the light beam for realism. Palette: walnut brown, champagne brass, pearl ivory, sage, oat linen. Sharp focus, photorealistic editorial styling, no people, no hands, no text, no alcohol.",
+      "justification": "Hero scene — open tray-top styled with the gold antler tree exactly as the reference, drawer ajar; warm study-desk environment (NOT bedroom dresser, differs from sibling)."
+    },
+    {
+      "slug": "walnut-library-shelf-closed-gift",
+      "mode": "minimalist",
+      "variantSlot": 7,
+      "variantPosition": 7,
+      "strategy": "single",
+      "anchor": "library bookshelf ledge",
+      "prompt": "A serene library-shelf still life framed 1:1 on a 35mm lens at shelf-top eye-level, soft warm afternoon light glancing across a deep walnut bookshelf ledge backed by rows of cloth-bound spines in muted ochre and forest tones. The jewelry box stands centred and fully CLOSED, presented clean and gift-ready, shown EXACTLY as the reference image: solid walnut body with a plain flat top, four drawers, polished brass acorn knobs shut flush. Tight 30% framing keeps the box the hero with restrained styling: a single stem of dried wheat in a slim brass bud vase, a folded raw-linen square, and one small stacked pair of leather-bound pocket books beside it. Low prop density, gallery-presented, with a faint natural fingerprint smudge near one brass knob for honest realism. Warm directional light pools on the walnut grain. Palette: walnut, aged brass, parchment cream, ochre book spine, straw. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/gift state, minimalist tight framing on the clean 4-tier minimalist variant; library-shelf environment (new, differs from sibling's wardrobe/console)."
+    },
+    {
+      "slug": "walnut-minimalist-lid-lifted-trays-topdown",
+      "mode": "minimalist",
+      "variantSlot": 8,
+      "variantPosition": 8,
+      "strategy": "single",
+      "anchor": "marble vanity counter top-down",
+      "prompt": "A crisp top-down flat-lay on a 50mm lens looking straight down onto a honed white-marble vanity counter with soft grey veining, cool even daylight from a nearby window. The jewelry box is shown EXACTLY as the reference image: solid walnut three-tier minimalist body — captured from directly above with its lift-off lid set aside and the velvet-divided trays slid apart beside the body so the sectioned compartment grid reads clearly. Each compartment holds a few neatly sorted pieces exactly as such a box would: stud earrings paired in rows, a coiled gold bracelet, two rings seated in the ring rolls, a slim watch laid in the longer channel. Around the box at low density: a folded charcoal washcloth, a small ceramic saucer with one gold ring, and a sprig of dried lavender laid flat. The lid sits a few millimetres askew and the grey velvet shows light natural crushing for realism. Palette: walnut, white marble, grey velvet, brass, dusty lavender. Sharp focus, photorealistic catalog flat-lay, no people, no hands, no text, no alcohol.",
+      "justification": "Top-down flat-lay showing compartment layout with lid lifted off (state the variant's own reference shows); marble bathroom-vanity counter environment (new)."
+    },
+    {
+      "slug": "walnut-upright-cabinet-necklace-hooks-open",
+      "mode": "homey",
+      "variantSlot": 4,
+      "variantPosition": 4,
+      "strategy": "single",
+      "anchor": "bedroom nightstand",
+      "prompt": "A warm bedside-cabinet vignette captured three-quarter on a 35mm lens at standing eye-level, late-afternoon golden light skimming a warm walnut nightstand against a greige limewashed wall, a soft out-of-focus upholstered headboard in the deep background. The jewelry box sits right-of-centre, shown EXACTLY as the reference image: the upright solid-walnut cabinet style with its hinged front door swung fully open to reveal the grey-velvet inner panel of necklace hooks hung with a row of fine gold chains and pendant necklaces, and the stack of four drawers on the right with their small leather pull tabs. The lowest drawer is cracked open an inch showing sorted rings inside. Medium-density styling: a small brass tray with a folded watch, a cloth-bound monograph, and a quince branch in a porcelain bud vase. A leaning gilt mirror returns a sliver of the room. One necklace hangs very slightly crooked for lived-in honesty. Palette: honey walnut, greige, champagne brass, cream velvet, quince blush. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Hooks-panel-open + drawer-ajar state unique to the upright cabinet variant (matches its own reference); bedside-cabinet environment (warm, layered)."
+    },
+    {
+      "slug": "walnut-begonia-glass-window-credenza-evening",
+      "mode": "homey",
+      "variantSlot": 3,
+      "variantPosition": 3,
+      "strategy": "single",
+      "anchor": "living-room credenza",
+      "prompt": "A relaxed living-room credenza scene framed three-quarter on a 50mm lens at standing eye-level, soft warm early-evening lamplight from an unseen table lamp at frame-right pooling across a mid-century walnut credenza with slim brass legs. The jewelry box sits left-of-centre, shown EXACTLY as the reference image: solid walnut three-drawer body with the frosted floral begonia-pattern glass window lid on top, brass acorn knobs — with the topmost drawer slid half-open revealing sorted rings and a coiled gold bracelet in velvet, and the soft gold floral pattern of the glass lid catching the lamplight. Medium-density layered styling that echoes the box's brass: a stacked pair of art books, a small brass-rimmed catchall of cufflinks, a ceramic vessel of dried grasses, and a folded camel throw corner. A framed abstract leans on the wall behind. The drawer sits slightly uneven and the books are a touch askew for realism. Palette: walnut, frosted-glass sage, warm brass, ochre book spine, camel. Sharp focus, photorealistic editorial, no people, no hands, no text, no alcohol.",
+      "justification": "Drawer-open state highlighting the begonia glass-window variant's signature lid; evening living-room credenza environment (new)."
+    },
+    {
+      "slug": "walnut-velvet-top-windowsill-morning",
+      "mode": "minimalist",
+      "variantSlot": 5,
+      "variantPosition": 5,
+      "strategy": "single",
+      "anchor": "sunlit windowsill",
+      "prompt": "A quiet sunlit-windowsill still life framed 1:1 on a 35mm lens at low sill eye-level, gentle diffused early-morning light through a sheer linen curtain at frame-left washing a deep wooden windowsill against a warm white wall, the soft suggestion of greenery beyond the glass. The jewelry box sits centred, shown EXACTLY as the reference image: solid walnut four-tier body with the open recessed GRAY-VELVET top tray, four drawers, polished brass acorn knobs — the gray velvet tray holding a strand of pearls coiled loosely, a pair of pearl studs, and a thin gold ring, exactly as the reference styling shows. The top drawer is cracked open an inch revealing sorted earrings. Low prop density, gallery-presented: a single stem of dried bunny-tail grass in a slim brass bud vase and a folded raw-linen square. The velvet nap shows a faint hand-pressed mark and the sill wood shows a natural knot for realism. Palette: walnut, dove-grey velvet, warm brass, pearl, soft sage. Sharp focus, photorealistic minimalist still life, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Gray-velvet-top tray styled + drawer-ajar on the 5th variant; sunlit-windowsill environment (new, sixth distinct setting)."
+    },
+    {
+      "slug": "macro-walnut-drawer-brass-acorn-knob-closeup",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "open walnut drawer interior",
+      "prompt": "A tight macro close-up on a 100mm macro-equivalent lens, shallow depth of field, focused on one pulled-open walnut drawer and its polished brass acorn knob on the jewelry box shown EXACTLY as the reference image: solid walnut drawer front, fine straight wood grain, gold-tone brass acorn pull, soft velvet drawer lining. The frame fills with the open drawer holding a small curated cluster — a fine gold chain coiled neatly, a pair of pearl studs pressed into the nap, and a single signet ring — so the buyer can read the velvet texture, the dovetailed drawer edge, the walnut grain, and the polished brass knob in sharp detail. Soft directional daylight rakes across the wood to reveal the grain and a thin specular highlight on the brass acorn. Background falls to a creamy bokeh of the desk surface. Natural realism: one velvet fibre catches the light slightly raised, a faint micro-scratch on the brass knob. Palette: warm walnut, aged gold brass, pearl, soft cream bokeh. Sharp macro focus on the hardware and wood grain, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Mandatory close-up — walnut grain + brass acorn knob + drawer velvet/contents macro per cornucopia."
+    }
+  ]
+}

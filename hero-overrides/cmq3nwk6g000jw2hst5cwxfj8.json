@@ -1,0 +1,4 @@
+{
+  "_comment": "Dogfood Phase 0b — generated 2026-06-07. The first-pass critic flagged variant #18 (Silver/Stainless Steel Bracelet) for a visible plastic watch holder under the case (category-watches.md rule B / NO_PROP). The HERO_PROMPT_WATCH already says 'no cushion, no pillow, no holder' but Higgsfield occasionally invents a transparent acrylic display stand. Explicit reinforcement below.",
+  "heroPromptExtraNotes": "ABSOLUTELY NO display stand of any kind under or behind the watch — no clear acrylic stand, no plastic watch holder, no perspex prop, no transparent display rod, no metal stand, no wood block, nothing visible supporting the case. The watch must appear to float free on the pale beige cove with only the faintest contact shadow under the bracelet. Any visible stand, prop, holder, or support is a hard failure."
+}

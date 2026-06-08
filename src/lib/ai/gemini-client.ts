@@ -130,16 +130,18 @@ const MATCH_RUBRIC = `You are doing product-image QA. IMAGE 1 is the SOURCE refe
 
 Check 1 — IDENTITY: does the hero faithfully represent the same product identity as the source? Compare finish/colour, overall shape/silhouette, material, number of light apertures/heads/arms/bulbs (for lighting) or sub-dials/hands/markers/case/bracelet (for watches), and distinctive design features. IGNORE differences in background, lighting warmth, camera angle, framing/scale, micro-reflections and minor surface-texture rendering — the hero is deliberately restyled. Flag IDENTITY MISMATCH only for CLEAR errors: wrong finish/material/colour, wrong shape/silhouette, wrong count of features, a hallucinated or substituted different product, a missing or added major component.
 
-Check 2 — COMMERCIAL POLISH (catalog cleanliness): the hero must show the product ALONE and CLEAN. Flag MISMATCH if the hero contains any of the following foreign / supplier artifacts that have NOT been stripped from the source:
+Check 2 — COMMERCIAL POLISH (catalog cleanliness): the hero must show the product ALONE and CLEAN, with no foreign objects in the frame. Flag MISMATCH if the hero contains ANY of the following supplier artifacts — regardless of whether they are attached to the product or sitting beside / under / behind it in the scene:
   - White paper hang-tags tied to the product by a string or thread
+  - ANY rectangular white card, paper card, or pale piece of paper visible anywhere in the frame (whether attached to the product, leaning against it, sitting next to it on the surface, or floating in the background). These are supplier "certificate cards" / "guarantee cards" / "product cards" — the catalog hero must NEVER include them.
   - Supplier certificate labels (e.g. "证书 / Certificate / Guarantee" cards)
   - Chinese-character price stickers ("¥3999", "零售价", "出厂价")
-  - QR codes or barcodes stuck to or hanging from the product
+  - QR codes or barcodes anywhere in the frame
   - Adhesive supplier brand stamps, watermarks, or watermark seals overlaid on the product
   - Loose strings, threads, or ribbons dangling from the product where they shouldn't be
   - Wholesale receipt slips or paper invoices attached to or sitting on the product
   - Tape, plastic wrap, protective film, or shipping labels left on the product
-These artifacts are NORMAL on the 1688 source image; the hero pipeline is SUPPOSED to remove them. If they survived into the hero, the hero is NOT acceptable and the verdict is MISMATCH with reason "unstripped supplier <tag-type>".
+  - A fabric cushion, pillow, watch roll, presentation pad, velvet drape, or open presentation / gift box visible in the frame (watches in particular often arrive on a cushion in a red box — the hero must show the watch alone on a flat backdrop, NOT in / on / beside any presentation prop)
+These artifacts are NORMAL on the 1688 source image; the hero pipeline is SUPPOSED to remove them. If they survived into the hero — attached OR loose — the hero is NOT acceptable and the verdict is MISMATCH with reason "unstripped supplier <artifact-type>".
 
 Reply with ONLY strict minified JSON, no markdown:
 {"verdict":"match|mismatch|uncertain","finish":"...","shape":"...","lights":"...","issues":["..."],"confidence":"high|medium|low","summary":"one sentence"}

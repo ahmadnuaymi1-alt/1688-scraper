@@ -1,0 +1,80 @@
+{
+  "productId": "cmq489vf3000jw2dolzoxx5ks",
+  "productTitle": "Hard Plastic Multi-Layer Velvet and Transparent Drawer Jewelry Box",
+  "authoredBy": "agent-mode (Claude) from memory/lifestyle-cat-jewellery-box.md",
+  "authoredAt": "2026-06-07T20:30:00Z",
+  "classification": "general",
+  "category": "jewellery-box",
+  "scenes": [
+    {
+      "slug": "gray-bedroom-dresser-drawers-open",
+      "mode": "homey",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "bedroom dresser top",
+      "prompt": "A lived-in primary-bedroom dresser top photographed three-quarter on a 50mm lens at standing eye-level, warm mid-morning daylight raking from an unseen window at frame-left across a warm walnut dresser. The jewelry box sits left-of-centre on a softly wrinkled oatmeal-linen runner, shown EXACTLY as the reference image: hard clear acrylic shell, gray velvet drawers, gold ball pulls. The two lower velvet drawers are pulled partway open to reveal a tangle of fine gold chains and a pair of pearl studs nested in the nap; the upper clear hanging panels hold a few dangling earrings. A small footed brass dish of loose rings, a folded grey marl sweater edge, a stoneware vase of dried eucalyptus, and a leaning thin-framed mirror returning a sliver of the room sit nearby at medium density. One drawer is very slightly out of square and a faint dust mote drifts in the light beam for realism. Palette: warm walnut, dove grey, champagne brass, sage, oat linen. Sharp focus, photorealistic editorial styling, no people, no hands, no text, no alcohol.",
+      "justification": "Hero functional state — drawers pulled open showing contents; warmest homey environment."
+    },
+    {
+      "slug": "beige-vanity-closed-gift-morning",
+      "mode": "minimalist",
+      "variantSlot": 4,
+      "variantPosition": 4,
+      "strategy": "single",
+      "anchor": "dressing-table vanity",
+      "prompt": "A serene dressing-table vignette framed 1:1 on a 35mm lens at low vanity-top eye-level, soft early-morning light through a sheer linen curtain at frame-left washing a pale-oak vanity against a warm putty plaster wall. The jewelry box stands centred and fully CLOSED, presented clean and gift-ready, shown EXACTLY as the reference image: clear acrylic shell, beige/cream velvet drawers, gold ball pulls, drawers shut flush. Tight 30% framing keeps the box the hero with restrained styling: a single stem of dried sweet pea in a slim clear bud vase, a folded raw-linen square, and a small ceramic trinket dish with one gold ring beside it. A thin-brass oval mirror leans behind, returning a quiet sliver of the box. Low prop density, gallery-presented, with one faint fingerprint smudge on the acrylic corner for honest realism. Palette: cream, pale oak, warm putty, soft brass, pearl ivory. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/gift state, minimalist tight framing on the beige variant."
+    },
+    {
+      "slug": "gray-solid-wardrobe-shelf-topdown",
+      "mode": "minimalist",
+      "variantSlot": 5,
+      "variantPosition": 5,
+      "strategy": "single",
+      "anchor": "open wardrobe shelf",
+      "prompt": "A crisp top-down flat-lay shot on a 50mm lens looking straight down onto an open wardrobe shelf of pale-ash melamine, cool even daylight from a nearby window. The jewelry box is shown EXACTLY as the reference image: clear acrylic shell, gray velvet drawers, solid (opaque) gray drawer fronts, gold ball pulls — captured from directly above with one solid drawer slid fully out beside the body so the compartment grid and a few neatly sorted pieces (stud earrings paired in rows, a coiled bracelet, two rings) read clearly in the velvet. Around the box at low density: a folded charcoal cashmere scarf, a small saucer of safety pins, and a sprig of dried lavender laid flat. The pulled drawer sits a few millimetres askew and the velvet shows light natural crushing for realism. Palette: pale ash, graphite velvet, brass, dusty lavender. Sharp focus, photorealistic catalog flat-lay, no people, no hands, no text, no alcohol.",
+      "justification": "Top-down flat-lay showing compartment layout; solid-drawer gray variant, drawer pulled."
+    },
+    {
+      "slug": "beige-entry-console-hanging-panel-open",
+      "mode": "homey",
+      "variantSlot": 3,
+      "variantPosition": 3,
+      "strategy": "single",
+      "anchor": "entry console table",
+      "prompt": "A warm entry-hall console vignette captured three-quarter on a 35mm lens at standing eye-level, late-afternoon golden light skimming a slim oak-and-cream demilune console against a greige limewashed wall. The jewelry box sits right-of-centre on the console, shown EXACTLY as the reference image: clear acrylic shell, beige velvet drawers, gold ball pulls — with the side CLEAR hanging-panel section swung open to display a row of fine necklaces and dangle earrings suspended on the slots, catching the light. The lower velvet drawer is cracked open an inch showing watch links inside. Medium-density styling: a small brass tray of house keys, a cloth-bound monograph, a quince branch in a porcelain bud vase, and a woven basket edge below. A leaning gilt mirror returns a sliver of the hall. One necklace hangs very slightly crooked for lived-in honesty. Palette: honey oak, greige, cream velvet, champagne brass, quince blush. Sharp focus, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Hanging-panel-open state on beige clear variant; entry-console environment."
+    },
+    {
+      "slug": "gray-clear-living-sideboard-evening",
+      "mode": "homey",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "living-room sideboard",
+      "prompt": "A relaxed living-room sideboard scene framed three-quarter on a 50mm lens at standing eye-level, soft warm early-evening lamplight from an unseen table lamp at frame-right pooling across a mid-century walnut sideboard with brass legs. The jewelry box sits left-of-centre, shown EXACTLY as the reference image: clear acrylic shell, gray velvet drawers, gold ball pulls — with the topmost tray section lifted slightly ajar and one clear drawer half-open revealing sorted rings and a coiled gold bracelet. Medium-density layered styling that echoes the box's brass: a stacked pair of art books, a small brass-rimmed catchall of cufflinks, a ceramic vessel of dried grasses, and a folded grey throw corner. A framed abstract leans on the wall behind. The velvet nap shows a faint hand-pressed mark and the books sit slightly uneven for realism. Palette: walnut, dove grey, warm brass, ochre book spine, dried-grass tan. Sharp focus, photorealistic editorial, no people, no hands, no text, no alcohol.",
+      "justification": "Tray-lifted + drawer-open state, warmer evening sideboard environment, clear-drawer gray variant."
+    },
+    {
+      "slug": "beige-solid-bedside-table-quiet",
+      "mode": "minimalist",
+      "variantSlot": 6,
+      "variantPosition": 6,
+      "strategy": "single",
+      "anchor": "bedside table",
+      "prompt": "A quiet bedside-table still life framed 1:1 on a 35mm lens at low table-top eye-level, gentle diffused window light from frame-left across a small round cream-painted nightstand with a marble top. The jewelry box sits centred, shown EXACTLY as the reference image: clear acrylic shell, beige velvet drawers, solid (opaque) cream drawer fronts, gold ball pulls — with the upper velvet tray lifted out and resting beside the body to reveal the sectioned compartment grid holding a few stud earrings and a slim watch. Low prop density, gallery-presented: a single stem of dried bunny-tail grass in a bud vase, a folded linen napkin, and one stacked ring. The lifted tray sits at a casual slight angle and the marble shows a faint natural vein for realism. Palette: cream, marble white, soft beige velvet, brass, pale straw. Sharp focus, photorealistic minimalist still life, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Tray-lifted-out state on beige solid variant; minimalist bedside environment, sixth distinct setting."
+    },
+    {
+      "slug": "macro-velvet-tray-hardware-closeup",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "open velvet drawer interior",
+      "prompt": "A tight macro close-up on a 100mm macro-equivalent lens, shallow depth of field, focused on the open velvet interior and brass-tone hardware of the jewelry box shown EXACTLY as the reference image: gray velvet drawer nap, gold ball pull, clear acrylic edge. The frame fills with one pulled velvet drawer holding a small curated cluster — a fine gold chain coiled neatly, a pair of pearl studs pressed into the nap, and a single signet ring — so the buyer can read the velvet texture, the compartment edge, and the polished gold ball knob in sharp detail. Soft directional daylight rakes across the nap to show its plush pile; the clear acrylic edge catches a thin specular highlight. Background falls to a creamy bokeh of the dresser surface. Natural realism: one velvet fibre catches the light slightly raised, a faint micro-scratch on the acrylic edge. Palette: dove-grey velvet, warm gold, pearl, soft cream bokeh. Sharp macro focus on the hardware and contents, photorealistic, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Mandatory close-up — velvet tray contents + brass hardware macro per cornucopia."
+    }
+  ]
+}

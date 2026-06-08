@@ -1,0 +1,5 @@
+import fs from "node:fs"; import path from "node:path"; import { PrismaClient } from "@prisma/client";
+(function(){const e=path.resolve(process.cwd(),'.env.local');if(!fs.existsSync(e))return;for(const l of fs.readFileSync(e,'utf-8').split(/\r?\n/)){const t=l.trim();if(!t||t.startsWith('#'))continue;const m=t.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);if(!m)continue;let v=m[2];if((v.startsWith('"')&&v.endsWith('"'))||(v.startsWith("'")&&v.endsWith("'")))v=v.slice(1,-1);if(!process.env[m[1]])process.env[m[1]]=v;}})();
+const PID="cmq48d1ju000jw2gowuwbmolt";const SUPA=process.env.NEXT_PUBLIC_SUPABASE_URL??process.env.SUPABASE_URL;const BUCKET=process.env.SUPABASE_BUCKET??"product-images";
+(async()=>{const p=new PrismaClient();const imgs=await p.productImage.findMany({where:{productId:PID},orderBy:{position:"asc"},select:{position:true,imageType:true,storagePath:true,sourceUrl:true}});
+for(const i of imgs){let u=i.sourceUrl??"";if(i.storagePath&&SUPA)u=`${SUPA}/storage/v1/object/public/${BUCKET}/${i.storagePath}`;console.log(`${i.position}\t${i.imageType}\t${u}`);}await p.$disconnect();})();

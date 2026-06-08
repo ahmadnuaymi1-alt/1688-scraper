@@ -21,6 +21,7 @@ import os from "node:os";
 import { spawn } from "node:child_process";
 import { PrismaClient } from "@prisma/client";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { acquireSlot } from "./_hf-inflight-gate";
 
 function loadEnvLocal(): void {
   const envPath = path.resolve(process.cwd(), ".env.local");
@@ -226,7 +227,14 @@ async function generateClosesForProduct(
         "--resolution", "1k",
         "--wait",
       ];
-      const r = await runHiggsfield(args);
+      // Global cross-process in-flight cap (no-op unless HIGGSFIELD_MAX_INFLIGHT set).
+      const release = await acquireSlot();
+      let r: { code: number; out: string };
+      try {
+        r = await runHiggsfield(args);
+      } finally {
+        release();
+      }
       if (r.code !== 0) throw new Error(`generate exit ${r.code}: ${r.out.slice(-300)}`);
       const resultUrl = extractResultUrl(r.out);
       if (!resultUrl) throw new Error(`no result URL: ${r.out.slice(-300)}`);

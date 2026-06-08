@@ -1,0 +1,32 @@
+import fs from "node:fs";
+import path from "node:path";
+import { PrismaClient } from "@prisma/client";
+
+function loadEnvLocal(): void {
+  const envPath = path.resolve(process.cwd(), ".env.local");
+  if (!fs.existsSync(envPath)) return;
+  for (const line of fs.readFileSync(envPath, "utf-8").split(/\r?\n/)) {
+    const t = line.trim();
+    if (!t || t.startsWith("#")) continue;
+    const m = t.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
+    if (!m) continue;
+    let v = m[2];
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) v = v.slice(1, -1);
+    if (!process.env[m[1]]) process.env[m[1]] = v;
+  }
+}
+loadEnvLocal();
+
+(async () => {
+  const p = new PrismaClient();
+  const imgs = await p.productImage.findMany({
+    where: { productId: "cmq3ybrqm000jw25g2h0dyzbp" },
+    select: { imageType: true, storagePath: true, createdAt: true, position: true, variantId: true },
+    orderBy: { createdAt: "desc" },
+    take: 20,
+  });
+  for (const i of imgs) {
+    console.log(`type=${i.imageType ?? "null"}  pos=${i.position ?? "-"}  vid=${i.variantId ?? "-"}  path=${i.storagePath?.slice(-60)}  ${i.createdAt.toISOString()}`);
+  }
+  await p.$disconnect();
+})().catch((e) => { console.error(e); process.exit(1); });

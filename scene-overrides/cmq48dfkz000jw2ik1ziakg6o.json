@@ -1,0 +1,80 @@
+{
+  "productId": "cmq48dfkz000jw2ik1ziakg6o",
+  "productTitle": "Hard PU Leather Mirror Compact Jewelry Box Organizer Case",
+  "authoredBy": "agent-mode (Claude) from memory/lifestyle-cat-jewellery-box.md",
+  "authoredAt": "2026-06-07T20:35:00Z",
+  "classification": "general",
+  "category": "jewellery-box",
+  "scenes": [
+    {
+      "slug": "walnut-writing-desk-doors-open-morning",
+      "mode": "homey",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "home-office walnut writing desk",
+      "prompt": "A lived-in home-office corner photographed three-quarter on a 50mm lens at seated eye-level, warm mid-morning daylight raking from an unseen window at frame-left across a warm walnut writing desk. The jewelry box sits left-of-centre on a softly wrinkled oatmeal-linen runner, shown EXACTLY as the reference image: hard structured PU-leather shell, gold lock and gold carry handle, hinged lid open to reveal the small framed mirror inside the lid and the top ring-roll/earring tray, and BOTH side doors swung open showing the necklace hooks with a fine gold chain and one pair of dangle earrings hooked on them. Medium-density styling that echoes the gold hardware: a cloth-bound monograph, a brass desk clock, a stoneware cup of pens, a single dried protea in a slim vase, and a leaning thin-brass mirror returning a sliver of the room. One side door hangs a hair crooked and a faint dust mote drifts in the light beam for honest realism. Palette: warm walnut, champagne gold, oat linen, sage, cream velvet. Sharp focus, photorealistic editorial styling, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Hero functional state — lid-mirror + both necklace-hook doors open; distinct walnut writing-desk environment (not shared with other batch box)."
+    },
+    {
+      "slug": "champagne-travel-suitcase-packing-closed",
+      "mode": "homey",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "open travel suitcase on a hotel bench",
+      "prompt": "A travel-packing vignette captured three-quarter on a 35mm lens at standing eye-level, soft late-afternoon light through a sheer hotel curtain at frame-right washing a luggage bench. An open hardside suitcase of warm camel canvas lies on the bench, neatly packed with folded linen garments. The jewelry box rests nested among the clothes, fully CLOSED and ready to travel, shown EXACTLY as the reference image: structured champagne PU-leather shell with subtle pearlescent sheen, gold front lock latched, gold carry handle standing upright as if just set down. Medium-density supporting cast that reads 'packing': a folded silk scarf, a small leather passport sleeve, a rolled belt, and a sprig of dried lavender tucked beside it. A slim brass luggage tag rests on the case. One garment fold sits slightly loose and the suitcase lining shows a faint travel crease for realism. Palette: camel, champagne, soft gold, ivory linen, dusty lavender. Sharp focus, photorealistic editorial, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/travel state leaning on the carry handle + portability angle; suitcase environment unique to this box."
+    },
+    {
+      "slug": "champagne-marble-bathroom-vanity-topdown",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "marble bathroom vanity counter",
+      "prompt": "A crisp near-top-down shot on a 50mm lens looking down at a steep angle onto a honed white-marble bathroom vanity counter, cool even daylight from a frosted window. The jewelry box is shown EXACTLY as the reference image: structured champagne PU-leather shell, gold lock, gold handle — lid open to reveal the lid mirror and the top tray, with the upper ring-roll/earring tray fully visible holding a few neatly sorted studs and two stacked rings; one pull-out drawer is slid a couple of centimetres open below to hint at the lower compartment. Tight 30% framing keeps the box the hero with low prop density: a single stem of dried bunny-tail grass in a slim bud vase, a folded cream hand towel, and a small ceramic dish with one gold band. The pulled drawer sits a few millimetres askew and the marble shows a faint natural grey vein for realism. Palette: marble white, champagne, warm gold, pale straw, cream. Sharp focus, photorealistic minimalist catalog framing, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Top-down flat-lay showing tray/compartment layout + lid mirror; minimalist marble-bathroom environment, distinct from any dresser/vanity-table scene."
+    },
+    {
+      "slug": "black-boutique-display-plinth-evening",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "boutique retail display plinth",
+      "prompt": "An upscale boutique display vignette framed three-quarter on a 50mm lens at low plinth-top eye-level, soft warm gallery spotlighting pooling from above-frame-right against a warm putty-plaster backdrop. The jewelry box stands centred on a pale travertine display plinth, presented clean and gift-ready, shown EXACTLY as the reference image: structured black PU-leather shell with subtle tonal grain, gold front lock, gold carry handle upright. The lid is open just enough to reveal the inner lid mirror catching a soft highlight, while the body stays closed and pristine. Low prop density, gallery-presented: a single folded raw-silk ribbon draped at the base, one slim brass stanchion of a price card (blank, no text), and a dried magnolia leaf laid flat. A thin-brass oval mirror leans behind, returning a quiet sliver of the box. One faint fingerprint smudge near the gold lock for honest realism. Palette: black, warm putty, travertine cream, champagne gold, raw silk ivory. Sharp focus, photorealistic, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Retail-display state referenced in the product description; minimalist boutique-plinth environment, lid-mirror visible, black variant."
+    },
+    {
+      "slug": "champagne-bedroom-bench-drawer-open-evening",
+      "mode": "homey",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "upholstered bench at the foot of a bed",
+      "prompt": "A relaxed bedroom scene framed three-quarter on a 50mm lens at standing eye-level, soft warm early-evening lamplight from an unseen bedside lamp at frame-left pooling across a linen-upholstered oat bench at the foot of a neatly made bed. The jewelry box sits right-of-centre on the bench atop a folded grey-marl throw, shown EXACTLY as the reference image: structured champagne PU-leather shell, gold lock, gold handle — with the lower pull-out drawer slid fully open to reveal a coiled gold bangle and a slim watch resting in the felt compartments, and the lid cracked open showing the top tray and a sliver of the inner mirror. Medium-density layered styling that echoes the gold: a stacked pair of art books, a small brass-rimmed catchall of stud earrings, a ceramic vase of dried grasses, and a leaning framed botanical print behind. The throw shows a faint hand-pressed crease and the books sit slightly uneven for realism. Palette: oat linen, champagne, dove grey, warm brass, dried-grass tan. Sharp focus, photorealistic editorial, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Pull-out-drawer-open + lid-cracked state; bench-at-foot-of-bed environment, distinct from dresser/bedside/sideboard mixes."
+    },
+    {
+      "slug": "black-sunlit-windowsill-closed-gift",
+      "mode": "minimalist",
+      "variantSlot": 1,
+      "variantPosition": 1,
+      "strategy": "single",
+      "anchor": "sunlit windowsill ledge",
+      "prompt": "A serene morning still life framed 1:1 on a 35mm lens at low ledge eye-level, soft early light through a sheer linen curtain at frame-left casting gentle window-bar shadows across a wide pale-oak windowsill against a warm cream wall. The jewelry box sits centred and fully CLOSED, presented clean and gift-ready, shown EXACTLY as the reference image: structured black PU-leather shell, gold front lock latched, gold carry handle standing upright. Tight 30% framing keeps the box the hero with restrained styling: a slim clear bud vase of fresh eucalyptus sprigs, a folded raw-linen square tied with twine, and a small ceramic trinket dish with one gold ring beside it. Dappled leaf-shadow falls across the sill and one eucalyptus stem leans a touch out of place for honest realism. Palette: black, pale oak, cream, soft brass, sage eucalyptus. Sharp focus, photorealistic minimalist still life, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Closed/gift state, minimalist sunlit-windowsill environment, sixth distinct setting; black variant for color balance across the set."
+    },
+    {
+      "slug": "macro-lid-mirror-tray-hardware-closeup",
+      "mode": "minimalist",
+      "variantSlot": 2,
+      "variantPosition": 2,
+      "strategy": "single",
+      "anchor": "open lid mirror + top tray interior",
+      "prompt": "A tight macro close-up on a 100mm macro-equivalent lens, shallow depth of field, focused on the open interior, inner lid mirror, and gold-tone hardware of the jewelry box shown EXACTLY as the reference image: champagne PU-leather shell edge, cream velvet ring-roll and earring grid, the small framed mirror set into the lid, and the polished gold front lock. The frame fills with the open top tray holding a small curated cluster — a fine gold chain coiled neatly, a pair of pearl studs seated in the velvet grid, and a single signet ring on the ring roll — so the buyer can read the velvet nap, the compartment edges, the mirror frame, and the gold lock mechanism in sharp detail. Soft directional daylight rakes across the velvet to show its plush pile; the gold lock and the mirror each catch a thin specular highlight. Background falls to a creamy bokeh. Natural realism: one velvet fibre catches the light slightly raised, a faint micro-scratch on the gold lock. Palette: cream velvet, champagne, warm gold, pearl, soft bokeh. Sharp macro focus on the mirror, tray contents, and hardware, photorealistic, single unit, no people, no hands, no text, no watermark, no alcohol.",
+      "justification": "Mandatory macro close-up — built-in lid mirror + velvet tray contents + gold lock hardware per cornucopia (mirror is this box's signature feature)."
+    }
+  ]
+}

@@ -19,6 +19,7 @@ import path from "node:path";
 import os from "node:os";
 import { spawn } from "node:child_process";
 import { Buffer } from "node:buffer";
+import { acquireSlot } from "./_hf-inflight-gate";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Low-level CLI invocation
@@ -176,7 +177,15 @@ export async function higgsfieldGenerate(
     "--resolution", opts.resolution ?? "1k",
     "--wait",
   ];
-  const r = await runHiggsfieldCli(args);
+  // Global cross-process in-flight cap (no-op unless HIGGSFIELD_MAX_INFLIGHT set).
+  // Held only around the generation spawn; the download below doesn't hold a slot.
+  const release = await acquireSlot();
+  let r: { code: number; out: string };
+  try {
+    r = await runHiggsfieldCli(args);
+  } finally {
+    release();
+  }
   if (r.code !== 0) {
     throw new Error(`generate exit ${r.code}: ${r.out.slice(-300)}`);
   }
